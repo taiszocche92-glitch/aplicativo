@@ -1,0 +1,604 @@
+{
+  "idEstacao": "REVALIDA_MED_2025_CM_SII_01",
+  "tituloEstacao": "Síndrome do Intestino Irritável",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Síndrome Intestino Irritável",
+    "SII",
+    "Dor Abdominal Crônica",
+    "Alteração Hábito Intestinal",
+    "FODMAPs",
+    "Clínica Médica",
+    "Atenção Secundária"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios médicos equipados",
+        "Laboratório de análises clínicas para exames básicos",
+        "Acesso a exames de imagem (se necessários)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 35 anos, sexo feminino, comparece à consulta ambulatorial referindo dor na barriga e intestino desregulado há meses. Nega febre ou perda de peso recente.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese completa, focando na queixa principal e em sintomas associados.",
+      "Solicitar os exames físicos pertinentes ao caso clínico.",
+      "Solicitar exames complementares para auxiliar na elucidação diagnóstica.",
+      "Interpretar os resultados dos exames complementares fornecidos.",
+      "Formular a hipótese diagnóstica principal e os diagnósticos diferenciais mais relevantes.",
+      "Elaborar a conduta terapêutica inicial e as orientações necessárias à paciente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com dor na barriga e meu intestino está muito desregulado."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR ABDOMINAL",
+        "informacao": "Início: Começou há uns 8 meses, doutor(a).\nLocalização: Mais na parte de baixo da barriga, mas às vezes espalha.\nIntensidade: Varia bastante, de 4 a 8, tipo cólica, mas já chegou a 9 de 10.\nCaracterística ou Tipo da dor: É uma cólica forte, aperto, às vezes parece que queima.\nIrradiação: Não irradia para outros lugares, fica só na barriga mesmo.\nDuração: Quando vem a crise, dura umas 2 a 3 horas, e pode vir várias vezes ao dia.\nProgressão: Tem piorado ultimamente, as crises estão mais frequentes.\nFrequência: Quase todos os dias sinto alguma coisa, mas as crises mais fortes são umas 3-4 vezes por semana.\nFator de piora ou agravante: Piora muito quando estou estressada, e depois de comer algumas coisas, tipo feijão, brócolis, refrigerante. Também piora antes da menstruação.\nFator de melhora ou atenuante: Geralmente melhora um pouco depois que vou ao banheiro e faço cocô.\nEpisódios prévios: Sim, há uns 5 anos tive uma gastroenterite muito forte, e depois disso meu intestino nunca mais foi o mesmo.\nMedicação de alivio: Tomo Buscopan Duo, ajuda um pouco, mas não resolve totalmente."
+      },
+      {
+        "contextoOuPerguntaChave": "ALTERAÇÕES DO HÁBITO INTESTINAL",
+        "informacao": "Início: Desde que a dor começou, meu intestino não é mais o mesmo.\nTipo: É uma loucura, doutor(a). Uns dias eu tenho diarreia, tipo umas 4-5 vezes ao dia, fezes moles, quase líquidas. Nesses dias sinto muita urgência. Em outros dias, fico super presa, faço cocô duríssimo, às vezes só a cada 3 dias, e faço muito esforço. É misto.\nFrequência: Nos dias de diarreia, 4-5 vezes. Nos dias de constipação, 1 vez a cada 2-3 dias.\nConsistência (Escala de Bristol): Na diarreia, tipo 6 ou 7. Na constipação, tipo 1 ou 2.\nUrgência: Sim, muita urgência nos dias de diarreia. Tenho que correr para o banheiro.\nTenesmo: Às vezes sinto que não esvaziei tudo, mesmo depois de ir ao banheiro, principalmente nos dias de constipação.\nPiora ou agravante: Diarreia piora com o estresse e certos alimentos. Constipação parece mais aleatória.\nMedicação de alivio: Às vezes tomo Imosec para a diarreia, mas fico com medo de me prender demais. Laxante eu evito porque irrita mais."
+      },
+      {
+        "contextoOuPerguntaChave": "DISTENSÃO ABDOMINAL E GASES",
+        "informacao": "Início: Sempre que a barriga dói, sinto ela inchada e muitos gases.\nFrequência: Quase todos os dias, principalmente à noite.\nFator de piora ou agravante: Comida pesada, feijão, brócolis, refrigerante.\nFator de melhora ou atenuante: Não tem muita coisa que melhore, só esperando passar."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Saciedade precoce: Às vezes como um pouquinho e já me sinto cheia.\nNáuseas: Raramente, mas acontece.\nPirose: Nega.\nFadiga: Sinto um cansaço constante, meio sem energia.\nCefaleia: Tenho dor de cabeça ocasionalmente, mas não parece ligada ao intestino.\nPerda de peso não intencional: Nega.\nFebre: Nega.\nSangramento retal: Nega.\nDor noturna: A dor me acorda à noite às vezes, mas é raro."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Tenho ansiedade diagnosticada há 2 anos, tomo sertralina 50mg/dia.\nCirurgias prévias: Nega.\nInternações: Aquela vez da gastroenterite, mas faz muito tempo.\nAlergias: Nega.\nMedicamentos em uso contínuo: Sertralina 50mg/dia para ansiedade.\nVacinação: Vacinação em dia, inclusive da gripe e COVID.\nTrauma: Nega.\nTransfusões: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nunca fumei.\nEtilismo: Bebo socialmente, 1-2 taças de vinho no fim de semana.\nDrogas ilícitas: Nega uso.\nAlimentação: Tento comer saudável, mas percebi que alguns alimentos me fazem mal (menciona feijão, brócolis, refrigerante).\nAtividade física: Caminho 3 vezes por semana, 30 minutos.\nSono: Durmo cerca de 6-7 horas, mas o estresse às vezes atrapalha.\nHábitos urinários: Urina normal, sem dor ou alteração.\nHábitos intestinais: Já descrito na HDA.\nIngestão hídrica: Bebo uns 2 litros de água por dia.\nExposição ocupacional: Trabalho em escritório, sem exposição a riscos.\nEstresse: Sim, muito estresse no trabalho e em casa, sinto que piora tudo."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Saudável, tem pressão alta controlada.\nMãe: Tem problema de intestino parecido com o meu, mas nunca foi diagnosticada direito. Minha avó materna também tinha.\nDoenças (especificas com relação e relevante ao caso) na família: Minha prima tem Doença de Crohn.\nHistoria de cancêr na família: Meu avô paterno teve câncer de intestino quando era mais velho (acima de 70 anos).\nIrmãos ou tias: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS",
+        "informacao": "Gestações: Duas gestações.\nPartos: Dois partos vaginais.\nAbortos: Nenhum.\nCesáreas: Nenhuma.\nData da Última Menstruação (DUM): Há 10 dias.\nMenarca: Aos 12 anos.\nCiclos menstruais: Regulares, a cada 28 dias, fluxo normal, mas sinto mais cólica abdominal antes e durante a menstruação.\nSexarca: Aos 18 anos.\nTelarca: Aos 10 anos.\nPubarca: Aos 11 anos.\nAtividade sexual: Sim, ativa.\nParceiros: Parceiro fixo.\nUso de contraceptivos: DIU de cobre.\nUso de preservativos: Não usa, pois tem parceiro fixo e DIU.\nExames preventivos: Papanicolau em dia, último há 6 meses, normal.\nHistórico de IST: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega.\nExposição a doenças infecciosas: Nega.\nContato com doentes: Nega.\nExposição a animais: Nega.\nExposição a vetores: Nega.\nÁgua consumida: Tratada e filtrada.\nExposição a agentes ambientais: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL",
+        "informacao": "Situação familiar: Moro com meu marido e dois filhos.\nRede de apoio: Tenho apoio da família.\nSituação socioeconômica: Trabalho em banco, boa condição financeira.\nNível educacional: Ensino superior completo (Administração).\nReligião: Não consta no script.\nEstresse psicossocial: Muito estresse no trabalho e em casa."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar o resultado de exames, libere os impressos 'est1_impresso_SINAISVITAIS_1' e 'est1_impresso_LABORATORIO_2'. Após o candidato solicitar qualquer exame de imagem (TC, USG, Colonoscopia), responda: 'Não há alterações significativas esperadas para o seu caso neste momento. Consideramos o exame de imagem solicitado/realizado, mas os resultados não demonstram alterações que justifiquem os sintomas'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)?\npergunta (2): É grave? Pode virar câncer?\npergunta (3): O que eu preciso fazer para melhorar? Tem algum remédio bom?\npergunta (4): O que eu faço para que isso não aconteça novamente?\npergunta (5): Isso tem cura?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "120 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "78 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 %"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Bom estado geral, lúcida, orientada, eupnéica, anictérica, acianótica, hidratada, normocorada."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Sem alterações, tireoide impalpável, linfonodos não palpáveis."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, um pouco distendido, doloroso à palpação superficial e profunda difusa, sem sinais de irritação peritoneal. Ruídos hidroaéreos presentes, normoativos. Sem massas palpáveis. Fígado e baço não palpáveis."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edemas, pulsos presentes e simétricos. Sem sinais de TVP."
+                },
+                {
+                  "chave": "Exame Retal",
+                  "valor": "Tônus esfincteriano normal, ampola vazia, sem massas ou sangue no dedo de luva."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "13.0 g/dL (Ref: 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "39% (Ref: 36-46%)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "250.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.8 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "95 mg/dL (Ref: 70-99)"
+                },
+                {
+                  "chave": "Tireoide (TSH)",
+                  "valor": "2.5 uUI/mL (Ref: 0.4-4.0)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MARCADORES INFLAMATÓRIOS E ESPECÍFICOS",
+              "itens": [
+                {
+                  "chave": "Proteína C Reativa (PCR)",
+                  "valor": "0.3 mg/dL (Ref: <0.5)"
+                },
+                {
+                  "chave": "Velocidade de Hemossedimentação (VHS)",
+                  "valor": "8 mm/h (Ref: <20)"
+                },
+                {
+                  "chave": "Calprotectina Fecal",
+                  "valor": "30 µg/g (Ref: <50)"
+                },
+                {
+                  "chave": "Sorologia Doença Celíaca (Anti-Transglutaminase IgA)",
+                  "valor": "<10 U/mL (Ref: <15)"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_SII_2025V1",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina, 35 anos, com quadro crônico de dor abdominal recorrente, distensão e alteração do hábito intestinal tipo misto (diarreia e constipação). Há história prévia de gastroenterite e comorbidade de ansiedade. Exame físico e exames laboratoriais (hemograma, PCR, VHS, TSH, sorologia celíaca, calprotectina fecal) dentro da normalidade. Ausência de sinais de alarme.",
+      "focoPrincipalDetalhado": [
+        "Realizar anamnese detalhada para caracterização da dor, hábitos intestinais e exclusão de sinais de alarme.",
+        "Avaliar a relevância de fatores psicossociais e antecedentes familiares.",
+        "Solicitar exames complementares para exclusão de doenças orgânicas.",
+        "Diagnosticar Síndrome do Intestino Irritável (SII) subtipo misto (SII-M) pelos Critérios de Roma IV.",
+        "Propor plano terapêutico abrangente, incluindo medidas não farmacológicas e farmacológicas, além de orientações e seguimento."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se e (2) cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Dor Abdominal: Investiga de forma completa os seguintes aspectos da dor:\n(1) início;\n(2) localização;\n(3) intensidade (com escala);\n(4) característica (cólica, aperto, queimação);\n(5) irradiação;\n(6) duração;\n(7) progressão;\n(8) frequência;\n(9) fatores de piora ou agravantes (estresse, alimentos, ciclo menstrual);\n(10) fatores de melhora ou atenuantes (após evacuação);\n(11) episódios prévios (gastroenterite);\n(12) medicação de alívio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 9 ou mais de 12 aspectos da dor.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 6 a 8 de 12 aspectos da dor.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Pergunta 5 ou menos de 12 aspectos da dor ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracterização das Alterações do Hábito Intestinal: Investiga de forma completa os seguintes aspectos:\n(1) tipo (diarreia, constipação, misto);\n(2) frequência;\n(3) consistência (Escala de Bristol);\n(4) urgência;\n(5) tenesmo;\n(6) fatores de piora ou agravantes (estresse, alimentos);\n(7) uso de medicação de alívio;\n(8) episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou mais de 8 aspectos das alterações intestinais.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 5 de 8 aspectos das alterações intestinais.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos de 8 aspectos das alterações intestinais ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Caracterização da Distensão Abdominal e Gases: Investiga os seguintes aspectos:\n(1) início;\n(2) frequência;\n(3) fatores de piora ou agravantes;\n(4) fatores de melhora ou atenuantes.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou mais de 4 aspectos da distensão abdominal e gases.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 de 4 aspectos da distensão abdominal e gases.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos de 4 aspectos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Investiga Sintomas Associados e Sinais de Alarme: \n(1) saciedade precoce;\n(2) náuseas;\n(3) pirose;\n(4) fadiga;\n(5) cefaleia;\n(6) perda de peso não intencional;\n(7) febre;\n(8) sangramento retal;\n(9) dor que acorda à noite.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 7 ou mais de 9 sintomas associados e sinais de alarme.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 6 de 9 sintomas associados e sinais de alarme.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos de 9 sintomas associados e sinais de alarme ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Antecedentes Pessoais Patológicos: Questiona sobre:\n(1) doenças crônicas (especialmente ansiedade/depressão);\n(2) gastroenterite prévia;\n(3) outras cirurgias ou internações;\n(4) alergias;\n(5) medicamentos em uso contínuo (incluindo psicotrópicos, antibióticos, laxativos).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou mais de 5 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 a 3 de 5 itens.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos de 5 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Anamnese - Hábitos de Vida: Questiona sobre:\n(1) dieta (especialmente gatilhos, FODMAPs);\n(2) nível de estresse;\n(3) padrão de sono;\n(4) atividade física;\n(5) tabagismo;\n(6) etilismo;\n(7) uso de drogas ilícitas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou mais de 7 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 4 de 7 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos de 7 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Anamnese - Antecedentes Familiares: Investiga história familiar de:\n(1) Síndrome do Intestino Irritável;\n(2) Doença Inflamatória Intestinal;\n(3) Doença Celíaca;\n(4) Câncer colorretal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou mais de 4 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 de 4 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos de 4 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Anamnese - Antecedentes Ginecológicos e Obstétricos: Questiona sobre:\n(1) DUM e regularidade do ciclo;\n(2) dismenorreia e sua relação com os sintomas gastrointestinais;\n(3) uso de contraceptivos;\n(4) histórico de gestações e partos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou mais de 4 itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 de 4 itens.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos de 4 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Exame Físico: Solicita e interpreta o exame físico geral e abdominal:\n(1) sinais vitais (PA, FC, FR, T, SatO2);\n(2) estado geral, coloração da pele;\n(3) inspeção abdominal (distensão, cicatrizes);\n(4) ausculta intestinal (ruídos hidroaéreos);\n(5) palpação abdominal (dor, massas, sinais de irritação peritoneal);\n(6) exame retal (tônus, massas, sangue no dedo de luva).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 5 ou mais de 6 itens do exame físico.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 3 a 4 de 6 itens do exame físico.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta 2 ou menos de 6 itens do exame físico ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Exames Complementares - Solicitação: Solicita exames laboratoriais para exclusão de outras patologias:\n(1) hemograma completo;\n(2) VHS e/ou Proteína C Reativa (PCR);\n(3) função tireoidiana (TSH);\n(4) sorologia para doença celíaca (anti-transglutaminase IgA);\n(5) calprotectina fecal;\n(6) parasitológico de fezes (se pertinente à história epidemiológica).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 5 ou mais de 6 exames complementares.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 3 a 4 de 6 exames complementares.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Solicita 2 ou menos de 6 exames complementares ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Exames Complementares - Interpretação e Sinais de Alarme: Interpreta corretamente os resultados dos exames laboratoriais fornecidos e conclui sobre a ausência de sinais de alarme:\n(1) verbaliza que os exames (hemograma, PCR, VHS, TSH, sorologia celíaca, calprotectina) estão normais;\n(2) conclui que não há evidências de processo inflamatório, infeccioso, anemia, distúrbio tireoidiano ou doença celíaca;\n(3) verbaliza a desnecessidade de exames de imagem invasivos (ex: colonoscopia) na ausência de sinais de alarme.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente os exames e conclui sobre a ausência de sinais de alarme em todos os 3 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente os exames e conclui sobre a ausência de sinais de alarme em 2 dos 3 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Interpreta incorretamente os exames ou não conclui sobre os sinais de alarme ou solicita exames invasivos desnecessariamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Diagnóstico Principal: Estabelece o diagnóstico correto e completo:\n(1) Síndrome do Intestino Irritável;\n(2) Subtipo Misto (SII-M);\n(3) Baseado nos Critérios de Roma IV.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico principal completo com todos os 3 aspectos.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico principal com 2 dos 3 aspectos.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico correto ou verbaliza com apenas 1 aspecto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Diagnósticos Diferenciais: Cita diagnósticos diferenciais relevantes para o caso:\n(1) Doença Inflamatória Intestinal (DII);\n(2) Doença Celíaca;\n(3) Intolerância alimentar (lactose, frutose, glúten não celíaco);\n(4) Supercrescimento Bacteriano do Intestino Delgado (SCBID);\n(5) Colite Microscópica.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 4 ou mais de 5 diagnósticos diferenciais corretos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 2 a 3 de 5 diagnósticos diferenciais corretos.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Cita 1 ou menos de 5 diagnósticos diferenciais corretos ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Conduta Terapêutica Não Farmacológica: Propõe medidas não farmacológicas adequadas:\n(1) educação e reasseguramento;\n(2) modificações dietéticas (evitar gatilhos, dieta baixa em FODMAPs);\n(3) manejo do estresse (TCC, relaxamento, exercícios);\n(4) uso de probióticos (se pertinente).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe 3 ou mais de 4 medidas não farmacológicas corretas.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 2 de 4 medidas não farmacológicas corretas.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Propõe 1 ou menos de 4 medidas não farmacológicas ou propõe incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Conduta Terapêutica Farmacológica: Propõe tratamento farmacológico inicial conforme o subtipo (SII-M) e sintomas:\n(1) antiespasmódicos (ex: mebeverina, hioscina);\n(2) laxativos osmóticos (ex: PEG) para constipação;\n(3) loperamida para diarreia;\n(4) antidepressivos tricíclicos em baixas doses (ex: amitriptilina) para dor e comorbidade ansiosa.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe 3 ou mais de 4 medidas farmacológicas corretas e adaptadas.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 2 de 4 medidas farmacológicas corretas e adaptadas.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Propõe 1 ou menos de 4 medidas farmacológicas ou propõe incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Orientações e Seguimento: Fornece orientações claras sobre:\n(1) cronicidade e benignidade da SII;\n(2) incentivo ao diário de sintomas e alimentos;\n(3) adesão ao tratamento e mudanças de estilo de vida;\n(4) agendamento de retorno para monitoramento;\n(5) necessidade de encaminhamento (nutricionista, psicólogo, gastroenterologista).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Fornece 4 ou mais de 5 orientações e seguimento adequados.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Fornece 2 a 3 de 5 orientações e seguimento adequados.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Fornece 1 ou menos de 5 orientações e seguimento ou fornece incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item18",
+        "itemNumeroOficial": "18",
+        "descricaoItem": "Responde às dúvidas do paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde às perguntas/dúvidas de forma satisfatória.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não responde às perguntas/dúvidas.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Síndrome do Intestino Irritável (SII) é um distúrbio funcional gastrointestinal crônico, caracterizado por dor abdominal recorrente associada a alterações nos hábitos intestinais, sem causa orgânica identificável. O diagnóstico é clínico, baseado nos Critérios de Roma IV, que incluem dor abdominal pelo menos 1 dia por semana nos últimos 3 meses, associada a alterações na frequência ou forma das fezes, com início dos sintomas há pelo menos 6 meses. Os subtipos são classificados como SII com constipação (SII-C), com diarreia (SII-D) ou misto (SII-M), com base na Escala de Bristol.\nNa anamnese, é fundamental detalhar as características da dor (tipo cólica, melhora com evacuação), o padrão das alterações intestinais e a presença de distensão abdominal. Fatores desencadeantes como estresse, certos alimentos (FODMAPs) e ciclo menstrual são relevantes. Deve-se investigar antecedentes de gastroenterite prévia (SII pós-infecciosa) e comorbidades psicológicas como ansiedade e depressão, que são frequentes. Antecedentes familiares de SII, DII ou câncer colorretal são importantes para guiar a investigação.\nO exame físico é tipicamente normal, podendo haver apenas dor à palpação abdominal sem sinais de irritação peritoneal. A presença de sinais de alarme (idade > 50 anos, perda de peso não intencional, sangramento retal, anemia, febre, dor noturna, história familiar de DII/câncer, massa abdominal) indica a necessidade de investigação aprofundada para excluir doenças orgânicas.\nExames complementares são primariamente para exclusão: hemograma (para anemia), PCR/VHS (para inflamação), TSH (distúrbios de motilidade), sorologia para doença celíaca, e calprotectina fecal (para DII). Resultados normais em um paciente sem sinais de alarme apoiam o diagnóstico de SII.\nO tratamento é individualizado e multifacetado, com medidas não farmacológicas (educação, dieta baixa em FODMAPs, manejo do estresse com TCC, exercícios, probióticos) e farmacológicas. Para dor/espasmos, antiespasmódicos ou ADTs em baixas doses. Para SII-C, laxativos osmóticos, lubiprostona ou linaclotida. Para SII-D, loperamida, rifaximina ou eluxadolina. O manejo psicossocial é crucial, com encaminhamento para nutricionista e psicólogo/psiquiatra conforme a necessidade. O seguimento é crônico, com monitoramento dos sintomas e ajuste da terapia, sempre reforçando a natureza benigna da condição.",
+      "fontes": [
+        "1. Lacy BE, et al. Bowel Disorders. Gastroenterology. 2016;150(6):1393-1407. (Critérios de Roma IV).",
+        "2. Brasil. Ministério da Saúde. Protocolos de Manejo Clínico da Gastroenterologia. 2019.",
+        "3. UpToDate. Clinical manifestations and diagnosis of irritable bowel syndrome in adults. Revisão de 2024."
+      ]
+    }
+  }
+}

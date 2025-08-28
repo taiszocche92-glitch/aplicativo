@@ -1,0 +1,686 @@
+{
+  "idEstacao": "REVALIDA_2025_CM_FARMACODERMIA_GRAVE",
+  "tituloEstacao": "Farmacodermia: Diagnóstico e Manejo de Quadro Grave em Clínica Médica",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Farmacodermia",
+    "Síndrome de Stevens-Johnson",
+    "Necrólise Epidérmica Tóxica",
+    "DRESS",
+    "Reação Adversa a Medicamentos",
+    "Clínica Médica",
+    "Atenção terciária à saúde"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Hospitalar",
+      "infraestruturaUnidade": [
+        "Enfermaria de Clínica Médica",
+        "Laboratório de análises clínicas",
+        "Serviço de exames de imagem",
+        "Unidade de terapia intensiva",
+        "Centro de queimados"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente Sra. Maria da Silva, 55 anos, foi internada em enfermaria de Clínica Médica referindo manchas vermelhas generalizadas no corpo, coceira e febre.",
+    "tarefasPrincipais": [
+      "Realizar anamnese completa e direcionada, com foco no histórico medicamentoso recente e cronologia dos sintomas.",
+      "Solicitar e interpretar o exame físico para avaliar a extensão e gravidade das lesões cutâneas e o acometimento sistêmico.",
+      "Solicitar e interpretar exames complementares pertinentes para auxiliar no diagnóstico diferencial, avaliação de gravidade e identificação de complicações sistêmicas.",
+      "Estabelecer o diagnóstico principal (tipo de Farmacodermia e fármaco suspeito) e listar diagnósticos diferenciais relevantes.",
+      "Verbalizar o diagnóstico e a classificação de gravidade à paciente simulada, acolhendo suas preocupações.",
+      "Elaborar um plano de conduta terapêutica completo e inicial, incluindo medidas gerais de suporte, tratamento específico para Farmacodermia grave e manejo de complicações.",
+      "Discutir o prognóstico e as orientações de seguimento, incluindo a identificação clara do fármaco a ser evitado e a necessidade de notificação."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com manchas vermelhas no corpo todo, coceira e febre."
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE",
+        "informacao": "Início: há 3 dias\nDuração: Contínua\nPadrão: Vespertino, com picos de 39°C\nCalafrios: Presentes\nSudorese: Nega\nResposta a antitérmicos: Não cede completamente com paracetamol\nHistórico de Viagens Recentes: Nega\nContato com doentes ou animais: Nega\nUso de medicamentos recentes: Sim, iniciei Alopurinol há 15 dias"
+      },
+      {
+        "contextoOuPerguntaChave": "LESÕES CUTÂNEAS",
+        "informacao": "Início: há 2 dias, após a febre\nLocalização: Começou no tronco, espalhou-se rapidamente para braços, pernas e face, agora generalizadas\nQuantidade: Inúmeras lesões\nEvolução: Pequenas manchas vermelhas, que evoluíram para bolhas e áreas de descolamento\nTipo de Lesão: Máculas eritematosas, pápulas, bolhas flácidas, descolamento epidérmico\nSintomas associados: Prurido intenso"
+      },
+      {
+        "contextoOuPerguntaChave": "PRURIDO",
+        "informacao": "Início: Concomitante com as lesões cutâneas\nLocalização: Generalizado, onde há lesões\nIntensidade: Forte, nota 8 de 10\nPiora: À noite\nMelhora: Não melhora com banho ou cremes\nLesões associadas: Marcas de unhas"
+      },
+      {
+        "contextoOuPerguntaChave": "MAL-ESTAR GERAL",
+        "informacao": "Intensidade: Intenso\nFadiga: Sinto-me muito cansada"
+      },
+      {
+        "contextoOuPerguntaChave": "ARTICULAÇÕES",
+        "informacao": "Dor: Em joelhos e cotovelos\nIntensidade: Leve\nInchaço: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "MÚSCULOS",
+        "informacao": "Dor: Discreta mialgia"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS DE MUCOSA ORAL",
+        "informacao": "Dor ao engolir: Sim, leve\nLesões: Sinto a boca seca e com umas feridinhas"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS OCULARES",
+        "informacao": "Dor ocular: Nega\nVisão turva: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS RESPIRATÓRIOS",
+        "informacao": "Dispneia: Nega\nTosse: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA MEDICAMENTOSA ATUAL",
+        "informacao": "Alopurinol: 100mg/dia, iniciado há 15 dias, para hiperuricemia\nHidroclorotiazida: 25mg/dia, uso crônico há 2 anos, para hipertensão\nParacetamol: 500mg, uso sob demanda para cefaleia ocasional\nMedicamentos OTC/Fitoterápicos: Nega uso\nReações prévias a medicamentos: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Hipertensão arterial (há 5 anos), Hiperuricemia (diagnóstico há 1 mês)\nCirurgias prévias: Nega\nInternações: Nega\nAlergias: Nega\nMedicamentos em uso contínuo: Hidroclorotiazida, Alopurinol (há 15 dias)\nVacinação: Em dia\nTrauma: Nega\nTransfusões: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega\nEtilismo: Nega\nDrogas ilícitas: Nega\nAlimentação: Equilibrada\nAtividade física: Sedentária\nSono: Prejudicado pela coceira e mal-estar"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Hipertensão\nMãe: Nega doenças relevantes\nDoenças na família: Nega\nHistória de câncer na família: Nega\nReações medicamentosas em familiares: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): Doutor, o que pode ser isso? É muito grave?\npergunta (2): Eu vou precisar ficar internada? Esse remédio que me deu isso, posso tomar de novo alguma vez na vida?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_sv_maria",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "100 × 60 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "110 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "22 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "38,9 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "96% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ef_maria",
+        "tituloImpresso": "Exame Físico (liberado após solicitação)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESTADO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Regular, prostrada, lúcida e orientada"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "PELE E MUCOSAS",
+              "itens": [
+                {
+                  "chave": "Lesões Cutâneas",
+                  "valor": "Eritema difuso com máculas e pápulas confluentes em tronco, membros e face. Presença de bolhas flácidas e áreas de descolamento epidérmico em aproximadamente 8% da superfície corporal (principalmente em áreas de pressão). Sinal de Nikolsky positivo em tronco."
+                },
+                {
+                  "chave": "Mucosas",
+                  "valor": "Erosões e crostas em lábios e mucosa oral. Conjuntivite bilateral com crostas."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "LINFONODOS",
+              "itens": [
+                {
+                  "chave": "Palpação",
+                  "valor": "Linfonodos cervicais e inguinais palpáveis, pequenos, móveis, indolores"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO CARDIOVASCULAR",
+              "itens": [
+                {
+                  "chave": "Ausculta cardíaca",
+                  "valor": "Ritmo cardíaco regular, bulhas normofonéticas, sem sopros"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO RESPIRATÓRIO",
+              "itens": [
+                {
+                  "chave": "Ausculta pulmonar",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ABDOME",
+              "itens": [
+                {
+                  "chave": "Palpação",
+                  "valor": "Flácido, indolor à palpação, RHA presentes"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXTREMIDADES",
+              "itens": [
+                {
+                  "chave": "Edema",
+                  "valor": "Sem edema"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_lab_maria",
+        "tituloImpresso": "Exames Laboratoriais (liberados após solicitação)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "12,5 g/dL (VR: 12-16 g/dL)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "15.000/mm³ (VR: 4.000-11.000/mm³)"
+                },
+                {
+                  "chave": "Neutrófilos segmentados",
+                  "valor": "70% (VR: 40-70%)"
+                },
+                {
+                  "chave": "Eosinófilos",
+                  "valor": "8% (VR: 1-5%)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "250.000/mm³ (VR: 150.000-450.000/mm³)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "FUNÇÃO HEPÁTICA",
+              "itens": [
+                {
+                  "chave": "AST (TGO)",
+                  "valor": "80 U/L (VR: <35 U/L)"
+                },
+                {
+                  "chave": "ALT (TGP)",
+                  "valor": "95 U/L (VR: <35 U/L)"
+                },
+                {
+                  "chave": "Bilirrubina total",
+                  "valor": "1,5 mg/dL (VR: <1,2 mg/dL)"
+                },
+                {
+                  "chave": "Fosfatase Alcalina",
+                  "valor": "150 U/L (VR: 40-150 U/L)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "FUNÇÃO RENAL E ELETRÓLITOS",
+              "itens": [
+                {
+                  "chave": "Creatinina",
+                  "valor": "1,0 mg/dL (VR: 0,6-1,3 mg/dL)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "40 mg/dL (VR: 15-45 mg/dL)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "138 mEq/L (VR: 135-145 mEq/L)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "4,1 mEq/L (VR: 3,5-5,0 mEq/L)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MARCADORES INFLAMATÓRIOS",
+              "itens": [
+                {
+                  "chave": "Proteína C Reativa (PCR)",
+                  "valor": "80 mg/L (VR: <5 mg/L)"
+                },
+                {
+                  "chave": "VHS",
+                  "valor": "60 mm/h (VR: <20 mm/h)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ectoscopia_maria",
+        "tituloImpresso": "Ectoscopia do Tronco e Face (Imagem para auxílio diagnóstico)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM.",
+          "caminhoImagem": "(Buscar no Google Imagens: Farmacodermia grave com descolamento epidérmico e acometimento de mucosas)",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: Farmacodermia grave com descolamento epidérmico e acometimento de mucosas)",
+          "laudo": "Imagem ilustrativa de eritema difuso com bolhas e áreas de descolamento epidérmico em tronco e face, e acometimento de mucosas (lábios e oral)."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_FARMACODERMIA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente Maria da Silva, 55 anos, apresenta quadro febril e lesões cutâneas generalizadas com bolhas e descolamento epidérmico, além de acometimento de mucosas, após iniciar Alopurinol há 15 dias. Os achados clínicos e laboratoriais são sugestivos de Farmacodermia grave, provavelmente Síndrome de Stevens-Johnson (SJS) ou Necrólise Epidérmica Tóxica (NET).",
+      "focoPrincipalDetalhado": [
+        "Avaliação integral do paciente com Farmacodermia grave (suspeita de Síndrome de Stevens-Johnson/Necrólise Epidérmica Tóxica - SJS/NET ou DRESS).",
+        "Anamnese e exame físico detalhados para identificação rápida do fármaco causador e avaliação da gravidade.",
+        "Solicitação e interpretação de exames complementares para diagnóstico diferencial e detecção de complicações sistêmicas.",
+        "Elaboração de plano terapêutico inicial e de seguimento, com ênfase na comunicação e notificação."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Investigação da Febre:\n(1) Início;\n(2) Duração;\n(3) Padrão;\n(4) Calafrios;\n(5) Sudorese;\n(6) Resposta a antitérmicos;\n(7) Histórico de Viagens Recentes;\n(8) Contato com doentes ou animais;\n(9) Uso de medicamentos recentes.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 7 ou mais dos 9 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 4 a 6 dos 9 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre 3 ou menos dos 9 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Investigação das Lesões Cutâneas:\n(1) Início;\n(2) Localização inicial e disseminação;\n(3) Evolução (manchas para bolhas/descolamento);\n(4) Quantidade de lesões;\n(5) Tipo de Lesão;\n(6) Sintomas associados (prurido).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 5 ou 6 dos 6 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 ou 4 dos 6 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 dos 6 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Investigação do Prurido:\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Fator de Piora;\n(5) Fator de Melhora;\n(6) Lesões associadas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 5 ou 6 dos 6 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 ou 4 dos 6 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 dos 6 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Investigação de Sintomas Sistêmicos Associados:\n(1) Mal-estar geral (intensidade, fadiga);\n(2) Dor articular (localização, intensidade, inchaço);\n(3) Dor muscular (mialgia);\n(4) Sintomas de mucosa oral (dor ao engolir, lesões);\n(5) Sintomas oculares (dor ocular, visão turva);\n(6) Sintomas respiratórios (dispneia, tosse).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 5 ou 6 dos 6 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 ou 4 dos 6 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 dos 6 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Histórico Medicamentoso Detalhado:\n(1) Alopurinol (nome, dose, data de início);\n(2) Hidroclorotiazida (nome, dose, tempo de uso);\n(3) Outros medicamentos em uso (OTC, fitoterápicos);\n(4) Alergias medicamentosas prévias;\n(5) Reações adversas prévias a medicamentos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 4 ou 5 dos 5 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 2 ou 3 dos 5 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 2 dos 5 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Anamnese - Antecedentes e Hábitos de Vida Relevantes:\n(1) Antecedentes patológicos (HAS, hiperuricemia, doenças autoimunes, HIV, infecções recentes);\n(2) Antecedentes familiares de reações medicamentosas;\n(3) Hábitos de vida (tabagismo, etilismo, drogas ilícitas, atividade física, dieta, sono).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre todos os itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 1 ou 2 itens.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não pergunta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita os impressos de exames complementares e ectoscopia:\n(1) Sinais Vitais (impresso_sv_maria);\n(2) Exame Físico (impresso_ef_maria);\n(3) Exames Laboratoriais (impresso_lab_maria);\n(4) Ectoscopia (impresso_ectoscopia_maria).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 4 dos 4 impressos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 ou 3 dos 4 impressos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 2 dos 4 impressos ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpreta os Sinais Vitais (impresso_sv_maria):\n(1) Pressão arterial (hipotensão);\n(2) Frequência cardíaca (taquicardia);\n(3) Frequência respiratória (taquipneia);\n(4) Temperatura (febre);\n(5) Saturação O2 (normal/baixa).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 4 ou 5 dos 5 achados corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 ou 3 dos 5 achados corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não interpreta ou interpreta menos de 2 achados corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Interpreta o Exame Físico Específico para Farmacodermia (impresso_ef_maria):\n(1) Estado geral do paciente (prostração);\n(2) Avaliação de pele (tipo de lesão, distribuição, bolhas, descolamento, Sinal de Nikolsky);\n(3) Avaliação de mucosas (oral, labial, ocular);\n(4) Linfonodomegalia;\n(5) Sinais de acometimento sistêmico (ausculta cardíaca/pulmonar, palpação abdominal).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 4 ou 5 dos 5 itens corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 ou 3 dos 5 itens corretamente.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não interpreta ou interpreta menos de 2 itens corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Interpreta os Exames Laboratoriais (impresso_lab_maria):\n(1) Hemograma (leucocitose, eosinofilia);\n(2) Função hepática (elevação de transaminases, bilirrubinas);\n(3) Função renal (creatinina, ureia);\n(4) Marcadores inflamatórios (PCR, VHS).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 4 dos 4 itens corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 ou 3 dos 4 itens corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não interpreta ou interpreta menos de 2 itens corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Interpreta o Exame de Ectoscopia (impresso_ectoscopia_maria):\n(1) Identificação de eritema difuso com máculas e pápulas;\n(2) Presença de bolhas flácidas e áreas de descolamento epidérmico;\n(3) Acometimento de mucosas (lábios e oral).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 3 dos 3 achados corretamente.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 ou 2 dos 3 achados corretamente.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Estabelece o Diagnóstico Principal e a Classificação de Gravidade:\n(1) Farmacodermia;\n(2) Sugere SJS/NET (ou DRESS/overlap);\n(3) Menciona o Alopurinol como fármaco provável;\n(4) Classifica como quadro grave.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Estabelece os 4 itens corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Estabelece 2 ou 3 itens corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico ou o faz incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Cita Diagnósticos Diferenciais Relevantes:\n(1) Exantema viral;\n(2) Outras dermatoses bolhosas (pênfigo, penfigoide);\n(3) Urticária aguda grave;\n(4) Eritema multiforme grave.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou 4 dos 4 diferenciais relevantes para o paciente adulto.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 dos 4 diferenciais relevantes.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diferenciais ou os cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Elabora a Conduta Terapêutica Inicial e Específica:\n(1) Suspensão imediata do fármaco suspeito (Alopurinol e outros se necessário);\n(2) Internação hospitalar (UTI ou Centro de Queimados);\n(3) Suporte clínico (hidratação, nutrição, controle térmico, analgesia);\n(4) Corticosteroides sistêmicos (considerar pulsoterapia, ou para DRESS/AGEP);\n(5) Imunoglobulina intravenosa (IVIG) ou Ciclosporina (opções para SJS/NET grave);\n(6) Cuidados locais com lesões de pele e mucosas (curativos, higiene oral/ocular);\n(7) Prevenção de infecções secundárias.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica 6 ou 7 das 7 condutas corretas e prioritárias.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica 3 a 5 das 7 condutas corretas.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Indica menos de 3 condutas ou as faz incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Orientações e Seguimento:\n(1) Informa o nome do fármaco causador (Alopurinol) e a necessidade de evitá-lo para sempre;\n(2) Orienta sobre classes relacionadas com potencial de reação cruzada;\n(3) Aconselha o uso de identificação de alergia (pulseira/cartão);\n(4) Explica o prognóstico (gravidade, sequelas, mortalidade);\n(5) Orienta sobre acompanhamento clínico e laboratorial pós-alta.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre 4 ou 5 dos 5 itens corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta sobre 2 ou 3 dos 5 itens corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não orienta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Responde às perguntas/dúvidas da paciente simulada.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde às perguntas/dúvidas.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não responde às perguntas/dúvidas.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item18",
+        "itemNumeroOficial": "18",
+        "descricaoItem": "Notificação ao SINAN (Farmacovigilância - ANVISA).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a necessidade de notificação do caso grave.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a necessidade de notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Farmacodermia engloba reações adversas cutâneas a medicamentos, variando de leves a graves. Casos graves como a Síndrome de Stevens-Johnson (SJS) e a Necrólise Epidérmica Tóxica (NET) são emergências dermatológicas com alta morbimortalidade. O diagnóstico exige alta suspeição clínica e anamnese detalhada, focando no histórico medicamentoso completo e cronologia dos sintomas. Achados-chave incluem febre alta, lesões cutâneas polimórficas com bolhas e descolamento epidérmico (Sinal de Nikolsky positivo), e acometimento de mucosas (oral, ocular, genital). Exames laboratoriais podem revelar leucocitose, eosinofilia (especialmente em DRESS) e disfunção hepática/renal. O tratamento primordial é a suspensão imediata do fármaco suspeito e internação, preferencialmente em UTI ou centro de queimados. O suporte clínico é fundamental, com controle hidroeletrolítico, prevenção de infecções secundárias e cuidados locais das lesões. Para SJS/NET grave, terapias como imunoglobulina intravenosa (IVIG) ou ciclosporina são consideradas, embora controversas. A notificação à ANVISA é obrigatória para reações graves. Fatores de risco incluem certos medicamentos (Alopurinol, antibióticos, anticonvulsivantes), predisposição genética (HLA) e infecções virais concomitantes. O prognóstico é reservado em formas graves, com risco de sequelas oculares e cutâneas, e mortalidade elevada.",
+      "fontes": [
+        "1. Sociedade Brasileira de Dermatologia (SBD). Consenso de Farmacodermias. Disponível em: sbd.org.br. Acesso em: 08 mai. 2024.",
+        "2. Brasil. Ministério da Saúde. Portaria nº 1.487, de 11 de julho de 2011. Define a Lista Nacional de Notificação Compulsória de Doenças, agravos e eventos de saúde pública. Disponível em: www.gov.br. Acesso em: 08 mai. 2024.",
+        "3. UpToDate. Drug eruption. Disponível em: www.uptodate.com. Acesso em: 08 mai. 2024.",
+        "4. Sociedade Brasileira de Clínica Médica (SBCM). Diretrizes de Reações Adversas a Medicamentos. Disponível em: sbcm.org.br. Acesso em: 08 mai. 2024."
+      ]
+    }
+  }
+}

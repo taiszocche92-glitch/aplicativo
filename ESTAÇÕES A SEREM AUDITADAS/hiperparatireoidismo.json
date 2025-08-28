@@ -1,0 +1,581 @@
+{
+  "idEstacao": "REVALIDA_DIFICIL_2025_CM_HPT",
+  "tituloEstacao": "Hiperparatireoidismo",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Hiperparatireoidismo",
+    "Hipercalcemia",
+    "PTH elevado",
+    "Nefrolitíase",
+    "Osteoporose",
+    "Endocrinologia",
+    "Clínica Médica",
+    "Atenção secundária à saúde"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultório médico ambulatorial com mesa e cadeiras",
+        "Acesso a prontuário eletrônico (simulado para solicitação e visualização de exames)"
+      ]
+    },
+    "descricaoCasoCompleta": "Uma paciente de 55 anos comparece ao ambulatório com queixas de cansaço e dores nos ossos. Ela traz exames laboratoriais recentes que mostram alterações no cálcio e no PTH.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese dirigida à queixa principal da paciente e achados pré-existentes.",
+      "Realizar o exame físico direcionado.",
+      "Interpretar os exames laboratoriais pré-existentes e formular hipóteses diagnósticas iniciais.",
+      "Solicitar exames complementares adicionais pertinentes.",
+      "Interpretar os resultados dos exames complementares solicitados.",
+      "Estabelecer o diagnóstico definitivo, classificando o tipo de hiperparatireoidismo e suas complicações.",
+      "Discutir diagnósticos diferenciais relevantes.",
+      "Elaborar a conduta terapêutica indicada, incluindo opções de tratamento e critérios.",
+      "Discutir um plano de seguimento a longo prazo.",
+      "Acolher e responder às dúvidas da paciente simulada."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: Maria da Silva\nIdade: 55 anos\nEstado Civil: Casada\nProfissão: Professora aposentada"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou sentindo um cansaço que não passa, dores nos ossos e meu médico de família me pediu para procurar um especialista porque meus exames de cálcio e PTH estão alterados."
+      },
+      {
+        "contextoOuPerguntaChave": "FADIGA",
+        "informacao": "Início: Há cerca de 8 meses, gradual\nDuração: Praticamente contínua\nIntensidade: Nota 7/10, interfere nas atividades diárias e no lazer\nProgressão: Tem piorado com o tempo\nFator de melhora: Repouso breve alivia um pouco, mas não resolve\nFator de piora: Atividades físicas leves ou mentais prolongadas\nEpisódios prévios: Nunca sentiu um cansaço tão persistente antes"
+      },
+      {
+        "contextoOuPerguntaChave": "DOR ÓSSEA",
+        "informacao": "Início: Há aproximadamente 6 meses, intermitente\nLocalização: Mais comum na região lombar e nas pernas, mas ocasionalmente nos braços\nQualidade: Dor em peso, incômodo profundo\nIntensidade: Varia de 4/10 a 6/10\nIrradiação: Não irradia\nFator de melhora: Anti-inflamatórios comuns (ibuprofeno) aliviam temporariamente\nFator de piora: Esforço físico, ficar muito tempo em pé\nEpisódios prévios: Sentia algumas dores, mas nunca com essa frequência e intensidade\nFraturas patológicas: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "NEFROLITÍASE",
+        "informacao": "Histórico: Teve 3 episódios de cólica renal nos últimos 5 anos, todos confirmados com a eliminação de cálculos\nSintomas associados: Poliúria e polidipsia leves\nAlterações na coloração da urina: Nega\nTratamento prévio: Apenas analgésicos e hidratação\nInvestigação prévia da causa: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS GASTROINTESTINAIS",
+        "informacao": "Dor abdominal: Nega dor abdominal recorrente\nNáuseas/Vômitos: Nega náuseas ou vômitos frequentes\nConstipação: Relata leve constipação ocasional, mas atribui à idade\nAnorexia: Nega perda de apetite\nPancreatite: Nega histórico de pancreatite"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS PSIQUIÁTRICOS / NEUROLÓGICOS",
+        "informacao": "Depressão/Ansiedade: Nega depressão ou ansiedade diagnosticadas\nFraqueza muscular: Sente fraqueza geral associada à fadiga, mas nega fraqueza muscular proximal específica\nDificuldade de concentração: Relata leve dificuldade de concentração, que atribui ao cansaço\nLetargia: Relata letargia/lentidão\nConfusão mental: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HIPERTENSÃO ARTERIAL",
+        "informacao": "Diagnóstico: Diagnosticada com hipertensão há 5 anos\nControle: Controlada com losartana 50mg/dia"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doença Renal Crônica (DRC): Nega\nDeficiência de Vitamina D: Nega diagnóstico prévio, mas nunca dosou\nSíndromes genéticas (MEN): Nega conhecimento\nRadioterapia cervical prévia: Nega\nUso de Lítio: Nega\nOsteoporose: Nega diagnóstico, mas está preocupada com as dores ósseas"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "HPT: Nega histórico familiar de hiperparatireoidismo\nSíndromes de neoplasia endócrina múltipla (MEN): Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega\nEtilismo: Nega\nDieta: Dieta equilibrada, mas não suplementa cálcio ou vitamina D\nAtividade física: Caminha 30 minutos, 3 vezes por semana"
+      },
+      {
+        "contextoOuPerguntaChave": "MEDICAÇÃO EM USO",
+        "informacao": "Losartana: 50mg/dia para hipertensão\nDiuréticos tiazídicos: Nega uso\nSuplementos de cálcio/vitamina D: Nega uso"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "Doutor(a), então o que eu tenho?\nÉ grave?\nVou ter que operar?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "140 × 90 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "80 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Bom estado geral, eupneica, normocorada, hidratada. Ligeiramente letárgica."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Palpação cervical sem massas, tireoide sem alterações. Nega alterações visuais."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "RCR em 2T, bulhas normofonéticas, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "MV presente em ambos os hemitórax, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Plano, flácido, indolor à palpação superficial e profunda, RHA presentes."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edema. Força muscular preservada, mas com queixa de fraqueza generalizada. Dor à palpação em região lombar e joelhos."
+                },
+                {
+                  "chave": "Pele e Fâneros",
+                  "valor": "Pele íntegra, sem lesões. Escleras anictéricas."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_PREEXISTENTE_2",
+        "tituloImpresso": "Exames Laboratoriais (pré-existentes)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "BIOQUÍMICA SÉRICA",
+              "itens": [
+                {
+                  "chave": "Cálcio sérico total corrigido",
+                  "valor": "11.8 mg/dL (VR: 8.5-10.5 mg/dL)"
+                },
+                {
+                  "chave": "PTH intacto",
+                  "valor": "120 pg/mL (VR: 15-65 pg/mL)"
+                },
+                {
+                  "chave": "Albumina",
+                  "valor": "4.0 g/dL (VR: 3.5-5.0 g/dL)"
+                },
+                {
+                  "chave": "Fósforo sérico",
+                  "valor": "2.5 mg/dL (VR: 2.5-4.5 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (VR: 0.6-1.2 mg/dL)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_ADICIONAL_3",
+        "tituloImpresso": "Exames Laboratoriais (adicionais - se solicitados)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "BIOQUÍMICA SÉRICA",
+              "itens": [
+                {
+                  "chave": "Cálcio iônico",
+                  "valor": "1.45 mmol/L (VR: 1.12-1.32 mmol/L)"
+                },
+                {
+                  "chave": "25-hidroxivitamina D",
+                  "valor": "22 ng/mL (VR: 30-100 ng/mL)"
+                },
+                {
+                  "chave": "Fosfatase alcalina",
+                  "valor": "150 U/L (VR: 40-120 U/L)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "URINA DE 24 HORAS",
+              "itens": [
+                {
+                  "chave": "Cálcio urinário de 24 horas",
+                  "valor": "350 mg/24h (VR: < 250 mg/24h)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_DEXA_4",
+        "tituloImpresso": "Densitometria Óssea (DEXA)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Laudo de Densitometria Óssea com os seguintes resultados:",
+          "caminhoImagem": "(Buscar no Google Imagens: Exemplo de laudo de densitometria óssea com osteoporose em rádio distal)",
+          "sugestaoBuscaImagem": "Densitometria óssea com osteoporose em rádio distal, osteopenia em coluna e fêmur",
+          "laudo": "Região: Coluna Lombar L1-L4: T-score -2.0 (Osteopenia)\nRegião: Colo do Fêmur: T-score -1.5 (Osteopenia)\nRegião: Rádio Distal: T-score -2.8 (Osteoporose)"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_SESTAMIBI_5",
+        "tituloImpresso": "Cintilografia com Sestamibi (Tc-99m MIBI) ou SPECT/CT",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Imagem de cintilografia mostrando área de hipercaptação. Laudo da cintilografia:",
+          "caminhoImagem": "(Buscar no Google Imagens: Cintilografia paratireoides Sestamibi adenoma inferior direita)",
+          "sugestaoBuscaImagem": "Cintilografia paratireoides Sestamibi mostrando hipercaptação em glândula paratireoide inferior direita",
+          "laudo": "ACHADOS:\nFoco de hipercaptação do radiotraçador compatível com adenoma de paratireoide inferior direita.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_USG_RENAL_6",
+        "tituloImpresso": "Ultrassonografia Renal",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Laudo da ultrassonografia renal com achados de litíase.",
+          "caminhoImagem": "(Buscar no Google Imagens: Ultrassonografia renal com múltiplos cálculos renais bilateralmente)",
+          "sugestaoBuscaImagem": "Ultrassonografia renal com múltiplos cálculos renais bilateralmente, sem hidronefrose",
+          "laudo": "Presença de múltiplos cálculos renais bilateralmente, sendo o maior de 0.8 cm no polo inferior do rim esquerdo. Sem sinais de hidronefrose."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_HPT_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina, 55 anos, com queixas de fadiga crônica, dor óssea inespecífica e histórico de nefrolitíase recorrente. Exames pré-existentes revelam hipercalcemia e PTH elevado. A investigação adicional visa confirmar Hiperparatireoidismo Primário, avaliar suas complicações (ósseas e renais) e definir a melhor conduta terapêutica.",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada para identificar sintomas de hipercalcemia e fatores de risco.",
+        "Interpretação de exames laboratoriais (cálcio, PTH, fósforo, vitamina D, cálcio urinário) para diferenciar tipos de HPT e diagnósticos diferenciais.",
+        "Solicitação e interpretação de exames de imagem para localizar adenoma (Sestamibi), avaliar doença óssea (DEXA) e renal (USG renal).",
+        "Formulações diagnósticas precisas e estabelecimento da conduta terapêutica, incluindo critérios cirúrgicos."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e Acolhimento:\n(1) Apresenta-se;\n(2) Cumprimenta a paciente simulada de maneira adequada/cordial;\n(3) Mantém contato visual durante sua apresentação;\n(4) Pergunta o nome da paciente.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 3 ou 4 ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 1 ou 2 ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, perguntando sobre as características da fadiga:\n(1) Início;\n(2) Duração;\n(3) Intensidade;\n(4) Progressão;\n(5) Fatores de melhora;\n(6) Fatores de piora;\n(7) Impacto nas atividades diárias;\n(8) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 6 ou mais itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 5 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, perguntando sobre as características da dor óssea:\n(1) Início;\n(2) Localização;\n(3) Qualidade;\n(4) Intensidade;\n(5) Irradiação;\n(6) Fatores de melhora;\n(7) Fatores de piora;\n(8) Fraturas patológicas;\n(9) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 6 ou mais itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 5 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Investiga o histórico de nefrolitíase e sintomas urinários:\n(1) Número de episódios de cólica renal;\n(2) Eliminação de cálculos;\n(3) Poliúria;\n(4) Polidipsia;\n(5) Alterações na cor da urina;\n(6) Investigação prévia da causa.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou 6 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 3 itens ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Investiga sintomas gastrointestinais e neuropsiquiátricos associados:\n(1) Dor abdominal;\n(2) Náuseas/Vômitos;\n(3) Constipação;\n(4) Anorexia;\n(5) Histórico de pancreatite;\n(6) Depressão/Ansiedade;\n(7) Fraqueza muscular proximal;\n(8) Dificuldade de concentração;\n(9) Letargia;\n(10) Confusão mental.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 8 ou mais itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 4 a 7 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 4 itens ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Investiga antecedentes pessoais, familiares e uso de medicamentos relevantes:\n(1) Histórico de Doença Renal Crônica (DRC);\n(2) Deficiência de Vitamina D;\n(3) Síndromes genéticas (MEN);\n(4) Radioterapia cervical prévia;\n(5) Uso de lítio;\n(6) Osteoporose prévia;\n(7) Histórico familiar de HPT;\n(8) Uso de diuréticos tiazídicos;\n(9) Uso de suplementos de cálcio/vitamina D.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 7 ou mais itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 4 a 6 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 4 itens ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita/realiza exame físico direcionado, verbalizando seus achados:\n(1) Sinais vitais (especialmente Pressão Arterial);\n(2) Estado geral (especialmente letargia/confusão);\n(3) Avaliação osteomuscular (dor à palpação, fraqueza muscular proximal);\n(4) Avaliação oftalmológica (queratopatia em faixa);\n(5) Palpação cervical (massa paratireoideana).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita/verbaliza 4 ou 5 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita/verbaliza 2 ou 3 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Solicita/verbaliza menos de 2 itens ou não solicita/verbaliza.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Interpreta corretamente os exames laboratoriais pré-existentes (Impresso 2) e verbaliza seus achados e a hipótese inicial:\n(1) Hipercalcemia (Cálcio sérico total corrigido elevado);\n(2) PTH elevado;\n(3) Hipofosfatemia;\n(4) Sugere Hiperparatireoidismo Primário.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta e verbaliza 3 ou 4 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta e verbaliza 2 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta e verbaliza menos de 2 itens ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita exames complementares adicionais pertinentes para confirmação diagnóstica e avaliação de complicações:\n(1) Cálcio iônico;\n(2) 25-hidroxivitamina D;\n(3) Cálcio urinário de 24 horas;\n(4) Fosfatase alcalina;\n(5) Densitometria Óssea (DEXA);\n(6) Ultrassonografia cervical;\n(7) Cintilografia com Sestamibi ou SPECT/CT;\n(8) Ultrassonografia renal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 7 ou 8 itens.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 4 a 6 itens.",
+            "pontos": 0.6
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 4 itens ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Interpreta corretamente os exames laboratoriais adicionais fornecidos (Impresso 3) e verbaliza a relevância dos achados:\n(1) Cálcio iônico elevado;\n(2) 25-hidroxivitamina D deficiente;\n(3) Cálcio urinário de 24 horas elevado;\n(4) Fosfatase alcalina elevada.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 4 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 ou 3 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 2 itens ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Interpreta corretamente os exames de imagem fornecidos (Impresso 4, 5 e 6) e verbaliza a relevância dos achados:\n(1) Osteoporose em rádio distal (DEXA);\n(2) Adenoma paratireoideano (Cintilografia Sestamibi);\n(3) Nefrolitíase (Ultrassonografia renal).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 3 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 ou 2 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 1 item ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Estabelece o diagnóstico correto, incluindo o tipo de Hiperparatireoidismo e suas complicações:\n(1) Hiperparatireoidismo Primário;\n(2) Provavelmente por adenoma de paratireoide;\n(3) Complicação: Nefrolitíase;\n(4) Complicação: Osteoporose/Osteopenia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Estabelece 4 itens.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Estabelece 2 ou 3 itens.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Estabelece menos de 2 itens ou não estabelece.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Cita diagnósticos diferenciais de hipercalcemia:\n(1) Hipercalcemia da malignidade;\n(2) Hipercalcemia Hipocalciúrica Familiar (FHH);\n(3) Intoxicação por Vitamina D;\n(4) Uso de diuréticos tiazídicos;\n(5) Sarcoidose.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 4 ou 5 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 2 ou 3 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Cita menos de 2 itens ou não cita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Elabora a conduta terapêutica e plano de seguimento:\n(1) Indica paratireoidectomia como tratamento definitivo (citando critérios, se aplicável);\n(2) Orienta sobre hidratação adequada;\n(3) Orienta sobre correção de deficiência de vitamina D;\n(4) Orienta sobre acompanhamento endocrinológico;\n(5) Orienta sobre monitoramento regular de cálcio, PTH, função renal e densidade óssea.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora 4 ou 5 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora 2 ou 3 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Elabora menos de 2 itens ou não elabora.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Acolhe e responde às dúvidas da paciente simulada, explicando a condição, o tratamento e as perspectivas de forma clara e empática.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde adequadamente às dúvidas, com clareza e empatia.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Responde parcialmente às dúvidas ou sem clareza/empatia.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não responde ou responde inadequadamente às dúvidas.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "O Hiperparatireoidismo (HPT) é uma condição endócrina caracterizada pela hipersecreção de PTH. O HPT Primário (HPT-1), como no caso apresentado, é o tipo mais comum, geralmente causado por um adenoma de paratireoide, e manifesta-se por hipercalcemia e PTH elevado ou inapropriadamente normal. Os sintomas são frequentemente inespecíficos, abrangendo os sistemas ósseo ('bones', como dor óssea e osteoporose), renal ('stones', como nefrolitíase), gastrointestinal ('groans') e neuropsiquiátrico ('moans', como fadiga e dificuldade de concentração).\n\nA anamnese deve ser dirigida para investigar esses sintomas e fatores de risco (história familiar, radioterapia prévia). O exame físico geralmente é inespecífico, mas pode revelar hipertensão, sinais de desidratação em casos graves ou, raramente, massa cervical.\n\nO diagnóstico laboratorial baseia-se na tríade: cálcio sérico total corrigido e/ou iônico elevado, PTH intacto elevado ou inapropriadamente normal, e geralmente hipofosfatemia. Exames complementares incluem 25-OH vitamina D para avaliar deficiência (que pode agravar o quadro), cálcio urinário de 24h para diferenciar de hipercalcemia hipocalciúrica familiar (FHH), fosfatase alcalina como marcador de turnover ósseo, e avaliação da função renal. A densitometria óssea (DEXA) é crucial para avaliar a perda óssea, especialmente no rádio distal. A localização do adenoma é realizada por ultrassonografia cervical e, de forma mais sensível, por cintilografia com Sestamibi (SPECT/CT). A ultrassonografia renal é indicada para rastrear nefrolitíase ou nefrocalcinose.\n\nOs diagnósticos diferenciais incluem hipercalcemia da malignidade (PTH suprimido), FHH (cálcio urinário baixo), intoxicação por vitamina D e uso de tiazídicos/lítio.\n\nO tratamento definitivo para HPT Primário sintomático ou com critérios de risco é a paratireoidectomia. Pacientes assintomáticos sem critérios cirúrgicos podem ser acompanhados clinicamente com hidratação, suplementação de vitamina D (se deficiente) e, em alguns casos, bifosfonatos ou cinacalcete. Complicações incluem crise hipercalcêmica, nefrolitíase recorrente, osteoporose grave e doença renal progressiva. O seguimento envolve monitoramento regular de cálcio, PTH, fósforo, função renal e densidade óssea.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Portaria nº 1.309, de 16 de agosto de 2012. Aprova o Protocolo Clínico e Diretrizes Terapêuticas do Hiperparatireoidismo Primário. Disponível em: https://bvsms.saude.gov.br/bvs/saudelegis/sas/2012/prt1309_16_08_2012.html",
+        "2. Bilezikian JP, Bandeira F, Khan A, et al. Hyperparathyroidism. Nat Rev Dis Primers. 2022 Mar 3;8(1):16. doi: 10.1038/s41572-022-00342-9.",
+        "3. UpToDate: Primary hyperparathyroidism: Clinical manifestations. [Acessado em: Outubro de 2024].",
+        "4. Eastell R, Brandi ML, Costa AG, et al. Diagnosis of asymptomatic primary hyperparathyroidism: proceedings of the Fourth International Workshop. J Clin Endocrinol Metab. 2014;99(10):3570-3579."
+      ]
+    }
+  }
+}

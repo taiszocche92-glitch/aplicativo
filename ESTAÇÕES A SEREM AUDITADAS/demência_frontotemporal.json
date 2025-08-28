@@ -1,0 +1,687 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_DFT_01",
+  "tituloEstacao": "Demência Frontotemporal",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Demência Frontotemporal",
+    "DFT",
+    "Neurodegenerativa",
+    "Comportamental",
+    "Afasia",
+    "Clínica Médica",
+    "Atenção terciária"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios de Neurologia ou Geriatria",
+        "Laboratório de análises clínicas",
+        "Setor de exames de imagem"
+      ]
+    },
+    "descricaoCasoCompleta": "Dona Maria Silva, 62 anos, comparece à consulta acompanhada por seu filho Carlos Silva. A paciente refere 'Meu filho me trouxe aqui porque diz que estou mudada', enquanto o filho relata que 'Minha mãe está estranha, Doutor. O comportamento dela mudou completamente e ela não percebe.'",
+    "tarefasPrincipais": [
+      "Realizar a anamnese detalhada com o acompanhante, investigando a progressão das alterações comportamentais, cognitivas e o impacto na funcionalidade do paciente.",
+      "Verbalizar os achados do exame físico geral e neurológico.",
+      "Solicitar e interpretar exames complementares para investigação diagnóstica, incluindo exames laboratoriais e de neuroimagem.",
+      "Formular as hipóteses diagnósticas principais e os diagnósticos diferenciais da condição.",
+      "Comunicar o diagnóstico à família, explicando a natureza da doença e seu prognóstico.",
+      "Elaborar uma conduta terapêutica e de suporte detalhada, incluindo medidas não farmacológicas, manejo sintomático farmacológico e orientações para o cuidado e planejamento futuro.",
+      "Responder às dúvidas e preocupações do acompanhante."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: Maria Silva\nIdade: 62 anos\nEstado Civil: Viúva\nProfissão: Aposentada (ex-professora de português)"
+      },
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO ACOMPANHANTE",
+        "informacao": "Nome: Carlos Silva (Filho)\nIdade: 35 anos\nEstado Civil: Casado\nProfissão: Engenheiro"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA (Relato do Filho)",
+        "informacao": "Minha mãe está estranha, Doutor. O comportamento dela mudou completamente e ela não percebe."
+      },
+      {
+        "contextoOuPerguntaChave": "ALTERAÇÕES COMPORTAMENTAIS (Relato do Filho)",
+        "informacao": "Início: Insidioso, aproximadamente 18 meses\nProgressão: Gradual, com piora significativa nos últimos 6-8 meses\nDesinibição Social: Faz comentários inadequados em público; ri em situações sérias; abraça estranhos\nApatia/Inércia: Perda de interesse em hobbies (tricô, jardinagem); passa horas sentada sem fazer nada\nPerda de Empatia: Não se importa com o sofrimento alheio; reagiu friamente à morte de um vizinho próximo\nComportamentos Estereotipados/Compulsivos: Repete a mesma frase várias vezes; organiza objetos em padrões específicos compulsivamente\nHiperoralidade/Alterações na Dieta: Come grandes quantidades de doces; pega comida do prato de estranhos em restaurantes; mastiga objetos não alimentares (ex: ponta de caneta)\nNegligência da Higiene Pessoal: Recusa tomar banho; não quer usar roupas limpas; recusa escovar os dentes"
+      },
+      {
+        "contextoOuPerguntaChave": "MEMÓRIA E LINGUAGEM (Relato do Filho)",
+        "informacao": "Memória para fatos recentes: Preservada; lembra-se de compromissos e pessoas\nLinguagem (Fala): Fluente, mas com conteúdo por vezes vazio\nLinguagem (Dificuldade para encontrar palavras/Anomia): Nega\nLinguagem (Agramatismo): Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "OUTROS SINTOMAS (Relato do Filho)",
+        "informacao": "Alteração de Peso: Ganho de peso de aproximadamente 5kg nos últimos 12 meses devido à hiperoralidade\nSono: Irregular; Acorda várias vezes à noite; Sonolência diurna\nHumor: Não parece triste ou ansiosa; Apresenta labilidade emocional em alguns momentos"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Hipertensão arterial\nTratamento: Controlada com Losartana 50mg/dia\nDiabetes: Nega\nDislipidemia: Nega\nDoenças Cardíacas: Nega\nAVC prévio: Nega\nTraumas Cranianos: Nega\nHistórico Psiquiátrico: Nega\nCirurgias prévias: Nega\nInternações: Nega\nAlergias: Nega\nMedicamentos em uso contínuo: Losartana 50mg/dia\nVacinação: Não consta"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega\nEtilismo: Social, ocasional\nDrogas ilícitas: Nega\nAlimentação: Alterada, com preferência por doces e hiperoralidade\nAtividade física: Praticava hidroginástica, mas parou devido à apatia\nSono: Irregular\nHábitos urinários: Não consta\nHábitos intestinais: Não consta\nIngestão hídrica: Não consta\nExposição ocupacional: Não consta\nEstresse: Não consta"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai de Maria: Teve 'demência precoce' aos 58 anos, com sintomas comportamentais similares aos de Maria\nMãe de Maria: Saudável\nIrmãos de Maria: Saudáveis\nDoenças na família: História de demência precoce no pai da paciente\nHistória de câncer na família: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO ACOMPANHANTE",
+        "informacao": "Pergunta (1): Doutor, o que está acontecendo com a minha mãe? Ela não parece mais a mesma pessoa.\nPergunta (2): Isso tem cura? Ela vai ficar pior?\nPergunta (3): Existe algum remédio para isso? Alguma coisa que possa ajudar a voltar ao normal?\nPergunta (4): Eu tenho que me preocupar em ter isso também, já que meu avô teve?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "130 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "78 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "36,5 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "98% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_2",
+        "tituloImpresso": "Exame Físico Geral e Neurológico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ECTOSCOPIA",
+              "itens": [
+                {
+                  "chave": "Estado Geral",
+                  "valor": "Regular estado geral, desgrenhada, higiene precária, desinibida em alguns momentos, pouco contato visual"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME NEUROLÓGICO",
+              "itens": [
+                {
+                  "chave": "Consciência",
+                  "valor": "Lúcida, orientada no tempo e espaço, sem insight dos seus comportamentos inadequados"
+                },
+                {
+                  "chave": "Pares Cranianos",
+                  "valor": "Sem alterações"
+                },
+                {
+                  "chave": "Força Muscular",
+                  "valor": "Preservada bilateralmente"
+                },
+                {
+                  "chave": "Tônus Muscular",
+                  "valor": "Normal"
+                },
+                {
+                  "chave": "Reflexos Osteotendíneos",
+                  "valor": "Normais e simétricos"
+                },
+                {
+                  "chave": "Coordenação",
+                  "valor": "Preservada"
+                },
+                {
+                  "chave": "Marcha",
+                  "valor": "Normal"
+                },
+                {
+                  "chave": "Sinais Piramidais/Extrapiramidais",
+                  "valor": "Ausentes"
+                },
+                {
+                  "chave": "Reflexos Primitivos",
+                  "valor": "Reflexo de preensão (grasp reflex) bilateral presente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIAL_3",
+        "tituloImpresso": "Resultados de Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA COMPLETO",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "13.2 g/dL (VR: 12-16 g/dL)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "40% (VR: 36-48%)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.500/mm³ (VR: 4.000-11.000/mm³)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "250.000/mm³ (VR: 150.000-450.000/mm³)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "95 mg/dL (VR: 70-99 mg/dL)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "28 mg/dL (VR: 15-45 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.8 mg/dL (VR: 0.6-1.1 mg/dL)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "140 mEq/L (VR: 135-145 mEq/L)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "4.2 mEq/L (VR: 3.5-5.0 mEq/L)"
+                },
+                {
+                  "chave": "TGO",
+                  "valor": "25 U/L (VR: 10-35 U/L)"
+                },
+                {
+                  "chave": "TGP",
+                  "valor": "20 U/L (VR: 10-40 U/L)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "FUNÇÃO TIREOIDIANA",
+              "itens": [
+                {
+                  "chave": "TSH",
+                  "valor": "2.1 mUI/L (VR: 0.4-4.0 mUI/L)"
+                },
+                {
+                  "chave": "T4 Livre",
+                  "valor": "1.3 ng/dL (VR: 0.8-1.8 ng/dL)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "VITAMINAS/SOROLOGIAS",
+              "itens": [
+                {
+                  "chave": "Vitamina B12",
+                  "valor": "450 pg/mL (VR: 200-900 pg/mL)"
+                },
+                {
+                  "chave": "Folato",
+                  "valor": "12 ng/mL (VR: 3-17 ng/mL)"
+                },
+                {
+                  "chave": "VDRL",
+                  "valor": "Não Reativo"
+                },
+                {
+                  "chave": "HIV (1/2)",
+                  "valor": "Não Reativo"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_RM_4",
+        "tituloImpresso": "Ressonância Magnética de Crânio",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM.",
+          "caminhoImagem": "https://neuroradiology.imedpub.com/articles-images/neuroradiology-mri-imaging-of-frontotemporal-dementia.jpg",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: RM crânio atrofia frontal e temporal anterior mais acentuada à direita)",
+          "laudo": "ACHADOS:\nAtrofia cortical predominantemente nos lobos frontal e temporal anterior, mais acentuada à direita, com preservação relativa dos lobos parietais e occipitais. Ausência de lesões vasculares significativas ou outras alterações estruturais focais.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_PET_5",
+        "tituloImpresso": "PET-FDG de Crânio",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM.",
+          "caminhoImagem": "https://www.ajronline.org/cms/asset/0675239a-54dd-4f9e-b853-f7267104a3bb/img00000030554.jpg",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: PET-FDG hipometabolismo frontal e temporal anterior mais evidente à direita)",
+          "laudo": "Hipometabolismo nas regiões frontal e temporal anterior, mais evidente à direita, em correlação com as áreas de atrofia na RM. Metabolismo preservado em regiões parietais e occipitais. Ausência de depósitos significativos de amiloide."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_DFT_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente Maria Silva, 62 anos, acompanhada pelo filho, apresenta quadro insidioso e progressivo de 18 meses de alterações comportamentais, incluindo desinibição social, apatia, perda de empatia, comportamentos estereotipados, hiperoralidade e negligência de higiene pessoal. Memória e linguagem (produção e nomeação) estão relativamente preservadas. Antecedentes familiares relevantes incluem demência precoce no pai com sintomas similares. Exame neurológico revela reflexo de preensão bilateral presente e ausência de sinais piramidais/extrapiramidais. Exames laboratoriais de rotina sem alterações significativas. Neuroimagem (RM e PET-FDG) demonstra atrofia e hipometabolismo predominantemente nos lobos frontal e temporal anteriores, mais acentuado à direita. O caso é compatível com Demência Frontotemporal variante comportamental (DFT-C).",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada com o cuidador, focando em alterações comportamentais e de linguagem.",
+        "Avaliação do exame físico e neurológico com atenção a sinais de DFT.",
+        "Solicitação e interpretação de exames complementares para diagnóstico e diferenciação.",
+        "Formulação do diagnóstico diferencial e da hipótese diagnóstica principal (DFT-C).",
+        "Comunicação empática do diagnóstico e prognóstico à família.",
+        "Elaboração de plano terapêutico abrangente, incluindo manejo sintomático e suporte."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) cumprimenta o paciente e o acompanhante.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Identificação:\n(1) Pergunta a identificação da paciente (nome, idade, profissão);\n(2) Pergunta a identificação do acompanhante (nome, parentesco).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta os dois itens de identificação da paciente e do acompanhante.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta um item da identificação da paciente e/ou do acompanhante.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não pergunta nenhum item de identificação.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Motivo da Consulta:\n(1) Pergunta o motivo da consulta ao acompanhante;\n(2) Pergunta o motivo da consulta à paciente.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta o motivo da consulta a ambos (paciente e acompanhante).",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta o motivo da consulta a apenas um (paciente ou acompanhante).",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não pergunta o motivo da consulta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Caracterização das Alterações Comportamentais:\n(1) investiga o início (insidioso/súbito) e duração (há quanto tempo);\n(2) investiga a progressão (gradual/rápida);\n(3) investiga desinibição social (comentários inadequados, risos em situações sérias, abraços em estranhos);\n(4) investiga apatia/inércia (perda de interesse, tempo sentada);\n(5) investiga perda de empatia (indiferença ao sofrimento alheio);\n(6) investiga comportamentos estereotipados/compulsivos (repetição de frases, organização compulsiva);\n(7) investiga hiperoralidade/alterações na dieta (preferência por doces, pegar comida de estranhos, mastigar objetos);\n(8) investiga negligência da higiene pessoal (recusa a banho, roupas limpas, escovar dentes).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 7 ou 8 aspectos das alterações comportamentais.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 4 a 6 aspectos das alterações comportamentais.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Investiga 3 ou menos aspectos das alterações comportamentais ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Caracterização de Memória e Linguagem:\n(1) investiga memória para fatos recentes;\n(2) investiga fluência da fala;\n(3) investiga dificuldade para encontrar palavras (anomia);\n(4) investiga agramatismo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga os 4 aspectos de memória e linguagem.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 aspectos de memória e linguagem.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 ou menos aspectos de memória e linguagem ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Outros Sintomas e Antecedentes Pessoais:\n(1) investiga alteração de peso (ganho ou perda, quantidade);\n(2) investiga padrão de sono (irregularidade, despertares noturnos, sonolência diurna);\n(3) investiga humor (tristeza, ansiedade, labilidade emocional);\n(4) investiga antecedentes de hipertensão arterial;\n(5) investiga outras doenças crônicas (diabetes, dislipidemia, cardíacas);\n(6) investiga histórico de AVCs ou traumas cranianos;\n(7) investiga histórico psiquiátrico.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 ou 7 aspectos dos outros sintomas e antecedentes pessoais.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 aspectos dos outros sintomas e antecedentes pessoais.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos aspectos dos outros sintomas e antecedentes pessoais ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Anamnese - Antecedentes Familiares e Hábitos de Vida:\n(1) investiga história familiar de demência precoce (idade de início, sintomas);\n(2) investiga história familiar de doenças neurodegenerativas;\n(3) investiga tabagismo;\n(4) investiga etilismo;\n(5) investiga uso de drogas ilícitas;\n(6) investiga nível de atividade física.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou 6 aspectos dos antecedentes familiares e hábitos de vida.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 aspectos dos antecedentes familiares e hábitos de vida.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos aspectos dos antecedentes familiares e hábitos de vida ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita e interpreta os achados dos Sinais Vitais (Impresso 1):\n(1) solicita o impresso de Sinais Vitais;\n(2) interpreta todos os valores de pressão arterial, frequência cardíaca, frequência respiratória, temperatura e saturação de oxigênio como dentro da normalidade.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita o impresso e interpreta todos os sinais vitais corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita o impresso mas interpreta apenas parcialmente os sinais vitais ou os interpreta incorretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita o impresso ou não interpreta os sinais vitais.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e interpreta os achados do Exame Físico Geral e Neurológico (Impresso 2):\n(1) solicita o impresso de Exame Físico Geral e Neurológico;\n(2) interpreta a ectoscopia (estado geral, higiene, desinibição, contato visual) como alterada e compatível com o quadro;\n(3) interpreta o exame neurológico (consciência, pares cranianos, força, tônus, reflexos osteotendíneos, coordenação, marcha) como normal;\n(4) identifica e interpreta a presença do reflexo de preensão (grasp reflex) bilateral como um sinal neurológico relevante para a hipótese diagnóstica.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita o impresso e interpreta todos os 4 achados do exame físico corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita o impresso e interpreta 2 ou 3 achados do exame físico corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita o impresso ou interpreta 1 ou menos achados do exame físico corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita e interpreta os Exames Laboratoriais (Impresso 3):\n(1) solicita o impresso de Resultados de Exames Laboratoriais;\n(2) interpreta os resultados do hemograma como normais;\n(3) interpreta os resultados da bioquímica (glicose, ureia, creatinina, sódio, potássio, TGO, TGP) como normais;\n(4) interpreta os resultados da função tireoidiana (TSH, T4L) como normais;\n(5) interpreta os resultados de vitaminas (B12, folato) e sorologias (VDRL, HIV) como normais.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita o impresso e interpreta todos os 4 grupos de exames laboratoriais corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita o impresso e interpreta 2 ou 3 grupos de exames laboratoriais corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita o impresso ou interpreta 1 ou menos grupos de exames laboratoriais corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Solicita e interpreta a Ressonância Magnética de Crânio (Impresso 4):\n(1) solicita o impresso de Ressonância Magnética de Crânio;\n(2) identifica a atrofia cortical predominante nos lobos frontal e temporal anterior;\n(3) descreve a atrofia como mais acentuada à direita;\n(4) reconhece a preservação relativa dos lobos parietais e occipitais;\n(5) conclui a ausência de lesões vasculares significativas ou outras alterações estruturais focais.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita o impresso e interpreta 4 ou 5 achados da RM corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita o impresso e interpreta 2 ou 3 achados da RM corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita o impresso ou interpreta 1 ou menos achados da RM corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Solicita e interpreta o PET-FDG de Crânio (Impresso 5):\n(1) solicita o impresso de PET-FDG de Crânio;\n(2) identifica o hipometabolismo nas regiões frontal e temporal anterior;\n(3) descreve o hipometabolismo como mais evidente à direita;\n(4) reconhece o metabolismo preservado em regiões parietais e occipitais;\n(5) conclui a ausência de depósitos significativos de amiloide.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita o impresso e interpreta 4 ou 5 achados do PET-FDG corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita o impresso e interpreta 2 ou 3 achados do PET-FDG corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita o impresso ou interpreta 1 ou menos achados do PET-FDG corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Formula a Hipótese Diagnóstica Principal:\n(1) estabelece o diagnóstico de Demência Frontotemporal;\n(2) especifica a variante comportamental (DFT-C).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico completo (Demência Frontotemporal variante comportamental).",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico de Demência Frontotemporal, mas sem a variante específica.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Cita Diagnósticos Diferenciais Relevantes:\n(1) Doença de Alzheimer;\n(2) Demência Vascular;\n(3) Demência com Corpos de Lewy;\n(4) Demências secundárias (hipotireoidismo, deficiência de B12, neurosífilis, hidrocefalia de pressão normal, tumores);\n(5) Transtornos psiquiátricos (depressão maior, esquizofrenia, TOC, transtorno de personalidade);\n(6) Outras doenças neurodegenerativas (Doença de Huntington, Paralisia Supranuclear Progressiva, Degeneração Corticobasal).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 4 ou mais diagnósticos diferenciais corretos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 2 ou 3 diagnósticos diferenciais corretos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Cita 1 ou menos diagnósticos diferenciais corretos ou não cita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Comunica o Diagnóstico e Prognóstico ao Acompanhante de forma empática:\n(1) explica o diagnóstico de Demência Frontotemporal de forma clara e compreensível;\n(2) informa sobre a natureza neurodegenerativa e progressiva da doença;\n(3) informa a ausência de tratamento modificador da doença ou cura;\n(4) demonstra empatia e acolhimento diante da notícia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza os 4 itens de comunicação com empatia.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 2 ou 3 itens de comunicação com empatia.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Realiza 1 ou menos itens de comunicação ou não demonstra empatia.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Elabora Plano Terapêutico Não Farmacológico:\n(1) recomenda terapia comportamental (rotinas estruturadas, distração, evitação de gatilhos);\n(2) recomenda suporte aos cuidadores (educação, grupos de apoio, assistência social);\n(3) recomenda adaptação do ambiente (segurança, facilitação de atividades diárias);\n(4) recomenda fisioterapia e terapia ocupacional;\n(5) recomenda terapia da fala e linguagem (para variantes de afasia progressiva primária, mesmo que não seja o foco principal deste caso, é uma opção na DFT).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Recomenda 4 ou 5 medidas não farmacológicas.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Recomenda 2 ou 3 medidas não farmacológicas.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Recomenda 1 ou menos medidas não farmacológicas ou não recomenda.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Elabora Plano Terapêutico Farmacológico e Contraindicações:\n(1) menciona que inibidores da colinesterase e memantina são contraindicados para DFT;\n(2) indica o uso de Inibidores Seletivos da Recaptação de Serotonina (ISRS) para sintomas comportamentais (desinibição, compulsividade, irritabilidade, depressão), com doses baixas e aumento gradual;\n(3) indica o uso cauteloso de antipsicóticos atípicos (Risperidona, Quetiapina) em baixas doses para agitação grave, agressividade ou psicose, quando não responsivo a medidas não farmacológicas;\n(4) informa sobre os riscos e efeitos adversos dos antipsicóticos (sedação, efeitos extrapiramidais, aumento da mortalidade em idosos com demência).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza os 4 itens do plano terapêutico farmacológico e contraindicações.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 2 ou 3 itens do plano terapêutico farmacológico e contraindicações.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Realiza 1 ou menos itens do plano terapêutico farmacológico e contraindicações ou não elabora.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item18",
+        "itemNumeroOficial": "18",
+        "descricaoItem": "Orientações Gerais e Seguimento:\n(1) educa a família sobre a natureza progressiva da doença e sintomas esperados;\n(2) orienta sobre planejamento futuro (diretivas antecipadas de vontade, procuração, planejamento financeiro e legal);\n(3) orienta sobre segurança do paciente (remover objetos perigosos, monitorar deambulação, prevenção de quedas, supervisão);\n(4) orienta sobre nutrição, higiene e manutenção da atividade física e social;\n(5) estabelece monitoramento regular com neurologista para ajuste de medicações, reavaliação de sintomas e suporte;\n(6) recomenda encaminhamento para equipe multidisciplinar (neuropsicólogo, psiquiatra, fonoaudiólogo, terapeuta ocupacional, assistente social).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 5 ou 6 orientações gerais e de seguimento.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 3 ou 4 orientações gerais e de seguimento.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Realiza 2 ou menos orientações gerais e de seguimento ou não orienta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item19",
+        "itemNumeroOficial": "19",
+        "descricaoItem": "Responde às Dúvidas do Acompanhante de forma clara e empática:\n(1) responde sobre o que está acontecendo com a mãe ('ela não parece mais a mesma pessoa');\n(2) responde sobre a cura e progressão da doença ('isso tem cura? ela vai ficar pior?');\n(3) responde sobre as opções de tratamento disponíveis ('existe algum remédio para isso?');\n(4) responde sobre o risco familiar/genético e a possibilidade de aconselhamento genético ('eu tenho que me preocupar em ter isso também?').",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde às 4 dúvidas de forma clara e empática.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Responde a 2 ou 3 dúvidas de forma clara e empática.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Responde a 1 ou menos dúvidas ou não responde de forma empática.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Demência Frontotemporal (DFT) é uma síndrome neurodegenerativa heterogênea, sendo a segunda causa mais comum de demência em pessoas com menos de 65 anos. Caracteriza-se por alterações progressivas na personalidade, comportamento e/ou linguagem, com relativa preservação da memória e habilidades visuoespaciais nas fases iniciais. A variante comportamental (DFT-C), como no caso da paciente, manifesta-se tipicamente por desinibição social, apatia, perda de empatia, comportamentos estereotipados/compulsivos e hiperoralidade. O diagnóstico é clínico, baseado na anamnese detalhada com o cuidador (devido à falta de insight do paciente), exame neurológico (que pode revelar reflexos primitivos como o grasp reflex) e neuropsicológico. Exames laboratoriais de rotina são essenciais para descartar causas secundárias de demência. A neuroimagem, como RM e PET-FDG, é crucial, revelando atrofia e hipometabolismo predominantemente nos lobos frontal e temporal anteriores, com pouca ou nenhuma deposição de amiloide (diferenciando de Alzheimer). O diagnóstico diferencial inclui Doença de Alzheimer, demências vasculares, demência com corpos de Lewy, causas secundárias (deficiência de B12, hipotireoidismo, etc.) e transtornos psiquiátricos. A DFT tem um forte componente genético em 30-50% dos casos, com mutações em genes como MAPT, GRN e C9ORF72, justificando a investigação de histórico familiar e aconselhamento genético. Não há tratamento modificador da doença; o manejo é sintomático e de suporte, focando em medidas não farmacológicas (terapia comportamental, suporte aos cuidadores, terapia da fala, adaptação do ambiente, fisioterapia e terapia ocupacional) e, se necessário, farmacológicas (ISRS para controle de sintomas comportamentais como desinibição e compulsividade; antipsicóticos atípicos com cautela para agitação grave/agressividade/psicose, devido aos riscos de efeitos adversos e aumento da mortalidade). Inibidores da colinesterase e memantina são contraindicados. O acompanhamento multidisciplinar é essencial para o paciente e cuidadores para otimizar a qualidade de vida e manejar os desafios da doença.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde. Departamento de Ações Programáticas e Estratégicas. Demências: aspectos clínicos, diagnósticos e terapêuticos. Brasília, DF: Ministério da Saúde, 2021.",
+        "2. Gorno-Tempini ML, et al. Clinical diagnostic criteria for the behavioural variant of frontotemporal dementia. Brain. 2011;134(Pt 9):2456-78.",
+        "3. UpToDate. Frontotemporal dementia: Clinical features and diagnosis. Waltham, MA: UpToDate Inc. (Acessado em Dezembro de 2024).",
+        "4. Sociedade Brasileira de Neurologia. Diretrizes para o diagnóstico e tratamento das demências. São Paulo: SBN, 2023."
+      ]
+    }
+  }
+}

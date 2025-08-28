@@ -1,0 +1,516 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_01",
+  "tituloEstacao": "Hemofilia A - Consulta de Seguimento e Avaliação",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Hemofilia",
+    "Coagulopatia",
+    "Distúrbio Hemorrágico",
+    "Hematologia",
+    "Clínica Médica",
+    "Atenção secundária",
+    "Atenção terciária"
+  ],
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Centro de imagem com Radiografia e Ultrassonografia",
+        "Medicações para hemofilia disponíveis"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente do sexo masculino, 30 anos, comparece à consulta ambulatorial referindo histórico de sangramentos frequentes e dor articular.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese dirigida ao paciente.",
+      "Solicitar e interpretar o exame físico.",
+      "Solicitar e Interpretar exames complementares se pertinentes ao caso.",
+      "Estabelecer o diagnóstico principal e os diagnósticos diferenciais.",
+      "Propor a conduta terapêutica e as orientações necessárias ao paciente."
+    ],
+    "avisosImportantess": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Doutor(a), tenho tido muitos sangramentos e minhas juntas estão doendo bastante."
+      },
+      {
+        "contextoOuPerguntaChave": "SANGRAMENTOS",
+        "informacao": "Início: Desde criança, lembro que já na primeira infância sangrava com facilidade, especialmente após pequenas quedas.\nLocalização: Mais nos joelhos e cotovelos, mas também tenho muitos roxos grandes nos braços e pernas. Às vezes, sangra o nariz e a gengiva.\nIntensidade: Os sangramentos nas juntas são muito dolorosos. Os roxos não doem tanto, mas são grandes e demoram a sumir.\nCaracterística: Nas juntas, sinto inchaço e calor. Os hematomas são apenas manchas roxas que se espalham.\nIrradiação: Não irradiam, ficam no local.\nDuração: Quando sangra no joelho, fica inchado e dolorido por dias, às vezes uma semana. Os roxos podem durar 2-3 semanas.\nProgressão: Tem sido constante ao longo da vida, mas de uns tempos para cá, parece que as juntas doem mais facilmente.\nFrequência: As hemartroses ocorrem a cada 2-3 meses. Hematomas são quase toda semana.\nFator Desencadeante: Às vezes, um pequeno tombo ou um esbarrão, mas muitas vezes parece que sangra 'do nada', especialmente nas juntas.\nFator de piora ou agravante: Atividade física mais intensa ou traumas. Ficar parado melhora, mas a dor persiste.\nFator de melhora ou atenuante: A medicação que o médico passa (concentrado de fator) ajuda, mas é difícil conseguir sempre. Repouso ajuda um pouco com a dor.\nEpisódios prévios: Sim, isso acontece desde a infância.\nMedicação de alivio: Uso concentrado de Fator VIII quando consigo, e paracetamol para a dor. Nunca uso AINEs, meu médico proibiu."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR ARTICULAR",
+        "informacao": "Início: A dor está associada aos sangramentos nas juntas, mas agora sinto uma dor mais crônica, mesmo sem sangrar ativamente.\nLocalização: Principalmente nos joelhos (ambos) e cotovelos. O tornozelo direito também está começando a incomodar.\nIntensidade: Varia. No dia a dia, um 4/10. Durante um sangramento, pode chegar a 8-9/10.\nCaracterística ou Tipo da dor: É uma dor constante, tipo um peso, que piora com o movimento.\nIrradiação: Nega.\nDuração: A dor crônica é constante. A aguda, durante o sangramento, dura vários dias.\nProgressão: A dor crônica tem piorado nos últimos anos, sinto as juntas mais rígidas.\nFrequência: Dor crônica diária. Aguda em episódios de sangramento.\nFator Desencadeante: Pequenos movimentos ou esforço. Às vezes, sem causa aparente.\nFator de piora ou agravante: Subir escadas, ficar muito tempo em pé, carregar peso. No frio, parece que piora.\nFator de melhora ou atenuante: Repouso e paracetamol. Fisioterapia ajuda um pouco.\nEpisódios prévios: Sim, faz parte da minha doença.\nMedicação de alivio: Paracetamol, às vezes uso um creme mas não ajuda muito. Não uso AINEs."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Febre: Nega.\nPerda de peso: Nega.\nFraqueza: Nega.\nCefaleia: Nega dor de cabeça forte ou incomum.\nNáuseas/Vômitos: Nega.\nAlteração de consciência: Nega.\nPalidez: Às vezes me sinto um pouco pálido, principalmente depois de um sangramento maior."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Tenho Hemofilia A grave, diagnosticada na infância.\nCirurgias prévias: Fiz uma cirurgia no joelho esquerdo para drenar um hematoma há 5 anos, com acompanhamento hematológico e reposição de fator. Foi tudo bem.\nInternações: Sim, algumas vezes por sangramentos articulares graves e uma vez por um hematoma muscular grande na coxa.\nAlergias: Nega.\nMedicamentos em uso contínuo: Faço profilaxia com concentrado de Fator VIII (recombinante), 3 vezes por semana, mas às vezes não consigo seguir direito por problemas na entrega.\nVacinação: Completa para hepatite B. Tomo a vacina da gripe todo ano.\nTrauma: Vários traumas leves que resultaram em sangramentos.\nTransfusões: Sim, algumas vezes, principalmente antes de começar a usar o fator recombinante, há muitos anos. Fiz exames para hepatites e HIV, sempre deram negativos."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Tipo do parto: Minha mãe disse que foi vaginal.\nTempo de Gestação: A termo.\nIntercorrências neonatais: Não, meu nascimento foi normal, mas tive sangramento prolongado após a circuncisão.\nHábitos sexuais: Ativo, uso camisinha.\nHábitos urinários: Nega alterações.\nHábitos intestinais: Nega alterações.\nIngestão hídrica: Bebo bastante água.\nExposição ocupacional: Nega.\nEstresse: O estresse de ter uma doença crônica e as dores às vezes me deixam mais ansioso."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nunca fumei.\nEtilismo: Socialmente, ocasionalmente uma cerveja. Nunca em excesso.\nDrogas ilícitas: Nega.\nAlimentação: Equilibrada, evito alimentos muito gordurosos.\nAtividade física: Faço fisioterapia regularmente e natação 2 vezes por semana. Evito esportes de contato.\nSono: Durmo bem, cerca de 7-8 horas por noite."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Saudável.\nMãe: Portadora da hemofilia, mas não apresenta sintomas. Tem um tio (irmão da minha mãe) que também tinha hemofilia e morreu jovem por sangramento.\nDoenças na família: Minha avó materna também tinha irmãos com hemofilia.\nHistoria de cancêr na família: Nega.\nIrmãos ou tias: Tenho uma irmã saudável, não sei se é portadora. Não tenho irmãos homens."
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL",
+        "informacao": "Situação familiar: Casado, sem filhos.\nRede de apoio: Tenho o apoio da minha esposa e da minha família.\nSituação socioeconômica: Trabalho como analista de sistemas, tenho convênio.\nNível educacional: Ensino superior completo.\nReligião: Católica.\nEstresse psicossocial: A dificuldade de acesso à medicação na profilaxia e a dor crônica me causam bastante estresse."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato perguntar sobre o nível do fator, diga: 'Sua última dosagem foi há 6 meses e a atividade do Fator VIII era de 0.8% (0.008 UI/mL)'.\nSe o candidato solicitar exames de imagem, pergunte qual região ele gostaria de avaliar e quais exames.\nSe o candidato solicitar exames de sangue, libere o impresso de Laboratório e Coagulograma.\nSe o candidato perguntar sobre a presença de inibidores, diga: 'Meu último teste foi negativo, há 1 ano'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho de novo? É a mesma coisa de sempre?.\npergunta (2): Essa dor nas juntas vai melhorar alguma hora?.\npergunta (3): Tem algum tratamento novo para me ajudar a não sangrar tanto?. \npergunta (4): Posso ter filhos? Eles também terão hemofilia?.\npergunta (5): O que eu faço para que isso não aconteça novamente?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "120 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "72 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36,6 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Bom estado geral, corado, hidratado, lúcido e orientado."
+                },
+                {
+                  "chave": "Pele e Mucosas",
+                  "valor": "Múltiplos hematomas em diferentes estágios de reabsorção nos membros superiores e inferiores. Nega petéquias ou sangramento ativo."
+                },
+                {
+                  "chave": "Articulações",
+                  "valor": "Joelhos bilateralmente com aumento de volume discreto, crepitação à mobilização e leve limitação da extensão. Cotovelos com discreta atrofia muscular periarticular. Tornozelo direito com leve edema e dor à palpação profunda."
+                },
+                {
+                  "chave": "Musculatura",
+                  "valor": "Sem massas palpáveis. Tônus e força preservados."
+                },
+                {
+                  "chave": "Neurológico",
+                  "valor": "Sem déficits focais. Nível de consciência preservado."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação, sem visceromegalias."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais e Coagulograma",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.2 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "250.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "25 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (Ref: 0.7-1.3)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "COAGULOGRAMA",
+              "itens": [
+                {
+                  "chave": "Tempo de Protrombina (TP)",
+                  "valor": "12.0 segundos (Ref: 10.0-13.0 seg)"
+                },
+                {
+                  "chave": "RNI (INR)",
+                  "valor": "1.0 (Ref: 0.8-1.2)"
+                },
+                {
+                  "chave": "Tempo de Tromboplastina Parcial Ativada (aTTP)",
+                  "valor": "65 segundos (Ref: 25-35 seg)"
+                },
+                {
+                  "chave": "Tempo de Sangramento (TS)",
+                  "valor": "4 minutos (Ref: 2-7 min)"
+                },
+                {
+                  "chave": "Fibrinogênio",
+                  "valor": "300 mg/dL (Ref: 200-400 mg/dL)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_FATOR_COAG_3",
+        "tituloImpresso": "Dosagem de Fatores de Coagulação",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "FATORES DE COAGULAÇÃO",
+              "itens": [
+                {
+                  "chave": "Fator VIII (atividade)",
+                  "valor": "0.8 % (0.008 UI/mL) (Ref: 50-150%)"
+                },
+                {
+                  "chave": "Fator IX (atividade)",
+                  "valor": "100 % (Ref: 50-150%)"
+                },
+                {
+                  "chave": "Fator de von Willebrand (atividade)",
+                  "valor": "90 % (Ref: 50-150%)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_RX_4",
+        "tituloImpresso": "Radiografia de Joelho",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM.",
+          "caminhoImagem": "(Buscar no Google Imagens: Radiografia de joelho artropatia hemofílica crônica, estreitamento articular, esclerose subcondral, cistos ósseos)",
+          "laudo": "Radiografia de joelhos bilateralmente, evidenciando estreitamento difuso dos espaços articulares, irregularidades das superfícies ósseas, esclerose subcondral e presença de cistos ósseos em epífises femorais e tibiais. Sinais compatíveis com artropatia hemofílica avançada."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_USG_5",
+        "tituloImpresso": "Ultrassonografia de Tornozelo Direito",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM.",
+          "caminhoImagem": "(Buscar no Google Imagens: Ultrassonografia tornozelo hemartrose derrame articular sinovite)",
+          "laudo": "Ultrassonografia do tornozelo direito com presença de derrame articular moderado, com evidências de sinovite e espessamento da cápsula articular. Não foram identificados outros achados agudos ou pseudo-tumores."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_HEMOFILIA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 30 anos, com Hemofilia A grave diagnosticada na infância, apresentando sangramentos articulares e em partes moles desde criança. Atualmente em profilaxia irregular com Fator VIII, queixa-se de sangramentos frequentes e dor articular crônica e aguda. Exame físico e exames complementares confirmam Hemofilia A grave e artropatia hemofílica.",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada sobre sangramentos e dor articular.",
+        "Avaliação de complicações da hemofilia (artropatia, inibidores).",
+        "Solicitação e interpretação de exames laboratoriais e de imagem específicos.",
+        "Estabelecimento do diagnóstico correto e seus diferenciais.",
+        "Planejamento de conduta terapêutica e orientações ao paciente, incluindo aconselhamento genético."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e comunicação inicial:\n(1) Apresenta-se e cumprimenta o paciente simulado;\n(2) Pergunta o nome do paciente.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização completa dos sangramentos:\n(1) Início, frequência e duração dos episódios;\n(2) Localização principal e tipo (hemartroses, hematomas, mucosas);\n(3) Intensidade da dor associada;\n(4) Fatores desencadeantes, de piora ou melhora;\n(5) Medicação utilizada para alívio e seus resultados;\n(6) Histórico de sangramentos prévios relevantes.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou 6 aspectos do sangramento.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 aspectos do sangramento.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracterização completa da dor articular:\n(1) Início, localização e irradiação;\n(2) Intensidade e tipo da dor (crônica vs. aguda);\n(3) Fatores de piora ou melhora;\n(4) Impacto funcional ou limitação de movimento;\n(5) Medicação de alívio utilizada e seus resultados.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 aspectos da dor articular.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 aspectos da dor articular.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 ou menos aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Investigação de sintomas associados e sinais de alarme:\n(1) Cefaleia súbita e intensa ou alteração neurológica;\n(2) Dor abdominal intensa ou sangramento gastrointestinal;\n(3) Dispneia ou estridor;\n(4) Palidez, fraqueza ou sinais de choque.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 3 ou 4 sintomas ou sinais de alarme.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 1 ou 2 sintomas ou sinais de alarme.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não investiga adequadamente ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Antecedentes Pessoais Relevantes:\n(1) Diagnóstico de Hemofilia (tipo e gravidade);\n(2) Desenvolvimento de inibidores;\n(3) Complicações pregressas (artropatia, pseudo-tumores, infecções por hemoderivados);\n(4) Histórico de cirurgias e intercorrências hemorrágicas;\n(5) Vacinação, especialmente para hepatites virais.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 aspectos dos antecedentes pessoais.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 aspectos dos antecedentes pessoais.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 ou menos aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Antecedentes Familiares e Hábitos de Vida:\n(1) História familiar de hemofilia ou distúrbios hemorrágicos e padrão de herança (X-ligada);\n(2) Uso de medicamentos que afetam a coagulação (AINEs, AAS);\n(3) Nível de atividade física e esportes de risco;\n(4) Uso de álcool/drogas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 3 ou 4 aspectos dos antecedentes familiares e hábitos de vida.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 1 ou 2 aspectos dos antecedentes familiares e hábitos de vida.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não investiga adequadamente ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita e interpreta o Exame Físico:\n(1) Avalia sinais vitais para instabilidade hemodinâmica ou febre;\n(2) Inspeciona pele e mucosas (hematomas, sangramentos ativos);\n(3) Avalia articulações (sinais de hemartrose aguda, deformidades, atrofia muscular);\n(4) Realiza exame neurológico básico (nível de consciência, déficits focais);\n(5) Avalia abdome (distensão, massas).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 4 ou 5 achados do exame físico.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 2 ou 3 achados do exame físico.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta 1 ou menos achados ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita e interpreta Exames Laboratoriais Essenciais:\n(1) Hemograma completo (avalia anemia);\n(2) Coagulograma (aTTP, TP/INR, TS);\n(3) Dosagem da atividade dos Fatores VIII e IX;\n(4) Teste de inibidores (ensaio de Bethesda);\n(5) Exames para hepatites virais e HIV (para co-morbidades).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 4 ou 5 exames laboratoriais corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 2 ou 3 exames laboratoriais corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta 1 ou menos exames ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e interpreta Exames de Imagem Específicos:\n(1) Radiografias articulares para avaliação de artropatia hemofílica crônica;\n(2) Ultrassonografia articular para hemartroses agudas ou sinovite;\n(3) Ressonância Magnética (RM) para avaliação de artropatia avançada, sangramentos profundos ou pseudo-tumores.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 2 ou 3 exames de imagem corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta apenas 1 exame de imagem corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Estabelece o Diagnóstico Principal e cita Diagnósticos Diferenciais:\n(1) Diagnóstico de Hemofilia (tipo e gravidade, ex: Hemofilia A grave);\n(2) Cita Doença de von Willebrand como principal diagnóstico diferencial;\n(3) Cita outras coagulopatias (adquiridas ou outras deficiências de fatores).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico principal completo e cita 2 ou mais diagnósticos diferenciais.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico principal completo e cita apenas 1 diagnóstico diferencial.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico correto ou não cita diferenciais adequados.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Propõe a Conduta Terapêutica Adequada:\n(1) Reafirma a importância da profilaxia com concentrado de fator deficiente;\n(2) Indica tratamento de episódios de sangramento agudo (reposição de fator, antifibrinolíticos);\n(3) Enfatiza fisioterapia e reabilitação para artropatia;\n(4) Contraindica AINEs e AAS, sugerindo analgésicos seguros (paracetamol);\n(5) Menciona a importância da avaliação pré-operatória e manejo em casos de cirurgia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe 4 ou 5 aspectos da conduta terapêutica.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 2 ou 3 aspectos da conduta terapêutica.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Propõe 1 ou menos aspectos ou não propõe conduta adequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Orientações e Aconselhamento ao Paciente:\n(1) Ensina a identificar e manejar sinais de alarme de sangramento grave (HIC, grandes hematomas);\n(2) Aborda o aconselhamento genético para o paciente e sua família (descendentes, portadoras);\n(3) Reforça a adesão à profilaxia e a importância do acompanhamento regular com hematologista;\n(4) Orienta sobre atividades físicas seguras e prevenção de traumas;\n(5) Reforça a vacinação (hepatites) e higiene oral.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Fornece 4 ou 5 orientações e aconselhamentos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Fornece 2 ou 3 orientações e aconselhamentos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Fornece 1 ou menos orientações ou não orienta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Hemofilia é um distúrbio hemorrágico hereditário, ligado ao cromossomo X, decorrente da deficiência de Fator VIII (Hemofilia A) ou Fator IX (Hemofilia B). É classificada em grave (<1% de atividade do fator), moderada (1-5%) e leve (>5-40%). O paciente apresenta um quadro clássico de Hemofilia A grave, com sangramentos espontâneos (hemartroses, hematomas) desde a infância, dor articular crônica por artropatia hemofílica e histórico familiar compatível com herança ligada ao X. Na anamnese, é fundamental detalhar os eventos hemorrágicos, o tipo e a gravidade da doença, histórico de inibidores e tratamento profilático. No exame físico, procurar por sinais de sangramento ativo, artropatia (deformidades, limitação, crepitação, atrofia muscular) e sinais de alarme de sangramentos graves (HIC). Os exames complementares confirmam o diagnóstico com aTTP prolongado, TP e plaquetas normais, e dosagem baixa de Fator VIII. A radiografia articular e ultrassonografia são essenciais para avaliar a artropatia. O diagnóstico diferencial principal é a Doença de von Willebrand (especialmente tipos 2N e 3). O tratamento baseia-se na reposição do fator deficiente, idealmente por profilaxia, e no manejo dos sangramentos agudos. Pacientes com inibidores necessitam de agentes bypass. É crucial orientar sobre a evitação de AINEs e AAS, a importância da fisioterapia, vacinação e identificação de sinais de alarme. O aconselhamento genético é essencial para pacientes e portadoras.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Portaria nº 1.996, de 25 de agosto de 2020. Aprova o Protocolo Clínico e Diretrizes Terapêuticas da Hemofilia A e B. Brasília, DF: Ministério da Saúde, 2020.",
+        "2. UpToDate. Hemophilia A and B: Clinical manifestations and diagnosis. Disponível em: www.uptodate.com. Acesso em: 15/05/2024.",
+        "3. Federação Mundial de Hemofilia (WFH). Treatment Guidelines for Hemophilia. Montreal: WFH, 2020."
+      ]
+    }
+  }
+}

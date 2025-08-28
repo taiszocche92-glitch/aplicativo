@@ -1,0 +1,803 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_HEPATITE_C",
+  "tituloEstacao": "Hepatite C Crônica",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Hepatite C, HCV, Fibrose Hepática, Cirrose, DAA, Clínica Médica, Atenção Secundária",
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem",
+        "Medicações, vacinas disponíveis"
+      ]
+    },
+    "descricaoCasoCompleta": "A Sra. Marta Silva, 52 anos, costureira, chega à consulta em ambulatório de clínica médica com uma ficha de encaminhamento do clínico geral, que aponta um resultado de Anti-HCV reagente em um exame de rotina. A paciente relata sentir muito cansaço.",
+    "tarefasPrincipais": [
+      "Realizar anamnese direcionada ao caso clínico",
+      "Solicitar e descrever o exame físico direcionado ao caso",
+      "Solicitar os exames complementares pertinentes ao caso clínico",
+      "Interpretar os exames complementares apresentados",
+      "Verbalizar o diagnóstico clínico principal e seu estadiamento",
+      "Estabelecer diagnósticos diferenciais relevantes para o caso",
+      "Elaborar a conduta terapêutica de primeira linha e orientações ao paciente",
+      "Verbalizar a necessidade de notificação compulsória",
+      "Responder às dúvidas do paciente simulado"
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO",
+        "informacao": "Nome: Marta Silva\nIdade: 52 anos\nSexo: Feminino\nEstado Civil: Casada\nProfissão: Costureira"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Vim por causa de um exame de sangue que deu alterado e tenho sentido muito cansaço."
+      },
+      {
+        "contextoOuPerguntaChave": "FADIGA",
+        "informacao": "Início: Há cerca de 6 meses\nDiferenciação: Cansaço constante, sinto falta de energia, não é fraqueza muscular\nEvolução: Piora gradualmente, me sinto mais cansada com o tempo\nImpacto funcional: Dificuldade para realizar as tarefas da casa e do trabalho, preciso fazer pausas frequentes\nRelação com atividade/repouso: Piora com esforço físico, melhora um pouco com repouso, mas não some\nQualidade do sono: Durmo cerca de 7-8 horas por noite, mas acordo ainda cansada\nSintomas de humor associados: Nega sentir-se triste ou desanimada, mas a falta de energia me incomoda\nSintomas associados: Nega outros sintomas além da fadiga"
+      },
+      {
+        "contextoOuPerguntaChave": "EXAME ANTI-HCV POSITIVO",
+        "informacao": "Quando realizou: Há 2 meses, em um check-up de rotina solicitado pelo clínico geral\nEntendimento do resultado: Não entendi bem o que significa, apenas que pode ser algo no fígado\nOrientação prévia: O médico apenas disse para procurar um especialista"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS DE DESCOMPENSAÇÃO HEPÁTICA",
+        "informacao": "Icterícia: Nega\nUrina escura: Nega\nFezes claras: Nega\nDor abdominal: Nega\nPrurido: Nega\nPerda de peso não intencional: Nega\nInchaço nas pernas: Nega\nInchaço na barriga: Nega\nConfusão mental ou alterações de comportamento: Nega\nHemorragia digestiva: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES DE EXPOSIÇÃO AO HCV",
+        "informacao": "Transfusões sanguíneas: Sim, em 1988, durante o parto do primeiro filho\nUso de drogas injetáveis ou inaláveis: Nega uso prévio ou atual\nCompartilhamento de agulhas: Nega\nTatuagens ou piercings: Tatuagem feita em 2005 em estúdio regulamentado, nega piercings\nExposição ocupacional a sangue: Nega\nHemodiálise: Nega\nCompartilhamento de objetos de higiene pessoal: Nega\nParceiros sexuais com Hepatite C: Nega conhecimento\nHistórico de DSTs: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS PATOLÓGICOS",
+        "informacao": "Doenças crônicas: Nega Diabetes, Hipo/Hipertireoidismo, Doença renal crônica, Doença autoimune, Outras doenças hepáticas\nCirurgias prévias: Parto cesárea em 1988, apendicectomia em 1995\nInternações: Não consta\nAlergias: Não consta\nMedicamentos em uso contínuo: Não consta\nVacinação: Nega vacinação para Hepatite A, não sabe se tomou para Hepatite B\nTrauma: Não consta\nTransfusões: Sim, em 1988, durante o parto do primeiro filho"
+      },
+      {
+        "contextoOuPerguntaChave": "COINFECÇÕES",
+        "informacao": "HIV: Nega\nHepatite B: Nega histórico de infecção. Não sabe se é vacinada ou se já teve."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Sem histórico de Hepatite C ou outras doenças hepáticas conhecidas\nMãe: Teve cirrose hepática de causa desconhecida, falecida aos 70 anos\nDoenças na família: Não consta\nHistória de câncer na família: Não consta\nIrmãos ou tias: Sem histórico de Hepatite C ou outras doenças hepáticas conhecidas"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega\nEtilismo: Socialmente, 1 taça de vinho nos fins de semana (aproximadamente 250ml/semana)\nDrogas ilícitas: Nega\nAlimentação: Equilibrada, mas gosta de doces\nAtividade física: Caminhadas leves 3x por semana\nSono: Durmo cerca de 7-8 horas por noite, mas acordo ainda cansada\nHábitos urinários: Não consta\nHábitos intestinais: Não consta\nIngestão hídrica: 1,5-2L/dia\nExposição ocupacional: Nega\nEstresse: Não consta\nParceiros sexuais: Casada há 30 anos com o mesmo parceiro, nega outros parceiros sexuais\nUso de preservativo: Não usa regularmente atualmente"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): Doutor(a), essa doença tem cura?\npergunta (2): É grave?\npergunta (3): Vou precisar de transplante?\npergunta (4): Preciso avisar meu marido e filhos?\npergunta (5): E o que eu posso fazer pra melhorar meu fígado?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_2",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "120 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "78 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "36,5 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "98% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_3",
+        "tituloImpresso": "Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESTADO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Bom estado geral, lúcida, orientada, corada, hidratada, eupneica, afebril, anictérica, acianótica. Sem alterações cognitivas evidentes."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ECTOSCOPIA",
+              "itens": [
+                {
+                  "chave": "Pele e mucosas",
+                  "valor": "Sem icterícia, sem aranhas vasculares, sem eritema palmar evidente. Presença de pequenas telangiectasias isoladas em tronco."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO CARDIOVASCULAR",
+              "itens": [
+                {
+                  "chave": "Ausculta cardíaca",
+                  "valor": "RCR em 2T, bulhas normofonéticas, sem sopros"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO RESPIRATÓRIO",
+              "itens": [
+                {
+                  "chave": "Ausculta pulmonar",
+                  "valor": "MV audível bilateralmente, sem ruídos adventícios"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ABDOME",
+              "itens": [
+                {
+                  "chave": "Inspeção",
+                  "valor": "Plano, sem distensão, sem circulação colateral"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "Palpação",
+              "itens": [
+                {
+                  "chave": "Fígado",
+                  "valor": "Palpável a 2 cm do RCD, de consistência discretamente aumentada, borda regular"
+                },
+                {
+                  "chave": "Baço",
+                  "valor": "Não palpável. Espaço de Traube livre"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "Percussão",
+              "itens": [
+                {
+                  "chave": "Sem macicez móvel ou de flanco",
+                  "valor": "Não constatado"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXTREMIDADES",
+              "itens": [
+                {
+                  "chave": "Edema de membros inferiores",
+                  "valor": "Ausente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "NEUROLÓGICO",
+              "itens": [
+                {
+                  "chave": "Exame sumário",
+                  "valor": "Sem asterixis, sem alterações focais ou de consciência"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIAL_4",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "MARCADORES HEPÁTICOS E FUNÇÃO",
+              "itens": [
+                {
+                  "chave": "Anti-HCV (ECLIA)",
+                  "valor": "Reagente (Valor: 8.5 UI/mL, VR: < 1.0 UI/mL)"
+                },
+                {
+                  "chave": "HCV-RNA Qualitativo (PCR)",
+                  "valor": "Detectável"
+                },
+                {
+                  "chave": "AST (TGO)",
+                  "valor": "55 U/L (VR: < 40 U/L)"
+                },
+                {
+                  "chave": "ALT (TGP)",
+                  "valor": "70 U/L (VR: < 40 U/L)"
+                },
+                {
+                  "chave": "Bilirrubina Total",
+                  "valor": "0.8 mg/dL (VR: < 1.2 mg/dL)"
+                },
+                {
+                  "chave": "Bilirrubina Direta",
+                  "valor": "0.2 mg/dL (VR: < 0.3 mg/dL)"
+                },
+                {
+                  "chave": "Albumina Sérica",
+                  "valor": "4.1 g/dL (VR: 3.5 - 5.0 g/dL)"
+                },
+                {
+                  "chave": "INR / TAP",
+                  "valor": "1.0 (VR: 0.8 - 1.2)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "13.2 g/dL (VR: 12.0 - 16.0 g/dL)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "135.000/mm³ (VR: 150.000 - 450.000/mm³)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "6.500/mm³ (VR: 4.000 - 11.000/mm³)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "FUNÇÃO RENAL E OUTROS",
+              "itens": [
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (VR: 0.6 - 1.3 mg/dL)"
+                },
+                {
+                  "chave": "Glicemia de Jejum",
+                  "valor": "95 mg/dL (VR: 70 - 99 mg/dL)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SOROLOGIAS COINFECÇÕES",
+              "itens": [
+                {
+                  "chave": "HBsAg",
+                  "valor": "Não reagente"
+                },
+                {
+                  "chave": "Anti-HBs",
+                  "valor": "Não reagente"
+                },
+                {
+                  "chave": "Anti-HBc Total",
+                  "valor": "Não reagente"
+                },
+                {
+                  "chave": "Anti-HIV 1/2",
+                  "valor": "Não reagente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_USGABDOME_7",
+        "tituloImpresso": "Ultrassonografia de Abdome Total",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Observa-se imagem de ultrassonografia de abdome total.",
+          "urlImagem": "https://cdn.radiologia.blog.br/wp-content/uploads/2019/08/cirrose-e-carcinoma-hepatocelular.jpg",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: Ultrassonografia de abdome total com sinais de doença hepática crônica, fígado aumentado e irregular, esplenomegalia discreta)",
+          "laudo": "LAUDO DA ULTRASSONOGRAFIA DE ABDOME TOTAL\n\nFígado: Aumentado de volume (lobo esquerdo) com contornos levemente irregulares e textura heterogênea, sugestivo de doença hepática crônica. Não foram identificados nódulos focais ou massas hepáticas suspeitas.\n\nVesícula Biliar: Distendida, de paredes finas, sem cálculos.\n\nBaço: Aumentado de volume (esplenomegalia discreta), medindo 13.5 cm no maior diâmetro.\n\nPâncreas: Aspecto habitual.\n\nRins: Morfologia e ecotextura normais.\n\nLíquido livre: Ausente.\n\nConclusão: Sinais ultrassonográficos compatíveis com doença hepática crônica e esplenomegalia discreta."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_HEPATITE_C_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente Marta Silva, 52 anos, com fadiga crônica e anti-HCV reagente em check-up. Anamnese revela transfusão sanguínea em 1988 como provável via de infecção. Exame físico sem descompensação evidente, mas com telangiectasias isoladas e fígado palpável com consistência aumentada. Exames confirmam infecção ativa por HCV (RNA detectável), genótipo 1a, com elevação leve de transaminases e plaquetopenia. Elastografia hepática indica fibrose avançada (F3-F4), e ultrassonografia de abdome mostra sinais de doença hepática crônica e esplenomegalia discreta. O caso exige diagnóstico, estadiamento e plano de tratamento de acordo com PCDT.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa e direcionada, com foco em sintomas inespecíficos e fatores de risco para HCV",
+        "Exame físico buscando sinais de hepatopatia crônica",
+        "Solicitação e interpretação de exames complementares para confirmação diagnóstica, estadiamento da fibrose e exclusão de diagnósticos diferenciais",
+        "Formulação do diagnóstico e estadiamento completo da hepatite C",
+        "Elaboração de conduta terapêutica com DAAs pangenotípicos e orientações de seguimento, incluindo rastreamento de CHC"
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e Queixa Principal:\n(1) Apresenta-se e cumprimenta o paciente simulado;\n(2) Pergunta o nome completo e idade do paciente;\n(3) Pergunta o motivo da consulta e deixa o paciente expressar-se sem interrupção.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações adequadamente.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza duas das ações.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Realiza uma ação ou não realiza nenhuma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Fadiga:\n(1) Início da fadiga;\n(2) Evolução e progressão;\n(3) Intensidade ou impacto funcional;\n(4) Relação com atividade/repouso;\n(5) Qualidade do sono;\n(6) Outros sintomas associados.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 5 ou 6 itens da fadiga.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 ou 4 itens da fadiga.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Investigação do Exame Anti-HCV Positivo:\n(1) Quando o exame foi realizado;\n(2) Entendimento do resultado;\n(3) Orientação prévia recebida.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre os 3 itens do exame Anti-HCV positivo.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 2 dos itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 2 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Investigação de Sintomas/Sinais de Doença Hepática ou Descompensação:\n(1) Icterícia;\n(2) Urina escura;\n(3) Fezes claras;\n(4) Prurido generalizado;\n(5) Edema de membros inferiores;\n(6) Distensão abdominal;\n(7) Alterações de comportamento ou confusão mental;\n(8) Hemorragia digestiva;\n(9) Dor no quadrante superior direito do abdome;\n(10) Perda de peso não intencional.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 7 ou mais itens de sintomas/sinais de doença hepática.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 4 a 6 itens de sintomas/sinais de doença hepática.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 4 itens ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Investigação de Fatores de Risco/Exposição para HCV:\n(1) Transfusões sanguíneas;\n(2) Uso de drogas injetáveis ou inaláveis;\n(3) Tatuagens ou piercings;\n(4) Compartilhamento de objetos de higiene pessoal;\n(5) Exposição ocupacional a sangue;\n(6) Hemodiálise;\n(7) História de parceiros sexuais com HCV.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou mais fatores de risco.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 fatores de risco.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 3 fatores de risco ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Investigação de Coinfecções e Antecedentes Familiares:\n(1) Investigação de sorologias para HIV;\n(2) Investigação de sorologias para Hepatite B;\n(3) História familiar de Hepatite C ou outras doenças hepáticas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga os 3 itens adequadamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 2 itens ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Anamnese - Antecedentes Patológicos Relevantes:\n(1) Doenças crônicas (diabetes, tireoidopatias, doença renal, autoimune);\n(2) Cirurgias prévias;\n(3) Vacinação para outras hepatites virais.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga os 3 itens adequadamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 2 itens ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Anamnese - Hábitos de Vida:\n(1) Uso de álcool;\n(2) Tabagismo;\n(3) Uso de drogas ilícitas;\n(4) Dieta e atividade física;\n(5) Hábitos sexuais (parceiros, uso de preservativo).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 itens dos hábitos de vida.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 itens dos hábitos de vida.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 2 itens ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicitação e Verificação de Sinais Vitais:\n(1) Solicita/Verifica Pressão Arterial;\n(2) Solicita/Verifica Frequência Cardíaca;\n(3) Solicita/Verifica Frequência Respiratória;\n(4) Solicita/Verifica Temperatura;\n(5) Solicita/Verifica Saturação de O2.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita/Verifica 4 ou 5 itens dos sinais vitais.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita/Verifica 2 ou 3 itens dos sinais vitais.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Solicita/Verifica menos de 2 itens ou não solicita/verifica.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicitação e Realização do Exame Físico Geral e Específico:\n(1) Solicita/Realiza inspeção buscando icterícia, aranhas vasculares, eritema palmar;\n(2) Solicita/Realiza palpação abdominal buscando hepatomegalia e/ou esplenomegalia;\n(3) Solicita/Realiza percussão abdominal buscando ascite;\n(4) Solicita/Verifica edema de membros inferiores;\n(5) Solicita/Verifica alterações neurológicas (asterixis).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 4 ou 5 itens do exame físico relevantes para o caso.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 2 ou 3 itens do exame físico.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Realiza menos de 2 itens ou não realiza.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Interpretação do impresso - Ficha de Encaminhamento:\n(1) Interpreta a ficha de encaminhamento, compreendendo o motivo da consulta.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta o impresso corretamente.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Interpretação do impresso - Sinais Vitais:\n(1) Interpreta os sinais vitais, notando ausência de alterações agudas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta o impresso corretamente.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Interpretação do impresso - Exame Físico:\n(1) Interpreta os achados do exame físico geral (telangiectasias, estado geral);\n(2) Interpreta os achados do exame físico abdominal (fígado palpável, consistência, baço não palpável, ausência de ascite).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta ambos os itens do exame físico corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta apenas um dos itens do exame físico.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não interpreta adequadamente nenhum dos itens do exame físico.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Solicitação de Exames Laboratoriais Complementares:\n(1) Solicita HCV-RNA quantitativo;\n(2) Solicita função hepática completa (bilirrubinas, albumina, INR/TAP);\n(3) Solicita Hemograma completo;\n(4) Solicita sorologias para HBV e HIV;\n(5) Solicita Glicemia de jejum e perfil lipídico;\n(6) Solicita TSH.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 5 ou 6 dos exames laboratoriais complementares.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 3 ou 4 dos exames laboratoriais.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 3 exames ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Solicitação de Exames de Imagem/Estadiamento da Fibrose:\n(1) Solicita Ultrassonografia de abdome total;\n(2) Solicita Elastografia hepática (FibroScan).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita os dois exames adequadamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita apenas um dos exames.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não solicita nenhum dos exames.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Interpretação do impresso - Exames Laboratoriais:\n(1) Interpreta o resultado do HCV-RNA (detectável);\n(2) Interpreta as enzimas hepáticas (AST/ALT elevadas);\n(3) Interpreta a contagem de plaquetas (trombocitopenia);\n(4) Interpreta sorologias para coinfecções (HBsAg, Anti-HBc Total, Anti-HIV não reagentes).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 4 dos achados cruciais dos exames laboratoriais.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 ou 3 dos achados cruciais.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 2 ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Interpretação do impresso - Elastografia Hepática:\n(1) Interpreta o resultado da Elastografia Hepática, estadiando a fibrose como avançada (F3-F4).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta o resultado corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item18",
+        "itemNumeroOficial": "18",
+        "descricaoItem": "Interpretação do impresso - Ultrassonografia de Abdome:\n(1) Interpreta os achados de doença hepática crônica (contornos irregulares, textura heterogênea);\n(2) Interpreta a presença de esplenomegalia discreta;\n(3) Interpreta a ausência de nódulos suspeitos de CHC ou ascite.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta os 3 achados da ultrassonografia corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 ou 2 dos achados.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não interpreta adequadamente nenhum dos achados.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item19",
+        "itemNumeroOficial": "19",
+        "descricaoItem": "Interpretação do impresso - Genotipagem do HCV:\n(1) Identifica o genótipo 1a.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica o genótipo corretamente.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não identifica o genótipo ou o faz incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item20",
+        "itemNumeroOficial": "20",
+        "descricaoItem": "Diagnóstico Principal e Estadiamento:\n(1) Estabelece o diagnóstico de Hepatite C Crônica;\n(2) Menciona o Genótipo 1a;\n(3) Estadia a fibrose como avançada (F3-F4) ou cirrose.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Estabelece os 3 elementos do diagnóstico corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Estabelece 1 ou 2 elementos do diagnóstico corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico corretamente ou o faz de forma muito imprecisa.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item21",
+        "itemNumeroOficial": "21",
+        "descricaoItem": "Diagnósticos Diferenciais a Descartar:\n(1) Cita outras causas de hepatite viral (HBV);\n(2) Cita doença hepática alcoólica ou esteato-hepatite não alcoólica;\n(3) Cita hepatite autoimune ou hemocromatose.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 2 ou 3 diagnósticos diferenciais relevantes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita apenas 1 diagnóstico diferencial relevante.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou os faz incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item22",
+        "itemNumeroOficial": "22",
+        "descricaoItem": "Conduta Terapêutica e Orientações Iniciais:\n(1) Indica o tratamento com Antivirais de Ação Direta (DAA) pangenotípicos;\n(2) Menciona a alta taxa de cura e a duração do tratamento (8-12 semanas);\n(3) Orienta sobre abstinência alcoólica e dieta saudável;\n(4) Orienta sobre o rastreamento semestral de Carcinoma Hepatocelular (CHC) com USG de abdome;\n(5) Orienta sobre testagem e prevenção para contatos (marido e filhos);\n(6) Orienta sobre seguimento pós-RVS para paciente com cirrose.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica 5 ou 6 itens da conduta terapêutica e orientações.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica 3 ou 4 itens da conduta terapêutica e orientações.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Indica menos de 3 itens ou não o faz adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item23",
+        "itemNumeroOficial": "23",
+        "descricaoItem": "Resposta às Dúvidas do Paciente Simulado:\n(1) Responde se a doença tem cura;\n(2) Responde sobre a gravidade;\n(3) Responde sobre a necessidade de transplante;\n(4) Responde sobre a necessidade de avisar marido e filhos;\n(5) Responde sobre o que pode ser feito para melhorar o fígado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde adequadamente a 4 ou 5 das perguntas do paciente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Responde adequadamente a 2 ou 3 das perguntas do paciente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Responde a menos de 2 perguntas ou o faz incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_hcv_item24",
+        "itemNumeroOficial": "24",
+        "descricaoItem": "Notificação ao SINAN:\n(1) Verbaliza a necessidade de notificação compulsória do caso de Hepatite C.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza a ação adequadamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza a ação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Hepatite C é uma infecção viral crônica do fígado que, se não tratada, pode levar a cirrose, carcinoma hepatocelular (CHC) e necessidade de transplante hepático. A maioria dos pacientes é assintomática nas fases iniciais, e a fadiga é uma queixa comum e inespecífica. A infecção é confirmada pela detecção de anticorpos anti-HCV e, posteriormente, pelo RNA do HCV (HCV-RNA). Fatores de risco incluem transfusões antes de 1993, uso de drogas injetáveis e compartilhamento de objetos perfurocortantes. O estadiamento da fibrose hepática, classicamente pela biópsia ou, de forma não invasiva, pela elastografia (FibroScan), é crucial para o prognóstico e manejo. A paciente Marta Silva apresenta evidências de Hepatite C crônica (anti-HCV reagente, HCV-RNA detectável), genótipo 1a, com fibrose hepática avançada (F3-F4) pela elastografia e sinais de doença hepática crônica na ultrassonografia, incluindo esplenomegalia discreta, embora sem descompensação atual. Transaminases elevadas e trombocitopenia corroboram a cronicidade e avanço da doença. O tratamento atual com antivirais de ação direta (DAA) pangenotípicos (ex: Sofosbuvir/Velpatasvir ou Glecaprevir/Pibrentasvir) é altamente eficaz, com taxas de cura superiores a 95% em 8 a 12 semanas. Após a cura viral (resposta viral sustentada), pacientes com cirrose devem manter rastreamento semestral para CHC com ultrassonografia de abdome, devido ao risco residual. Orientações sobre abstinência alcoólica, dieta saudável e testagem de contatos são fundamentais. A Hepatite C é uma doença de notificação compulsória.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde e Ambiente. Departamento de HIV/Aids, Tuberculose, Hepatites Virais e Infecções Sexualmente Transmissíveis. Protocolo Clínico e Diretrizes Terapêuticas para Hepatite C e Coinfecções (PCDT Hepatite C) – 2023. Disponível em: https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/hepatites-virais/pcdt-hepatite-c.pdf",
+        "2. UpToDate. Overview of the treatment of chronic hepatitis C virus infection in adults. Tabela de conteúdo e tópicos relevantes. Disponível em: www.uptodate.com. Acesso em: 25 out. 2024.",
+        "3. Sociedade Brasileira de Hepatologia (SBH). Recomendações. Disponível em: http://www.sbhepatologia.org.br/publicacoes/. Acesso em: 25 out. 2024."
+      ]
+    }
+  }
+}

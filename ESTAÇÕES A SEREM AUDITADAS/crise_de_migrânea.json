@@ -1,0 +1,460 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_02",
+  "tituloEstacao": "Crise de Migrânea",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Migrânea",
+    "Enxaqueca",
+    "Cefaleia primária",
+    "Dor de cabeça",
+    "Clínica Médica",
+    "Atenção secundária"
+  ],
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (se necessário)",
+        "Medicações disponíveis na farmácia da unidade"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente Maria da Silva, 35 anos, chega ao consultório referindo uma crise de dor de cabeça forte e pulsátil que começou há algumas horas.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese completa, focando na queixa principal do paciente.",
+      "Solicitar os exames físicos necessários à avaliação do caso, verbalizando-os.",
+      "Formular a(s) hipótese(s) diagnóstica(s) principal(is) e as diferenciais.",
+      "Verbalizar a conduta terapêutica para a crise e para a prevenção.",
+      "Prestar as orientações finais ao paciente."
+    ],
+    "avisosImportantess": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com uma dor de cabeça muito forte, doutor(a). É pulsátil e está me deixando enjoada. Começou hoje de manhã."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR DE CABEÇA",
+        "informacao": "Início: Começou hoje de manhã, por volta das 8h, de forma gradual.\nLocalização: Principalmente do lado direito da cabeça, na têmpora e atrás do olho.\nIntensidade: É uma dor 8/10 na escala de 0 a 10. Está me incapacitando, não consigo fazer minhas atividades.\nCaracterística ou Tipo da dor: É uma dor pulsátil, como um martelo batendo na cabeça.\nIrradiação: Não se espalha para outros locais, fica localizada na cabeça.\nDuração: Desde que começou hoje de manhã, ainda não passou. Minhas crises costumam durar de 6 a 24 horas se eu não tomar nada.\nProgressão: Tem piorado progressivamente ao longo do dia.\nFrequencia: Tenho cerca de 4 a 5 crises por mês, mas algumas são mais leves.\nFator Desencadeante: Acordei com ela hoje, mas às vezes vem antes da menstruação ou quando durmo muito pouco.\nFator de piora ou agravante: Piora muito com qualquer movimento, até caminhar, e com luz e barulho.\nFator de melhora ou atenuante: Melhora um pouco se eu ficar deitada no escuro e em silêncio.\nEpisódios prévios: Sim, tenho essas dores desde a adolescência. Já fui em outros médicos e me disseram que é enxaqueca.\nMedicação de alivio: Tomei paracetamol hoje cedo, mas não ajudou em nada."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Náuseas: Sinto muita náusea, como se fosse vomitar, mas ainda não vomitei.\nVômitos: Nega.\nFotofobia: Sim, a luz me incomoda muito. Preciso ficar no escuro.\nFonofobia: Sim, qualquer barulho me irrita e piora a dor.\nOsmophobia: Sinto aversão a cheiros fortes, eles pioram minha náusea.\nAura visual: Não, não vejo luzes piscando nem manchas escuras antes da dor. Minhas crises são sem aura.\nPródromos: Nega a presença de sintomas que antecedem a dor, como alterações de humor ou fadiga.\nPós-dromos: Quando a dor passa, costumo ficar bem cansada e com dificuldade de me concentrar."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Nega.\nCirurgias prévias: Nega.\nInternações: Nega.\nAlergias: Nega alergias conhecidas a medicamentos ou alimentos.\nMedicamentos em uso contínuo: Nega. Não uso medicação diariamente.\nVacinação: Cartão de vacinação em dia.\nTrauma: Nega traumas recentes na cabeça ou em outras partes do corpo.\nTransfusões: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Tipo do parto: Não aplicável.\nTempo de Gestação: Não aplicável.\nIntercorrências neonatais: Não aplicável.\nHábitos sexuais: Sexualmente ativa, com parceiro fixo.\nHábitos urinários: Normais, sem alterações de frequência ou dor.\nHábitos intestinais: Regulares, evacua diariamente, sem queixas.\nIngestão hídrica: Bebe cerca de 1,5 a 2 litros de água por dia.\nExposição ocupacional: Nega exposição a substâncias ou condições que possam desencadear cefaleia.\nEstresse: Refere que está passando por um período de estresse moderado no trabalho."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega tabagismo.\nEtilismo: Nega etilismo.\nDrogas ilícitas: Nega uso de drogas ilícitas.\nAlimentação: Dieta equilibrada, mas refere que chocolate às vezes pode ser um gatilho.\nAtividade física: Faz caminhadas leves 3 vezes por semana.\nSono: Refere que dorme cerca de 6 horas por noite durante a semana, mas tenta compensar no fim de semana. Às vezes o sono insuficiente ou em excesso desencadeia a crise.\nHábitos urinários: Nega alterações.\nHábitos intestinais: Nega alterações.\nIngestão hídrica: Bebe bastante água, cerca de 2 litros por dia.\nExposição ocupacional: Nega exposição a riscos específicos no trabalho.\nEstresse: Refere que o estresse é um gatilho frequente para as crises."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Saudável, sem história de enxaqueca.\nMãe: Tem enxaqueca desde jovem, tratou com remédios que comprou na farmácia.\nDoenças (específicas com relação e relevante ao caso) na família: Minha mãe tem enxaqueca.\nHistória de câncer na família: Nega.\nIrmãos ou tias: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS",
+        "informacao": "Gestações: 2 gestações.\nPartos: 2 partos vaginais.\nAbortos: Nega.\nCesáreas: Nega.\nData da Última Menstruação (DUM): Há 1 semana. A crise de dor de cabeça começou hoje, mas às vezes tenho crises mais fortes antes da menstruação.\nMenarca: Aos 12 anos.\nCiclos menstruais: Regulares, a cada 28 dias, fluxo moderado, duração de 5 dias.\nSexarca: Aos 18 anos.\nTelarca: Idade normal.\nPubarca: Idade normal.\nAtividade sexual: Ativa.\nParceiros: Um parceiro fixo.\nUso de contraceptivos: Nega uso atualmente. Já usou pílula combinada no passado.\nUso de preservativos: Sim, usa.\nExames preventivos: Papanicolau realizado há 6 meses, resultado normal. Mamografia realizada há 1 ano, resultado normal.\nHistórico de IST: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar exames de imagem (TC/RM de crânio), verbalize: 'Não, doutor(a), não trouxe nenhum exame de imagem. Eu nunca fiz um desses para minha enxaqueca. Meu médico anterior disse que não era necessário, já que minhas crises são sempre iguais'. Se o candidato insistir em solicitar, libere o impresso da TC de crânio normal. Se solicitar exames laboratoriais, libere o impresso dos exames laboratoriais normais. Se o candidato perguntar sobre outras condições, reforce que a dor é sempre 'igual às crises de enxaqueca que já conheço'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)?.\npergunta (2): Essa dor de cabeça é perigosa? Pode ser algo grave no meu cérebro?.\npergunta (3): O que posso fazer para essas dores não virem tantas vezes? Existe algum remédio que eu possa tomar sempre?.\npergunta (4): Posso tomar o remédio que minha mãe usa para enxaqueca?.\npergunta (5): Tenho medo de ficar viciada em remédios para dor, já que tomo tantos."
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est02_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "120 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "78 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.8 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 %"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO (VERBALIZAR)",
+              "itens": [
+                {
+                  "chave": "Estado Geral",
+                  "valor": "Bom estado geral, lúcida, orientada em tempo e espaço, porém com expressão de dor."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Normocefálica, sem lesões ou abaulamentos. Ausência de rigidez de nuca. Pulsos temporais simétricos e rítmicos, sem dor à palpação."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular, bulhas rítmicas e normofonéticas, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente e simétrico em ambos os hemitórax, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Plano, flácido, indolor à palpação, ruídos hidroaéreos presentes, sem visceromegalias ou massas palpáveis."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edemas, pulsos periféricos presentes e simétricos."
+                },
+                {
+                  "chave": "Exame Neurológico",
+                  "valor": "Pares cranianos preservados, força e sensibilidade globalmente preservadas, reflexos osteotendíneos presentes e simétricos. Sem sinais cerebelares ou meníngeos. Marcha preservada quando não em crise."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est02_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "13.2 g/dL (Ref: 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "25 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.8 mg/dL (Ref: 0.5-1.0)"
+                },
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "95 mg/dL (Ref: 70-99)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est02_impresso_IMAGEM_TC_3",
+        "tituloImpresso": "Tomografia Computadorizada de Crânio",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado de exame de imagem solicitado para investigação de cefaleia atípica ou com sinais de alarme, porém geralmente não indicado para migrânea típica.",
+          "caminhoImagem": "NÃO DISPONÍVEL, O CANDIDATO DEVE BUSCAR ONLINE SE NECESSÁRIO E APENAS SE INDICADO PELO ROTEIRO.",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: TC de crânio normal axial sem contraste)",
+          "laudo": "ACHADOS:\nTomografia computadorizada de crânio sem alterações significativas. Estruturas da linha média centradas. Sem evidências de lesões expansivas, coleções ou hemorragias intracranianas agudas. Sistema ventricular e sulcos corticais de morfologia e dimensões usuais para a idade. Ossos da calota craniana íntegros. (Obs: Este exame não é de rotina para diagnóstico de migrânea típica e seria considerado normal neste caso).\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST02_CM_MIGRANEA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente Maria da Silva, 35 anos, apresenta-se com crise de migrânea típica (sem aura), caracterizada por cefaleia unilateral, pulsátil, de intensidade moderada a grave, agravada por atividade física e associada a náuseas, fotofobia e fonofobia. História de crises recorrentes desde a adolescência, com frequência de 4-5/mês, e fator familiar positivo. Refere ineficácia de analgésicos simples e gatilhos conhecidos (estresse, sono, menstruação). O exame físico e sinais vitais são normais, sem sinais de alarme.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa e detalhada da cefaleia, investigando características da dor, sintomas associados, fatores desencadeantes e sinais de alarme.",
+        "Realização e interpretação do exame físico e neurológico para exclusão de causas secundárias.",
+        "Identificação da ausência de indicação para exames complementares de rotina para migrânea típica.",
+        "Estabelecimento do diagnóstico de migrânea e seus diferenciais.",
+        "Elaboração de conduta terapêutica para a crise aguda e profilaxia, além de orientações gerais."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est02_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Cefaleia: Investiga de forma completa:\n(1) início;\n(2) localização;\n(3) intensidade;\n(4) qualidade (tipo pulsátil, latejante);\n(5) duração;\n(6) frequência das crises;\n(7) progressão da dor;\n(8) episódios prévios;\n(9) medicação de alívio e eficácia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 7 ou mais dos 9 itens de caracterização da cefaleia.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 6 dos 9 itens de caracterização da cefaleia.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos dos 9 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Sintomas Associados: Investiga a presença de:\n(1) náuseas;\n(2) vômitos;\n(3) fotofobia;\n(4) fonofobia;\n(5) osmofobia;\n(6) aura (visual, sensitiva, de fala);\n(7) pródromos;\n(8) pós-dromos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou mais dos 8 sintomas associados.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 dos 8 sintomas associados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos dos 8 sintomas ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Fatores Desencadeantes, Agravantes e Atenuantes: Questiona sobre:\n(1) estresse;\n(2) padrão de sono (privação/excesso);\n(3) ciclo menstrual;\n(4) alimentos (chocolate, queijos, cafeína);\n(5) álcool;\n(6) cheiros fortes/luzes brilhantes/ruídos;\n(7) atividade física;\n(8) repouso.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou mais dos 8 fatores.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 dos 8 fatores.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos dos 8 fatores ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Antecedentes e Hábitos de Vida: Investiga:\n(1) comorbidades (depressão, ansiedade);\n(2) uso de medicações contínuas (contraceptivos orais);\n(3) história familiar de migrânea;\n(4) uso de cafeína;\n(5) consumo de álcool;\n(6) tabagismo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou mais dos 6 antecedentes e hábitos relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 dos 6 antecedentes e hábitos relevantes.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos dos 6 antecedentes e hábitos ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Investigação de Sinais de Alarme (Red Flags - SNOOP4): Pergunta sobre:\n(1) sintomas sistêmicos (febre, perda de peso, câncer, HIV);\n(2) déficits neurológicos focais, alteração de consciência, papiledema, crise convulsiva;\n(3) início súbito ('thunderclap headache') ou após esforço/sexo;\n(4) início após os 50 anos;\n(5) mudança no padrão usual da cefaleia;\n(6) cefaleia progressiva;\n(7) cefaleia postural;\n(8) gravidez/puerpério.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou mais dos 8 sinais de alarme.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 dos 8 sinais de alarme.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos dos 8 sinais de alarme ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Exame Físico: Solicita e verbaliza os achados do exame físico geral e neurológico direcionado, com foco em:\n(1) sinais vitais (PA, FC, FR, T, SatO2);\n(2) estado geral;\n(3) exame neurológico completo (pares cranianos, força, sensibilidade, reflexos, coordenação);\n(4) ausência de sinais meníngeos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e verbaliza 3 ou 4 dos 4 itens corretamente (e interpreta a normalidade).",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e verbaliza 2 dos 4 itens corretamente (e interpreta a normalidade).",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Solicita e verbaliza 1 ou nenhum item ou interpreta inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Exames Complementares: Solicita ou justifica a não solicitação de exames, considerando a relevância para o caso:\n(1) verbaliza que exames laboratoriais/de imagem não são necessários para migrânea típica;\n(2) solicita exames complementares (hemograma, bioquímica, TC/RM de crânio) apenas se houver sinais de alarme;\n(3) interpreta corretamente os resultados dos exames apresentados (se solicitados).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a não necessidade de exames OU solicita apenas se indicado por sinais de alarme E interpreta corretamente os achados normais (2 ou 3 itens).",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza a não necessidade de exames OU solicita apenas se indicado por sinais de alarme (1 item).",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Solicita exames desnecessários sem justificativa ou não interpreta os resultados (0 item).",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Diagnóstico Principal: Verbaliza o diagnóstico correto e sua classificação:\n(1) Migrânea;\n(2) Sem aura (ou com aura, se fosse o caso);\n(3) Episódica de alta frequência ou Crônica (se aplicável, com base na frequência das crises).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico completo com 2 ou 3 classificações.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico principal (Migrânea) corretamente, mas omite ou classifica inadequadamente o tipo.",
+            "pontos": 0.6
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico correto ou o faz de forma inadequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Diagnósticos Diferenciais: Cita diagnósticos diferenciais relevantes para cefaleia:\n(1) Cefaleia tensional;\n(2) Cefaleia em salvas;\n(3) Cefaleia por uso excessivo de medicação;\n(4) Cefaleias secundárias (ex: hemorragia subaracnoidea, tumor, meningite - em caso de sinais de alarme).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou 4 diagnósticos diferenciais corretos e relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais corretos e relevantes.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Conduta Terapêutica: Propõe tratamento adequado para a crise aguda e profilaxia, verbalizando os grupos farmacológicos:\n(1) Tratamento agudo (analgésicos, AINEs, triptanos, antieméticos);\n(2) Indicação de profilaxia (≥ 4 crises/mês, crises incapacitantes, falha ao tratamento agudo);\n(3) Tratamento profilático (beta-bloqueadores, antidepressivos, anticonvulsivantes, anti-CGRP).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe tratamento agudo E profilático, com justificativa para profilaxia (3 itens).",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe apenas tratamento agudo ou profilático, ou omite a justificativa (1 ou 2 itens).",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não propõe tratamento adequado ou propõe incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Orientações e Plano de Seguimento: Orienta sobre:\n(1) Diário de cefaleia;\n(2) Identificação e manejo de gatilhos;\n(3) Medidas não farmacológicas (estilo de vida, relaxamento);\n(4) Sinais de alarme para buscar atendimento médico;\n(5) Importância do seguimento regular.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre 4 ou 5 dos aspectos de seguimento.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta sobre 2 ou 3 dos aspectos de seguimento.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Orienta sobre 1 ou nenhum dos aspectos de seguimento ou o faz incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A migrânea (enxaqueca) é uma cefaleia primária crônica e incapacitante. A anamnese é a ferramenta diagnóstica mais crucial, focando nas características da dor (unilateral, pulsátil, moderada a grave, agravada por esforço), sintomas associados (náuseas, vômitos, fotofobia, fonofobia), e exclusão de aura. A investigação de fatores desencadeantes (estresse, sono, hormônios, dieta) e antecedentes familiares é essencial. O exame físico e neurológico são geralmente normais e servem para descartar causas secundárias. A presença de sinais de alarme (red flags, como início súbito, déficit neurológico focal, idade >50 anos, mudança de padrão) indica a necessidade de exames complementares (TC/RM de crânio e laboratoriais), mas não são de rotina para migrânea típica. O diagnóstico é clínico, baseado nos critérios da ICHD-3. Os principais diagnósticos diferenciais incluem cefaleia tensional, cefaleia em salvas e cefaleia por uso excessivo de medicação, além de cefaleias secundárias graves. O tratamento da crise aguda envolve analgésicos simples, AINEs, triptanos e antieméticos. A profilaxia é indicada para pacientes com crises frequentes ou incapacitantes, utilizando beta-bloqueadores, antidepressivos tricíclicos, anticonvulsivantes ou os mais recentes anticorpos monoclonais anti-CGRP. As orientações ao paciente devem incluir o uso de diário de cefaleia, identificação e manejo de gatilhos, medidas não farmacológicas (exercício, sono regular, manejo do estresse) e reconhecimento de sinais de alerta para buscar auxílio médico imediato, evitando o uso excessivo de medicação. O seguimento regular é fundamental para ajuste do tratamento.",
+      "fontes": [
+        "1. Sociedade Brasileira de Cefaleia. Consenso de Tratamento da Migrânea. Disponível em: [Buscar 'Sociedade Brasileira de Cefaleia Consenso de Tratamento da Migrânea']",
+        "2. International Headache Society (IHS). The International Classification of Headache Disorders, 3rd edition (beta version). Cephalalgia, 2013;33(9):629-808. Disponível em: [Buscar 'ICHD-3 beta version pdf']",
+        "3. UpToDate. Migraine in adults: Diagnosis. Disponível em: [Buscar 'UpToDate Migraine diagnosis']",
+        "4. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas. Cefaleia. Disponível em: [Buscar 'Ministério da Saúde PCDT Cefaleia']"
+      ]
+    }
+  }
+}

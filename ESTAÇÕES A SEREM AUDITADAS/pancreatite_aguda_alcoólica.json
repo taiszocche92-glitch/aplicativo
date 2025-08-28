@@ -1,0 +1,614 @@
+{
+  "promptIA": "Você é um médico especialista e professor de medicina, convocado pelo INEP para criar estações práticas para a prova de habilidades clínicas do Revalida, sua expertise garante a relevância e a precisão do conteúdo.\n. Sua missão é desenvolver estações de prova que sejam realistas, desafiadoras e, acima de tudo, autônomas. Cada estação deve funcionar como um 'simulador' completo, permitindo que o candidato demonstre suas competências clínicas sem a necessidade de intervenção ou dicas do avaliador, Cada estação dura 10 minutos, as estações devem cobrir as cinco grandes áreas da medicina (Clínica Médica, Cirurgia, Ginecologia e Obstetrícia, Pediatria, Medicina Preventiva e Social), o conteúdo deve refletir as práticas médicas atuais no Brasil, com base nas diretrizes do Ministério da Saúde e das principais sociedades de especialidades médicas, sua tarefa é usar este modelo JSON como um gabarito para converter um caso clínico bruto em uma estação estruturada do Revalida INEP 2 FASE, assuma a persona de um especialista em educação médica e também programador e siga TODAS as regras rigorosamente, o cumprimento de cada regra é NÃO NEGOCIÁVEL.\n1. Preencha todos os campos marcados com `[ ]`.\n2. No campo `tituloEstacao`, insira a principal palavra-chave que define o caso (ex: 'Cefaleia em Trovoada', 'Crise Asmática').\n3. REGRA CRÍTICA - LINGUAGEM DO PACIENTE: Na seção `informacoesVerbaisSimulado`, detalhe cada item da anamnese de forma granular. Para cada sintoma do motivo de consulta, crie um bloco individual nomeado como `[nome do sintoma]` (ex: Dor abdominal, Febre, Vomitos, Diarreia, Dor de cabeça, etc.), contendo os subcampos (Início, Localização, Intensidade, Tipo/Característica, Irradiação, Fatores de Piora, Fatores de Melhora, Episódios Prévios, etc.). Não limite o número de sintomas principais. Para cada sintoma, antecedente ou hábito, forneça uma resposta específica ou use 'Nega' ou 'Não Consta'. Separe cada tipo de antecedente (Pessoal, Ginecológico, Familiar, Epidemiológico, etc.) em seu próprio `contextoOuPerguntaChave`. TODAS as falas do paciente devem ser em primeira pessoa e em linguagem comum/leiga. Para clareza, pode-se usar o formato (Termo Técnico/Linguagem Comum): [fala do paciente]. Ex: (Anorexia/Falta de apetite): \"Sim, doutor(a), estou com pouco apetite\".\n4. REGRA CRÍTICA - ANAMNESE COMPLETA: Na seção `informacoesVerbaisSimulado`, é OBRIGATÓRIO preencher TODOS os campos da anamnese, e para as pontuações use esse padrão sempre, 0.25 (para as menos importantes), 0.5, 1, 1.5 e 2, somente esses valores de pontuações estão permitidos. Para cada sintoma, antecedente ou hábito, forneça uma resposta específica e detalhada (seguindo a regra da linguagem do paciente)'. A omissão de campos é uma falha.\n5. REGRA CRÍTICA - DESCRIÇÃO SUPERFICIAL DO CASO: O campo `descricaoCasoCompleta` deve ser intencionalmente superficial. Deve conter apenas a informação da chegada do paciente e o motivo de consulta, sem nenhum detalhe adicional da anamnese (HDA, sintomas acompanhantes, interrogatório sistemático, antecedentes, etc.). O objetivo é forçar o candidato a realizar a anamnese ativamente, em vez de receber a história pronta. Exemplo: 'Paciente de 35 anos chega à emergência referindo dor no peito.'\n6. REGRA CRÍTICA - TAREFAS: As `tarefasPrincipais` DEVEM ser formuladas para avaliar o raciocínio do candidato sem dar dicas explícitas. \n- REGRA GERAL: As tarefas do candidato DEVEM ser criadas SOMENTE após a definição completa dos itens do PEP (itensAvaliacao), e devem estar TOTALMENTE alinhadas com esses itens. Cada tarefa deve ser genérica, sem citar nomes de manobras, exames, escalas, procedimentos ou condutas específicas, exceto quando houver impresso correspondente (ex: escala, teste, exame visual). NUNCA antecipe respostas, diagnósticos ou condutas nas tarefas. As tarefas devem avaliar o raciocínio clínico, comunicação, exame físico, solicitação e interpretação de exames, definição de conduta e orientações, sempre de forma objetiva e sem dar dicas explícitas. NÃO repita tarefas, NÃO crie tarefas vagas ou irrelevante, garanta que cada tarefa corresponda a um ou mais itens de avaliação do PEP, sinomissões ou excessosMantenha as tarefas genéricas (ex: 'Realize o exame físico direcionado', 'Defina a conduta terapêutica'). É PROIBIDO citar nomes de manobras, classificações ou ações esperadas (ex: notificar). \n- EXCEÇÃO PARA HABILIDADES ESPECÍFICAS: Se a estação tiver um impresso para uma escala, teste, manobra semiológica ou exigir um procedimento prático, a tarefa correspondente deve SUGERIR a ação sem nomeá-la (ex: 'Aplique o teste correspondente', 'Execute a manobra específica para a queixa', 'Realize o procedimento indicado'). O verbo deve ser adaptado ao contexto.\n7. REGRA CRÍTICA - CONTEÚDO DOS IMPRESSOS: É terminantemente PROIBIDO incluir qualquer tipo de CONDUTA ou TRATAMENTO na seção `impressos`. Esta seção é EXCLUSIVA para apresentar resultados de exames e achados objetivos. Exemplos permitidos: achados de exame físico (incluindo testes e manobras específicas), resultados de exames laboratoriais, laudos de exames de imagem, ECGs, escalas de avaliação (ex: NIHSS, Glasgow), testes rápidos, etc. A violação desta regra invalida a estação.\n8. REGRA CRÍTICA - IMPRESSOS VISUAIS MANDATÓRIOS: É OBRIGATÓRIO e INEGOCIÁVEL usar um impresso do tipo `imagem_com_texto` para TODOS os achados que possuem uma representação visual característica, incluindo, sem exceção: exames de imagem (Raio-X, TC, USG), lesões de pele, achados de oroscopia/oftalmoscopia, ECGs, etc. O candidato deve sempre descrever os achados da imagem.\n9. REGRA CRÍTICA - INSTRUÇÕES PARA BUSCA DE IMAGEM: Para todos os impressos do tipo `imagem_com_texto`, o campo `caminhoImagem` DEVE ser preenchido com uma instrução clara e detalhada de como encontrar a imagem apropriada no Google Imagens. O formato deve ser: \"(Buscar no Google Imagens: [descrição precisa da imagem, incluindo achados e tipo de exame])\". Exemplo: \"(Buscar no Google Imagens: Raio-X tórax PA tuberculose com cavitação em ápice direito)\". Isso garantirá que o usuário possa encontrar e inserir a imagem correta manualmente.\n10. REGRA CRÍTICA - MÍNIMO DE 12 ITENS E PONTUAÇÃO PARCIAL: É OBRIGATÓRIO que a seção `itensAvaliacao` contenha no mínimo 12 itens, porem sempre deve variar conforme a area e tema especifico, podendo ter mais dependendo da complexidade do caso. A pontuação 'parcialmenteAdequado' NÃO DEVE ser usada para itens que contenham apenas 1 subtarefa OU cuja pontuação máxima para 'adequado' seja 0.25. Para todos os outros casos com 2 ou mais subtarefas e pontuação superior a 0.25, a pontuação parcial é permitida. Adapte os pontos de cada item para que a `pontuacaoTotalEstacao` seja sempre 10.0.\n11. Ao final, preencha a seção `feedbackEstacao`. Crie um `resumoTecnico` conciso (máximo de 30 linhas) sobre a patologia, focando em pontos-chave da anmnese, achados exame fisico, exames laboratoriais e de imagens e os possiveis achados e importancia, diagnóstico, diagnosticos diferenciais, fatores de riscos, complicações e conduta terapeutica completa e manejo conforme as diretrizes mais atuais. É mandatório citar as `fontes` utilizadas.\n12. IMPORTANTE: Ao gerar o JSON final da estação, este campo 'promptIA' e seu conteúdo devem ser completamente removidos do output final.\n\n**NOVA REGRA CRÍTICA – EXIBIÇÃO DE CAMPOS NA ANAMNESE (informacoesVerbaisSimulado):**\nNa seção `informacoesVerbaisSimulado`, só inclua um bloco `contextoOuPerguntaChave` se houver pelo menos uma informação relevante preenchida para aquele contexto.  \n- Se não houver nenhuma informação a ser exibida, o campo `contextoOuPerguntaChave` não deve ser criado nem exibido no JSON final.  \n- Para campos parcialmente preenchidos, exiba apenas as informações preenchidas.  \n- Itens não preenchidos só devem ser completados com \"Nega\" ou \"Não consta\" se forem clinicamente relevantes para o caso/tema.  \n- Caso não sejam relevantes, omita completamente o campo.  \n- Nunca inclua blocos vazios ou irrelevantes, como \"Triagem Neonatal\" em casos adultos ou situações sem pertinência clínica.\n\n**REGRA CRÍTICA – CRITÉRIOS DOS ITENS DE AVALIAÇÃO:**\nOs critérios dos campos 'pontuacoes' em cada item de avaliação DEVEM ser objetivos, literais e específicos, SEMPRE relacionados ao número de subtarefas do item, seguindo o padrão dos arquivos oficiais do INEP. Use frases como: 'Realiza as duas ações.', 'Pergunta os cinco itens.', 'Solicita os três exames.', 'Identifica as três alterações.', 'Verbaliza o diagnóstico completo.', etc. Para itens com múltiplas subtarefas, inclua 'parcialmenteAdequado' com critério quantitativo (ex: 'Realiza uma ação.', 'Pergunta três ou quatro itens.', 'Solicita dois exames.'). Para inadequado, use: 'Não realiza ação alguma.', 'Pergunta um ou dois itens ou não pergunta item algum.', 'Não solicita exame algum.', etc. NÃO USE frases vagas como 'cumpriu de forma adequada'.\n\n**NOVA REGRA CRÍTICA – CRITÉRIOS DE AVALIAÇÃO QUANTITATIVOS FLEXÍVEIS:**\nAo definir os critérios de pontuação para itens de anamnese (queixa principal, sintomas acompanhantes, antecedentes), utilize uma abordagem quantitativa flexível. O critério deve indicar o número de itens esperados para pontuação total e parcial, usando a estrutura 'Pergunta X de Y itens' ou 'Investiga X de Y aspectos', onde Y é o número total de itens/aspectos relevantes para o caso específico. Ex: 'Pergunta 5 de 7 aspectos da dor', 'Investiga 3 de 5 sintomas acompanhantes'.\n\n**NOVA REGRA CRÍTICA – ITENS DE AVALIAÇÃO POR ESPECIALIDADE:**\nAo criar os itens de avaliação, considere a especialidade da estação. Alguns itens são universais (ex: apresentação, anamnese básica, comunicação), enquanto outros são específicos da área (ex: manobras cirúrgicas, exames ginecológicos, fatores de risco em pediatria). Adapte a relevância e o detalhamento dos itens de acordo com a especialidade e o tema da estação. Priorize os itens mais relevantes para a área e o caso clínico.",
+  "idEstacao": "REVALIDA_FACIL_2025_CM_01",
+  "tituloEstacao": "Pancreatite Aguda Alcoólica",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "pancreatite",
+    "alcoólica",
+    "dor abdominal",
+    "etilismo",
+    "clínica médica",
+    "urgência"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Pronto-socorro",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (TC, USG)",
+        "Medicações e fluidos intravenosos",
+        "Leitos de internação e Unidade de Terapia Intensiva"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 45 anos de idade chega à emergência referindo dor intensa na barriga e vômitos persistentes.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada ao paciente.",
+      "Solicitar e verbalizar os achados do exame físico direcionado ao quadro.",
+      "Solicitar exames complementares pertinentes ao caso clínico.",
+      "Interpretar os resultados dos exames solicitados ou disponíveis.",
+      "Estabelecer a(s) hipótese(s) diagnóstica(s).",
+      "Citar os diagnósticos diferenciais relevantes.",
+      "Elaborar o plano terapêutico inicial e as orientações para o paciente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "Todos os materiais impressos serão liberados apenas mediante solicitação."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com uma dor muito forte na barriga e estou vomitando sem parar, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR ABDOMINAL",
+        "informacao": "Início: Começou há umas 24 horas, de repente\nLocalização: Na boca do estômago (epigástrio), mas parece que pega tudo na frente\nIntensidade: É a pior dor da minha vida, um 10 numa escala de 0 a 10\nCaracterística ou Tipo da dor: É uma dor constante, que não para, parece que aperta e queima\nIrradiação: Vai para as costas, parece que abraça a cintura\nDuração: Não para, é contínua desde que começou\nProgressão: Só piora, não melhora com nada\nFrequencia: É constante\nFator Desencadeante: Começou umas horas depois de uma bebedeira forte no fim de semana\nFator de piora ou agravante: Piora muito quando como alguma coisa, e quando estou deitado reto\nFator de melhora ou atenuante: Melhora um pouquinho se eu me curvar para frente\nEpisódios prévios: Já tive umas dores assim antes, mas não tão forte\nMedicação de alivio: Tomei um analgésico de farmácia, mas não fez efeito nenhum"
+      },
+      {
+        "contextoOuPerguntaChave": "VÔMITOS",
+        "informacao": "Início: Começaram junto com a dor, há umas 24 horas\nFrequência: Já vomitei umas 8 a 10 vezes. Não para\nConteúdo: É comida que comi, e depois só líquido amarelado (bilioso)\nAlívio da dor: Não alivia a dor, continuo com dor mesmo depois de vomitar\nNáusea: Sinto muita náusea antes de vomitar\nEpisódios prévios: Não, é a primeira vez que vomito tanto assim"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Febre: Não, não medi, mas não sinto febre\nDistensão abdominal: Minha barriga está estufada sim, está dura\nIcterícia: Não, meus olhos não estão amarelos nem a pele\nConstipação: Sim, meu intestino está parado, não consigo soltar gases nem fazer cocô\nDiarreia: Nega\nPerda de peso: Nega\nTosse: Nega\nFalta de ar: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Tenho pressão alta (hipertensão) e diabetes há uns 5 anos\nCirurgias prévias: Nega\nInternações: Já internei uma vez por essa dor na barriga, mas não foi tão forte\nAlergias: Nega\nMedicamentos em uso contínuo: Tomo remédio para pressão e para o diabetes, mas não sei o nome agora\nVacinação: Não consta\nTrauma: Nega\nTransfusões: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Fumo desde os 18 anos, um maço por dia\nEtilismo: Bebo bastante, quase todo dia. Umas 6-8 latas de cerveja por dia, e nos fins de semana destilado também. Há mais de 10 anos\nDrogas ilícitas: Nega\nAlimentação: Como de tudo, mas ultimamente a dor me tira o apetite\nAtividade física: Não pratico, sou sedentário\nSono: Durmo bem, mas com essa dor não consigo\nHábitos urinários: Normal, estou urinando menos agora por causa dos vômitos\nHábitos intestinais: Estou constipado desde o início da dor\nIngestão hídrica: Bebo bastante água, mas com os vômitos não consigo segurar\nExposição ocupacional: Nega\nEstresse: Sou bem estressado com o trabalho"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Meu pai faleceu de problema do coração\nMãe: Minha mãe tem diabetes e pressão alta\nDoenças na família: Nega história de pancreatite na família\nHistoria de câncer na família: Minha tia teve câncer de mama\nIrmãos: Tenho um irmão que também bebe bastante"
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar o exame físico, responda: 'Considere o exame físico realizado e o resultado será entregue em impresso. Concentre-se nos achados do abdome'.\nSe o candidato solicitar exames laboratoriais, diga: 'Considere os exames solicitados, os resultados serão entregues em impresso'.\nSe o candidato solicitar exames de imagem, diga: 'Considere os exames solicitados, os resultados serão entregues em impresso'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)? É grave?\npergunta (2): Essa dor vai passar? O que eu preciso fazer para ela não voltar?\npergunta (3): Vou ter que operar?\npergunta (4): Eu vou ter que parar de beber de vez?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "90 x 60 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "110 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "22 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "38.2 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "96 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Paciente prostrado, pálido, desidratado ++/4+. Gemendo de dor."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Normocéfalo, sem linfonodomegalias, tireoide tópica e indolor. Jugulares não ingurgitadas."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Bulhas rítmicas, taquicárdicas, normofonéticas, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Distendido, doloroso à palpação profunda no epigástrio, com defesa voluntária. Ruídos hidroaéreos diminuídos."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edemas, pulsos periféricos presentes e simétricos."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "18.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "16.8 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "51% (Ref: 40-52%)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "300.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Amilase",
+                  "valor": "950 U/L (Ref: 25-125)"
+                },
+                {
+                  "chave": "Lipase",
+                  "valor": "1800 U/L (Ref: 10-160)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "60 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.8 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Cálcio sérico",
+                  "valor": "7.5 mg/dL (Ref: 8.5-10.2)"
+                },
+                {
+                  "chave": "Glicose",
+                  "valor": "220 mg/dL (Ref: 70-99)"
+                },
+                {
+                  "chave": "Bilirrubina Total",
+                  "valor": "1.5 mg/dL (Ref: 0.3-1.2)"
+                },
+                {
+                  "chave": "TGO (AST)",
+                  "valor": "70 U/L (Ref: 0-35)"
+                },
+                {
+                  "chave": "TGP (ALT)",
+                  "valor": "55 U/L (Ref: 0-35)"
+                },
+                {
+                  "chave": "Gama-GT",
+                  "valor": "150 U/L (Ref: 0-50)"
+                },
+                {
+                  "chave": "Proteína C Reativa (PCR)",
+                  "valor": "180 mg/L (Ref: < 5)"
+                },
+                {
+                  "chave": "Triglicerídeos",
+                  "valor": "120 mg/dL (Ref: < 150)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_USG_3",
+        "tituloImpresso": "Ultrassonografia Abdominal",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Visualização do pâncreas e vias biliares.",
+          "caminhoImagem": "(Buscar no Google Imagens: Ultrassonografia abdominal pancreatite aguda edema peri-pancreático sem cálculos biliares)",
+          "sugestaoBuscaImagem": "Ultrassonografia abdominal pancreatite aguda edema peri-pancreático sem cálculos biliares",
+          "laudo": "Pâncreas aumentado de volume, heterogêneo, com áreas de edema e borramento da gordura peripancreática. Não há evidência de cálculos na vesícula biliar ou dilatação das vias biliares intra ou extra-hepáticas."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_TC_4",
+        "tituloImpresso": "Tomografia Computadorizada de Abdome com Contraste",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Avaliação da extensão da inflamação e necrose pancreática.",
+          "caminhoImagem": "(Buscar no Google Imagens: TC de abdome pancreatite aguda classificação Balthazar D ou E com necrose)",
+          "sugestaoBuscaImagem": "TC de abdome pancreatite aguda classificação Balthazar D ou E com necrose",
+          "laudo": "ACHADOS:\nAumento difuso do pâncreas, com áreas de realce heterogêneo e presença de coleções líquidas peripancreáticas. Sinais sugestivos de necrose pancreática em aproximadamente 30% da glândula. Classificação de Balthazar E.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ECTOSCOPIA_5",
+        "tituloImpresso": "Achado de Exame Físico (Sinal de Cullen)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Equimose periumbilical presente.",
+          "caminhoImagem": "(Buscar no Google Imagens: Sinal de Cullen equimose periumbilical pancreatite aguda)",
+          "sugestaoBuscaImagem": "Sinal de Cullen equimose periumbilical pancreatite aguda",
+          "laudo": "Presença de equimose periumbilical, indicando hemorragia retroperitoneal."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_PANCREATITE_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 45 anos, com história de etilismo crônico, apresenta quadro de dor abdominal epigástrica intensa, com irradiação para dorso, náuseas e vômitos incoercíveis, piora com alimentação e melhora com flexão do tronco. Ao exame físico, encontra-se taquicárdico, hipotenso e febril, com abdome distendido e doloroso. Exames laboratoriais revelam leucocitose, hemoconcentração, elevação de amilase e lipase (>3x LSN), disfunção renal, hipocalcemia e PCR elevada. Ultrassonografia descarta colelitíase e TC com contraste evidencia pancreatite com necrose (Balthazar E).",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada com ênfase no consumo de álcool e características da dor.",
+        "Exame físico abdominal direcionado para sinais de pancreatite e gravidade.",
+        "Solicitação e interpretação de exames laboratoriais e de imagem essenciais para diagnóstico e estadiamento.",
+        "Estabelecimento do diagnóstico de pancreatite aguda alcoólica e diferenciais.",
+        "Elaboração de conduta terapêutica inicial e plano de prevenção, incluindo manejo da dependência química."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e Pergunta sobre Queixa Principal:\n(1) Apresenta-se e cumprimenta o paciente simulado;\n(2) Pergunta o motivo da consulta de forma aberta.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Caracterização da Dor Abdominal:\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Característica ou Tipo da dor;\n(5) Irradiação;\n(6) Progressão;\n(7) Fator de piora ou agravante;\n(8) Fator de melhora ou atenuante;\n(9) Episódios prévios;\n(10) Medicação de alívio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 8 ou mais itens da caracterização da dor.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 7 itens da caracterização da dor.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos itens da caracterização da dor ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Caracterização dos Vômitos:\n(1) Início;\n(2) Frequência;\n(3) Conteúdo;\n(4) Alívio da dor;\n(5) Sintomas associados (náusea);\n(6) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou 6 itens da caracterização dos vômitos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 itens da caracterização dos vômitos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos itens da caracterização dos vômitos ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Investigação de Sintomas Associados:\n(1) Febre;\n(2) Distensão abdominal;\n(3) Icterícia;\n(4) Diarreia/Constipação;\n(5) Perda de peso;\n(6) Tosse;\n(7) Falta de ar.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou mais sintomas associados, incluindo negativos relevantes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 sintomas associados.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos sintomas associados ou não investiga item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Investigação de Antecedentes Pessoais Patológicos:\n(1) Doenças crônicas (hipertensão, diabetes);\n(2) Cirurgias prévias;\n(3) Internações anteriores por dor abdominal;\n(4) Alergias;\n(5) Medicamentos em uso contínuo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 antecedentes pessoais.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 antecedentes pessoais.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 ou menos antecedentes pessoais ou não investiga item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Investigação de Hábitos de Vida (Etilismo e Tabagismo):\n(1) Etilismo (tipo de bebida, quantidade, frequência e duração do consumo);\n(2) Tabagismo (quantidade e tempo de uso);\n(3) Uso de drogas ilícitas;\n(4) Alimentação;\n(5) Atividade física.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 hábitos de vida de forma detalhada.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 hábitos de vida.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 ou menos hábitos de vida ou não investiga item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Investigação de Antecedentes Familiares:\n(1) História de pancreatite na família;\n(2) História de diabetes;\n(3) História de hipertensão;\n(4) Irmãos com etilismo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 3 ou 4 antecedentes familiares.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos antecedentes familiares ou não investiga item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicitação e Verbalização do Exame Físico Geral e Sinais Vitais:\n(1) Solicita avaliação dos sinais vitais (PA, FC, FR, Tax, SatO2);\n(2) Solicita avaliação do estado geral (prostração, palidez, hidratação);\n(3) Verbaliza achados relevantes do exame geral (prostração, palidez, desidratação, taquicardia, hipotensão, febre).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações de forma completa.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza duas ações ou apenas solicita exames de forma incompleta.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não verbaliza adequadamente as ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicitação e Verbalização do Exame Físico Abdominal:\n(1) Solicita inspeção do abdome (distensão);\n(2) Solicita palpação (dor epigástrica, defesa, descompressão dolorosa);\n(3) Solicita ausculta (ruídos hidroaéreos diminuídos);\n(4) Verbaliza achados relevantes do exame abdominal (distensão, dor epigástrica, defesa, RHA diminuídos, sinal de Cullen).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as quatro ações de forma completa.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 2 ou 3 ações de forma incompleta.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não verbaliza adequadamente as ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicitação de Exames Laboratoriais:\n(1) Amilase e Lipase séricas;\n(2) Hemograma completo;\n(3) Função renal (ureia, creatinina);\n(4) Eletrólitos (cálcio, sódio, potássio);\n(5) Função hepática (bilirrubinas, TGO, TGP, FA, GGT);\n(6) Proteína C Reativa (PCR);\n(7) Triglicerídeos séricos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 6 ou 7 exames laboratoriais.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 4 ou 5 exames laboratoriais.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita 3 ou menos exames laboratoriais ou não solicita item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Interpretação de Exames Laboratoriais:\n(1) Amilase e/ou Lipase elevadas (>3x LSN);\n(2) Leucocitose e hemoconcentração;\n(3) Disfunção renal (ureia e creatinina elevadas);\n(4) Hipocalcemia;\n(5) PCR elevada (indicativo de gravidade);\n(6) Exclusão de hipertrigliceridemia como causa (níveis < 1000 mg/dL).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 5 ou 6 achados relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 3 ou 4 achados relevantes.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta 2 ou menos achados relevantes ou não interpreta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Solicitação de Exames de Imagem:\n(1) Ultrassonografia Abdominal;\n(2) Tomografia Computadorizada de Abdome com contraste IV.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita os dois exames de imagem.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Solicita apenas um exame ou não solicita item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Interpretação de Exames de Imagem:\n(1) USG (exclui colelitíase, identifica edema pancreático);\n(2) TC (avalia grau de inflamação, necrose, coleções, classificação de Balthazar).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta os dois exames de imagem corretamente.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Interpreta apenas um exame de imagem ou não interpreta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Estabelecimento do Diagnóstico Principal:\n(1) Pancreatite Aguda;\n(2) Etiologia alcoólica.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico completo e a etiologia.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza apenas o diagnóstico de pancreatite aguda, sem a etiologia.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico correto ou verbaliza incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Citação de Diagnósticos Diferenciais Relevantes:\n(1) Pancreatite Aguda Biliar (colelitíase);\n(2) Úlcera Péptica Perfurada;\n(3) Colecistite Aguda;\n(4) Infarto Agudo do Miocárdio de parede inferior;\n(5) Isquemia Mesentérica.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 4 ou 5 diagnósticos diferenciais relevantes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 2 ou 3 diagnósticos diferenciais relevantes.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Cita 1 ou menos diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Elaboração da Conduta Terapêutica Inicial:\n(1) Hidratação intravenosa vigorosa (cristaloides);\n(2) Analgesia potente (opioides);\n(3) Jejum e início precoce de nutrição enteral (se tolerado);\n(4) Monitorização de sinais vitais e diurese;\n(5) Manejo de complicações (hipocalcemia, hiperglicemia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora 4 ou 5 medidas da conduta terapêutica inicial.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora 2 ou 3 medidas da conduta terapêutica inicial.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Elabora 1 ou menos medidas ou não elabora item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Orientações de Prevenção e Encaminhamentos:\n(1) Reforça a importância da cessação do consumo de álcool;\n(2) Orienta sobre o encaminhamento para programas de reabilitação (CAPS-AD);\n(3) Orientações dietéticas (dieta leve, baixo teor de gordura);\n(4) Monitoramento para recorrências ou progressão para pancreatite crônica.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Fornece 3 ou 4 orientações e encaminhamentos.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Fornece 1 ou 2 orientações e encaminhamentos.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não fornece orientações ou encaminhamentos adequados.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A pancreatite alcoólica é uma condição inflamatória do pâncreas, aguda ou crônica, induzida pelo consumo excessivo de álcool. A anamnese é crucial, focando na história de etilismo (tipo, quantidade, frequência, duração) e nas características da dor abdominal (epigástrica, irradiando para o dorso, intensa, constante, piora pós-prandial, melhora com flexão do tronco). Sintomas como náuseas, vômitos, distensão abdominal e febre são comuns. O exame físico pode revelar taquicardia, hipotensão, febre, abdome distendido e doloroso no epigástrio, com defesa, e, em casos graves, sinais de Cullen ou Grey-Turner. O diagnóstico requer a presença de pelo menos dois de três critérios: dor abdominal característica, amilase/lipase >3x LSN e achados de imagem compatíveis. Exames laboratoriais essenciais incluem amilase, lipase, hemograma (leucocitose, hemoconcentração), função renal (ureia, creatinina elevadas), eletrólitos (hipocalcemia), função hepática e PCR (para gravidade). Exames de imagem como ultrassonografia (para excluir colelitíase) e tomografia computadorizada com contraste (para avaliar gravidade e complicações como necrose) são fundamentais. Diagnósticos diferenciais incluem pancreatite biliar, úlcera perfurada, colecistite aguda e IAM. O tratamento de primeira linha é de suporte: hidratação intravenosa vigorosa, analgesia potente, jejum inicial seguido de nutrição enteral precoce. A cessação completa do álcool é essencial para prevenir recorrências e progressão para pancreatite crônica, com encaminhamento para programas de reabilitação. As complicações podem ser locais (necrose, pseudocistos) ou sistêmicas (falência orgânica, sepse).",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde. Protocolos de Manejo Clínico da Pancreatite Aguda. Brasília, DF, 2021.",
+        "2. UpToDate. Clinical manifestations and diagnosis of acute pancreatitis. (Acessado em: 25 de maio de 2024).",
+        "3. UpToDate. Management of acute pancreatitis. (Acessado em: 25 de maio de 2024).",
+        "4. World Gastroenterology Organisation Global Guidelines. Pancreatitis: Acute and Chronic. 2017."
+      ]
+    }
+  }
+}

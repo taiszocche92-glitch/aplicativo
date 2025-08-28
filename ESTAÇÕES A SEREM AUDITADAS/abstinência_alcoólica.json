@@ -1,0 +1,576 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_SAA",
+  "tituloEstacao": "Abstinência Alcoólica",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Abstinência Alcoólica",
+    "SAA",
+    "Delirium Tremens",
+    "Benzodiazepínicos",
+    "Clínica Médica",
+    "Atenção secundária à saúde"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem",
+        "Medicações, vacinas disponíveis",
+        "Unidade de terapia intensiva"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente do sexo masculino, 45 anos, chega à emergência acompanhado pela esposa, referindo tremores e ansiedade intensos após interromper o consumo de álcool há aproximadamente 24 horas.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada ao quadro clínico do paciente.",
+      "Verbalizar o exame físico necessário à avaliação do caso, incluindo a aplicação de escalas pertinentes.",
+      "Solicitar exames complementares pertinentes ao caso clínico.",
+      "Interpretar os resultados dos exames apresentados.",
+      "Elaborar a(s) hipótese(s) diagnóstica(s) principal(is) e diferenciais.",
+      "Definir a conduta terapêutica inicial e o plano de manejo.",
+      "Oferecer orientações ao paciente e à família."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com muitos tremores e uma ansiedade enorme, doutor(a), desde que parei de beber ontem."
+      },
+      {
+        "contextoOuPerguntaChave": "TREMORES",
+        "informacao": "Início: Começaram há umas 12 horas, depois que parei de beber\nLocalização: Principalmente nas mãos, mas sinto no corpo todo, na língua também\nIntensidade: É muito forte, não consigo segurar um copo direito, uns 8 de 10\nCaracterística: São tremores finos e rápidos\nIrradiação: Nega irradiação\nDuração: Estão contínuos desde que começaram\nProgressão: Parecem estar piorando\nFrequencia: Contínuos\nFator Desencadeante: Parada abrupta da bebida\nFator de piora ou agravante: Piora com nervosismo ou quando tento fazer algo\nFator de melhora ou atenuante: Melhora um pouco se eu deitar e tentar relaxar, mas é difícil\nEpisódios prévios: Já tive tremores antes, mas nunca tão fortes assim\nMedicação de alivio: Nega ter tomado algo específico para isso"
+      },
+      {
+        "contextoOuPerguntaChave": "ANSIEDADE",
+        "informacao": "Início: Começou junto com os tremores, umas 12 horas depois que parei de beber\nIntensidade: Uma angústia no peito, parece que o coração vai sair pela boca, uns 9 de 10\nCaracterística: Sensação de inquietação, nervosismo\nDuração: Está contínua desde que começou\nProgressão: Piorando a cada hora que passa\nFrequencia: Contínua\nFator Desencadeante: Parada abrupta da bebida\nFator de piora ou agravante: Qualquer barulho, me sinto irritado fácil\nFator de melhora ou atenuante: Nega melhora com algo específico\nEpisódios prévios: Sempre fui um pouco ansioso, mas nunca assim\nMedicação de alivio: Nega ter tomado algo específico para isso"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Náuseas e Vômitos: Sim, vomitei umas três vezes de manhã, só sai água agora\nSudorese: Estou suando muito, mesmo com o ar condicionado\nPalpitações: Sinto meu coração acelerado o tempo todo\nCefaleia: Uma dor de cabeça chata, na testa\nInsônia: Não dormi nada essa noite\nAlterações perceptivas (visuais/táteis/auditivas): Nega ver, sentir ou ouvir coisas\nConvulsões: Nega ter tido convulsões\nConfusão/Desorientação: Nega estar confuso, diz saber onde está e a data\nFebre: Nega febre\nDor abdominal: Nega dor abdominal\nDispneia: Nega falta de ar"
+      },
+      {
+        "contextoOuPerguntaChave": "PADRÃO DE CONSUMO DE ÁLCOOL",
+        "informacao": "Tipo de álcool: Cachaça\nQuantidade: Umas 2 garrafas por dia\nFrequência: Todos os dias\nDuração do uso: Bebo desde os 18 anos\nTempo desde a última dose: Há aproximadamente 24 horas\nAbstinências anteriores: Sim, uma vez há 2 anos por 'desintoxicação', mas não lembro muito bem"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Hipertensão arterial há 5 anos, Gastrite crônica\nCirurgias prévias: Nega\nInternações: Sim, uma vez há 2 anos por 'desintoxicação'\nAlergias: Nega alergias\nMedicamentos em uso contínuo: Losartana 50 mg/dia, Omeprazol 20 mg/dia\nVacinação: Não sei informar\nTrauma: Nega traumas\nTransfusões: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Fumante, um maço por dia há 20 anos\nEtilismo: Bebo desde os 18 anos, ultimamente umas 2 garrafas de cachaça por dia, todos os dias\nDrogas ilícitas: Nega\nAlimentação: Irregular, às vezes esqueço de comer quando estou bebendo\nAtividade física: Sedentário\nSono: Dormia pouco e mal, agora não durmo nada\nHábitos urinários: Normal\nHábitos intestinais: Constipação ocasional\nIngestão hídrica: Bebe bastante água, mas também muita cachaça\nExposição ocupacional: Trabalha como pedreiro, mas está afastado por problemas de saúde\nEstresse: Muito estresse em casa por causa da bebida"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Já faleceu, teve cirrose e era alcoólatra\nMãe: Viva, hipertensa e diabética\nDoenças na família: História de alcoolismo paterno\nHistoria de cancêr na família: Nega\nIrmãos ou tias: Tenho um irmão que bebe bastante também"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)? É por causa da bebida?\npergunta (2): Isso é grave? Posso morrer?\npergunta (3): Qual o tratamento? Vou ter que ficar internado?\npergunta (4): Tem como eu parar de sentir isso?\npergunta (5): O que eu faço para que isso não aconteça novamente?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "150 × 95 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "110 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "20 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "37.8 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Agitado, sudoreico, levemente desidratado"
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Conjuntivas e escleróticas levemente ictéricas. Sem linfonodomegalias"
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular, bulhas rítmicas e normofonéticas, sem sopros"
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios"
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação superficial, doloroso à palpação profunda em hipocôndrio direito, fígado palpável a 2 cm do rebordo costal direito, borda fina. Sem ascite"
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Tremores intensos em mãos e língua. Hiperreflexia em membros inferiores. Sem edema"
+                },
+                {
+                  "chave": "Neurológico",
+                  "valor": "Consciente, orientado no tempo e espaço, porém com agitação psicomotora. Escala CIWA-Ar: 15 pontos (Náuseas/Vômitos: 2, Tremores: 4, Sudorese: 3, Ansiedade: 3, Agitação: 2, Alterações táteis: 0, Alterações auditivas: 0, Alterações visuais: 0, Cefaleia: 1, Desorientação: 0)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "13.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "10.8 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "VCM",
+                  "valor": "105 fL (Ref: 80-100)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "180.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Glicemia",
+                  "valor": "80 mg/dL (Ref: 70-100)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "135 mEq/L (Ref: 135-145)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "3.2 mEq/L (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "Magnésio",
+                  "valor": "1.4 mg/dL (Ref: 1.7-2.2)"
+                },
+                {
+                  "chave": "AST (TGO)",
+                  "valor": "90 U/L (Ref: <35)"
+                },
+                {
+                  "chave": "ALT (TGP)",
+                  "valor": "55 U/L (Ref: <35)"
+                },
+                {
+                  "chave": "GGT",
+                  "valor": "180 U/L (Ref: <50)"
+                },
+                {
+                  "chave": "Bilirrubina Total",
+                  "valor": "1.8 mg/dL (Ref: <1.2)"
+                },
+                {
+                  "chave": "Bilirrubina Direta",
+                  "valor": "0.6 mg/dL (Ref: <0.3)"
+                },
+                {
+                  "chave": "Albumina",
+                  "valor": "3.0 g/dL (Ref: 3.5-5.5)"
+                },
+                {
+                  "chave": "TP (Tempo de Protrombina)",
+                  "valor": "14 segundos (Ref: 11-13)"
+                },
+                {
+                  "chave": "INR",
+                  "valor": "1.3 (Ref: <1.1)"
+                },
+                {
+                  "chave": "Fosfato",
+                  "valor": "2.0 mg/dL (Ref: 2.5-4.5)"
+                },
+                {
+                  "chave": "Ácido Fólico",
+                  "valor": "Baixo (Ref: 3.1-20.0 ng/mL)"
+                },
+                {
+                  "chave": "Tiamina",
+                  "valor": "Baixo (Ref: 66-200 nmol/L)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_ECG_3",
+        "tituloImpresso": "Eletrocardiograma (ECG)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Registro eletrocardiográfico de 12 derivações.",
+          "caminhoImagem": "(Buscar no Google Imagens: ECG taquicardia sinusal onda T achatada)",
+          "sugestaoBuscaImagem": "ECG de 12 derivações com ritmo sinusal, frequência cardíaca de 110 bpm. Intervalo PR normal, QRS estreito. Onda T achatada em derivações inferiores. Ausência de infradesnivelamento ou supradesnivelamento de ST significativo.",
+          "laudo": "ACHADOS:\nRitmo sinusal, frequência cardíaca de 110 bpm. Eixo elétrico normal. Onda T achatada em derivações inferiores. Ausência de alterações isquêmicas agudas ou arritmias complexas.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_SAA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 45 anos, com quadro de abstinência alcoólica moderada a grave após cessação do consumo de álcool. Apresenta hiperatividade autonômica (taquicardia, hipertensão, sudorese, agitação, tremores) e sintomas gastrointestinais. Há história de alcoolismo de longa data, comorbidades (HAS, gastrite), deficiências nutricionais (folato, tiamina) e disfunção hepática leve, além de antecedentes familiares de alcoolismo.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa do padrão de consumo de álcool, sintomas de abstinência e comorbidades.",
+        "Avaliação do exame físico com foco nos sinais de hiperatividade autonômica e aplicação da escala CIWA-Ar.",
+        "Solicitação e interpretação de exames laboratoriais e ECG para avaliar complicações e déficits nutricionais.",
+        "Diagnóstico diferencial e estabelecimento do diagnóstico principal, classificando a gravidade.",
+        "Elaboração de conduta terapêutica com benzodiazepínicos, suporte vitamínico e hidratação.",
+        "Orientações ao paciente e família sobre abstinência e seguimento pós-alta."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização de Tremores:\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Característica;\n(5) Duração;\n(6) Progressão;\n(7) Fatores de piora ou agravante;\n(8) Fatores de melhora ou atenuante;\n(9) Episódios prévios;\n(10) Medicação de alívio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 8 ou mais itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 5 a 7 itens.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Pergunta 4 ou menos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracterização de Ansiedade:\n(1) Início;\n(2) Intensidade;\n(3) Característica;\n(4) Duração;\n(5) Progressão;\n(6) Fatores de piora ou agravante;\n(7) Fatores de melhora ou atenuante;\n(8) Episódios prévios;\n(9) Medicação de alívio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 7 ou mais itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 6 itens.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Investigação de Sintomas Associados:\n(1) Náuseas e vômitos;\n(2) Sudorese;\n(3) Palpitações;\n(4) Cefaleia;\n(5) Insônia;\n(6) Alterações perceptivas (visuais, táteis, auditivas);\n(7) Convulsões;\n(8) Confusão ou desorientação;\n(9) Febre;\n(10) Dor abdominal ou dispneia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 8 ou mais itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 5 a 7 itens.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Pergunta 4 ou menos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Investigação do Padrão de Consumo de Álcool e Abstinências Anteriores:\n(1) Tipo de álcool;\n(2) Quantidade diária ou semanal;\n(3) Frequência do consumo;\n(4) Duração do uso de álcool (tempo);\n(5) Tempo desde a última dose de álcool;\n(6) História de abstinências anteriores (incluindo gravidade ou complicações).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou 6 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 itens.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Investigação de Antecedentes Pessoais Patológicos e Medicamentos em Uso:\n(1) Comorbidades (hepatopatias, cardiopatias, diabetes, epilepsia, HAS);\n(2) Cirurgias prévias;\n(3) Internações anteriores relacionadas ao álcool ou outras condições;\n(4) Alergias;\n(5) Medicamentos em uso contínuo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou nenhum item.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Anamnese - Investigação de Hábitos de Vida:\n(1) Tabagismo (quantidade e tempo);\n(2) Uso de outras drogas ilícitas;\n(3) Padrão alimentar (ingesta calórica, desnutrição);\n(4) Atividade física;\n(5) Qualidade do sono;\n(6) Suporte social ou familiar.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou 6 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Anamnese - Investigação de Antecedentes Familiares:\n(1) História familiar de alcoolismo;\n(2) História familiar de transtornos psiquiátricos ou convulsões;\n(3) História familiar de outras doenças crônicas (cirrose, hipertensão).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta apenas 1 item.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Verbaliza e interpreta corretamente achados do Exame Físico e Sinais Vitais:\n(1) Identifica taquicardia ou hipertensão arterial;\n(2) Identifica tremores generalizados ou agitação psicomotora;\n(3) Identifica sudorese profusa;\n(4) Identifica icterícia ou hepatomegalia;\n(5) Identifica hiperreflexia;\n(6) Menciona ou utiliza a escala CIWA-Ar para avaliação da gravidade;\n(7) Interpreta a pontuação da CIWA-Ar (moderada/grave).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica 6 ou 7 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Identifica 3 a 5 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Identifica 2 ou menos itens ou não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita e interpreta corretamente os Exames Laboratoriais:\n(1) Solicita Hemograma completo (anemia macrocítica, leucocitose);\n(2) Solicita Eletrólitos (Na, K, Mg, P);\n(3) Solicita Provas de Função Hepática (AST, ALT, GGT, Bilirrubinas, Albumina, TP/INR);\n(4) Solicita Glicemia;\n(5) Solicita Níveis de Tiamina e Folato;\n(6) Interpreta as alterações presentes no impresso (ex: leucocitose, anemia, hipocalemia, hipomagnesemia, aumento de AST/ALT/GGT, INR alargado, deficiência de tiamina/folato).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 5 ou 6 grupos de exames.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 3 ou 4 grupos de exames.",
+            "pontos": 0.625
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta corretamente 2 ou menos grupos de exames ou não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Solicita e interpreta corretamente o Eletrocardiograma (ECG):\n(1) Solicita ECG para avaliar palpitações e risco de arritmias;\n(2) Interpreta achados do ECG (ex: taquicardia sinusal, sem isquemia aguda, alterações de onda T).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente ambos os itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita o exame, mas não interpreta ou interpreta parcialmente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Estabelece o Diagnóstico Principal:\n(1) Verbaliza 'Síndrome de Abstinência Alcoólica';\n(2) Classifica a gravidade como 'moderada' ou 'moderada a grave' (baseado na CIWA-Ar e quadro clínico);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza corretamente os dois itens.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza corretamente apenas um item.",
+            "pontos": 0.625
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico correto ou a gravidade.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Cita Diagnósticos Diferenciais Relevantes:\n(1) Hipoglicemia;\n(2) Outras síndromes de abstinência (ex: benzodiazepínicos);\n(3) Sepse ou infecções (ex: pneumonia);\n(4) Distúrbios eletrolíticos graves;\n(5) Crise tireotóxica;\n(6) Encefalopatia hepática.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 4 ou mais diagnósticos diferenciais corretos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 2 ou 3 diagnósticos diferenciais corretos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Cita 1 ou nenhum diagnóstico diferencial ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Elabora a Conduta Terapêutica Inicial:\n(1) Indica o uso de Benzodiazepínicos (ex: Diazepam, Lorazepam) com dose e via adequadas para o controle dos sintomas (ex: Diazepam 10-20mg IV/VO ou Lorazepam 2-4mg IV/VO);\n(2) Indica a administração de Tiamina (Vitamina B1) endovenosa (ex: 100-500 mg IV) antes de qualquer administração de glicose;\n(3) Indica hidratação com soro fisiológico ou glicosado;\n(4) Indica correção de eletrólitos (ex: Magnésio, Potássio) conforme resultados laboratoriais;\n(5) Menciona monitoramento rigoroso em ambiente hospitalar (ex: enfermaria, semi-intensiva).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica corretamente 4 ou 5 itens da conduta.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica corretamente 2 ou 3 itens da conduta.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Indica 1 ou nenhum item ou indica conduta inadequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Oferece Orientações e Plano de Seguimento:\n(1) Orienta sobre a necessidade de abstinência total do álcool;\n(2) Orienta sobre os riscos de novas abstinências e suas complicações;\n(3) Orienta sobre os sinais de alarme para buscar atendimento médico (ex: confusão, convulsão, febre alta);\n(4) Recomenda o seguimento com equipe multidisciplinar e encaminhamento para CAPS-AD (Centro de Atenção Psicossocial Álcool e Outras Drogas) ou grupos de autoajuda (ex: AA).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta 3 ou 4 itens corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta 1 ou 2 itens corretamente.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Não orienta adequadamente ou não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Síndrome de Abstinência Alcoólica (SAA) é uma condição séria, decorrente da cessação ou redução abrupta do consumo de álcool em indivíduos dependentes. O diagnóstico é clínico, baseado na história de uso de álcool e no surgimento de sintomas neurovegetativos, psicomotores e psíquicos. A anamnese deve detalhar o padrão de consumo, abstinências prévias (especialmente com convulsões ou delirium tremens), comorbidades (hepatopatias, transtornos psiquiátricos, desnutrição) e uso de outras substâncias. O exame físico revela hiperatividade autonômica (taquicardia, hipertensão, sudorese, hipertermia) e tremores. A escala CIWA-Ar é fundamental para quantificar a gravidade dos sintomas e guiar o tratamento. Exames complementares incluem hemograma (anemia macrocítica, leucocitose), eletrólitos (hipomagnesemia, hipocalemia, hipofosfatemia), função hepática (elevação de AST, ALT, GGT, bilirrubinas), glicemia (hipoglicemia), e dosagem de tiamina e folato, frequentemente deficientes. Exames de imagem como TC de crânio são indicados se houver convulsões de início recente, déficits focais ou alteração significativa do nível de consciência. Diagnósticos diferenciais incluem hipoglicemia, sepse, outras abstinências (benzodiazepínicos), distúrbios metabólicos e transtornos psiquiátricos. O tratamento de primeira linha é baseado em benzodiazepínicos (Diazepam ou Lorazepam) para controlar a hiperatividade neuronal. Terapia de suporte com tiamina (intravenosa antes da glicose para prevenir encefalopatia de Wernicke), folato e correção de distúrbios hidroeletrolíticos (magnésio, potássio) é crucial. Casos refratários ou graves (Delirium Tremens, convulsões) podem necessitar de fenobarbital ou antipsicóticos em UTI. O manejo inclui monitoramento contínuo, tratamento das complicações e encaminhamento para programas de reabilitação e acompanhamento multidisciplinar, como CAPS-AD e grupos de autoajuda.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Portaria nº 1.482, de 18 de agosto de 2014. Define as diretrizes para a organização da Linha de Cuidado para Atenção Integral à Saúde de Pessoas com Transtornos Mentais e Necessidades Decorrentes do Uso de Álcool e Outras Drogas. Brasília, DF: Ministério da Saúde, 2014.",
+        "2. UpToDate. Management of alcohol withdrawal syndrome. Disponível em: www.uptodate.com. Acesso em: 23 de julho de 2024.",
+        "3. American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5). Arlington, VA: American Psychiatric Publishing, 2013."
+      ]
+    }
+  }
+}

@@ -1,0 +1,567 @@
+{
+  "idEstacao": "REVALIDA_2025_CM_CANCER_PULMAO_01",
+  "tituloEstacao": "Câncer de Pulmão",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Câncer de Pulmão",
+    "CPNPC",
+    "CPPC",
+    "Tabagismo",
+    "Dispneia",
+    "Tosse",
+    "Perda de peso",
+    "Oncologia",
+    "Atenção secundária à saúde"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios médicos",
+        "Laboratório de análises clínicas",
+        "Setor de exames de imagem (Tomografia, Ressonância, PET-CT)",
+        "Centro de quimioterapia e radioterapia",
+        "Unidade de cirurgia torácica"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 65 anos de idade, sexo masculino, comparece à consulta com queixa de tosse persistente e perda de peso não intencional.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese completa direcionada à queixa principal do paciente.",
+      "Solicitar os exames físicos necessários à avaliação do caso, verbalizando os achados.",
+      "Solicitar e interpretar os exames complementares pertinentes ao caso clínico.",
+      "Relacionar os resultados dos exames com as hipóteses diagnósticas.",
+      "Formular a(s) hipótese(s) diagnóstica(s) principal(is) e os diagnósticos diferenciais.",
+      "Elaborar o plano terapêutico inicial e as orientações para o paciente.",
+      "Verbalizar a necessidade de rastreamento e prevenção do câncer de pulmão para grupos de risco.",
+      "Comunicar a necessidade de notificação compulsória do caso ao órgão competente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "CONSIDERE QUE TODOS OS EXAMES LABORATORIAIS E DE IMAGEM SOLICITADOS ESTÃO DISPONÍVEIS E SERÃO APRESENTADOS VIA IMPRESSO, CASO SOLICITADOS CORRETAMENTE.",
+      "O ATOR SIMULADO RESPONDE APENAS AO QUE FOR QUESTIONADO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com uma tosse que não passa e tenho perdido peso nos últimos meses, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "TOSSE",
+        "informacao": "Início: Há cerca de 4 meses\nLocalização: No peito\nIntensidade: É persistente, me incomoda muito, principalmente à noite\nCaracterística: Seca na maior parte do tempo, mas às vezes tenho expectoração com catarro claro. Em duas ocasiões, vi um pouquinho de sangue no catarro\nIrradiação: Não irradia\nDuração: Contínua, com períodos de piora\nProgressão: Tem piorado com o tempo\nFrequência: Quase o tempo todo, mas piora à noite\nFator de piora: Frio e quando me deito\nFator de melhora: Nega fator de melhora significativo, apenas alivia um pouco com xarope para tosse que comprei na farmácia, mas por pouco tempo\nEpisódios prévios: Nega ter tido tosse por tanto tempo antes\nMedicação de alívio: Xarope para tosse (sem melhora duradoura)"
+      },
+      {
+        "contextoOuPerguntaChave": "PERDA DE PESO",
+        "informacao": "Início: Começou junto com a tosse, há uns 4 meses\nQuantificação: Perdi uns 8 kg nesse período\nIntencionalidade: Não foi intencional, não estou fazendo dieta\nRelação com apetite: Meu apetite diminuiu bastante\nSintomas associados: Nega febre, náuseas ou vômitos associados à perda de peso\nEpisódios prévios: Nega ter tido perda de peso semelhante antes"
+      },
+      {
+        "contextoOuPerguntaChave": "DISPNEIA (Falta de ar)",
+        "informacao": "Início: Começou há uns 2 meses, de forma gradual\nIntensidade: É leve, sinto um pouco de cansaço para subir escadas ou andar mais rápido\nGatilhos: Aos esforços leves a moderados\nClassificação NYHA: Graus II (sinto um pouco de falta de ar para atividades cotidianas um pouco mais intensas)\nOrtopneia: Nega ortopneia\nDispneia paroxística noturna: Nega acordar com falta de ar à noite\nSintomas associados: Nega tosse, chiado ou dor torácica intensa junto com a falta de ar\nEpisódios prévios: Nega episódios semelhantes"
+      },
+      {
+        "contextoOuPerguntaChave": "DOR TORÁCICA",
+        "informacao": "Início: Nega dor torácica forte. Às vezes, sinto um leve desconforto no lado direito do peito, como uma pressão fraca\nLocalização: Lado direito do peito\nIrradiação: Nega irradiação\nCaráter: Uma pressão leve\nIntensidade: 2/10 na escala de dor\nDuração: Passageira, alguns minutos\nFatores desencadeantes: Nega fatores desencadeantes específicos\nFatores de alívio: Melhora com repouso\nSintomas associados: Nega dispneia, sudorese, náuseas, síncope associados à dor\nEpisódios prévios: Nega episódios semelhantes"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES (Interrogatório Sistemático)",
+        "informacao": "Fadiga/Astenia: Sinto muito cansaço, principalmente no final do dia\nRouquidão: Nega rouquidão\nDisfagia: Nega dificuldade para engolir\nFebre: Nega febre, calafrios ou sudorese noturna\nInfecções respiratórias de repetição: Nega ter tido muitas pneumonias ou bronquites recentemente\nDor óssea: Nega dor nos ossos ou articulações\nEdema de face/pescoço/membros superiores: Nega inchaço na face, pescoço ou braços\nAlteração do nível de consciência: Nega confusão mental ou desmaios\nBaqueteamento digital: Nega\nGinecomastia: Nega\nIcterícia: Nega amarelão nos olhos ou na pele"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Hipertensão arterial (em uso de losartana 50mg/dia há 10 anos, controlada)\nCirurgias prévias: Nega\nInternações: Nega\nAlergias: Nega alergias a medicamentos ou alimentos\nMedicamentos em uso contínuo: Losartana 50mg/dia\nVacinação: Vacinação de rotina em dia, inclusive da gripe e COVID-19\nTrauma: Nega traumas recentes\nTransfusões: Nega transfusões prévias"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Fumo há 45 anos, aproximadamente 1 maço por dia (45 maços-ano). Tentou parar algumas vezes, mas não conseguiu\nEtilismo: Socialmente, 1-2 doses de cerveja aos fins de semana\nDrogas ilícitas: Nega uso de drogas ilícitas\nAlimentação: Alimentação variada, mas com preferência por carnes e frituras. Apetite diminuído nos últimos meses\nAtividade física: Sedentário, caminha apenas para atividades essenciais\nSono: Dorme cerca de 6-7 horas por noite, refere que a tosse atrapalha o sono\nHábitos urinários: Normais\nHábitos intestinais: Regulares, 1 evacuação por dia, fezes normais\nIngestão hídrica: Bebe cerca de 1,5-2 litros de água por dia\nExposição ocupacional: Trabalhou em metalúrgica por 30 anos, sem uso adequado de EPIs por muitos anos\nEstresse: Refere preocupação com a saúde devido aos sintomas, mas nega estresse intenso ou transtornos de humor"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Falecido aos 70 anos, causa desconhecida\nMãe: Falecida aos 80 anos, por problemas cardíacos\nDoenças na família: Nega outras doenças relevantes na família\nHistória de câncer na família: Nega história de câncer de pulmão em parentes de primeiro grau. Avô materno teve câncer de estômago\nIrmãos ou tias: Não consta no script"
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar exames de imagem, libere os impressos de Raio-X de Tórax, Tomografia de Tórax e Crânio. Se solicitar PET-CT ou Cintilografia óssea, libere os respectivos impressos. Se solicitar biópsia, informe 'considere a biópsia agendada'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "O que eu tenho, doutor(a)?\nÉ grave?\nQuais são as opções de tratamento?\nExiste alguma chance de não ser câncer?\nO que eu faço para que isso não aconteça novamente?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "130 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "88 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "20 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.8 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "94% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Regular estado geral, emagrecido, consciente, orientado, eupneico. Mucosas discretamente hipocoradas."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Normocefálico, sem linfonodomegalias cervicais ou supraclaviculares palpáveis. Tireoide impalpável. Traqueia centrada."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros. Pulsos periféricos presentes e simétricos."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular diminuído em base de hemitórax direito, com algumas crepitações inspiratórias na mesma área. Expansibilidade torácica discretamente diminuída à direita. Macicez à percussão em terço inferior direito."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação superficial e profunda, sem visceromegalias. Ruídos hidroaéreos presentes."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edemas, sem sinais de trombose venosa profunda. Presença de baqueteamento digital bilateralmente."
+                },
+                {
+                  "chave": "Sinais de Inflamação",
+                  "valor": "Nega sinais de inflamação localizados."
+                },
+                {
+                  "chave": "Edema",
+                  "valor": "Nega edema."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais (Gerais)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "9.200 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "11.5 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "35% (Ref: 40-52 M / 36-48 F)"
+                },
+                {
+                  "chave": "VCM",
+                  "valor": "88 fL (Ref: 80-100)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "320.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "48 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.1 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "95 mg/dL (Ref: 70-99)"
+                },
+                {
+                  "chave": "Cálcio sérico",
+                  "valor": "10.8 mg/dL (Ref: 8.5-10.2)"
+                },
+                {
+                  "chave": "TGO (AST)",
+                  "valor": "35 U/L (Ref: 10-37)"
+                },
+                {
+                  "chave": "TGP (ALT)",
+                  "valor": "40 U/L (Ref: 10-40)"
+                },
+                {
+                  "chave": "DHL",
+                  "valor": "250 U/L (Ref: 135-225)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_MARCADORES_LAB_3",
+        "tituloImpresso": "Exames Laboratoriais (Marcadores Tumorais)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "MARCADORES TUMORAIS",
+              "itens": [
+                {
+                  "chave": "CEA",
+                  "valor": "15.0 ng/mL (Ref: <5.0 ng/mL em não-fumantes; <10.0 ng/mL em fumantes)"
+                },
+                {
+                  "chave": "NSE",
+                  "valor": "30.0 ng/mL (Ref: <16.3 ng/mL)"
+                },
+                {
+                  "chave": "CYFRA 21-1",
+                  "valor": "7.5 ng/mL (Ref: <3.3 ng/mL)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_RX_4",
+        "tituloImpresso": "Raio-X de Tórax (PA e Perfil)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Realize a interpretação da imagem apresentada.",
+          "caminhoImagem": "(Buscar no Google Imagens: Raio-X tórax PA massa pulmonar lobo inferior direito, derrame pleural)",
+          "laudo": "ACHADOS:\nOpacidade heterogênea de aproximadamente 6 cm no lobo inferior direito, de contornos irregulares. Pequeno derrame pleural à direita, com obliteração do seio costofrênico. Discreto alargamento mediastinal.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_TC_5",
+        "tituloImpresso": "Tomografia Computadorizada de Tórax com Contraste",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Realize a interpretação da imagem apresentada.",
+          "caminhoImagem": "(Buscar no Google Imagens: TC tórax massa pulmonar lobo inferior direito com invasão pleural e linfonodomegalia mediastinal)",
+          "laudo": "ACHADOS:\nMassa lobulada com realce heterogêneo de 6.2 x 5.8 x 6.0 cm no lobo inferior direito, invadindo a pleura visceral e parietal. Presença de linfonodomegalia mediastinal (estação 7 e 4R) e hilar ipsilateral com maior eixo de 2.5 cm. Derrame pleural à direita de moderado volume. Nódulo de 0.8 cm no lobo superior esquerdo, com características inespecíficas. Sem evidências de metástases à distância no tórax.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_RM_CRANIO_6",
+        "tituloImpresso": "Ressonância Magnética de Crânio com Contraste",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Realize a interpretação da imagem apresentada.",
+          "caminhoImagem": "(Buscar no Google Imagens: RM crânio múltiplas lesões com captação de contraste sugestivas de metástases)",
+          "laudo": "ACHADOS:\nMúltiplas lesões nodulares supratentoriais, a maior medindo 1.5 cm, com realce anelar após administração de contraste, sugestivas de metástases cerebrais. Ausência de sinais de hemorragia ou hidrocefalia.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_PETCT_7",
+        "tituloImpresso": "PET-CT com FDG",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Realize a interpretação da imagem apresentada.",
+          "caminhoImagem": "(Buscar no Google Imagens: PET-CT com FDG massa pulmonar hipermetabólica, linfonodos mediastinais e lesões ósseas",
+          "laudo": "Intensa captação de FDG na massa pulmonar do lobo inferior direito (SUV máximo de 12.5) e nos linfonodos mediastinais e hilares descritos na TC. Captações focais de FDG nos corpos vertebrais de T7 e L2, sugestivas de metástases ósseas."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ECTOSCOPIA_8",
+        "tituloImpresso": "Achado de Exame Físico (Baqueteamento Digital)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Ao solicitar inspeção de mãos e dedos, observe as alterações apresentadas.",
+          "caminhoImagem": "(Buscar no Google Imagens: Baqueteamento digital nas mãos)",
+          "laudo": "Presença de baqueteamento digital bilateralmente."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_CANCER_PULMAO_2025_V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 65 anos, tabagista e ex-metalúrgico, apresenta tosse persistente com hemoptise ocasional, perda de peso e dispneia progressiva. Exame físico revela emagrecimento, baqueteamento digital e murmúrio vesicular diminuído com crepitações à direita. Exames complementares (Rx, TC, RM, PET-CT) demonstram massa pulmonar à direita com linfonodomegalia mediastinal, derrame pleural, e metástases cerebrais e ósseas. Hemograma mostra anemia e marcadores tumorais elevados, além de hipercalcemia.",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada para sintomas respiratórios, constitucionais e fatores de risco de câncer de pulmão.",
+        "Realização e verbalização do exame físico com ênfase nos achados respiratórios e ectoscópicos.",
+        "Solicitação e interpretação de exames laboratoriais e de imagem para diagnóstico e estadiamento.",
+        "Formulação de hipóteses diagnósticas e diferenciais.",
+        "Definição da conduta terapêutica inicial e estadiamento completo da doença.",
+        "Orientações e manejo do paciente, incluindo a notificação compulsória."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se e\n(2) cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Tosse: Pergunta sobre os seguintes aspectos da tosse:\n(1) início;\n(2) duração;\n(3) característica (seca/produtiva, hemoptise);\n(4) progressão;\n(5) fatores de piora/melhora;\n(6) frequência.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 de 6 aspectos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 aspectos.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos aspectos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Investigação de Sintomas Constitucionais e Respiratórios Associados: Pergunta sobre:\n(1) perda de peso (quantificação, intencionalidade, relação com apetite);\n(2) dispneia (início, intensidade, gatilhos, classificação funcional);\n(3) dor torácica (localização, caráter, intensidade, irradiação);\n(4) fadiga/astenia;\n(5) rouquidão;\n(6) disfagia;\n(7) febre/calafrios/sudorese noturna;\n(8) infecções respiratórias de repetição.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou mais aspectos de forma completa.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 aspectos de forma completa.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos aspectos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Fatores de Risco e Antecedentes: Pergunta sobre:\n(1) tabagismo (quantificação em maços-ano, histórico de tentativa de parar);\n(2) exposição ocupacional (tipo, tempo, uso de EPIs);\n(3) histórico pessoal de doenças pulmonares (DPOC, fibrose, asbestose);\n(4) histórico familiar de câncer de pulmão.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 itens de forma completa.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 itens de forma completa.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Exame Físico: Solicita e verbaliza os achados do exame físico com foco em:\n(1) estado geral e emagrecimento;\n(2) baqueteamento digital;\n(3) linfonodomegalia (cervical, supraclavicular);\n(4) exame pulmonar (inspeção, percussão, ausculta); \n(5) sinais de Síndrome da Veia Cava Superior (edema facial, circulação colateral).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e verbaliza 4 ou 5 achados relevantes e os interpreta corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e verbaliza 2 ou 3 achados relevantes e os interpreta corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou verbaliza adequadamente menos de 2 achados.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Exames Laboratoriais: Solicita e interpreta corretamente:\n(1) hemograma completo (anemia);\n(2) função renal e hepática;\n(3) cálcio sérico (hipercalcemia);\n(4) marcadores tumorais (CEA, NSE, CYFRA 21-1).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 3 ou 4 grupos de exames corretamente, com foco nas alterações (anemia, hipercalcemia, marcadores elevados).",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 2 grupos de exames corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta adequadamente menos de 2 grupos de exames.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Exames de Imagem para Diagnóstico e Estadiamento: Solicita e interpreta corretamente:\n(1) Raio-X de Tórax (massa, derrame);\n(2) Tomografia de Tórax com Contraste (caracterização da lesão, linfonodomegalia, invasão pleural, nódulo no lobo superior esquerdo);\n(3) Ressonância Magnética de Crânio (metástases cerebrais);\n(4) PET-CT com FDG (avaliação de metástases à distância, incluindo ósseas e gânglionares).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 3 ou 4 exames de imagem, incluindo a identificação das metástases.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 2 exames de imagem corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta adequadamente menos de 2 exames.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Confirmação Diagnóstica: Verbaliza a necessidade de:\n(1) biópsia da lesão pulmonar ou de sítio metastático;\n(2) estudo histopatológico e imunohistoquímico para tipo e subtipo de câncer;\n(3) análise molecular (EGFR, ALK, ROS1, BRAF, PD-L1) para CPNPC.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza os 3 itens de forma completa.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 2 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Verbaliza 1 ou menos itens ou não verbaliza.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Hipóteses Diagnósticas e Diagnósticos Diferenciais: \n(1) Formula o diagnóstico mais provável: Câncer de Pulmão (especificando 'provavelmente estágio avançado/metastático' com base nos exames);\n(2) Cita diagnósticos diferenciais relevantes: Tuberculose pulmonar, Pneumonia, Metástases pulmonares de outros sítios primários, Nódulo pulmonar benigno.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Formula o diagnóstico mais provável e cita 3 ou 4 diagnósticos diferenciais relevantes.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Formula o diagnóstico mais provável e cita 1 ou 2 diagnósticos diferenciais relevantes.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não formula o diagnóstico correto ou não cita diagnósticos diferenciais relevantes.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Conduta Terapêutica Inicial e Encaminhamentos: Elabora o plano terapêutico inicial com base no estadiamento e a necessidade de:\n(1) terapia sistêmica (quimioterapia, imunoterapia ou terapia-alvo, considerando o estadiamento metastático);\n(2) radioterapia paliativa (para metástases cerebrais e ósseas, e/ou sintomas locais);\n(3) manejo de sintomas (dor, dispneia, suporte nutricional);\n(4) encaminhamento para oncologista clínico, radioterapeuta e equipe de cuidados paliativos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora o plano com os 4 itens de forma completa, reconhecendo o estadiamento avançado.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora o plano com 2 ou 3 itens, com alguma falha na adequação ao estadiamento.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não elabora o plano ou elabora de forma inadequada para o estadiamento.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Orientações e Prevenção: Oferece orientações sobre:\n(1) cessação do tabagismo (reforçando a importância mesmo em estágio avançado);\n(2) sinais de alarme e complicações (hemoptise, piora da dispneia, dor óssea intensa, alteração do nível de consciência);\n(3) importância do suporte psicossocial e nutricional;\n(4) rastreamento de câncer de pulmão para indivíduos de alto risco (TC de baixa dose).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Oferece 3 ou 4 orientações relevantes e completas.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Oferece 1 ou 2 orientações relevantes.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não oferece orientações ou as oferece de forma inadequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Notificação ao SINAN: Menciona que fará a notificação compulsória do caso ao Sistema de Informação de Agravos de Notificação (SINAN).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Menciona a notificação ao SINAN.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não menciona a notificação ao SINAN.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "O câncer de pulmão é a principal causa de morte por câncer globalmente. Histologicamente, divide-se em Câncer de Pulmão de Não Pequenas Células (CPNPC, ~85%) e Câncer de Pulmão de Pequenas Células (CPPC, ~15%). O caso apresenta um cenário típico de doença avançada, com sintomas como tosse persistente (incluindo hemoptise), perda de peso e dispneia, frequentemente encontrados em tabagistas crônicos e com história de exposição ocupacional. O exame físico pode revelar sinais como baqueteamento digital e achados pulmonares focais.\nO diagnóstico definitivo requer biópsia e estudo histopatológico/molecular. Os exames de imagem, como Radiografia de Tórax e Tomografia Computadorizada, são essenciais para caracterização da lesão primária e linfonodos. A presença de metástases (cerebrais na RM e ósseas no PET-CT) caracteriza um estágio avançado (IV), o que impacta diretamente o tratamento e prognóstico. Marcadores tumorais (CEA, NSE, CYFRA 21-1) podem estar elevados, mas não são diagnósticos.\nOs diagnósticos diferenciais incluem tuberculose e outras doenças pulmonares. O tratamento de primeira linha para doença avançada é sistêmico, guiado por biomarcadores (terapia-alvo para mutações acionáveis, imunoterapia ou quimioterapia) e radioterapia paliativa. A cessação do tabagismo é a medida preventiva mais eficaz, e o rastreamento com TC de baixa dose é recomendado para grupos de alto risco. Complicações como hipercalcemia e síndromes paraneoplásicas devem ser monitoradas. A notificação compulsória é fundamental para a vigilância epidemiológica.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Instituto Nacional de Câncer José Alencar Gomes da Silva (INCA). Câncer de Pulmão: Informações e Orientações. Disponível em: https://www.inca.gov.br/tipos-de-cancer/cancer-de-pulmao. Acesso em: [Data Atual].",
+        "2. UpToDate. Lung cancer: Epidemiology, risk factors, and prevention. Disponível em: https://www.uptodate.com/contents/lung-cancer-epidemiology-risk-factors-and-prevention. Acesso em: [Data Atual].",
+        "3. Sociedade Brasileira de Oncologia Clínica (SBOC). Diretrizes para o Câncer de Pulmão. Disponível em: https://sboc.org.br/. Acesso em: [Data Atual].",
+        "4. NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®) – Non-Small Cell Lung Cancer (NSCLC) and Small Cell Lung Cancer (SCLC). Disponível em: https://www.nccn.org/guidelines/category_1. Acesso em: [Data Atual]."
+      ]
+    }
+  }
+}

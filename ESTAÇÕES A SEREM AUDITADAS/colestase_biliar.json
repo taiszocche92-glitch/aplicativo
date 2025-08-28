@@ -1,0 +1,557 @@
+{
+  "promptIA": "Você é um médico especialista e professor de medicina, convocado pelo INEP para criar estações práticas para a prova de habilidades clínicas do Revalida, sua expertise garante a relevância e a precisão do conteúdo.\n. Sua missão é desenvolver estações de prova que sejam realistas, desafiadoras e, acima de tudo, autônomas. Cada estação deve funcionar como um 'simulador' completo, permitindo que o candidato demonstre suas competências clínicas sem a necessidade de intervenção ou dicas do avaliador, Cada estação dura 10 minutos, as estações devem cobrir as cinco grandes áreas da medicina (Clínica Médica, Cirurgia, Ginecologia e Obstetrícia, Pediatria, Medicina Preventiva e Social), o conteúdo deve refletir as práticas médicas atuais no Brasil, com base nas diretrizes do Ministério da Saúde e das principais sociedades de especialidades médicas, sua tarefa é usar este modelo JSON como um gabarito para converter um caso clínico bruto em uma estação estruturada do Revalida INEP 2 FASE, assuma a persona de um especialista em educação médica e também programador e siga TODAS as regras rigorosamente, o cumprimento de cada regra é NÃO NEGOCIÁVEL.\n1. Preencha todos os campos marcados com `[ ]`.\n2. No campo `tituloEstacao`, insira a principal palavra-chave que define o caso (ex: 'Cefaleia em Trovoada', 'Crise Asmática').\n3. REGRA CRÍTICA - LINGUAGEM DO PACIENTE: Na seção `informacoesVerbaisSimulado`, detalhe cada item da anamnese de forma granular. Para cada sintoma do motivo de consulta, crie um bloco individual nomeado como `[nome do sintoma]` (ex: Dor abdominal, Febre, Vomitos, Diarreia, Dor de cabeça, etc.), contendo os subcampos (Início, Localização, Intensidade, Tipo/Característica, Irradiação, Fatores de Piora, Fatores de Melhora, Episódios Prévios, etc.). Não limite o número de sintomas principais. Para cada sintoma, antecedente ou hábito, forneça uma resposta específica ou use 'Nega' ou 'Não Consta'. Separe cada tipo de antecedente (Pessoal, Ginecológico, Familiar, Epidemiológico, etc.) em seu próprio `contextoOuPerguntaChave`. TODAS as falas do paciente devem ser em primeira pessoa e em linguagem comum/leiga. Para clareza, pode-se usar o formato (Termo Técnico/Linguagem Comum): [fala do paciente]. Ex: (Anorexia/Falta de apetite): \"Sim, doutor(a), estou com pouco apetite\".\n4. REGRA CRÍTICA - ANAMNESE COMPLETA: Na seção `informacoesVerbaisSimulado`, é OBRIGATÓRIO preencher TODOS os campos da anamnese, e para as pontuações use esse padrão sempre, 0.25 (para as menos importantes), 0.5, 1, 1.5 e 2, somente esses valores de pontuações estão permitidos. Para cada sintoma, antecedente ou hábito, forneça uma resposta específica e detalhada (seguindo a regra da linguagem do paciente)'. A omissão de campos é uma falha.\n5. REGRA CRÍTICA - DESCRIÇÃO SUPERFICIAL DO CASO: O campo `descricaoCasoCompleta` deve ser intencionalmente superficial. Deve conter apenas a informação da chegada do paciente e o motivo de consulta, sem nenhum detalhe adicional da anamnese (HDA, sintomas acompanhantes, interrogatório sistemático, antecedentes, etc.). O objetivo é forçar o candidato a realizar a anamnese ativamente, em vez de receber a história pronta. Exemplo: 'Paciente de 35 anos chega à emergência referindo dor no peito.'\n6. REGRA CRÍTICA - TAREFAS: As `tarefasPrincipais` DEVEM ser formuladas para avaliar o raciocínio do candidato sem dar dicas explícitas. \n- REGRA GERAL: As tarefas do candidato DEVEM ser criadas SOMENTE após a definição completa dos itens do PEP (itensAvaliacao), e devem estar TOTALMENTE alinhadas com esses itens. Cada tarefa deve ser genérica, sem citar nomes de manobras, exames, escalas, procedimentos ou condutas específicas, exceto quando houver impresso correspondente (ex: escala, teste, exame visual). NUNCA antecipe respostas, diagnósticos ou condutas nas tarefas. As tarefas devem avaliar o raciocínio clínico, comunicação, exame físico, solicitação e interpretação de exames, definição de conduta e orientações, sempre de forma objetiva e sem dar dicas explícitas. NÃO repita tarefas, NÃO crie tarefas vagas ou irrelevante, garanta que cada tarefa corresponda a um ou mais itens de avaliação do PEP, sinomissões ou excessosMantenha as tarefas genéricas (ex: 'Realize o exame físico direcionado', 'Defina a conduta terapêutica'). É PROIBIDO citar nomes de manobras, classificações ou ações esperadas (ex: notificar). \n- EXCEÇÃO PARA HABILIDADES ESPECÍFICAS: Se a estação tiver um impresso para uma escala, teste, manobra semiológica ou exigir um procedimento prático, a tarefa correspondente deve SUGERIR a ação sem nomeá-la (ex: 'Aplique o teste correspondente', 'Execute a manobra específica para a queixa', 'Realize o procedimento indicado'). O verbo deve ser adaptado ao contexto.\n7. REGRA CRÍTICA - CONTEÚDO DOS IMPRESSOS: É terminantemente PROIBIDO incluir qualquer tipo de CONDUTA ou TRATAMENTO na seção `impressos`. Esta seção é EXCLUSIVA para apresentar resultados de exames e achados objetivos. Exemplos permitidos: achados de exame físico (incluindo testes e manobras específicas), resultados de exames laboratoriais, laudos de exames de imagem, ECGs, escalas de avaliação (ex: NIHSS, Glasgow), testes rápidos, etc. A violação desta regra invalida a estação.\n8. REGRA CRÍTICA - IMPRESSOS VISUAIS MANDATÓRIOS: É OBRIGATÓRIO e INEGOCIÁVEL usar um impresso do tipo `imagem_com_texto` para TODOS os achados que possuem uma representação visual característica, incluindo, sem exceção: exames de imagem (Raio-X, TC, USG), lesões de pele, achados de oroscopia/oftalmoscopia, ECGs, etc. O candidato deve sempre descrever os achados da imagem.\n9. REGRA CRÍTICA - INSTRUÇÕES PARA BUSCA DE IMAGEM: Para todos os impressos do tipo `imagem_com_texto`, o campo `caminhoImagem` DEVE ser preenchido com uma instrução clara e detalhada de como encontrar a imagem apropriada no Google Imagens. O formato deve ser: \"(Buscar no Google Imagens: [descrição precisa da imagem, incluindo achados e tipo de exame])\". Exemplo: \"(Buscar no Google Imagens: Raio-X tórax PA tuberculose com cavitação em ápice direito)\". Isso garantirá que o usuário possa encontrar e inserir a imagem correta manualmente.\n10. REGRA CRÍTICA - MÍNIMO DE 12 ITENS E PONTUAÇÃO PARCIAL: É OBRIGATÓRIO que a seção `itensAvaliacao` contenha no mínimo 12 itens, porem sempre deve variar conforme a area e tema especifico, podendo ter mais dependendo da complexidade do caso. A pontuação 'parcialmenteAdequado' NÃO DEVE ser usada para itens que contenham apenas 1 subtarefa OU cuja pontuação máxima para 'adequado' seja 0.25. Para todos os outros casos com 2 ou mais subtarefas e pontuação superior a 0.25, a pontuação parcial é permitida. Adapte os pontos de cada item para que a `pontuacaoTotalEstacao` seja sempre 10.0.\n11. Ao final, preencha a seção `feedbackEstacao`. Crie um `resumoTecnico` conciso (máximo de 30 linhas) sobre a patologia, focando em pontos-chave da anmnese, achados exame fisico, exames laboratoriais e de imagens e os possiveis achados e importancia, diagnóstico, diagnosticos diferenciais, fatores de riscos, complicações e conduta terapeutica completa e manejo conforme as diretrizes mais atuais. É mandatório citar as `fontes` utilizadas.\n12. IMPORTANTE: Ao gerar o JSON final da estação, este campo 'promptIA' e seu conteúdo devem ser completamente removidos do output final.\n\n**NOVA REGRA CRÍTICA – EXIBIÇÃO DE CAMPOS NA ANAMNESE (informacoesVerbaisSimulado):**\nNa seção `informacoesVerbaisSimulado`, só inclua um bloco `contextoOuPerguntaChave` se houver pelo menos uma informação relevante preenchida para aquele contexto.  \n- Se não houver nenhuma informação a ser exibida, o campo `contextoOuPerguntaChave` não deve ser criado nem exibido no JSON final.  \n- Para campos parcialmente preenchidos, exiba apenas as informações preenchidas.  \n- Itens não preenchidos só devem ser completados com \"Nega\" ou \"Não consta\" se forem clinicamente relevantes para o caso/tema.  \n- Caso não sejam relevantes, omita completamente o campo.  \n- Nunca inclua blocos vazios ou irrelevantes, como \"Triagem Neonatal\" em casos adultos ou situações sem pertinência clínica.\n\n**REGRA CRÍTICA – CRITÉRIOS DOS ITENS DE AVALIAÇÃO:**\nOs critérios dos campos 'pontuacoes' em cada item de avaliação DEVEM ser objetivos, literais e específicos, SEMPRE relacionados ao número de subtarefas do item, seguindo o padrão dos arquivos oficiais do INEP. Use frases como: 'Realiza as duas ações.', 'Pergunta os cinco itens.', 'Solicita os três exames.', 'Identifica as três alterações.', 'Verbaliza o diagnóstico completo.', etc. Para itens com múltiplas subtarefas, inclua 'parcialmenteAdequado' com critério quantitativo (ex: 'Realiza uma ação.', 'Pergunta três ou quatro itens.', 'Solicita dois exames.'). Para inadequado, use: 'Não realiza ação alguma.', 'Pergunta um ou dois itens ou não pergunta item algum.', 'Não solicita exame algum.', etc.\n\n**NOVA REGRA CRÍTICA – CRITÉRIOS DE AVALIAÇÃO QUANTITATIVOS FLEXÍVEIS:**\nAo definir os critérios de pontuação para itens de anamnese (queixa principal, sintomas acompanhantes, antecedentes), utilize uma abordagem quantitativa flexível. O critério deve indicar o número de itens esperados para pontuação total e parcial, usando a estrutura 'Pergunta X de Y itens' ou 'Investiga X de Y aspectos', onde Y é o número total de itens/aspectos relevantes para o caso específico. Ex: 'Pergunta 5 de 7 aspectos da dor', 'Investiga 3 de 5 sintomas acompanhantes'.\n\n**NOVA REGRA CRÍTICA – ITENS DE AVALIAÇÃO POR ESPECIALIDADE:**\nAo criar os itens de avaliação, considere a especialidade da estação. Alguns itens são universais (ex: apresentação, anamnese básica, comunicação), enquanto outros são específicos da área (ex: manobras cirúrgicas, exames ginecológicos, fatores de risco em pediatria). Adapte a relevância e o detalhamento dos itens de acordo com a especialidade e o caso clínico. Priorize os itens mais relevantes para a área e o caso clínico.",
+  "idEstacao": "REVALIDA_2024_CLINICA_MEDICA_COLESTASE_01",
+  "tituloEstacao": "Colestase Biliar",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "colestase biliar",
+    "icterícia",
+    "prurido",
+    "doença hepática",
+    "clínica médica",
+    "nível alto"
+  ],
+  "nivelDificuldade": "Alta",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (Ultrassonografia, TC, Colangiorressonância disponíveis)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 58 anos comparece ao ambulatório com queixa de pele e olhos amarelados, coceira intensa e fezes claras.",
+    "tarefasPrincipais": [
+      "Realizar anamnese completa, explorando as características dos sintomas de colestase e antecedentes relevantes.",
+      "Solicitar e interpretar exames complementares laboratoriais e de imagem para elucidação diagnóstica da colestase.",
+      "Estabelecer a hipótese diagnóstica principal e os diagnósticos diferenciais da colestase.",
+      "Elaborar e verbalizar a conduta terapêutica inicial e o plano de seguimento para o paciente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "Considere os achados dos impressos apresentados."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com a pele e os olhos amarelos, coceira forte e minhas fezes estão muito claras."
+      },
+      {
+        "contextoOuPerguntaChave": "ICTERÍCIA",
+        "informacao": "Início: Há cerca de 3 semanas.\nProgressão: Progressiva, piorando a cada dia.\nIntensidade: Bem visível, percebida por todos ao meu redor."
+      },
+      {
+        "contextoOuPerguntaChave": "PRURIDO",
+        "informacao": "Início: Começou quase junto com o amarelão.\nLocalização: Generalizado, mas pior nas palmas das mãos e solas dos pés.\nIntensidade: Muito intenso, nota 9/10, me impede de dormir.\nFator de piora: Piora muito à noite.\nFator de melhora: Não melhora com nada que já tentei (hidratação, banhos frios)."
+      },
+      {
+        "contextoOuPerguntaChave": "COLÚRIA",
+        "informacao": "Início: Há cerca de 2 semanas.\nCaracterística: Minha urina está bem escura, cor de Coca-Cola."
+      },
+      {
+        "contextoOuPerguntaChave": "ACOLIA/HIPOCOLIA FECAL",
+        "informacao": "Início: Há cerca de 2 semanas.\nCaracterística: Minhas fezes estão muito claras, quase brancas, como massa de vidraceiro."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR ABDOMINAL",
+        "informacao": "Início: Há 1 semana.\nLocalização: No lado direito superior da barriga.\nCaráter: Uma dor tipo peso, que vem e vai.\nIntensidade: Moderada, nota 5/10.\nIrradiação: Não irradia.\nFator de piora: Piora um pouco depois de comer.\nFator de melhora: Não melhora com analgésicos comuns."
+      },
+      {
+        "contextoOuPerguntaChave": "PERDA DE PESO",
+        "informacao": "Início: Há uns 2 meses.\nQuantificação: Perdi uns 5 kg sem fazer dieta.\nIntencionalidade: Não foi intencional.\nApetite: Meu apetite está diminuído."
+      },
+      {
+        "contextoOuPerguntaChave": "FADIGA E MAL-ESTAR",
+        "informacao": "Início: Há mais de um mês.\nProgressão: Piorando progressivamente.\nImpacto funcional: Sinto muito cansaço, tenho pouca energia para as coisas diárias."
+      },
+      {
+        "contextoOuPerguntaChave": "NÁUSEAS/VÔMITOS",
+        "informacao": "Náuseas: Sinto náuseas com frequência, principalmente após as refeições.\nVômitos: Não tive vômitos."
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE/CALAFRIOS",
+        "informacao": "Febre: Não tive febre.\nCalafrios: Não tive calafrios."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PATOLÓGICOS PESSOAIS",
+        "informacao": "Doenças prévias: Nega hepatites, nega doenças autoimunes.\nColelitíase: Já tive cálculo na vesícula, mas fiz cirurgia há 10 anos (colecistectomia).\nPancreatite: Nega histórico de pancreatite.\nCirurgias prévias: Colecistectomia há 10 anos.\nMedicamentos: Nega uso de medicamentos hepatotóxicos ou fitoterápicos."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Doenças hepáticas: Minha mãe teve cirrose, mas por alcoolismo.\nDoenças autoimunes: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Álcool: Não bebo álcool há mais de 20 anos.\nFumo: Não fumo.\nDrogas ilícitas: Nega.\nDieta: Me alimento de forma saudável, com pouca gordura."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que está acontecendo comigo? É algo grave?\npergunta (2): E o que vamos fazer? Eu vou precisar de cirurgia?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est01_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Ficha de Atendimento Médico - Sinais Vitais e Exame Físico Geral",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "120 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "82 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "36,8 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "98% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado Geral",
+                  "valor": "Regular estado geral, consciente, orientada, hipoativa, emagrecida."
+                },
+                {
+                  "chave": "Pele e Mucosas",
+                  "valor": "Icterícia 3+/4+ generalizada, escoriações difusas por prurido."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_EXAMEABDOMINAL_2",
+        "tituloImpresso": "Ficha de Atendimento Médico - Exame Físico Abdominal",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "EXAME FÍSICO ABDOMINAL",
+              "itens": [
+                {
+                  "chave": "Inspeção",
+                  "valor": "Abdome plano, simétrico, sem abaulamentos ou retrações visíveis."
+                },
+                {
+                  "chave": "Ausculta",
+                  "valor": "RHA presentes e normoativos em todos os quadrantes."
+                },
+                {
+                  "chave": "Palpação",
+                  "valor": "Dor leve à palpação profunda em QSD. Fígado palpável a 2 cm do RCD, de consistência normal. Vesícula biliar não palpável. Não há massas ou visceromegalias. Sinal de Murphy negativo."
+                },
+                {
+                  "chave": "Percussão",
+                  "valor": "Timpanismo preservado, macicez hepática em topografia normal."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_LABORATORIO_3",
+        "tituloImpresso": "Resultados de Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "PERFIL HEPÁTICO",
+              "itens": [
+                {
+                  "chave": "Bilirrubina Total",
+                  "valor": "12.5 mg/dL (VR: 0.2 - 1.2 mg/dL)"
+                },
+                {
+                  "chave": "Bilirrubina Direta",
+                  "valor": "10.8 mg/dL (VR: 0.0 - 0.3 mg/dL)"
+                },
+                {
+                  "chave": "Fosfatase Alcalina (FA)",
+                  "valor": "480 U/L (VR: 40 - 150 U/L)"
+                },
+                {
+                  "chave": "Gama-Glutamil Transferase (GGT)",
+                  "valor": "650 U/L (VR: 8 - 61 U/L)"
+                },
+                {
+                  "chave": "ALT (TGP)",
+                  "valor": "110 U/L (VR: 7 - 56 U/L)"
+                },
+                {
+                  "chave": "AST (TGO)",
+                  "valor": "90 U/L (VR: 10 - 40 U/L)"
+                },
+                {
+                  "chave": "Albumina",
+                  "valor": "3.8 g/dL (VR: 3.5 - 5.0 g/dL)"
+                },
+                {
+                  "chave": "INR",
+                  "valor": "1.3 (VR: 0.8 - 1.2)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "12.8 g/dL (VR: 12.0 - 16.0 g/dL)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.200/mm³ (VR: 4.000 - 10.000/mm³)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_ULTRASSONOGRAFIA_4",
+        "tituloImpresso": "Laudo Ultrassonografia Abdominal Total",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "[O laudo descreve achados relevantes para o diagnóstico de colestase obstrutiva].",
+          "urlImagem": "https://emedicine.medscape.com/article/1883827-media#mid=877471",
+          "laudo": "Fígado com ecotextura homogênea, sem lesões focais. Vias biliares intra-hepáticas discretamente dilatadas. Colédoco com diâmetro de 1.2 cm (VR até 0.7 cm), contendo imagem hiperecogênica de 0.8 cm com sombra acústica posterior em sua porção distal, sugestiva de cálculo. Vesícula biliar colecistectomizada. Pâncreas de dimensões e ecotextura normais, sem sinais de dilatação do ducto pancreático principal. Ausência de ascite."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST01_CM_COLESTASE_2024V1_01",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "O caso aborda uma paciente com sintomas clássicos de colestase biliar, necessitando de avaliação clínica completa, solicitação e interpretação de exames complementares, e definição de conduta terapêutica.",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada focada nos sintomas de colestase (icterícia, prurido, colúria, acolia fecal) e sintomas sistêmicos.",
+        "Exame físico direcionado para avaliação da icterícia, sinais de colestase e exame abdominal.",
+        "Solicitação e interpretação de exames laboratoriais (perfil hepático, marcadores inflamatórios, etc.) e de imagem (Ultrassonografia abdominal).",
+        "Diagnóstico diferencial entre colestase intra e extra-hepática.",
+        "Definição da conduta terapêutica etiológica e sintomática."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est01_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se ao paciente;\n(2) Cumprimenta o paciente;\n(3) Utiliza o nome do paciente;\n(4) Pergunta o motivo da consulta.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as quatro ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza duas ou três ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, investigando as características da icterícia:\n(1) início;\n(2) progressão;\n(3) intensidade.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 3 características da icterícia.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 1 ou 2 características da icterícia.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não pergunta sobre as características da icterícia.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, investigando as características do prurido:\n(1) início;\n(2) localização;\n(3) intensidade;\n(4) fator de piora;\n(5) fator de melhora.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 4 ou 5 características do prurido.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 2 ou 3 características do prurido.",
+            "pontos": 0.37
+          },
+          "inadequado": {
+            "criterio": "Não pergunta sobre as características do prurido.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza anamnese, investigando sintomas de colestase:\n(1) colúria;\n(2) acolia/hipocolia fecal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre ambos os sintomas de colestase.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre apenas um sintoma de colestase.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não pergunta sobre os sintomas de colestase.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Realiza anamnese, investigando as características da dor abdominal:\n(1) início;\n(2) localização;\n(3) caráter;\n(4) intensidade;\n(5) irradiação;\n(6) fator de piora.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 4 ou mais características da dor abdominal.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 2 ou 3 características da dor abdominal.",
+            "pontos": 0.37
+          },
+          "inadequado": {
+            "criterio": "Não pergunta sobre as características da dor abdominal.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Realiza anamnese, investigando sintomas sistêmicos relevantes:\n(1) perda de peso;\n(2) fadiga/mal-estar;\n(3) náuseas/vômitos;\n(4) febre/calafrios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 3 ou 4 sintomas sistêmicos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 1 ou 2 sintomas sistêmicos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não pergunta sobre os sintomas sistêmicos.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Realiza anamnese, investigando antecedentes relevantes:\n(1) histórico de colecistectomia;\n(2) histórico de colelitíase (antes da cirurgia);\n(3) histórico de pancreatite;\n(4) uso de medicamentos hepatotóxicos;\n(5) história familiar de doenças hepáticas/autoimunes.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 4 ou 5 antecedentes relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 2 ou 3 antecedentes relevantes.",
+            "pontos": 0.37
+          },
+          "inadequado": {
+            "criterio": "Não pergunta sobre os antecedentes relevantes.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Verbaliza e interpreta adequadamente os achados dos impressos de exame físico (Sinais Vitais, Geral e Abdominal):\n(1) Icterícia generalizada;\n(2) Escoriações por prurido;\n(3) Dor à palpação em QSD;\n(4) Vesícula não palpável;\n(5) Ausência de febre.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza e interpreta 4 ou 5 achados.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza e interpreta 2 ou 3 achados.",
+            "pontos": 0.37
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza ou interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita os exames complementares essenciais para o diagnóstico etiológico da colestase:\n(1) Bilirrubinas (Total e Direta);\n(2) Enzimas colestáticas (FA e GGT);\n(3) Transaminases (ALT e AST);\n(4) Avaliação de função sintética (INR/TP e Albumina);\n(5) Ultrassonografia abdominal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 4 ou 5 exames corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 ou 3 exames corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou solicita inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Interpreta corretamente os resultados dos exames laboratoriais apresentados (Impresso 3):\n(1) Hiperbilirrubinemia predominantemente direta;\n(2) Elevação acentuada de FA e GGT;\n(3) Elevação discreta de ALT/AST (padrão colestático);\n(4) INR levemente prolongado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 3 ou 4 resultados corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 ou 2 resultados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Interpreta corretamente o laudo da Ultrassonografia Abdominal (Impresso 4):\n(1) Dilatação de vias biliares intra e extra-hepáticas (colédoco);\n(2) Presença de cálculo no colédoco distal (coledocolitíase);\n(3) Vesícula biliar colecistectomizada.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 3 achados corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 ou 2 achados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Formula o diagnóstico principal e os diagnósticos diferenciais:\n(1) Colestase extra-hepática (ou obstrutiva);\n(2) Coledocolitíase (como causa da obstrução);\n(3) Exclui colestase intra-hepática (com base nos exames);\n(4) Menciona outros diagnósticos diferenciais obstrutivos (ex: tumor de pâncreas, colangiocarcinoma, estenose biliar).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Formula 3 ou 4 diagnósticos/exclusões corretamente.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Formula 1 ou 2 diagnósticos/exclusões corretamente.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Não formula o diagnóstico correto ou o faz incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Elabora a conduta terapêutica inicial e direciona para seguimento:\n(1) Indica a necessidade de CPRE (Colangiopancreatografia Retrógrada Endoscópica) para remoção do cálculo;\n(2) Prescreve tratamento sintomático para prurido (ex: Colestiramina ou Rifampicina);\n(3) Orienta suplementação de vitaminas lipossolúveis (A, D, E, K);\n(4) Reforça a importância de evitar automedicação e álcool;\n(5) Encaminha para Gastroenterologista/Cirurgião para manejo definitivo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora 4 ou 5 itens da conduta corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora 2 ou 3 itens da conduta corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não elabora a conduta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Responde às dúvidas do paciente de forma clara e empática.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde adequadamente às perguntas e demonstra empatia.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Responde parcialmente ou com pouca empatia.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não responde ou responde inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Notificação ao SINAM",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Menciona a necessidade de notificação.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não se aplica.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não menciona a necessidade de notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A colestase biliar é a redução ou interrupção do fluxo de bile do fígado para o duodeno, podendo ser intra ou extra-hepática. Clinicamente, manifesta-se por icterícia, prurido, colúria e acolia fecal. Na anamnese, é crucial detalhar esses sintomas e buscar história de colelitíase, pancreatite, cirurgias biliares, uso de medicamentos hepatotóxicos e doenças hepáticas prévias. O exame físico pode revelar icterícia e sinais de doenças crônicas hepáticas. Laboratorialmente, o diagnóstico se baseia na elevação da FA, GGT e bilirrubina conjugada. A ultrassonografia abdominal é o exame de imagem inicial para identificar dilatação de vias biliares e cálculos. O caso apresentado, com icterícia progressiva, prurido intenso, colúria, acolia fecal, dor em QSD e perda de peso, associado a alterações laboratoriais (elevação acentuada de FA/GGT e bilirrubina direta) e achados ultrassonográficos (dilatação de colédoco com cálculo), aponta para coledocolitíase como causa de colestase extra-hepática obstrutiva. A conduta inclui a remoção do cálculo por CPRE, tratamento sintomático do prurido (ex: colestiramina) e suplementação de vitaminas lipossolúveis. O seguimento com gastroenterologista/cirurgião é essencial. Fontes: Robbins Patologia Essencial, UpToDate (Cholestasis), Protocolo Clínico e Diretrizes Terapêuticas - Colestase intra-hepática da gravidez (Adaptado para colestase em geral).",
+      "fontes": [
+        "Brasil. Ministério da Saúde. Secretaria de Ciência, Tecnologia, Inovação e Insumos Estratégicos em Saúde. Departamento de Gestão e Incorporação de Tecnologias em Saúde. Colestase intra-hepática da gravidez: diretrizes clínicas. Brasília: Ministério da Saúde, 2019.",
+        "Goldman L, Schafer AI. Goldman-Cecil Medicine. 26th ed. Elsevier; 2020.",
+        "Rubin RA, Safdie R. Robbins & Cotran Patologia: Bases Patológicas das Doenças. 9ª ed. Elsevier; 2016."
+      ]
+    }
+  }
+}

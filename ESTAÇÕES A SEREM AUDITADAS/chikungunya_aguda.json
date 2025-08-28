@@ -1,0 +1,683 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_CHIKUNGUNYA",
+  "tituloEstacao": "Chikungunya Aguda",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Chikungunya",
+    "Arbovirose",
+    "Dor Articular",
+    "Clínica Médica",
+    "Atenção secundária à saúde"
+  ],
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem",
+        "Medicações disponíveis"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 40 anos, sexo feminino, chega ao consultório de clínica médica referindo febre alta e dor intensa nas articulações há 5 dias.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada ao quadro clínico da paciente.",
+      "Solicitar o exame físico necessário à avaliação do caso.",
+      "Solicitar exames complementares pertinentes ao caso clínico.",
+      "Interpretar os resultados dos exames apresentados.",
+      "Estabelecer o diagnóstico e os principais diagnósticos diferenciais.",
+      "Elaborar a conduta terapêutica e as orientações à paciente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com febre e dor nas articulações há 5 dias, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE",
+        "informacao": "Início: Súbito, há 5 dias\nIntensidade: Alta, medi 39.5°C em casa\nPadrão: Contínua, mas oscila, piora à noite\nCalafrios: Fortes no início\nSuores Noturnos: Sim\nResposta a Antitérmicos: Uso paracetamol, melhora um pouco, mas a febre volta"
+      },
+      {
+        "contextoOuPerguntaChave": "DOR ARTICULAR",
+        "informacao": "Início: Súbito, um dia após a febre\nLocalização: Mãos, punhos, tornozelos e joelhos\nSimetria: Dói dos dois lados, de forma igual\nIntensidade: Muito forte, nota 9/10\nEdema articular: Parece que as juntas estão inchadas\nDor à palpação: Sim, doendo ao toque\nIrradiação: Nega\nDuração: Contínua, não passa\nProgressão: Não melhora, só piora\nFator de piora: Tentar mexer as juntas ou andar\nFator de melhora: Repouso alivia um pouco, mas não resolve\nEpisódios prévios: Nunca tive uma dor assim antes\nMedicação de Alívio: Usei paracetamol, não ajudou na dor"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Mialgia: Dores no corpo todo, especialmente nas costas\nCefaleia: Dor de cabeça forte, tipo pressão na testa\nProstração: Sinto muito cansaço e fraqueza, não consigo fazer quase nada\nErupção cutânea (Rash): Umas manchas vermelhas que apareceram no tronco e braços, coçam um pouco\nNáuseas: Sim, enjoo às vezes, mas não vomitei\nVômitos: Nega\nDor abdominal: Nega\nFotofobia: Sinto um incômodo com a claridade\nConjuntivite: Os olhos estão um pouco vermelhos, mas sem secreção\nSangramentos: Nega qualquer tipo de sangramento (epistaxe, gengivorragia, petéquias, equimoses, melena, hematêmese)"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Hipertensão arterial controlada com losartana\nCirurgias prévias: Nega\nInternações: Nega\nAlergias: Nega\nMedicamentos em uso contínuo: Losartana 50mg/dia\nVacinação: Calendário vacinal em dia\nTrauma: Nega\nTransfusões: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Tipo do parto: Não aplicável\nTempo de Gestação: Não aplicável\nIntercorrências neonatais: Não aplicável\nHábitos sexuais: Casada, parceiro fixo, usa preservativo ocasionalmente\nHábitos urinários: Normais, sem alterações\nHábitos intestinais: Normais, sem alterações\nIngestão hídrica: Bebe cerca de 1.5-2 litros de água por dia\nExposição ocupacional: Trabalha em escritório, sem exposição a riscos\nEstresse: Rotina corrida, mas sem estresse intenso recente"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega\nEtilismo: Socialmente, 1-2x por mês, sem excessos\nDrogas ilícitas: Nega\nAlimentação: Balanceada\nAtividade física: Caminha 30 minutos, 3x por semana\nSono: Alterado nos últimos dias devido à dor e febre"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Hipertenso\nMãe: Diabética\nDoenças na família: Nega doenças reumáticas ou autoimunes na família\nHistoria de cancêr na família: Nega\nIrmãos ou tias: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Viajou para o litoral de Pernambuco há 10 dias\nExposição a doenças infecciosas: Nega contato com outras pessoas doentes\nContato com doentes: Nega\nExposição a animais: Nega\nExposição a vetores: Percebeu muitos mosquitos na casa de praia em Pernambuco\nÁgua consumida: Água mineral\nExposição a agentes ambientais: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho?\npergunta (2): Essa dor nas juntas vai passar? Tenho medo de ficar com isso para sempre.\npergunta (3): É grave? Posso pegar de novo?\npergunta (4): Tem algum remédio para curar isso?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "120 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "98 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "38.9 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "97 %"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_GERAL_2",
+        "tituloImpresso": "Exame Físico Geral",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "EXAME FÍSICO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado Geral",
+                  "valor": "Regular estado geral, prostrada, lúcida e orientada em tempo e espaço, normocorada, hidratada, anictérica, acianótica."
+                },
+                {
+                  "chave": "Pele e Mucosas",
+                  "valor": "Erupção maculopapular eritematosa difusa em tronco e membros, sem bolhas ou descamação importante. Mucosas úmidas, escleras anictéricas, hiperemia conjuntival bilateral."
+                },
+                {
+                  "chave": "Linfonodos",
+                  "valor": "Linfonodos cervicais e axilares discretamente aumentados, móveis, dolorosos à palpação, menores que 1 cm."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_ARTICULAR_3",
+        "tituloImpresso": "Exame Físico - Aparelho Locomotor",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "APARELHO LOCOMOTOR",
+              "itens": [
+                {
+                  "chave": "Articulações",
+                  "valor": "Poliartrite simétrica em mãos (interfalangeanas proximais e distais), punhos, tornozelos e joelhos. Apresenta edema, calor e dor à palpação e à movimentação ativa e passiva em todas as articulações acometidas. Limitação funcional importante para marcha e manipulação de objetos. Derrame articular discreto em joelhos bilateralmente."
+                },
+                {
+                  "chave": "Musculatura",
+                  "valor": "Mialgia difusa, principalmente em paravertebrais e panturrilhas, sem sinais de miosite. Força muscular preservada, mas com dor à contração."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_4",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "3.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Segmentados",
+                  "valor": "45 % (Ref: 40-75%)"
+                },
+                {
+                  "chave": "Linfócitos",
+                  "valor": "40 % (Ref: 20-45%)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "12.8 g/dL (Ref: 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "38 % (Ref: 36-46%)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "130.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "AST (TGO)",
+                  "valor": "60 U/L (Ref: <35)"
+                },
+                {
+                  "chave": "ALT (TGP)",
+                  "valor": "70 U/L (Ref: <35)"
+                },
+                {
+                  "chave": "LDH",
+                  "valor": "300 U/L (Ref: 135-225)"
+                },
+                {
+                  "chave": "Proteína C Reativa (PCR)",
+                  "valor": "25 mg/L (Ref: <5)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_SOROLOGIA_5",
+        "tituloImpresso": "Sorologia para Arboviroses",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ANTICORPOS",
+              "itens": [
+                {
+                  "chave": "IgM anti-CHIKV",
+                  "valor": "Reagente (Ref: Não Reagente)"
+                },
+                {
+                  "chave": "IgG anti-CHIKV",
+                  "valor": "Não Reagente (Ref: Não Reagente)"
+                },
+                {
+                  "chave": "IgM anti-Dengue",
+                  "valor": "Não Reagente (Ref: Não Reagente)"
+                },
+                {
+                  "chave": "NS1 Ag Dengue",
+                  "valor": "Não Reagente (Ref: Não Reagente)"
+                },
+                {
+                  "chave": "IgM anti-Zika",
+                  "valor": "Não Reagente (Ref: Não Reagente)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ECTOSCOPIA_RASH_6",
+        "tituloImpresso": "Achado de Exame Físico (Ectoscopia - Rash Cutâneo)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Imagem ilustrativa de rash maculopapular eritematoso difuso em tronco e membros.",
+          "caminhoImagem": "(Buscar no Google Imagens: rash maculopapular eritematoso Chikungunya em tronco e membros)",
+          "laudo": "Erupção cutânea maculopapular eritematosa, difusa, não pruriginosa, sem descamação ou lesões bolhosas associadas. Compressão da pele revela clareamento transitório."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_CHIKUNGUNYA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina, 40 anos, apresenta quadro agudo de febre alta, poliartralgia/poliartrite simétrica e intensa, rash maculopapular, mialgia e prostração, com histórico de viagem para área endêmica. Exames laboratoriais mostram leucopenia, plaquetopenia leve, elevação de transaminases e PCR. Sorologia confirma infecção aguda por Chikungunya e exclui Dengue e Zika. O manejo é sintomático e visa controle da dor e prevenção de cronificação.",
+      "focoPrincipalDetalhado": [
+        "Anamnese direcionada para arboviroses e sintomas articulares",
+        "Exame físico geral e articular, com foco em sinais inflamatórios",
+        "Solicitação e interpretação de exames laboratoriais e sorológicos para diferenciação de arboviroses",
+        "Diagnóstico diferencial com outras arboviroses e doenças reumatológicas",
+        "Manejo sintomático da fase aguda e orientações para prevenção e seguimento"
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Postura:\n(1) Estabelece contato visual;\n(2) Mantém postura empática ao longo da consulta;\n(3) Escuta a fala do paciente simulado sem interrompê-lo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ou duas ações.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, questionando sobre as características da Febre:\n(1) Início;\n(2) Intensidade;\n(3) Padrão;\n(4) Calafrios;\n(5) Suores noturnos;\n(6) Resposta a antitérmicos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou 6 dos itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 dos itens.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos dos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza anamnese, questionando sobre as características da Dor Articular:\n(1) Início;\n(2) Localização;\n(3) Simetria;\n(4) Intensidade;\n(5) Edema articular;\n(6) Dor à palpação;\n(7) Duração;\n(8) Progressão;\n(9) Fator de piora;\n(10) Fator de melhora;\n(11) Episódios prévios;\n(12) Medicação de alívio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 9 ou mais dos itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 6 a 8 dos itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 5 ou menos dos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Realiza anamnese, questionando sobre os Sintomas Acompanhantes:\n(1) Mialgia;\n(2) Cefaleia;\n(3) Prostração;\n(4) Erupção cutânea (Rash);\n(5) Náuseas;\n(6) Vômitos;\n(7) Dor abdominal;\n(8) Fotofobia;\n(9) Conjuntivite;\n(10) Sangramentos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 8 ou mais dos itens, incluindo sangramentos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 5 a 7 dos itens.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta 4 ou menos dos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Realiza anamnese, questionando sobre Antecedentes Pessoais Patológicos:\n(1) Doenças crônicas (Hipertensão, Diabetes, Autoimunes, Reumáticas);\n(2) Alergias;\n(3) Medicamentos em uso contínuo;\n(4) Cirurgias prévias.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 dos itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 dos itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos dos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Realiza anamnese, questionando sobre Antecedentes Epidemiológicos:\n(1) Viagens recentes para áreas endêmicas;\n(2) Exposição a mosquitos (Aedes aegypti/albopictus).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta os dois itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta apenas um item.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Realiza anamnese, questionando sobre Hábitos de Vida:\n(1) Tabagismo;\n(2) Etilismo;\n(3) Atividade física;\n(4) Qualidade do Sono;\n(5) Ingestão hídrica;\n(6) Hábitos sexuais (se relevante).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou mais dos itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 dos itens.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos dos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita Exame Físico Geral e Específico do Aparelho Locomotor:\n(1) Inspeção geral do paciente;\n(2) Palpação e inspeção das articulações afetadas;\n(3) Avaliação da amplitude de movimento das articulações;\n(4) Pesquisa de sinais flogísticos (calor, rubor, edema) e derrame articular.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 3 ou 4 dos itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 1 ou 2 dos itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita exame físico adequado.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Interpreta os Achados do Exame Físico e Sinais Vitais (disponíveis nos impressos):\n(1) Presença de febre e taquicardia;\n(2) Presença de rash maculopapular;\n(3) Achados de poliartrite simétrica com edema e dor;\n(4) Limitação da mobilidade articular.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 3 ou 4 dos achados.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 ou 2 dos achados.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não interpreta os achados ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Solicita exames laboratoriais padrão:\n(1) Hemograma completo;\n(2) Bioquímica (Ureia, Creatinina, AST, ALT, LDH);\n(3) Proteína C Reativa (PCR).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita os 3 tipos de exames.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 tipos de exames.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita exame algum ou solicita 1 tipo de exame.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Solicita exames laboratoriais específicos para arboviroses:\n(1) Sorologia (IgM anti-CHIKV);\n(2) Sorologia/Antígeno (NS1 Ag Dengue, IgM anti-Dengue);\n(3) Sorologia (IgM anti-Zika).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita os 3 tipos de exames específicos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 tipos de exames específicos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita exame algum ou solicita 1 tipo de exame específico.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Interpreta os achados do Hemograma (disponível no impresso):\n(1) Leucopenia;\n(2) Plaquetopenia leve;\n(3) Hemoglobina e Hematócrito normais.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta os 3 achados corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 ou 2 achados corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não interpreta achado algum ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Interpreta os achados da Bioquímica e Sorologia (disponíveis nos impressos):\n(1) Elevação de Transaminases (AST/ALT) e LDH;\n(2) PCR elevado;\n(3) IgM anti-CHIKV Reagente;\n(4) Sorologias para Dengue e Zika Não Reagentes.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 3 ou 4 achados corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 ou 2 achados corretamente.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não interpreta achado algum ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Estabelece o diagnóstico definitivo:\n(1) Chikungunya OU Arbovirose por CHIKV.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico correto e completo.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico sindrômico (Arbovirose) sem especificar o agente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes para o caso:\n(1) Dengue;\n(2) Zika;\n(3) Artrite Reumatoide (especialmente na fase crônica ou para explicar persistência de sintomas);\n(4) Outras infecções virais (ex: Rubéola, Parvovírus B19); \n(5) Leptospirose ou Malária (se pertinente ao contexto epidemiológico).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou mais diagnósticos diferenciais relevantes.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais relevantes.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Elabora a conduta terapêutica para a fase aguda:\n(1) Repouso adequado;\n(2) Hidratação oral abundante;\n(3) Paracetamol para dor e febre;\n(4) Orienta sobre o uso de AINEs APENAS se a dengue for descartada (fase subaguda/crônica, ou após confirmação por exame);\n(5) Não indica corticosteroides na fase aguda.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora a conduta corretamente, incluindo 4 ou 5 itens.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora a conduta parcialmente, incluindo 2 ou 3 itens.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não elabora a conduta ou elabora incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item18",
+        "itemNumeroOficial": "18",
+        "descricaoItem": "Fornece orientações e plano de seguimento:\n(1) Sinais de alarme para retorno imediato;\n(2) Medidas de controle vetorial (eliminação de criadouros);\n(3) Importância da fisioterapia/reabilitação para evitar cronicidade da dor;\n(4) Encaminhamento para reumatologista em casos de persistência da artralgia/artrite (>90 dias); \n(5) Retorno para reavaliação clínica.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Fornece 4 ou 5 orientações.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Fornece 2 ou 3 orientações.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não fornece orientações adequadas.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item19",
+        "itemNumeroOficial": "19",
+        "descricaoItem": "Responde às dúvidas do paciente de forma clara e empática.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde às dúvidas de forma satisfatória.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Responde a algumas dúvidas ou de forma incompleta.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não responde às dúvidas ou responde incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item20",
+        "itemNumeroOficial": "20",
+        "descricaoItem": "Verbaliza a necessidade de notificação do caso ao SINAN.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a necessidade de notificação.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a necessidade de notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Chikungunya é uma arbovirose sistêmica causada pelo vírus CHIKV, transmitida por Aedes aegypti e Aedes albopictus. Caracteriza-se por uma fase aguda (febre alta, poliartralgia/poliartrite simétrica e intensa, mialgia, cefaleia, prostração, rash), subaguda e crônica, sendo a dor articular persistente a principal complicação. A anamnese deve ser detalhada, investigando início súbito de febre e dor articular, padrão de acometimento articular, presença de sintomas associados (rash, mialgia, cefaleia), e dados epidemiológicos (viagens recentes, exposição a mosquitos). O exame físico foca em sinais vitais (febre, taquicardia), ectoscopia (rash), e aparelho locomotor (poliartrite, edema, sinais flogísticos, limitação de movimento). Exames complementares incluem hemograma (leucopenia, linfopenia, plaquetopenia leve), bioquímica (elevação de transaminases, LDH, PCR), e sorologia (IgM anti-CHIKV) ou RT-PCR para confirmação e diferenciação de outras arboviroses. O diagnóstico é clínico-epidemiológico, confirmado laboratorialmente. Os principais diagnósticos diferenciais são Dengue (menos artralgia, maior risco hemorrágico), Zika (febre baixa, rash mais proeminente, artralgia menos intensa), e doenças reumatológicas. Não há tratamento antiviral específico; o manejo é sintomático com paracetamol, hidratação e repouso na fase aguda. AINEs podem ser usados após exclusão de dengue. Corticosteroides podem ser considerados em fases subaguda/crônica para dor refratária, sob supervisão. Fisioterapia e encaminhamento ao reumatologista são cruciais para a fase crônica. Sinais de alarme (sangramentos, hipotensão, letargia, oligúria) exigem atenção imediata. A notificação compulsória é obrigatória. A prevenção baseia-se no controle do vetor e proteção individual.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde e Ambiente. Departamento de Doenças Transmissíveis. Guia de vigilância em saúde. – 5. ed. – Brasília: Ministério da Saúde, 2023.",
+        "2. Sociedade Brasileira de Reumatologia. Consenso de Chikungunya. Revista Brasileira de Reumatologia, 2017.",
+        "3. UpToDate, Chikungunya fever: Clinical manifestations and diagnosis, 2024."
+      ]
+    }
+  }
+}

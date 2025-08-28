@@ -1,0 +1,705 @@
+{
+  "idEstacao": "REVALIDA_DIFICIL_2025_CM_INTOX_ORGANOFOSF",
+  "tituloEstacao": "Intoxicação Exógena por Organofosforados",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Intoxicação Exógena",
+    "Organofosforados",
+    "Síndrome Colinérgica",
+    "Emergência",
+    "Clínica Médica",
+    "Atenção terciária",
+    "Agrotóxicos"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem",
+        "Medicações, vacinas disponíveis",
+        "Unidade de terapia intensiva",
+        "Equipamentos de suporte ventilatório",
+        "Centro de Toxicologia"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente Pedro Henrique da Silva, 45 anos, sexo masculino, agricultor, chega à emergência acompanhado da esposa, referindo mal-estar generalizado, dificuldade respiratória e suor excessivo após trabalhar na roça.",
+    "tarefasPrincipais": [
+      "Realizar anamnese direcionada ao quadro atual e histórico de exposição",
+      "Solicitar e interpretar os achados do exame físico",
+      "Solicitar e interpretar os exames complementares pertinentes ao caso",
+      "Verbalizar o diagnóstico principal e os diagnósticos diferenciais",
+      "Estabelecer e comunicar a conduta terapêutica de urgência, incluindo antídotos",
+      "Discutir o manejo de complicações e o destino do paciente",
+      "Prestar orientações finais ao acompanhante"
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: Pedro Henrique da Silva\nIdade: 45 anos\nGênero: Masculino\nEstado Civil: Casado\nProfissão: Agricultor"
+      },
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO ACOMPANHANTE",
+        "informacao": "Nome: Maria da Silva (esposa)\nIdade: 42 anos\nProfissão: Dona de casa"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Meu marido está passando muito mal depois de trabalhar na roça."
+      },
+      {
+        "contextoOuPerguntaChave": "DIFICULDADE RESPIRATÓRIA",
+        "informacao": "Início: Há cerca de 3 horas, logo depois que ele chegou da roça e tomou banho.\nDuração: É contínua e tem piorado progressivamente.\nIntensidade: Nota 8/10\nImpacto nas Atividades de Vida Diária (AVDs): Não consegue fazer nada, nem falar.\nOrtopneia: Não conseguiu deitar, só fica sentado.\nDispneia Paroxística Noturna (DPN): Não dormiu de noite.\nFatores de piora: Qualquer esforço piora. Até para falar ele tem dificuldade.\nFatores de melhora: Nada melhora. Já dei água, tentei deitar ele, mas não adianta.\nEpisódios prévios: Nunca teve algo similar antes.\nRelação com o ambiente: Só hoje, depois que chegou da roça."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ASSOCIADOS À DIFICULDADE RESPIRATÓRIA",
+        "informacao": "Tosse: Sim, está tossindo muito.\nCatarro: Sim, branco.\nSensação de afogamento na própria saliva (Broncorreia): Sim, parece que está se afogando na própria saliva.\nDor no peito: Não tem.\nSibilos: Não percebo, mas ele faz um barulho."
+      },
+      {
+        "contextoOuPerguntaChave": "SUDORESE EXCESSIVA",
+        "informacao": "Início: Começou mais ou menos na mesma hora da dificuldade de respirar.\nCaracterísticas: Ele está completamente molhado de suor. A roupa está grudada no corpo. A pele está fria."
+      },
+      {
+        "contextoOuPerguntaChave": "SIALORREIA",
+        "informacao": "Início: Também começou há umas 3 horas.\nCaracterísticas: Ele está babando muito. A boca está cheia de saliva."
+      },
+      {
+        "contextoOuPerguntaChave": "LACRIMEJAMENTO",
+        "informacao": "Início: Também começou há umas 3 horas.\nCaracterísticas: Os olhos estão lacrimejando sem parar."
+      },
+      {
+        "contextoOuPerguntaChave": "VÔMITOS",
+        "informacao": "Frequência: Ele vomitou umas 3 vezes.\nConteúdo: Comida do almoço.\nOdor: Cheiro estranho, tipo alho."
+      },
+      {
+        "contextoOuPerguntaChave": "DIARREIA",
+        "informacao": "Frequência: Sim, teve diarreia umas 2 vezes.\nCaracterísticas: Líquida.\nMomento: Antes de sair de casa."
+      },
+      {
+        "contextoOuPerguntaChave": "CÓLICAS ABDOMINAIS",
+        "informacao": "Presença: Ele reclamou de dor na barriga.\nMomento: Antes de vomitar."
+      },
+      {
+        "contextoOuPerguntaChave": "INCONTINÊNCIA FECAL",
+        "informacao": "Presença: Não teve."
+      },
+      {
+        "contextoOuPerguntaChave": "FRAQUEZA MUSCULAR",
+        "informacao": "Início: Ele reclamou de fraqueza nas pernas e nos braços quando chegou em casa. Agora está mais mole ainda.\nCaracterísticas: Não consegue se levantar sozinho.\nFasciculações (Tremorzinhos/pulinhas na pele): Notei uns tremorzinhos no rosto e nos braços dele, umas 'pulinhas' na pele.\nParalisia: Não teve paralisia."
+      },
+      {
+        "contextoOuPerguntaChave": "ALTERAÇÃO DE CONSCIÊNCIA",
+        "informacao": "Início: Ele estava meio confuso desde que chegou, mas agora está mais sonolento, quase não responde."
+      },
+      {
+        "contextoOuPerguntaChave": "CONVULSÕES",
+        "informacao": "Presença: Não, ele não convulsionou."
+      },
+      {
+        "contextoOuPerguntaChave": "TONTURA",
+        "informacao": "Presença: Ele reclamou de tontura."
+      },
+      {
+        "contextoOuPerguntaChave": "DESORIENTAÇÃO",
+        "informacao": "Presença: Sim, está desorientado."
+      },
+      {
+        "contextoOuPerguntaChave": "EXPOSIÇÃO AO AGENTE",
+        "informacao": "Local: Aplicando veneno na plantação de milho.\nTipo de Agente: Não sei o nome, mas a embalagem é amarela e tem umas caveiras. O veneno cheira forte, ele sempre reclama.\nTempo de Exposição: A manhã toda, umas 6 horas.\nVia de Exposição: Não comeu nem bebeu nada lá, mas suou muito e não usava luvas. Não inalou diretamente, mas estava sem máscara.\nIntenção: Não, não foi tentativa de suicídio. Ele só é descuidado."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças Crônicas: Não tem nenhuma doença. Nunca precisou ir ao hospital.\nAsma: Não tem.\nDPOC: Não tem.\nDoenças Cardíacas: Não tem.\nAlergias: Não tem alergias.\nMedicações em Uso: Nenhuma medicação de uso contínuo.\nCirurgias Prévias: Nenhuma."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Fuma há uns 20 anos, um maço por dia.\nEtilismo: Bebe socialmente, uma ou duas vezes por semana, cerveja. Não bebeu hoje.\nDrogas Ilícitas: Não usa.\nAlimentação: Come de tudo.\nAtividade Física: Só o trabalho na roça.\nSono: Dorme bem, mas hoje não conseguiu."
+      },
+      {
+        "contextoOuPerguntaChave": "OUTROS ACHADOS RELEVANTES",
+        "informacao": "Embalagens de pesticidas: Não trouxe.\nOdor característico: Sinto um cheiro parecido com alho vindo dele."
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTAS DO ATOR SIMULADO",
+        "informacao": "pergunta (1): Doutor(a), o que está acontecendo com ele? Ele vai ficar bem? É grave?.\npergunta (2): O que precisa ser feito agora? Ele vai precisar ficar internado? Por quanto tempo?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais Iniciais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "90 × 60 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "50 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "30 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "36,2 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "88% em ar ambiente"
+                },
+                {
+                  "chave": "Glicemia Capilar",
+                  "valor": "75 mg/dL"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_2",
+        "tituloImpresso": "Achados do Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESTADO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Regular estado generalizado, sonolento, confuso, torporoso, profusamente diaforético, sialorreia intensa, lacrimejamento abundante."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO RESPIRATÓRIO",
+              "itens": [
+                {
+                  "chave": "Ausculta pulmonar",
+                  "valor": "Roncos e sibilos difusos, estertores crepitantes em bases pulmonares bilateralmente."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO CARDIOVASCULAR",
+              "itens": [
+                {
+                  "chave": "Ausculta cardíaca",
+                  "valor": "Bulhas rítmicas, bradicárdicas (50 bpm), normofonéticas, sem sopros."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ABDOME",
+              "itens": [
+                {
+                  "chave": "Inspeção",
+                  "valor": "Distendido."
+                },
+                {
+                  "chave": "Palpação",
+                  "valor": "Doloroso difusamente à palpação, sem sinais de irritação peritoneal."
+                },
+                {
+                  "chave": "Ausculta",
+                  "valor": "Ruídos hidroaéreos aumentados."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "NEUROLÓGICO",
+              "itens": [
+                {
+                  "chave": "Consciência",
+                  "valor": "Torporoso, responde a estímulos dolorosos, fala desconexa."
+                },
+                {
+                  "chave": "Pupilas",
+                  "valor": "Miose puntiforme bilateralmente, fotorreagentes."
+                },
+                {
+                  "chave": "Musculatura",
+                  "valor": "Fasciculações visíveis em face e membros superiores. Fraqueza muscular global (Força 3/5)."
+                },
+                {
+                  "chave": "Reflexos",
+                  "valor": "Reflexos tendinosos profundos diminuídos globalmente."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_3",
+        "tituloImpresso": "Exames Laboratoriais (após solicitação)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA COMPLETO",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14,0 g/dL (VR: 13,0 - 17,0 g/dL)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "42% (VR: 39 - 50%)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "10.500/mm³ (VR: 4.000 - 11.000/mm³)"
+                },
+                {
+                  "chave": "Neutrófilos",
+                  "valor": "70% (VR: 40 - 75%)"
+                },
+                {
+                  "chave": "Linfócitos",
+                  "valor": "20% (VR: 18 - 45%)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "250.000/mm³ (VR: 150.000 - 450.000/mm³)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Glicose",
+                  "valor": "80 mg/dL (VR: 70 - 99 mg/dL)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "35 mg/dL (VR: 15 - 45 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1,0 mg/dL (VR: 0,7 - 1,3 mg/dL)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "135 mEq/L (VR: 135 - 145 mEq/L)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "4,0 mEq/L (VR: 3,5 - 5,0 mEq/L)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "GASOMETRIA ARTERIAL (EM AR AMBIENTE)",
+              "itens": [
+                {
+                  "chave": "pH",
+                  "valor": "7,28 (VR: 7,35 - 7,45)"
+                },
+                {
+                  "chave": "pCO2",
+                  "valor": "55 mmHg (VR: 35 - 45 mmHg)"
+                },
+                {
+                  "chave": "pO2",
+                  "valor": "60 mmHg (VR: 75 - 100 mmHg)"
+                },
+                {
+                  "chave": "HCO3",
+                  "valor": "24 mEq/L (VR: 22 - 26 mEq/L)"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "88% (VR: 95 - 100%)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ATIVIDADE DE COLINESTERASES",
+              "itens": [
+                {
+                  "chave": "Pseudocolinesterase plasmática",
+                  "valor": "20% do valor de referência (VR: 5000-12000 U/L)"
+                },
+                {
+                  "chave": "Acetilcolinesterase eritrocitária",
+                  "valor": "15% do valor de referência (VR: 6000-10000 U/L)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_ECG_4",
+        "tituloImpresso": "Eletrocardiograma (ECG)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NO ECG.",
+          "caminhoImagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/ECG_sinus_bradycardia.PNG/800px-ECG_sinus_bradycardia.PNG",
+          "sugestaoBuscaImagem": "ECG sinusal bradicardia 50 bpm",
+          "laudo": "ACHADOS:\nRitmo sinusal, bradicardia (FC 50 bpm). Intervalos PR e QRS dentro da normalidade. Ausência de bloqueios atrioventriculares ou arritmias complexas. Onda T apiculada difusamente, sem infradesnivelamento de ST significativo.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_RX_5",
+        "tituloImpresso": "Radiografia de Tórax (AP/Perfil)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM.",
+          "caminhoImagem": "https://radiopaedia.org/images/22379374?lang=us",
+          "sugestaoBuscaImagem": "Radiografia de tórax edema pulmonar não cardiogênico infiltrado perihilar bilateral",
+          "laudo": "Infiltrado perihilar bilateral com padrão de edema intersticial, sugestivo de edema pulmonar não cardiogênico. Ausência de cardiomegalia ou derrame pleural significativo."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_INTOX_ORGANOFOSF_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 45 anos, agricultor, apresentando quadro agudo de síndrome colinérgica grave (dificuldade respiratória, sudorese, sialorreia, vômitos, diarreia, fraqueza muscular, miose, alteração de consciência) após exposição ocupacional a agrotóxicos (organofosforados). Exames demonstram hipóxia, acidose respiratória e intensa inibição das colinesterases.",
+      "focoPrincipalDetalhado": [
+        "Realizar anamnese detalhada para identificar a exposição e sintomas de síndrome colinérgica",
+        "Avaliar e interpretar sinais vitais e exame físico para identificar gravidade da intoxicação",
+        "Solicitar e interpretar exames complementares (gasometria, colinesterases, ECG, RX de tórax) para confirmação diagnóstica e avaliação de complicações",
+        "Estabelecer o diagnóstico de intoxicação por organofosforados e diferenciar de outras condições",
+        "Conduzir o manejo emergencial com suporte ventilatório, descontaminação e administração de antídotos específicos (atropina e pralidoxima)",
+        "Orientar o acompanhante e realizar notificação compulsória"
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_of_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e estabelecimento de vínculo:\n(1) Identifica-se;\n(2) Cumprimenta o acompanhante de maneira adequada e cordial;\n(3) Mantém contato visual durante sua apresentação;\n(4) Pergunta o nome do paciente e do acompanhante.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 3 ou 4 ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 1 ou 2 ações.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma ação.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_of_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese dirigida sobre a história da exposição a organofosforados, investigando:\n(1) tipo de agente;\n(2) via de exposição;\n(3) tempo desde a exposição;\n(4) quantidade estimada;\n(5) motivo;\n(6) uso de Equipamento de Proteção Individual (EPI).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 5 ou 6 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 ou 4 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_of_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese direcionada aos sintomas da síndrome colinérgica, investigando:\n(1) sudorese excessiva;\n(2) salivação;\n(3) lacrimejamento;\n(4) vômitos;\n(5) diarreia;\n(6) broncorreia e dificuldade respiratória;\n(7) fasciculações musculares;\n(8) fraqueza muscular;\n(9) alterações de consciência;\n(10) convulsões.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 7 a 10 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 4 a 6 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 4 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_of_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Questiona sobre antecedentes e hábitos de vida relevantes:\n(1) profissão;\n(2) condições médicas preexistentes;\n(3) tabagismo;\n(4) etilismo;\n(5) histórico psiquiátrico.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 4 ou 5 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 2 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_of_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Solicita e interpreta os Sinais Vitais Iniciais e a Glicemia Capilar:\n(1) solicita o impresso de sinais vitais;\n(2) identifica hipotensão (90x60 mmHg);\n(3) identifica bradicardia (50 bpm);\n(4) identifica taquipneia (30 irpm);\n(5) identifica hipóxia (SatO2 88%);\n(6) verifica a glicemia capilar (75 mg/dL).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 5 ou 6 ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 3 ou 4 ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Realiza menos de 3 ações ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_of_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Solicita e interpreta os achados do Exame Físico:\n(1) solicita o impresso de exame físico;\n(2) identifica o estado geral (sonolento, confuso, pele fria e pegajosa, sudorese profusa, sialorreia, lacrimejamento);\n(3) identifica miose puntiforme bilateral;\n(4) identifica roncos, sibilos e crepitantes à ausculta pulmonar;\n(5) identifica fasciculações musculares e fraqueza.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 4 ou 5 ações.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 2 ou 3 ações.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Realiza menos de 2 ações ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_of_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita exames laboratoriais complementares essenciais:\n(1) hemograma completo;\n(2) eletrólitos;\n(3) função renal (ureia, creatinina);\n(4) glicemia;\n(5) gasometria arterial;\n(6) atividade de colinesterases (plasmática e/ou eritrocitária).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 5 ou 6 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 3 ou 4 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 3 itens ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_of_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Interpreta corretamente os exames laboratoriais:\n(1) identifica acidose respiratória (pH 7,28, pCO2 55 mmHg) e hipóxia (pO2 60 mmHg, SatO2 88%) na gasometria arterial;\n(2) identifica redução significativa (>75%) da atividade das colinesterases (pseudocolinesterase plasmática 20% e acetilcolinesterase eritrocitária 15%).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente os 2 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente apenas 1 item.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não interpreta adequadamente nenhum item.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_of_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e interpreta corretamente o Eletrocardiograma (ECG) e a Radiografia de Tórax:\n(1) solicita ECG;\n(2) interpreta bradicardia sinusal (FC 50 bpm) no ECG;\n(3) solicita Radiografia de Tórax;\n(4) interpreta infiltrado perihilar bilateral/edema pulmonar na radiografia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 3 ou 4 ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 1 ou 2 ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma ação ou realiza inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_of_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Estabelece o diagnóstico principal e sua classificação:\n(1) Intoxicação Exógena Aguda por Organofosforados;\n(2) Síndrome Colinérgica;\n(3) Classifica a gravidade como grave.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Estabelece os 3 itens corretamente.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Estabelece 1 ou 2 itens corretamente.",
+            "pontos": 0.6
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_of_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes:\n(1) Intoxicação por carbamatos;\n(2) Intoxicação por cogumelos muscarínicos;\n(3) Crise colinérgica em miastenia gravis.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 2 ou 3 diagnósticos diferenciais corretos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita apenas 1 diagnóstico diferencial correto.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_of_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Inicia medidas de Suporte Básico de Vida (ABC) e estabilização:\n(1) avalia e mantém vias aéreas pérvias (com consideração/indicação de intubação orotraqueal se necessário);\n(2) garante ventilação e oxigenação adequadas (administra O2, indica ventilação mecânica se necessário);\n(3) estabelece acesso venoso e inicia hidratação.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 3 ações.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 1 ou 2 ações.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma ação ou realiza inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_of_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Realiza descontaminação adequada:\n(1) remoção de roupas do paciente;\n(2) lavagem abundante da pele do paciente com água e sabão;\n(3) assegura uso de EPI para a equipe de saúde;\n(4) considera administração de carvão ativado ou lavagem gástrica (se indicado e seguro).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 3 ou 4 ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 1 ou 2 ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma ação ou realiza inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_of_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Administra antídotos específicos de primeira linha:\n(1) Atropina (indicação, dose inicial, titulação até atropinização);\n(2) Pralidoxima (2-PAM) ou outras oximas (indicação, dose, importância da janela terapêutica para reativação da enzima).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Administra e descreve corretamente ambos os antídotos e seus detalhes.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Administra e descreve corretamente apenas um antídoto, ou descreve ambos incompletamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não administra antídotos ou administra inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_of_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Manejo de complicações e destino do paciente, com orientações finais:\n(1) prescreve benzodiazepínicos (diazepam, midazolam) para controle de convulsões ou agitação;\n(2) indica internação do paciente em Unidade de Terapia Intensiva (UTI);\n(3) explica ao acompanhante a condição clínica, tratamento e gravidade do quadro;\n(4) responde às dúvidas do acompanhante sobre o prognóstico e tempo de internação.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 3 ou 4 ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 1 ou 2 ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma ação ou realiza inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_of_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Notificação ao SINAN:\n(1) Menciona que fará a notificação compulsória do caso ao Sistema de Informação de Agravos de Notificação (SINAN) do Ministério da Saúde.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Menciona a necessidade de notificação.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não menciona a necessidade de notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 12.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A intoxicação exógena por organofosforados (OFs) é uma emergência médica grave, resultante da inibição da enzima acetilcolinesterase, que leva ao acúmulo de acetilcolina. O quadro clínico, conhecido como síndrome colinérgica, apresenta hiperestimulação muscarínica (SLUDGE: Sialorreia, Lacrimejamento, Urgência urinária, Diarreia, Gastrinterite, Emese; e DUMBELS: Diarreia, Urinação, Miose, Bradicardia, Broncoespasmo, Emese, Lacrimejamento, Salivação), nicotínica (fasciculações, fraqueza, paralisia) e efeitos no SNC (alterações de consciência, convulsões). A anamnese é crucial para identificar o agente, via e tempo de exposição. No exame físico, são esperados bradicardia, hipotensão, taquipneia, hipóxia, miose puntiforme e sudorese profusa. O diagnóstico é clínico-epidemiológico, confirmado pela redução da atividade das colinesterases plasmática e/ou eritrocitária. Exames complementares como gasometria arterial e ECG são essenciais para avaliar a função respiratória e cardíaca. O tratamento é emergencial, com suporte básico de vida (ABC), descontaminação (remoção de roupas, lavagem da pele) e administração de antídotos: atropina (para efeitos muscarínicos, titulada até a atropinização) e pralidoxima (para reativar a AChE, eficaz contra efeitos nicotínicos e muscarínicos, idealmente nas primeiras 24-48h). Benzodiazepínicos podem ser usados para convulsões. Complicações incluem insuficiência respiratória (principal causa de óbito), arritmias, Síndrome Intermediária e neuropatia retardada. A notificação compulsória ao SINAN e ao CIATox é obrigatória. A prevenção envolve uso de EPI, armazenamento seguro e educação. Pacientes moderados a graves exigem UTI.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde. Departamento de Vigilância das Doenças e Agravos Não Transmissíveis e Promoção da Saúde. Guia de Vigilância em Saúde: volume único. 3. ed. Brasília: Ministério da Saúde, 2019.",
+        "2. World Health Organization. The WHO recommended classification of pesticides by hazard and guidelines to classification 2019. Geneva: World Health Organization, 2020.",
+        "3. Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9th Edition. McGraw-Hill Education, 2020.",
+        "4. UpToDate, Inc. Organophosphate poisoning. Última atualização: 2024."
+      ]
+    }
+  }
+}

@@ -1,0 +1,560 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_01",
+  "tituloEstacao": "Doença de Alzheimer",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Alzheimer",
+    "Demência",
+    "Declínio Cognitivo",
+    "Geriatria",
+    "Neurologia",
+    "Clínica Médica",
+    "Atenção Secundária"
+  ],
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Serviço de exames de imagem (Tomografia, Ressonância)",
+        "Equipe multidisciplinar (psicólogo, terapeuta ocupacional, fisioterapeuta, fonoaudiólogo)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente idoso(a), sexo feminino, 78 anos, comparece à consulta acompanhada(a) pela filha, que refere queixas progressivas de memória e alterações de comportamento da mãe nos últimos dois anos.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese completa, focando na história do declínio cognitivo e funcional do paciente.",
+      "Solicitar o exame físico geral e neurológico direcionado ao caso.",
+      "Solicitar e interpretar exames complementares pertinentes para investigação e exclusão de diagnósticos diferenciais.",
+      "Formular a hipótese diagnóstica principal e listar diagnósticos diferenciais relevantes para o caso.",
+      "Elaborar a conduta terapêutica e o plano de seguimento, incluindo orientações ao paciente e à filha/cuidadora."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "A filha da paciente será sua principal fonte de informação para a anamnese."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Minha mãe está com muitos problemas de memória e o comportamento dela mudou bastante nos últimos dois anos."
+      },
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: Maria da Silva\nIdade: 78 anos\nSexo: Feminino\nProfissão: Aposentada\nEstado Civil: Viúva"
+      },
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO ACOMPANHANTE",
+        "informacao": "Nome: Ana Paula (filha)\nIdade: 50 anos\nProfissão: Professora"
+      },
+      {
+        "contextoOuPerguntaChave": "QUEIXAS DE MEMÓRIA",
+        "informacao": "Início: Insidioso, há cerca de 2 anos.\nProgressão: Piorando gradualmente.\nTipo de memória afetada: Esquece informações recentes, repete perguntas várias vezes na mesma conversa.\nDificuldade: Em lembrar compromissos, nomes de pessoas, onde guardou objetos.\nImpacto: Ela não consegue mais gerenciar as finanças dela ou usar o controle remoto da TV."
+      },
+      {
+        "contextoOuPerguntaChave": "DIFICULDADE EM TAREFAS/AVDS",
+        "informacao": "Início: Começou com tarefas mais complexas, como cozinhar e pagar contas.\nProgressão: Agora precisa de ajuda para se vestir e tomar banho.\nAtividades Instrumentais de Vida Diária (AIVDs): Não consegue usar o telefone, fazer compras ou preparar refeições sozinha.\nAtividades Básicas de Vida Diária (ABVDs): Precisa de ajuda para se alimentar e higiene pessoal."
+      },
+      {
+        "contextoOuPerguntaChave": "ALTERAÇÕES COMPORTAMENTAIS E DE HUMOR",
+        "informacao": "Início: Há cerca de 1 ano e meio.\nTipo: Está muito apática, não quer fazer nada. Às vezes fica irritada sem motivo.\nHumor: Chora com facilidade, parece deprimida.\nSintomas psicóticos: Nega delírios ou alucinações atualmente, mas há 6 meses 'conversava com pessoas que não estavam lá'."
+      },
+      {
+        "contextoOuPerguntaChave": "DESORIENTAÇÃO",
+        "informacao": "Temporal: Pergunta constantemente o dia da semana ou a data.\nEspacial: Não consegue encontrar o caminho de volta para casa se sai sozinha. Às vezes se perde dentro de casa."
+      },
+      {
+        "contextoOuPerguntaChave": "LINGUAGEM",
+        "informacao": "Dificuldade: Em encontrar palavras para expressar o que quer dizer. Às vezes troca palavras. \nCompreensão: Consegue seguir conversas simples, mas se a conversa é complexa, ela se perde."
+      },
+      {
+        "contextoOuPerguntaChave": "CAPACIDADE DE JULGAMENTO/RESOLUÇÃO DE PROBLEMAS",
+        "informacao": "Dificuldade: Não consegue tomar decisões simples, como o que vestir. Não consegue resolver problemas do dia a dia."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos (item obrigatório)",
+        "informacao": "Doenças crônicas: Hipertensão arterial sistêmica, controlada com Losartana.\nCirurgias prévias: Apendicectomia há muitos anos.\nInternações: Nega internações recentes.\nAlergias: Nega alergias a medicamentos ou alimentos.\nMedicamentos em uso contínuo: Losartana 50mg/dia. Nega uso de outros medicamentos, especialmente anticolinérgicos ou benzodiazepínicos.\nVacinação: Completa e atualizada para a idade. \nTrauma: Nega traumatismo cranioencefálico prévio grave.\nTransfusões: Nega transfusões sanguíneas."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Idade avançada: 78 anos.\nIntercorrências neonatais: Não se aplica, é um adulto.\nHábitos sexuais: Nega atividade sexual.\nHábitos urinários: Nega alterações urinárias, mas a filha refere episódios ocasionais de incontinência urinária de urgência nos últimos meses.\nHábitos intestinais: Nega alterações intestinais.\nIngestão hídrica: A filha precisa lembrá-la de beber água regularmente.\nExposição ocupacional: Nega. Trabalhou como professora primária.\nEstresse: Nega estresse recente significativo, além da própria doença."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA'(ITEM OBRIGATÓRIO)",
+        "informacao": "Tabagismo: Nunca fumou.\nEtilismo: Nega etilismo.\nDrogas ilícitas: Nega uso.\nAlimentação: Variada, mas tem perdido peso nos últimos 6 meses (cerca de 3 kg).\nAtividade física: Sedentária há 5 anos.\nSono: Dorme cerca de 6 horas por noite, mas tem tido despertares noturnos frequentes.\nHábitos urinários: Conforme relatado nos antecedentes fisiológicos.\nHábitos intestinais: Conforme relatado nos antecedentes fisiológicos.\nIngestão hídrica: Baixa, precisa de estímulo.\nExposição ocupacional: Nega.\nEstresse: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Falecido, causa natural.\nMãe: Falecida, tinha 'esquecimentos' na velhice, mas nunca teve diagnóstico formal de demência. \nDoenças (especificas com relação e relevante ao caso) na família: Uma tia materna teve diagnóstico de Doença de Alzheimer.\nHistoria de câncer na família: Mãe com câncer de mama.\nIrmãos ou tias: Irmão vivo, sem demência. Tia materna com DA."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS",
+        "informacao": "Gestações: 2\nPartos: 2 (vaginais)\nAbortos: Nega\nCesáreas: Nega\nData da Última Menstruação (DUM): Menopausa há mais de 20 anos.\nMenarca: 13 anos.\nCiclos menstruais: Regulares antes da menopausa.\nSexarca: 20 anos.\nTelarca: 12 anos.\nPubarca: 13 anos.\nAtividade sexual: Nega.\nParceiros: 1\nUso de contraceptivos: Nega\nUso de preservativos: Nega\nExames preventivos: Papanicolau e mamografia em dia até a aposentadoria. Após, não realizou mais.\nHistórico de IST: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR: (Ex: Se o candidato solicitar o resultado dos exames trazidos libere o impresso (x) / Ex: Após o candidato solicitar o exame X responda 'considere solicitado' ou 'considere realizado o procedimento'.)",
+        "informacao": "Se o candidato solicitar 'avaliar estado mental' ou 'aplicar teste cognitivo', a filha dirá: 'A doutora do posto de saúde já aplicou um teste e deu alterado, mas não sei o nome. Ela disse que era para 'ver o quanto de memória estava ruim'.' O chefe de estação pode então liberar o impresso do MEEM com a pontuação."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE: (ex: Dúvidas do ator sobre medicamentos, exames, condutas, etc., Perguntar após o atendimento se o candidato realizar a anamnese/exame fisico/conduta/tratamento/, Ex: Após o candidato realizar a anamnese, pergunte o que o paciente tem / Ex: Após realizar o diagnostico, pergunta se o que voce tem é grave, ou se tem complicações, ou se nao poderia ser outra coisa.)",
+        "informacao": "pergunta (1): Minha mãe tem Alzheimer, doutor(a)?.\npergunta (2): Tem cura? O que podemos fazer para ela não piorar?\npergunta (3): Quais são as opções de tratamento para ela?\npergunta (4): O que faço para não ficar estressada cuidando dela?.\npergunta (5): Ela pode morar sozinha ainda?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est01_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico (Verbalizado pela Filha/Chefe de Estação)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "130 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "72 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Bom estado geral, lúcida, orientada em pessoa, desorientada no tempo e espaço, hipoativa, fácies inexpressiva. Hidratada e corada."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Normocefálica, sem alterações. Pescoço móvel, sem linfonodomegalias."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação, sem visceromegalias. Ruídos hidroaéreos presentes."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edema, boa perfusão periférica. Força muscular preservada. Reflexos profundos normais."
+                },
+                {
+                  "chave": "Exame Neurológico",
+                  "valor": "Pares cranianos preservados. Força e sensibilidade preservadas. Marcha lenta, mas sem ataxia. Reflexos primitivos (grasp) presentes bilateralmente."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais (Realizados há 2 meses)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "13.2 g/dL (Ref: 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.8 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "95 mg/dL (Ref: 70-99)"
+                },
+                {
+                  "chave": "TSH",
+                  "valor": "2.1 µUI/mL (Ref: 0.4-4.0)"
+                },
+                {
+                  "chave": "T4 livre",
+                  "valor": "1.2 ng/dL (Ref: 0.8-1.8)"
+                },
+                {
+                  "chave": "Vitamina B12",
+                  "valor": "250 pg/mL (Ref: 200-900)"
+                },
+                {
+                  "chave": "Folato",
+                  "valor": "8 ng/mL (Ref: >4)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SOROLOGIAS",
+              "itens": [
+                {
+                  "chave": "VDRL",
+                  "valor": "Não Reagente"
+                },
+                {
+                  "chave": "Anti-HIV",
+                  "valor": "Não Reagente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_IMAGEM_RM_3",
+        "tituloImpresso": "Ressonância Magnética de Crânio (Realizada há 1 mês)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Imagens axiais de RM do crânio demonstrando atrofia cortical.",
+          "caminhoImagem": "",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: Ressonância Magnética de crânio mostrando atrofia hipocampal e cortical generalizada em doença de Alzheimer)",
+          "laudo": "ACHADOS:\nAtrofia cortical difusa, mais acentuada em lobos temporais mediais e parietais, com destaque para redução volumétrica de hipocampo bilateralmente. Pequenos focos de leucoaraiose periventricular inespecíficos. Ausência de lesões expansivas ou coleções. Não há evidência de hidrocefalia.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_MEEM_4",
+        "tituloImpresso": "Mini Exame do Estado Mental (MEEM) (Aplicado há 1 mês)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "PONTUAÇÃO MEEM",
+              "itens": [
+                {
+                  "chave": "Orientação Temporal",
+                  "valor": "2/5"
+                },
+                {
+                  "chave": "Orientação Espacial",
+                  "valor": "2/5"
+                },
+                {
+                  "chave": "Registro de 3 palavras",
+                  "valor": "1/3"
+                },
+                {
+                  "chave": "Atenção e Cálculo (Subtração de 7)",
+                  "valor": "2/5"
+                },
+                {
+                  "chave": "Evocação de 3 palavras",
+                  "valor": "0/3"
+                },
+                {
+                  "chave": "Linguagem (Nomear, Repetir, Comando)",
+                  "valor": "3/9"
+                },
+                {
+                  "chave": "Construção (Desenho)",
+                  "valor": "0/1"
+                },
+                {
+                  "chave": "TOTAL",
+                  "valor": "10/30 (Para paciente com 4 anos de escolaridade, ponto de corte 21)"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST01_CM_ALZHEIMER_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente do sexo feminino, 78 anos, com queixa de declínio cognitivo progressivo (memória, AVDs, comportamento) há 2 anos. Antecedentes de HAS e história familiar de demência. Exame físico sem alterações focais, mas com reflexos primitivos. Exames laboratoriais normais, RM de crânio com atrofia temporal/parietal e hipocampal. MEEM alterado, pontuação de 10/30 (ponto de corte 21 para 4 anos de escolaridade).",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada do declínio cognitivo e funcional, com heteroanamnese.",
+        "Exame físico e neurológico para exclusão de outras causas.",
+        "Solicitação e interpretação de exames complementares (laboratoriais e de imagem).",
+        "Formulações de hipóteses diagnósticas e diagnósticos diferenciais de demência.",
+        "Proposição de tratamento farmacológico e não farmacológico, além de orientações ao cuidador."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est01_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente e o acompanhante de maneira adequada/cordial;\n(3) Pergunta o motivo da consulta.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza duas ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Realiza apenas uma ação ou não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Investiga características das queixas de memória:\n(1) início (insidioso/súbito);\n(2) curso (progressivo/estacionário);\n(3) tipo de memória afetada (recente/remota);\n(4) repetição de perguntas;\n(5) esquecimento de nomes/compromissos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 item ou nenhum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Investiga impacto na funcionalidade (AVDs):\n(1) dificuldades em AVDs instrumentais (finanças, telefone, cozinhar);\n(2) dificuldades em AVDs básicas (vestir-se, banho);\n(3) progressão do comprometimento funcional.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 3 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 1 ou 2 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não investiga item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Investiga alterações comportamentais e de humor:\n(1) apatia;\n(2) irritabilidade;\n(3) ansiedade/depressão;\n(4) delírios/alucinações (histórico ou atual).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 3 ou 4 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 1 ou 2 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não investiga item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Investiga desorientação, linguagem e julgamento:\n(1) desorientação temporal;\n(2) desorientação espacial;\n(3) dificuldade de encontrar palavras/seguir conversas;\n(4) comprometimento do julgamento/resolução de problemas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 3 ou 4 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 1 ou 2 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não investiga item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Questiona sobre antecedentes relevantes:\n(1) antecedentes patológicos pessoais (HAS, DM, AVC, traumatismo cranioencefálico, depressão);\n(2) medicamentos em uso contínuo (especialmente anticolinérgicos/benzodiazepínicos);\n(3) história familiar de demência/Doença de Alzheimer.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Questiona sobre os 3 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Questiona sobre 1 ou 2 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não questiona item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Verbaliza a necessidade de realizar exame físico e neurológico direcionado:\n(1) exame físico geral (sinais vitais, estado nutricional);\n(2) exame neurológico (pares cranianos, força, sensibilidade, reflexos, marcha, equilíbrio);\n(3) verbaliza a importância da busca por sinais focais ou sinais de outras causas de demência.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza os 3 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 1 ou 2 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita e interpreta os exames complementares de rotina e específicos:\n(1) solicita hemograma completo, eletrólitos, glicemia, função renal, função hepática, TSH e T4 livre, vitamina B12 e folato, VDRL/HIV;\n(2) interpreta os resultados para descartar causas reversíveis de demência e co-morbidades;\n(3) considera o resultado do MEEM (impresso MEEM_4) e sua relevância diagnóstica.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita os exames e interpreta os resultados de forma completa (3 itens).",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita a maioria dos exames ou interpreta parcialmente (1 ou 2 itens).",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e interpreta exame de imagem cerebral:\n(1) solicita Ressonância Magnética (RM) de Crânio ou Tomografia Computadorizada (TC) de Crânio;\n(2) interpreta os achados de atrofia cortical em lobos temporais mediais/parietais e/ou atrofia hipocampal;\n(3) exclui outras causas de demência pela imagem (tumor, hidrocefalia, grandes AVCs).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta os achados de imagem de forma completa (3 itens).",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita a imagem e interpreta parcialmente (1 ou 2 itens).",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Verbaliza a hipótese diagnóstica principal e diagnósticos diferenciais:\n(1) verbaliza Doença de Alzheimer (provável) como hipótese principal;\n(2) cita pelo menos 2 diagnósticos diferenciais relevantes (Demência Vascular, Demência com Corpos de Lewy, Depressão, Hipotireoidismo, Deficiência de B12).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a hipótese principal e 2 ou mais diferenciais.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza a hipótese principal, mas apenas 1 ou nenhum diferencial.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico principal ou o faz incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Propõe plano terapêutico farmacológico e não farmacológico:\n(1) indica inibidores da acetilcolinesterase (Donepezila/Rivastigmina/Galantamina) para DA leve/moderada;\n(2) indica Memantina para DA moderada/grave (ou em combinação);\n(3) sugere intervenções não farmacológicas (estimulação cognitiva, terapia ocupacional, fisioterapia, fonoaudiologia);\n(4) recomenda suporte e acompanhamento ao cuidador.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe os 4 itens da conduta terapêutica de forma completa.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 2 ou 3 itens da conduta terapêutica.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Propõe 1 item ou nenhum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Realiza orientações gerais e de seguimento:\n(1) informa sobre a natureza progressiva da doença e expectativas realistas;\n(2) orienta sobre adaptações ambientais para segurança (prevenção de quedas);\n(3) orienta sobre o manejo de distúrbios comportamentais;\n(4) indica a necessidade de acompanhamento regular e encaminhamento a especialistas (neurologista/geriatra, neuropsicólogo).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 3 ou 4 orientações e encaminhamentos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 1 ou 2 orientações e encaminhamentos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não realiza orientações ou encaminhamentos adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Doença de Alzheimer (DA) é a principal causa de demência, um transtorno neurodegenerativo progressivo que leva à deterioração cognitiva e funcional. O diagnóstico é essencialmente clínico, baseado na história de declínio insidioso e progressivo em múltiplos domínios cognitivos, que impacta as atividades de vida diária. A anamnese deve ser abrangente, com heteroanamnese crucial, buscando queixas de memória recente, desorientação, dificuldades em AVDs instrumentais e básicas, e alterações comportamentais/psicopatológicas (apatia, irritabilidade, depressão, delírios). Deve-se investigar antecedentes pessoais (fatores de risco vascular, TCE, depressão) e familiares de demência. O exame físico geral e neurológico inicial é frequentemente normal, mas deve-se buscar sinais focais que apontem para outras etiologias e, em fases avançadas, reflexos primitivos. Testes de rastreio cognitivo como o MEEM são úteis para triagem. Exames complementares são fundamentais para exclusão de diagnósticos diferenciais reversíveis: hemograma, eletrólitos, glicemia, função renal/hepática, TSH/T4 livre, B12/folato, VDRL/HIV. A neuroimagem (RM ou TC de crânio) é essencial para excluir causas secundárias de demência (tumores, hidrocefalia, AVCs) e pode evidenciar atrofia cortical (especialmente temporal medial e hipocampal) característica da DA. O tratamento é sintomático e multidisciplinar. Farmacologicamente, inibidores da acetilcolinesterase (donepezila, rivastigmina, galantamina) são a primeira linha para DA leve a moderada, e a memantina (antagonista NMDA) para DA moderada a grave. O manejo não farmacológico inclui estimulação cognitiva, terapia ocupacional, fisioterapia e fonoaudiologia. O suporte ao cuidador é crucial. Fatores de risco incluem idade avançada, genética e comorbidades vasculares. Complicações comuns são quedas, disfagia, infecções e distúrbios comportamentais graves.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Atenção à Saúde. Departamento de Atenção Especializada e Temática. Protocolos Clínicos e Diretrizes Terapêuticas: Doença de Alzheimer. 2017. Disponível em: https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/doencas-nao-transmissiveis/pcdt-doenca-de-alzheimer.pdf",
+        "2. Chaves ML, de Assis MB, Santos C. Dementia: clinical diagnosis. Dement Neuropsychol. 2017 Jul-Sep;11(3):210-218.",
+        "3. UpToDate. Clinical features and diagnosis of Alzheimer disease. Disponível em: https://www.uptodate.com/contents/clinical-features-and-diagnosis-of-alzheimer-disease"
+      ]
+    }
+  }
+}

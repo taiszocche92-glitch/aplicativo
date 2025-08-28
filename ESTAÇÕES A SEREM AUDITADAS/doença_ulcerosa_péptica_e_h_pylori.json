@@ -1,0 +1,501 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_01",
+  "tituloEstacao": "Doença Ulcerosa Péptica e H. pylori",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Úlcera péptica, H. pylori, Dor epigástrica, Hemorragia Digestiva Alta, Clínica Médica, Atenção secundária",
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 45 anos, sexo masculino, chega à consulta ambulatorial referindo dor na 'boca do estômago' e queimação persistente há cerca de três meses.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente.",
+      "Realizar o exame físico direcionado à queixa.",
+      "Solicitar e Interpretar exames complementares pertinentes ao caso.",
+      "Estabelecer o diagnóstico e os diagnósticos diferenciais.",
+      "Propor a conduta terapêutica e as orientações para o paciente.",
+      "Responder aos questionamentos do paciente."
+    ],
+    "avisosImportantess": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Doutor(a), estou com uma dor na boca do estômago e queimação há uns 3 meses."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR EPIGÁSTRICA",
+        "informacao": "Início: Começou há uns 3 meses, meio que de repente, mas foi piorando.\nLocalização: É bem na boca do estômago, mas às vezes parece que vai para as costas.\nIntensidade: É uma dor forte, eu diria uns 7 em 10, que atrapalha o que eu estou fazendo.\nCaracterística ou Tipo da dor: É uma queimação, mas às vezes parece que está roendo por dentro.\nIrradiação: Sim, irradia para o dorso, parece que 'atravessa' as costas.\nDuração: É cíclica, doutor(a). Fica uns dias doendo, depois melhora, e volta. Cada episódio de dor pode durar horas.\nProgressão: No começo era mais fraca, mas agora está mais intensa e mais frequente.\nFrequencia: Aparece quase todos os dias, principalmente à noite e de madrugada.\nFator de piora ou agravante: Às vezes, piora depois que eu como, principalmente comidas mais gordurosas ou picantes. Mas tem dia que a comida até alivia um pouco, é confuso.\nFator de melhora ou atenuante: Melhora um pouco quando eu tomo antiácido ou quando como alguma coisa leve. Mas depois volta.\nEpisódios prévios: Já tive algo parecido anos atrás, mas não tão forte e passou sozinho.\nMedicação de alivio: Tomo uns antiácidos que compro na farmácia, mas o alívio é só por um tempo."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Náuseas: Sim, sinto náuseas com frequência, principalmente quando a dor é mais forte.\nVômitos: Vomitei algumas vezes no mês passado, mas não tinha sangue.\nEmpachamento pós-prandial: Sinto meu estômago cheio muito rápido, mesmo comendo pouco.\nPlenitude precoce: Sim, como um pouco e já me sinto satisfeito, como se tivesse comido muito.\nPerda de peso inexplicada: Não, não perdi peso que eu tenha notado.\nHematêmese: Não, nunca vomitei sangue.\nMelena: Não percebi fezes escuras como piche.\nEnterorragia: Não, nunca tive sangue vivo nas fezes.\nDor abdominal súbita e intensa (perfuração): Não, a dor nunca foi assim tão de repente e insuportável.\nFebre: Não tive febre."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Nego doenças crônicas como diabetes ou hipertensão.\nCirurgias prévias: Nego cirurgias anteriores.\nInternações: Nego internações prévias.\nAlergias: Nego alergias a medicamentos ou alimentos.\nMedicamentos em uso contínuo: Uso Buscopan Duo de vez em quando para cólicas, mas não é contínuo. Não tomo outros medicamentos regularmente.\nUso de AINEs: Usei ibuprofeno por uns 15 dias no mês passado para uma dor no joelho. Depois disso a dor no estômago piorou.\nVacinação: Minha vacinação está em dia, as de rotina.\nTrauma: Nego traumas relevantes.\nTransfusões: Nego transfusões sanguíneas."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Fumo um maço de cigarros por dia há 10 anos.\nEtilismo: Bebo socialmente, umas 3-4 cervejas nos fins de semana.\nDrogas ilícitas: Nego uso de drogas ilícitas.\nAlimentação: Minha dieta não é muito balanceada, como bastante comida frita e temperada, e tomo muito café.\nAtividade física: Não pratico atividade física regularmente.\nSono: Durmo bem, mas às vezes a dor no estômago me acorda.\nIngestão hídrica: Bebo uns 2 litros de água por dia.\nEstresse: Sou bem estressado(a) com o trabalho e problemas familiares."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Meu pai teve úlcera no estômago há muitos anos.\nMãe: Minha mãe é saudável.\nDoenças na família: Não tenho outras doenças importantes na família.\nHistoria de câncer na família: Meu avô paterno teve câncer de estômago.\nIrmãos ou tias: Não consta no script."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar exame físico abdominal, verbalize os achados como 'Dor à palpação epigástrica, sem sinais de peritonismo'.\nSe solicitar exames laboratoriais gerais, libere o impresso [est1_impresso_LABORATORIO_2].\nSe solicitar teste para H. pylori não invasivo, libere o impresso [est1_impresso_HPYLORI_3].\nSe solicitar Endoscopia Digestiva Alta, libere o impresso [est1_impresso_EDA_4].\nSe solicitar Raio-X de abdome, diga 'considerado realizado e o resultado é sem pneumoperitônio'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): Doutor(a), o que eu tenho afinal? É essa bactéria?\npergunta (2): Essa dor no estômago pode virar câncer?\npergunta (3): Como eu me livro disso? Tem que tomar muito remédio?\npergunta (4): Preciso mudar minha alimentação?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "120x80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "78 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 %"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Bom estado geral, eupneico, anictérico, acianótico, normocorado."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Sem alterações à inspeção e palpação."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular, bulhas rítmicas normofonéticas em 2 tempos, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente e simétrico bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação superficial. Dor à palpação profunda em epigástrio. Ruídos hidroaéreos presentes. Sem massas ou visceromegalias. Não há sinais de peritonismo."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edema, pulsos periféricos presentes e simétricos."
+                },
+                {
+                  "chave": "Sinais de Inflamação",
+                  "valor": "Nega."
+                },
+                {
+                  "chave": "Edema",
+                  "valor": "Nega."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais Gerais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.0 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "42% (Ref: 40-52 M / 36-48 F)"
+                },
+                {
+                  "chave": "VCM",
+                  "valor": "88 fL (Ref: 80-100 fL)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "250.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "25 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "95 mg/dL (Ref: 70-99)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_HPYLORI_3",
+        "tituloImpresso": "Teste de Antígeno Fecal para H. pylori",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "RESULTADO",
+              "itens": [
+                {
+                  "chave": "Pesquisa de Antígeno Fecal para H. pylori",
+                  "valor": "POSITIVO"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_DUP_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "O paciente apresenta quadro de dor epigástrica crônica, cíclica, com características mistas de úlcera gástrica e duodenal, associada a sintomas dispépticos. Há fatores de risco como tabagismo, etilismo, dieta inadequada, estresse, uso recente de AINEs e história familiar de úlcera e câncer gástrico. A investigação é crucial para confirmar a DUP, excluir malignidade (em úlcera gástrica) e identificar a etiologia (H. pylori/AINEs).",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada da dor epigástrica e sintomas associados.",
+        "Identificação de fatores de risco para DUP e malignidade.",
+        "Solicitação e interpretação de exames complementares (laboratoriais, H. pylori, EDA).",
+        "Formulação do diagnóstico etiológico e diferencial.",
+        "Proposição de conduta terapêutica e orientações de seguimento."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se e (2) cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, investigando as características da dor epigástrica:\n(1) início;\n(2) localização;\n(3) intensidade;\n(4) característica/tipo (queimação/roedura);\n(5) irradiação;\n(6) duração (cíclica/intermitente);\n(7) progressão;\n(8) frequência;\n(9) fator de piora/agravante;\n(10) fator de melhora/atenuante;\n(11) episódios prévios;\n(12) medicação de alívio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 10 ou mais de 12 aspectos da dor.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 6 a 9 de 12 aspectos da dor.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Investiga 5 ou menos de 12 aspectos da dor ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, investigando sintomas associados e sinais de alarme:\n(1) náuseas;\n(2) vômitos (incluindo hematêmese);\n(3) empachamento pós-prandial;\n(4) plenitude precoce;\n(5) perda de peso inexplicada;\n(6) melena;\n(7) enterorragia;\n(8) dor abdominal súbita e intensa;\n(9) febre.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 7 ou mais de 9 sintomas/sinais de alarme.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 4 a 6 de 9 sintomas/sinais de alarme.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 3 ou menos de 9 sintomas/sinais de alarme ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza anamnese, investigando antecedentes pessoais patológicos:\n(1) história prévia de DUP/gastrite/sangramento GI;\n(2) uso crônico ou recente de AINEs/AAS/corticosteroides/anticoagulantes;\n(3) comorbidades relevantes (cardíacas, renais, hepáticas);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 3 de 3 aspectos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 1 ou 2 de 3 aspectos.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não investiga ou investiga incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Realiza anamnese, investigando hábitos de vida e contexto psicossocial:\n(1) tabagismo;\n(2) etilismo;\n(3) dieta;\n(4) estresse/ansiedade.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 de 4 aspectos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 de 4 aspectos.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não investiga ou investiga incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Realiza anamnese, investigando antecedentes familiares:\n(1) história familiar de DUP;\n(2) história familiar de câncer gástrico.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 2 de 2 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 1 de 2 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não investiga ou investiga incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita e descreve os achados do exame físico abdominal:\n(1) palpação epigástrica com dor;\n(2) ausência de sinais de peritonismo (abdome em tábua, descompressão dolorosa).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e descreve os 2 achados corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e descreve apenas 1 achado corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não descreve adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita exames complementares pertinentes:\n(1) Hemograma completo;\n(2) Eletrólitos, Ureia e Creatinina;\n(3) Testes para H. pylori (teste respiratório da ureia ou pesquisa de antígeno fecal);\n(4) Endoscopia Digestiva Alta (EDA).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 4 de 4 exames/tipos de exames.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 ou 3 de 4 exames/tipos de exames.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita 1 ou menos de 4 exames/tipos de exames ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpreta corretamente os resultados dos exames complementares solicitados:\n(1) Hemograma (sem anemia ou leucocitose);\n(2) Função renal (normal);\n(3) Teste de H. pylori positivo (antígeno fecal ou TRU);\n(4) Achados da EDA (úlcera gástrica e duodenal, H. pylori positivo na biópsia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 4 de 4 achados corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 ou 3 de 4 achados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta 1 ou menos de 4 achados corretamente ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Estabelece o diagnóstico correto:\n(1) Doença Ulcerosa Péptica (gástrica e duodenal) associada à infecção por Helicobacter pylori e uso de AINEs.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico completo e correto.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico de DUP, mas falha na etiologia ou localização.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes:\n(1) Gastrite;\n(2) Doença do Refluxo Gastroesofágico (DRGE);\n(3) Dispepsia funcional;\n(4) Câncer gástrico.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou 4 diagnósticos diferenciais relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais relevantes.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Propõe a conduta terapêutica para H. pylori e DUP:\n(1) Esquema de erradicação de H. pylori (ex: terapia tríplice padrão ou quádrupla com bismuto);\n(2) Duração do tratamento (7 a 14 dias);\n(3) Uso de IBP em dose plena por 4-8 semanas após erradicação;\n(4) Orientação para suspender AINEs ou usá-los com IBP profilático se indispensável.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe 4 de 4 aspectos da conduta terapêutica.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 2 ou 3 de 4 aspectos da conduta terapêutica.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Propõe 1 ou menos de 4 aspectos da conduta terapêutica ou propõe incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Orientações e seguimento:\n(1) Cessação do tabagismo e moderação do álcool;\n(2) Dieta balanceada e evitar alimentos desencadeantes;\n(3) Sinais de alarme para buscar atendimento (hematêmese, melena, dor súbita intensa);\n(4) Confirmação de erradicação de H. pylori (4-6 semanas após tratamento);\n(5) EDA de controle para úlceras gástricas (4-8 semanas após tratamento).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza 4 ou 5 de 5 orientações/aspectos do seguimento.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 2 ou 3 de 5 orientações/aspectos do seguimento.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Verbaliza 1 ou menos de 5 orientações/aspectos do seguimento ou não verbaliza.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Responde adequadamente aos questionamentos do paciente:\n(1) Explica o diagnóstico e etiologia (H. pylori e AINEs);\n(2) Aborda o risco de malignidade (especialmente em úlcera gástrica e história familiar) e a importância da biópsia/seguimento;\n(3) Detalha o tratamento (antibióticos, IBP) e sua duração;\n(4) Reforça a importância das mudanças de hábitos alimentares e de vida.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde a 4 de 4 questionamentos de forma clara e completa.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Responde a 2 ou 3 de 4 questionamentos de forma satisfatória.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Responde a 1 ou menos de 4 questionamentos ou responde de forma inadequada.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Doença Ulcerosa Péptica (DUP) é uma solução de continuidade da mucosa gastroduodenal que se estende até a submucosa. As principais causas são a infecção por *Helicobacter pylori* e o uso de anti-inflamatórios não esteroides (AINEs). O paciente apresenta uma anamnese clássica de DUP, com dor epigástrica tipo 'queimação'/'roedura', cíclica, intermitente, com fatores de melhora e piora variados (úlcera duodenal geralmente aliviada pela alimentação, gástrica exacerbada). Sintomas dispépticos como náuseas, empachamento e plenitude precoce são comuns. Fatores de risco relevantes neste caso incluem tabagismo, consumo de álcool, dieta inadequada, estresse e uso recente de AINEs, além de histórico familiar de DUP e câncer gástrico. A negação de sangramento ativo ou sinais de perfuração é importante para direcionar a conduta inicial. O exame físico tipicamente revela dor à palpação epigástrica, sem sinais de peritonismo em casos não complicados. O diagnóstico definitivo é realizado pela Endoscopia Digestiva Alta (EDA), que permite a visualização direta das úlceras, biópsias para H. pylori (Teste Rápido da Urease) e exclusão de malignidade (especialmente em úlceras gástricas). Testes não invasivos para H. pylori, como o teste respiratório da ureia ou pesquisa de antígeno fecal, são úteis no diagnóstico e na confirmação da erradicação. O tratamento envolve a erradicação de H. pylori (terapia tríplice ou quádrupla com bismuto por 7-14 dias) e a cicatrização da úlcera com Inibidores de Bomba de Prótons (IBP) por 4-8 semanas. Para úlceras induzidas por AINEs, a suspensão do medicamento e o uso de IBP são cruciais, com profilaxia contínua se o AINE for indispensável. Complicações como hemorragia, perfuração e obstrução exigem intervenção de urgência. O seguimento inclui a confirmação da erradicação de H. pylori e EDA de controle para todas as úlceras gástricas. Orientações sobre hábitos de vida (cessar tabagismo e álcool, dieta) são fundamentais para prevenção de recorrências.",
+      "fontes": [
+        "1. Federação Brasileira de Gastroenterologia (FBG). Consenso Brasileiro de H. pylori. 5ª Edição, 2018.",
+        "2. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas. Doença Ulcerosa Péptica. 2019.",
+        "3. UpToDate. Peptic Ulcer Disease: Epidemiology, etiology, and pathogenesis. 2024."
+      ]
+    }
+  }
+}

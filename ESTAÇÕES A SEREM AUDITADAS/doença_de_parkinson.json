@@ -1,0 +1,600 @@
+{
+  "idEstacao": "REVALIDA_MEDIOALTO_2025_CM_01",
+  "tituloEstacao": "Doença de Parkinson",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Doença de Parkinson, Parkinsonismo, Neurodegenerativa, Clínica Médica, Atenção Secundária, Atenção Terciária",
+  "nivelDificuldade": "Médio-Alto",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 68 anos, sexo masculino, casado, aposentado, procura atendimento no ambulatório de neurologia queixando-se de tremores e lentidão para realizar as atividades diárias que vêm piorando progressivamente ao longo dos últimos anos.",
+    "tarefasPrincipais": [
+      "Realizar anamnese detalhada, focando nos sintomas motores e não-motores.",
+      "Verbalizar o exame físico neurológico direcionado para a queixa do paciente.",
+      "Formular a hipótese diagnóstica principal e os diagnósticos diferenciais do quadro clínico.",
+      "Solicitar exames complementares para auxiliar no diagnóstico diferencial e avaliação do paciente.",
+      "Interpretar os resultados dos exames complementares apresentados.",
+      "Elaborar um plano terapêutico inicial, incluindo abordagens farmacológicas e não-farmacológicas.",
+      "Fornecer orientações ao paciente e seu acompanhante sobre a doença e o plano de tratamento."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "O acompanhante está presente e pode auxiliar o paciente nas informações."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com um tremor na mão direita e me sinto muito lento para tudo, doutor(a). A situação vem piorando aos poucos há uns três anos."
+      },
+      {
+        "contextoOuPerguntaChave": "TREMOR EM REPOUSO",
+        "informacao": "Início: Começou há uns 3 anos, primeiro só na mão direita e depois espalhou para o pé direito. Agora sinto um pouco na mão esquerda também.\nLocalização: Mãos e pés, principalmente à direita.\nIntensidade: Nota 6 de 10, atrapalha para comer e escrever.\nCaracterística: Parece que estou contando moedas.\nIrradiação: Não irradia.\nDuração: Contínuo, mas melhora um pouco quando eu estou fazendo alguma coisa, como segurar um copo.\nProgressão: Piorando lentamente ao longo do tempo.\nFrequencia: Quase o tempo todo que estou em repouso.\nFator Desencadeante: Nega.\nFator de piora ou agravante: Estresse e quando estou parado.\nFator de melhora ou atenuante: Melhora um pouco quando me movimento voluntariamente. Nega uso de medicação específica para o tremor.\nEpisódios prévios: Não, essa é a primeira vez que tenho isso. Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "LENTIDÃO DOS MOVIMENTOS (BRADICINESIA/ACINESIA)",
+        "informacao": "Início: Percebi há uns 2 anos, junto com o tremor.\nLocalização: Afeta todo o corpo, mas sinto mais nas pernas e na capacidade de iniciar movimentos.\nIntensidade: Nota 7 de 10, tenho muita dificuldade para me levantar do sofá e andar.\nCaracterística: Não é dor, é uma lentidão mesmo. Parece que meus músculos não respondem rápido.\nIrradiação: Não irradia.\nDuração: Contínua, o dia todo.\nProgressão: Piorando progressivamente.\nFrequencia: O tempo todo.\nFator Desencadeante: Nega.\nFator de piora ou agravante: Ao tentar iniciar qualquer movimento ou realizar tarefas que exigem agilidade.\nFator de melhora ou atenuante: Nega medicação de alívio.\nEpisódios prévios: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "RIGIDEZ",
+        "informacao": "Início: Notei há cerca de 1 ano, sensação de 'engessamento'.\nLocalização: Principalmente no tronco e pescoço, mas também nos braços e pernas.\nIntensidade: Nota 5 de 10, desconforto constante.\nCaracterística: Sinto os músculos duros, como se estivessem tensos.\nIrradiação: Nega.\nDuração: Contínua.\nProgressão: Piorando gradualmente.\nFrequencia: O tempo todo.\nFator Desencadeante: Nega.\nFator de piora ou agravante: Movimentos bruscos ou longos períodos em uma mesma posição.\nFator de melhora ou atenuante: Nega medicação de alívio.\nEpisódios prévios: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "DIFICULDADE DE EQUILÍBRIO (INSTABILIDADE POSTURAL)",
+        "informacao": "Início: Começou mais recentemente, há uns 6 meses.\nLocalização: Sinto o corpo 'bambo', sem firmeza.\nIntensidade: Não é dor, mas me deixa inseguro, nota 8 de 10 em termos de impacto na vida diária.\nCaracterística: Nega.\nIrradiação: Nega.\nDuração: Ocorre em pé e ao caminhar.\nProgressão: Piorando, já tive umas duas quedas leves em casa.\nFrequencia: Várias vezes ao dia, sempre que me levanto ou ando.\nFator Desencadeante: Nega.\nFator de piora ou agravante: Ao me virar ou tentar parar de andar rápido.\nFator de melhora ou atenuante: Nega medicação de alívio.\nEpisódios prévios: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS NÃO-MOTORES ASSOCIADOS",
+        "informacao": "Anosmia (perda do olfato): Sim, percebi que meu olfato está ruim há uns 5 anos, antes dos tremores.\nDistúrbios do sono REM (REM Sleep Behavior Disorder - RBD): Minha esposa diz que eu me debato muito e grito dormindo, como se estivesse vivendo o sonho. Isso acontece há mais de 4 anos.\nConstipação intestinal: Sempre fui meio preso, mas nos últimos 5-6 anos piorou muito. Preciso de laxantes quase todo dia.\nDepressão: Tenho me sentido triste e desanimado nos últimos 2 anos. Fui diagnosticado com depressão e tomo antidepressivo (Sertralina 50mg/dia).\nAnsiedade: Sim, sinto bastante ansiedade, especialmente sobre o futuro da minha doença.\nFadiga: Sinto um cansaço constante, mesmo quando durmo.\nDor: Tenho dores musculares difusas, principalmente nas costas e ombros, que não melhoram com analgésicos comuns.\nHipotensão ortostática (tontura ao levantar): Sinto tontura e 'vista escura' quando me levanto rápido. Já quase caí por isso.\nDisfunção sexual: Minha libido diminuiu bastante nos últimos anos.\nSudorese: Nego sudorese excessiva.\nDistúrbios cognitivos: Minha família diz que estou esquecendo as coisas mais rápido e demoro a processar informações, mas eu não percebo tanto."
+      },
+      {
+        "contextoOuPerguntaChave": "OUTROS ACHADOS RELEVANTES",
+        "informacao": "Quedas frequentes: Já caí duas vezes nos últimos 6 meses, como mencionei.\nDificuldade para virar na cama: Sim, tenho muita dificuldade, parece que fico 'preso'.\nArrastar os pés: Sim, minha esposa reclama que eu arrasto os pés ao andar.\nVoz monótona (hipofonia): Minha esposa diz que minha voz está mais baixa e sem entonação.\nDificuldade para escrever (micrografia): Minha letra ficou muito pequena e difícil de ler."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos (item obrigatório)",
+        "informacao": "Doenças crônicas: Hipertensão Arterial Sistêmica (HAS) há 10 anos, Diabetes Mellitus Tipo 2 (DM2) há 5 anos, Depressão há 2 anos.\nCirurgias prévias: Nega.\nInternações: Nega.\nAlergias: Nega.\nMedicamentos em uso contínuo: Losartana 50mg/dia, Metformina 850mg 2x/dia, Sertralina 50mg/dia.\nVacinação: Completa para idade. Nega.\nTrauma: Nega.\nTransfusões: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA (ITEM OBRIGATÓRIO)",
+        "informacao": "Tabagismo: Ex-tabagista, parou há 15 anos. Fumou por 30 anos, 1 maço/dia.\nEtilismo: Socialmente, 1-2 doses de cerveja/vinho nos finais de semana. Nega uso abusivo.\nDrogas ilícitas: Nega.\nAlimentação: Dieta balanceada, com restrições para DM2 e HAS. Nega alterações recentes de apetite significativas, exceto pelo queixado de constipação.\nAtividade física: Caminha 30 minutos, 3 vezes por semana, mas tem sentido mais dificuldade recentemente.\nSono: Dorme mal, acorda várias vezes à noite, além dos distúrbios de sono REM relatados.\nIngestão hídrica: 2 litros de água/dia.\nExposição ocupacional: Foi agricultor por muitos anos, com uso frequente de pesticidas e herbicidas. Nega.\nEstresse: Sente-se estressado com a doença."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Falecido, HAS e DM2.\nMãe: Falecida, Alzheimer.\nDoenças (especificas com relação e relevante ao caso) na família: Um tio paterno teve 'tremores e rigidez', mas não sabe o diagnóstico exato. Nega.\nHistoria de cancêr na família: Nega.\nIrmãos ou tias: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR: (Ex: Se o candidato solicitar o resultado dos exames trazidos libere o impresso (x) / Ex: Após o candidato solicitar o exame X responda 'considere solicitado' ou 'considere realizado o procedimento'.)",
+        "informacao": "Se o candidato solicitar exame físico: responda que 'o exame físico neurológico será liberado conforme sua solicitação'.\nSe o candidato solicitar exames laboratoriais de rotina: responda que 'os resultados dos exames serão liberados após a solicitação'.\nSe o candidato solicitar exames de imagem de crânio: responda que 'o laudo e imagem serão liberados após a solicitação'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE: (ex: Dúvidas do ator sobre medicamentos, exames, condutas, etc., Perguntar após o atendimento se o candidato realizar a anamnese/exame fisico/conduta/tratamento/, Ex: Após o candidato realizar a anamnese, pergunte o que o paciente tem / Ex: Após realizar o diagnostico, pergunta se o que voce tem é grave, ou se tem complicações, ou se nao poderia ser outra coisa.)",
+        "informacao": "O que eu tenho, doutor(a)?\nÉ grave? Tem cura?\nQuais são as opções de tratamento? Meus remédios atuais vão ajudar?\nEu vou ficar pior com o tempo?\nO que eu posso fazer para melhorar ou para que não piore tão rápido?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico Geral",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "128/76 mmHg (deitado), 108/60 mmHg (em pé após 3 min)"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "78 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "97 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Bom estado geral, consciente, orientado em tempo e espaço, hipoativo, face inexpressiva (hipomimia)."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Sem alterações, boa higiene oral, tireoide impalpável, sem linfonodomegalias."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular, bulhas rítmicas e normofonéticas (BNF) em 2 tempos, sem sopros. Pulsos periféricos presentes e simétricos."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Plano, flácido, indolor à palpação superficial e profunda, sem massas ou visceromegalias. RHA presentes."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edemas, pulsos periféricos presentes, força muscular preservada bilateralmente."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_NEUROLOGICO_2",
+        "tituloImpresso": "Exame Físico Neurológico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "PARES CRANIANOS",
+              "itens": [
+                {
+                  "chave": "I (Olfato)",
+                  "valor": "Anosmia bilateral."
+                },
+                {
+                  "chave": "II, III, IV, VI (Ocular)",
+                  "valor": "Pupilas isocóricas e fotorreagentes. Reflexos oculares preservados. Motricidade extrínseca ocular sem restrições. Nega paralisia supranuclear do olhar."
+                },
+                {
+                  "chave": "VII (Facial)",
+                  "valor": "Hipomimia facial, diminuição do piscar."
+                },
+                {
+                  "chave": "XII (Lingual)",
+                  "valor": "Disartria hipofônica (voz baixa e monótona)."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SISTEMA MOTOR",
+              "itens": [
+                {
+                  "chave": "Tônus Muscular",
+                  "valor": "Rigidez plástica em 'roda denteada' em punhos e cotovelos, predominando à direita."
+                },
+                {
+                  "chave": "Força Muscular",
+                  "valor": "Grau V em todos os segmentos."
+                },
+                {
+                  "chave": "Movimentos Involuntários",
+                  "valor": "Tremor de repouso (4-6 Hz) em membro superior direito, discreto em membro superior esquerdo e membro inferior direito. Melhora com a ação."
+                },
+                {
+                  "chave": "Bradicinesia/Acinesia",
+                  "valor": "Lentidão na alternância de movimentos rápidos (ex: pronossupinação), diminuição da amplitude dos movimentos repetitivos dos dedos. Micrografia presente na escrita."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "COORDENAÇÃO E EQUILÍBRIO",
+              "itens": [
+                {
+                  "chave": "Marcha",
+                  "valor": "Passos curtos, arrastados, diminuição do balanço dos braços (especialmente à direita), dificuldade na virada (bloco). Congelamento da marcha ocasional."
+                },
+                {
+                  "chave": "Instabilidade Postural",
+                  "valor": "Pull test positivo (necessita de 2 passos para recuperar o equilíbrio)."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "REFLEXOS E SENSIBILIDADE",
+              "itens": [
+                {
+                  "chave": "Reflexos Osteotendíneos",
+                  "valor": "Normoreflexia global."
+                },
+                {
+                  "chave": "Sensibilidade",
+                  "valor": "Preservada para todos os tipos de estímulos."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_3",
+        "tituloImpresso": "Exames Laboratoriais de Rotina",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.200 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.5 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "250.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "115 mg/dL (Ref: 70-99)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "TSH",
+                  "valor": "2.5 mUI/L (Ref: 0.4-4.0)"
+                },
+                {
+                  "chave": "Vitamina B12",
+                  "valor": "450 pg/mL (Ref: 200-900)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_RM_4",
+        "tituloImpresso": "Ressonância Magnética de Crânio",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Sequências ponderadas em T1, T2, FLAIR e difusão sem alterações significativas. Imagem axial em T2 e FLAIR mostra ausência de lesões cerebrais agudas ou crônicas que justifiquem o quadro clínico. Não há sinais de hidrocefalia ou atrofia cortical focal importante.",
+          "caminhoImagem": "(Buscar no Google Imagens: Ressonância Magnética crânio normal T2 axial)",
+          "sugestaoBuscaImagem": "Ressonância Magnética crânio normal T2 axial",
+          "laudo": "Achados: Estruturas encefálicas com características de sinal e morfologia normais para a idade. Não há evidências de lesões expansivas, infartos recentes, sangramentos, hidrocefalia ou atrofias focais significativas. Sistema ventricular e sulcos corticais de morfologia e dimensões normais. Artérias intracranianas com fluxo preservado. Não foram observadas alterações sugestivas de parkinsonismo secundário ou atípico."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_PARKINSON_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 68 anos, com queixa de tremores em repouso e lentidão progressiva há 3 anos. Relata múltiplos sintomas não-motores como anosmia, distúrbio do sono REM, constipação e depressão. Exame físico revela bradicinesia, rigidez em roda denteada, tremor de repouso e instabilidade postural. Exames complementares de rotina e RM de crânio sem alterações que justifiquem parkinsonismo secundário. O quadro clínico é altamente sugestivo de Doença de Parkinson Idiopática.",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada e dirigida para sintomas motores e não-motores da Doença de Parkinson.",
+        "Avaliação clínica da tríade parkinsoniana (tremor, rigidez, bradicinesia) e instabilidade postural.",
+        "Exclusão de causas secundárias de parkinsonismo por meio de exames complementares.",
+        "Formulação de hipóteses diagnósticas e diferenciais.",
+        "Elaboração de plano terapêutico multidisciplinar e orientações ao paciente."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, investigando as características do tremor em repouso:\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Característica;\n(5) Duração;\n(6) Progressão;\n(7) Fator de piora ou agravante;\n(8) Fator de melhora ou atenuante.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 ou mais aspectos do tremor.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 aspectos do tremor.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 3 aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, investigando as características da lentidão dos movimentos (bradicinesia/acinesia):\n(1) Início;\n(2) Impacto nas atividades de vida diária;\n(3) Progressão;\n(4) Fator de piora ou agravante;\n(5) Fator de melhora ou atenuante.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 aspectos da lentidão dos movimentos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 aspectos da lentidão dos movimentos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 2 aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza anamnese, investigando as características da rigidez e instabilidade postural:\n(1) Início da rigidez;\n(2) Localização da rigidez;\n(3) Início da instabilidade postural;\n(4) Histórico de quedas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga os 4 aspectos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 aspectos.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 2 aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Investiga sintomas não-motores relevantes:\n(1) Anosmia (perda do olfato);\n(2) Distúrbio comportamental do sono REM (RBD);\n(3) Constipação intestinal;\n(4) Depressão ou ansiedade;\n(5) Fadiga ou dor;\n(6) Disfunção autonômica (hipotensão ortostática ou disfunção sexual);\n(7) Distúrbios cognitivos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 ou 7 dos sintomas não-motores.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 dos sintomas não-motores.",
+            "pontos": 0.6
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 3 sintomas não-motores ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Realiza anamnese de antecedentes pessoais e hábitos de vida relevantes:\n(1) Uso de medicações (especialmente neurolépticos/antieméticos dopaminérgicos);\n(2) Histórico de traumatismo craniano/AVC/hidrocefalia;\n(3) Exposição a pesticidas/solventes/metais pesados;\n(4) Tabagismo e consumo de cafeína (para identificar fatores de risco/proteção).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 3 ou 4 dos antecedentes e hábitos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 dos antecedentes e hábitos.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 2 aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Verbaliza a solicitação do exame físico neurológico, focando nos sinais cardinais:\n(1) Avaliação da face (hipomimia);\n(2) Avaliação do tremor de repouso;\n(3) Avaliação da rigidez (roda denteada/tubo de chumbo);\n(4) Avaliação da bradicinesia/acinesia (movimentos repetitivos/alternados);\n(5) Avaliação da instabilidade postural (pull test);\n(6) Avaliação da marcha (passos, balanço dos braços).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a solicitação de 5 ou 6 itens do exame neurológico direcionado.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza a solicitação de 3 ou 4 itens do exame neurológico direcionado.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Verbaliza a solicitação de menos de 3 itens ou não verbaliza.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Interpreta corretamente os achados do exame físico neurológico:\n(1) Hipomimia facial;\n(2) Tremor de repouso em membro superior direito;\n(3) Rigidez em roda denteada predominando à direita;\n(4) Bradicinesia/acinesia;\n(5) Instabilidade postural (pull test positivo);\n(6) Marcha parkinsoniana (passos curtos, arrastados).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente 5 ou 6 dos achados principais.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente 3 ou 4 dos achados principais.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 3 achados ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita exames complementares para exclusão de parkinsonismo secundário/atípico:\n(1) Hemograma completo;\n(2) Bioquímica básica (função renal, glicemia, eletrólitos);\n(3) TSH para tireoidopatias;\n(4) Vitamina B12 para deficiência;\n(5) Ressonância Magnética (RM) de crânio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 4 ou 5 dos exames.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 ou 3 dos exames.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 2 exames ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Interpreta corretamente os resultados dos exames complementares apresentados:\n(1) Exames laboratoriais de rotina (glicemia um pouco elevada, mas sem outras alterações para parkinsonismo secundário);\n(2) RM de crânio sem alterações que justifiquem parkinsonismo secundário (exclui hidrocefalia, tumores, múltiplos infartos).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente os dois itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente apenas um item.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não interpreta adequadamente nenhum item.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Estabelece a hipótese diagnóstica principal:\n(1) Doença de Parkinson Idiopática.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico principal corretamente.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 'Parkinsonismo', mas sem especificar 'Doença de Parkinson Idiopática'.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico principal ou o faz incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes para parkinsonismo:\n(1) Parkinsonismo atípico (ex: Atrofia de Múltiplos Sistemas - MSA, Paralisia Supranuclear Progressiva - PSP);\n(2) Parkinsonismo induzido por drogas;\n(3) Tremor Essencial;\n(4) Parkinsonismo vascular.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou 4 diagnósticos diferenciais relevantes.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais relevantes.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou os cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Elabora um plano terapêutico inicial, incluindo abordagem farmacológica:\n(1) Indica levodopa (associada a Carbidopa ou Benserazida) como primeira linha para idosos e sintomas impactantes;\n(2) Alternativamente, considera agonistas dopaminérgicos (ex: Pramipexol, Ropinirol) para pacientes mais jovens ou em combinação.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica corretamente a farmacoterapia de primeira linha com justificativa.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica a farmacoterapia, mas com justificativa incompleta ou sem citar as associações.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não indica a farmacoterapia adequada ou a indica incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Elabora um plano terapêutico inicial, incluindo abordagem não-farmacológica e multidisciplinar:\n(1) Fisioterapia para mobilidade e equilíbrio;\n(2) Terapia Ocupacional para atividades de vida diária;\n(3) Fonoaudiologia para disartria/disfagia;\n(4) Nutrição para constipação/disfagia;\n(5) Psicoterapia para depressão/ansiedade.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica 4 ou 5 das abordagens não-farmacológicas.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica 2 ou 3 das abordagens não-farmacológicas.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Indica menos de 2 abordagens ou não indica.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Fornece orientações detalhadas ao paciente e acompanhante:\n(1) Natureza progressiva da doença;\n(2) Importância da adesão medicamentosa e horários;\n(3) Manejo de sintomas não-motores (depressão, constipação);\n(4) Prevenção de quedas e adaptação do ambiente;\n(5) Necessidade de acompanhamento regular com equipe multidisciplinar.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre 4 ou 5 dos aspectos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta sobre 2 ou 3 dos aspectos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Orienta sobre menos de 2 aspectos ou não orienta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Doença de Parkinson (DP) é uma patologia neurodegenerativa crônica caracterizada pela perda de neurônios dopaminérgicos na substância negra, culminando em deficiência de dopamina. O diagnóstico é essencialmente clínico, baseado na presença de parkinsonismo (bradiscinesia mais tremor de repouso ou rigidez). A anamnese deve ser exaustiva, investigando o início insidioso e progressivo dos sintomas motores e, crucialmente, os sintomas não-motores que frequentemente precedem os motores por anos (anosmia, distúrbios do sono REM, constipação, depressão). Fatores de risco incluem idade, genética e exposição a toxinas. O exame físico neurológico direcionado é fundamental para identificar a tríade clássica e a instabilidade postural. Exames complementares (laboratoriais de rotina, RM de crânio) são utilizados principalmente para excluir parkinsonismos secundários ou atípicos, com o DATscan sendo reservado para casos duvidosos. O tratamento é multidisciplinar, combinando abordagens farmacológicas (levodopa como padrão-ouro, agonistas dopaminérgicos) com não-farmacológicas (fisioterapia, fonoaudiologia, terapia ocupacional, nutrição e psicoterapia). A escolha da farmacoterapia inicial depende da idade do paciente e da gravidade dos sintomas. A cirurgia (Estimulação Cerebral Profunda - DBS) é uma opção para casos avançados refratários ao tratamento otimizado. O manejo das complicações motoras (flutuações, discinesias) e não-motoras (demência, psicose, disautonomia) é essencial, assim como a educação do paciente e família sobre a natureza progressiva da doença e a importância da adesão ao plano terapêutico.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Doença de Parkinson. Portaria SAS/MS nº 649, de 16 de setembro de 2013.",
+        "2. Litvan, I. (2020). Parkinson's disease: Clinical features, diagnosis, and differential diagnosis. UpToDate. Acessado em [data atual].",
+        "3. Movement Disorder Society Task Force on Parkinsonism. (2015). The Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS): Clinical and Psychometric Properties. Movement Disorders, 30(1), 17-23."
+      ]
+    }
+  }
+}

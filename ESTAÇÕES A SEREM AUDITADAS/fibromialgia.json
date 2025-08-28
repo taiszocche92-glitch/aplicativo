@@ -1,0 +1,505 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_02",
+  "tituloEstacao": "Fibromialgia",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Fibromialgia",
+    "Dor Crônica",
+    "Fadiga",
+    "Sensibilização Central",
+    "Clínica Médica",
+    "Atenção Secundária"
+  ],
+  "nivelDificuldade": "Alto",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem",
+        "Medicações disponíveis",
+        "Equipe multidisciplinar"
+      ]
+    },
+    "descricaoCasoCompleta": "Você atende Maria Antônia da Silva, 48 anos, em seu consultório de Clínica Médica, com queixas de dor generalizada e cansaço crônico.",
+    "tarefasPrincipais": [
+      "Realizar anamnese direcionada à queixa principal do paciente.",
+      "Solicitar e verbalizar os achados do exame físico necessários à avaliação do caso.",
+      "Solicitar exames complementares pertinentes ao caso clínico e interpretar seus resultados.",
+      "Estabelecer o diagnóstico principal e os diagnósticos diferenciais relevantes.",
+      "Elaborar a conduta terapêutica multimodal indicada.",
+      "Orientar a paciente sobre o manejo da doença, seguimento e sinais de alarme.",
+      "Responder aos questionamentos do paciente simulado."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: Maria Antônia da Silva\nIdade: 48 anos\nGênero: Feminino\nEstado Civil: Casada\nProfissão: Professora do ensino fundamental\nProcedência: Capital"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com dores no corpo todo, cansaço e dificuldade para dormir há muito tempo."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR GENERALIZADA",
+        "informacao": "Início: Há aproximadamente 2 anos e meio, de forma gradual\nLocalização: Difusa, em ambos os lados do corpo, acima e abaixo da cintura, incluindo pescoço, ombros, costas, quadris, joelhos e braços\nIntensidade: Varia de 6 a 8/10 na maioria dos dias\nCaracterística da dor: Queimação; fisgada; peso\nIrradiação: Nega irradiação para locais específicos de dor neuropática\nDuração: Praticamente contínua, piora com estresse e no final do dia\nProgressão: Piora progressivamente ao longo do tempo, com períodos de exacerbação\nFator de piora: Estresse; frio; esforço físico excessivo; falta de sono\nFator de melhora: Banhos quentes; repouso (momentâneo); massagem\nEpisódios prévios: Sempre foi 'dolorida', mas nunca tão intensa e difusa\nMedicação de alívio: Dipirona ou paracetamol ocasionalmente, sem melhora significativa da dor\nDor inflamatória: Nega inchaço; nega vermelhidão; nega calor nas articulações\nTrauma: Nega trauma recente"
+      },
+      {
+        "contextoOuPerguntaChave": "FADIGA",
+        "informacao": "Início: Concomitante com a dor, ou um pouco antes\nIntensidade: Intensa, 8/10, interfere nas atividades diárias\nQualidade: Cansaço constante, mesmo após dormir\nRelação com atividade/repouso: Não melhora com repouso, piora com esforço"
+      },
+      {
+        "contextoOuPerguntaChave": "DISTÚRBIOS DO SONO",
+        "informacao": "Qualidade: Sono não reparador\nDificuldade: Dificuldade para iniciar o sono; múltiplos despertares noturnos\nApneia: Nega roncos altos; nega pausas respiratórias observadas pelo marido"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS COGNITIVOS ('FIBRO FOG')",
+        "informacao": "Queixas: Dificuldade de concentração; esquecimentos frequentes; lentidão de raciocínio\nImpacto: Afeta a capacidade de planejar aulas e corrigir provas"
+      },
+      {
+        "contextoOuPerguntaChave": "OUTROS SINTOMAS SOMÁTICOS",
+        "informacao": "Cefaleia: Dor de cabeça tensional, quase diária\nSíndrome do Intestino Irritável (SII): Alternância de diarreia e constipação; dor abdominal que melhora com a evacuação\nDismenorreia: Cólicas menstruais intensas\nParestesias: Formigamento em mãos e pés ocasionalmente, sem padrão definido\nSensibilidade ao frio: Aumento da sensibilidade ao frio\nAlterações de humor: Sente-se frequentemente ansiosa e irritada; chora com facilidade\nTristeza: Nega tristeza profunda\nAnedonia: Nega perda de interesse em atividades prazerosas\nPerda de peso: Nega perda de peso não intencional\nFebre: Nega episódios febris"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Hipotireoidismo, diagnosticado há 10 anos, em uso de Levotiroxina 75mcg/dia, com controle regular do TSH\nCirurgias prévias: Apenas apendicectomia na infância\nInternações: Nega\nAlergias: Nega\nMedicamentos em uso contínuo: Levotiroxina 75mcg/dia\nVacinação: Completa e atualizada\nTrauma: Nega histórico de traumas significativos\nTransfusões: Nega histórico de transfusões"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Hábitos sexuais: Casada, relação estável\nHábitos urinários: Normais\nHábitos intestinais: Alteração de diarreia e constipação (SII)\nIngestão hídrica: Consumo irregular de água\nExposição ocupacional: Professora, ambiente com estresse devido ao trabalho e dores\nEstresse: Muito estressada devido ao trabalho e às dores"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega\nEtilismo: Social, ocasionalmente\nDrogas ilícitas: Nega\nAlimentação: Equilibrada\nAtividade física: Sedentária, devido à dor e fadiga\nSono: Qualidade ruim, não reparador, dificuldade para iniciar e múltiplos despertares\nImpacto na vida: Dificuldade no trabalho (concentração, tarefas, considerou afastamento); Diminuição da vida social; Irritabilidade que afeta relacionamento com marido e filhos"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Mãe: Sofre de 'dor no corpo' parecida, mas nunca teve um diagnóstico formal\nPai: Hipertenso\nDoenças na família: Nega outras doenças reumatológicas ou autoimunes específicas\nHistoria de cancêr na família: Nega\nIrmãos: Saudáveis"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PSIQUIÁTRICOS",
+        "informacao": "Transtornos psiquiátricos: Faz terapia há 1 ano para manejo do estresse e ansiedade"
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar o exame físico, libere o impresso 'est1_impresso_SINAISVITAIS_1'.\nSe o candidato solicitar exames laboratoriais, libere o impresso 'est1_impresso_LABORATORIO_2'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): Doutor(a), essa dor nunca vai passar? Vou ter que tomar remédio para o resto da vida?\npergunta (2): Eu ouvi dizer que fibromialgia é coisa da cabeça. É verdade?\npergunta (3): Minha mãe também tem umas dores parecidas. Será que ela também tem fibromialgia?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico Geral",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "120 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "78 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "36,7 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "98% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Bom estado geral, lúcida, orientada, eupnéica, anictérica, acianótica, afebril."
+                },
+                {
+                  "chave": "Pele e mucosas",
+                  "valor": "Coradas, hidratadas, sem lesões aparentes."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Rítmico, normofonético em 2 tempos, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente e simétrico bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação superficial e profunda, sem visceromegalias."
+                },
+                {
+                  "chave": "Extremidades",
+                  "valor": "Sem edemas, pulsos presentes e simétricos."
+                },
+                {
+                  "chave": "Locomotor",
+                  "valor": "Amplitude de movimentos preservada em grandes articulações, sem sinais de sinovite (edema, calor, vermelhidão). Dor à palpação de pontos específicos (pescoço, ombros, cotovelos, quadris, joelhos, região dorsal)."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA COMPLETO",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "13,2 g/dL (VR: 12,0 - 16,0 g/dL)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "39% (VR: 36 - 48%)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.500/mm³ (VR: 4.000 - 10.000/mm³)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000/mm³ (VR: 150.000 - 450.000/mm³)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MARCADORES INFLAMATÓRIOS",
+              "itens": [
+                {
+                  "chave": "VHS",
+                  "valor": "15 mm/h (VR: até 20 mm/h)"
+                },
+                {
+                  "chave": "PCR",
+                  "valor": "3,0 mg/L (VR: até 5,0 mg/L)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "FUNÇÃO TIREOIDIANA",
+              "itens": [
+                {
+                  "chave": "TSH",
+                  "valor": "2,5 µUI/mL (VR: 0,4 - 4,0 µUI/mL)"
+                },
+                {
+                  "chave": "T4 Livre",
+                  "valor": "1,2 ng/dL (VR: 0,8 - 1,8 ng/dL)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "OUTROS EXAMES",
+              "itens": [
+                {
+                  "chave": "Creatinofosfoquinase (CPK)",
+                  "valor": "85 U/L (VR: 25 - 200 U/L)"
+                },
+                {
+                  "chave": "Fator Antinuclear (FAN)",
+                  "valor": "Não Reagente"
+                },
+                {
+                  "chave": "Fator Reumatoide (FR)",
+                  "valor": "< 10 UI/mL (VR: < 14 UI/mL)"
+                },
+                {
+                  "chave": "Anti-CCP",
+                  "valor": "Não Reagente"
+                },
+                {
+                  "chave": "Vitamina D (25-OH)",
+                  "valor": "32 ng/mL (VR: 30 - 100 ng/mL)"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_FIBROMIALGIA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente do sexo feminino, 48 anos, professora, com queixa principal de dor crônica generalizada, fadiga intensa e distúrbios do sono, além de sintomas cognitivos ('fibro fog'), cefaleia, síndrome do intestino irritável e alterações de humor, com mais de 2 anos de evolução. Possui histórico de hipotireoidismo bem controlado e ansiedade em tratamento psicológico. Exame físico sem achados inflamatórios objetivos, mas com dor à palpação de pontos específicos. Exames laboratoriais normais, excluindo doenças reumatológicas inflamatórias, hipotireoidismo descompensado e miopatias. O caso é compatível com Fibromialgia, exigindo uma abordagem diagnóstica baseada em critérios clínicos e um plano terapêutico multimodal.",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada para identificar os múltiplos sintomas da Fibromialgia e excluir diagnósticos diferenciais.",
+        "Solicitação e interpretação de exames complementares para descartar outras condições.",
+        "Diagnóstico clínico de Fibromialgia com base nos critérios atuais (ACR 2010/2011/2016).",
+        "Elaboração de plano terapêutico multimodal abrangendo medidas não-farmacológicas e farmacológicas.",
+        "Orientações claras ao paciente, incluindo educação sobre a doença e manejo das expectativas."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Investigação da Dor Generalizada:\n(1) Início da dor;\n(2) Localização (difusa, simétrica, acima/abaixo da cintura);\n(3) Intensidade da dor;\n(4) Característica da dor (queimação, peso, fisgada);\n(5) Duração e padrão da dor;\n(6) Fatores de piora (estresse, frio, esforço);\n(7) Fatores de melhora (calor, repouso);\n(8) Ausência de sinais inflamatórios objetivos (inchaço, vermelhidão, calor articular).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 7 ou 8 itens da dor.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 4 a 6 itens da dor.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 4 itens ou não investiga item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Investigação de Sintomas Associados:\n(1) Fadiga (início, intensidade, não reparadora);\n(2) Distúrbios do sono (insônia, sono não reparador);\n(3) Sintomas cognitivos ('fibro fog');\n(4) Cefaleia;\n(5) Sintomas gastrintestinais (SII);\n(6) Parestesias;\n(7) Alterações de humor (ansiedade/irritabilidade);\n(8) Dismenorreia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 7 ou 8 sintomas associados.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 4 a 6 sintomas associados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 4 sintomas ou não investiga item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Investigação de Antecedentes e Hábitos:\n(1) Antecedentes Patológicos Pessoais (comorbidades, uso de medicamentos);\n(2) Antecedentes Familiares (história de dor crônica);\n(3) Hábitos de Vida (atividade física, estresse, tabagismo, etilismo, impacto na vida).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga todos os 3 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 aspecto ou nenhum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Solicita Exame Físico e Interpreta Achados:\n(1) Solicita exame físico geral e locomotor;\n(2) Identifica ausência de achados inflamatórios objetivos (edema, calor, vermelhidão, deformidade articular);\n(3) Identifica dor à palpação de pontos específicos (tender points ou regiões dolorosas).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as 3 ações.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 2 ações.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Realiza 1 ação ou nenhuma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Solicita Exames Laboratoriais e Interpreta Resultados:\n(1) Solicita exames para exclusão de diferenciais (hemograma, VHS, PCR, TSH, CPK, FAN, FR);\n(2) Interpreta corretamente que os resultados excluem inflamação significativa, hipotireoidismo descompensado, miopatias ou doenças autoimunes sistêmicas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza uma ação corretamente.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma ação corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Estabelece o Diagnóstico Principal:\n(1) Fibromialgia (critérios ACR 2010/2011/2016 - WPI ≥ 7 e SSS ≥ 5, ou WPI 3-6 e SSS ≥ 9, sintomas ≥ 3 meses, sem outra doença explicativa).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Estabelece o diagnóstico correto e completo de Fibromialgia com base nos critérios.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Estabelece o diagnóstico de Fibromialgia, mas de forma incompleta ou sem citar os critérios.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Cita Diagnósticos Diferenciais Relevantes:\n(1) Hipotireoidismo (descompensado);\n(2) Artrite Reumatoide ou Lúpus Eritematoso Sistêmico;\n(3) Síndrome da Fadiga Crônica;\n(4) Polimialgia Reumática;\n(5) Depressão Maior/Transtorno de Ansiedade Generalizada.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 4 ou 5 diagnósticos diferenciais relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 2 ou 3 diagnósticos diferenciais relevantes.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Cita 1 ou nenhum diagnóstico diferencial ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Propõe Conduta Terapêutica Não-Farmacológica:\n(1) Educação do paciente (natureza da doença, dor real, não inflamatória);\n(2) Exercício físico (aeróbico e fortalecimento, progressivo);\n(3) Terapia Cognitivo-Comportamental (TCC);\n(4) Técnicas de relaxamento (yoga, meditação).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe 3 ou 4 abordagens não-farmacológicas.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 1 ou 2 abordagens não-farmacológicas.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não propõe conduta não-farmacológica ou propõe inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Propõe Conduta Terapêutica Farmacológica (Primeira Linha):\n(1) Antidepressivo Tricíclico (Amitriptilina, baixas doses);\n(2) Inibidor da Recaptação de Serotonina e Noradrenalina (Duloxetina ou Milnaciprano);\n(3) Gabapentinoide (Pregabalina).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe 2 ou 3 classes de medicamentos de primeira linha.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 1 classe de medicamento de primeira linha.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não propõe conduta farmacológica ou propõe inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Orientações e Seguimento:\n(1) Gerenciamento de expectativas (melhora gradual, foco na funcionalidade);\n(2) Importância da adesão ao tratamento multimodal;\n(3) Sinais de alarme (piora súbita, sinais inflamatórios, déficits neurológicos);\n(4) Encaminhamento (reumatologista, fisioterapeuta, psicólogo).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre 3 ou 4 aspectos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta sobre 1 ou 2 aspectos.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não orienta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Responde aos Questionamentos do Paciente Simulado:\n(1) Aborda a cronicidade da dor e o objetivo do tratamento (controle de sintomas);\n(2) Desmistifica a doença ('não é coisa da cabeça', mas com componente psicossomático);\n(3) Orienta sobre o possível caráter familiar da condição.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde adequadamente a todos os 3 questionamentos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Responde adequadamente a 1 ou 2 questionamentos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não responde ou responde inadequadamente aos questionamentos.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Fibromialgia (FM) é uma síndrome de dor crônica generalizada, não inflamatória, de etiologia multifatorial, caracterizada por dor musculoesquelética difusa associada a fadiga, distúrbios do sono, rigidez matinal, parestesias, alterações cognitivas ('fibro fog') e outros sintomas somáticos. Atinge predominantemente mulheres e é considerada uma síndrome de sensibilização central da dor. O diagnóstico é clínico, baseado nos critérios do American College of Rheumatology (ACR) de 2010/2011/2016, que incluem o Índice de Dor Generalizada (WPI) e a Escala de Gravidade de Sintomas (SSS), além da duração dos sintomas por pelo menos 3 meses e a exclusão de outras condições que expliquem a dor. A anamnese deve ser completa, investigando as características da dor, a presença e impacto da fadiga, qualidade do sono, sintomas cognitivos e somáticos associados, além de antecedentes pessoais e familiares que ajudem a excluir diagnósticos diferenciais como hipotireoidismo, doenças reumatológicas inflamatórias e miopatias. O exame físico tipicamente não revela achados inflamatórios objetivos, mas pode demonstrar dor à palpação de pontos específicos. Exames complementares são úteis para exclusão de diferenciais (hemograma, VHS, PCR, TSH, CPK, FAN, FR). O tratamento é multimodal, combinando abordagens não-farmacológicas (educação, exercício físico, TCC, técnicas de relaxamento) e farmacológicas (antidepressivos tricíclicos como amitriptilina, IRSN como duloxetina/milnaciprano, gabapentinoides como pregabalina). É crucial evitar o uso crônico de opioides e AINEs. As orientações devem focar na natureza da doença, manejo de expectativas, adesão ao tratamento e identificação de sinais de alarme para condições coexistentes ou diferenciais. Encaminhamentos para reumatologista, fisioterapeuta, psicólogo ou psiquiatra são frequentemente indicados.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas: Fibromialgia. Portaria Conjunta Nº 32, de 2 de julho de 2019. Disponível em: <http://conitec.gov.br/images/Relatorios/2019/PCDT_Fibromialgia_2019.pdf>",
+        "2. UpToDate. Fibromyalgia in adults: Clinical manifestations and diagnosis. Disponível em: <https://www.uptodate.com/contents/fibromyalgia-in-adults-clinical-manifestations-and-diagnosis>",
+        "3. American College of Rheumatology. 2010 ACR Preliminary Diagnostic Criteria for Fibromyalgia. Disponível em: <https://www.rheumatology.org/Portals/0/Files/2010_Fibromyalgia_Diagnostic_Criteria.pdf>"
+      ]
+    }
+  }
+}

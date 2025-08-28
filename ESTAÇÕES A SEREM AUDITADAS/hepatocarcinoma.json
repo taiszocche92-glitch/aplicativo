@@ -1,0 +1,718 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_02",
+  "tituloEstacao": "Hepatocarcinoma",
+  "numeroDaEstacao": 2,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Hepatocarcinoma",
+    "HCC",
+    "Cirrose Hepática",
+    "Hepatite C",
+    "Clínica Médica",
+    "Atenção terciária à saúde"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Serviço de imagem",
+        "Equipe multidisciplinar"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente masculino, 60 anos, chega à consulta ambulatorial referindo dor abdominal, perda de peso e cansaço progressivo.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese completa, focando na queixa principal do paciente.",
+      "Verbalizar o exame físico direcionado à queixa.",
+      "Solicitar e Interpretar exames complementares pertinentes ao caso.",
+      "Relacionar os resultados dos exames a(s) suspeita(s) diagnóstica(s).",
+      "Estabelecer o diagnóstico principal e os diagnósticos diferenciais mais relevantes.",
+      "Definir a conduta terapêutica inicial e as orientações para o paciente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com uma dor fraca na barriga, tenho emagrecido e me sinto muito cansado, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR ABDOMINAL",
+        "informacao": "Início: Começou há uns 3 meses, meio de mansinho.\nLocalização: É aqui do lado direito, embaixo das costelas.\nIntensidade: É uma dor fraca, nota 3 de 10, mas é um incômodo constante.\nCaracterística: É um peso, um desconforto, não é pontada nem cólica.\nIrradiação: Não se espalha, fica só ali.\nDuração: É contínua, parece que não passa.\nProgressão: No começo era bem leve, agora sinto um pouco mais, e tem dias que é pior.\nFrequência: Sinto isso o tempo todo, todos os dias.\nFator de piora: Piora quando me movimento muito ou pego peso.\nFator de melhora: Melhora um pouco quando descanso.\nEpisódios prévios: Sempre tive um desconforto ali por causa do fígado, mas agora é diferente.\nMedicação de alívio: Tomei Buscopan algumas vezes, mas não ajudou muito."
+      },
+      {
+        "contextoOuPerguntaChave": "PERDA DE PESO",
+        "informacao": "Início: Notei há uns 3 meses.\nQuantificação: Perdi uns 5 quilos. Minhas roupas estão mais largas.\nIntencionalidade: Não foi de propósito, não estou fazendo dieta.\nRelação com apetite: Meu apetite diminuiu bastante. Às vezes, não sinto vontade de comer nada.\nSintomas associados: Além de perder peso, estou muito cansado.\nEpisódios prévios: Nunca perdi tanto peso assim sem querer."
+      },
+      {
+        "contextoOuPerguntaChave": "ASTENIA/FADIGA",
+        "informacao": "Início: Sinto esse cansaço forte há uns 4 meses, doutor(a).\nDiferenciação: É um cansaço que não passa, mesmo dormindo. Não é fraqueza nos braços ou pernas, é falta de energia.\nEvolução: Tem piorado bastante. Antes conseguia ir à roça, agora mal consigo andar.\nImpacto funcional: Estou com muita dificuldade para fazer minhas atividades de casa e do trabalho.\nRelação com atividade/repouso: Piora com qualquer esforço, melhora um pouco quando fico parado, mas não some.\nQualidade do sono: Durmo mal, acordo várias vezes à noite, mas não por falta de ar.\nSintomas de humor associados: Não me sinto triste ou desanimado, só muito, muito cansado.\nEpisódios prévios: Já sentia um cansaço normal por causa do fígado, mas esse é diferente, é exaustão."
+      },
+      {
+        "contextoOuPerguntaChave": "ICTERÍCIA/ASCITE/EDEMA",
+        "informacao": "Icterícia Início: Meus olhos começaram a ficar amarelos há umas 2 semanas, e a pele também.\nIcterícia Intensidade: É um amarelão leve, não muito forte.\nPrurido: Não sinto muita coceira, só um pouco.\nColúria: Minha urina está bem escura, como refrigerante de cola.\nAcolia fecal: As fezes estão um pouco mais claras que o normal, meio esbranquiçadas, mas não totalmente.\nAscite Início: Minha barriga está crescendo há uns 2 meses. Fica mais estufada.\nAscite Progressão: Tem aumentado bastante, minhas calças não servem mais.\nEdema MMII Início: As pernas e pés começaram a inchar junto com a barriga, há uns 2 meses.\nEdema MMII Padrão: Piora no fim do dia e melhora um pouco de manhã, depois de dormir."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Tenho cirrose no fígado por causa da Hepatite C. Foi diagnosticada há uns 5 anos.\nCirurgias prévias: Nenhuma cirurgia grande, só uma pequena no dedo.\nInternações: Fui internado uma vez para tratar uma infecção no fígado, mas não sei o que era direito.\nAlergias: Não tenho alergias conhecidas.\nMedicamentos em uso contínuo: Não tomo remédio para o fígado há muito tempo. Só uso Buscopan às vezes para a dor na barriga.\nVacinação: Tomei as vacinas de rotina na infância, e a da gripe todo ano. Não sei se tomei a da Hepatite B.\nTrauma: Nega.\nTransfusões: Fiz uma transfusão de sangue há muitos anos, quando era jovem, devido a um acidente."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Parei de fumar há 10 anos. Fumei um maço por dia por 30 anos antes disso.\nEtilismo: Não bebo álcool atualmente. Bebo muito raramente, só em festas da família, talvez uma cerveja. Mas no passado, antes da cirrose, bebia quase todo fim de semana.\nDrogas ilícitas: Nega.\nAlimentação: Minha alimentação está ruim, comi pouco ultimamente por falta de apetite.\nAtividade física: Não pratico atividade física, me sinto muito cansado para isso.\nSono: Durmo mal, acordo muito, mas não por dor ou falta de ar.\nHábitos urinários: Normal, sem alterações.\nHábitos intestinais: Fezes mais claras e moles, mas sem diarreia.\nIngestão hídrica: Bebo uns 1,5L de água por dia.\nExposição ocupacional: Agricultor, exposto ao sol, mas não a produtos químicos perigosos.\nEstresse: Preocupação com a saúde e o trabalho."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Meu pai faleceu com problema no fígado, mas não sei qual era o diagnóstico certo.\nMãe: Minha mãe tem diabetes.\nDoenças na família: Nega outras doenças de fígado na família.\nHistoria de câncer na família: Nega histórico de câncer além do meu pai, que não sei se era câncer.\nIrmãos ou tias: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Idade: 60 anos.\nGênero: Masculino.\nHábitos urinários: Urina normal, sem dor ou alteração.\nHábitos intestinais: Fezes mais claras e um pouco mais moles ultimamente, mas sem diarreia.\nIngestão hídrica: Bebo água quando sinto sede, uns 1,5 a 2 litros por dia.\nExposição ocupacional: Sou agricultor, mas não uso produtos químicos perigosos. Trabalho no sol.\nEstresse: Me sinto preocupado com minha saúde ultimamente, isso me deixa estressado."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega.\nExposição a doenças infecciosas: Nega.\nContato com doentes: Nega.\nExposição a animais: Nega.\nExposição a vetores: Nega.\nÁgua consumida: Água tratada da rede, filtrada.\nExposição a agentes ambientais: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL",
+        "informacao": "Situação familiar: Sou casado, tenho dois filhos adultos que moram perto.\nRede de apoio: Minha esposa e filhos me apoiam.\nSituação socioeconômica: Vida simples, mas consigo me manter com a agricultura.\nNível educacional: Ensino fundamental incompleto.\nReligião: Nega.\nEstresse psicossocial: Preocupação com a saúde e a família devido à doença."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar exames de imagem, diga 'Considere realizado. Os resultados serão liberados no balcão de impressos'.\nSe o candidato solicitar exames laboratoriais, diga 'Considere realizado. Os resultados serão liberados no balcão de impressos'.\nSe o candidato solicitar exame físico, verbalize os achados conforme o impresso de Sinais Vitais e Exame Físico."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)? Pelo jeito do meu fígado, é algo sério?\npergunta (2): Tem tratamento? É curável?\npergunta (3): Vou precisar fazer cirurgia?\npergunta (4): Tem como evitar que isso piore?\npergunta (5): Essa minha Hepatite C tem a ver com isso?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est02_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "110 × 70 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "92 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "37.1 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "96 %"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO GERAL",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Vigil, orientado, eupneico, emagrecido. Ictérico 1+/4+, descorado 1+/4+."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Escleras ictéricas. Orofaringe sem alterações. Tireoide não palpável. Linfonodos não palpáveis."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "RCR em 2T, sem sopros, bulhas normofonéticas."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "MV presente, simétrico, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Distendido, ascitico (macicez móvel positiva, piparote positivo). Dor leve à palpação em hipocôndrio direito. Fígado palpável a 4 cm do RCD, endurecido, superfície irregular. Baço palpável a 2 cm do RCE. Circulação colateral presente na parede abdominal."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Edema 2+/4+ em membros inferiores bilateralmente, simétrico, cacifo positivo."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est02_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "10.8 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "95.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "40 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.1 mg/dL (Ref: 0.7-1.3)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "FUNÇÃO HEPÁTICA",
+              "itens": [
+                {
+                  "chave": "Bilirrubina Total",
+                  "valor": "3.2 mg/dL (Ref: 0.2-1.2)"
+                },
+                {
+                  "chave": "Bilirrubina Direta",
+                  "valor": "2.5 mg/dL (Ref: 0.0-0.3)"
+                },
+                {
+                  "chave": "ALT",
+                  "valor": "85 U/L (Ref: <45)"
+                },
+                {
+                  "chave": "AST",
+                  "valor": "110 U/L (Ref: <40)"
+                },
+                {
+                  "chave": "FA",
+                  "valor": "180 U/L (Ref: 40-150)"
+                },
+                {
+                  "chave": "GGT",
+                  "valor": "210 U/L (Ref: 9-50)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "COAGULOGRAMA",
+              "itens": [
+                {
+                  "chave": "INR",
+                  "valor": "1.5 (Ref: <1.1)"
+                },
+                {
+                  "chave": "TP",
+                  "valor": "18 segundos (Ref: 10-14 segundos)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MARCADORES TUMORAIS",
+              "itens": [
+                {
+                  "chave": "Alfafetoproteína (AFP)",
+                  "valor": "750 ng/mL (Ref: <20)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SOROLOGIAS VIRAL HEPÁTICAS",
+              "itens": [
+                {
+                  "chave": "HBsAg",
+                  "valor": "Negativo"
+                },
+                {
+                  "chave": "Anti-HCV",
+                  "valor": "Reagente"
+                },
+                {
+                  "chave": "HCV-RNA",
+                  "valor": "Detectável (Carga viral alta)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est02_impresso_IMAGEM_TC_3",
+        "tituloImpresso": "Tomografia Computadorizada de Abdome e Pelve com Contraste (Trifásica)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Realce arterial hipervascular (wash-in) e lavagem tardia (wash-out) em lesão hepática focal, compatível com Carcinoma Hepatocelular.",
+          "caminhoImagem": "(Buscar no Google Imagens: TC abdome contraste hepatocarcinoma wash-in wash-out segmento IV cirrose esplenomegalia)",
+          "sugestaoBuscaImagem": "TC de abdome com contraste mostrando hepatocarcinoma em fígado cirrótico",
+          "laudo": "ACHADOS:\nFígado cirrótico, heterogêneo, com superfície nodular. Presença de lesão expansiva sólida em segmento IV do lobo hepático esquerdo, medindo 4,5 x 3,8 cm, que apresenta realce arterial hipervascular (wash-in) e subsequente lavagem tardia (wash-out) nas fases portal e de equilíbrio. Ascite moderada. Esplenomegalia (diâmetro craniocaudal de 16 cm). Demais órgãos abdominais sem alterações significativas. Ausência de linfonodomegalia significativa ou sinais de metástases à distância visíveis.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est02_impresso_IMAGEM_RM_4",
+        "tituloImpresso": "Ressonância Magnética de Abdome com Contraste Hepatobiliar",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Confirmação da lesão hepática com características típicas de Carcinoma Hepatocelular (hiperrealce na fase arterial e lavagem na fase portal/tardia).",
+          "caminhoImagem": "(Buscar no Google Imagens: RM abdome contraste hepatobiliar hepatocarcinoma wash-in wash-out cirrose)",
+          "sugestaoBuscaImagem": "RM de abdome com contraste hepatobiliar mostrando hepatocarcinoma em fígado cirrótico",
+          "laudo": "ACHADOS:\nConfirma achados da TC. Lesão focal hepática em segmento IV, com 4,6 x 3,9 cm, exibindo hipersinal em T2, restrição à difusão e o padrão vascular típico de Carcinoma Hepatocelular (hiperrealce na fase arterial e lavagem na fase portal/tardia). Pequenos nódulos de regeneração e fibrose periportal difusa, compatíveis com cirrose. Ascite de pequeno volume. Esplenomegalia. Ausência de lesões extra-hepáticas ou trombose de veia porta.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est02_impresso_USG_5",
+        "tituloImpresso": "Ultrassonografia de Abdome com Doppler",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Fígado com contornos irregulares e ecotextura heterogênea, com presença de nódulo hipoecogênico, compatível com cirrose e lesão focal.",
+          "caminhoImagem": "(Buscar no Google Imagens: USG abdome nódulo hepático cirrose esplenomegalia)",
+          "sugestaoBuscaImagem": "USG de abdome mostrando nódulo hepático em fígado cirrótico",
+          "laudo": "Fígado com contornos irregulares e ecotextura heterogênea, compatível com cirrose. Presença de nódulo hipoecogênico, mal definido, em lobo esquerdo, medindo aproximadamente 4,0 cm. Vesícula biliar sem cálculos. Vias biliares não dilatadas. Veia porta com fluxo hepatopetal, sem sinais de trombose. Ascite de pequeno a moderado volume. Esplenomegalia com 15,5 cm de maior diâmetro."
+        }
+      },
+      {
+        "idImpresso": "est02_impresso_ECTOSCOPIA_6",
+        "tituloImpresso": "Achado de Exame Físico (Ectoscopia)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Paciente com escleras ictéricas (amareladas), pele com leve icterícia. Presença de aranhas vasculares no tórax e abdome superior. Eritema palmar bilateral, atrofia tenar e hipotenar.",
+          "caminhoImagem": "(Buscar no Google Imagens: Sinais de hepatopatia crônica icterícia aranhas vasculares eritema palmar)",
+          "sugestaoBuscaImagem": "Ectoscopia com sinais de cirrose hepática (icterícia, aranhas vasculares, eritema palmar)",
+          "laudo": "Sinais de hepatopatia crônica evidentes."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST02_CM_HCC_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 60 anos, com história de cirrose por Hepatite C, apresenta dor em hipocôndrio direito, perda de peso, astenia, icterícia, ascite e edema de membros inferiores. Exame físico revela sinais de hepatopatia crônica e massa abdominal. Exames laboratoriais mostram anemia, plaquetopenia, disfunção hepática, coagulopatia e AFP elevada. Exames de imagem confirmam fígado cirrótico com lesão focal típica de HCC.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa com foco nos sintomas e antecedentes de doença hepática.",
+        "Exame físico direcionado para sinais de hepatopatia crônica e massa abdominal.",
+        "Solicitação e interpretação de exames laboratoriais e de imagem para diagnóstico e estadiamento de HCC.",
+        "Estabelecimento do diagnóstico de Hepatocarcinoma em fígado cirrótico por VHC.",
+        "Definição de plano terapêutico inicial e orientações ao paciente."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est02_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se e (2) cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracteriza a dor abdominal, questionando:\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Característica;\n(5) Irradiação;\n(6) Duração;\n(7) Progressão;\n(8) Fatores de piora;\n(9) Fatores de melhora;\n(10) Uso de medicação para alívio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 8 ou mais itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 5 a 7 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 4 ou menos itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracteriza a perda de peso, investigando:\n(1) Início;\n(2) Quantificação;\n(3) Intencionalidade;\n(4) Relação com apetite;\n(5) Sintomas associados.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Caracteriza a astenia/fadiga, investigando:\n(1) Início;\n(2) Diferenciação (cansaço vs. fraqueza);\n(3) Evolução;\n(4) Impacto funcional;\n(5) Relação com atividade/repouso;\n(6) Qualidade do sono;\n(7) Sintomas de humor associados.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou mais itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Pergunta 4 ou menos itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Investiga icterícia, ascite e edema, questionando:\n(1) Início da icterícia;\n(2) Intensidade da icterícia;\n(3) Presença de prurido;\n(4) Presença de colúria;\n(5) Presença de acolia fecal;\n(6) Início da ascite;\n(7) Progressão da ascite;\n(8) Início do edema de membros inferiores;\n(9) Padrão do edema.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 7 ou mais itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 6 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Investiga antecedentes patológicos relevantes:\n(1) Diagnóstico de cirrose hepática (etiologia, tempo);\n(2) Histórico de infecção por Hepatite B;\n(3) Histórico de infecção por Hepatite C;\n(4) Diabetes Mellitus;\n(5) Obesidade;\n(6) Hemocromatose, Doença de Wilson ou outras hepatopatias;\n(7) Uso de medicações (especialmente hepatotóxicas);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou mais itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Anamnese - Investiga hábitos de vida:\n(1) Etilismo (quantidade, duração, abstinência);\n(2) Tabagismo (quantidade, duração, cessação);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta ambos os itens de forma completa.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não pergunta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita e verbaliza o exame físico direcionado, incluindo:\n(1) Sinais vitais;\n(2) Exame físico geral (estado nutricional, coloração da pele e mucosas);\n(3) Exame do abdome (inspeção, palpação, percussão, ausculta - focando em hepatomegalia, esplenomegalia, ascite, dor, circulação colateral);\n(4) Exame de membros inferiores (edema);\n(5) Ectoscopia (sinais de hepatopatia crônica: aranhas vasculares, eritema palmar).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e verbaliza 4 ou 5 itens de forma completa.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e verbaliza 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou verbaliza adequadamente 1 ou nenhum item.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpreta o impresso de Sinais Vitais e Exame Físico (est02_impresso_SINAISVITAIS_1), verbalizando os achados anormais e sua relevância:\n(1) Frequência cardíaca (taquicardia relativa);\n(2) Icterícia;\n(3) Descoloração cutaneomucosa (anemia);\n(4) Distensão abdominal e ascite (macicez móvel e piparote);\n(5) Hepatomegalia com fígado endurecido/irregular;\n(6) Esplenomegalia;\n(7) Circulação colateral;\n(8) Edema de membros inferiores.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 7 ou 8 achados corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 4 a 6 achados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta 3 ou menos achados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita exames laboratoriais pertinentes para investigação e estadiamento, incluindo:\n(1) Hemograma completo;\n(2) Função hepática (bilirrubinas, ALT, AST, FA, GGT);\n(3) Coagulograma (TP/INR);\n(4) Função renal (ureia, creatinina);\n(5) Alfafetoproteína (AFP);\n(6) Sorologias para Hepatite B (HBsAg) e Hepatite C (Anti-HCV, HCV-RNA).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 5 ou 6 itens corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 3 ou 4 itens corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita 2 ou menos itens ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Interpreta o impresso de Exames Laboratoriais (est02_impresso_LABORATORIO_2), verbalizando os achados anormais e sua relevância:\n(1) Anemia (Hemoglobina);\n(2) Plaquetopenia;\n(3) Bilirrubinas elevadas (direta e total);\n(4) Transaminases elevadas (ALT, AST);\n(5) FA e GGT elevadas;\n(6) INR e TP alterados;\n(7) AFP muito elevada;\n(8) Anti-HCV Reagente e HCV-RNA Detectável.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 7 ou 8 achados corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 4 a 6 achados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta 3 ou menos achados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Solicita exames de imagem adequados para rastreamento e diagnóstico de HCC:\n(1) Ultrassonografia abdominal com Doppler;\n(2) Tomografia Computadorizada de abdome e pelve com contraste (trifásica);\n(3) Ressonância Magnética de abdome com contraste hepatobiliar.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita os 3 exames.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 exames.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Solicita 1 exame ou nenhum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Interpreta o impresso de Ultrassonografia de Abdome (est02_impresso_USG_5), verbalizando:\n(1) Fígado com contornos irregulares e ecotextura heterogênea (cirrose);\n(2) Presença de nódulo hipoecogênico em lobo esquerdo;\n(3) Ascite;\n(4) Esplenomegalia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta os 4 achados corretamente.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Interpreta 3 ou menos achados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Interpreta o impresso de Tomografia Computadorizada de Abdome (est02_impresso_IMAGEM_TC_3), verbalizando:\n(1) Fígado cirrótico com superfície nodular;\n(2) Lesão expansiva sólida com wash-in arterial e wash-out tardio;\n(3) Dimensões da lesão;\n(4) Ascite;\n(5) Esplenomegalia;\n(6) Ausência de metástases à distância visíveis.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 5 ou 6 achados corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 3 ou 4 achados corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Interpreta 2 ou menos achados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Interpreta o impresso de Ressonância Magnética de Abdome (est02_impresso_IMAGEM_RM_4), verbalizando:\n(1) Confirmação da lesão focal com padrão vascular típico de HCC;\n(2) Dimensões da lesão;\n(3) Sinais de cirrose;\n(4) Ascite;\n(5) Esplenomegalia;\n(6) Ausência de lesões extra-hepáticas ou trombose de veia porta.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 5 ou 6 achados corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 3 ou 4 achados corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Interpreta 2 ou menos achados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Formula o diagnóstico principal corretamente:\n(1) Carcinoma Hepatocelular (HCC);\n(2) Em fígado cirrótico;\n(3) Etiologia por Hepatite C crônica.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico completo (os 3 itens).",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico, mas incompleto (1 ou 2 itens).",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes:\n(1) Metástases hepáticas;\n(2) Colangiocarcinoma;\n(3) Adenoma hepático ou Hiperplasia Nodular Focal (HNF) (embora menos prováveis neste contexto);\n(4) Abscesso hepático.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou 4 diagnósticos diferenciais corretos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais corretos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item18",
+        "itemNumeroOficial": "18",
+        "descricaoItem": "Define a conduta terapêutica inicial e direcionamento, considerando o estadiamento e a função hepática (verbalizando opções):\n(1) Discussão em equipe multidisciplinar;\n(2) Avaliação para tratamento curativo (Ressecção cirúrgica, Transplante Hepático, Ablação) ou locorregional (TACE, TARE);\n(3) Tratamento sistêmico (Sorafenib, Lenvatinib ou imunoterapia) se doença avançada;\n(4) Manejo das complicações da cirrose (ascite, encefalopatia);\n(5) Avaliação da função hepática (Child-Pugh, MELD) para guiar tratamento.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Define 4 ou 5 itens corretamente, alinhados ao estadiamento.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Define 2 ou 3 itens corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Define 1 item ou nenhum, ou a conduta é inadequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item19",
+        "itemNumeroOficial": "19",
+        "descricaoItem": "Orienta o paciente sobre:\n(1) A importância do seguimento rigoroso (exames de imagem e AFP);\n(2) Manejo da doença hepática subjacente (cirrose e VHC);\n(3) Apoio nutricional e psicossocial;\n(4) Fatores de proteção (abstinência de álcool, controle de peso).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta 3 ou 4 aspectos.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Orienta 2 ou menos aspectos ou não orienta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est02_item20",
+        "itemNumeroOficial": "20",
+        "descricaoItem": "Verbaliza a necessidade de notificação compulsória da infecção por Hepatite C (HCV).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a necessidade de notificação.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a necessidade de notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "O Hepatocarcinoma (HCC) é o tumor primário de fígado mais comum, geralmente desenvolvendo-se em fígado cirrótico. Os principais fatores de risco são infecções crônicas por HBV e HCV, doença hepática gordurosa não alcoólica (NAFLD/NASH) e doença hepática alcoólica. A anamnese deve focar em sintomas inespecíficos como dor abdominal, perda de peso, astenia, e sinais de descompensação hepática (icterícia, ascite, edema), além de investigar etiologias da cirrose e fatores de risco. O exame físico tipicamente revela sinais de hepatopatia crônica (icterícia, aranhas vasculares, eritema palmar, esplenomegalia, ascite) e, em casos de HCC, hepatomegalia com fígado endurecido/nodular ou massa palpável. O diagnóstico em cirróticos pode ser radiológico, com lesões > 1cm exibindo realce arterial (wash-in) e lavagem tardia (wash-out) em TC ou RM com contraste. A alfafetoproteína (AFP) é um marcador tumoral útil para rastreamento e monitoramento. O tratamento é guiado pelo estadiamento (BCLC) e função hepática, variando de opções curativas (ressecção, transplante, ablação) em estágios iniciais, a terapias locorregionais (TACE, TARE) ou sistêmicas (Sorafenib, Lenvatinib, imunoterapia) em estágios mais avançados. O manejo inclui tratamento da doença hepática subjacente, prevenção de complicações e suporte. Rastreamento semestral com USG abdominal é fundamental em grupos de risco. A Hepatite C, causa subjacente, é de notificação compulsória.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Portaria nº 1.378, de 9 de julho de 2013. Define a lista nacional de doenças e agravos de notificação compulsória, 2013.",
+        "2. Brasil. Ministério da Saúde. Secretaria de Atenção à Saúde. Protocolo Clínico e Diretrizes Terapêuticas do Carcinoma Hepatocelular no Adulto. Portaria Conjunta Nº 15, de 16 de maio de 2023.",
+        "3. EASL Clinical Practice Guidelines: Management of hepatocellular carcinoma. J Hepatol. 2018;68(4):723-751.",
+        "4. UpToDate. Clinical manifestations and diagnosis of hepatocellular carcinoma. Latest literature review."
+      ]
+    }
+  }
+}

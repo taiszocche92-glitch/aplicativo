@@ -1,0 +1,593 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_01",
+  "tituloEstacao": "Icterícia Obstrutiva: Diagnóstico Diferencial em Adulto",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Icterícia, Diagnóstico Diferencial, Obstrução Biliar, Neoplasia Pancreática, Clínica Médica, Atenção Secundária",
+  "nivelDificuldade": "Alto",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (Ultrassonografia, Tomografia Computadorizada)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente Maria da Silva, 68 anos, chega à consulta com queixa de 'amarelão' na pele e nos olhos e 'dor na barriga', acompanhada de outros sintomas.",
+    "tarefasPrincipais": [
+      "Realizar anamnese detalhada e completa, direcionada à queixa principal de icterícia e sintomas associados.",
+      "Realizar exame físico geral e abdominal direcionado, verbalizando os achados.",
+      "Solicitar exames laboratoriais e de imagem complementares pertinentes ao diagnóstico diferencial da icterícia obstrutiva.",
+      "Interpretar os resultados dos exames apresentados, correlacionando-os com as hipóteses diagnósticas.",
+      "Verbalizar a hipótese diagnóstica principal e as hipóteses diagnósticas diferenciais, com a classificação da hiperbilirrubinemia.",
+      "Elaborar e comunicar a conduta terapêutica inicial e o plano de manejo, incluindo a necessidade de drenagem biliar, encaminhamentos e orientações ao paciente.",
+      "Responder aos questionamentos do paciente simulado."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: Maria da Silva\nIdade: 68 anos\nEstado Civil: Viúva\nProfissão: Aposentada\nProcedência: Cidade interiorana, vive sozinha"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com a pele amarela e os olhos também. Sinto dor na barriga e emagreci bastante."
+      },
+      {
+        "contextoOuPerguntaChave": "ICTERÍCIA",
+        "informacao": "Início: Há cerca de 3 semanas\nPercepção: Percebi primeiro nos olhos e depois na pele\nEvolução: Começou gradual, mas está piorando\nIntensidade atual: Está bem amarelada agora"
+      },
+      {
+        "contextoOuPerguntaChave": "PRURIDO",
+        "informacao": "Presença: Tenho muita coceira no corpo todo\nIntensidade: É bem intensa, me incomoda muito\nPiora: Principalmente à noite\nImpacto: Me atrapalha a dormir"
+      },
+      {
+        "contextoOuPerguntaChave": "COLÚRIA",
+        "informacao": "Presença: Minha urina está escura\nDescrição: Como Coca-Cola\nInício: Percebi há 2 semanas"
+      },
+      {
+        "contextoOuPerguntaChave": "ACOLIA FECAL",
+        "informacao": "Presença: Minhas fezes estão claras\nDescrição: Esbranquiçadas, 'cor de massa'\nInício: Há uns 10 dias\nPercepção: Não parecem normais"
+      },
+      {
+        "contextoOuPerguntaChave": "DOR ABDOMINAL",
+        "informacao": "Início: Há 1 mês, antes do amarelão\nProgressão: Começou fraca, mas agora é quase constante\nLocalização: No 'pé da boca do estômago' (epigástrio)\nIrradiação: Para as costas, como se atravessasse\nCaráter: Uma dor tipo peso, que incomoda\nIntensidade: Varia, mas em média 6 de 10\nDuração: Contínua, quase não melhora\nFatores de piora: Não percebo nada que piore especificamente\nFatores de melhora: Não melhora com nada, só um pouco quando deito\nEpisódios prévios: Nunca tive uma dor assim antes"
+      },
+      {
+        "contextoOuPerguntaChave": "PERDA DE PESO",
+        "informacao": "Início: Nos últimos 2 meses\nQuantificação: Perdi uns 7-8 kg\nIntencionalidade: Não foi intencional, não estou fazendo dieta"
+      },
+      {
+        "contextoOuPerguntaChave": "NÁUSEAS",
+        "informacao": "Presença: Sinto um pouco de náusea\nFrequência: Às vezes durante o dia"
+      },
+      {
+        "contextoOuPerguntaChave": "ANOREXIA",
+        "informacao": "Presença: Não tenho mais vontade de comer\nEvolução: Diminuição progressiva do apetite"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS SISTÊMICOS",
+        "informacao": "Vômitos: Não tive vômitos\nFebre: Não tive febre\nCalafrios: Não tive calafrios\nArtralgias: Nega\nMialgias: Nega\nRash cutâneo: Nega\nAlterações neurológicas: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças hepáticas prévias: Nega hepatites, cirrose\nDoença inflamatória intestinal: Nega\nPancreatite crônica: Nega\nCirurgias abdominais: Colecistectomia há 20 anos (retirada da vesícula biliar)\nDoenças autoimunes: Nega\nNeoplasias: Nega outras neoplasias\nAnemias hemolíticas: Nega\nDiabetes mellitus: Sim, controlado com Metformina\nInternações: Nega\nAlergias: Nega\nMedicamentos em uso contínuo: Metformina para diabetes\nVacinação: Completa para idade"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Gestação: G3P3A0 (três gestações, três partos, nenhum aborto)\nHábitos sexuais: Não consta\nHábitos urinários: Não consta\nHábitos intestinais: Não consta\nIngestão hídrica: Não consta\nExposição ocupacional: Nega\nEstresse: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Icterícia: Nega\nDoenças hepáticas: Nega\nDoenças genéticas: Nega (Gilbert, Dubin-Johnson, Rotor)\nNeoplasias: Meu pai teve câncer de estômago (falecido aos 75 anos)\nHistoria de câncer na família: Pai teve câncer de estômago\nIrmãos ou tias: Não consta"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Etilismo: Nega consumo de álcool\nTabagismo: Nega ter fumado alguma vez na vida\nUso de drogas ilícitas: Nega\nViagens recentes: Nega viagens para áreas endêmicas\nExposição a toxinas/medicamentos: Nega exposição a toxinas, usa apenas Metformina para diabetes\nAlimentação: Diminuição do apetite\nAtividade física: Sedentária\nSono: Prejudicado pela coceira"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): Doutor(a), o que pode ser esse amarelão? É grave? Eu ouvi falar de câncer de pâncreas, será que é isso?\npergunta (2): Que exames vou precisar fazer? É algo que se resolve rápido? Vou precisar de cirurgia?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "120x80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "85 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Ictérica +/4+, emagrecida, orientada, eupnéica, anictérica (escleróticas, pele e mucosas amareladas)."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Anictérica, sem linfonodomegalias palpáveis."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Bulhas rítmicas normofonéticas, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente e simétrico, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Globoso, flácido, indolor à palpação superficial e profunda. Hepatimetria dentro dos limites da normalidade. Ausência de esplenomegalia. Presença de vesícula biliar palpável, lisa, pouco tensa e indolor em hipocôndrio direito (Sinal de Courvoisier positivo). Ausência de ascite."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edema, sem sinais de doença hepática crônica."
+                },
+                {
+                  "chave": "Sinais de Inflamação",
+                  "valor": "Nega"
+                },
+                {
+                  "chave": "Edema",
+                  "valor": "Nega"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "FUNÇÃO HEPÁTICA E BILIRRUBINAS",
+              "itens": [
+                {
+                  "chave": "Bilirrubina Total",
+                  "valor": "12.5 mg/dL (VR: < 1.2 mg/dL)"
+                },
+                {
+                  "chave": "Bilirrubina Direta (Conjugada)",
+                  "valor": "10.8 mg/dL (VR: < 0.3 mg/dL)"
+                },
+                {
+                  "chave": "Bilirrubina Indireta (Não Conjugada)",
+                  "valor": "1.7 mg/dL (VR: < 0.9 mg/dL)"
+                },
+                {
+                  "chave": "AST (TGO)",
+                  "valor": "90 U/L (VR: 5 - 40 U/L)"
+                },
+                {
+                  "chave": "ALT (TGP)",
+                  "valor": "110 U/L (VR: 5 - 40 U/L)"
+                },
+                {
+                  "chave": "Fosfatase Alcalina (FA)",
+                  "valor": "450 U/L (VR: 40 - 150 U/L)"
+                },
+                {
+                  "chave": "Gama-GT (GGT)",
+                  "valor": "520 U/L (VR: 0 - 50 U/L)"
+                },
+                {
+                  "chave": "Albumina",
+                  "valor": "3.5 g/dL (VR: 3.5 - 5.5 g/dL)"
+                },
+                {
+                  "chave": "TAP/INR",
+                  "valor": "16.0 seg / 1.4 (VR: 10 - 13 seg / 0.8 - 1.2)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "11.5 g/dL (VR: 12.0 - 16.0 g/dL)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "35% (VR: 36 - 48%)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.500/mm³ (VR: 4.000 - 11.000/mm³)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000/mm³ (VR: 150.000 - 450.000/mm³)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "FUNÇÃO RENAL E OUTROS",
+              "itens": [
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (VR: 0.6 - 1.2 mg/dL)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (VR: 15 - 45 mg/dL)"
+                },
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "110 mg/dL (VR: 70 - 99 mg/dL)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_USG_3",
+        "tituloImpresso": "Ultrassonografia Abdominal",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado da Ultrassonografia Abdominal, demonstrando achados relevantes para o diagnóstico.",
+          "caminhoImagem": "https://radiopaedia.org/articles/pancreatic-ductal-adenocarcinoma",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: Ultrassonografia massa na cabeça do pâncreas com dilatação biliar)",
+          "laudo": "Fígado com ecotextura homogênea, sem lesões focais. Vesícula biliar ausente (colecistectomia prévia). Vias biliares intra e extra-hepáticas difusamente dilatadas, com ducto colédoco distal medindo 14 mm em seu maior diâmetro. Presença de massa sólida hipoecogênica irregular na cabeça do pâncreas, medindo aproximadamente 3,5 x 2,8 cm, com provável compressão extrínseca do colédoco distal. Não há sinais de ascite ou esplenomegalia. Pâncreas com dimensões e ecotextura dos demais parênquimas preservadas."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_TC_4",
+        "tituloImpresso": "Tomografia Computadorizada de Abdome e Pelve com Contraste",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado da Tomografia Computadorizada de Abdome e Pelve com Contraste, corroborando os achados da ultrassonografia.",
+          "caminhoImagem": "https://radiopaedia.org/articles/pancreatic-ductal-adenocarcinoma",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: TC abdome massa cabeça pâncreas double duct sign)",
+          "laudo": "ACHADOS:\nAchados compatíveis com os da ultrassonografia. Dilatação significativa das vias biliares intra e extra-hepáticas e do ducto pancreático principal ('double duct sign'). Lesão expansiva hipodensa e heterogênea na cabeça do pâncreas, medindo cerca de 3,7 x 3,0 cm, com obliteração dos planos de gordura adjacentes. Não há evidência de metástases hepáticas ou linfoadenopatia significativa à distância. Ausência de ascite.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_MARCADORES_5",
+        "tituloImpresso": "Marcadores Tumorais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "MARCADORES TUMORAIS",
+              "itens": [
+                {
+                  "chave": "CA 19-9",
+                  "valor": "980 U/mL (VR: < 37 U/mL)"
+                },
+                {
+                  "chave": "CEA",
+                  "valor": "3.2 ng/mL (VR: < 5 ng/mL)"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_ICTERICIA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente Maria da Silva, 68 anos, com icterícia progressiva, dor abdominal em epigástrio com irradiação para o dorso, prurido intenso, colúria, acolia fecal e perda de peso não intencional de 7-8 kg nos últimos 2 meses. Antecedente de colecistectomia e diabetes. Exames laboratoriais e de imagem sugerem obstrução biliar por massa em cabeça de pâncreas.",
+      "focoPrincipalDetalhado": [
+        "Raciocínio clínico diagnóstico e terapêutico em paciente com icterícia obstrutiva progressiva, exigindo diferenciação entre causas benignas e malignas."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e Comunicação Inicial:\n(1) Apresenta-se e cumprimenta o paciente simulado;\n(2) Pergunta o nome completo do paciente;\n(3) Pergunta o motivo da consulta.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza duas ações.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Realiza apenas uma ação ou não realiza nenhuma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Icterícia e Sintomas Bilio-digestivos:\n(1) Início da icterícia;\n(2) Progressão da icterícia;\n(3) Presença de prurido;\n(4) Caracterização do prurido (piora, intensidade);\n(5) Presença de colúria;\n(6) Caracterização da colúria;\n(7) Presença de acolia fecal;\n(8) Caracterização da acolia fecal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 7 ou 8 itens de forma completa.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 4 a 6 itens de forma completa.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 4 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracterização da Dor Abdominal:\n(1) Início da dor;\n(2) Progressão da dor;\n(3) Localização da dor;\n(4) Irradiação da dor;\n(5) Caráter da dor;\n(6) Intensidade da dor;\n(7) Duração da dor;\n(8) Fatores de piora;\n(9) Fatores de melhora;\n(10) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 7 ou mais itens de forma completa.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 4 a 6 itens de forma completa.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 4 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Investigação de Sintomas Constitucionais e Sistêmicos:\n(1) Perda de peso;\n(2) Quantificação da perda de peso (peso e tempo);\n(3) Intencionalidade da perda de peso;\n(4) Presença de náuseas;\n(5) Presença de vômitos;\n(6) Presença de anorexia;\n(7) Presença de febre;\n(8) Presença de calafrios;\n(9) Outros sintomas (artralgias, mialgias, rash cutâneo, alterações neurológicas).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 7 ou mais itens de forma completa.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 4 a 6 itens de forma completa.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 4 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Antecedentes Pessoais (Patológicos e Fisiológicos):\n(1) Doenças hepáticas prévias;\n(2) Cirurgias abdominais (colecistectomia);\n(3) Doença inflamatória intestinal;\n(4) Pancreatite crônica;\n(5) Doenças autoimunes;\n(6) Neoplasias;\n(7) Anemias hemolíticas;\n(8) Diabetes mellitus;\n(9) Gestações (G/P/A).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 7 ou mais itens de forma completa.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 4 a 6 itens de forma completa.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 4 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Antecedentes Familiares e Hábitos de Vida:\n(1) Icterícia familiar;\n(2) Doenças hepáticas familiares;\n(3) Doenças genéticas familiares;\n(4) Neoplasias familiares (câncer de estômago);\n(5) Etilismo;\n(6) Tabagismo;\n(7) Uso de drogas ilícitas;\n(8) Viagens recentes;\n(9) Exposição a toxinas/medicamentos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 7 ou mais itens de forma completa.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 4 a 6 itens de forma completa.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 4 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Exame Físico - Solicitação e Verbalização de Achados Relevantes:\n(1) Solicita avaliação dos sinais vitais (PA, FC, FR, Temp, SatO2);\n(2) Solicita avaliação do estado geral (ictérica, emagrecida);\n(3) Solicita avaliação de sinais de doença hepática crônica (aranhas vasculares, eritema palmar, ginecomastia, ascite, edema);\n(4) Solicita avaliação abdominal (hepatomegalia, esplenomegalia, vesícula biliar palpável/indolor, dor à palpação, ascite) e verbaliza achado de Sinal de Courvoisier.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e verbaliza achados de 4 grupos de exames físicos de forma completa e inclui o Sinal de Courvoisier.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e verbaliza achados de 2 ou 3 grupos de exames físicos de forma completa.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita ou verbaliza achados de menos de 2 grupos de exames físicos ou não solicita/verbaliza.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Exames Complementares - Solicitação de Laboratoriais Padrão e Marcadores Tumorais:\n(1) Bilirrubinas totais e frações;\n(2) Transaminases (AST/ALT);\n(3) Enzimas de colestase (FA/GGT);\n(4) Função sintética hepática (Albumina/TAP/INR);\n(5) Hemograma completo;\n(6) Função renal (Ureia/Creatinina);\n(7) Glicemia;\n(8) Marcador tumoral CA 19-9;\n(9) Marcador tumoral CEA.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 7 ou mais itens de forma pertinente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 4 a 6 itens de forma pertinente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 4 itens ou não solicita de forma pertinente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Exames Complementares - Interpretação dos Exames Laboratoriais:\n(1) Interpreta hiperbilirrubinemia direta predominante;\n(2) Interpreta elevação de FA e GGT (>3x LSN);\n(3) Interpreta elevação leve de transaminases;\n(4) Interpreta INR levemente alterado;\n(5) Interpreta CA 19-9 elevado;\n(6) Interpreta hemoglobina levemente diminuída.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 5 ou 6 itens de forma correta e completa.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 3 ou 4 itens de forma correta e completa.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 3 itens ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Exames Complementares - Solicitação e Interpretação de Imagem (USG e TC):\n(1) Solicita Ultrassonografia Abdominal como primeiro exame de imagem;\n(2) Interpreta achados da USG (dilatação de vias biliares, massa pancreática, colecistectomia prévia);\n(3) Solicita Tomografia Computadorizada de Abdome e Pelve com contraste;\n(4) Interpreta achados da TC (dilatação de vias biliares, massa pancreática, 'double duct sign').",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 4 itens de forma correta e completa.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 2 ou 3 itens de forma correta e completa.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita ou interpreta menos de 2 itens ou incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Hipótese Diagnóstica Principal e Classificação:\n(1) Verbaliza síndrome colestática ou obstrutiva;\n(2) Verbaliza icterícia obstrutiva por lesão expansiva de cabeça de pâncreas (neoplasia de pâncreas/adenocarcinoma de pâncreas);\n(3) Classifica hiperbilirrubinemia como direta predominante.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza os 3 itens de forma correta e completa.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 2 itens de forma correta e completa.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Verbaliza menos de 2 itens ou incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Hipóteses Diagnósticas Diferenciais Relevantes:\n(1) Colangiocarcinoma;\n(2) Ampuloma;\n(3) Coledocolitíase com obstrução completa;\n(4) Estenose biliar benigna (pós-cirúrgica ou pancreatite crônica);\n(5) Hepatite aguda com componente colestático.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 4 ou 5 diagnósticos diferenciais relevantes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 2 ou 3 diagnósticos diferenciais relevantes.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Cita menos de 2 diagnósticos diferenciais ou incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Conduta Terapêutica Inicial, Plano de Manejo, Encaminhamentos e Orientações:\n(1) Indica necessidade de drenagem biliar urgente (CPRE com stent ou drenagem percutânea);\n(2) Indica avaliação e manejo multidisciplinar (cirurgião, oncologista, gastroenterologista/endoscopista);\n(3) Menciona investigação complementar (USE com biópsia, estadiamento);\n(4) Orienta sobre manejo do prurido (colestiramina);\n(5) Orienta sobre suplementação de vitaminas lipossolúveis (Vit K para coagulopatia);\n(6) Orienta sobre os próximos passos e a gravidade do quadro ao paciente.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 5 ou 6 itens de forma completa e correta.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 3 ou 4 itens de forma completa e correta.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Realiza menos de 3 itens ou incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Responde aos questionamentos do paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde aos questionamentos de forma clara e empática.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não responde ou responde de forma inadequada.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A icterícia é um sinal clínico importante que requer uma abordagem diagnóstica sistemática. Este caso apresenta uma paciente idosa com icterícia progressiva, dor abdominal em epigástrio com irradiação para o dorso, perda de peso, prurido, colúria e acolia fecal. Esses sintomas, em conjunto com o antecedente de colecistectomia e diabetes, e o achado de Sinal de Courvoisier (vesícula palpável e indolor) no exame físico, são altamente sugestivos de icterícia obstrutiva distal, com forte suspeita de neoplasia de cabeça de pâncreas. Os exames laboratoriais confirmam hiperbilirrubinemia direta predominante e colestase (FA e GGT elevadas), com transaminases levemente aumentadas, indicando um padrão obstrutivo puro ou com leve lesão hepatocelular secundária. O CA 19-9 marcadamente elevado reforça a suspeita de malignidade pancreática. A ultrassonografia e a tomografia computadorizada são cruciais para localizar a obstrução e identificar a massa pancreática, corroborando o diagnóstico. O 'double duct sign' na TC é patognomônico de obstrução distal por lesão pancreática ou ampular. O manejo inicial deve focar na descompressão biliar urgente (geralmente por CPRE com colocação de stent) para aliviar a icterícia e melhorar as condições clínicas. A paciente necessitará de uma avaliação multidisciplinar completa, incluindo cirurgia oncológica e oncologia clínica, para estadiamento e plano terapêutico definitivo. O controle do prurido e a suplementação de vitaminas lipossolúveis são medidas de suporte importantes.",
+      "fontes": [
+        "1. Goldman L, Schafer AI. Goldman-Cecil Medicine. 26th ed. Philadelphia, PA: Elsevier; 2020.",
+        "2. UpToDate. Overview of differential diagnosis of jaundice. Last updated: Jan 24, 2024.",
+        "3. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas. (Acessado em 2024)."
+      ]
+    }
+  }
+}

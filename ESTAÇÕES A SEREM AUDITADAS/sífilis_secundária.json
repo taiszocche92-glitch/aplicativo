@@ -1,0 +1,563 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_SIFILIS_01",
+  "tituloEstacao": "Sífilis Secundária",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Sífilis",
+    "IST",
+    "Treponema pallidum",
+    "Secundária",
+    "Clínica Médica",
+    "Atenção secundária à saúde"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem",
+        "Medicações disponíveis"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 32 anos chega à consulta referindo lesões na pele e mal-estar geral.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese completa do paciente.",
+      "Solicitar e realizar o exame físico direcionado à queixa.",
+      "Solicitar exames complementares pertinentes.",
+      "Interpretar os resultados dos exames.",
+      "Formular a(s) hipótese(s) diagnóstica(s) principal(is) e diferenciais.",
+      "Elaborar o plano terapêutico e as orientações necessárias.",
+      "Discutir as dúvidas do paciente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: Maria Silva\nIdade: 32 anos\nEstado civil: Casada\nProfissão: Professora"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com umas manchas no corpo e sentindo mal-estar geral há um tempo, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "MANCHAS NA PELE",
+        "informacao": "Início: Começaram há uns 2 meses, foram aparecendo aos poucos.\nLocalização: No tronco, nos braços, nas pernas, e até nas palmas das mãos e solas dos pés. Também apareceram umas verruguinhas nas virilhas e na região íntima.\nIntensidade: Não coçam e não doem.\nCaracterística: São manchas avermelhadas, algumas mais altas, parecem umas bolinhas, e as da virilha são úmidas e meio elevadas.\nProgressão: No começo eram poucas, agora tem bastante, e as verrugas também cresceram.\nFator de piora ou agravante: Não percebi nada que piore.\nFator de melhora ou atenuante: Não percebi nada que melhore.\nEpisódios prévios: Nunca tive nada assim antes.\nMedicação de alívio: Tentei passar um creme hidratante, mas não adiantou nada."
+      },
+      {
+        "contextoOuPerguntaChave": "MAL-ESTAR GERAL",
+        "informacao": "Início: Junto com as manchas, comecei a me sentir mais cansada, meio febril e com dor de cabeça leve.\nCaracterística: É um cansaço que não melhora com o descanso, e uma sensação de que vou ficar doente."
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE",
+        "informacao": "Início: Sinto que estou febril de vez em quando.\nDuração: Vem e vai.\nIntensidade: Não medi, mas é baixa.\nSintomas associados: Nega calafrios.\nSintomas associados: Nega sudorese noturna."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR DE CABEÇA",
+        "informacao": "Início: Leve, junto com o mal-estar.\nFrequência: Umas duas vezes na semana.\nLocalização: Difusa, em toda a cabeça.\nIntensidade: Leve, nota 3 de 10.\nFator de piora ou agravante: Nega.\nFator de melhora ou atenuante: Não melhora com analgésicos comuns.\nEpisódios prévios: Nega algo similar."
+      },
+      {
+        "contextoOuPerguntaChave": "LINFONODOS AUMENTADOS",
+        "informacao": "Percebi que os gânglios do pescoço, axilas e virilha estão inchados, mas não doem."
+      },
+      {
+        "contextoOuPerguntaChave": "LESÃO GENITAL PRÉVIA",
+        "informacao": "Início: Uns 4 meses atrás, antes de tudo isso.\nLocalização: Na região íntima.\nIntensidade: Não doía nada.\nCaracterística: Tipo uma úlcera, com as bordas bem definidas, mas era limpa por dentro.\nDuração: Sumiu sozinha em umas 3 semanas."
+      },
+      {
+        "contextoOuPerguntaChave": "QUEDA DE CABELO",
+        "informacao": "Nega queda de cabelo."
+      },
+      {
+        "contextoOuPerguntaChave": "ALTERAÇÕES VISUAIS OU AUDITIVAS",
+        "informacao": "Nega alterações visuais.\nNega alterações auditivas."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Nega\nCirurgias prévias: Nega\nInternações: Nega\nAlergias: Penicilina (relato de rash cutâneo leve há 10 anos)\nMedicamentos em uso contínuo: Nega\nVacinação: Completa para idade.\nTrauma: Nega\nTransfusões: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Tipo do parto: Nega\nTempo de Gestação: Nega\nIntercorrências neonatais: Nega\nHábitos urinários: Normais\nHábitos intestinais: Normais\nIngestão hídrica: 2L/dia\nExposição ocupacional: Professora, sem riscos específicos.\nEstresse: Lida bem com o estresse."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nunca fumou.\nEtilismo: Socialmente, 1-2 doses/semana.\nDrogas ilícitas: Nega.\nAlimentação: Balanceada.\nAtividade física: Caminha 3x/semana.\nSono: 7-8h/noite, de boa qualidade."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Hipertenso\nMãe: Diabética tipo 2\nDoenças na família: Nega outras doenças relevantes.\nHistória de câncer na família: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS",
+        "informacao": "Gestações: 1\nPartos: 1 (normal)\nAbortos: Nega\nCesáreas: Nega\nData da Última Menstruação (DUM): Há 15 dias\nMenarca: 13 anos\nCiclos menstruais: Regulares, 28/5 dias\nSexarca: 18 anos\nTelarca: Normal\nPubarca: Normal\nAtividade sexual: Sexualmente ativa\nParceiros: 2 parceiros nos últimos 6 meses (marido e um parceiro eventual)\nUso de contraceptivos: Anticoncepcional oral combinado\nUso de preservativos: Irregularmente\nExames preventivos: Papanicolau há 1 ano (normal).\nHistórico de IST: Nega infecções prévias."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega.\nExposição a doenças infecciosas: Nega.\nContato com doentes: Nega contato com casos de sífilis conhecidos.\nExposição a animais: Nega.\nExposição a vetores: Nega.\nÁgua consumida: Tratada e filtrada.\nExposição a agentes ambientais: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar exames laboratoriais, libere o impresso 'est1_impresso_LABORATORIO_2'.\nSe o candidato solicitar exame físico direcionado à pele, libere o impresso 'est1_impresso_ECTOSCOPIA_6'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)?\npergunta (2): Essa doença é grave?\npergunta (3): Como eu peguei isso?\npergunta (4): Tem cura? Qual o tratamento?\npergunta (5): Meu marido também precisa se tratar?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "110 × 70 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "82 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "37,3 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Bom estado geral, lúcida, orientada, corada, hidratada, afebril ao toque."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "PELE E MUCOSAS",
+              "itens": [
+                {
+                  "chave": "Inspeção",
+                  "valor": "Presença de exantema maculopapular eritematoso difuso, incluindo palmas das mãos e plantas dos pés. Lesões úmidas, vegetantes e acinzentadas em grandes lábios e região perianal (condiloma lata). Ausência de úlceras orais ou genitais ativas."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "LINFONODOS",
+              "itens": [
+                {
+                  "chave": "Palpação",
+                  "valor": "Linfonodomegalia generalizada (cervical, axilar, inguinal), múltiplos linfonodos, móveis, indolores, de consistência elástica."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SISTEMA NERVOSO",
+              "itens": [
+                {
+                  "chave": "Exame neurológico",
+                  "valor": "Pupilas isocóricas e fotorreagentes. Ausência de déficits motores ou sensitivos. Reflexos normais."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "8.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "13.0 g/dL (Ref: 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "28 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.8 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "95 mg/dL (Ref: 70-99)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SOROLOGIA PARA SÍFILIS",
+              "itens": [
+                {
+                  "chave": "VDRL",
+                  "valor": "Reativo 1:64 (Não treponêmico)"
+                },
+                {
+                  "chave": "FTA-ABS",
+                  "valor": "Reativo (Treponêmico)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "OUTRAS ISTs",
+              "itens": [
+                {
+                  "chave": "Anti-HIV 1/2",
+                  "valor": "Não Reativo"
+                },
+                {
+                  "chave": "HBsAg",
+                  "valor": "Não Reativo"
+                },
+                {
+                  "chave": "Anti-HCV",
+                  "valor": "Não Reativo"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ECTOSCOPIA_6",
+        "tituloImpresso": "Achado de Exame Físico (Pele e Mucosa)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Lesões maculopapulares eritematosas em tronco, membros e condiloma lata em região perianal.",
+          "caminhoImagem": "(Buscar no Google Imagens: exantema maculopapular sifilítico palmar e plantar; condiloma lata perianal)",
+          "laudo": "Visualização de lesões características de sífilis secundária, incluindo rash cutâneo difuso e condiloma lata."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST01_CM_SIFILIS_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina, 32 anos, apresenta quadro de exantema maculopapular, condiloma lata, linfadenopatia generalizada, mal-estar, febre baixa e cefaleia há 2 meses. Refere história prévia de úlcera genital indolor autolimitada há 4 meses. Sorologias para sífilis (VDRL 1:64 e FTA-ABS reativos) e outras ISTs negativas. Possui história de alergia leve a penicilina.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa e direcionada para sífilis (estágios e sintomas).",
+        "Exame físico abrangente, com foco em pele, mucosas e linfonodos.",
+        "Solicitação e interpretação de exames sorológicos para sífilis e diferenciais.",
+        "Diagnóstico correto do estágio da sífilis e exclusão de neurosífilis.",
+        "Plano terapêutico adequado, considerando alergia à penicilina e rastreamento de parceiros.",
+        "Orientações ao paciente e seguimento."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e acolhimento:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado;\n(3) Pergunta o nome e a idade do paciente;\n(4) Dirige-se ao paciente pelo nome, pelo menos uma vez;\n(5) Mantém contato visual.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 4 ou 5 ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 2 ou 3 ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Realiza 1 ação ou não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, investigando as características das manchas na pele:\n(1) início;\n(2) localização;\n(3) intensidade (dor/prurido);\n(4) tipo/característica;\n(5) progressão;\n(6) fatores de piora/melhora;\n(7) episódios prévios;\n(8) medicação de alívio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou mais características das manchas na pele.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 características das manchas na pele.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 3 características ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, investigando os sintomas sistêmicos associados:\n(1) mal-estar geral (cansaço, adinamia);\n(2) febre (início, padrão, intensidade);\n(3) cefaleia (localização, intensidade, melhora/piora);\n(4) linfonodomegalia (presença, localização, dor);\n(5) queda de cabelo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 sintomas sistêmicos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 sintomas sistêmicos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 sintoma ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza anamnese, investigando história de lesão genital prévia:\n(1) presença de úlceras ou feridas na região genital/oral/anal;\n(2) características da lesão (dor, coceira, aspecto);\n(3) duração;\n(4) resolução espontânea.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 3 ou 4 aspectos da lesão genital prévia.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 1 ou 2 aspectos da lesão genital prévia.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não investiga a lesão genital prévia.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Investiga antecedentes pessoais e hábitos de vida relevantes:\n(1) histórico de outras ISTs (HIV, hepatites, herpes);\n(2) alergias medicamentosas (especialmente penicilina);\n(3) número de parceiros sexuais;\n(4) uso de preservativos;\n(5) uso de drogas ilícitas (principalmente injetáveis).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 itens relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 itens relevantes.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 item ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Solicita e interpreta adequadamente o exame físico:\n(1) exame físico geral (estado geral, sinais vitais);\n(2) inspeção e palpação da pele e mucosas (rash, condiloma lata);\n(3) palpação de linfonodos (generalizados, indolores);\n(4) exame neurológico (pupilas, déficits).\n(5) outros achados relevantes.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 4 ou 5 achados do exame físico.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 2 ou 3 achados do exame físico.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta 1 achado ou não solicita/interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita os exames laboratoriais e sorológicos pertinentes:\n(1) VDRL/RPR com titulação;\n(2) Teste treponêmico (FTA-ABS, TPPA);\n(3) Anti-HIV;\n(4) HBsAg e anti-HCV;\n(5) Hemograma completo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 4 ou 5 exames corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 ou 3 exames corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Solicita 1 exame ou não solicita adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Interpreta os resultados dos exames apresentados:\n(1) VDRL reativo com titulação elevada;\n(2) FTA-ABS reativo;\n(3) Testes para outras ISTs não reativos;\n(4) Hemograma dentro da normalidade.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 3 ou 4 resultados corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 ou 2 resultados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não interpreta os resultados ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Verbaliza o diagnóstico principal:\n(1) Sífilis Secundária.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico correto.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico ou verbaliza incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes para as lesões cutâneas e achados sistêmicos:\n(1) Pitiríase rósea;\n(2) Psoríase;\n(3) Reações alérgicas/Farmacodermias;\n(4) Mononucleose infecciosa;\n(5) HIV.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou mais diagnósticos diferenciais corretos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais corretos.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Elabora o plano terapêutico adequado para Sífilis Secundária, considerando a alergia à penicilina:\n(1) Indica Penicilina G Benzathine 2,4 milhões UI IM;\n(2) Indica dose única;\n(3) Discute a dessensibilização para penicilina OU menciona alternativa (Doxiciclina ou Ceftriaxona, se não houver dessensibilização para o caso de gestante, ou Ceftriaxona para neurosífilis).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica corretamente os 3 itens do tratamento.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica 1 ou 2 itens do tratamento corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não indica o tratamento ou indica incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Oferece orientações e seguimento:\n(1) Orientação sobre abstinência sexual durante o tratamento;\n(2) Importância do tratamento dos parceiros sexuais;\n(3) Uso de preservativos para prevenir reinfecção;\n(4) Seguimento sorológico com VDRL em 3, 6 e 12 meses;\n(5) Sinais de alerta (Reação de Jarisch-Herxheimer, progressão de sintomas neurológicos/visuais).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta 4 ou 5 aspectos corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta 2 ou 3 aspectos corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Orienta 1 aspecto ou não orienta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Responde às dúvidas do paciente:\n(1) Esclarece o diagnóstico de forma compreensível;\n(2) Aborda a gravidade e o risco de complicações;\n(3) Explica sobre a transmissão e a importância do tratamento do parceiro;\n(4) Informa sobre a cura e o tratamento;\n(5) Oferece medidas de prevenção.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde a 4 ou 5 dúvidas do paciente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Responde a 2 ou 3 dúvidas do paciente.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Responde a 1 dúvida ou não responde adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Notificação ao SINAN:\n(1) Menciona a necessidade de notificação compulsória do caso de sífilis.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Menciona a necessidade de notificação.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não menciona a necessidade de notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A sífilis é uma IST causada pelo Treponema pallidum, com manifestações clínicas variadas. A Sífilis Secundária, como no caso da paciente, é caracterizada por exantema maculopapular (incluindo palmas e plantas), condiloma lata, linfadenopatia generalizada e sintomas sistêmicos (febre, mal-estar, cefaleia). O diagnóstico é confirmado por testes sorológicos (VDRL/RPR para atividade e FTA-ABS/TPPA para confirmação). A história de cancro duro prévio, indolor e autolimitado, é um achado chave. Diagnósticos diferenciais incluem pitiríase rósea, psoríase, farmacodermias e outras infecções exantemáticas. O tratamento de primeira linha é a Penicilina G Benzathine 2,4 milhões UI IM em dose única para sífilis recente. Em caso de alergia, como a paciente relatou, a dessensibilização à penicilina é a preferencial, especialmente em gestantes. Alternativas como Doxiciclina ou Ceftriaxona podem ser consideradas em situações específicas ou falha de dessensibilização. O seguimento com VDRL/RPR é crucial para monitorar a resposta ao tratamento (queda de 2 diluições em 6-12 meses). A notificação compulsória é obrigatória, e o tratamento dos parceiros sexuais é essencial para interromper a cadeia de transmissão e prevenir reinfecções. Aconselhamento sobre sexo seguro e testagem para outras ISTs são medidas preventivas importantes.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde e Ambiente. Departamento de HIV/Aids, Tuberculose, Hepatites Virais e Infecções Sexualmente Transmissíveis. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília, DF: Ministério da Saúde; 2024.",
+        "2. UpToDate. Syphilis: Treatment and prevention. Literature review current through: Dec 2024. This topic last updated: Oct 19, 2024."
+      ]
+    }
+  }
+}

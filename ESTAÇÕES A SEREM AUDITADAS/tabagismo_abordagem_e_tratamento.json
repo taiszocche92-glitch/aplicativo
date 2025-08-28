@@ -1,0 +1,588 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_01",
+  "tituloEstacao": "Tabagismo: Abordagem e Tratamento",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "tabagismo",
+    "nicotina",
+    "dependência",
+    "cessação",
+    "clínica médica",
+    "atenção primária",
+    "PCDT",
+    "INCA"
+  ],
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção primária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Medicações para cessação de tabagismo disponíveis (TRN, Bupropiona)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 45 anos chega ao consultório de Atenção Primária à Saúde, expressando o desejo de parar de fumar.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente.",
+      "Solicitar e verbalizar o exame físico necessário à avaliação do caso.",
+      "Solicitar e interpretar os exames complementares pertinentes ao caso clínico.",
+      "Relacionar os resultados dos exames às hipóteses diagnósticas.",
+      "Elaborar o diagnóstico clínico.",
+      "Estabelecer a conduta terapêutica adequada, incluindo abordagens não farmacológicas e farmacológicas.",
+      "Fornecer orientações ao paciente sobre o processo de cessação e o seguimento."
+    ],
+    "avisosImportantess": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Quero parar de fumar, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA DO TABAGISMO",
+        "informacao": "Início: Comecei a fumar com 15 anos de idade.\nQuantidade: Fumo um maço de cigarros por dia, cerca de 20 cigarros.\nTempo de uso: Há 30 anos.\nTipo de produto: Apenas cigarro comum. Nunca usei cigarro eletrônico, cachimbo, charuto ou narguilé.\nPadrão de uso: Fumo continuamente, todos os dias.\nMotivos para começar: Influência dos amigos na adolescência.\nMotivos para continuar: Sinto prazer, me acalma, e me ajuda a lidar com o estresse do dia a dia. Também a 'fissura' é muito forte se tento parar."
+      },
+      {
+        "contextoOuPerguntaChave": "TENTATIVAS ANTERIORES DE PARAR",
+        "informacao": "Quantas: Já tentei parar 3 vezes.\nQuando: A última vez foi há uns 2 anos.\nPor quanto tempo: Fiquei uns 3 meses sem fumar.\nMétodos utilizados: Tentei sozinho na primeira vez, depois usei chicletes de nicotina na segunda, e na última vez usei uns adesivos que comprei na farmácia.\nMotivos das recaídas: Senti muita ansiedade e irritação. E o estresse do trabalho me fez voltar a fumar. A fissura foi muito intensa."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS RELACIONADOS AO TABAGISMO",
+        "informacao": "Tosse: Tenho uma tosse seca, principalmente de manhã, há uns 5 anos.\nDispneia: Sinto um pouco de falta de ar ao subir escadas ou fazer algum esforço maior. Não era assim antes.\nExpectoração: Não tenho catarro, a tosse é seca.\nDor torácica: Não sinto dor no peito.\nOutros: Não notei."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS DE ABSTINÊNCIA",
+        "informacao": "Irritabilidade: Sim, fico muito irritado quando tento parar.\nAnsiedade: Fico muito ansioso.\nDificuldade de concentração: Tenho dificuldade para me concentrar no trabalho.\nInsônia: Sim, durmo mal quando tento parar.\nAumento do apetite: Sinto muita fome e ganho peso.\nFissura: A fissura é o pior, a vontade de fumar é incontrolável às vezes."
+      },
+      {
+        "contextoOuPerguntaChave": "NÍVEL DE MOTIVAÇÃO PARA PARAR DE FUMAR",
+        "informacao": "Estágio: Estou na fase de Preparação. Já decidi que quero parar e estou disposto a fazer o que for preciso. Só preciso de ajuda."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Tenho pressão alta, mas está controlada com remédios. Fui diagnosticado há 5 anos.\nCirurgias prévias: Não fiz cirurgias.\nInternações: Nunca fui internado.\nAlergias: Nega alergias conhecidas.\nMedicamentos em uso contínuo: Losartana 50mg, 1x ao dia.\nVacinação: Minhas vacinas estão em dia, inclusive a da gripe e pneumonia."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Ver História do Tabagismo.\nEtilismo: Bebo socialmente, uma cerveja nos fins de semana. Não bebo destilados.\nDrogas ilícitas: Nega uso de drogas ilícitas.\nAlimentação: Como de tudo, mas tento evitar frituras.\nAtividade física: Caminho 3 vezes por semana por 30 minutos.\nSono: Durmo umas 6-7 horas por noite, mas sinto que poderia ser melhor.\nRede de apoio social: Minha família e amigos me apoiam muito na decisão de parar de fumar."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Faleceu aos 60 anos de infarto, era fumante.\nMãe: Viva, 70 anos, tem diabetes e não fuma.\nDoenças na família: Meu avô paterno também fumava e teve problemas de pulmão."
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL",
+        "informacao": "Situação familiar: Sou casado, tenho 2 filhos adultos.\nRede de apoio: Minha esposa e filhos estão muito felizes com a minha decisão de parar de fumar e me apoiam.\nSituação socioeconômica: Tenho emprego fixo, renda estável.\nNível educacional: Ensino superior completo.\nEstresse psicossocial: Sinto um estresse moderado no trabalho, mas estou buscando formas de lidar com isso sem o cigarro."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar informações do exame físico, libere o impresso 'Sinais Vitais e Exame Físico'.\nSe o candidato solicitar a aplicação de um teste de dependência de nicotina, libere o impresso 'Teste de Fagerström'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "Pergunta (1): Doutor(a), qual o melhor remédio para parar de fumar?\nPergunta (2): É verdade que engorda muito quando a gente para de fumar?\nPergunta (3): Se eu parar agora, meus pulmões voltam ao normal?\nPergunta (4): E se eu não conseguir, o que eu faço?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "138 × 86 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "88 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "96% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado Geral",
+                  "valor": "Bom estado geral, lúcido, orientado, afebril, eupnéico."
+                },
+                {
+                  "chave": "Pele e Anexos",
+                  "valor": "Pele com sinais de envelhecimento precoce. Manchas nicotínicas discretas nos dedos indicadores e médios de ambas as mãos. Unhas sem alterações."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "CABEÇA E PESCOÇO",
+              "itens": [
+                {
+                  "chave": "Cavidade Oral",
+                  "valor": "Halitose presente. Presença de pequenas placas esbranquiçadas (leucoplasias) na mucosa jugal direita. Dentes amarelados, com sinais de periodontopatia leve."
+                },
+                {
+                  "chave": "Oroscopia",
+                  "valor": "Mucosas úmidas e coradas, orofaringe sem hiperemia ou exsudatos. Ausência de lesões ulceradas ou vegetantes."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO RESPIRATÓRIO",
+              "itens": [
+                {
+                  "chave": "Ausculta Pulmonar",
+                  "valor": "Murmúrio vesicular presente em ambos os hemitórax, discretamente diminuído nas bases. Sibilos expiratórios ocasionais e esparsos."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO CARDIOVASCULAR",
+              "itens": [
+                {
+                  "chave": "Ausculta Cardíaca",
+                  "valor": "Rítmica, em 2 tempos, bulhas normofonéticas. Sem sopros, atritos ou galopes."
+                },
+                {
+                  "chave": "Pulsos",
+                  "valor": "Pulsos periféricos palpáveis e simétricos, sem alterações."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ABDOME",
+              "itens": [
+                {
+                  "chave": "Inspeção e Palpação",
+                  "valor": "Abdome plano, flácido, indolor à palpação superficial e profunda. Sem massas ou visceromegalias. RHA presentes."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_FAGERSTROM_2",
+        "tituloImpresso": "Teste de Fagerström para Dependência de Nicotina",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "RESULTADOS DO TESTE DE FAGERSTRÖM",
+              "itens": [
+                {
+                  "chave": "1. Quanto tempo depois de acordar você fuma o primeiro cigarro?",
+                  "valor": "Até 5 minutos (3 pontos)"
+                },
+                {
+                  "chave": "2. Você acha difícil abster-se de fumar em locais onde é proibido?",
+                  "valor": "Sim (1 ponto)"
+                },
+                {
+                  "chave": "3. Qual cigarro do dia lhe dá mais satisfação?",
+                  "valor": "O primeiro da manhã (1 ponto)"
+                },
+                {
+                  "chave": "4. Quantos cigarros você fuma por dia?",
+                  "valor": "21-30 (2 pontos)"
+                },
+                {
+                  "chave": "5. Você fuma mais frequentemente nas primeiras horas depois de acordar do que no resto do dia?",
+                  "valor": "Sim (1 ponto)"
+                },
+                {
+                  "chave": "6. Você fuma mesmo quando está tão doente que precisa ficar de cama a maior parte do dia?",
+                  "valor": "Não (0 pontos)"
+                },
+                {
+                  "chave": "Pontuação Total",
+                  "valor": "8 pontos (Alta dependência)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_3",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA COMPLETO",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.2 g/dL (Ref: 13.5-17.5 M)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "42% (Ref: 40-52%)"
+                },
+                {
+                  "chave": "VCM",
+                  "valor": "88 fL (Ref: 80-100 fL)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA SANGUÍNEA",
+              "itens": [
+                {
+                  "chave": "Glicemia de Jejum",
+                  "valor": "98 mg/dL (Ref: 70-99)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.0 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Colesterol Total",
+                  "valor": "210 mg/dL (Ref: <200)"
+                },
+                {
+                  "chave": "LDL-Colesterol",
+                  "valor": "135 mg/dL (Ref: <130)"
+                },
+                {
+                  "chave": "HDL-Colesterol",
+                  "valor": "45 mg/dL (Ref: >40)"
+                },
+                {
+                  "chave": "Triglicerídeos",
+                  "valor": "150 mg/dL (Ref: <150)"
+                },
+                {
+                  "chave": "TGO (AST)",
+                  "valor": "25 U/L (Ref: <35)"
+                },
+                {
+                  "chave": "TGP (ALT)",
+                  "valor": "30 U/L (Ref: <35)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ECTOSCOPIA_4",
+        "tituloImpresso": "Achado de Exame Físico (Cavidade Oral)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Lesões brancas não raspáveis na mucosa oral.",
+          "caminhoImagem": "https://www.google.com/search?q=leucoplasia+mucosa+jugal",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: imagem de leucoplasia em mucosa jugal)",
+          "laudo": "Placas esbranquiçadas, homogêneas, não removíveis à raspagem, na mucosa jugal direita. Sugerem leucoplasia, com potencial maligno."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_TABAGISMO_2025V1_01",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 45 anos, com histórico de tabagismo de 30 anos (1 maço/dia), procura o serviço de saúde para parar de fumar. Apresenta alta dependência de nicotina (Fagerström 8), estágio de preparação para mudança, e sintomas relacionados ao tabagismo (tosse e dispneia leve). Possui HAS controlada e histórico familiar de doença cardiovascular relacionada ao tabagismo.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa do tabagismo, incluindo histórico, motivação e sintomas de abstinência.",
+        "Avaliação da dependência de nicotina e comorbidades associadas.",
+        "Estabelecimento de um plano terapêutico combinado (não farmacológico e farmacológico).",
+        "Orientações detalhadas para a cessação do tabagismo e seguimento."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e comunicação:\n(1) Apresenta-se e cumprimenta o paciente simulado;\n(2) Pergunta o nome e/ou dirige-se ao paciente pelo nome;\n(3) Mantém postura empática e de escuta ativa.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza duas ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Realiza uma ação ou não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - História do Tabagismo: Investiga de forma completa:\n(1) idade de início do tabagismo;\n(2) quantidade de cigarros/dia (ou outros produtos de tabaco);\n(3) tempo de uso (carga tabágica em anos-maço);\n(4) tipo de produto utilizado;\n(5) padrão de uso (contínuo/ocasional);\n(6) motivos para começar e continuar a fumar.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou 6 itens da história do tabagismo.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 itens da história do tabagismo.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Tentativas Anteriores de Cessação: Investiga de forma completa:\n(1) quantas tentativas;\n(2) quando foi a última;\n(3) por quanto tempo ficou sem fumar;\n(4) métodos utilizados (medicamentos, terapia, etc.);\n(5) motivos das recaídas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 itens sobre tentativas anteriores.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 itens sobre tentativas anteriores.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 item ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Nível de Motivação e Sintomas de Abstinência: Investiga:\n(1) nível de motivação para parar (Estágios de Prochaska e DiClemente);\n(2) presença de irritabilidade;\n(3) ansiedade;\n(4) dificuldade de concentração;\n(5) insônia;\n(6) aumento do apetite;\n(7) fissura.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga o nível de motivação e 4 ou mais sintomas de abstinência.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga o nível de motivação e 2 ou 3 sintomas de abstinência.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 2 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Sintomas Relacionados e Antecedentes Pessoais: Investiga:\n(1) tosse;\n(2) dispneia;\n(3) expectoração;\n(4) dor torácica;\n(5) comorbidades psiquiátricas (depressão/ansiedade);\n(6) doenças cardiovasculares (HAS, DAC, AVE, IAM);\n(7) respiratórias (DPOC, asma);\n(8) oncológicas;\n(9) diabetes;\n(10) uso de outras medicações.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 7 ou mais itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 4 a 6 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 3 ou menos itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Antecedentes Familiares, Hábitos de Vida e Contexto Psicossocial: Investiga:\n(1) história familiar de tabagismo ou doenças relacionadas;\n(2) consumo de álcool;\n(3) uso de outras drogas ilícitas;\n(4) nível de atividade física;\n(5) dieta;\n(6) estresse;\n(7) rede de apoio social.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou mais itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 itens.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Exame Físico: Verbaliza a solicitação e interpreta os achados do exame físico geral e específico:\n(1) Sinais Vitais (PA, FC, FR, Temp, SatO2);\n(2) Pele e anexos (manchas nicotínicas, envelhecimento);\n(3) Cavidade oral (leucoplasias, dentes, halitose);\n(4) Aparelho respiratório (ausculta pulmonar);\n(5) Aparelho cardiovascular (ausculta cardíaca, pulsos).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a solicitação do exame físico e interpreta 4 ou 5 dos itens apresentados no impresso.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza a solicitação do exame físico e interpreta 2 ou 3 dos itens apresentados no impresso.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a solicitação do exame físico ou interpreta menos de 2 itens.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicitação e interpretação do Teste de Fagerström para Dependência de Nicotina:\n(1) Solicita a aplicação do teste ou avalia a dependência de nicotina;\n(2) Interpreta corretamente a pontuação (alta dependência).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente a pontuação do teste.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita o teste, mas não interpreta corretamente a pontuação.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta o teste.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicitação e interpretação de exames complementares:\n(1) Hemograma completo;\n(2) Glicemia de jejum;\n(3) Perfil lipídico;\n(4) Função renal e hepática;\n(5) Radiografia de tórax;\n(6) Espirometria;\n(7) Eletrocardiograma (ECG).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 5 ou mais exames pertinentes e interpreta corretamente os achados relevantes do impresso.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 3 ou 4 exames pertinentes e interpreta parcialmente os achados.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Solicita 2 ou menos exames ou não interpreta corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Formula o diagnóstico clínico:\n(1) Dependência de Nicotina (Tabagismo) (CID-10 F17.2);\n(2) Hipertensão Arterial Sistêmica (HAS) controlada.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Formula ambos os diagnósticos corretamente, incluindo a classificação da dependência.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Formula apenas o diagnóstico de Dependência de Nicotina, ou um diagnóstico incompleto.",
+            "pontos": 0.65
+          },
+          "inadequado": {
+            "criterio": "Não formula os diagnósticos corretos.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Proposta de conduta terapêutica não farmacológica:\n(1) Aconselhamento breve (5 As: Ask, Advise, Assess, Assist, Arrange);\n(2) Terapia Cognitivo-Comportamental (TCC) ou encaminhamento para grupos de tabagismo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe as duas condutas não farmacológicas.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe apenas uma conduta não farmacológica.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não propõe condutas não farmacológicas.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Proposta de conduta terapêutica farmacológica:\n(1) Terapia de Reposição de Nicotina (TRN) (adesivo/goma/pastilha);\n(2) Bupropiona;\n(3) Vareniclina (quando indicada e disponível).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe 2 ou 3 opções farmacológicas de primeira linha, com indicação adequada.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe apenas uma opção farmacológica de primeira linha.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não propõe tratamento farmacológico ou propõe de forma inadequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Orientações e seguimento:\n(1) Definição da Data para Parar (DDP);\n(2) Estratégias de enfrentamento para a fissura e gatilhos;\n(3) Manejo da abstinência e efeitos da medicação;\n(4) Incentivo ao apoio social e estilo de vida saudável;\n(5) Agendamento de retornos frequentes para monitoramento e suporte.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta 4 ou 5 itens de forma clara.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Orienta 1 item ou não realiza orientações.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "O tabagismo é uma doença crônica de dependência de nicotina, classificada como transtorno mental (CID-10 F17.2). A abordagem inicial requer uma anamnese detalhada para avaliar a carga tabágica (anos-maço), tentativas anteriores, sintomas de abstinência e o nível de motivação (estágios de Prochaska e DiClemente). O exame físico deve buscar sinais de danos (manchas nicotínicas, leucoplasias, halitose) e avaliar sistemas respiratório e cardiovascular. Testes como o de Fagerström quantificam a dependência. Exames complementares (hemograma, glicemia, lipídios, função renal/hepática, RX tórax, espirometria, ECG) auxiliam na identificação de comorbidades e complicações. O diagnóstico principal é a dependência de nicotina, sendo importante diferenciar do tabagismo social ou ocasional. O tratamento ideal é combinado: abordagem não farmacológica (aconselhamento breve, TCC, grupos de apoio) e farmacológica (Terapia de Reposição de Nicotina - adesivo, goma, pastilha; Bupropiona; Vareniclina). Fatores de risco incluem início precoce e alta dependência. Complicações são inúmeras e graves (DPOC, doenças cardiovasculares, neoplasias). O manejo envolve definição de uma data para parar, estratégias de enfrentamento, manejo de abstinência, apoio social e seguimento regular para prevenir recaídas, conforme o PCDT - Dependência à Nicotina e o Consenso INCA. A estação avaliou a capacidade do candidato em realizar essa abordagem integrada, diagnóstica e terapêutica.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas (PCDT) - Dependência à Nicotina. Portaria SAS/MS nº 648, de 27 de março de 2017.",
+        "2. Instituto Nacional de Câncer (INCA). Consenso sobre Abordagem e Tratamento do Fumante. Rio de Janeiro: INCA, 2001.",
+        "3. Organização Mundial da Saúde (OMS). Classificação Internacional de Doenças (CID-10).",
+        "4. American Psychiatric Association. Manual Diagnóstico e Estatístico de Transtornos Mentais (DSM-5). 5. ed. Artmed, 2014.",
+        "5. UpToDate. Smoking cessation in adults: Initial evaluation and management. 2024."
+      ]
+    }
+  }
+}

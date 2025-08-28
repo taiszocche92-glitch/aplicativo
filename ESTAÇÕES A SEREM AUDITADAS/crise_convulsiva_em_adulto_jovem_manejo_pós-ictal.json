@@ -1,0 +1,618 @@
+{
+  "idEstacao": "REVALIDA_INEP_2024_CM_CriseConvulsiva",
+  "tituloEstacao": "Crise Convulsiva em Adulto Jovem: Manejo Pós-Ictal",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "crise convulsiva, epilepsia, neurologia, clínica médica, adulto jovem, pós-ictal, diagnóstico diferencial, manejo inicial",
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Consultório de Pronto Atendimento",
+        "Laboratório de análises clínicas disponível",
+        "Setor de exames de imagem (TC e RM de crânio) disponível",
+        "Unidade de terapia intensiva disponível para encaminhamento"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 28 anos, sexo masculino, chega ao pronto atendimento acompanhado por seu familiar (mãe) após apresentar uma crise convulsiva tônico-clônica generalizada. O paciente está em período pós-ictal, com recuperação parcial da consciência e confusão.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese detalhada do paciente e do acompanhante.",
+      "Solicitar o exame físico geral e neurológico direcionado ao caso.",
+      "Solicitar e interpretar os exames complementares pertinentes para a investigação.",
+      "Formular o diagnóstico clínico e listar os diagnósticos diferenciais relevantes.",
+      "Elaborar o plano de investigação e manejo inicial, e fornecer as orientações adequadas ao familiar."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "O paciente está confuso e sonolento, mas responde a estímulos verbais simples. A maioria das informações será obtida com a mãe."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Meu filho teve uma crise convulsiva em casa e eu o trouxe para o pronto atendimento, doutor(a)!"
+      },
+      {
+        "contextoOuPerguntaChave": "CRISE CONVULSIVA ATUAL (História da Doença Atual - Relato da mãe)",
+        "informacao": "Início: Foi súbito, sem aviso nenhum. Ele estava assistindo TV\nDuração: Durou uns 3 a 4 minutos, parecia uma eternidade\nCaracterísticas dos movimentos: Primeiro ficou rígido e depois começou a se debater todo, braços e pernas. Era forte, tônico-clônica\nLateralidade: Era no corpo todo, bilateral. Os olhos desviaram para o lado direito\nAura: Nega. Não, ele não falou nada antes, não percebi nada de diferente\nPerda de consciência: Sim, perdeu totalmente a consciência no início\nIncontinência esfincteriana: Sim, urinou nas calças e sujou a cueca também\nMordedura de língua: Sim, mordeu a ponta da língua, está sangrando um pouco\nFenômenos pós-ictais: Agora ele está muito sonolento, confuso, não reconhece a gente direito e reclamou de dor de cabeça. Também diz que o corpo está dolorido e não está conseguindo andar direito ainda\nFatores desencadeantes: Ele não dormiu bem na noite passada, estava estudando para uma prova. E ultimamente está muito estressado no trabalho\nEpisódios prévios: Nunca teve nada parecido antes, é a primeira vez\nNúmero de crises nos últimos 6 meses: Nega\nNúmero de crises nos últimos 12 meses: Nega\nNúmero de crises nos últimos 18 meses: Nega\nNúmero de crises nos últimos 24 meses: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES (após a crise - Relato da mãe)",
+        "informacao": "Sonolência: Sim, está bem sonolento desde a crise\nConfusão: Sim, está confuso, perguntando onde está\nCefaleia: Reclamou de uma dor de cabeça fraca, mas agora já parece melhor\nMialgia: Sim, diz que o corpo está dolorido\nFebre: Nega\nFraqueza focal persistente: Nega. Ele mexeu todos os membros, parece que voltou ao normal."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Nega\nCirurgias prévias: Nega\nInternações: Nega\nAlergias: Nega\nMedicamentos em uso contínuo: Nenhum, doutor(a)\nVacinação: Completa para a idade\nTrauma: Nega trauma craniano prévio\nTransfusões: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega\nEtilismo: Socialmente, ocasional. Nega ingestão de álcool nas últimas 48 horas\nDrogas ilícitas: Nega\nAlimentação: Saudável, regular\nAtividade física: Faz academia 3x por semana\nSono: Privação de sono na noite anterior à crise (passou a noite estudando)\nIngestão hídrica: Boa\nEstresse: Sim, tem estado muito estressado por causa do trabalho e da faculdade"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Hipertenso controlado\nMãe: Saudável\nDoenças na família: Nega história de epilepsia ou outras doenças neurológicas na família\nHistória de câncer na família: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar o resultado dos sinais vitais, libere o impresso 'Sinais Vitais'.\nSe o candidato solicitar achados do exame físico geral ou neurológico, libere o impresso 'Resultados de Exame Físico (Chefe de Estação informará achados se solicitado)'.\nSe o candidato solicitar resultados de exames laboratoriais, libere o impresso 'Resultados de Exames Laboratoriais (colhidos na admissão)'.\nSe o candidato solicitar exames de imagem, libere o impresso 'Tomografia Computadorizada de Crânio'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que aconteceu com meu filho, doutor(a)?\npergunta (2): É grave? Ele vai ter isso de novo?\npergunta (3): O que a gente pode fazer agora?\npergunta (4): Ele vai precisar tomar remédio para sempre?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "145 × 90 mmHg (imediatamente pós-crise, em declínio para 120x80 mmHg após 30 min)"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "110 bpm (imediatamente pós-crise, em declínio para 85 bpm após 30 min)"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "20 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "37,2 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "96% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_2",
+        "tituloImpresso": "Resultados de Exame Físico (Chefe de Estação informará achados se solicitado)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ECTOSCOPIA",
+              "itens": [
+                {
+                  "chave": "Cianose",
+                  "valor": "Ausente"
+                },
+                {
+                  "chave": "Lesões cutâneas",
+                  "valor": "Ausentes"
+                },
+                {
+                  "chave": "Trauma",
+                  "valor": "Discreto eritema na região temporal direita (por fricção durante a crise), sem lesão ou hematoma. Mordedura na ponta da língua."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME NEUROLÓGICO",
+              "itens": [
+                {
+                  "chave": "Nível de Consciência",
+                  "valor": "Sonolento, confuso, responde a estímulos verbais simples"
+                },
+                {
+                  "chave": "Força Muscular",
+                  "valor": "Grau V em todos os membros (pós-ictal imediato: discreta paresia transitória do MSD, com recuperação total em 20 min)"
+                },
+                {
+                  "chave": "Sensibilidade",
+                  "valor": "Preservada, porém difícil de avaliar completamente devido à confusão"
+                },
+                {
+                  "chave": "Reflexos Osteotendíneos",
+                  "valor": "Presentes e simétricos (++/+)"
+                },
+                {
+                  "chave": "Sinais de Irritação Meníngea",
+                  "valor": "Ausentes (Rigidez de nuca, Kernig, Brudzinski negativos)"
+                },
+                {
+                  "chave": "Fundo de Olho",
+                  "valor": "Não realizado por indisponibilidade imediata (avaliado por Chefe de Estação se solicitado, com resultado de 'sem papiledema ou alterações')."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIAIS_3",
+        "tituloImpresso": "Resultados de Exames Laboratoriais (colhidos na admissão)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA COMPLETO",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14,0 g/dL (VR: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "9.500 /mm³ (VR: 4.000-11.000)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (VR: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Glicemia",
+                  "valor": "95 mg/dL (VR: 70-99)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "138 mEq/L (VR: 135-145)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "4,1 mEq/L (VR: 3.5-5.0)"
+                },
+                {
+                  "chave": "Cálcio total",
+                  "valor": "9,2 mg/dL (VR: 8.5-10.2)"
+                },
+                {
+                  "chave": "Magnésio",
+                  "valor": "2,0 mg/dL (VR: 1.7-2.6)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (VR: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0,9 mg/dL (VR: 0.7-1.3)"
+                },
+                {
+                  "chave": "TGO (AST)",
+                  "valor": "25 U/L (VR: 0-40)"
+                },
+                {
+                  "chave": "TGP (ALT)",
+                  "valor": "28 U/L (VR: 0-40)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "GASOMETRIA ARTERIAL",
+              "itens": [
+                {
+                  "chave": "pH",
+                  "valor": "7,36 (Ref: 7.35-7.45)"
+                },
+                {
+                  "chave": "pCO2",
+                  "valor": "42 mmHg (Ref: 35-45)"
+                },
+                {
+                  "chave": "pO2",
+                  "valor": "88 mmHg (Ref: 75-100)"
+                },
+                {
+                  "chave": "HCO3",
+                  "valor": "24 mEq/L (Ref: 22-26)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "TOXICOLÓGICO (URINA)",
+              "itens": [
+                {
+                  "chave": "Cocaína",
+                  "valor": "Não detectado"
+                },
+                {
+                  "chave": "Benzodiazepínicos",
+                  "valor": "Não detectado"
+                },
+                {
+                  "chave": "Anfetaminas",
+                  "valor": "Não detectado"
+                },
+                {
+                  "chave": "Canabinóides",
+                  "valor": "Não detectado"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_TC_4",
+        "tituloImpresso": "Tomografia Computadorizada de Crânio (sem contraste)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado de exame de imagem cerebral sem alterações agudas visíveis.",
+          "caminhoImagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/CT_head_with_normal_anatomy.jpg/800px-CT_head_with_normal_anatomy.jpg",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: TC de crânio normal com anatomia)"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_EEG_5",
+        "tituloImpresso": "Eletroencefalograma (EEG) de Rotina (realizado após a recuperação da confusão)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Traçado de EEG em vigília e sono, sem atividade epileptiforme interictal clara. Atividade de base simétrica e organizada.",
+          "caminhoImagem": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Normal_EEG.png",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: EEG normal sem atividade epileptiforme)"
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_CRISECONVULSIVA_2024V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente de 28 anos, sexo masculino, apresenta primeira crise convulsiva tônico-clônica generalizada, sem história prévia. Chega ao PA em período pós-ictal com sonolência e confusão. Exames iniciais (sinais vitais, exame físico, laboratoriais) são amplamente normais ou mostram alterações transitórias pós-ictais. TC de crânio e EEG de rotina não revelam alterações significativas.",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada da crise e antecedentes com paciente e familiar.",
+        "Realização e interpretação do exame físico geral e neurológico pós-ictal.",
+        "Solicitação e interpretação de exames complementares para investigação etiológica.",
+        "Formulação de hipóteses diagnósticas e exclusão de diferenciais.",
+        "Elaboração de plano de conduta inicial e orientações para o seguimento."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se e (2) cumprimenta o paciente e o acompanhante simulados.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Crise Convulsiva Atual (com o acompanhante):\n(1) Início da crise;\n(2) Duração da crise;\n(3) Características dos movimentos;\n(4) Lateralidade ou desvio de olhar/cabeça;\n(5) Presença de aura;\n(6) Perda de consciência;\n(7) Incontinência esfincteriana;\n(8) Mordedura de língua;\n(9) Fenômenos pós-ictais.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 8 ou 9 dos itens.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 5 a 7 dos itens.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 5 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Fatores Desencadeantes e Crises Prévias:\n(1) Fatores desencadeantes (privação de sono, estresse, álcool, febre, estímulos luminosos);\n(2) História prévia de epilepsia ou crises convulsivas (e frequência, se positivo).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta os 2 itens adequadamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 dos itens.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não pergunta nenhum dos itens.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Antecedentes Patológicos Pessoais:\n(1) Doenças crônicas (TCE, AVC, tumores cerebrais, infecções do SNC, diabetes, disfunção renal/hepática);\n(2) Uso de drogas ilícitas;\n(3) Internações ou cirurgias prévias;\n(4) Alergias;\n(5) Medicamentos em uso contínuo (especialmente os que diminuem o limiar convulsivo).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 dos itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 dos itens.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 2 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Hábitos de Vida:\n(1) Consumo de álcool (etilismo, abstinência alcoólica);\n(2) Tabagismo;\n(3) Uso de drogas ilícitas (se não abordado anteriormente);\n(4) Padrão de sono;\n(5) Nível de estresse.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 dos itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 dos itens.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 2 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Antecedentes Familiares:\n(1) História de epilepsia na família;\n(2) Outras doenças neurológicas na família.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta os 2 itens adequadamente.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 dos itens.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não pergunta nenhum dos itens.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita Exame Físico:\n(1) Solicita avaliação dos sinais vitais;\n(2) Solicita exame físico geral (trauma, cianose, incontinência, mordedura de língua);\n(3) Solicita exame neurológico completo (nível de consciência, força, sensibilidade, reflexos, sinais meníngeos, fundo de olho).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita os 3 tipos de exames adequadamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 dos 3 tipos de exames.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Solicita 1 tipo de exame ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Interpreta os Achados do Exame Físico (incluindo Sinais Vitais):\n(1) Reconhece alterações nos sinais vitais (PA/FC elevadas pós-ictal);\n(2) Identifica achados na ectoscopia (eritema temporal, mordedura de língua);\n(3) Avalia o nível de consciência;\n(4) Avalia a força muscular (resolução da paresia de Todd);\n(5) Reconhece ausência de sinais de irritação meníngea e papiledema.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 4 ou 5 dos achados.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 ou 3 dos achados.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 2 achados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita Exames Laboratoriais para investigação etiológica:\n(1) Glicemia;\n(2) Eletrólitos (sódio, potássio, cálcio, magnésio);\n(3) Função renal (ureia, creatinina);\n(4) Função hepática (TGO, TGP);\n(5) Hemograma completo;\n(6) Gasometria arterial (se indicada); \n(7) Exames toxicológicos (triagem para drogas de abuso).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 6 ou 7 dos exames.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 4 ou 5 dos exames.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 4 exames ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Interpreta os Achados dos Exames Laboratoriais:\n(1) Reconhece glicemia normal;\n(2) Reconhece eletrólitos normais;\n(3) Reconhece função renal e hepática normais;\n(4) Reconhece hemograma sem alterações;\n(5) Reconhece gasometria arterial sem acidose grave;\n(6) Interpreta toxicológico negativo para drogas de abuso.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 5 ou 6 dos achados.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 3 ou 4 dos achados.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 3 achados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Solicita Exames de Imagem e Outros:\n(1) Solicita Tomografia Computadorizada (TC) de crânio;\n(2) Solicita Ressonância Magnética (RM) de crânio (se indicada, após TC normal);\n(3) Solicita Eletroencefalograma (EEG).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 2 ou 3 dos exames (incluindo TC ou RM e EEG).",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 1 dos exames (apenas TC ou EEG).",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não solicita exames ou solicita inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Interpreta os Achados dos Exames de Imagem e Outros (TC de Crânio e EEG):\n(1) Interpreta TC de crânio como sem alterações agudas;\n(2) Interpreta EEG de rotina como sem atividade epileptiforme interictal clara.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta os 2 achados corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 dos achados corretamente.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Interpreta incorretamente ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Formula o Diagnóstico Clínico Principal:\n(1) Crise convulsiva sintomática aguda (provocada) OU (2) Crise epiléptica inaugural de epilepsia (não provocada).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico principal corretamente (identificando como primeira crise e se é provocada ou não).",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza um diagnóstico correto, mas incompleto (ex: apenas 'crise convulsiva').",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Cita Diagnósticos Diferenciais Relevantes:\n(1) Síncope (vasovagal, cardiogênica, ortostática);\n(2) Crises não epilépticas psicogênicas (pseudoconvulsões);\n(3) Acidente isquêmico transitório (AIT);\n(4) Enxaqueca com aura;\n(5) Distúrbios do movimento.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou mais diagnósticos diferenciais corretos e relevantes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais corretos e relevantes.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Elabora Plano de Conduta Inicial e Investigação:\n(1) Estabilização do paciente (se necessário, embora já em pós-ictal);\n(2) Discussão da necessidade de internação para observação e investigação;\n(3) Encaminhamento ou seguimento com neurologista para avaliação e conduta definitiva (e.g., indicação de terapia antiepiléptica, novos exames);\n(4) Reavaliação de fatores de risco identificados (estresse, privação de sono).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora 3 ou 4 itens do plano de conduta/investigação.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora 1 ou 2 itens do plano de conduta/investigação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não elabora o plano ou o faz de forma inadequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Fornece Orientações e Seguimento:\n(1) Educação ao paciente/familiar sobre o manejo de futuras crises (primeiros socorros);\n(2) Importância da adesão ao acompanhamento neurológico;\n(3) Restrições (ex: condução de veículos, trabalho em altura) até elucidação e controle;\n(4) Sinais de alarme para retorno imediato ao PS;\n(5) Manejo de fatores desencadeantes (sono, estresse).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Fornece 4 ou 5 das orientações.",
+            "pontos": 0.45
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Fornece 2 ou 3 das orientações.",
+            "pontos": 0.2
+          },
+          "inadequado": {
+            "criterio": "Não fornece orientações adequadas.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A crise convulsiva é uma manifestação de descarga elétrica neuronal anormal. Em Clínica Médica, o manejo inicial foca na estabilização do paciente, identificação da etiologia e prevenção de recorrências. A anamnese detalhada, especialmente de testemunhas, é crucial para descrever o evento (início, duração, tipo de movimentos, aura, perda de consciência, fenômenos pós-ictais). Fatores desencadeantes (privação de sono, estresse) e antecedentes (trauma, AVC, doenças metabólicas, uso de substâncias) são importantes. O exame físico busca sinais de trauma e déficits neurológicos. Exames laboratoriais (glicemia, eletrólitos, função renal/hepática, toxicológico) são essenciais para excluir causas agudas. TC de crânio é indicada na primeira crise não provocada em adultos para excluir lesões estruturais agudas, enquanto a RM é mais sensível para lesões sutis. O EEG auxilia na classificação da síndrome epiléptica. Os diagnósticos diferenciais incluem síncope, crises psicogênicas e AIT. O tratamento agudo envolve benzodiazepínicos, seguido por anticonvulsivantes. O manejo de manutenção da epilepsia depende do tipo de crise e comorbidades. Sinais de alarme incluem o estado de mal epiléptico. Fatores de risco envolvem lesões cerebrais prévias, infecções e distúrbios metabólicos. O seguimento com neurologista é fundamental para investigação e tratamento a longo prazo, com educação do paciente sobre adesão, reconhecimento de crises e restrições. A Deficiência de Biotinidase, mencionada no contexto, é um exemplo de causa metabólica rara, mais comum em neonatos, enfatizando a importância do rastreamento neonatal para causas tratáveis de convulsões.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde. Protocolos de Encaminhamento para Neurologia. 2021.",
+        "2. Fisher, R. S., Cross, J. H., D'Souza, C., et al. Instruction manual for the ILAE 2017 operational classification of seizure types. Epilepsia, 2017; 58(4):531-542.",
+        "3. UpToDate, Inc. Initial treatment of convulsive status epilepticus in adults. Topic last updated: Oct 19, 2023."
+      ]
+    }
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "idEstacao": "REVALIDA_DIFICIL_2025_CM_01",
+  "tituloEstacao": "Doença de Crohn em Exacerbação com Complicação",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Doença de Crohn, DII, Exacerbação, Abscesso, Gastroenterologia, Clínica Médica, Complicação, Manejo",
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (Ressonância Magnética, Tomografia Computadorizada)",
+        "Medicações biológicas e imunomoduladoras disponíveis",
+        "Equipe multidisciplinar (Gastroenterologista, Cirurgião Colorretal, Nutricionista)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 35 anos, com diagnóstico prévio de Doença de Crohn, retorna ao ambulatório para avaliação de uma piora dos sintomas, referindo dor abdominal e diarreia, acompanhada de febre e perda de peso.",
+    "tarefasPrincipais": [
+      "Ler a ficha do paciente apresentada a seguir.",
+      "Realizar a anamnese direcionada ao paciente.",
+      "Interpretar os exames complementares já disponíveis e verbalizar seus achados.",
+      "Avaliar a atividade da doença e identificar possíveis complicações.",
+      "Elaborar e verbalizar o diagnóstico e a conduta terapêutica.",
+      "Orientar o paciente sobre sua condição e o plano de tratamento."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: [Nome Fictício]\nIdade: 35 anos\nEstado Civil: Casado\nProfissão: Analista Financeiro"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com muita dor na barriga, diarreia, febre e me sinto muito cansado(a) há algumas semanas."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR ABDOMINAL",
+        "informacao": "Início: Há 3 semanas, gradual\nLocalização: Quadrante inferior direito, peri-umbilical\nIntensidade: 7/10\nCaracterística: Cólica, intermitente\nPiora após: As refeições\nIrradiação: Não irradia\nDuração: Vários episódios ao dia, cada um dura 30-60 minutos\nProgressão: Piorou progressivamente nas últimas semanas\nFrequência: Pelo menos 4-5 episódios de dor por dia\nFator de piora: Alimentação, estresse\nFator de melhora: Repouso, calor local\nEpisódios prévios: Já tive dor similar, mas nunca tão forte e frequente\nMedicação de alívio: Ibuprofeno (usou esporadicamente sem melhora significativa), parou por medo de piorar a inflamação"
+      },
+      {
+        "contextoOuPerguntaChave": "DIARREIA",
+        "informacao": "Início: Há 3 semanas, junto com a dor\nFrequência: 5-6 evacuações por dia\nConsistência: Líquida a pastosa\nCor: Amarelada\nVolume: Médio\nMuco: Presente em algumas evacuações\nSangue: Ausente\nDor: Sim, tenesmo\nPadrão: Ocorre durante o dia e à noite\nFator de piora: Alimentação\nFator de melhora: Loperamida (usou mas sem grande melhora), parou por preocupação\nEpisódios prévios: Diarreia é comum na minha doença, mas agora está pior"
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE",
+        "informacao": "Início: Há 2 semanas\nIntensidade: Baixa (37.8-38.3°C)\nSintomas associados: Calafrios leves, sudorese noturna\nResposta a antitérmicos: Parcial (paracetamol)\nEpisódios prévios: Sim, tive febre em outras exacerbações"
+      },
+      {
+        "contextoOuPerguntaChave": "PERDA DE PESO",
+        "informacao": "Início: Há 1 mês\nQuantificação: Perdi 4 kg\nIntencionalidade: Não foi intencional, não estou de dieta\nRelação com apetite: Meu apetite diminuiu, e tenho medo de comer porque piora a dor\nSintomas associados: Cansaço constante, fadiga"
+      },
+      {
+        "contextoOuPerguntaChave": "MANIFESTAÇÕES PERIANIS",
+        "informacao": "Dor perianal: Não sinto dor\nDrenagem: Não percebo saída de secreção\nFissuras: Não noto fissuras"
+      },
+      {
+        "contextoOuPerguntaChave": "OUTROS SINTOMAS ASSOCIADOS",
+        "informacao": "Artralgia: Dores articulares leves nos joelhos, mas sem inchaço ou vermelhidão\nLesões cutâneas: Não tenho lesões na pele\nOculares: Não sinto dor ou vermelhidão nos olhos\nNáuseas: Sinto náuseas leves, mas sem vômitos\nAstenia/Fadiga: Sinto muito cansaço, dificuldade para me concentrar"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Doença de Crohn há 5 anos, forma ileocólica, comportamento inflamatório (B1); Hipertensão\nCirurgias prévias: Nenhuma\nInternações: Não consta\nAlergias: Não consta\nMedicamentos em uso contínuo: Azatioprina 100mg/dia, Budesonida 9mg/dia (iniciada há 1 mês), Losartana\nVacinação: Não consta\nTrauma: Não consta\nTransfusões: Não consta"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Sim, 10 maços-ano (10 cigarros/dia por 20 anos), já tentou parar algumas vezes mas recai\nEtilismo: Social, sem abusos\nDrogas ilícitas: Não usa\nAlimentação: Apetite diminuído, medo de comer pois piora a dor\nAtividade física: Não consta\nSono: Não consta\nIngestão hídrica: Não consta\nExposição ocupacional: Analista Financeiro\nEstresse: Fator de piora dos sintomas"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Não consta\nMãe: Retocolite Ulcerativa\nDoenças na família: Não consta\nHistória de câncer na família: Não consta\nIrmãos ou tias: Não consta"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "1. Doutor(a), o que está acontecendo comigo? Minha doença piorou muito, né?\n2. Será que meu tratamento com Azatioprina não está funcionando mais? Acho que não estou tomando o remédio certo.\n3. Vou precisar fazer cirurgia?\n4. Tem alguma coisa que eu possa fazer em relação à minha alimentação para melhorar?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "SINAIS VITAIS",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAISe",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "120 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "98 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "38,1 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "97% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_2",
+        "tituloImpresso": "EXAME FÍSICO",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESTADO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Regular estado geral, emagrecido(a), corado(a), hidratado(a), acianótico(a), anictérico(a). Consciente e orientado(a)."
+                },
+                {
+                  "chave": "Peso",
+                  "valor": "60 kg (peso anterior há 1 mês: 64 kg)"
+                },
+                {
+                  "chave": "Altura",
+                  "valor": "1,70 m"
+                },
+                {
+                  "chave": "IMC",
+                  "valor": "20.7 kg/m²"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ABDOME",
+              "itens": [
+                {
+                  "chave": "Inspeção",
+                  "valor": "Plano, sem abaulamentos."
+                },
+                {
+                  "chave": "Ausculta",
+                  "valor": "Ruídos hidroaéreos aumentados."
+                },
+                {
+                  "chave": "Palpação",
+                  "valor": "Doloroso à palpação profunda em FID, sem sinais de peritonismo. Massa palpável em FID (provável espessamento de alças)."
+                },
+                {
+                  "chave": "Percussão",
+                  "valor": "Timpanismo preservado."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "REGIÃO PERIANAL",
+              "itens": [
+                {
+                  "chave": "Inspeção",
+                  "valor": "Presença de plicoma cutâneo. Ausência de orifícios fistulosos externos ou abscessos evidentes."
+                },
+                {
+                  "chave": "Toque retal",
+                  "valor": "Tônus esfincteriano preservado. Ampola retal vazia. Ausência de massas ou dor à palpação."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MEMBROS INFERIORES",
+              "itens": [
+                {
+                  "chave": "Inspeção",
+                  "valor": "Sem edema, sinais flogísticos ou lesões cutâneas."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_3",
+        "tituloImpresso": "EXAMES LABORATORIAIS",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA COMPLETO",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "10.2 g/dL (VR: 12.0 - 16.0 g/dL)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "30.5% (VR: 36.0 - 48.0%)"
+                },
+                {
+                  "chave": "VCM",
+                  "valor": "85 fL (VR: 80 - 100 fL)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "11.500/mm³ (VR: 4.000 - 10.000/mm³)"
+                },
+                {
+                  "chave": "Neutrófilos",
+                  "valor": "75% (VR: 40 - 70%)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "420.000/mm³ (VR: 150.000 - 450.000/mm³)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MARCADORES INFLAMATÓRIOS",
+              "itens": [
+                {
+                  "chave": "Proteína C-reativa (PCR)",
+                  "valor": "45 mg/L (VR: < 5 mg/L)"
+                },
+                {
+                  "chave": "VHS",
+                  "valor": "55 mm/h (VR: < 20 mm/h)"
+                },
+                {
+                  "chave": "Calprotectina fecal",
+                  "valor": "850 mcg/g (VR: < 50 mcg/g)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Albumina",
+                  "valor": "3.0 g/dL (VR: 3.5 - 5.0 g/dL)"
+                },
+                {
+                  "chave": "Eletrólitos",
+                  "valor": "Sódio: 138 mEq/L (VR: 135-145), Potássio: 4.0 mEq/L (VR: 3.5-5.0)"
+                },
+                {
+                  "chave": "Função renal e hepática",
+                  "valor": "Ureia, Creatinina, TGO, TGP, Bilirrubinas dentro dos valores de referência."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ENTERO_RM_4",
+        "tituloImpresso": "LAUDO - ENTEROGRAFIA POR RESSONÂNCIA MAGNÉTICA (REALIZADA HÁ 1 SEMANA)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Demonstra espessamento mural ileal com realce heterogêneo, linfonodomegalia e pequena coleção líquida/abscesso perientérico.",
+          "caminhoImagem": "(Buscar no Google Imagens: Enterografia por Ressonância Magnética Doença de Crohn espessamento mural ileal abscesso perientérico)",
+          "laudo": "Achados: \n- Espessamento mural circunferencial do íleo terminal (15 mm) com realce heterogêneo pelo contraste e estratificação das camadas da parede, compatível com inflamação ativa.\n- Linfonodomegalia mesentérica adjacente (maior medindo 1.5 cm).\n- Pequena coleção líquida/abscesso perientérico de 2.0 x 1.5 cm adjacente à alça ileal espessada.\n- Ausência de estenoses significativas ou fístulas evidentes.\n- Cólon e reto sem alterações significativas."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_CROHN_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente de 35 anos com Doença de Crohn ileocólica em uso de Azatioprina e Budesonida, apresenta exacerbação com dor abdominal, diarreia, febre, perda de peso. Exames mostram anemia, leucocitose, marcadores inflamatórios elevados, hipoalbuminemia e entero-RM revela inflamação ileal ativa com abscesso perientérico.",
+      "focoPrincipalDetalhado": [
+        "Anamnese direcionada para exacerbação da Doença de Crohn e complicações.",
+        "Interpretação de exames laboratoriais e de imagem para avaliação da atividade e presença de abscesso.",
+        "Formulação de diagnóstico de exacerbação com complicação.",
+        "Elaboração de conduta terapêutica para doença ativa e abscesso.",
+        "Orientações ao paciente e manejo de fatores de risco."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado;\n(3) Identifica-se pelo nome.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza duas ações.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Realiza uma ação ou não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Dor Abdominal: Investiga:\n(1) início;\n(2) localização;\n(3) intensidade;\n(4) característica;\n(5) irradiação;\n(6) duração;\n(7) progressão;\n(8) frequência;\n(9) fator de piora;\n(10) fator de melhora;\n(11) episódios prévios;\n(12) medicação de alívio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 9 ou mais características da dor.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 5 a 8 características da dor.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga 4 ou menos características ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracterização da Diarreia: Investiga:\n(1) início;\n(2) frequência;\n(3) consistência;\n(4) cor;\n(5) volume;\n(6) muco;\n(7) sangue;\n(8) dor/tenesmo;\n(9) padrão;\n(10) fator de piora;\n(11) fator de melhora;\n(12) episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 9 ou mais características da diarreia.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 5 a 8 características da diarreia.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga 4 ou menos características ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Caracterização de Febre e Perda de Peso: Investiga:\n(1) início da febre;\n(2) duração da febre;\n(3) intensidade da febre;\n(4) sintomas associados à febre (calafrios, sudorese);\n(5) resposta a antitérmicos;\n(6) episódios prévios de febre;\n(7) início da perda de peso;\n(8) quantificação da perda de peso;\n(9) intencionalidade da perda de peso;\n(10) relação com apetite;\n(11) sintomas associados à perda de peso (cansaço, fadiga).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 8 ou mais características de febre e perda de peso.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 4 a 7 características de febre e perda de peso.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga 3 ou menos características ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Investigação de Manifestações Perianais e Outros Sintomas Associados: Investiga:\n(1) dor perianal;\n(2) drenagem perianal;\n(3) fissuras perianais;\n(4) artralgia (localização, inchaço, vermelhidão);\n(5) lesões cutâneas;\n(6) sintomas oculares (dor, vermelhidão);\n(7) náuseas (presença de vômitos);\n(8) astenia/fadiga (dificuldade de concentração).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 ou mais aspectos das manifestações extra-intestinais e perianais.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 aspectos das manifestações extra-intestinais e perianais.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Antecedentes Patológicos Pessoais e Hábitos de Vida: Investiga:\n(1) diagnóstico prévio de Doença de Crohn (tempo, forma, comportamento);\n(2) tratamento atual da Doença de Crohn (drogas, doses, aderência, falta de resposta à Budesonida);\n(3) outras doenças (hipertensão) e medicamentos em uso (Losartana, uso/parada de Ibuprofeno);\n(4) tabagismo (carga tabágica, tentativas de parar);\n(5) etilismo;\n(6) dieta (medo de comer, alterações alimentares);\n(7) estresse como fator de piora.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou mais itens dos antecedentes e hábitos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 4 itens dos antecedentes e hábitos.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos itens ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Anamnese - Antecedentes Familiares: Investiga:\n(1) história de Doença Inflamatória Intestinal em parentes de primeiro grau (mãe com Retocolite Ulcerativa).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga adequadamente o item.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não investiga o item.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Interpretação de Sinais Vitais e Exame Físico (Impressos): Identifica:\n(1) febre;\n(2) taquicardia;\n(3) perda de peso recente/IMC baixo;\n(4) dor à palpação profunda em FID;\n(5) massa palpável em FID;\n(6) ruídos hidroaéreos aumentados;\n(7) plicoma cutâneo perianal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica 5 ou mais achados relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Identifica 3 a 4 achados relevantes.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Identifica 2 ou menos achados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpretação de Exames Laboratoriais (Impressos): Identifica:\n(1) anemia (Hemoglobina, Hematócrito);\n(2) leucocitose com neutrofilia;\n(3) proteína C-reativa (PCR) elevada;\n(4) VHS elevada;\n(5) calprotectina fecal muito elevada;\n(6) hipoalbuminemia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica 5 ou 6 alterações relevantes.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Identifica 3 a 4 alterações relevantes.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Identifica 2 ou menos alterações ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Interpretação de Enterografia por Ressonância Magnética (Impresso): Identifica:\n(1) espessamento mural circunferencial do íleo terminal com realce heterogêneo e estratificação;\n(2) linfonodomegalia mesentérica adjacente;\n(3) pequena coleção líquida/abscesso perientérico adjacente à alça ileal espessada;\n(4) ausência de estenoses significativas ou fístulas evidentes;\n(5) cólon e reto sem alterações significativas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica 4 ou 5 achados relevantes.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Identifica 2 ou 3 achados relevantes.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Identifica 1 achado ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Formula o Diagnóstico Principal e sua Classificação: Verbaliza:\n(1) Doença de Crohn;\n(2) em exacerbação / atividade moderada a grave;\n(3) com abscesso perientérico (ou complicação infecciosa local).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico completo e a classificação.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico de Crohn ativo, mas falha na classificação da gravidade ou na identificação do abscesso.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico correto ou faz um diagnóstico incorreto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Formula Diagnósticos Diferenciais: Cita:\n(1) Tuberculose intestinal;\n(2) Linfoma intestinal;\n(3) Colite infecciosa (por exemplo, Clostridioides difficile);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 2 ou 3 diagnósticos diferenciais relevantes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita apenas 1 diagnóstico diferencial relevante.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Elabora Conduta Terapêutica (Medicamentosa, Não Medicamentosa e Cirúrgica): Indica:\n(1) internação hospitalar;\n(2) suspensão do corticosteroide (Budesonida) para indução e escalonamento terapêutico (ex: início de agente biológico como anti-TNF);\n(3) antibioticoterapia empírica para abscesso (cobertura para gram-negativos e anaeróbios);\n(4) suporte nutricional (avaliação por nutricionista, dieta enteral/parenteral se necessário, suplementação);\n(5) controle da dor e sintomas;\n(6) avaliação urgente por cirurgia colorretal para manejo do abscesso (drenagem);\n(7) cessação do tabagismo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica 6 ou 7 condutas corretas e completas.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica 3 a 5 condutas corretas.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Indica 2 ou menos condutas ou conduta incorreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Orientações Finais e Resposta às Dúvidas do Paciente: Orienta:\n(1) informa sobre a piora da doença e a presença do abscesso;\n(2) reforça a importância da cessação do tabagismo para o controle da doença;\n(3) orienta sobre dieta individualizada e suplementação nutricional;\n(4) encaminha para acompanhamento com nutricionista e cirurgião colorretal;\n(5) responde de forma clara e empática às dúvidas do paciente.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 4 ou 5 ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 2 ou 3 ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Realiza 1 ação ou não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Doença de Crohn (DC) é uma doença inflamatória intestinal crônica, autoimune e transmural que pode afetar qualquer segmento do trato gastrointestinal. O paciente apresenta uma exacerbação grave, evidenciada pelos sintomas clínicos (dor abdominal intensa, diarreia, febre, perda de peso, fadiga), pelos marcadores inflamatórios elevados (PCR, VHS, calprotectina fecal) e achados de imagem. A anemia e a hipoalbuminemia indicam cronicidade e desnutrição. A Enterografia por Ressonância Magnética foi crucial para identificar a inflamação ativa ileal e, mais importante, a presença de um abscesso perientérico, uma complicação que requer manejo imediato. A falha do tratamento com Budesonida e Azatioprina para controlar a exacerbação sugere a necessidade de escalonamento terapêutico, possivelmente para agentes biológicos (anti-TNF, anti-integrinas, anti-IL12/23), conforme diretrizes do PCDT. O abscesso exige antibioticoterapia e avaliação cirúrgica para drenagem. Fatores de risco como o tabagismo devem ser abordados vigorosamente. O manejo é multidisciplinar, envolvendo gastroenterologista, cirurgião e nutricionista, com foco na indução e manutenção da remissão, prevenção de complicações e melhora da qualidade de vida.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Doença de Crohn. Portaria Conjunta nº 18, de 24 de setembro de 2020.",
+        "2. UpToDate. Crohn Disease: Clinical manifestations and diagnosis. UpToDate, Inc. (acesso em 2024).",
+        "3. Sociedade Brasileira de Coloproctologia. Consenso Brasileiro de Doença de Crohn e Colite Ulcerativa, 2017."
+      ]
+    }
+  }
+}

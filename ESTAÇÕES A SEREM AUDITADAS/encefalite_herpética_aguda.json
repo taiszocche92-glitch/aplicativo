@@ -1,0 +1,704 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_ENCEFALITE",
+  "tituloEstacao": "Encefalite Herpética Aguda",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Encefalite",
+    "Herpes Simples",
+    "Disfunção Neurológica",
+    "Clínica Médica",
+    "Urgência e emergência"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Pronto-Socorro",
+        "Enfermaria de Clínica Médica/Neurologia",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (TC, RM)",
+        "Unidade de Terapia Intensiva"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente Maria Silva, 28 anos, casada, professora, chega ao Pronto-Socorro acompanhada do marido, João Silva. Ele refere que 'minha esposa está com febre, dor de cabeça muito forte e está confusa. Ela não é assim.'",
+    "tarefasPrincipais": [
+      "Realizar a anamnese completa, focando na queixa principal do paciente e nos sintomas associados.",
+      "Solicitar o exame físico geral e neurológico.",
+      "Solicitar os exames complementares pertinentes para elucidação diagnóstica e manejo.",
+      "Interpretar os resultados dos exames apresentados.",
+      "Estabelecer a(s) hipótese(s) diagnóstica(s) principal(is) e diferenciais.",
+      "Definir a conduta terapêutica inicial (empírica) e o plano de tratamento.",
+      "Comunicar o diagnóstico e as orientações ao acompanhante, respondendo aos questionamentos."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "A paciente está letárgica e confusa. A maioria das informações será fornecida pelo marido (João Silva). A paciente só responderá a comandos simples ou perguntas diretas com dificuldade."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: Maria Silva\nIdade: 28 anos\nSexo: Feminino\nEstado Civil: Casada\nProfissão: Professora"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Minha esposa está com febre, dor de cabeça e confusão mental."
+      },
+      {
+        "contextoOuPerguntaChave": "Febre",
+        "informacao": "Início: Súbito, há 3 dias\nDuração: Contínua\nPicos: Presentes\nIntensidade: Temperatura máxima 39.5°C\nCalafrios: Presentes\nSudorese intensa: Presente\nMialgia difusa: Presente\nResposta a antitérmicos: Cedeu parcialmente por algumas horas (Paracetamol)\nEpisódios prévios: Nunca teve febre assim antes"
+      },
+      {
+        "contextoOuPerguntaChave": "Cefaleia",
+        "informacao": "Início: Há 3 dias, junto com a febre, de forma súbita\nLocalização: Difusa, holocraniana\nIntensidade: 9/10, a pior dor que já sentiu na vida\nTipo: Pulsátil\nCaracterística: Latejante\nDuração: Contínua\nFrequência: Sem melhora\nFatores de piora: Fotofobia\nFatores de piora: Fonofobia\nFatores de piora: Movimentos da cabeça\nFatores de melhora: Nega melhora com repouso\nFatores de melhora: Nega melhora com analgésicos comuns\nSintomas associados: Nega náuseas\nSintomas associados: Nega vômitos associados\nSintomas associados: Sente tontura\nSinais de alarme: Pior dor da vida\nEpisódios prévios: Nega histórico de enxaqueca\nEpisódios prévios: Nega cefaleias crônicas"
+      },
+      {
+        "contextoOuPerguntaChave": "Alteração do Nível de Consciência",
+        "informacao": "Início: Há 2 dias\nProgressão: Letargia, sonolência progressiva\nAtualmente: Confusão mental\nDuração: Persistente\nSintomas associados: Dificuldade para formar frases completas\nSintomas associados: Às vezes parece não reconhecer o marido\nDéficits focais: Nega fraqueza em um lado do corpo\nDéficits focais: Nega alterações visuais\nDéficits focais: Nega dificuldade para engolir\nCrises convulsivas: Nega histórico de convulsões\nCrises convulsivas: Nega ter tido convulsões no quadro atual\nAgitação: Relata que por vezes está agitada\nAlucinações: Nega ter tido alucinações"
+      },
+      {
+        "contextoOuPerguntaChave": "Sinais Meníngeos (anamnese)",
+        "informacao": "O marido relata que não percebeu a nuca rígida, mas a paciente sente dor ao movimentar o pescoço."
+      },
+      {
+        "contextoOuPerguntaChave": "Sintomas Prodrômicos (anamnese)",
+        "informacao": "Nega rash cutâneo\nNega mialgia\nNega artralgia"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PATOLÓGICOS PESSOAIS",
+        "informacao": "Comorbidades crônicas: Nega\nDoenças autoimunes: Nega\nHIV: Nega\nHepatites: Nega\nHistória de herpes labial ou genital: Nega\nHistórico de Vacinação: Calendário vacinal completo na infância (sarampo, caxumba, rubéola, varicela)\nÚltima vacina de reforço contra tétano há 5 anos\nNega vacinação contra encefalite japonesa\nNega vacinação contra febre amarela\nCirurgias Prévias: Apendicectomia aos 15 anos\nAlergias: Dipirona\nMedicamentos em uso contínuo: Nega\nTrauma: Nega\nTransfusões: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Tipo do parto: Não consta\nTempo de Gestação: Não consta\nIntercorrências neonatais: Não consta\nHábitos sexuais: Não consta\nHábitos urinários: Não consta\nHábitos intestinais: Não consta\nIngestão hídrica: Boa\nExposição ocupacional: Nega\nEstresse: Não consta"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega\nEtilismo: Nega\nDrogas ilícitas: Nega\nAlimentação: Equilibrada\nAtividade física: Regular (caminhadas 3x/semana)\nSono: Geralmente bom, mas prejudicado nos últimos 3 dias pela febre e dor\nIngestão hídrica: Boa"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Hipertenso\nMãe: Hipertensa, com diabetes tipo 2\nDoenças na família: Nega casos semelhantes na família\nHistória de câncer: Nega\nIrmãos ou tias: Não consta"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega\nExposição a doenças infecciosas: Nega\nContato com doentes: Nega\nExposição a animais: Nega\nExposição a vetores: Nega\nÁgua consumida: Não consta\nExposição a agentes ambientais: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Considere que a paciente Maria Silva está letárgica e confusa, e só responde a comandos simples ou perguntas diretas com dificuldade. A maioria das informações da HDA e antecedentes será fornecida pelo acompanhante João Silva. Se o candidato perguntar à paciente, ela responderá com frases curtas e confusas, como 'Estou com dor' ou 'Não sei'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): Doutor, o que está acontecendo com a minha esposa? Ela vai ficar bem?\npergunta (2): Essa doença é contagiosa? Eu posso pegar?\npergunta (3): Ela vai precisar ficar internada? Por quanto tempo?\npergunta (4): Ela vai ter alguma sequela?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "130 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "105 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "22 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "39.1 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "97% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_2",
+        "tituloImpresso": "Exame Físico Geral e Neurológico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESTADO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Regular estado geral, letárgica, desorientada no tempo e espaço, prostrada."
+                },
+                {
+                  "chave": "Pele e mucosas",
+                  "valor": "Coradas, hidratadas, sem lesões, sem rash cutâneo."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "CABEÇA E PESCOÇO",
+              "itens": [
+                {
+                  "chave": "Sinais Meníngeos",
+                  "valor": "Rigidez de nuca presente, Kernig e Brudzinski negativos."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SISTEMA NERVOSO",
+              "itens": [
+                {
+                  "chave": "Nível de Consciência",
+                  "valor": "Escala de Coma de Glasgow 12 (O4V3M5)."
+                },
+                {
+                  "chave": "Pares Cranianos",
+                  "valor": "Pupilas isocóricas e fotorreagentes. Sem ptose, desvio de rima ou disfagia. Movimentos oculares extrínsecos preservados."
+                },
+                {
+                  "chave": "Fundoscopia",
+                  "valor": "Fundo de olho sem papiledema."
+                },
+                {
+                  "chave": "Força Muscular",
+                  "valor": "Força preservada globalmente (grau 5 em 5 membros)."
+                },
+                {
+                  "chave": "Reflexos",
+                  "valor": "Reflexos profundos simétricos e presentes (++/4+). Sinal de Babinski negativo."
+                },
+                {
+                  "chave": "Sensibilidade",
+                  "valor": "Preservada, porém avaliação dificultada pela confusão mental."
+                },
+                {
+                  "chave": "Coordenação",
+                  "valor": "Não cooperativa para teste."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_HEMOGRAMA_3",
+        "tituloImpresso": "Hemograma Completo",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SÉRIE VERMELHA",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "12.8 g/dL (VR: 12.0 - 16.0 g/dL)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "39% (VR: 36 - 47%)"
+                },
+                {
+                  "chave": "VCM",
+                  "valor": "88 fL (VR: 80 - 100 fL)"
+                },
+                {
+                  "chave": "HCM",
+                  "valor": "29 pg (VR: 27 - 33 pg)"
+                },
+                {
+                  "chave": "RDW",
+                  "valor": "13% (VR: 11 - 15%)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SÉRIE BRANCA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "10.500/mm³ (VR: 4.500 - 11.000/mm³)"
+                },
+                {
+                  "chave": "Segmentados",
+                  "valor": "70% (VR: 40 - 70%)"
+                },
+                {
+                  "chave": "Linfócitos",
+                  "valor": "20% (VR: 20 - 45%)"
+                },
+                {
+                  "chave": "Monócitos",
+                  "valor": "8% (VR: 2 - 10%)"
+                },
+                {
+                  "chave": "Eosinófilos",
+                  "valor": "1% (VR: 1 - 5%)"
+                },
+                {
+                  "chave": "Basófilos",
+                  "valor": "1% (VR: 0 - 2%)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "PLAQUETAS",
+              "itens": [
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000/mm³ (VR: 150.000 - 450.000/mm³)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_BIOQUIMICA_4",
+        "tituloImpresso": "Bioquímica e Provas Inflamatórias",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "FUNÇÃO RENAL E ELETRÓLITOS",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "35 mg/dL (VR: 15 - 45 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.8 mg/dL (VR: 0.6 - 1.2 mg/dL)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "138 mEq/L (VR: 135 - 145 mEq/L)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "4.1 mEq/L (VR: 3.5 - 5.0 mEq/L)"
+                },
+                {
+                  "chave": "Glicose",
+                  "valor": "102 mg/dL (VR: 70 - 100 mg/dL)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "PROVAS INFLAMATÓRIAS",
+              "itens": [
+                {
+                  "chave": "PCR",
+                  "valor": "8 mg/L (VR: <5 mg/L)"
+                },
+                {
+                  "chave": "VHS",
+                  "valor": "25 mm/h (VR: <20 mm/h)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LIQUOR_5",
+        "tituloImpresso": "Análise do Líquor (LCR)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "RESULTADOS DA ANÁLISE DO LCR",
+              "itens": [
+                {
+                  "chave": "Aspecto",
+                  "valor": "Opalescente"
+                },
+                {
+                  "chave": "Pressão de Abertura",
+                  "valor": "25 cmH2O (VR: 7 - 18 cmH2O)"
+                },
+                {
+                  "chave": "Celularidade",
+                  "valor": "150 leucócitos/mm³ (VR: <5 leucócitos/mm³)"
+                },
+                {
+                  "chave": "Diferencial de Células",
+                  "valor": "80% Linfócitos, 20% Neutrófilos"
+                },
+                {
+                  "chave": "Glicorraquia",
+                  "valor": "55 mg/dL (VR: 50 - 80% da glicemia sérica, ou 40 - 70 mg/dL)"
+                },
+                {
+                  "chave": "Proteinorraquia",
+                  "valor": "80 mg/dL (VR: 15 - 45 mg/dL)"
+                },
+                {
+                  "chave": "Gram",
+                  "valor": "Negativo"
+                },
+                {
+                  "chave": "Cultura Bacteriana",
+                  "valor": "Negativa até o momento"
+                },
+                {
+                  "chave": "PCR para HSV-1/2",
+                  "valor": "Positivo para HSV-1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_TC_CRANIO_6",
+        "tituloImpresso": "Tomografia Computadorizada de Crânio (sem contraste)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM.",
+          "caminhoImagem": "(Buscar no Google Imagens: Tomografia Computadorizada de Crânio sem contraste encefalite herpética edema lobo temporal direito hipodensidade)",
+          "laudo": "ACHADOS:\nSinais de edema no lobo temporal direito, com hipodensidade focal e discreto apagamento de sulcos corticais adjacentes. Ausência de sangramento intracraniano, hidrocefalia ou desvio de linha média.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_RM_CRANIO_7",
+        "tituloImpresso": "Ressonância Magnética de Crânio com Contraste",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM.",
+          "caminhoImagem": "(Buscar no Google Imagens: Ressonância Magnética Crânio com contraste encefalite herpética lesões lobos temporais realce giral)",
+          "laudo": "ACHADOS:\nLesões hiperintensas em T2 e FLAIR, localizadas nas porções mediais dos lobos temporais, mais evidente à direita, com restrição à difusão e discreto realce giral pós-contraste, sugestivo de encefalite herpética.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_ENCEFALITE_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina, 28 anos, apresenta quadro agudo de 3 dias de febre alta, cefaleia intensa (pior da vida), e alteração progressiva do nível de consciência, evoluindo para confusão mental e agitação. Exame físico revela rigidez de nuca e Glasgow 12. Exames complementares evidenciam pleocitose linfocítica e hiperproteinorraquia no LCR, com PCR positivo para HSV-1. Neuroimagem (TC e RM) com achados compatíveis com encefalite em lobos temporais, mais à direita.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa e direcionada para sintomas neurológicos agudos e antecedentes relevantes.",
+        "Solicitação e interpretação de exame físico geral e neurológico, com foco em sinais meníngeos e nível de consciência.",
+        "Solicitação e interpretação de exames laboratoriais, incluindo análise do líquor e PCR para agentes infecciosos.",
+        "Solicitação e interpretação de exames de neuroimagem (TC e RM) para identificar lesões parenquimatosas.",
+        "Formulações de hipóteses diagnósticas e diferenciais, com especial atenção para encefalite herpética.",
+        "Estabelecimento de conduta terapêutica inicial empírica (aciclovir) e específica.",
+        "Comunicação empática e eficaz com o acompanhante sobre o diagnóstico, tratamento e prognóstico."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado ou acompanhante;",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Febre:\n(1) Início súbito há 3 dias;\n(2) Duração contínua;\n(3) Presença de picos;\n(4) Intensidade (temperatura máxima 39.5°C);\n(5) Presença de calafrios;\n(6) Presença de sudorese intensa;\n(7) Presença de mialgia difusa;\n(8) Resposta parcial a antitérmicos (Paracetamol);\n(9) Nega episódios prévios (nunca teve febre assim antes)",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 8 ou 9 itens",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 5 a 7 itens",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 5 itens ou não pergunta",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracterização da Cefaleia:\n(1) Início súbito há 3 dias, junto com a febre;\n(2) Localização difusa, holocraniana;\n(3) Intensidade 9/10 (pior dor da vida);\n(4) Tipo pulsátil;\n(5) Característica latejante;\n(6) Duração contínua e sem melhora;\n(7) Fotofobia;\n(8) Fonofobia;\n(9) Piora com movimentos da cabeça;\n(10) Nega melhora com repouso;\n(11) Nega melhora com analgésicos comuns;\n(12) Nega náuseas;\n(13) Nega vômitos associados;\n(14) Sente tontura;\n(15) Nega histórico de enxaqueca;\n(16) Nega cefaleias crônicas",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 13 ou mais itens",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 8 a 12 itens",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 8 itens ou não pergunta",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Caracterização da Alteração do Nível de Consciência:\n(1) Início há 2 dias;\n(2) Progressão de letargia para sonolência progressiva;\n(3) Atualmente com confusão mental;\n(4) Duração persistente;\n(5) Dificuldade para formar frases completas;\n(6) Parece não reconhecer o marido;\n(7) Nega fraqueza em um lado do corpo;\n(8) Nega alterações visuais;\n(9) Nega dificuldade para engolir;\n(10) Nega histórico de convulsões;\n(11) Nega ter tido convulsões no quadro atual;\n(12) Presença de agitação;\n(13) Nega alucinações",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 10 ou mais itens",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 6 a 9 itens",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 6 itens ou não pergunta",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Sinais Meníngeos e Sintomas Prodrômicos:\n(1) Dor ao movimentar o pescoço (sinal meníngeo);\n(2) Nega rash cutâneo;\n(3) Nega mialgia;\n(4) Nega artralgia",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 itens",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 ou 2 itens",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não pergunta sobre nenhum item",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Antecedentes Pessoais, Fisiológicos, Hábitos de Vida e Epidemiológicos:\n(1) Nega comorbidades crônicas e doenças autoimunes;\n(2) Nega HIV e Hepatites;\n(3) Nega histórico de herpes labial ou genital;\n(4) Questiona calendário vacinal (completo, reforços, específicas);\n(5) Questiona cirurgias prévias (Apendicectomia);\n(6) Questiona alergias (Dipirona);\n(7) Nega tabagismo, etilismo e uso de drogas ilícitas;\n(8) Questiona dieta (Equilibrada) e atividade física (Regular);\n(9) Questiona sono (Prejudicado) e ingestão hídrica (Boa);\n(10) Nega viagens recentes e exposição a vetores;\n(11) Nega contato com doentes e exposição a animais",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 9 ou mais itens",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 5 a 8 itens",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 5 itens ou não pergunta",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita e interpreta o Exame Físico:\n(1) Solicita os sinais vitais;\n(2) Solicita o exame físico geral (estado geral, pele e mucosas);\n(3) Solicita o exame neurológico (nível de consciência, pares cranianos, fundoscopia, força, reflexos, sensibilidade);\n(4) Solicita avaliação de sinais meníngeos (rigidez de nuca, Kernig, Brudzinski);\n(5) Interpreta corretamente os achados dos sinais vitais e exame físico (febre, taquicardia, letargia, confusão, rigidez de nuca, GCS 12, sem papiledema, força preservada)",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 4 ou 5 tipos de exames e interpreta corretamente ao menos 5 achados",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 ou 3 tipos de exames e interpreta parcialmente ao menos 3 achados",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta incorretamente",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita e interpreta Exames Laboratoriais Gerais:\n(1) Solicita hemograma completo;\n(2) Solicita bioquímica (ureia, creatinina, sódio, potássio, glicose);\n(3) Solicita provas inflamatórias (PCR, VHS);\n(4) Interpreta corretamente os resultados (leucócitos normais, plaquetas normais, eletrólitos normais, glicose normal, PCR e VHS levemente aumentados)",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita os 3 tipos de exames e interpreta corretamente ao menos 5 parâmetros",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 tipos de exames e interpreta corretamente ao menos 3 parâmetros",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 2 tipos ou interpreta incorretamente",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e interpreta Análise do Líquor (LCR):\n(1) Solicita punção lombar (após exclusão de hipertensão intracraniana evidente);\n(2) Interpreta corretamente a pressão de abertura (elevada);\n(3) Interpreta corretamente a celularidade (pleocitose linfocítica, 150 leucócitos/mm³);\n(4) Interpreta corretamente a proteinorraquia (elevada, 80 mg/dL);\n(5) Interpreta corretamente a glicorraquia (normal, 55 mg/dL);\n(6) Interpreta corretamente o Gram e Cultura bacteriana (negativos);\n(7) Interpreta corretamente o PCR para HSV-1 (positivo)",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita LCR e interpreta corretamente 6 ou 7 achados",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita LCR e interpreta corretamente 3 a 5 achados",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não solicita LCR ou interpreta incorretamente",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita e interpreta Exames de Imagem de Crânio:\n(1) Solicita Tomografia Computadorizada de Crânio (para excluir lesão expansiva/HIC antes da PL);\n(2) Interpreta corretamente a TC de Crânio (edema temporal, hipodensidade focal, sem sangramento/desvio de linha média);\n(3) Solicita Ressonância Magnética de Crânio com contraste;\n(4) Interpreta corretamente a RM de Crânio (lesões hiperintensas em T2/FLAIR em lobos temporais, restrição à difusão, realce giral, sugestivo de encefalite herpética)",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita ambos os exames e interpreta corretamente 3 ou 4 achados",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita um exame e interpreta corretamente 1 ou 2 achados",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta incorretamente",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Estabelece o Diagnóstico:\n(1) Verbaliza o diagnóstico de Encefalite por Herpes Simples Tipo 1 OU Encefalite Herpética",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Estabelece o diagnóstico correto e completo",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Estabelece um diagnóstico correto, mas incompleto (Ex: Encefalite viral)",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico correto",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Cita Diagnósticos Diferenciais Relevantes:\n(1) Meningite bacteriana;\n(2) Meningite viral por outros agentes (Enterovírus, Arbovírus);\n(3) Encefalite autoimune;\n(4) Encefalopatia tóxico-metabólica;\n(5) Crise convulsiva/Estado de mal epiléptico não convulsivo",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 4 ou 5 diagnósticos diferenciais corretos",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 2 ou 3 diagnósticos diferenciais corretos",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Propõe Conduta Terapêutica Empírica e Específica:\n(1) Inicia Aciclovir intravenoso;\n(2) Define a dose e frequência do Aciclovir (10 mg/kg a cada 8 horas);\n(3) Define a duração do tratamento do Aciclovir (14-21 dias);\n(4) Considera medidas de suporte (controle de febre, glicemia, hidratação);\n(5) Menciona manejo da pressão intracraniana (elevar cabeceira, manitol/salina hipertônica, se necessário);\n(6) Menciona uso de anticonvulsivantes (se crises convulsivas)",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe 5 ou 6 itens corretamente",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 3 ou 4 itens corretamente",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não propõe tratamento adequado ou propõe menos de 3 itens",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Orientações e Responde a Dúvidas:\n(1) Acolhe a preocupação do acompanhante;\n(2) Explica a gravidade da condição;\n(3) Informa sobre a necessidade de internação;\n(4) Explica que a doença não é contagiosa para o contato casual;\n(5) Aborda a possibilidade de sequelas e a necessidade de reabilitação",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 4 ou 5 itens",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 2 ou 3 itens",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Realiza menos de 2 itens ou não responde",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Notificação ao SINAN",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a necessidade de notificação do caso ao SINAN",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não menciona a notificação",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A encefalite é uma inflamação do parênquima cerebral, com a encefalite herpética por HSV-1 sendo a causa mais comum e grave de encefalite viral esporádica em adultos e crianças imunocompetentes. Clinicamente, manifesta-se por febre, cefaleia, alteração do nível de consciência, crises convulsivas e déficits neurológicos focais, com predileção pelos lobos temporais. A anamnese deve ser detalhada quanto ao início e progressão dos sintomas. O exame físico é crucial para avaliar o nível de consciência (Escala de Coma de Glasgow), a presença de sinais meníngeos (rigidez de nuca) e déficits focais. O diagnóstico é estabelecido pela tríade clínica (febre, alteração de consciência e cefaleia), associada a achados no líquor (pleocitose linfocítica, hiperproteinorraquia e glicorraquia normal) e neuroimagem (RM com lesões hiperintensas em T2/FLAIR e realce giral nos lobos temporais, especialmente medial). A PCR para HSV no LCR é o padrão-ouro. Os principais diagnósticos diferenciais incluem outras meningites e encefalites virais ou autoimunes, encefalopatias tóxico-metabólicas e AVC. O tratamento empírico com aciclovir intravenoso deve ser iniciado imediatamente após a suspeita clínica e coleta de LCR, sem aguardar resultados, devido à alta morbimortalidade da encefalite herpética. A dose usual é de 10 mg/kg a cada 8 horas por 14-21 dias. Medidas de suporte, como controle da pressão intracraniana e anticonvulsivantes, são essenciais. O acompanhamento é multidisciplinar, focando na reabilitação e monitoramento de sequelas neurológicas. A notificação de encefalites virais é compulsória.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde. Guia de Vigilância em Saúde: volume único. 5. ed. Brasília: Ministério da Saúde, 2021.",
+        "2. Tunkel AR, et al. Bacterial meningitis and encephalitis. In: Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9th ed. Elsevier; 2020.",
+        "3. UpToDate. Herpes simplex virus encephalitis in adults: Clinical features and diagnosis. Disponível em: www.uptodate.com. Acesso em: 15 mai. 2024.",
+        "4. World Health Organization. Encephalitis. Disponível em: www.who.int. Acesso em: 15 mai. 2024."
+      ]
+    }
+  }
+}

@@ -1,0 +1,626 @@
+{
+  "idEstacao": "REVALIDA_DIFICIL_2024_CM_HBV_01",
+  "tituloEstacao": "Hepatite B Crônica com Cirrose",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Hepatite B",
+    "HBV",
+    "Cirrose",
+    "CHC",
+    "Antiviral",
+    "Clínica Médica",
+    "Atenção terciária"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Centro de exames de imagem (Ultrassonografia, Elastografia, Tomografia Computadorizada, Ressonância Magnética)",
+        "Medicações antivirais disponíveis"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente masculino, 45 anos, comparece ao ambulatório de Hepatologia para consulta de acompanhamento da sua Hepatite B crônica.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal e à doença crônica do paciente.",
+      "Solicitar o exame físico necessário para a avaliação do caso.",
+      "Solicitar e interpretar os exames complementares pertinentes ao caso clínico.",
+      "Verbalizar o diagnóstico, o estadiamento da doença e os diagnósticos diferenciais.",
+      "Elaborar a conduta terapêutica e de acompanhamento para o paciente.",
+      "Realizar as orientações finais ao paciente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou aqui para o acompanhamento da minha hepatite B crônica, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "FADIGA/CANSAÇO",
+        "informacao": "Início: Há uns 3 meses\nLocalização: No corpo todo, uma sensação geral\nIntensidade: Nota 6 de 10, atrapalha no trabalho e nas coisas de casa\nCaracterística ou Tipo da dor: Cansaço que não passa, falta de energia\nIrradiação: Não se aplica\nDuração: Contínuo, não melhora muito\nProgressão: Tem piorado com o tempo\nFrequencia: Diariamente\nFator Desencadeante: Não identifiquei\nFator de piora ou agravante: Piora no fim do dia e se faço muito esforço\nFator de melhora ou atenuante: Repouso ajuda um pouco, mas não resolve\nEpisódios prévios: Sempre tive um pouco de cansaço por causa da hepatite, mas agora está pior\nMedicação de alivio: Nega uso"
+      },
+      {
+        "contextoOuPerguntaChave": "DOR ABDOMINAL",
+        "informacao": "Início: Há 1 mês, mais ou menos\nLocalização: Hipocôndrio direito\nIntensidade: Leve, nota 3 de 10\nCaracterística ou Tipo da dor: Sensação de peso ou desconforto\nIrradiação: Nega\nDuração: Dura algumas horas\nProgressão: Estável\nFrequencia: Umas 2-3 vezes por semana\nFator Desencadeante: Não identifiquei\nFator de piora ou agravante: Nega\nFator de melhora ou atenuante: Passa sozinho, às vezes com analgésico fraco\nEpisódios prévios: Não, isso é novo\nMedicação de alivio: Nega uso frequente"
+      },
+      {
+        "contextoOuPerguntaChave": "ICTERÍCIA (Pele/olhos amarelados)",
+        "informacao": "Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "COLÚRIA (Urina escura)",
+        "informacao": "Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ACOLIA FECAL (Fezes claras)",
+        "informacao": "Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "NÁUSEAS/VÔMITOS",
+        "informacao": "Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "PERDA DE PESO NÃO INTENCIONAL",
+        "informacao": "Nega, meu peso está estável"
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE/CALAFRIOS",
+        "informacao": "Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "PRURIDO (Coceira)",
+        "informacao": "Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "EDEMA DE MEMBROS INFERIORES",
+        "informacao": "Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ALTERAÇÕES DE HUMOR/CONCENTRAÇÃO",
+        "informacao": "Nega, me sinto normal"
+      },
+      {
+        "contextoOuPerguntaChave": "SANGRAMENTOS (nasal, gengival)",
+        "informacao": "Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ALTERAÇÕES NA PELE (aranhas vasculares, eritema palmar)",
+        "informacao": "Nega, nenhuma mancha nova na pele"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Hipertensão controlada\nCirurgias prévias: Apendicectomia aos 15 anos\nInternações: Nega\nAlergias: Nega\nMedicamentos em uso contínuo: Losartana 50mg/dia, Tenofovir (antiviral para hepatite B)\nVacinação: Completa para hepatite B (3 doses) quando descobri a doença, vacina da gripe anual, pneumonia há 5 anos\nDiagnóstico de Hepatite B: Há 10 anos, durante um check-up de rotina. HBsAg positivo desde então\nCoinfecções (HIV, HCV, HDV): Já fiz os testes, todos negativos\nImunossupressão: Nega uso de imunossupressores ou ter alguma doença que afete a imunidade\nPoliarterite Nodosa (PAN): Nega\nDiabetes: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Parei de fumar há 5 anos (fumava 1 maço/dia por 20 anos)\nEtilismo: Não bebo álcool desde que descobri a hepatite\nDrogas ilícitas: Nega uso\nAlimentação: Tento manter uma dieta saudável, com pouca gordura e açúcar\nAtividade física: Caminho 3 vezes por semana, uns 30 minutos\nSono: Durmo bem, umas 7-8 horas por noite\nHábitos urinários: Regular, sem alterações\nHábitos intestinais: Regular, 1x ao dia, fezes normais\nIngestão hídrica: Bebo bastante água, uns 2 litros por dia\nAtividade sexual: Parceira fixa há 15 anos. Ela é vacinada para Hepatite B\nExposição ocupacional: Sou contador, trabalho em escritório, sem exposição a riscos\nEstresse: O estresse do dia a dia, mas nada grave"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Faleceu de infarto, não tinha problemas de fígado\nMãe: Viva, 70 anos, diabética e hipertensa. Nega hepatite B\nDoenças na família: Minha irmã mais velha também tem Hepatite B crônica, diagnosticada na mesma época que eu. Ela faz tratamento\nHistória de câncer na família: Nega câncer de fígado na família"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega\nExposição a doenças infecciosas: Nega\nContato com doentes: Minha irmã tem Hepatite B crônica, mas ela faz tratamento\nExposição a animais: Nega\nExposição a vetores: Nega\nÁgua consumida: Tratada e filtrada\nExposição a agentes ambientais: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): Doutor(a), por que estou sentindo esse cansaço e esse desconforto na barriga? Será que a minha hepatite está piorando?\npergunta (2): Meu tratamento com Tenofovir está funcionando? Estou preocupado com o meu fígado.\npergunta (3): Devo me preocupar com cirrose ou câncer de fígado, mesmo tomando o remédio?\npergunta (4): Tem algo mais que eu possa fazer para me cuidar?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "130 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "78 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36,5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Estado Geral",
+                  "valor": "Bom estado geral, corado, hidratado, anictérico, eupneico, orientado no tempo e espaço."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Normocefálico, sem linfonodomegalias, tireoide sem alterações, carótidas sem sopros."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros, pulsos periféricos amplos e simétricos."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios, expansibilidade pulmonar preservada."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Plano, flácido, indolor à palpação superficial, discreta sensibilidade em hipocôndrio direito à palpação profunda. Hepatimetria 13 cm na linha hemiclavicular direita. Traube livre. Ruídos hidroaéreos presentes. Sinal de piparote negativo."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Ausência de edema, sem aranhas vasculares, sem baqueteamento digital, sem eritema palmar."
+                },
+                {
+                  "chave": "Sinais de Inflamação",
+                  "valor": "Nega"
+                },
+                {
+                  "chave": "Edema",
+                  "valor": "Nega"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais (Gerais e Função Hepática)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA COMPLETO",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.0 g/dL (Ref: 13.5-17.5)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "180.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (Ref: 0.7-1.3)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "FUNÇÃO HEPÁTICA",
+              "itens": [
+                {
+                  "chave": "ALT (TGP)",
+                  "valor": "65 U/L (Ref: <40)"
+                },
+                {
+                  "chave": "AST (TGO)",
+                  "valor": "50 U/L (Ref: <40)"
+                },
+                {
+                  "chave": "Bilirrubina Total",
+                  "valor": "0.8 mg/dL (Ref: 0.2-1.2)"
+                },
+                {
+                  "chave": "Bilirrubina Direta",
+                  "valor": "0.2 mg/dL (Ref: 0.0-0.3)"
+                },
+                {
+                  "chave": "Albumina",
+                  "valor": "3.8 g/dL (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "INR",
+                  "valor": "1.1 (Ref: 0.8-1.2)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_SOROLOGIA_HBV_3",
+        "tituloImpresso": "Sorologia para Hepatite B e Carga Viral",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "MARCADORES DE HBV",
+              "itens": [
+                {
+                  "chave": "HBsAg",
+                  "valor": "Reagente"
+                },
+                {
+                  "chave": "Anti-HBs",
+                  "valor": "Não Reagente"
+                },
+                {
+                  "chave": "Anti-HBc Total",
+                  "valor": "Reagente"
+                },
+                {
+                  "chave": "Anti-HBc IgM",
+                  "valor": "Não Reagente"
+                },
+                {
+                  "chave": "HBeAg",
+                  "valor": "Não Reagente"
+                },
+                {
+                  "chave": "Anti-HBe",
+                  "valor": "Reagente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "CARGA VIRAL E CO-INFECÇÕES",
+              "itens": [
+                {
+                  "chave": "HBV DNA (Quantitativo)",
+                  "valor": "3.000 UI/mL (Ref: Indetectável ou <20)"
+                },
+                {
+                  "chave": "Anti-HCV",
+                  "valor": "Não Reagente"
+                },
+                {
+                  "chave": "Anti-HDV",
+                  "valor": "Não Reagente"
+                },
+                {
+                  "chave": "Anti-HIV 1/2",
+                  "valor": "Não Reagente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_USG_ABDOMEN_4",
+        "tituloImpresso": "Ultrassonografia de Abdome Total",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado da Ultrassonografia de Abdome Total.",
+          "caminhoImagem": "(Buscar no Google Imagens: Ultrassonografia fígado com contornos irregulares e ecotextura heterogênea cirrose)",
+          "sugestaoBuscaImagem": "Ultrassonografia de abdome total com sinais de doença hepática crônica avançada e esplenomegalia.",
+          "laudo": "Fígado com contornos irregulares e ecotextura difusamente heterogênea, sugestivo de doença hepática crônica. Dimensões preservadas. Baço com dimensões aumentadas (14 cm no maior eixo), indicando esplenomegalia. Ausência de ascite ou lesões focais hepáticas. Vesícula biliar e vias biliares sem alterações. Rins com características normais."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_FIBROSCAN_5",
+        "tituloImpresso": "Elastografia Hepática (FibroScan)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "RESULTADO FIBROSCAN",
+              "itens": [
+                {
+                  "chave": "Rigidez Hepática",
+                  "valor": "12.5 kPa"
+                },
+                {
+                  "chave": "Estadiamento de Fibrose (Metavir)",
+                  "valor": "F4 (Cirrose)"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_HBV_2024V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 45 anos, com Hepatite B crônica HBeAg negativa em uso de Tenofovir há 10 anos. Apresenta fadiga e desconforto em hipocôndrio direito. Exames mostram ALT/AST levemente elevados, HBV DNA detectável (3.000 UI/mL) apesar do tratamento, e FibroScan indicando cirrose (F4). O caso foca na avaliação da resposta ao tratamento, estadiamento da doença e manejo de complicações.",
+      "focoPrincipalDetalhado": [
+        "Anamnese direcionada para sintomas de atividade da doença e complicações.",
+        "Solicitação e interpretação de exames laboratoriais e de imagem para estadiamento e monitoramento da Hepatite B.",
+        "Diagnóstico preciso da fase da doença e avaliação da eficácia do tratamento antiviral.",
+        "Definição de conduta terapêutica, rastreamento de complicações (CHC, varizes) e orientações ao paciente."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e escuta ativa:\n(1) Apresenta-se e cumprimenta o paciente simulado;\n(2) Permite que o paciente relate o motivo da consulta sem interrupções e com atenção.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese detalhada das queixas principais (fadiga e dor abdominal):\n(1) Início;\n(2) Característica ou Tipo;\n(3) Intensidade;\n(4) Duração;\n(5) Progressão;\n(6) Fatores de piora ou agravantes;\n(7) Fatores de melhora ou atenuantes.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 6 ou 7 aspectos das queixas principais.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 5 aspectos das queixas principais.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 aspectos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Investiga sintomas negativos relevantes ou sinais de alarme para descompensação hepática:\n(1) Icterícia (pele/olhos amarelados);\n(2) Colúria (urina escura);\n(3) Acolia fecal (fezes claras);\n(4) Prurido (coceira);\n(5) Edema de membros inferiores;\n(6) Alterações de humor/concentração (sugestivo de encefalopatia hepática);\n(7) Sangramentos (nasal, gengival, fezes escuras);\n(8) Perda de peso não intencional.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 a 8 sintomas negativos relevantes/sinais de alarme.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 sintomas negativos relevantes/sinais de alarme.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 3 sintomas ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Investiga antecedentes pessoais patológicos relevantes:\n(1) Doenças crônicas (Hipertensão, Diabetes);\n(2) Medicamentos em uso (incluindo o antiviral para HBV);\n(3) Histórico de vacinação (HBV, gripe, pneumonia);\n(4) Tempo de diagnóstico de HBV e histórico de tratamento;\n(5) Pesquisa de coinfecções (HIV, HCV, HDV);\n(6) Uso de imunossupressores ou condições que geram imunossupressão (para risco de reativação);\n(7) Histórico de Poliarterite Nodosa (PAN).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 ou 7 aspectos dos antecedentes pessoais patológicos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 aspectos dos antecedentes pessoais patológicos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 3 aspectos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Investiga hábitos de vida e antecedentes familiares:\n(1) Tabagismo (tempo e quantidade);\n(2) Etilismo (consumo atual e passado);\n(3) Uso de drogas ilícitas injetáveis;\n(4) Atividade sexual (número de parceiros, uso de preservativo, vacinação da parceira);\n(5) Alimentação e atividade física;\n(6) História familiar de Hepatite B, cirrose ou Carcinoma Hepatocelular (CHC).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou 6 aspectos dos hábitos de vida e antecedentes familiares.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 aspectos dos hábitos de vida e antecedentes familiares.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 3 aspectos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Solicita a realização do exame físico direcionado ao paciente:\n(1) Sinais vitais;\n(2) Avaliação do estado geral;\n(3) Exame físico do abdome (inspeção, ausculta, palpação, percussão);\n(4) Pesquisa de estigmas de hepatopatia crônica (aranhas vasculares, eritema palmar, ginecomastia, atrofia testicular, baqueteamento digital);\n(5) Pesquisa de ascite e edema de membros inferiores.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 4 ou 5 componentes do exame físico direcionado.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 ou 3 componentes do exame físico direcionado.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 2 componentes ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Interpreta os resultados dos Sinais Vitais e Exame Físico (do impresso):\n(1) Pressão arterial dentro da faixa aceitável com controle da HAS;\n(2) Ausência de febre;\n(3) Bom estado geral, corado, hidratado, anictérico;\n(4) Discreta sensibilidade em hipocôndrio direito à palpação profunda do abdome;\n(5) Hepatimetria preservada ou levemente aumentada;\n(6) Ausência de ascite, edema ou estigmas de hepatopatia crônica (aranhas vasculares, eritema palmar, ginecomastia, baqueteamento digital).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente 5 ou 6 achados do exame físico e sinais vitais.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente 3 ou 4 achados do exame físico e sinais vitais.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 3 achados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita exames complementares pertinentes ao caso:\n(1) Hemograma completo;\n(2) Painel de função hepática (ALT, AST, Bilirrubinas, Albumina, INR);\n(3) Sorologia completa para Hepatite B (HBsAg, anti-HBs, anti-HBc total e IgM, HBeAg, anti-HBe);\n(4) Quantificação de HBV DNA (carga viral);\n(5) Pesquisa de co-infecções (anti-HCV, anti-HDV, anti-HIV);\n(6) Ultrassonografia de abdome (para avaliação do fígado, baço e rastreio de CHC);\n(7) Elastografia hepática (FibroScan) para avaliação do grau de fibrose.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 6 ou 7 exames complementares pertinentes.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 3 a 5 exames complementares pertinentes.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 3 exames ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpreta os resultados dos exames complementares (laboratoriais, sorologia e imagem dos impressos):\n(1) Níveis de ALT/AST levemente elevados, indicando atividade inflamatória;\n(2) HBsAg reagente e Anti-HBc Total reagente, confirmando infecção crônica por HBV;\n(3) HBeAg não reagente e Anti-HBe reagente (HBeAg negativo);\n(4) HBV DNA detectável (3.000 UI/mL), indicando replicação viral ativa apesar do tratamento;\n(5) Co-infecções (HCV, HDV, HIV) negativas;\n(6) Ultrassonografia com sinais de doença hepática crônica e esplenomegalia;\n(7) FibroScan com rigidez de 12.5 kPa (F4), indicando cirrose hepática.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente 6 ou 7 achados dos exames complementares.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente 3 a 5 achados dos exames complementares.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 3 achados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Formula o diagnóstico principal e o estadiamento da doença:\n(1) Hepatite B crônica HBeAg negativa;\n(2) Em tratamento com Tenofovir com resposta virológica subótima/parcial;\n(3) Cirrose hepática por HBV (confirmada por FibroScan F4);\n(4) Menciona a necessidade de classificar a cirrose (ex: Child-Pugh, MELD).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Formula o diagnóstico principal e o estadiamento corretamente (todos os 4 itens).",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Formula o diagnóstico principal, mas o estadiamento é incompleto (2 ou 3 itens).",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não formula o diagnóstico ou o faz incorretamente (menos de 2 itens).",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes e possíveis complicações do caso:\n(1) Outras hepatites virais (A, C, E);\n(2) Hepatopatia alcoólica ou Esteato-hepatite não alcoólica (NASH);\n(3) Hepatite autoimune ou medicamentosa;\n(4) Cirrose de outras etiologias;\n(5) Carcinoma Hepatocelular (CHC) como complicação;\n(6) Descompensação da cirrose (ascite, encefalopatia, sangramento de varizes esofágicas).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 5 ou 6 diagnósticos diferenciais/complicações relevantes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 3 ou 4 diagnósticos diferenciais/complicações relevantes.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Cita menos de 3 diagnósticos diferenciais/complicações ou não cita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Propõe a conduta terapêutica e de rastreamento:\n(1) Avaliar adesão ao Tenofovir e possibilidade de resistência/mutação viral (com genotipagem se necessário);\n(2) Considerar ajuste da dose ou troca de antiviral (ex: para TAF se problemas renais/ósseos ou falha terapêutica documentada, embora a carga viral atual não seja alta o suficiente para 'falha clara' ainda, a elevação de ALT e a detecção do HBV DNA indicam necessidade de otimização);\n(3) Iniciar rastreamento para Carcinoma Hepatocelular (CHC) com ultrassonografia de abdome e Alfa-fetoproteína (AFP) a cada 6 meses (devido à cirrose);\n(4) Encaminhar para endoscopia digestiva alta para rastreamento de varizes esofágicas (devido à cirrose e esplenomegalia);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe 4 condutas terapêuticas e de rastreamento corretas.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 2 ou 3 condutas terapêuticas e de rastreamento corretas.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Propõe menos de 2 condutas ou não propõe.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Realiza orientações e aconselhamento ao paciente, responde às dúvidas e verbaliza a notificação compulsória:\n(1) Reforça a importância da abstinência de álcool, dieta equilibrada e atividade física;\n(2) Orienta sobre os sinais de alarme de descompensação (icterícia, ascite, confusão mental, sangramentos) e quando procurar atendimento médico;\n(3) Aconselha sobre a prevenção da transmissão do HBV (uso de preservativo, não compartilhar objetos perfurocortantes);\n(4) Recomenda a vacinação para Hepatite A (se não imune) e para contatos próximos (se não vacinados);\n(5) Responde adequadamente às dúvidas do paciente simulado (sobre cansaço, efetividade do tratamento, risco de CHC/cirrose, outras medidas de cuidado);\n(6) Verbaliza a necessidade de notificação do caso de Hepatite B ao Sistema de Informação de Agravos de Notificação (SINAN).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 5 ou 6 ações de orientação, aconselhamento e notificação.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 3 ou 4 ações de orientação, aconselhamento e notificação.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Realiza menos de 3 ações ou não realiza.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Hepatite B crônica é uma infecção viral hepática com potencial para progressão para cirrose e carcinoma hepatocelular (CHC). O diagnóstico é sorológico, e o monitoramento inclui carga viral (HBV DNA), função hepática e marcadores de fibrose. O paciente apresenta Hepatite B crônica HBeAg negativa em tratamento com Tenofovir. A presença de HBV DNA detectável com ALT/AST elevados, apesar do tratamento, indica resposta virológica subótima, o que necessita de reavaliação da adesão ou possível resistência/mutação viral. A elastografia hepática confirmou cirrose (F4), um fator de risco significativo para CHC e outras complicações. Os sintomas de fadiga e desconforto abdominal, embora inespecíficos, podem estar relacionados à atividade inflamatória ou à própria cirrose. A conduta deve incluir: reavaliação da terapia antiviral (considerar genotipagem e/ou otimização/troca do Tenofovir), rastreamento semestral para CHC (USG de abdome e AFP), e endoscopia digestiva alta para rastreamento de varizes esofágicas. Orientações sobre abstinência alcoólica, dieta saudável, vacinação de contatos e sinais de alarme são cruciais. A Hepatite B é de notificação compulsória. O manejo deve ser multidisciplinar e focado na supressão viral e prevenção de complicações.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde. Departamento de DST, Aids e Hepatites Virais. Protocolo Clínico e Diretrizes Terapêuticas para Hepatite B e Coinfecções. Brasília: Ministério da Saúde, 2016.",
+        "2. European Association for the Study of the Liver (EASL). EASL 2017 Clinical Practice Guidelines on the management of hepatitis B virus infection. J Hepatol. 2017;67(2):370-398.",
+        "3. UpToDate. Clinical manifestations and natural history of hepatitis B virus infection. Disponível em: www.uptodate.com. Acesso em: 2024.",
+        "4. UpToDate. Treatment of chronic hepatitis B in adult patients who are HBeAg-negative. Disponível em: www.uptodate.com. Acesso em: 2024."
+      ]
+    }
+  }
+}

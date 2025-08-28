@@ -1,0 +1,729 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_EHH_01",
+  "tituloEstacao": "Estado Hiperglicêmico Hiperosmolar (EHH)",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "EHH",
+    "Hiperglicemia",
+    "Hiperosmolar",
+    "Diabetes",
+    "Emergência",
+    "Desidratação",
+    "Infecção",
+    "Clínica Médica",
+    "Atenção Terciária"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Sala de emergência",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (TC de crânio, Radiografia de tórax)",
+        "Medicações e fluidos intravenosos",
+        "Unidade de terapia intensiva"
+      ]
+    },
+    "descricaoCasoCompleta": "Você está de plantão na sala de emergência de um hospital terciário quando um paciente de 72 anos é trazido pela filha com queixa de sonolência progressiva, confusão mental e fraqueza no lado esquerdo do corpo.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese dirigida à filha (acompanhante) do paciente.",
+      "Solicitar/realizar as etapas necessárias do exame físico.",
+      "Solicitar os exames complementares pertinentes ao caso clínico.",
+      "Interpretar os resultados dos exames apresentados.",
+      "Estabelecer o diagnóstico principal e os diagnósticos diferenciais.",
+      "Elaborar a conduta terapêutica inicial e as próximas etapas do manejo de emergência do paciente.",
+      "Comunicar à filha sobre a condição clínica do pai e o plano de tratamento."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: João Silva\nIdade: 72 anos\nSexo: Masculino\nAcompanhante: Filha Ana Silva (45 anos)"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Meu pai está muito sonolento e confuso, e está fraco do lado esquerdo do corpo."
+      },
+      {
+        "contextoOuPerguntaChave": "SONOLÊNCIA E CONFUSÃO",
+        "informacao": "Início: há 3 dias\nProgressão: Piorando progressivamente\nQualidade: 'não interage direito', 'não reconhece as pessoas'\nFatores de piora: Não melhora com repouso\nSintomas associados: Náuseas, vômitos"
+      },
+      {
+        "contextoOuPerguntaChave": "FRAQUEZA",
+        "informacao": "Início: há 1 dia\nLocalização: Predominantemente no lado esquerdo do corpo (braço e perna)\nIntensidade: 'Não consegue levantar o braço nem a perna esquerda'\nProgressão: Piorou a ponto de não conseguir mais andar"
+      },
+      {
+        "contextoOuPerguntaChave": "POLIDIPSIA (SEDE INTENSA)",
+        "informacao": "Presente, mas difícil de quantificar nos últimos dias devido à sonolência"
+      },
+      {
+        "contextoOuPerguntaChave": "POLIÚRIA (AUMENTO DO VOLUME URINÁRIO)",
+        "informacao": "Presente nas últimas semanas, mas diminuída nos últimos dias devido à baixa ingestão hídrica"
+      },
+      {
+        "contextoOuPerguntaChave": "PERDA DE PESO",
+        "informacao": "Não observada pela família nos últimos dias"
+      },
+      {
+        "contextoOuPerguntaChave": "NÁUSEAS E VÔMITOS",
+        "informacao": "Início: há 2 dias\nFrequência: 3 episódios de vômito\nConteúdo: Alimentar recente\nSintomas associados: Sonolência"
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE",
+        "informacao": "Início: há 2 dias\nIntensidade: Temperatura máxima 38.5°C\nSintomas associados: Calafrios negados, sudorese negada"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS URINÁRIOS",
+        "informacao": "Disúria: Referia dor ao urinar nos últimos 5 dias\nPolaciúria: Referia ir muitas vezes ao banheiro nos últimos 5 dias\nHematúria: Negada\nUrgência: Referia vontade súbita de urinar"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PATOLÓGICOS PESSOAIS",
+        "informacao": "Doenças crônicas: Diabetes Mellitus tipo 2 há 15 anos, Hipertensão Arterial Sistêmica há 10 anos\nCirurgias prévias: Negadas\nInternações: Negadas\nAlergias: Não relatadas\nMedicamentos em uso contínuo: Glibenclamida 5mg/dia, Metformina 850mg 2x/dia, Losartana 50mg/dia\nVacinação: Não consta no script\nTrauma: Negado\nTransfusões: Negadas"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Não consta no script\nMãe: Diabetes Mellitus tipo 2\nDoenças na família: Não consta no script\nHistoria de cancêr na família: Não consta no script\nIrmãos ou tias: Não consta no script"
+      },
+      {
+        "contextoOuPerguntaChave": "USO DE MEDICAMENTOS",
+        "informacao": "Medicamentos em uso: Glibenclamida 5mg/dia, Metformina 850mg 2x/dia, Losartana 50mg/dia\nUso de diuréticos tiazídicos: Negado\nUso de glicocorticoides: Negado\nUso de antipsicóticos atípicos: Negado"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Parou há 10 anos\nEtilismo: Social\nDrogas ilícitas: Negadas\nAlimentação: Irregular\nAtividade física: Sedentário\nSono: Não consta no script\nHábitos urinários: Referidos em 'SINTOMAS URINÁRIOS'\nHábitos intestinais: Não consta no script\nIngestão hídrica: Diminuída nos últimos dias\nExposição ocupacional: Não consta no script\nEstresse: Não consta no script"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): 'Doutor, o que meu pai tem?'\npergunta (2): 'É um AVC?'\npergunta (3): 'Ele vai ficar bem?'"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "90 × 60 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "110 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "22 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "37.8 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "96% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_2",
+        "tituloImpresso": "Exame Físico Geral e Neurológico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESTADO GERAL",
+              "itens": [
+                {
+                  "chave": "Nível de consciência",
+                  "valor": "Sonolento, desorientado no tempo e espaço, Glasgow 11 (O3, V3, M5)"
+                },
+                {
+                  "chave": "Hidratação",
+                  "valor": "Mucosas secas, turgor cutâneo diminuído, olhos encovados"
+                },
+                {
+                  "chave": "Perfusão",
+                  "valor": "Enchimento capilar > 3 segundos"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO CARDIOVASCULAR",
+              "itens": [
+                {
+                  "chave": "Ausculta cardíaca",
+                  "valor": "Rítmica, em 2 tempos, bulhas normofonéticas, sem sopros"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO RESPIRATÓRIO",
+              "itens": [
+                {
+                  "chave": "Ausculta pulmonar",
+                  "valor": "Murmúrio vesicular presente e simétrico, sem ruídos adventícios"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ABDOMEN",
+              "itens": [
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação, RHA presentes"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXTREMIDADES",
+              "itens": [
+                {
+                  "chave": "Extremidades",
+                  "valor": "Quentes e bem perfundidas, sem edemas"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME NEUROLÓGICO",
+              "itens": [
+                {
+                  "chave": "Pupilas",
+                  "valor": "Isocóricas, fotorreagentes"
+                },
+                {
+                  "chave": "Força muscular",
+                  "valor": "Hemicorpo esquerdo 1/5 (braço e perna); Hemicorpo direito 5/5"
+                },
+                {
+                  "chave": "Reflexos osteotendíneos",
+                  "valor": "Diminuídos globalmente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_3",
+        "tituloImpresso": "Exames Laboratoriais - Pronto-Socorro",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Glicose plasmática",
+                  "valor": "750 mg/dL (VR: 70-100 mg/dL)"
+                },
+                {
+                  "chave": "Sódio (Na+)",
+                  "valor": "155 mEq/L (VR: 135-145 mEq/L)"
+                },
+                {
+                  "chave": "Potássio (K+)",
+                  "valor": "5.8 mEq/L (VR: 3.5-5.0 mEq/L)"
+                },
+                {
+                  "chave": "Cloro (Cl-)",
+                  "valor": "118 mEq/L (VR: 98-107 mEq/L)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "90 mg/dL (VR: 15-40 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "2.1 mg/dL (VR: 0.6-1.2 mg/dL)"
+                },
+                {
+                  "chave": "Osmolalidade sérica (calculada)",
+                  "valor": "404.5 mOsm/kg (VR: 280-300 mOsm/kg)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "GASOMETRIA ARTERIAL",
+              "itens": [
+                {
+                  "chave": "pH",
+                  "valor": "7.38 (Ref: 7.35-7.45)"
+                },
+                {
+                  "chave": "pCO2",
+                  "valor": "35 mmHg (Ref: 35-45)"
+                },
+                {
+                  "chave": "pO2",
+                  "valor": "88 mmHg (Ref: 75-100)"
+                },
+                {
+                  "chave": "HCO3-",
+                  "valor": "23 mEq/L (Ref: 22-26)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "CETONAS",
+              "itens": [
+                {
+                  "chave": "Cetonas urinárias",
+                  "valor": "Negativas"
+                },
+                {
+                  "chave": "Cetonas séricas",
+                  "valor": "Negativas"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "17.0 g/dL (VR: 13.0-17.0 g/dL)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "52% (VR: 39-50%)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "18.000/mm³ (VR: 4.000-11.000/mm³)"
+                },
+                {
+                  "chave": "Neutrófilos segmentados",
+                  "valor": "85% (VR: 40-70%)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_URINALISE_4",
+        "tituloImpresso": "Urinálise (Sumário de Urina)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ELEMENTOS BIOQUÍMICOS",
+              "itens": [
+                {
+                  "chave": "Nitrito",
+                  "valor": "Positivo"
+                },
+                {
+                  "chave": "Esterase leucocitária",
+                  "valor": "Positiva"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SEDIMENTOSCOPIA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": ">50 por campo (VR: <5 por campo)"
+                },
+                {
+                  "chave": "Hemácias",
+                  "valor": "5-10 por campo (VR: <3 por campo)"
+                },
+                {
+                  "chave": "Bactérias",
+                  "valor": "Inúmeras"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_EHH_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 72 anos, diabético tipo 2 e hipertenso, apresenta quadro de sonolência progressiva, confusão mental, fraqueza hemicorporal esquerda e febre há dias, com sintomas urinários. Exames revelam hiperglicemia severa (>600 mg/dL), hiperosmolaridade plasmática (>320 mOsm/kg), desidratação, ausência de cetoacidose significativa, e evidências de infecção do trato urinário. O quadro é compatível com Estado Hiperglicêmico Hiperosmolar (EHH), provavelmente precipitado por uma infecção.",
+      "focoPrincipalDetalhado": [
+        "Anamnese direcionada para EHH e suas causas precipitantes.",
+        "Exame físico focado em sinais de desidratação e alterações neurológicas.",
+        "Solicitação e interpretação de exames laboratoriais cruciais para o diagnóstico de EHH.",
+        "Estabelecimento do diagnóstico principal e dos diferenciais.",
+        "Elaboração da conduta terapêutica de emergência, incluindo reposição volêmica, insulinoterapia e manejo eletrolítico.",
+        "Identificação e tratamento da causa precipitante.",
+        "Comunicação efetiva com o acompanhante."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta a filha do paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, perguntando sobre as características da sonolência e confusão:\n(1) Início;\n(2) Progressão;\n(3) Qualidade da alteração do nível de consciência;\n(4) Fatores de piora;\n(5) Sintomas associados.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 2 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, perguntando sobre as características da fraqueza:\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Progressão.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 2 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza anamnese, perguntando sobre polidipsia, poliúria e perda de peso:\n(1) Polidipsia;\n(2) Poliúria;\n(3) Ingesta hídrica diminuída;\n(4) Perda de peso.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 2 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Realiza anamnese, perguntando sobre náuseas, vômitos e febre:\n(1) Início das náuseas/vômitos;\n(2) Frequência dos vômitos;\n(3) Conteúdo dos vômitos;\n(4) Início da febre;\n(5) Intensidade da febre;\n(6) Calafrios negados;\n(7) Sudorese negada.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou mais itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Realiza anamnese, perguntando sobre sintomas urinários:\n(1) Disúria;\n(2) Polaciúria;\n(3) Hematúria negada;\n(4) Urgência.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 2 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Realiza anamnese, perguntando sobre antecedentes patológicos pessoais:\n(1) Diagnóstico e tempo de Diabetes Mellitus tipo 2;\n(2) Diagnóstico e tempo de Hipertensão Arterial Sistêmica;\n(3) Doença renal crônica negada;\n(4) Insuficiência cardíaca negada;\n(5) Acidente Vascular Cerebral prévio negado;\n(6) Internações prévias negadas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou 6 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Realiza anamnese, perguntando sobre uso de medicamentos, antecedentes familiares e hábitos de vida:\n(1) Medicamentos em uso contínuo (Glibenclamida, Metformina, Losartana);\n(2) Uso de medicamentos que podem elevar a glicemia (diuréticos tiazídicos, glicocorticoides, antipsicóticos atípicos) negados;\n(3) História familiar de Diabetes Mellitus;\n(4) Hábitos de vida (tabagismo, etilismo, dieta, atividade física, ingesta hídrica diminuída).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 2 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e interpreta os sinais vitais (disponíveis no impresso 'Sinais Vitais'):\n(1) Hipotensão arterial (90x60 mmHg);\n(2) Taquicardia (110 bpm);\n(3) Taquipneia (22 irpm);\n(4) Febre (37.8 °C).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 4 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta menos de 2 itens.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita e interpreta o exame físico geral e neurológico (disponíveis no impresso 'Exame Físico Geral e Neurológico'):\n(1) Sinais de desidratação (mucosas secas, turgor cutâneo diminuído, olhos encovados);\n(2) Enchimento capilar lento (>3 segundos);\n(3) Nível de consciência alterado (sonolência, desorientação, Glasgow 11);\n(4) Déficits neurológicos focais (fraqueza hemicorporal esquerda 1/5);\n(5) Reflexos osteotendíneos diminuídos globalmente.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 5 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 3 ou 4 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta menos de 3 itens.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Solicita exames laboratoriais (disponíveis no impresso 'Exames Laboratoriais - Pronto-Socorro') e interpreta corretamente:\n(1) Glicemia plasmática elevada (> 600 mg/dL);\n(2) Sódio sérico corrigido e osmolalidade sérica elevada (> 320 mOsm/kg);\n(3) pH arterial e bicarbonato sérico sem acidose significativa (pH > 7.30, HCO3- > 18 mEq/L);\n(4) Cetonas ausentes ou mínimas;\n(5) Ureia e creatinina elevadas;\n(6) Potássio sérico elevado (> 5.0 mEq/L);\n(7) Hemograma com leucocitose e hemoconcentração.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 6 ou 7 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 3 a 5 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta menos de 3 itens.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Solicita e interpreta a urinálise (disponível no impresso 'Urinálise (Sumário de Urina)') com achados de infecção urinária:\n(1) Nitrito positivo;\n(2) Esterase leucocitária positiva;\n(3) Leucocitúria (>50 por campo);\n(4) Bactérias (inúmeras).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 4 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta menos de 2 itens.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Estabelece o diagnóstico principal:\n(1) Estado Hiperglicêmico Hiperosmolar (EHH).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Estabelece o diagnóstico correto.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes:\n(1) Cetoacidose Diabética (CAD);\n(2) Acidente Vascular Cerebral (AVC);\n(3) Sepse grave/Choque séptico;\n(4) Encefalopatia metabólica de outras etiologias.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou 4 diagnósticos diferenciais corretos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 2 diagnósticos diferenciais corretos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Inicia a reposição volêmica:\n(1) Soro Fisiológico 0,9% IV;\n(2) Taxa inicial de 1-1,5 Litros na primeira hora (ou 15-20 mL/kg/h).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica corretamente os dois itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica corretamente apenas um item.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não indica adequadamente nenhum item.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Propõe insulinoterapia e considera reposição de potássio:\n(1) Iniciar insulina regular IV em bolus, seguido de infusão contínua;\n(2) Atrasar o início da insulina se potássio sérico < 3.3 mEq/L;\n(3) Iniciar reposição de KCl, se necessário;\n(4) Propõe monitoramento frequente de potássio sérico.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe corretamente 3 ou 4 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe corretamente 2 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não propõe adequadamente ou comete erros críticos.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Trata a causa precipitante e orienta o manejo geral:\n(1) Antibioticoterapia empírica para infecção do trato urinário;\n(2) Monitoramento rigoroso (sinais vitais, balanço hídrico, glicemia, eletrólitos);\n(3) Profilaxia para trombose (heparina de baixo peso molecular);\n(4) Encaminhamento para UTI/unidade de terapia semi-intensiva.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica corretamente 3 ou 4 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica corretamente 2 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não indica adequadamente ou comete erros críticos.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item18",
+        "itemNumeroOficial": "18",
+        "descricaoItem": "Comunica à filha sobre a condição e o plano:\n(1) Explica o diagnóstico de EHH de forma clara e compreensível;\n(2) Tranquiliza a filha sobre o plano de tratamento e a necessidade de internação;\n(3) Responde às perguntas/dúvidas da filha ('É um AVC?', 'Ele vai ficar bem?').",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza corretamente os três itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza corretamente dois itens.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Não realiza adequadamente ou comunica de forma inadequada.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "O Estado Hiperglicêmico Hiperosmolar (EHH) é uma emergência diabética grave, mais comum em DM tipo 2 e idosos, caracterizada por hiperglicemia (>600 mg/dL), hiperosmolaridade (>320 mOsm/kg), desidratação profunda e ausência de cetoacidose significativa. A anamnese deve buscar sintomas como polidipsia, poliúria, perda de peso, fraqueza, náuseas, vômitos e alterações do estado mental, além de fatores precipitantes como infecções (frequente, como no caso, com ITU), IAM ou AVC. O exame físico revela desidratação grave e alterações neurológicas que podem simular um AVC. Os exames complementares confirmam hiperglicemia, hipernatremia (corrigida), hiperosmolaridade, função renal comprometida, potássio alterado (no caso, elevado inicialmente devido à desidratação e IRA pré-renal), ausência de acidose metabólica e cetonemia/cetonúria. O tratamento é emergencial e foca em reposição volêmica agressiva (SF 0,9% inicialmente), insulinoterapia IV (após correção do K+ se <3.3 mEq/L), reposição eletrolítica (especialmente potássio) e identificação e tratamento da causa precipitante. Complicações incluem hipoglicemia, distúrbios eletrolíticos, trombose e edema cerebral. O diagnóstico diferencial com CAD, AVC e sepse é crucial. A educação do paciente e o acompanhamento rigoroso são essenciais para prevenir recorrências.",
+      "fontes": [
+        "1. Sociedade Brasileira de Diabetes (SBD). Diretrizes da Sociedade Brasileira de Diabetes 2023-2024. São Paulo: Clannad Editora, 2023.",
+        "2. UpToDate. Hyperosmolar hyperglycemic state in adults: Treatment. (acessado em 25 de maio de 2024).",
+        "3. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas. (acessado em 25 de maio de 2024)."
+      ]
+    }
+  }
+}

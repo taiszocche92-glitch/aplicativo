@@ -1,0 +1,547 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_OSTEOPOROSE_01",
+  "tituloEstacao": "Osteoporose",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "osteoporose, fratura por fragilidade, densitometria óssea, clínica médica, atenção secundária",
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem",
+        "Medicações disponíveis"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 68 anos, sexo feminino, chega ao consultório referindo dor nas costas intensa após uma queda leve e preocupação com sua altura.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente.",
+      "Realizar o exame físico direcionado ao caso clínico.",
+      "Solicitar os exames complementares pertinentes ao caso.",
+      "Interpretar os resultados dos exames apresentados.",
+      "Estabelecer o diagnóstico clínico e sua classificação.",
+      "Citar os principais diagnósticos diferenciais para a condição.",
+      "Elaborar a conduta terapêutica e as orientações para o paciente."
+    ],
+    "avisosImportantess": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Doutor(a), estou com muita dor nas costas depois de uma queda boba e acho que encolhi."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR NAS COSTAS",
+        "informacao": "Início: Faz uns 2 meses que sinto essa dor, mas agora piorou muito depois da queda.\nLocalização: Na coluna, na parte de cima, quase no meio das costas.\nIntensidade: Antes era um 5/10, mas agora depois da queda está um 8/10.\nCaracterística ou Tipo da dor: É uma dor profunda, tipo um peso, e agora também tem pontadas fortes.\nIrradiação: Não irradia.\nDuração: Contínua, mas piora com movimento.\nProgressão: Tem piorado, e a dor de agora é a pior que já tive.\nFrequencia: A dor estava lá todo dia, mas agora é constante e mais forte.\nFator Desencadeante: Caiu da própria altura há 3 dias, ao escorregar no tapete da sala.\nFator de piora ou agravante: Piora muito ao levantar, caminhar, ou fazer qualquer esforço. Também piora ao tossir ou espirrar.\nFator de melhora ou atenuante: Melhora um pouco deitada de barriga para cima, e com compressa quente.\nEpisódios prévios: Sempre tive umas dores nas costas, mas nunca assim tão forte.\nMedicação de alivio: Tomei analgésicos comuns (paracetamol, dipirona), mas não alivia muito a dor forte."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES (referente à queixa principal)",
+        "informacao": "Perda de altura: Notei que minhas roupas estão mais largas e que estou mais baixa que minhas irmãs. Acho que comecei a encolher faz uns 5 anos, devo ter perdido uns 5 centímetros.\nCifose dorsal: Me sinto meio curvada, sim, minhas filhas falam que estou corcunda.\nProtuberância abdominal: Sim, minha barriga parece maior agora, e as roupas não fecham direito.\nQuedas prévias: Sim, já caí algumas vezes, mas nunca machuquei tanto como essa última vez."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Hipertensão há 10 anos, controlada com Losartana.\nCirurgias prévias: Histerectomia total com ooforectomia bilateral aos 45 anos (por mioma).\nInternações: Nega.\nAlergias: Nega.\nMedicamentos em uso contínuo: Losartana 50mg/dia.\nVacinação: Em dia.\nTrauma: Apenas essa queda recente."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Idade: 68 anos.\nMenopausa: Aos 45 anos, devido à cirurgia.\nBaixo peso corporal: Nega, meu peso sempre foi normal, agora estou com 50 kg para 1,55m (IMC = 20.8 kg/m²).\nAmenorreia: Sim, desde a cirurgia."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Fumou por 20 anos, parou há 15 anos.\nEtilismo: Socialmente, uma taça de vinho ocasionalmente.\nDrogas ilícitas: Nega.\nAlimentação: Tenta comer de tudo, mas não sou muito fã de leite. Raramente toma sol.\nAtividade física: Caminha ocasionalmente, mas sou sedentária na maior parte do tempo.\nSono: Dorme bem."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Faleceu de infarto, não tinha osteoporose.\nMãe: Minha mãe teve osteoporose e fratura de quadril com 75 anos.\nDoenças na família: Nega outras doenças relevantes.\nIrmãos: Minha irmã mais velha também tem osteoporose."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS",
+        "informacao": "Menarca: 13 anos.\nMenopausa: 45 anos, cirúrgica.\nGestações: 3 partos vaginais.\nPartos: 3 (vaginais).\nUso de contraceptivos: Nega.\nExames preventivos: Papanicolau em dia (último há 1 ano, normal)."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar o resultado dos exames trazidos libere os impressos disponíveis. Se questionar sobre exames adicionais, diga: 'Considerem todos os exames laboratoriais e de imagem solicitados e já realizados. Os resultados estarão em impressos'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)? Meus ossos estão fracos?\npergunta (2): Essa dor nas costas vai melhorar? Vou ficar corcunda?\npergunta (3): Tem tratamento pra isso? Vou ter que tomar remédio para sempre?\npergunta (4): O que eu posso fazer pra melhorar?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "130 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "78 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36,5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Estado Geral",
+                  "valor": "Bom estado geral, lúcida, orientada, corada, hidratada, afebril."
+                },
+                {
+                  "chave": "Altura atual",
+                  "valor": "1,55m (informou altura máxima na juventude de 1,60m)"
+                },
+                {
+                  "chave": "Peso",
+                  "valor": "50 kg (IMC: 20,8 kg/m²)"
+                },
+                {
+                  "chave": "Inspeção estática e dinâmica da coluna",
+                  "valor": "Cifose dorsal levemente acentuada, protuberância abdominal discreta. Movimentação da coluna lombar dolorosa e limitada."
+                },
+                {
+                  "chave": "Palpação vertebral",
+                  "valor": "Dor à palpação em projeção das vértebras torácicas inferiores (T10-T12) e transição tóraco-lombar."
+                },
+                {
+                  "chave": "Marcha e Equilíbrio",
+                  "valor": "Marcha com base alargada e equilíbrio preservado, mas com cautela."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA COMPLETO",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "13,0 g/dL (Ref: 12.0-15.5 g/dL)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.200 /mm³ (Ref: 4.000-11.000 /mm³)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "250.000 /mm³ (Ref: 150.000-450.000 /mm³)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "FUNÇÃO RENAL E HEPÁTICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0,9 mg/dL (Ref: 0.7-1.3 mg/dL)"
+                },
+                {
+                  "chave": "TGO (AST)",
+                  "valor": "25 U/L (Ref: <35 U/L)"
+                },
+                {
+                  "chave": "TGP (ALT)",
+                  "valor": "20 U/L (Ref: <35 U/L)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "METABOLISMO ÓSSEO E MINERAL",
+              "itens": [
+                {
+                  "chave": "Cálcio Total",
+                  "valor": "8,5 mg/dL (Ref: 8.5-10.2 mg/dL)"
+                },
+                {
+                  "chave": "Cálcio Iônico",
+                  "valor": "4,2 mg/dL (Ref: 4.0-5.0 mg/dL)"
+                },
+                {
+                  "chave": "Fósforo",
+                  "valor": "3,0 mg/dL (Ref: 2.5-4.5 mg/dL)"
+                },
+                {
+                  "chave": "Albumina",
+                  "valor": "4,0 g/dL (Ref: 3.5-5.0 g/dL)"
+                },
+                {
+                  "chave": "Fosfatase Alcalina Total",
+                  "valor": "90 U/L (Ref: 40-150 U/L)"
+                },
+                {
+                  "chave": "25-hidroxivitamina D (25(OH)D)",
+                  "valor": "18 ng/mL (Ref: >30 ng/mL - deficiência)"
+                },
+                {
+                  "chave": "Paratormônio (PTH)",
+                  "valor": "70 pg/mL (Ref: 15-65 pg/mL - levemente elevado)"
+                },
+                {
+                  "chave": "TSH",
+                  "valor": "2,0 mUI/L (Ref: 0.4-4.0 mUI/L)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "OUTROS",
+              "itens": [
+                {
+                  "chave": "Eletroforese de Proteínas Séricas",
+                  "valor": "Normal (Ausência de pico monoclonal)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_DMO_3",
+        "tituloImpresso": "Densitometria Óssea (DMO)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado da Densitometria Óssea, mostrando os valores de densidade mineral óssea (DMO) e T-score nas principais regiões de interesse.",
+          "caminhoImagem": "(Buscar no Google Imagens: Densitometria óssea com T-score abaixo de -2.5 em coluna lombar e fêmur, mostrando osteoporose)",
+          "laudo": "Densitometria Óssea por DXA (Dual-energy X-ray Absorptiometry):\n- **Coluna Lombar (L1-L4):** DMO = 0.720 g/cm², T-score = -2.8 DP\n- **Colo do Fêmur Esquerdo:** DMO = 0.650 g/cm², T-score = -2.6 DP\n- **Fêmur Total Esquerdo:** DMO = 0.700 g/cm², T-score = -2.5 DP\n**CONCLUSÃO:** Osteoporose em coluna lombar e colo do fêmur. Osteoporose em fêmur total."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_RX_COLUNA_4",
+        "tituloImpresso": "Radiografia de Coluna Torácica e Lombar",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Radiografia da coluna vertebral da paciente, com foco na região torácica e lombar, para avaliação de fraturas.",
+          "caminhoImagem": "(Buscar no Google Imagens: Radiografia de coluna torácica e lombar com fratura por compressão vertebral em T12)",
+          "laudo": "Radiografias de Coluna Torácica e Lombar em AP e Perfil:\n- **Coluna Torácica:** Redução da altura anterior do corpo vertebral de T12, compatível com fratura por compressão de grau moderado.\n- **Coluna Lombar:** Ausência de outras fraturas ou lesões ósseas evidentes.\n- **Conclusão:** Fratura por compressão vertebral em T12."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_OSTEOPOROSE_2025V1_01",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente de 68 anos, sexo feminino, pós-menopausa cirúrgica precoce, com história familiar de osteoporose e fratura de quadril, apresenta dor dorsal intensa após queda de baixo impacto e refere perda de altura. Exames complementares revelam deficiência de vitamina D, hiperparatireoidismo secundário leve, osteoporose em densitometria óssea e fratura vertebral por compressão em T12 na radiografia. O caso exige diagnóstico de osteoporose grave e manejo completo.",
+      "focoPrincipalDetalhado": [
+        "Realizar anamnese detalhada para identificar fatores de risco e sinais de fratura por fragilidade.",
+        "Realizar exame físico direcionado, buscando sinais de osteoporose e suas complicações.",
+        "Solicitar e interpretar exames laboratoriais, densitometria óssea e radiografias para diagnóstico diferencial e confirmação.",
+        "Estabelecer o diagnóstico de osteoporose grave e propor conduta terapêutica não farmacológica e farmacológica adequada.",
+        "Citar diagnósticos diferenciais e fornecer orientações completas ao paciente."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e Postura Inicial:\n(1) Apresenta-se e cumprimenta o paciente simulado;\n(2) Mantém postura empática ao longo da consulta;\n(3) Pergunta o motivo da consulta e permite ao paciente falar sem interrupções.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ou duas ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Dor Dorsal:\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Característica ou Tipo da dor;\n(5) Irradiação;\n(6) Duração;\n(7) Progressão;\n(8) Fatores de piora ou agravante;\n(9) Fatores de melhora ou atenuante;\n(10) Episódios prévios;\n(11) Medicação de alívio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 8 ou mais características da dor.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 4 a 7 características da dor.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 3 ou menos características ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Investigação de Sinais de Fratura e Fatores de Risco Clínicos:\n(1) Perda de altura (quantificação);\n(2) Desenvolvimento de cifose dorsal;\n(3) Histórico de quedas (frequência, circunstâncias);\n(4) Fraturas prévias por baixo trauma;\n(5) Menopausa precoce ou cirúrgica (<45 anos);\n(6) Baixo peso corporal (IMC < 18,5 kg/m²);\n(7) Tabagismo (ativo ou prévio) e etilismo excessivo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 ou 7 dos aspectos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 dos aspectos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Antecedentes Patológicos, Medicamentos e Familiares:\n(1) Doenças endócrinas (hipertireoidismo, hiperparatireoidismo, diabetes tipo 1, Cushing);\n(2) Doenças gastrointestinais (doença celíaca, doença inflamatória intestinal, cirurgia bariátrica, má absorção);\n(3) Doença renal crônica, mieloma múltiplo, artrite reumatoide, lúpus eritematoso sistêmico;\n(4) Uso crônico de corticosteroides, heparina, anticonvulsivantes, inibidores de bomba de prótons, agonistas de GnRH;\n(5) História familiar de osteoporose ou fratura de quadril (especialmente fratura de quadril materna).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 dos aspectos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 dos aspectos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 ou menos aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Exame Físico Direcionado e Achados Relevantes:\n(1) Avaliação da altura e peso (considerando IMC);\n(2) Observação da postura (presença de cifose dorsal acentuada, protuberância abdominal);\n(3) Avaliação da marcha e equilíbrio (para risco de quedas);\n(4) Palpação vertebral para dor ou deformidades.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a realização de 4 achados no exame físico.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza a realização de 2 ou 3 achados no exame físico.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Verbaliza a realização de 1 ou menos achados ou não verbaliza.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Solicitação de Exames Complementares (Laboratoriais, DMO e Imagem):\n(1) Solicita exames laboratoriais (hemograma, função renal, cálcio total/iônico, fósforo, albumina, fosfatase alcalina total, 25(OH)D, PTH, TSH, eletroforese de proteínas);\n(2) Solicita Densitometria Óssea (coluna lombar, fêmur total, colo do fêmur);\n(3) Solicita Radiografia de Coluna (torácica e lombar).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita os 3 tipos de exames, incluindo os detalhados no item (1).",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 tipos de exames, ou solicita os 3 mas com falha em detalhes do item (1).",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita 1 tipo de exame ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Interpretação de Impressos - Exames Laboratoriais:\n(1) Identifica deficiência de 25-hidroxivitamina D;\n(2) Identifica PTH levemente elevado (hiperparatireoidismo secundário);\n(3) Avalia níveis de cálcio, fósforo e fosfatase alcalina;\n(4) Descarta causas secundárias como disfunção tireoidiana, renal ou mieloma múltiplo com base nos exames.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 4 achados corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 ou 3 achados corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Interpreta 1 ou menos achados corretamente ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Interpretação de Impressos - Densitometria Óssea (DMO):\n(1) Identifica T-score ≤ -2,5 desvios-padrão em coluna lombar, fêmur total ou colo do fêmur;\n(2) Diagnostica osteoporose com base nos resultados.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica os 2 achados corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Identifica apenas 1 achado corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não identifica os achados ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpretação de Impressos - Radiografia de Coluna:\n(1) Identifica a fratura por compressão vertebral em T12.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica o achado corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não identifica o achado ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Estabelecimento do Diagnóstico Principal e Classificação:\n(1) Diagnostica 'Osteoporose Grave Pós-Menopausa';\n(2) Menciona que é devido à presença de T-score ≤ -2,5 e história de fratura por fragilidade (fratura vertebral de T12).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico e sua classificação completa.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico 'Osteoporose' mas não a classificação de gravidade ou tipo.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Citação de Diagnósticos Diferenciais Relevantes:\n(1) Osteomalacia;\n(2) Mieloma Múltiplo;\n(3) Hiperparatireoidismo Primário;\n(4) Metástases Ósseas;\n(5) Doença de Paget.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou mais diagnósticos diferenciais relevantes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais relevantes.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Plano Terapêutico Não Farmacológico:\n(1) Orienta sobre ingesta adequada de cálcio (dieta ou suplemento);\n(2) Orienta sobre suplementação de vitamina D;\n(3) Recomenda exercícios físicos com carga e de fortalecimento muscular;\n(4) Orienta sobre cessação do tabagismo e redução do consumo de álcool;\n(5) Orienta sobre prevenção de quedas (avaliação ambiental, calçados seguros).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza 4 ou 5 das medidas não farmacológicas.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 2 ou 3 das medidas não farmacológicas.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Verbaliza 1 ou menos das medidas não farmacológicas ou não verbaliza.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Plano Terapêutico Farmacológico:\n(1) Indica Bisfosfonato (Alendronato oral, Risedronato oral, Zoledronato IV) OU Denosumab (subcutâneo) como primeira linha;\n(2) OU considera Teriparatida (subcutânea) ou Romosozumab (subcutâneo) para osteoporose grave e fratura por fragilidade;\n(3) Menciona a via e frequência da administração do medicamento escolhido.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica o tratamento farmacológico de primeira linha (item 1) e menciona via/frequência (item 3) OU indica tratamento para osteoporose grave (item 2) e menciona via/frequência (item 3).",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica o tratamento farmacológico sem mencionar via/frequência ou indica apenas a classe de medicamento.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não indica tratamento farmacológico ou indica incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Orientações e Plano de Seguimento:\n(1) Educação do paciente sobre a doença, tratamento e importância da adesão;\n(2) Orienta sobre sinais de alarme/complicações (dor aguda, progressão da cifose);\n(3) Menciona a necessidade de monitoramento com Densitometria Óssea (a cada 1-2 anos);\n(4) Sugere encaminhamentos a outros profissionais (Endocrinologista/Reumatologista, Fisioterapeuta, Nutricionista, Geriatra).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza 4 das orientações e seguimento.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 2 ou 3 das orientações e seguimento.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Verbaliza 1 ou menos das orientações ou não verbaliza.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A osteoporose é uma doença esquelética sistêmica de alta prevalência, caracterizada por comprometimento da resistência óssea e consequente aumento do risco de fraturas por fragilidade. Na anamnese, é crucial investigar fatores de risco (idade, sexo feminino, menopausa precoce, história familiar, baixo peso, tabagismo, etilismo, deficiência de cálcio/vitamina D, uso de medicamentos como corticosteroides), histórico de fraturas prévias com baixo trauma, perda de altura e dor dorsal crônica/aguda. O exame físico pode revelar perda de altura, cifose dorsal, protuberância abdominal e dor à palpação vertebral, além de alterações na marcha e equilíbrio que aumentam o risco de quedas. O diagnóstico é confirmado pela Densitometria Óssea (T-score ≤ -2,5) e pela presença de fraturas por fragilidade. Exames laboratoriais são essenciais para descartar causas secundárias (avaliação de cálcio, fósforo, PTH, 25(OH)D, TSH, função renal e hepática, eletroforese de proteínas). Radiografias de coluna podem identificar fraturas vertebrais assintomáticas. O tratamento visa prevenir novas fraturas e inclui medidas não farmacológicas (ingesta adequada de cálcio e vitamina D, exercícios com carga, cessação de tabagismo/álcool, prevenção de quedas) e farmacológicas. Os bisfosfonatos (Alendronato, Risedronato, Zoledronato) e Denosumab são a primeira linha. Para osteoporose grave ou falha terapêutica, agentes anabólicos como Teriparatida e Romosozumab são opções. O seguimento envolve monitoramento da DMO e educação do paciente sobre adesão e sinais de alarme.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Ciência, Tecnologia, Inovação e Insumos Estratégicos em Saúde. Departamento de Gestão e Incorporação de Tecnologias em Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Osteoporose. Portaria Conjunta nº 18, de 25 de novembro de 2021. Disponível em: https://www.gov.br/saude/pt-br/centrais-de-conteudo/pcdts/2021/portaria-conjunta-seci-segrt-no-18-de-25-de-novembro-de-2021.pdf",
+        "2. Sociedade Brasileira de Reumatologia. Consenso Brasileiro de Osteoporose. Rev Bras Reumatol, v. 57, n. 2, p. 113-122, mar./abr. 2017. Disponível em: http://www.scielo.br/pdf/rbr/v57n2/0482-0125-rbr-57-02-0113.pdf",
+        "3. UpToDate. Clinical manifestations, diagnosis, and evaluation of osteoporosis in postmenopausal women. T. A. W. (2024). Disponível em: https://www.uptodate.com/contents/clinical-manifestations-diagnosis-and-evaluation-of-osteoporosis-in-postmenopausal-women"
+      ]
+    }
+  }
+}

@@ -1,0 +1,616 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_INFLUENZA",
+  "tituloEstacao": "Gripe (Influenza) com Fatores de Risco",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Gripe",
+    "Influenza",
+    "Clínica Médica",
+    "Infecção Respiratória",
+    "Fatores de Risco",
+    "Atenção secundária à saúde"
+  ],
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (Radiografia)",
+        "Medicações e vacinas disponíveis"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente João Silva, 65 anos de idade, sexo masculino, procura atendimento médico na clínica queixando-se de febre e dor no corpo há 3 dias.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente.",
+      "Verbalizar o exame físico geral e os sinais vitais relevantes.",
+      "Solicitar e Interpretar exames complementares pertinentes ao caso.",
+      "Verbalizar o diagnóstico, sua classificação de gravidade e elaborar a conduta terapêutica.",
+      "Realizar as orientações finais ao paciente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com febre e dor no corpo há 3 dias."
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE",
+        "informacao": "Início: Começou de repente, junto com os calafrios, faz 3 dias.\nIntensidade: Tem chegado a 39.5°C.\nProgressão: Tomo paracetamol e ela baixa um pouco, mas depois sobe de novo. Tem sido constante, com picos.\nFator de melhora ou atenuante: Paracetamol.\nCalafrios: Sim, sinto muito frio e tremores quando a febre sobe."
+      },
+      {
+        "contextoOuPerguntaChave": "MIALGIA",
+        "informacao": "Localização: Meu corpo todo dói, principalmente as pernas e as costas.\nIntensidade: É uma dor forte, nota 8, como se eu tivesse feito muito exercício.\nFator de piora ou agravante: Piora quando tento me levantar.\nFator de melhora ou atenuante: Melhora um pouco quando deito e tomo o remédio."
+      },
+      {
+        "contextoOuPerguntaChave": "TOSSE",
+        "informacao": "Início: Faz uns 2 dias.\nCaracterística: Uma tosse seca e chata, que não para.\nProgressão: Piora mais à noite.\nExpectoração: Não tem catarro."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR DE GARGANTA",
+        "informacao": "Intensidade: Sinto um arranhado na garganta, mas não está muito forte, nota 4.\nDisfagia: Não, não tenho dificuldade para engolir."
+      },
+      {
+        "contextoOuPerguntaChave": "CEFALEIA",
+        "informacao": "Localização: Minha cabeça dói bastante, uma dor global.\nIntensidade: Nota 6.\nCaracterística: Parece que está latejando.\nFator de piora ou agravante: Piora com o barulho."
+      },
+      {
+        "contextoOuPerguntaChave": "ASTENIA",
+        "informacao": "Início: Desde que comecei com a febre.\nCaracterística: Estou muito cansado, sem forças pra fazer nada.\nImpacto funcional: Só quero ficar deitado."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Dispneia: Nega\nDor Torácica: Nega\nSintomas Gastrointestinais (Náuseas, vômitos, diarreia): Nega\nCoriza: Tenho um pouco de coriza, um nariz escorrendo, mas não está entupido."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos (item obrigatório)",
+        "informacao": "Doenças crônicas: Diabetes tipo 2 e Pressão Alta (Hipertensão Arterial Sistêmica), controladas com remédios.\nCirurgias prévias: Nega\nInternações: Nega\nAlergias: Nega alergias conhecidas.\nMedicamentos em uso contínuo: Metformina e Losartana.\nVacinação: Vacina da gripe anualmente, última dose há 8 meses. Vacina do COVID com 4 doses.\nTrauma: Nega\nTransfusões: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Hábitos sexuais: Não consta no script\nHábitos urinários: Não consta no script\nHábitos intestinais: Não consta no script\nIngestão hídrica: Não consta no script\nExposição ocupacional: Não consta no script\nEstresse: Não consta no script"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Ex-fumante, parou há 10 anos.\nEtilismo: Bebo socialmente (uma cerveja ou vinho nos fins de semana).\nDrogas ilícitas: Nega\nAlimentação: Procura comer saudável por causa do diabetes.\nAtividade física: Caminha 3 vezes por semana, uns 30 minutos.\nSono: Tem dormido mal esses dias por causa da febre e tosse."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Diabetes.\nMãe: Pressão alta.\nDoenças na família: Nega histórico familiar de gripe grave.\nHistoria de cancêr na família: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Contato com doentes: Neto esteve em casa semana passada com 'gripe muito forte'.\nViagens recentes: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "O que eu tenho, doutor(a)?\nÉ grave? Preciso internar?\nTem algum remédio para melhorar mais rápido?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "130 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "98 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "20 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "39.1 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "96% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Consciente, orientado, prostrado, hidratado, corado."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Hiperemia de orofaringe, sem exsudato ou adenomegalias cervicais palpáveis."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular, bulhas rítmicas normofonéticas, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Ausculta pulmonar com murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Plano, flácido, indolor à palpação superficial e profunda, ruídos hidroaéreos presentes."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edemas, pulsos periféricos presentes e simétricos."
+                },
+                {
+                  "chave": "Sinais de Inflamação",
+                  "valor": "Não se aplica."
+                },
+                {
+                  "chave": "Edema",
+                  "valor": "Não se aplica."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA COMPLETO",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "3.800 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.5 g/dL (Ref: 13.5-17.5 M)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "250.000 /mm³ (Ref: 150.000-450.000)"
+                },
+                {
+                  "chave": "Segmentados",
+                  "valor": "40% (Ref: 40-75%)"
+                },
+                {
+                  "chave": "Linfócitos",
+                  "valor": "15% (Ref: 20-45%)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Proteína C Reativa (PCR)",
+                  "valor": "45 mg/L (Ref: <5 mg/L)"
+                },
+                {
+                  "chave": "Glicose Jejum",
+                  "valor": "115 mg/dL (Ref: 70-99)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.0 mg/dL (Ref: 0.7-1.3)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_RT_PCR_3",
+        "tituloImpresso": "Exame Laboratorial Específico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "BIOLOGIA MOLECULAR",
+              "itens": [
+                {
+                  "chave": "RT-PCR para Influenza A/B",
+                  "valor": "POSITIVO para Influenza A (H3N2)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_RX_4",
+        "tituloImpresso": "Radiografia de Tórax",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM.",
+          "caminhoImagem": "(Buscar no Google Imagens: Radiografia de tórax PA e perfil normal sem alterações)",
+          "sugestaoBuscaImagem": "Radiografia de tórax em PA e perfil sem alterações agudas.",
+          "laudo": "Campos pulmonares expandidos e transparentes, sem evidência de infiltrados, opacidades ou derrames pleurais. Seios costofrênicos livres. Hilos pulmonares normais. Área cardíaca de dimensões normais. Não há alterações agudas pleuroparenquimatosas."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ECTOSCOPIA_5",
+        "tituloImpresso": "Exame Físico (Oroscopia)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM.",
+          "caminhoImagem": "(Buscar no Google Imagens: Orofaringe com hiperemia sem exsudato)",
+          "sugestaoBuscaImagem": "Imagem de orofaringe com hiperemia difusa sem placas ou exsudato.",
+          "laudo": "Orofaringe com hiperemia discreta a moderada, sem presença de exsudato purulento, placas ou membranas. Tonsilas palatinas sem sinais de aumento significativo. Úvula centrada."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_INFLUENZA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 65 anos, diabético e hipertenso, apresenta quadro de síndrome gripal com febre, calafrios, mialgia, tosse, dor de garganta e astenia há 3 dias, após contato com neto doente. Exame físico e laboratorial sugerem infecção viral, e exames complementares como RT-PCR confirmam Influenza A. O paciente possui fatores de risco para complicações.",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada para síndrome gripal e fatores de risco.",
+        "Avaliação de sinais vitais e exame físico direcionado.",
+        "Solicitação e interpretação de exames laboratoriais gerais e específicos para influenza.",
+        "Diferenciação de diagnósticos e confirmação da etiologia.",
+        "Indicação de tratamento antiviral e sintomático, além de orientações preventivas e sobre sinais de alarme.",
+        "Notificação compulsória de SRAG/influenza."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da febre, calafrios e mialgia:\n(1) Início da febre;\n(2) Intensidade ou temperatura máxima da febre;\n(3) Progressão da febre e resposta a antitérmicos;\n(4) Presença e características dos calafrios;\n(5) Localização da mialgia;\n(6) Intensidade da mialgia;\n(7) Fatores de piora ou agravantes da mialgia;\n(8) Fatores de melhora ou atenuantes da mialgia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 6 ou mais itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 5 itens.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracterização da tosse, dor de garganta e cefaleia:\n(1) Início da tosse;\n(2) Característica da tosse (seca/produtiva);\n(3) Progressão ou padrão da tosse;\n(4) Presença de expectoração;\n(5) Intensidade da dor de garganta;\n(6) Presença de disfagia;\n(7) Localização da cefaleia;\n(8) Intensidade da cefaleia;\n(9) Característica ou tipo da cefaleia;\n(10) Fatores de piora ou agravantes da cefaleia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 7 ou mais itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 4 a 6 itens.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 4 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Investigação de astenia e outros sintomas associados:\n(1) Presença e intensidade da astenia;\n(2) Impacto funcional da astenia;\n(3) Presença de dispneia;\n(4) Presença de dor torácica;\n(5) Presença de sintomas gastrointestinais (náuseas, vômitos, diarreia);\n(6) Presença de coriza ou obstrução nasal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 5 ou 6 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 4 itens.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Antecedentes Pessoais Patológicos:\n(1) Doenças crônicas (Diabetes, HAS);\n(2) Medicamentos em uso contínuo;\n(3) Alergias;\n(4) Histórico de vacinação contra Influenza (data da última dose);\n(5) Histórico de vacinação contra COVID-19.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 4 ou 5 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 2 ou 3 itens.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 2 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Hábitos de Vida e Antecedentes Epidemiológicos:\n(1) Tabagismo (status e tempo);\n(2) Etilismo;\n(3) Hábitos de sono (qualidade);\n(4) Contato recente com casos suspeitos ou confirmados de influenza;\n(5) Viagens recentes.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 4 ou 5 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 2 ou 3 itens.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 2 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Verbaliza a avaliação do estado geral do paciente e dos sinais vitais, correlacionando-os ao quadro clínico:\n(1) Estado geral (prostração);\n(2) Temperatura (febre);\n(3) Frequência cardíaca (taquicardia);\n(4) Frequência respiratória (taquipneia como sinal de alarme);\n(5) Saturação de O₂.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza e correlaciona 4 ou 5 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza e correlaciona 2 ou 3 itens.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Verbaliza menos de 2 itens ou não correlaciona adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita e interpreta os exames laboratoriais gerais:\n(1) Hemograma completo (com foco em leucócitos e linfócitos);\n(2) Proteína C Reativa (PCR);\n(3) Glicemia de jejum;\n(4) Função renal (ureia e creatinina).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 3 ou 4 itens, identificando as alterações relevantes (leucopenia, linfopenia, PCR elevado, glicemia levemente elevada).",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 2 itens, ou solicita 3-4 itens sem identificar as alterações relevantes.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta menos de 2 itens ou não solicita item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e interpreta o exame laboratorial específico para influenza:\n(1) RT-PCR para Influenza A/B;\n(2) Interpretação do resultado POSITIVO para Influenza A (H3N2).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente ambos os itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita o exame, mas não o interpreta ou interpreta incorretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita o exame.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita e interpreta o exame de imagem de tórax para descartar complicação:\n(1) Radiografia de tórax;\n(2) Interpretação do laudo como 'sem alterações agudas'.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente ambos os itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita o exame, mas não o interpreta ou interpreta incorretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita o exame ou solicita inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Solicita e interpreta a ectoscopia da orofaringe:\n(1) Solicita ectoscopia da orofaringe;\n(2) Interpretação da hiperemia da orofaringe.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente ambos os itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita o exame, mas não o interpreta ou interpreta incorretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita o exame ou solicita inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Formula o diagnóstico principal e sua classificação:\n(1) Gripe (Influenza);\n(2) Síndrome Gripal (SG) ou Síndrome Respiratória Aguda Grave (SRAG, se sinais de alarme estivessem presentes) com fatores de risco para complicação.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico de Gripe (Influenza) e sua classificação de acordo com a presença de fatores de risco.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza apenas o diagnóstico de Gripe (Influenza) sem classificação ou classificando inadequadamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes:\n(1) COVID-19;\n(2) Resfriado comum;\n(3) Outras infecções virais respiratórias (VSR, Parainfluenza, Adenovírus);\n(4) Pneumonia bacteriana.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou 4 diagnósticos diferenciais corretos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais corretos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Propõe tratamento antiviral:\n(1) Indica Fosfato de Oseltamivir;\n(2) Justifica a indicação devido aos fatores de risco (idade e comorbidades);\n(3) Dose (75 mg, 2 vezes ao dia);\n(4) Duração (5 dias).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica e justifica corretamente 3 ou 4 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica e justifica corretamente 2 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não indica tratamento antiviral ou indica incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Orienta tratamento sintomático e medidas não farmacológicas:\n(1) Repouso;\n(2) Hidratação oral abundante;\n(3) Analgesia e antitérmicos (Paracetamol ou dipirona);\n(4) Evitar AAS (Ácido Acetilsalicílico) em crianças e adolescentes (mesmo que o paciente seja adulto, a orientação demonstra conhecimento).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre 3 ou 4 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta sobre 1 ou 2 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não orienta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Orienta sobre sinais de alarme, fatores de proteção e prevenção:\n(1) Sinais de alarme para complicações (dispneia, dor torácica, confusão, piora súbita);\n(2) Higiene das mãos;\n(3) Etiqueta respiratória (cobrir tosse/espirro);\n(4) Vacinação anual contra influenza.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre 3 ou 4 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta sobre 1 ou 2 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não orienta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Notificação ao SINAN:\n(1) Menciona a necessidade de notificação do caso (influenza ou SRAG).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Menciona a necessidade de notificação.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não menciona a necessidade de notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Gripe (Influenza) é uma infecção viral respiratória aguda, sazonal e altamente contagiosa. O caso apresenta um paciente idoso (65 anos) com comorbidades (diabetes e HAS), o que o classifica como grupo de risco para complicações. A anamnese deve focar no início súbito dos sintomas (febre alta, calafrios, mialgia, tosse seca, dor de garganta, cefaleia, astenia) e na exposição epidemiológica (contato com neto doente). No exame físico, é comum encontrar prostração, hiperemia de orofaringe; a ausculta pulmonar geralmente é normal em casos não complicados, mas a busca por sinais de alarme (taquipneia, dispneia) é crucial. Exames complementares incluem hemograma (podendo ter leucopenia/linfopenia) e PCR (elevado). O RT-PCR para Influenza é o padrão-ouro para confirmação etiológica, e a radiografia de tórax é indicada para descartar pneumonia. O diagnóstico diferencial inclui COVID-19 e outras infecções virais respiratórias. O tratamento envolve medidas sintomáticas (repouso, hidratação, antitérmicos/analgésicos) e, para grupos de risco, o antiviral Fosfato de Oseltamivir deve ser iniciado idealmente nas primeiras 48 horas (até 5 dias em SRAG). É fundamental orientar sobre sinais de alarme, medidas de prevenção (higiene, etiqueta respiratória, vacinação anual) e a necessidade de notificação compulsória da Gripe ou SRAG ao SINAN para monitoramento epidemiológico.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Guia de Vigilância em Saúde: volume único. 5. ed. Brasília: Ministério da Saúde, 2021. Disponível em: <https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/guia-de-vigilancia-em-saude/guia_de_vigilancia_em_saude_volume_unico.pdf>.",
+        "2. Brasil. Ministério da Saúde. Protocolo de Tratamento de Influenza: Não Farmacológico e Antiviral. Brasília, DF, 2023. Disponível em: <https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/boletins-epidemiologicos/especiais/2023/boletim-epidemiologico-especial-no-1-2023-monitoramento-do-virus-influenza-no-brasil-semanas-epidemiologicas-01-a-07-de-2023.pdf>.",
+        "3. Brasil. Ministério da Saúde. Calendário Nacional de Vacinação. Brasília, DF, 2024. Disponível em: <https://www.gov.br/saude/pt-br/vacinacao/calendario>."
+      ]
+    }
+  }
+}

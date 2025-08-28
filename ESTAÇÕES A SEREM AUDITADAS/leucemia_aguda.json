@@ -1,0 +1,683 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_LEUCEMIA_AGUDA_01",
+  "tituloEstacao": "Leucemia Aguda",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Leucemia Aguda, LMA, LLA, Oncologia, Hematologia, Urgência Oncológica, Falência Medular, Clínica Médica, Atenção Terciária",
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Unidade de Emergência Hospitalar",
+        "Laboratório de análises clínicas",
+        "Serviço de imagens (Radiografia, Ultrassonografia, Tomografia)",
+        "Unidade de terapia intensiva",
+        "Leitos de internação"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 45 anos, sexo masculino, chega à unidade de emergência encaminhado por clínica médica, com queixa de cansaço intenso, manchas roxas na pele e episódios de febre há alguns dias.",
+    "tarefasPrincipais": [
+      "Realizar anamnese completa e direcionada, investigando os sintomas de falência medular e infiltrativos, e antecedentes relevantes.",
+      "Solicitar e verbalizar os achados do exame físico geral e segmentar pertinente ao caso.",
+      "Solicitar os exames complementares essenciais para o diagnóstico, classificação e estratificação de risco da condição.",
+      "Interpretar os resultados dos exames complementares apresentados e verbalizar seus achados, correlacionando-os com o quadro clínico.",
+      "Formular as hipóteses diagnósticas principais e os principais diagnósticos diferenciais.",
+      "Propor a conduta terapêutica inicial e de suporte imediato, incluindo o manejo de possíveis emergências oncológicas.",
+      "Prestar orientações claras e empáticas ao paciente sobre a doença, o plano de investigação e tratamento, e sinais de alarme para retorno imediato ao serviço de saúde."
+    ],
+    "avisosImportantess": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "Todos os exames complementares serão liberados após solicitação verbal do candidato.",
+      "O ator simulará um paciente responsável e apto a fornecer a história clínica."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: João da Silva\nIdade: 45 anos\nSexo: Masculino\nEstado civil: Casado\nProfissão: Pedreiro"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com muito cansaço, tenho notado umas manchas roxas no corpo e tive febre nos últimos dias."
+      },
+      {
+        "contextoOuPerguntaChave": "FADIGA",
+        "informacao": "Início: Gradual, há 3 semanas\nDuração: Constante\nIntensidade: 8/10, impede atividades diárias\nProgressão: Piorando\nFator de melhora ou atenuante: Repouso não alivia completamente\nSintomas associados: Fraqueza, palidez progressiva\nEpisódios prévios: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "MANCHAS ROXAS (PETÉQUIAS/EQUIMOSES)",
+        "informacao": "Início: Há 1 semana\nLocalização: Predominante em membros inferiores e braços\nQuantidade: Várias\nProgressão: Novas lesões surgindo\nFator Desencadeante: Não associado a trauma\nSangramentos: Nega epistaxe, gengivorragia ou menorragia importante\nEpisódios prévios: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE",
+        "informacao": "Início: Há 5 dias\nPadrão: Intermitente, geralmente à noite\nIntensidade: Máx. 38,5°C\nSintomas associados: Calafrios, sudorese\nResposta a antitérmicos: Melhora temporariamente com paracetamol\nEpisódios prévios: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "DOR ÓSSEA",
+        "informacao": "Início: Há 1 semana\nLocalização: Principalmente em joelhos e coluna lombar\nCaracterística: Dor profunda, difusa\nIntensidade: 6/10\nFator de piora ou agravante: Piora com o movimento e à noite\nFator de melhora ou atenuante: Não melhora com analgésicos comuns\nEpisódios prévios: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS INFILTRATIVOS (Negativos Relevantes)",
+        "informacao": "Hipertrofia gengival: Nega\nCefaleia: Nega\nVômitos: Nega\nAlterações visuais: Nega\nAlterações neurológicas: Nega\nLinfadenopatia palpável: Nega\nPerda de peso importante: Nega\nSudorese noturna intensa: Nega\nDor ou plenitude abdominal: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos (item obrigatório)",
+        "informacao": "Doenças crônicas: Nega\nCirurgias prévias: Nega\nInternações: Nega\nAlergias: Nega\nMedicamentos em uso contínuo: Nega\nVacinação: Completa para idade\nTrauma: Nega\nTransfusões: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA (ITEM OBRIGATÓRIO)",
+        "informacao": "Tabagismo: Nega\nEtilismo: Nega\nDrogas ilícitas: Nega\nAlimentação: Refere alimentação regular e balanceada\nAtividade física: Caminhadas leves 3 vezes por semana\nSono: Refere dormir 7-8 horas por noite, mas tem se sentido cansado ultimamente\nHábitos urinários: Normais\nHábitos intestinais: Normais\nIngestão hídrica: 2 litros de água por dia\nExposição ocupacional: Nega exposição a agentes químicos (benzeno, pesticidas) ou radioterapia prévia"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Saudável\nMãe: Saudável\nDoenças na família: Nega síndromes genéticas ou neoplasias hematológicas na família\nHistória de câncer na família: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): Doutor(a), o que é essa doença? É grave? Vou ficar bem?\npergunta (2): Quanto tempo vai durar esse tratamento? Vou perder meu cabelo?\npergunta (3): Posso ter filhos depois do tratamento?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est01_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "110 × 70 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "98 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "38,2 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "96% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_EXAMEFISICO_2",
+        "tituloImpresso": "Exame Físico Geral e Segmentar",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ECTOSCOPIA",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Regular estado geral, consciente, orientado, hipocorado 2+/4+, desidratado 1+/4+."
+                },
+                {
+                  "chave": "Pele e mucosas",
+                  "valor": "Palidez cutaneomucosa. Presença de petéquias e equimoses disseminadas em membros inferiores e superiores. Ausência de hipertrofia gengival ou lesões orais ativas."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "CADEIAS LINFONODAIS",
+              "itens": [
+                {
+                  "chave": "Linfonodopatias",
+                  "valor": "Ausência de linfonodopatias palpáveis em cadeias cervicais, axilares e inguinais."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ABDOME",
+              "itens": [
+                {
+                  "chave": "Inspeção",
+                  "valor": "Plano, sem abaulamentos."
+                },
+                {
+                  "chave": "Palpação",
+                  "valor": "Indolor à palpação superficial e profunda. Fígado palpável a 2 cm do RCD (bordo rombo), baço não palpável."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SISTEMA NERVOSO CENTRAL",
+              "itens": [
+                {
+                  "chave": "Exame neurológico",
+                  "valor": "Sem déficits motores ou sensitivos. Sem sinais de irritação meníngea. Pares cranianos preservados."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_HEMOGRAMA_3",
+        "tituloImpresso": "Hemograma Completo",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SÉRIE VERMELHA",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "7,2 g/dL (VR: 12 - 16 g/dL)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "21% (VR: 36 - 48%)"
+                },
+                {
+                  "chave": "VCM",
+                  "valor": "92 fL (VR: 80 - 100 fL)"
+                },
+                {
+                  "chave": "HCM",
+                  "valor": "30 pg (VR: 27 - 33 pg)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SÉRIE BRANCA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "110.000/mm³ (VR: 4.000 - 11.000/mm³)"
+                },
+                {
+                  "chave": "Blastos",
+                  "valor": "85% (VR: 0%)"
+                },
+                {
+                  "chave": "Segmentados",
+                  "valor": "5% (VR: 45 - 75%)"
+                },
+                {
+                  "chave": "Linfócitos",
+                  "valor": "8% (VR: 20 - 40%)"
+                },
+                {
+                  "chave": "Monócitos",
+                  "valor": "1% (VR: 2 - 10%)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "PLAQUETAS",
+              "itens": [
+                {
+                  "chave": "Plaquetas",
+                  "valor": "15.000/mm³ (VR: 150.000 - 450.000/mm³)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_BIOQUIMICA_COAG_4",
+        "tituloImpresso": "Bioquímica e Coagulação",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "BIOQUÍMICA SANGUÍNEA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "55 mg/dL (VR: 15 - 45 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1,3 mg/dL (VR: 0,6 - 1,2 mg/dL)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "5,8 mEq/L (VR: 3,5 - 5,0 mEq/L)"
+                },
+                {
+                  "chave": "Cálcio",
+                  "valor": "7,8 mg/dL (VR: 8,5 - 10,5 mg/dL)"
+                },
+                {
+                  "chave": "Fósforo",
+                  "valor": "5,0 mg/dL (VR: 2,5 - 4,5 mg/dL)"
+                },
+                {
+                  "chave": "Ácido Úrico",
+                  "valor": "11,5 mg/dL (VR: 3,5 - 7,0 mg/dL)"
+                },
+                {
+                  "chave": "LDH",
+                  "valor": "1200 U/L (VR: 140 - 280 U/L)"
+                },
+                {
+                  "chave": "TGO",
+                  "valor": "50 U/L (VR: <40 U/L)"
+                },
+                {
+                  "chave": "TGP",
+                  "valor": "65 U/L (VR: <40 U/L)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "COAGULOGRAMA",
+              "itens": [
+                {
+                  "chave": "TP (INR)",
+                  "valor": "1,5 (VR: <1,2)"
+                },
+                {
+                  "chave": "KPTT",
+                  "valor": "45 segundos (VR: 25 - 35 segundos)"
+                },
+                {
+                  "chave": "Fibrinogênio",
+                  "valor": "150 mg/dL (VR: 200 - 400 mg/dL)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_ESFREGACO_5",
+        "tituloImpresso": "Esfregaço de Sangue Periférico",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM.",
+          "caminhoImagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Acute_myeloid_leukemia_%28AML%29_-_peripheral_blood_smear_%281%29.jpg/1280px-Acute_myeloid_leukemia_%28AML%29_-_peripheral_blood_smear_%281%29.jpg",
+          "sugestaoBuscaImagem": "Esfregaço de sangue periférico leucemia mieloide aguda blastos",
+          "laudo": "Esfregaço revela a presença de numerosos blastos (~85%) com núcleo grande, cromatina frouxa, nucléolos proeminentes e citoplasma escasso. Pancitopenia evidente. Ausência de células maduras da linhagem mieloide."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST01_CM_LEUCEMIA_AGUDA_V1_2025",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 45 anos, com quadro de fadiga, petéquias/equimoses, febre e dor óssea progressivos há semanas, sugestivos de falência medular e proliferação de células imaturas. Exame físico revela palidez, petéquias e equimoses, e hepatomegalia leve. Hemograma mostra pancitopenia com hiperleucocitose às custas de blastos. Bioquímica e coagulograma indicam risco de Síndrome de Lise Tumoral e coagulopatia. A estação exige que o candidato realize a anamnese completa, interprete os exames para confirmar a suspeita de leucemia aguda, diferencie-a de outras condições, e proponha um plano de manejo inicial que contemple tanto o diagnóstico definitivo quanto as emergências oncológicas.",
+      "focoPrincipalDetalhado": [
+        "Realizar anamnese detalhada para identificar sinais de falência medular e infiltração.",
+        "Solicitar e interpretar exames físicos e complementares cruciais para o diagnóstico e complicações de leucemia aguda.",
+        "Formular hipóteses diagnósticas e diagnósticos diferenciais pertinentes.",
+        "Propor conduta terapêutica inicial e de suporte, incluindo manejo de emergências oncológicas (neutropenia febril, SLT, hiperleucocitose).",
+        "Comunicar-se de forma empática com o paciente, fornecendo orientações claras sobre a doença e o plano de tratamento."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est01_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e Início da Consulta:\n(1) Apresenta-se ao paciente;\n(2) Cumprimenta o paciente;\n(3) Pergunta o motivo da consulta de forma clara.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza duas ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Realiza uma ação ou não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Fadiga:\n(1) Início;\n(2) Duração;\n(3) Intensidade;\n(4) Progressão;\n(5) Fatores de melhora ou atenuante;\n(6) Sintomas associados (fraqueza, palidez progressiva);\n(7) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou 7 aspectos da fadiga.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 aspectos da fadiga.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos aspectos da fadiga ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracterização das Manchas Roxas (Petéquias/Equimoses):\n(1) Início;\n(2) Localização;\n(3) Quantidade;\n(4) Progressão;\n(5) Fator Desencadeante;\n(6) Presença de outros sangramentos (epistaxe, gengivorragia, menorragia);\n(7) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou 7 aspectos das manchas roxas.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 aspectos das manchas roxas.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos aspectos das manchas roxas ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Caracterização da Febre:\n(1) Início;\n(2) Padrão;\n(3) Intensidade (temperatura máxima);\n(4) Sintomas associados (calafrios, sudorese);\n(5) Resposta a antitérmicos;\n(6) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou 6 aspectos da febre.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 aspectos da febre.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos aspectos da febre ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Caracterização da Dor Óssea:\n(1) Início;\n(2) Localização;\n(3) Característica;\n(4) Intensidade;\n(5) Fatores de piora ou agravante;\n(6) Fatores de melhora ou atenuante;\n(7) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou 7 aspectos da dor óssea.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 aspectos da dor óssea.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos aspectos da dor óssea ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Investigação de Sintomas Infiltrativos Relevantes:\n(1) Hipertrofia gengival;\n(2) Sintomas neurológicos (cefaleia, vômitos, alterações visuais ou neurológicas);\n(3) Linfadenopatia palpável;\n(4) Perda de peso importante;\n(5) Sudorese noturna intensa;\n(6) Dor ou plenitude abdominal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou 6 aspectos de sintomas infiltrativos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 aspectos de sintomas infiltrativos.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Anamnese - Antecedentes Pessoais Patológicos:\n(1) Doenças crônicas;\n(2) Cirurgias prévias;\n(3) Internações;\n(4) Alergias;\n(5) Medicamentos em uso contínuo;\n(6) Histórico de neoplasias ou tratamentos prévios (quimioterapia/radioterapia);\n(7) Síndromes genéticas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 ou 7 aspectos dos antecedentes patológicos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 aspectos dos antecedentes patológicos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Anamnese - Hábitos de Vida e Antecedentes Familiares:\n(1) Tabagismo;\n(2) Etilismo;\n(3) Drogas ilícitas;\n(4) Exposição ocupacional (agentes químicos como benzeno);\n(5) História de síndromes genéticas na família;\n(6) História de neoplasias hematológicas na família.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou 6 aspectos dos hábitos e antecedentes familiares.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 aspectos dos hábitos e antecedentes familiares.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e interpreta os Sinais Vitais e Exame Físico Geral e Segmentar:\n(1) Solicita a avaliação dos sinais vitais;\n(2) Interpreta os sinais vitais apresentados (febre, taquicardia);\n(3) Solicita exame físico geral (ectoscopia) e segmentar (linfonodos, abdome, SNC);\n(4) Interpreta os achados do exame físico (palidez, petéquias/equimoses, hepatomegalia, ausência de linfadenopatias/sinais de SNC).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente os 4 elementos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 2 ou 3 elementos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita e interpreta o Hemograma Completo:\n(1) Solicita hemograma completo;\n(2) Interpreta os achados da série vermelha (anemia, VCM normal);\n(3) Interpreta os achados da série branca (leucocitose com blastos, neutropenia);\n(4) Interpreta os achados das plaquetas (trombocitopenia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente os 4 achados.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 2 ou 3 achados.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Solicita e interpreta Bioquímica e Coagulação:\n(1) Solicita bioquímica (ureia, creatinina, eletrólitos, ácido úrico, LDH, TGO/TGP);\n(2) Interpreta achados bioquímicos sugestivos de Síndrome de Lise Tumoral (hiperuricemia, hipercalemia, hiperfosfatemia, hipocalcemia, disfunção renal);\n(3) Solicita coagulograma (TP/INR, KPTT, Fibrinogênio);\n(4) Interpreta achados do coagulograma (TP/INR e KPTT alargados, fibrinogênio baixo, sugestivos de CIVD).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente os 4 elementos (bioquímica e coagulação).",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 2 ou 3 elementos.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Solicita e interpreta o Esfregaço de Sangue Periférico:\n(1) Solicita esfregaço de sangue periférico;\n(2) Interpreta a presença e alta porcentagem de blastos na imagem/laudo;\n(3) Correlaciona a presença de blastos com o hemograma.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente os 3 elementos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 1 ou 2 elementos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Formula Hipóteses Diagnósticas Principais:\n(1) Leucemia Aguda;\n(2) Menciona Leucemia Mieloide Aguda (LMA) ou Leucemia Linfoide Aguda (LLA) como possibilidades.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza corretamente ambas as hipóteses.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza apenas 'Leucemia Aguda' sem mencionar os subtipos principais.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico ou verbaliza incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Cita Diagnósticos Diferenciais Relevantes:\n(1) Anemia aplásica;\n(2) Síndromes mielodisplásicas com excesso de blastos;\n(3) Megaloblastose grave;\n(4) Infecções graves com citopenias e atipias linfoides (ex: mononucleose infecciosa);\n(5) Reações leucemoides.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 4 ou 5 diagnósticos diferenciais corretos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 2 ou 3 diagnósticos diferenciais corretos.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Cita 1 ou nenhum diagnóstico diferencial ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Propõe Exames Complementares Adicionais para Diagnóstico e Estratificação:\n(1) Mielograma e biópsia de medula óssea para confirmação, citoquímica e imunofenotipagem;\n(2) Citogenética e estudos moleculares (cariótipo, FISH, FLT3-ITD, NPM1, BCR-ABL1);\n(3) Punção lombar com análise de líquor (especialmente se suspeita de LLA ou sintomas neurológicos);\n(4) Exames de imagem (radiografia de tórax, USG/TC de abdome) para avaliação de acometimento extra-medular.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe 3 ou 4 exames adicionais essenciais.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 2 exames adicionais essenciais.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Propõe 1 ou nenhum exame ou propõe incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Propõe Conduta Terapêutica Inicial e de Suporte Imediato:\n(1) Indica internação hospitalar imediata;\n(2) Início do suporte hemoterápico (transfusão de concentrado de hemácias e plaquetas);\n(3) Manejo da neutropenia febril (coleta de hemoculturas e início de antibioticoterapia empírica de largo espectro);\n(4) Prevenção e tratamento da Síndrome de Lise Tumoral (hidratação vigorosa, alopurinol ou rasburicase);\n(5) Avaliação e manejo de hiperleucocitose (leucoaférese e/ou quimioterapia citorredutora se indicada);\n(6) Encaminhamento urgente para hematologista/oncologista.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe 5 ou 6 medidas de conduta inicial e suporte.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 3 ou 4 medidas de conduta inicial e suporte.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Propõe 2 ou menos medidas ou propõe incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Presta Orientações e Responde às Dúvidas do Paciente:\n(1) Explica sobre a gravidade da doença e a necessidade de tratamento intensivo;\n(2) Aborda a duração do tratamento (longo prazo);\n(3) Discute a possibilidade de perda de cabelo (efeito colateral da quimioterapia);\n(4) Aborda o impacto na fertilidade (discutir criopreservação de gametas se aplicável);\n(5) Orienta sobre sinais de alarme para retorno imediato (febre, sangramentos, etc.);\n(6) Oferece apoio psicossocial.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Presta 5 ou 6 orientações e respostas de forma empática.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Presta 3 ou 4 orientações e respostas de forma empática.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Presta 2 ou menos orientações ou respostas ou não responde adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item18",
+        "itemNumeroOficial": "18",
+        "descricaoItem": "Notificação ao Registro Nacional de Câncer (RENCA) / Registros Hospitalares de Câncer (RHC).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a necessidade de notificação do caso ao RENCA/RHC.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a necessidade de notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Leucemia Aguda (LA) é uma emergência hematológica caracterizada pela proliferação descontrolada de blastos na medula óssea, resultando em falência medular. Os sintomas da história da doença atual (HDA) refletem essa falência: anemia (fadiga, palidez), trombocitopenia (petéquias, equimoses, sangramentos) e neutropenia (febre, infecções). Sintomas infiltrativos (dor óssea, hepatoesplenomegalia) também são comuns. O exame físico complementa esses achados. Os exames complementares iniciais são cruciais: hemograma com pancitopenia e presença de blastos no sangue periférico (>20% são diagnósticos), bioquímica para avaliar Síndrome de Lise Tumoral (hiperuricemia, hipercalemia, hiperfosfatemia, insuficiência renal), e coagulograma para CIVD (alargamento de TP/KPTT, fibrinogênio baixo). O esfregaço de sangue periférico confirma a presença de blastos. O diagnóstico definitivo requer mielograma e biópsia de medula óssea com imunofenotipagem, citogenética e estudos moleculares para classificar (LMA ou LLA) e estratificar o risco. Os diagnósticos diferenciais incluem anemia aplásica e síndromes mielodisplásicas. O tratamento é uma emergência, com internação imediata, transfusões de hemocomponentes, manejo agressivo de neutropenia febril com antibióticos de largo espectro, prevenção de SLT com hidratação e alopurinol/rasburicase, e possível leucoaférese para hiperleucocitose. A quimioterapia de indução é iniciada após o diagnóstico e classificação. O paciente deve ser orientado sobre a gravidade, duração do tratamento, efeitos colaterais (alopecia, infertilidade) e sinais de alarme. Casos de câncer são de notificação compulsória ao RENCA/RHC.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Instituto Nacional de Câncer (INCA). Leucemias. Disponível em: https://www.inca.gov.br/tipos-de-cancer/leucemia. Acesso em: 29 out. 2024.",
+        "2. UpToDate. Acute myeloid leukemia in adults: Clinical manifestations, pathologic features, and diagnosis. Disponível em: www.uptodate.com/contents/acute-myeloid-leukemia-in-adults-clinical-manifestations-pathologic-features-and-diagnosis. Acesso em: 29 out. 2024.",
+        "3. National Comprehensive Cancer Network (NCCN) Guidelines. Acute Myeloid Leukemia. Disponível em: www.nccn.org. Acesso em: 29 out. 2024."
+      ]
+    }
+  }
+}

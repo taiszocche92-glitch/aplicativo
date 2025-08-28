@@ -1,0 +1,638 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_CANCER_PANCREAS",
+  "tituloEstacao": "Câncer de Cabeça de Pâncreas",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Câncer de pâncreas",
+    "Adenocarcinoma ductal",
+    "Icterícia obstrutiva",
+    "Sinal de Courvoisier",
+    "CA 19-9",
+    "Duodenopancreatectomia",
+    "Clínica Médica",
+    "Atenção terciária à saúde"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Centro de imagem (TC, RM, USG)",
+        "Centro de oncologia",
+        "Serviço de endoscopia"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 60 anos chega ao ambulatório referindo que está com a pele e os olhos amarelados, além de sentir uma dor na barriga e ter perdido muito peso nos últimos meses.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese completa, focando na queixa principal do paciente e em seus antecedentes.",
+      "Solicitar o exame físico direcionado, buscando achados relevantes para o caso.",
+      "Solicitar e interpretar os exames complementares pertinentes para o diagnóstico e estadiamento.",
+      "Estabelecer a(s) hipótese(s) diagnóstica(s) principal(is) e os diagnósticos diferenciais.",
+      "Propor a conduta terapêutica inicial e o plano de manejo.",
+      "Prestar as orientações finais ao paciente, respondendo às suas dúvidas."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com a pele e os olhos amarelados, além de sentir uma dor na barriga e ter perdido muito peso."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR ABDOMINAL",
+        "informacao": "Início: Começou há uns 3 meses.\nLocalização: Na boca do estômago (epigástrica), e vai para as minhas costas (irradia para o dorso).\nIntensidade: É uma dor constante, nota 7 de 10.\nCaracterística ou Tipo da dor: É um aperto, uma queimação forte.\nIrradiação: Sim, para as costas.\nDuração: É contínua, não passa.\nProgressão: Tem piorado com o tempo.\nFrequencia: Sempre está lá, mas piora à noite.\nFator de piora ou agravante: Piora quando como, e muito à noite. Quando deito de barriga para cima, também piora.\nFator de melhora ou atenuante: Melhora um pouco quando me curvo para frente. Tomei analgésicos comuns, mas não fazem efeito.\nEpisódios prévios: Não, nunca senti uma dor assim antes.\nMedicação de alivio: Tomei dipirona e paracetamol, mas não ajudou nada."
+      },
+      {
+        "contextoOuPerguntaChave": "ICTERÍCIA",
+        "informacao": "Início: Notei há cerca de 1 mês.\nLocalização: Na pele e nos olhos.\nIntensidade: Está bem forte, todo mundo comenta que estou amarelo.\nCaracterística ou Tipo: É um amarelão na pele e nos olhos.\nIrradiação: Não se irradia.\nDuração: Contínua, não diminui.\nProgressão: Acha que está piorando.\nSintomas associados: Coça muito (prurido generalizado). Minha urina está escura como Coca-Cola (colúria) e minhas fezes estão bem claras, quase brancas (acolia fecal).\nFator de piora ou agravante: Nada.\nFator de melhora ou atenuante: Nada.\nEpisódios prévios: Nunca tive isso antes.\nMedicação de alivio: Não usei nada específico para isso."
+      },
+      {
+        "contextoOuPerguntaChave": "PERDA DE PESO",
+        "informacao": "Início: Começou a perder peso há uns 4 meses.\nQuantificação: Perdi uns 10 kg nesse tempo, sem fazer dieta.\nIntencionalidade: Não, não foi intencional.\nRelação com apetite: Tenho pouco apetite (anorexia) e me sinto satisfeito muito rápido (saciedade precoce).\nSintomas associados: Também sinto muito cansaço (fadiga).\nEpisódios prévios: Não."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES (descreva os sintomas acompanhantes do motivo de consulta 'HDA')",
+        "informacao": "Náuseas: Sim, sinto náuseas quase todos os dias.\nVômitos: Às vezes vomito, principalmente depois de comer algo mais pesado.\nEsteatorreia (fezes gordurosas): Sim, minhas fezes estão volumosas, claras e boiam no vaso. Têm um cheiro muito forte.\nDiabetes mellitus (início recente): Recentemente, o médico disse que minha glicose está alta, e eu nunca tive diabetes. Isso foi há 2 meses.\nTromboflebite migratória (Sinal de Trousseau): Sim, tive umas veias doloridas nas pernas e nos braços que apareceram e sumiram em lugares diferentes nos últimos meses. O médico disse que era trombose.\nFadiga: Sinto um cansaço constante, mesmo dormindo bem.\nAnorexia: Estou sem vontade de comer.\nSaciedade precoce: Comi um pouquinho e já estou satisfeito."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos (item obrigatório)",
+        "informacao": "Doenças crônicas: Nega outras doenças crônicas além do diabetes de início recente.\nCirurgias prévias: Nega cirurgias.\nInternações: Nega internações prévias.\nAlergias: Nega alergias conhecidas.\nMedicamentos em uso contínuo: Estou tomando metformina para o diabetes, mas comecei há pouco tempo.\nVacinação: Vacinação em dia, incluindo as de rotina e COVID-19.\nTrauma: Nega traumas recentes.\nTransfusões: Nega transfusões sanguíneas.\nPancreatite crônica: Nega histórico de pancreatite."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Tipo do parto: Não consta no script.\nTempo de Gestação: Não consta no script.\nIntercorrências neonatais: Não consta no script.\nHábitos sexuais: Não consta no script.\nHábitos urinários: Urina normalmente, sem dor ou alteração de frequência.\nHábitos intestinais: Além da esteatorreia, tenho intestino regular, com 1 evacuação por dia.\nIngestão hídrica: Bebo cerca de 2 litros de água por dia.\nExposição ocupacional: Sou aposentado, trabalhava em escritório, sem exposição a riscos.\nEstresse: Tenho sentido bastante estresse por causa da doença."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA (ITEM OBRIGATÓRIO)",
+        "informacao": "Tabagismo: Fumo desde os 18 anos, cerca de 1 maço por dia (20 cigarros/dia) por 40 anos.\nEtilismo: Bebo socialmente, 1-2 cervejas nos fins de semana.\nDrogas ilícitas: Nega uso de drogas ilícitas.\nAlimentação: Dieta rica em carnes vermelhas e processados, poucas frutas e vegetais. Nos últimos meses, perdi o apetite.\nAtividade física: Sedentário, não faço exercícios.\nSono: Durmo bem, mas acordo algumas vezes com a dor.\nHábitos urinários: Normal.\nHábitos intestinais: Normal, exceto a esteatorreia.\nIngestão hídrica: 2 litros/dia.\nExposição ocupacional: Nega.\nEstresse: Sim, estou bastante estressado com a situação."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Faleceu por infarto.\nMãe: Vive, tem hipertensão.\nDoenças (especificas com relação e relevante ao caso) na família: Nega outras doenças relevantes.\nHistoria de câncer na família: Minha tia (irmã da minha mãe) teve câncer de pâncreas.\nIrmãos ou tias: Nega outros casos relevantes."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES NEONATAIS (apenas se relevante)",
+        "informacao": "Não aplicável ao caso, o paciente é adulto."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS (apenas para mulheres quando relevante)",
+        "informacao": "Não aplicável ao caso, o paciente é homem."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS (quando relevante para casos infecciosos/endêmicos)",
+        "informacao": "Viagens recentes: Nega viagens.\nExposição a doenças infecciosas: Nega.\nContato com doentes: Nega.\nExposição a animais: Nega.\nExposição a vetores: Nega.\nÁgua consumida: Água da torneira filtrada.\nExposição a agentes ambientais: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL (quando relevante para casos psiquiátricos/complexos)",
+        "informacao": "Situação familiar: Casado, com filhos adultos que me dão suporte.\nRede de apoio: Sim, minha família me apoia muito.\nSituação socioeconômica: Boa, aposentado, tenho plano de saúde.\nNível educacional: Superior completo.\nReligião: Católico, praticante.\nEstresse psicossocial: Muito preocupado com a doença e o futuro."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR: (Ex: Se o candidato solicitar o resultado dos exames trazidos libere o impresso (x) / Ex: Após o candidato solicitar o exame X responda 'considere solicitado' ou 'considere realizado o procedimento'.)",
+        "informacao": "Se o candidato solicitar exames, diga 'considere solicitado'. Se pedir para descrever o exame físico, responda conforme o impresso de sinais vitais e exame físico."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE: (ex: Dúvidas do ator sobre medicamentos, exames, condutas, etc., Perguntar após o atendimento se o candidato realizar a anamnese/exame fisico/conduta/tratamento/, Ex: Após o candidato realizar a anamnese, pergunte o que o paciente tem / Ex: Após realizar o diagnostico, pergunta se o que voce tem é grave, ou se tem complicações, ou se nao poderia ser outra coisa.)",
+        "informacao": "pergunta (1): Doutor(a), o que eu tenho?.\npergunta (2): Isso é grave? Tem cura?.\npergunta (3): Quais são as opções de tratamento que eu tenho?.\npergunta (4): Poderia ser outra coisa, tipo pedra na vesícula ou gastrite?.\npergunta (5): O que eu faço para não piorar ou para que isso não aconteça com meus filhos?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "130x80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "88 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.8 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "97 %"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Ictérico 3+/4+, emagrecido, caquético, desidratado (mucosas secas)."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Escleras ictéricas, sem linfonodomegalias palpáveis."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular, bulhas normofonéticas, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Distendido, discretamente doloroso à palpação profunda em epigástrio e hipocôndrio direito. Vesícula biliar palpável, indolor e distendida (Sinal de Courvoisier positivo). Ausência de ascite."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Edema discreto de membros inferiores (1+/4+), sem sinais de trombose ativa. Presença de varizes e sinais de tromboflebite em MMII."
+                },
+                {
+                  "chave": "Sinais de Inflamação",
+                  "valor": "Nega."
+                },
+                {
+                  "chave": "Edema",
+                  "valor": "Discreto 1+/4+ em MMII."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "11.2 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "35 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "180 mg/dL (Ref: 70-99)"
+                },
+                {
+                  "chave": "Bilirrubina Total",
+                  "valor": "15.0 mg/dL (Ref: 0.2-1.2)"
+                },
+                {
+                  "chave": "Bilirrubina Direta",
+                  "valor": "12.5 mg/dL (Ref: 0.0-0.3)"
+                },
+                {
+                  "chave": "TGO",
+                  "valor": "60 U/L (Ref: 5-40)"
+                },
+                {
+                  "chave": "TGP",
+                  "valor": "70 U/L (Ref: 5-40)"
+                },
+                {
+                  "chave": "Fosfatase Alcalina",
+                  "valor": "400 U/L (Ref: 40-150)"
+                },
+                {
+                  "chave": "Gama-GT",
+                  "valor": "550 U/L (Ref: 5-40)"
+                },
+                {
+                  "chave": "Amilase",
+                  "valor": "90 U/L (Ref: 25-125)"
+                },
+                {
+                  "chave": "Lipase",
+                  "valor": "80 U/L (Ref: 10-140)"
+                },
+                {
+                  "chave": "CA 19-9",
+                  "valor": "800 U/mL (Ref: <37)"
+                },
+                {
+                  "chave": "CEA",
+                  "valor": "8 ng/mL (Ref: <5)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_USG_3",
+        "tituloImpresso": "Ultrassonografia Abdominal",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado da Ultrassonografia Abdominal do paciente.",
+          "caminhoImagem": "(Buscar no Google Imagens: Ultrassonografia abdominal massa hipoecogênica cabeça pâncreas dilatação biliar ducto pancreático)",
+          "sugestaoBuscaImagem": "Ultrassonografia abdominal massa hipoecogênica cabeça pâncreas dilatação biliar ducto pancreático",
+          "laudo": "Fígado com ecotextura preservada. Vias biliares intra e extra-hepáticas difusamente dilatadas, com colédoco medindo 1.5 cm. Vesícula biliar distendida, de paredes finas. Identifica-se massa hipoecogênica mal definida na cabeça do pâncreas, medindo aproximadamente 3.0 x 2.5 cm, com dilatação do ducto pancreático principal (ducto de Wirsung)."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_TC_4",
+        "tituloImpresso": "Tomografia Computadorizada de Abdome e Pelve",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado da Tomografia Computadorizada de Abdome e Pelve do paciente.",
+          "caminhoImagem": "(Buscar no Google Imagens: TC abdome trifásica massa cabeça pâncreas com realce anelar dilatação biliar e pancreática envolvimento vascular)",
+          "sugestaoBuscaImagem": "TC abdome trifásica massa cabeça pâncreas com realce anelar dilatação biliar e pancreática envolvimento vascular",
+          "laudo": "ACHADOS:\nMassa hipodensa heterogênea com realce anelar na cabeça do pâncreas, medindo 3.2 x 2.8 cm, promovendo dilatação acentuada das vias biliares intra e extra-hepáticas e do ducto pancreático principal. Evidência de contato tumoral com a veia mesentérica superior (50% da circunferência), sem sinais de oclusão. Ausência de lesões hepáticas metastáticas ou ascite. Linfonodos peripancreáticos e retroperitoneais de tamanho aumentado.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EUS_BIOPSIA_5",
+        "tituloImpresso": "Ecoendoscopia (EUS) e Laudo de Biópsia",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado da Ecoendoscopia e Laudo de Biópsia do pâncreas.",
+          "caminhoImagem": "(Buscar no Google Imagens: Ecoendoscopia pâncreas massa hipoecogênica compressão colédoco PAAF biópsia adenocarcinoma ductal)",
+          "sugestaoBuscaImagem": "Ecoendoscopia pâncreas massa hipoecogênica compressão colédoco PAAF biópsia adenocarcinoma ductal",
+          "laudo": "ACHADOS:\nEcoendoscopia revelou massa hipoecogênica na cabeça do pâncreas, de contornos irregulares, com evidência de compressão do colédoco distal. Realizada Punção Aspirativa por Agulha Fina (PAAF) guiada por EUS. ANATOMOPATOLÓGICO: Adenocarcinoma ductal de pâncreas.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ECTOSCOPIA_6",
+        "tituloImpresso": "Achado de Exame Físico (Ectoscopia - Icterícia)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Achados visuais de icterícia na pele e escleras.",
+          "caminhoImagem": "(Buscar no Google Imagens: Icterícia escleral e cutânea acentuada paciente)",
+          "sugestaoBuscaImagem": "Icterícia escleral e cutânea acentuada paciente",
+          "laudo": "Pele e escleras intensamente amareladas, indicando icterícia. Presença de sinais de emagrecimento e pele ressecada."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_CANCER_PANCREAS_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "O paciente apresenta quadro clínico sugestivo de neoplasia de cabeça de pâncreas, com icterícia obstrutiva, dor abdominal, perda de peso e diabetes de início recente. O exame físico revela icterícia e sinal de Courvoisier. Exames laboratoriais mostram padrão de colestase e marcadores tumorais elevados. Exames de imagem confirmam massa pancreática com dilatação biliar e pancreática, e biópsia estabelece o diagnóstico de adenocarcinoma ductal de pâncreas.",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada dos sintomas e fatores de risco de câncer de pâncreas.",
+        "Realização e interpretação de exame físico direcionado, buscando sinais de icterícia e obstrução biliar.",
+        "Solicitação e interpretação de exames laboratoriais e de imagem para diagnóstico e estadiamento.",
+        "Formulação do diagnóstico principal e diagnósticos diferenciais.",
+        "Proposição de um plano terapêutico adequado, considerando opções curativas e paliativas.",
+        "Orientação completa ao paciente sobre a doença, tratamento e seguimento."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e Escuta:\n(1) Apresenta-se e cumprimenta o paciente simulado;\n(2) Escuta o motivo da consulta sem interrupções.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Queixa Principal (Dor Abdominal, Icterícia, Perda de Peso):\n(1) Início da dor abdominal;\n(2) Localização da dor abdominal;\n(3) Intensidade da dor abdominal;\n(4) Característica ou Tipo da dor abdominal;\n(5) Irradiação da dor abdominal;\n(6) Duração da dor abdominal;\n(7) Progressão da dor abdominal;\n(8) Frequência da dor abdominal;\n(9) Fator de piora ou agravante da dor abdominal;\n(10) Fator de melhora ou atenuante da dor abdominal;\n(11) Episódios prévios de dor abdominal;\n(12) Medicação de alívio da dor abdominal;\n(13) Início da icterícia;\n(14) Localização da icterícia;\n(15) Intensidade da icterícia;\n(16) Progressão da icterícia;\n(17) Início da perda de peso;\n(18) Quantificação da perda de peso;\n(19) Intencionalidade da perda de peso;\n(20) Relação da perda de peso com apetite (anorexia, saciedade precoce);\n(21) Fadiga associada à perda de peso.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 17 ou mais de 21 itens da queixa principal.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 10 a 16 itens da queixa principal.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 10 itens da queixa principal ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Sintomas Acompanhantes Relevantes:\n(1) Náuseas;\n(2) Vômitos;\n(3) Esteatorreia (fezes gordurosas);\n(4) Diabetes mellitus (início recente ou piora súbita);\n(5) Tromboflebite migratória (Sinal de Trousseau);\n(6) Prurido generalizado;\n(7) Colúria;\n(8) Acolia fecal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 ou mais de 8 sintomas acompanhantes relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 sintomas acompanhantes relevantes.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 3 sintomas acompanhantes ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Antecedentes Pessoais Patológicos e Hábitos de Vida:\n(1) Tabagismo (quantificação, tempo);\n(2) Etilismo;\n(3) Diabetes Mellitus (pré-existente ou recente);\n(4) Pancreatite crônica;\n(5) Obesidade;\n(6) Dieta (padrão alimentar);\n(7) Sedentarismo;\n(8) Alergias;\n(9) Medicamentos em uso contínuo;\n(10) Cirurgias prévias.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 8 ou mais de 10 antecedentes e hábitos relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 4 a 7 antecedentes e hábitos relevantes.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 4 antecedentes e hábitos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Antecedentes Familiares:\n(1) História de câncer de pâncreas em parentes de primeiro grau;\n(2) Outras síndromes neoplásicas hereditárias (e.g., BRCA1/2, Síndrome de Lynch, Peutz-Jeghers).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga ambos os itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga apenas um item.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Não investiga os antecedentes familiares.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Antecedentes Epidemiológicos e Contexto Psicossocial:\n(1) Viagens recentes;\n(2) Exposição a toxinas/produtos químicos (se relevante);\n(3) Situação familiar e rede de apoio;\n(4) Nível de estresse psicossocial.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 3 ou mais de 4 itens relevantes.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 1 ou 2 itens relevantes.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Não investiga os itens ou investiga inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicitação de Exame Físico:\n(1) Solicita avaliação do estado geral (ictérico, emagrecido, desidratado);\n(2) Solicita exame abdominal (palpação para massa, sinal de Courvoisier);\n(3) Solicita exame de membros (para edema, sinais de trombose).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita os 3 elementos do exame físico direcionado.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 1 ou 2 elementos do exame físico direcionado.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita exame físico ou solicita inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Interpretação do Impresso de Sinais Vitais e Exame Físico (est1_impresso_SINAISVITAIS_1):\n(1) Identifica icterícia e emagrecimento/caquexia;\n(2) Identifica desidratação;\n(3) Identifica sinal de Courvoisier positivo;\n(4) Identifica edema de membros inferiores e varizes.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 3 ou 4 achados corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 ou 2 achados corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não interpreta ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicitação de Exames Laboratoriais:\n(1) Hemograma completo;\n(2) Painel de função hepática (Bilirrubinas, FA, GGT, TGO, TGP);\n(3) Amilase e Lipase;\n(4) Glicemia (jejum ou casual);\n(5) Marcador tumoral CA 19-9;\n(6) Marcador tumoral CEA.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 5 ou 6 exames laboratoriais corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 3 ou 4 exames laboratoriais corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 3 exames ou inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Interpretação do Impresso de Exames Laboratoriais (est1_impresso_LABORATORIO_2):\n(1) Identifica anemia leve;\n(2) Identifica hiperbilirrubinemia total e direta (padrão obstrutivo);\n(3) Identifica elevação de Fosfatase Alcalina e Gama-GT;\n(4) Identifica hiperglicemia (DM de início recente);\n(5) Identifica CA 19-9 muito elevado;\n(6) Identifica CEA elevado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 5 ou 6 achados corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 3 ou 4 achados corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não interpreta ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Solicitação de Exames de Imagem:\n(1) Ultrassonografia abdominal (como primeira abordagem);\n(2) Tomografia Computadorizada (TC) de abdome e pelve com protocolo pancreático (trifásica);\n(3) Ressonância Magnética (RM) / Colangiopancreatografia por RM (CPRM) (como complementar ou alternativa à TC);\n(4) Ecoendoscopia (EUS) com Punção Aspirativa por Agulha Fina (PAAF).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 3 ou 4 exames de imagem pertinentes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 1 ou 2 exames de imagem pertinentes.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou solicita exames inadequados.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Interpretação dos Impressos de Imagem (est1_impresso_USG_3, est1_impresso_TC_4, est1_impresso_EUS_BIOPSIA_5):\n(1) Identifica massa na cabeça do pâncreas (USG, TC, EUS);\n(2) Identifica dilatação de vias biliares e/ou ducto pancreático (USG, TC, EUS);\n(3) Avalia o envolvimento vascular (TC);\n(4) Reconhece o diagnóstico histopatológico de Adenocarcinoma ductal de pâncreas (EUS/Biópsia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 3 ou 4 achados importantes nos exames de imagem e biópsia.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 ou 2 achados importantes nos exames de imagem e biópsia.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não interpreta ou interpreta incorretamente os exames de imagem.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Formula Hipótese Diagnóstica Principal:\n(1) Adenocarcinoma ductal de cabeça de pâncreas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico completo e correto.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico, mas de forma incompleta (ex: câncer de pâncreas sem especificar tipo histológico ou localização).",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza ou verbaliza o diagnóstico incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Cita Diagnósticos Diferenciais Relevantes:\n(1) Coledocolitíase;\n(2) Colangiocarcinoma distal;\n(3) Ampuloma (tumor da ampola de Vater);\n(4) Pancreatite crônica com massa inflamatória (pseudotumor pancreático);\n(5) Pancreatite autoimune;\n(6) Neoplasias císticas do pâncreas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 4 ou mais de 6 diagnósticos diferenciais relevantes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 2 ou 3 diagnósticos diferenciais relevantes.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita ou cita diagnósticos diferenciais incorretos.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Propõe Plano Terapêutico e Manejo:\n(1) Avaliação de ressecabilidade (com discussão multidisciplinar);\n(2) Indica cirurgia (Duodenopancreatectomia cefálica/Cirurgia de Whipple) se doença ressecável;\n(3) Indica terapia neoadjuvante para tumores limítrofes;\n(4) Indica quimioterapia sistêmica (FOLFIRINOX ou Gemcitabina + Nab-paclitaxel) se doença irressecável/metastática;\n(5) Manejo da obstrução biliar (drenagem endoscópica/cirúrgica);\n(6) Manejo da dor (analgesia, bloqueio do plexo celíaco);\n(7) Suporte nutricional (suplementação de enzimas pancreáticas, dieta adequada).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe 6 ou 7 elementos do plano terapêutico e manejo.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 3 a 5 elementos do plano terapêutico e manejo.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não propõe ou propõe plano inadequado.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Orientações e Seguimento:\n(1) Informa o paciente e familiares sobre o prognóstico e as opções de tratamento;\n(2) Discute cuidados de suporte (manejo de sintomas, efeitos colaterais);\n(3) Orientações sobre dieta e mudanças no estilo de vida (cessação do tabagismo, alimentação);\n(4) Necessidade de acompanhamento multidisciplinar (oncologista, cirurgião, nutricionista, paliativista);\n(5) Reforça a importância do seguimento pós-tratamento (exames de imagem, marcadores).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza 4 ou 5 orientações e informações de seguimento.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 2 ou 3 orientações e informações de seguimento.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza ou verbaliza inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "O câncer de cabeça de pâncreas, predominantemente adenocarcinoma ductal, é uma neoplasia agressiva com prognóstico reservado, frequentemente diagnosticado em estágio avançado. A anamnese é crucial para identificar sintomas como dor abdominal epigástrica irradiando para o dorso, icterícia obstrutiva (associada a colúria, acolia fecal e prurido), perda de peso inexplicada, anorexia, saciedade precoce, esteatorreia, diabetes mellitus de início recente e tromboflebite migratória (Sinal de Trousseau). Fatores de risco incluem tabagismo, pancreatite crônica e histórico familiar. O exame físico pode revelar icterícia, emagrecimento e o Sinal de Courvoisier (vesícula biliar palpável, indolor e distendida, em paciente ictérico). Exames laboratoriais tipicamente mostram padrão colestático (bilirrubina direta, FA, GGT elevadas), anemia e elevação de marcadores tumorais como CA 19-9 e, por vezes, CEA. O diagnóstico é guiado por exames de imagem como ultrassonografia abdominal (inicial), TC de abdome e pelve trifásica (fundamental para estadiamento local e a distância), e RM/CPRM. A confirmação histopatológica é obtida por biópsia, geralmente guiada por ecoendoscopia (EUS-FNA). O tratamento é multimodal. Para doença ressecável, a Duodenopancreatectomia cefálica (Cirurgia de Whipple) é a única opção curativa, frequentemente seguida de quimioterapia adjuvante. Para doença limítrofe, quimioterapia neoadjuvante pode ser empregada. Em casos irressecáveis ou metastáticos, o tratamento é paliativo, com quimioterapia sistêmica (FOLFIRINOX ou Gemcitabina + Nab-paclitaxel), radioterapia para controle de sintomas, drenagem biliar e suporte nutricional e analgésico. O manejo multidisciplinar é essencial. O rastreamento populacional não é recomendado; é restrito a grupos de alto risco genético.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Instituto Nacional de Câncer José Alencar Gomes da Silva (INCA). Câncer de pâncreas: tratamento. Disponível em: https://www.inca.gov.br/tipos-de-cancer/cancer-de-pancreas/tratamento. Acesso em 25/05/2024.",
+        "2. National Comprehensive Cancer Network (NCCN). NCCN Clinical Practice Guidelines in Oncology: Pancreatic Adenocarcinoma. Version 1.2024. Disponível em: https://www.nccn.org/guidelines. Acesso em 25/05/2024.",
+        "3. UpToDate. Clinical manifestations, diagnosis, and staging of exocrine pancreatic cancer. Disponível em: https://www.uptodate.com/contents/clinical-manifestations-diagnosis-and-staging-of-exocrine-pancreatic-cancer. Acesso em 25/05/2024.",
+        "4. UpToDate. Management of resectable and borderline resectable exocrine pancreatic cancer. Disponível em: https://www.uptodate.com/contents/management-of-resectable-and-borderline-resectable-exocrine-pancreatic-cancer. Acesso em 25/05/2024."
+      ]
+    }
+  }
+}

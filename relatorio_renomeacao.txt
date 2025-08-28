@@ -1,0 +1,363 @@
+============================================================
+RELATÓRIO DE RENOMEAÇÃO DE ARQUIVOS JSON
+============================================================
+
+Total de arquivos JSON processados: 97
+Arquivos renomeados com sucesso: 88
+Erros encontrados: 0
+
+ARQUIVOS RENOMEADOS:
+----------------------------------------
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\00e71b7a-704e-4459-b143-a7dafc8d6498.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\hipercalemia_grave.json
+Título: Hipercalemia Grave
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\01f1dc0d-3f19-4c1c-86e9-4de0156c935a.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\crise_de_migrânea.json
+Título: Crise de Migrânea
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\0292a82a-e494-442f-9b59-553c1b924b56.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\síndrome_nefrótica.json
+Título: Síndrome Nefrótica
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\04cb5125-7e19-4aad-a8a1-3a0c0ecac693.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\hipertensão_renovascular.json
+Título: Hipertensão Renovascular
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\0b319a6c-46eb-40b4-9fc3-aba2c220e20f.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\gripe_influenza_com_fatores_de_risco.json
+Título: Gripe (Influenza) com Fatores de Risco
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\0b5735e1-6939-4dc9-8e7f-03371d9ebeee.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\apneia_obstrutiva_do_sono.json
+Título: Apneia Obstrutiva do Sono
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\15f65a99-059c-4843-ad88-683060d95d90.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\intoxicação_exógena_por_paracetamol.json
+Título: Intoxicação Exógena por Paracetamol
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\1677e4f5-64f3-420f-a79f-40646e562ca6.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\hepatite_c_crônica.json
+Título: Hepatite C Crônica
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\1ed56fb2-c720-4678-b591-25b847f8aee7.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\infecção_por_zika_vírus_em_gestante.json
+Título: Infecção por Zika Vírus em Gestante
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\26fe7370-e3dc-4b68-90db-b0e417540039.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\colangiocarcinoma.json
+Título: Colangiocarcinoma
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\2837ec16-8fd8-45cc-86eb-12db195f603b.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\intoxicação_exógena_por_benzodiazepínicos.json
+Título: Intoxicação Exógena por Benzodiazepínicos
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\2bea29d0-ec55-4c15-b187-15a8892cad7b.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\nódulo_tireoidiano.json
+Título: Nódulo Tireoidiano
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\2c73b4a7-1aef-4a56-83e4-630ce6bf3136.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\colelitíase.json
+Título: Colelitíase
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\2d772c61-c80e-4f20-b44f-0b83cf308132.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\tabagismo_abordagem_e_tratamento.json
+Título: Tabagismo: Abordagem e Tratamento
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\2febea95-4854-4fd9-8e51-53f3604cac0c.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\interações_medicamentosas_e_ajuste_de_dose.json
+Título: Interações Medicamentosas e Ajuste de Dose
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\3a14c821-8b84-4a24-bc2a-4f61b7ac19bf.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\lesão_renal_aguda_diagnóstico_diferencial_e_manejo.json
+Título: Lesão Renal Aguda: Diagnóstico Diferencial e Manejo
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\3ad4e123-b4a8-4629-9f85-e1508a4acc01.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\diabetes_mellitus_diagnóstico_e_manejo_inicial.json
+Título: Diabetes Mellitus: Diagnóstico e Manejo Inicial
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\3caedb5e-b441-40ea-9cf8-e684da08e39a.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\hiperparatireoidismo.json
+Título: Hiperparatireoidismo
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\3e169882-5722-4eb8-ac0f-ff5eb3ee4f5e.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\doença_ulcerosa_péptica_e_h_pylori.json
+Título: Doença Ulcerosa Péptica e H. pylori
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\3f536da2-3116-425f-bdc3-663b57037b7f.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\demência_frontotemporal.json
+Título: Demência Frontotemporal
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\41d986a4-c646-46f7-84b8-dcd628c83851.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\crise_convulsiva_em_adulto_jovem_manejo_pós-ictal.json
+Título: Crise Convulsiva em Adulto Jovem: Manejo Pós-Ictal
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\4e14d77d-a996-4659-9d31-cf63e8042d14.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\cefaleia_em_salvas.json
+Título: Cefaleia em Salvas
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\52e2e42c-06bb-4228-beb5-7a763831f7b3.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\hepatocarcinoma.json
+Título: Hepatocarcinoma
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\57cb21db-8f96-4110-8a3e-e027e1738a8e.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\síndrome_nefrítica.json
+Título: Síndrome Nefrítica
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\581528aa-57a9-46b3-ba87-a53cda7e2521.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\trombocitopenia_em_clínica_médica.json
+Título: Trombocitopenia em Clínica Médica
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\58583eb5-931a-4d89-b7ab-cb543e855afc.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\epilepsia.json
+Título: Epilepsia
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\5d06d7bf-1e03-4fae-98c5-6ba45a2fa25d.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\doença_renal_crônica_diagnóstico_estadiamento_e_manejo_de_complicações.json
+Título: Doença Renal Crônica: Diagnóstico, Estadiamento e Manejo de Complicações
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\605fc4db-2b80-48a3-8446-ec448ce31421.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\farmacodermia_diagnóstico_e_manejo_de_quadro_grave_em_clínica_médica.json
+Título: Farmacodermia: Diagnóstico e Manejo de Quadro Grave em Clínica Médica
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\679e7975-cac4-4d27-ba12-0db862ab1260.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\covid-19_em_clínica_médica_srag.json
+Título: COVID-19 em Clínica Médica (SRAG)
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\6888bc26-63f4-4c2f-aa69-f3045603f721.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\encefalite_herpética_aguda.json
+Título: Encefalite Herpética Aguda
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\6b2b04b7-b346-43c5-9e0f-e2a6731ec211.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\distúrbios_ácido-base_cetoacidose_diabética.json
+Título: Distúrbios Ácido-Base (Cetoacidose Diabética)
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\6ee7d7bb-ffe8-41d5-9a06-0e15934cbba4.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\cefaleia_em_salvas_diagnóstico_e_manejo.json
+Título: Cefaleia em Salvas: Diagnóstico e Manejo
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\7214c357-d53e-4798-a32d-cec6e10d57af.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\manejo_integral_da_osteoartrite_de_joelho.json
+Título: Manejo Integral da Osteoartrite de Joelho
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\72b2c035-0167-4d5f-b108-f9ce367ff4b6.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\doença_pulmonar_intersticial_dpi.json
+Título: Doença Pulmonar Intersticial (DPI)
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\739a155b-4d9a-49f3-8df6-8c2cc968a00b.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\osteoporose.json
+Título: Osteoporose
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\75a3ba64-269a-4768-9aa9-0c85c5b6b2e9.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\hemofilia_a_-_consulta_de_seguimento_e_avaliação.json
+Título: Hemofilia A - Consulta de Seguimento e Avaliação
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\7aec207e-0a7d-44ff-9897-159aea72cd8b.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\mieloma_múltiplo.json
+Título: Mieloma Múltiplo
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\7b33af3e-a249-4471-b4ec-cfe476544a6f.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\pancreatite_aguda_alcoólica.json
+Título: Pancreatite Aguda Alcoólica
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\7bddd233-5e9b-4d3c-941d-4952819c2207.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\artrose_osteoartrite_de_joelho.json
+Título: Artrose (Osteoartrite) de Joelho
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\7d112917-8d12-4fed-9380-9629f1cc69a9.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\cefaleia_tensional.json
+Título: Cefaleia Tensional
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\7e13f5d7-148a-445b-baba-92ddd85d237e.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\gota_aguda.json
+Título: Gota Aguda
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\7e426516-f460-49da-97ea-69c4e0977d87.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\hipoparatireoidismo_pós-cirúrgico.json
+Título: Hipoparatireoidismo Pós-Cirúrgico
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\81f17c52-6e13-4e77-b92c-ffea753927d0.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\esclerose_múltipla.json
+Título: Esclerose Múltipla
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\89748b9e-a44d-4000-a71e-ba81be46f126.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\acidente_vascular_cerebral_hemorrágico.json
+Título: Acidente Vascular Cerebral Hemorrágico
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\92a90591-a473-45e2-a4dd-c7f91f70906a.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\hepatite_b_crônica_com_cirrose.json
+Título: Hepatite B Crônica com Cirrose
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\9f7ad590-8f89-4162-a32f-3d8a0b0862e7.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\doença_de_alzheimer.json
+Título: Doença de Alzheimer
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\a1ca0a09-cf7d-4f62-9e0a-b0df09e50764.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\púrpura_trombocitopênica_trombótica_ptt.json
+Título: Púrpura Trombocitopênica Trombótica (PTT)
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\a7cbf874-125b-4770-b164-744eb60a0994.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\intoxicação_exógena_por_cocaína.json
+Título: Intoxicação Exógena por Cocaína
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ace8c2e6-3d97-45b2-9f11-b08e19c037cb.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\demência_por_corpos_de_lewy.json
+Título: Demência por Corpos de Lewy
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ad272d8e-f91d-4e76-b180-c74ee856d1ed.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\câncer_de_cabeça_de_pâncreas.json
+Título: Câncer de Cabeça de Pâncreas
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\b1289dcb-f4a0-402c-9dc4-3198ae6612c3.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\colestase_biliar.json
+Título: Colestase Biliar
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\b1454c18-8253-4b82-b5d5-a5e67c0d25ce.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\câncer_de_tireoide.json
+Título: Câncer de Tireoide
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\b3d9b127-b6b6-4cb7-b46e-7c789370e3a1.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\intoxicação_exógena_por_organofosforados.json
+Título: Intoxicação Exógena por Organofosforados
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\b5e63098-4ee4-4128-9867-71d475b55ae7.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\meningite_meningocócica_aguda.json
+Título: Meningite Meningocócica Aguda
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\b82dd4b6-2470-4c01-ba9c-4ebf217ccf5d.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\leucemia_aguda.json
+Título: Leucemia Aguda
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\b8ab8c9a-740f-41e0-8db6-eef367309831.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\abstinência_alcoólica.json
+Título: Abstinência Alcoólica
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\bc5789d5-e9fb-4a42-8265-82979d62b12c.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\fibromialgia.json
+Título: Fibromialgia
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\c7862228-4e7d-4f8b-a2ce-0c41e1276947.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\doença_de_parkinson.json
+Título: Doença de Parkinson
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\cbf87d92-993a-4654-a57a-da68722b5c1c.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\asma_brônquica_exacerbação.json
+Título: Asma Brônquica (Exacerbação)
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\cde7843d-7404-4407-8a78-9b739e997d75.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\síndrome_de_guillain-barré.json
+Título: Síndrome de Guillain-Barré
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\d1b67931-32ce-4f27-aab8-64b3a880afa3.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\icterícia_obstrutiva_diagnóstico_diferencial_em_adulto.json
+Título: Icterícia Obstrutiva: Diagnóstico Diferencial em Adulto
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\d63444cd-b82a-4b06-a71b-1f1a0cc85b54.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\vasculite_associada_ao_anca.json
+Título: Vasculite Associada ao ANCA
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\daa582c7-5ab3-4a4a-be34-55a15c30b2d2.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\síndrome_do_intestino_irritável.json
+Título: Síndrome do Intestino Irritável
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\e06992eb-28e4-47f9-a646-aee19d499e8a.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\intoxicação_exógena_por_carbamatos.json
+Título: Intoxicação Exógena por Carbamatos
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\e241d7b2-d736-4771-af04-fd8d3e0d52f6.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\pancreatite_aguda_litiasica.json
+Título: Pancreatite Aguda Litiasica
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\e2c40236-9e67-4873-87e7-4adde9f64a3f.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\encefalopatia_de_wernicke.json
+Título: Encefalopatia de Wernicke
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\e427d2ed-7e4e-4888-8c44-2f2bd0bcfe29.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\doença_de_crohn_em_exacerbação_com_complicação.json
+Título: Doença de Crohn em Exacerbação com Complicação
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\e564558e-d7c1-4852-b068-575e34b89d22.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\retocolite_ulcerativa.json
+Título: Retocolite Ulcerativa
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\e65af55b-023e-4d40-beea-a342586382b9.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\chikungunya_aguda.json
+Título: Chikungunya Aguda
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\e751526d-b077-4162-8bbc-6ac92c3d7bb9.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\câncer_de_pulmão.json
+Título: Câncer de Pulmão
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\eab43692-ade9-473a-8706-93dff8cc66a9.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\parkinsonismo_parkinson_plus.json
+Título: Parkinsonismo: Parkinson Plus
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\f4b92ffe-7a1a-4b20-8b05-d3698d5f0d93.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\hiponatremia_em_clínica_médica.json
+Título: Hiponatremia em Clínica Médica
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\f6311967-4ab3-477b-91d4-d431de0519a9.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\endocardite_infecciosa.json
+Título: Endocardite Infecciosa
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\fd87fa99-fce0-4b0f-9e87-8474c352b05f.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\cefaleia_em_trovoada_hemorragia_subaracnoidea.json
+Título: Cefaleia em Trovoada: Hemorragia Subaracnoidea
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ff369939-c929-492f-a35f-4e3428b5737e.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\coma_avaliação_inicial.json
+Título: Coma: Avaliação Inicial
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\avci.json.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\avc_isquêmico.json
+Título: AVC Isquêmico
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\cardiopatia.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\cardiopatia_chagásica_crônica.json
+Título: Cardiopatia Chagásica Crônica
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\CETOACIDOSEDIABETICA.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\cetoacidose_diabética.json
+Título: Cetoacidose Diabética
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\CISTITE.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\cistite_1.json
+Título: Cistite
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\gonorreia.json.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\gonorreia.json
+Título: Gonorreia
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\HIPEROSMOLAR.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\estado_hiperglicêmico_hiperosmolar_ehh.json
+Título: Estado Hiperglicêmico Hiperosmolar (EHH)
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\HIV.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\infecção_pelo_hivaids_diagnóstico_e_manejo_inicial.json
+Título: Infecção pelo HIV/AIDS: Diagnóstico e Manejo Inicial
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\ITUREPETIÇÃO.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\infecção_do_trato_urinário_de_repetição.json
+Título: Infecção do Trato Urinário de Repetição
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\MENINGITE VIRAL.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\meningite_viral.json
+Título: Meningite Viral
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\Meningite.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\meningite_pneumocócica.json
+Título: Meningite Pneumocócica
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\pielonefrite.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\pielonefrite_aguda_complicada.json
+Título: Pielonefrite Aguda Complicada
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\sepse.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\sepse_e_choque_séptico.json
+Título: Sepse e Choque Séptico
+
+Original: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\SIFILIS.json
+Novo: D:\Site arquivos\Projeto vs code\meuapp\backend-python-agent\estacoes_geradas\ESTACOES CARREGADAS\sífilis_secundária.json
+Título: Sífilis Secundária
+
+============================================================

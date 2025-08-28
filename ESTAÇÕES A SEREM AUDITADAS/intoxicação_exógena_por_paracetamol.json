@@ -1,0 +1,575 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_02",
+  "tituloEstacao": "Intoxicação Exógena por Paracetamol",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Intoxicação Exógena",
+    "Paracetamol",
+    "Acetaminofeno",
+    "Insuficiência Hepática Aguda",
+    "N-acetilcisteína",
+    "Clínica Médica",
+    "Atenção terciária"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Hospital de referência",
+        "Unidade de Terapia Intensiva (UTI)",
+        "Laboratório de análises clínicas completo",
+        "Centro de Toxicologia (CIATox)",
+        "Exames de imagem (Ultrassonografia abdominal)",
+        "Medicações disponíveis (N-acetilcisteína, carvão ativado)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 32 anos de idade, sexo feminino, chega ao pronto-socorro referindo mal-estar generalizado e náuseas após ingestão de grande quantidade de paracetamol.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente e seus fatores associados.",
+      "Verbalizar o exame físico direcionado ao caso e seus possíveis achados.",
+      "Solicitar e interpretar exames complementares pertinentes ao quadro clínico.",
+      "Estabelecer a(s) hipótese(s) diagnóstica(s) principal(is) e os diagnósticos diferenciais relevantes.",
+      "Definir a conduta terapêutica inicial e o plano de manejo.",
+      "Prestar orientações finais à paciente e definir os encaminhamentos necessários."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "Considere que todos os materiais e insumos para a realização dos procedimentos e exames solicitados estão disponíveis."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com um mal-estar e umas náuseas, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "MAL-ESTAR",
+        "informacao": "Início: Começou faz umas 12 horas, depois que eu tomei um monte de remédio\nLocalização: É no corpo todo, uma sensação ruim\nIntensidade: Um desconforto grande, nota 7 de 10\nCaracterística ou Tipo: Sinto meu corpo pesado e enjoado\nIrradiação: Não irradia\nDuração: Contínuo desde que começou\nProgressão: Tem piorado, agora estou mais fraca\nFrequência: Constante\nFator Desencadeante: Foi depois de tomar os comprimidos\nFator de piora ou agravante: Não comer e ficar em pé piora\nFator de melhora ou atenuante: Um pouco de água e deitar ajuda, mas não passa\nEpisódios prévios: Não, nunca senti isso antes\nMedicação de alivio: Tomei mais um paracetamol pra ver se melhorava a dor de cabeça que eu já tinha, mas piorou tudo"
+      },
+      {
+        "contextoOuPerguntaChave": "NÁUSEAS",
+        "informacao": "Início: Quase junto com o mal-estar, umas 10 horas depois que eu tomei os comprimidos\nLocalização: Na boca do estômago\nIntensidade: Bem forte, parece que vou vomitar a qualquer hora\nCaracterística ou Tipo: Enjoo constante\nIrradiação: Não irradia\nDuração: Contínuo\nProgressão: Tem piorado\nFrequência: Constante, mas tive alguns picos mais fortes\nFator Desencadeante: Acho que foi o remédio\nFator de piora ou agravante: Qualquer cheiro forte ou pensar em comida\nFator de melhora ou atenuante: Não consegui melhorar com nada\nEpisódios prévios: Não, nunca tive náuseas assim\nMedicação de alivio: Não usei nada específico para a náusea"
+      },
+      {
+        "contextoOuPerguntaChave": "VÔMITOS",
+        "informacao": "Início: Umas 2 horas atrás\nFrequência: Vomitei umas duas vezes até agora\nRelação temporal: Após a piora das náuseas\nConteúdo: Comida do jantar e bastante líquido\nFatores de alívio: Não aliviou a náusea\nSintomas associados: Só a náusea e o mal-estar\nEpisódios prévios: Não"
+      },
+      {
+        "contextoOuPerguntaChave": "INGESTÃO DE PARACETAMOL",
+        "informacao": "Quantidade: Uma cartela inteira, uns 10 comprimidos de 750mg cada um, tudo de uma vez\nHora da ingestão: Foi lá pelas 10 da noite de ontem"
+      },
+      {
+        "contextoOuPerguntaChave": "CO-INGESTÃO",
+        "informacao": "Outras substâncias: Não, só o paracetamol mesmo\nÁlcool: Não bebi álcool nem usei nada diferente\nOutros medicamentos: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Nega doenças crônicas\nCirurgias prévias: Nenhuma\nInternações: Nenhuma\nAlergias: Nenhuma alergia conhecida\nMedicamentos em uso contínuo: Não uso nenhum medicamento contínuo\nVacinação: Vacinação em dia, inclusive da gripe\nTrauma: Nega trauma recente\nTransfusões: Nega transfusões"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Hábitos sexuais: Sou casada, parceiro único, usamos preservativo ocasionalmente\nHábitos urinários: Normais, urino várias vezes ao dia, sem dor\nHábitos intestinais: Regulares, uma vez ao dia, fezes normais\nIngestão hídrica: Bebo bastante água, uns 2 litros por dia\nExposição ocupacional: Trabalho em escritório, sem exposição a riscos\nEstresse: Estou passando por um período de muito estresse no trabalho"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Não fumo\nEtilismo: Não bebo álcool, nem socialmente\nDrogas ilícitas: Nega uso de drogas ilícitas\nAlimentação: Minha alimentação é boa, como de tudo, mas ultimamente com o estresse tenho comido menos\nAtividade física: Faço caminhada 3 vezes por semana\nSono: Tenho dormido mal ultimamente, por causa do estresse\nHábitos urinários: Normais\nHábitos intestinais: Regulares\nIngestão hídrica: Boa\nExposição ocupacional: Nega exposição a químicos\nEstresse: Sim, estou muito estressada com problemas no trabalho e em casa"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Saudável, 60 anos\nMãe: Hipertensa, 58 anos\nDoenças na família: Minha tia-avó teve cirrose, mas não era por remédio\nHistória de câncer na família: Minha avó paterna teve câncer de mama\nIrmãos ou tias: Tenho uma irmã mais nova, saudável"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS",
+        "informacao": "Gestações: Uma gestação\nPartos: Um parto vaginal\nAbortos: Nenhum\nCesáreas: Nenhuma\nData da Última Menstruação (DUM): Foi há uns 15 dias\nMenarca: 13 anos\nCiclos menstruais: Regulares\nSexarca: 18 anos\nTelarca: Normal\nPubarca: Normal\nAtividade sexual: Sim\nParceiros: Um parceiro\nUso de contraceptivos: Não uso\nUso de preservativos: Ocasionalmente\nExames preventivos: Em dia\nHistórico de IST: Nega histórico de IST"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega viagens recentes\nExposição a doenças infecciosas: Nega\nContato com doentes: Nega\nExposição a animais: Nega\nExposição a vetores: Nega\nÁgua consumida: Água tratada\nExposição a agentes ambientais: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL",
+        "informacao": "Situação familiar: Casada, tenho um filho de 5 anos\nRede de apoio: Tenho minha família e meu marido\nSituação socioeconômica: Classe média, trabalho, meu marido também trabalha\nNível educacional: Ensino superior completo\nReligião: Católica\nEstresse psicossocial: Sim, muito estresse no trabalho e alguns problemas pessoais"
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato perguntar sobre a intenção da ingestão, o ator deve responder: 'Eu estava muito desesperada, doutor. Tive uma briga feia com meu marido e achei que não tinha saída. Queria apenas dormir e não acordar mais.'"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)? É grave?\npergunta (2): Tem algum jeito de resolver isso, algum tratamento?\npergunta (3): Vou precisar ficar internada?\npergunta (4): Posso ter algum problema no fígado por causa disso?\npergunta (5): O que eu faço para não me sentir assim de novo?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "120x80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "88 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.8 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 %"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Lúcida, orientada, hipocorada 1+/4+, anictérica, afebril, desidratada 1+/4+."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Normocefalia, sem linfonodomegalias."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Bulhas rítmicas normofonéticas em 2 tempos, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, levemente doloroso à palpação profunda em epigástrio e hipocôndrio direito. Ruídos hidroaéreos presentes. Sem sinais de irritação peritoneal."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edema, pulsos periféricos presentes e simétricos."
+                },
+                {
+                  "chave": "Sinais de Inflamação",
+                  "valor": "Nega."
+                },
+                {
+                  "chave": "Edema",
+                  "valor": "Nega."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais (12 horas pós-ingestão)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "8.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "13.2 g/dL (Ref: 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "95 mg/dL (Ref: 70-99)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "FUNÇÃO HEPÁTICA",
+              "itens": [
+                {
+                  "chave": "AST (TGO)",
+                  "valor": "180 U/L (Ref: <35)"
+                },
+                {
+                  "chave": "ALT (TGP)",
+                  "valor": "150 U/L (Ref: <35)"
+                },
+                {
+                  "chave": "Bilirrubina Total",
+                  "valor": "1.0 mg/dL (Ref: <1.2)"
+                },
+                {
+                  "chave": "Fosfatase Alcalina",
+                  "valor": "90 U/L (Ref: 40-150)"
+                },
+                {
+                  "chave": "Gama-GT",
+                  "valor": "45 U/L (Ref: <38 F)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "COAGULOGRAMA",
+              "itens": [
+                {
+                  "chave": "INR",
+                  "valor": "1.1 (Ref: <1.1)"
+                },
+                {
+                  "chave": "Tempo de Protrombina (TP)",
+                  "valor": "12.5 s (Ref: 10-14)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "TOXICOLOGIA",
+              "itens": [
+                {
+                  "chave": "Paracetamol sérico (12h pós-ingestão)",
+                  "valor": "150 µg/mL"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_NOMOGRAMA_3",
+        "tituloImpresso": "Nomograma de Rumack-Matthew",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Nomograma de Rumack-Matthew para avaliação de risco de hepatotoxicidade por paracetamol.",
+          "caminhoImagem": "(Buscar no Google Imagens: Nomograma de Rumack-Matthew. Imagem que contenha o gráfico com as curvas de tratamento e não tratamento, geralmente com eixos de concentração plasmática de paracetamol e tempo pós-ingestão)",
+          "laudo": "Nomograma de Rumack-Matthew para intoxicação aguda por paracetamol. Permite avaliar o risco de hepatotoxicidade e a necessidade de tratamento com N-acetilcisteína com base na concentração sérica de paracetamol e no tempo decorrido desde a ingestão."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_INTOXICACAOPARACETAMOL_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina, 32 anos, apresenta-se com mal-estar e náuseas 12 horas após ingestão de 7.5g de paracetamol com intenção suicida. Exame físico inicial revela leve dor em hipocôndrio direito. Exames laboratoriais iniciais mostram elevação discreta de transaminases e nível sérico de paracetamol potencialmente tóxico no nomograma de Rumack-Matthew, indicando necessidade de tratamento imediato com N-acetilcisteína e acompanhamento psiquiátrico.",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada da ingestão de paracetamol (dose, tempo, intenção, co-ingestão)",
+        "Identificação de sinais e sintomas de intoxicação e fatores de risco",
+        "Solicitação e interpretação de exames laboratoriais (nível de paracetamol, função hepática, INR)",
+        "Uso do nomograma de Rumack-Matthew para avaliação do risco",
+        "Formulações de hipóteses diagnósticas e diferenciais",
+        "Estabelecimento da conduta terapêutica apropriada (NAC, carvão ativado, suporte)",
+        "Manejo da tentativa de suicídio (encaminhamento psiquiátrico)",
+        "Orientações e notificação compulsória"
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e comunicação inicial:\n(1) Cumprimenta a paciente simulada;\n(2) Identifica-se;\n(3) Pergunta o nome e a idade da paciente;\n(4) Mantém contato visual e postura empática.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as quatro ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza duas ou três ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Realiza apenas uma ação ou não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização do mal-estar:\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Característica ou tipo;\n(5) Duração e progressão;\n(6) Fatores de piora ou melhora;\n(7) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 de 7 aspectos do mal-estar.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 aspectos do mal-estar.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos aspectos ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracterização de náuseas e vômitos:\n(1) Início e frequência;\n(2) Intensidade das náuseas;\n(3) Relação temporal com a ingestão do paracetamol;\n(4) Conteúdo do vômito;\n(5) Fatores de alívio ou piora;\n(6) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 de 6 aspectos das náuseas/vômitos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 aspectos das náuseas/vômitos.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos aspectos ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Investigação detalhada da ingestão de paracetamol:\n(1) Quantidade exata ingerida (em mg ou gramas);\n(2) Tempo exato da exposição (hora da ingestão);\n(3) Se o uso foi agudo (dose única/poucas horas) ou crônico (vários dias).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta os três aspectos da ingestão.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta dois aspectos da ingestão.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta um ou nenhum aspecto da ingestão.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Investigação de co-ingestão e intenção:\n(1) Ingestão concomitante de outras substâncias (álcool, drogas ilícitas, outros medicamentos);\n(2) Intenção da ingestão (acidental, iatrogênica, tentativa de suicídio).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta os dois aspectos da co-ingestão e intenção.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta um aspecto da co-ingestão ou intenção.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não pergunta sobre co-ingestão ou intenção.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Antecedentes pessoais relevantes para hepatotoxicidade:\n(1) Doenças hepáticas preexistentes;\n(2) Uso de medicamentos indutores enzimáticos (ex: fenitoína, carbamazepina, rifampicina);\n(3) Desnutrição ou jejum prolongado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 2 de 3 antecedentes relevantes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 antecedente relevante.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não pergunta sobre nenhum antecedente relevante.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Anamnese - Hábitos de vida relevantes:\n(1) Consumo de álcool (etilismo);\n(2) Alimentação e peso corporal (desnutrição/baixo peso);\n(3) Estresse psicossocial e histórico psiquiátrico.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 2 de 3 hábitos de vida relevantes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 hábito de vida relevante.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não pergunta sobre nenhum hábito de vida relevante.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Verbaliza exame físico direcionado e achados esperados:\n(1) Avaliação dos sinais vitais (taquicardia, hipotensão);\n(2) Inspeção geral (icterícia, desidratação);\n(3) Palpação abdominal (dor/hepatomegalia em hipocôndrio direito);\n(4) Avaliação neurológica (nível de consciência, asterixis para encefalopatia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza 3 de 4 aspectos do exame físico direcionado.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 2 aspectos do exame físico direcionado.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Verbaliza 1 ou nenhum aspecto do exame físico.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicitação de exames complementares iniciais pertinentes:\n(1) Paracetamol sérico;\n(2) Função hepática (ALT/AST, bilirrubinas, FA, GGT);\n(3) Coagulograma (INR, TP, KPTT);\n(4) Função renal (ureia, creatinina, eletrólitos);\n(5) Glicemia;\n(6) Hemograma completo;\n(7) Toxicologia (screening para outras substâncias, se houver suspeita).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 6 de 7 grupos de exames complementares.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 4 ou 5 grupos de exames complementares.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita 3 ou menos grupos de exames ou não solicita item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Interpretação dos exames complementares:\n(1) Nível sérico de paracetamol e sua aplicação no nomograma de Rumack-Matthew;\n(2) Avaliação de aminotransferases (ALT/AST);\n(3) Avaliação do INR e coagulação;\n(4) Avaliação da função renal e glicemia.\n(5) Ultrassonografia abdominal (se solicitado, para avaliação hepática/biliar).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 4 de 5 grupos de exames de forma correta e completa.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 ou 3 grupos de exames de forma correta.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta 1 ou nenhum grupo de exames ou não interpreta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Estabelecimento da hipótese diagnóstica principal e diagnósticos diferenciais:\n(1) Hipótese diagnóstica principal: Intoxicação aguda por paracetamol;\n(2) Diagnósticos diferenciais (ex: outras causas de insuficiência hepática aguda, hepatite viral, hepatite alcoólica, isquemia hepática).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico principal e cita 2 ou mais diagnósticos diferenciais relevantes.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico principal e cita apenas 1 diagnóstico diferencial relevante.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico principal ou cita diagnósticos diferenciais incorretos/irrelevantess.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Definição da conduta terapêutica inicial e plano de manejo:\n(1) Início imediato de N-acetilcisteína (NAC) (via e dose);\n(2) Consideração de carvão ativado (critérios de uso);\n(3) Medidas de suporte clínico (hidratação, correção eletrolítica, monitoramento);\n(4) Monitoramento laboratorial seriado (função hepática, INR, paracetamol sérico).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Define 3 de 4 aspectos da conduta terapêutica.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Define 2 aspectos da conduta terapêutica.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Define 1 ou nenhum aspecto da conduta terapêutica.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Orientações finais e encaminhamentos:\n(1) Informa a paciente sobre a gravidade da situação e o tratamento;\n(2) Encaminha para avaliação psiquiátrica (dada a intenção suicida);\n(3) Orienta sobre o uso correto do paracetamol e riscos de automedicação;\n(4) Contato com Centro de Toxicologia (CIATox) para orientação especializada.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 3 de 4 orientações/encaminhamentos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 2 orientações/encaminhamentos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Realiza 1 ou nenhuma orientação/encaminhamento.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Notificação ao SINAN:\n(1) Verbaliza a necessidade de notificação compulsória do caso (intoxicação exógena e tentativa de suicídio).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a necessidade de notificação compulsória.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a necessidade de notificação compulsória.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A intoxicação exógena por paracetamol (acetaminofeno) é uma emergência comum, com potencial para insuficiência hepática aguda. A patogenicidade ocorre pelo esgotamento da glutationa, levando ao acúmulo do metabólito tóxico NAPQI. A anamnese é crucial para determinar a dose ingerida e o tempo exato da exposição, bem como a intenção e co-ingestão. Sintomas iniciais são inespecíficos (náuseas, vômitos, mal-estar), podendo evoluir para dor em hipocôndrio direito, icterícia e sinais de disfunção hepática ou falência multissistêmica. Fatores de risco incluem etilismo, desnutrição e uso de indutores enzimáticos. O diagnóstico é confirmado pelos níveis séricos de paracetamol, plotados no nomograma de Rumack-Matthew, e evidência de lesão hepática (elevação de ALT/AST, INR). O tratamento de primeira linha é a N-acetilcisteína (NAC), que repõe a glutationa e é mais eficaz se iniciada precocemente (nas primeiras 8-10 horas), mas deve ser administrada mesmo em fases tardias com evidência de lesão. Carvão ativado pode ser considerado em até 1-2 horas pós-ingestão, se não atrasar a NAC. O manejo também envolve suporte clínico e tratamento das complicações (encefalopatia, coagulopatia, insuficiência renal). Em casos graves, o transplante hepático é uma opção. Pacientes com tentativa de suicídio requerem avaliação e acompanhamento psiquiátrico. A notificação compulsória ao SINAN é obrigatória.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Atenção à Saúde. Departamento de Atenção Hospitalar e de Urgência. Protocolos Clínicos e Diretrizes Terapêuticas. Intoxicação por Paracetamol. Brasília: Ministério da Saúde, 2017.",
+        "2. UpToDate. Acetaminophen poisoning: Management in adults and children. Waltham, MA: UpToDate Inc. (Accessed on October 26, 2024).",
+        "3. Sociedade Brasileira de Toxicologia (SBTOX). Diretrizes para o manejo de intoxicações. (Consultado em Outubro de 2024)."
+      ]
+    }
+  }
+}

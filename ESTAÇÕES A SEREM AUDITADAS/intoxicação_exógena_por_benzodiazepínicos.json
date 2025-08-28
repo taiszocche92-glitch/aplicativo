@@ -1,0 +1,559 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_INTOX_BZD",
+  "tituloEstacao": "Intoxicação Exógena por Benzodiazepínicos",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Intoxicação Exógena, Benzodiazepínicos, Clonazepam, Rivotril, Emergência Clínica, Depressão SNC, Flumazenil, Clínica Médica, Atenção terciária à saúde",
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Pronto Atendimento hospitalar",
+        "Equipe multiprofissional (médicos, enfermeiros, psicólogos)",
+        "Laboratório de análises clínicas 24h",
+        "Exames de imagem (Radiografia, Tomografia Computadorizada)",
+        "Medicações de emergência e suporte avançado de vida",
+        "Unidade de terapia intensiva disponível"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 25 anos, sexo feminino, é trazida ao pronto atendimento por sua irmã, Ana Paula, encontrada torporosa em casa. A irmã refere que a paciente está desacordada e que encontrou caixas vazias de medicamentos próximos a ela.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese com o acompanhante do paciente.",
+      "Verbalizar o exame físico direcionado ao paciente.",
+      "Solicitar exames complementares pertinentes para o diagnóstico e exclusão de diferenciais.",
+      "Interpretar os resultados dos exames apresentados.",
+      "Formular as hipóteses diagnósticas e os diagnósticos diferenciais relevantes.",
+      "Definir a conduta terapêutica inicial e as medidas de suporte vitais.",
+      "Discutir a indicação, dose, via e contraindicações de um antídoto específico.",
+      "Verbalizar o encaminhamento adequado do paciente e a necessidade de avaliação psicossocial.",
+      "Orientar o acompanhante sobre a condição do paciente e os próximos passos.",
+      "Mencionar a necessidade de notificação compulsória do caso."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "O paciente está torporoso e não responde a estímulos verbais. A comunicação deve ser feita com a acompanhante (irmã)."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO ACOMPANHANTE",
+        "informacao": "Nome: Ana Paula Silva\nIdade: 30 anos\nEstado Civil: Solteira\nProfissão: Estudante"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Minha irmã está desacordada."
+      },
+      {
+        "contextoOuPerguntaChave": "PROGRESSÃO DO ESTADO DE CONSCIÊNCIA",
+        "informacao": "Início: Hoje de manhã.\nProgressão: Foi ficando cada vez mais sonolenta, não responde mais."
+      },
+      {
+        "contextoOuPerguntaChave": "SUSPEITA DE INGESTÃO DE SUBSTÂNCIA",
+        "informacao": "Encontrei umas caixas vazias de Clonazepam do lado dela."
+      },
+      {
+        "contextoOuPerguntaChave": "SUBSTÂNCIA E DOSE ESTIMADA DA INGESTÃO",
+        "informacao": "Substância: Acha que foi Clonazepam, ela toma Rivotril para dormir.\nDose estimada: Não sabe quantos, mas a caixa está vazia."
+      },
+      {
+        "contextoOuPerguntaChave": "HORÁRIO DA INGESTÃO",
+        "informacao": "Não sabe a hora exata, mas deve ter sido na madrugada."
+      },
+      {
+        "contextoOuPerguntaChave": "CO-INGESTÃO DE OUTRAS SUBSTÂNCIAS",
+        "informacao": "Não sabe se ela tomou mais alguma coisa.\nÁlcool: Ela não bebe."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS PRÉ-DESMAIO (RELATADOS PELA FAMÍLIA)",
+        "informacao": "Sonolência: Sim.\nFala arrastada: Sim.\nDificuldade para andar: Sim."
+      },
+      {
+        "contextoOuPerguntaChave": "INTERVENÇÕES PRÉ-HOSPITALARES",
+        "informacao": "Não: Não, só chamei o SAMU."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS PSIQUIÁTRICOS",
+        "informacao": "Doenças psiquiátricas: Depressão crônica, ansiedade, já tentou se matar uma vez ano passado.\nUso crônico de BZD: Sim, Rivotril há 2 anos, mas sempre escondia a quantidade que tomava."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS PATOLÓGICOS GERAIS",
+        "informacao": "Comorbidades: Nega outras doenças."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Gestação: Nega gestação."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Transtornos psiquiátricos: Nega.\nAbuso de substâncias: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Álcool: Nega.\nTabaco: Nega.\nDrogas ilícitas: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): Doutor(a), ela vai ficar bem? Vai ter alguma sequela?\npergunta (2): Tem como reverter o efeito desse remédio?\npergunta (3): O que eu faço quando ela sair daqui para que isso não aconteça de novo?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "SINAIS VITAIS - Paciente Internado",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "80 × 50 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "60 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "8 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "35,2 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "88% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_2",
+        "tituloImpresso": "EXAME FÍSICO",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESTADO GERAL",
+              "itens": [
+                {
+                  "chave": "Nível de Consciência",
+                  "valor": "Torporosa, respondendo apenas a estímulos dolorosos, ECG 7 (O3 V2 M2)"
+                },
+                {
+                  "chave": "Pele e Mucosas",
+                  "valor": "Hipocoradas (+/4+), frias, secas"
+                },
+                {
+                  "chave": "Pupilas",
+                  "valor": "Isocóricas, mióticas (2mm), fotorreagentes bilateralmente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO RESPIRATÓRIO",
+              "itens": [
+                {
+                  "chave": "Padrão Respiratório",
+                  "valor": "Bradipneico, superficial, sem sinais de esforço"
+                },
+                {
+                  "chave": "Ausculta Pulmonar",
+                  "valor": "Murmúrio vesicular presente bilateralmente, diminuído em bases, sem ruídos adventícios"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO CARDIOVASCULAR",
+              "itens": [
+                {
+                  "chave": "Ausculta Cardíaca",
+                  "valor": "Ritmo cardíaco regular, bulhas normofonéticas em 2 tempos, sem sopros"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ABDOMEN",
+              "itens": [
+                {
+                  "chave": "Exame do Abdome",
+                  "valor": "Flácido, indolor à palpação, ruídos hidroaéreos diminuídos"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "NEUROLÓGICO",
+              "itens": [
+                {
+                  "chave": "Sinais Meníngeos",
+                  "valor": "Ausentes"
+                },
+                {
+                  "chave": "Reflexos Tendinosos Profundos",
+                  "valor": "Diminuídos bilateralmente"
+                },
+                {
+                  "chave": "Força Muscular",
+                  "valor": "Flácida, globalmente diminuída"
+                },
+                {
+                  "chave": "Coordenação/Marcha",
+                  "valor": "Não avaliável devido ao nível de consciência"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_3",
+        "tituloImpresso": "RESULTADOS DE EXAMES LABORATORIAIS",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": []
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_ECG_4",
+        "tituloImpresso": "ELETROCARDIOGRAMA (ECG)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM.",
+          "caminhoImagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/ECG_sinus_rhythm_with_bradycardia.svg/1024px-ECG_sinus_rhythm_with_bradycardia.svg.png",
+          "sugestaoBuscaImagem": "ECG ritmo sinusal bradicardia 60 bpm",
+          "laudo": "ACHADOS:\nRitmo sinusal, frequência cardíaca de 60 bpm, sem alterações de segmento ST-T, intervalos PR e QRS normais, sem arritmias.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_RX_5",
+        "tituloImpresso": "RADIOGRAFIA DE TÓRAX",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM.",
+          "caminhoImagem": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Normal_chest_x-ray.jpg",
+          "sugestaoBuscaImagem": "Radiografia de tórax PA normal",
+          "laudo": "Campos pulmonares transparentes, sem sinais de infiltrados, consolidações ou pneumotórax. Área cardíaca de tamanho normal. Diafragmas livres."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_INTOX_BZD_V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina de 25 anos, com histórico de depressão e uso crônico de benzodiazepínicos, é trazida em torpor profundo após suposta ingestão de Clonazepam. Apresenta bradipneia, hipotensão, hipotermia e saturação de O2 baixa em ar ambiente. Exames laboratoriais mostram triagem toxicológica positiva para benzodiazepínicos, sem outras co-ingestões significativas. ECG e Raio-X de tórax sem alterações agudas, exceto bradicardia sinusal.",
+      "focoPrincipalDetalhado": [
+        "Realizar anamnese detalhada com o acompanhante para coletar informações sobre a intoxicação e o histórico psiquiátrico.",
+        "Realizar e interpretar exame físico com foco em sinais vitais, nível de consciência e achados neurológicos.",
+        "Solicitar e interpretar exames complementares para confirmar o diagnóstico e excluir diferenciais e complicações.",
+        "Formular o diagnóstico principal e diferenciais para depressão do SNC.",
+        "Estabelecer conduta terapêutica de emergência, incluindo suporte vital, medidas de descontaminação e avaliação da indicação de antídoto.",
+        "Discutir o manejo pós-estabilização, incluindo avaliação psiquiátrica e orientações de prevenção."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e estabelecimento de vínculo:\n(1) Cumprimenta o acompanhante de maneira adequada/cordial;\n(2) Identifica-se como médico(a);\n(3) Dirige-se ao acompanhante pelo nome;\n(4) Pergunta o motivo da consulta.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as quatro ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza duas ou três ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Realiza apenas uma ação ou não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese com o acompanhante, investigando a história da intoxicação:\n(1) Progressão do estado de consciência do paciente;\n(2) Suspeita de ingestão de substância;\n(3) Nome do benzodiazepínico (Clonazepam/Rivotril);\n(4) Dose estimada (caixa vazia);\n(5) Horário aproximado da ingestão;\n(6) Co-ingestão de outras substâncias (especialmente álcool/outros depressores do SNC).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou 6 itens corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 itens corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos itens ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Investiga os sintomas iniciais apresentados pelo paciente antes da chegada ao hospital:\n(1) Sonolência;\n(2) Fala arrastada;\n(3) Dificuldade para andar.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga todos os três sintomas corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga um ou dois sintomas corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não investiga nenhum dos sintomas.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Investiga antecedentes relevantes:\n(1) Histórico de doenças psiquiátricas (depressão, ansiedade);\n(2) Histórico de tentativas de suicídio;\n(3) Uso crônico de benzodiazepínicos (Rivotril);\n(4) Outras comorbidades;\n(5) Possibilidade de gestação;\n(6) Hábitos de vida (uso de álcool, tabaco, drogas ilícitas);\n(7) Antecedentes familiares de transtornos psiquiátricos ou abuso de substâncias.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 ou 7 itens corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 itens corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos itens ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Verbaliza a realização do exame físico direcionado e interpreta os achados dos sinais vitais (Impresso 1):\n(1) Bradipneia (FR 8 irpm) e depressão respiratória;\n(2) Hipotensão (PA 80x50 mmHg);\n(3) Bradicardia (FC 60 bpm);\n(4) Hipotermia (35,2 °C);\n(5) Saturação de O2 baixa (88% em ar ambiente).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza e interpreta 4 ou 5 achados corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza e interpreta 2 ou 3 achados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Verbaliza e interpreta 1 ou menos achados ou não realiza/interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Interpreta os achados do exame físico geral e neurológico (Impresso 2):\n(1) Nível de consciência (Torporosa, ECG 7);\n(2) Pupilas (Isocóricas, mióticas, fotorreagentes);\n(3) Padrão respiratório (bradipneico, superficial);\n(4) Reflexos tendinosos profundos diminuídos;\n(5) Força muscular flácida e diminuída.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 4 ou 5 achados corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 ou 3 achados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta 1 ou menos achados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita exames complementares pertinentes:\n(1) Glicemia (capilar e sérica);\n(2) Eletrólitos (sódio, potássio);\n(3) Função renal (ureia, creatinina);\n(4) Gasometria arterial;\n(5) Etanol sérico;\n(6) Triagem toxicológica (urinária/sanguínea);\n(7) Eletrocardiograma (ECG);\n(8) Radiografia de tórax.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 7 ou 8 exames corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 4 a 6 exames corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita 3 ou menos exames ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Interpreta os resultados dos exames laboratoriais (Impresso 3):\n(1) Glicemia normal;\n(2) Eletrólitos e função renal normais;\n(3) Gasometria arterial (pós-intubação) com pH e PaCO2 normais, PaO2 normal para FiO2 100%;\n(4) Etanol sérico negativo;\n(5) Triagem toxicológica urinária positiva para Benzodiazepínicos;\n(6) Triagem negativa para opioides, cocaína, anfetaminas e antidepressivos tricíclicos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 5 ou 6 achados corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 3 ou 4 achados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta 2 ou menos achados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpreta os resultados dos exames de imagem (Impresso 4 - ECG e Impresso 5 - Raio-X de Tórax):\n(1) ECG com ritmo sinusal, bradicardia (60 bpm) sem arritmias ou alterações isquêmicas;\n(2) Raio-X de tórax sem alterações (campos pulmonares transparentes, sem infiltrados ou sinais de aspiração).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente os dois exames.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente apenas um exame.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não interpreta corretamente nenhum dos exames.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Formula as hipóteses diagnósticas:\n(1) Diagnóstico etiológico: Intoxicação exógena por Benzodiazepínicos;\n(2) Síndrome principal: Síndrome depressora do Sistema Nervoso Central;\n(3) Diagnósticos complementares: Tentativa de suicídio, Transtorno do uso de substância, Transtorno psiquiátrico subjacente.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Formula os três diagnósticos corretamente.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Formula um ou dois diagnósticos corretamente.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Não formula os diagnósticos ou os formula incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes a serem excluídos:\n(1) Outras intoxicações (álcool, opioides, barbitúricos, antidepressivos tricíclicos);\n(2) Distúrbios metabólicos (hipoglicemia, encefalopatias, distúrbios eletrolíticos);\n(3) Doenças neurológicas (AVE, hemorragia, meningite, TCE);\n(4) Infecções graves (sepse).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou 4 grupos de diagnósticos diferenciais corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 grupos de diagnósticos diferenciais corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou os cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Estabelece a conduta terapêutica inicial e as medidas de suporte:\n(1) Estabilização ABC (via aérea, respiração, circulação);\n(2) Oxigenoterapia suplementar e monitorização de saturação;\n(3) Intubação orotraqueal e ventilação mecânica (se Glasgow < 8, hipoventilação grave);\n(4) Acesso venoso e hidratação com cristaloides para hipotensão;\n(5) Aquecimento ativo para hipotermia;\n(6) Considera carvão ativado (indicações e contraindicações);\n(7) Discute o uso de Flumazenil (antídoto), incluindo indicações restritas, dose e contraindicações absolutas (uso crônico de BZD, co-ingestão de pro-convulsivantes).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Estabelece 6 ou 7 condutas corretamente, incluindo as medidas de suporte e a discussão sobre Flumazenil com suas ressalvas.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Estabelece 3 a 5 condutas corretamente, com alguma imprecisão sobre o Flumazenil.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Estabelece 2 ou menos condutas ou as estabelece incorretamente, ou não aborda o Flumazenil.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Define o estadiamento, encaminhamentos e orientações:\n(1) Estadiamento da gravidade (coma, depressão respiratória, instabilidade hemodinâmica);\n(2) Encaminhamento para UTI (se grave) ou Observação Hospitalar;\n(3) Avaliação psiquiátrica obrigatória após estabilização clínica;\n(4) Orientações à família (armazenamento seguro, sinais de alerta, acompanhamento psiquiátrico);\n(5) Educação sobre riscos de sobredose e interações medicamentosas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Define 4 ou 5 itens corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Define 2 ou 3 itens corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Define 1 ou menos itens ou os define incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Responde às dúvidas do acompanhante de forma clara e empática.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde às três dúvidas do acompanhante de forma completa e empática.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Responde uma ou duas dúvidas de forma completa e empática.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não responde ou responde incorretamente às dúvidas.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Notificação ao SINAN.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Menciona a necessidade de notificação do caso ao SINAN.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não menciona a necessidade de notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A intoxicação exógena por benzodiazepínicos (BZD) é uma emergência comum, geralmente associada a depressão do Sistema Nervoso Central (SNC). A história clínica é fundamental, focando na substância, dose, tempo e co-ingestões (especialmente álcool, opioides), que aumentam significativamente a morbidade e mortalidade. A anamnese com familiares deve cobrir histórico psiquiátrico (depressão, tentativas de suicídio, uso crônico de BZD) e outras comorbidades.\nO exame físico revela uma síndrome depressora do SNC: hipotensão, bradicardia, bradipneia com depressão respiratória (o achado mais grave), hipotermia, sonolência a coma (Glasgow baixo), ataxia, disartria, nistagmo e hiporreflexia. As pupilas geralmente são mióticas ou normais e reativas.\nOs exames complementares devem incluir glicemia (para excluir hipoglicemia), eletrólitos, função renal e hepática, gasometria e triagem toxicológica (urina/sangue) para BZD e co-ingestões. ECG e radiografia de tórax são importantes para avaliar arritmias (em co-ingestões) e aspiração pulmonar, respectivamente. O diagnóstico é clínico-epidemiológico, com diferenciais como outras intoxicações, distúrbios metabólicos ou causas neurológicas.\nO tratamento é primordialmente de suporte: estabilização das vias aéreas (intubação e ventilação mecânica se necessário), oxigenoterapia, suporte circulatório (fluidos, vasopressores) e controle da temperatura. A descontaminação com carvão ativado pode ser considerada se dentro da primeira hora e via aérea protegida. O antídoto, flumazenil, tem indicações restritas: intoxicação pura por BZD em pacientes ingênuos com depressão respiratória grave/coma, após estabilização das vias aéreas. Suas contraindicações são absolutas em uso crônico de BZD (risco de convulsões por abstinência) ou co-ingestão de pro-convulsivantes. O encaminhamento para UTI é indicado para casos graves. Avaliação psiquiátrica é compulsória para tentativas de suicídio ou transtorno de uso de substância. A notificação ao SINAN é obrigatória.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde. Guia de Vigilância em Saúde: volume único. 5. ed. Brasília: Ministério da Saúde, 2023.",
+        "2. UpToDate. Benzodiazepine poisoning. Post, T.W (Ed). UpToDate, Waltham, MA. (Accessed on February 10, 2025).",
+        "3. World Health Organization (WHO). Guidelines for the management of poisoning. 2021."
+      ]
+    }
+  }
+}

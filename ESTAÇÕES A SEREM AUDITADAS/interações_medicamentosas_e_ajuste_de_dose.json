@@ -1,0 +1,500 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_01",
+  "tituloEstacao": "Interações Medicamentosas e Ajuste de Dose",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Interações Medicamentosas",
+    "Ajuste de Dose",
+    "Polifarmácia",
+    "Idoso",
+    "Disfunção Renal",
+    "Clínica Médica",
+    "Atenção secundária à saúde"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Serviço de Farmácia Clínica"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente Maria da Silva, 72 anos, chega à consulta acompanhada da filha, referindo mal-estar, cansaço excessivo e confusão mental nos últimos dias, e que faz uso de muitos medicamentos.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada às queixas principais do paciente, incluindo a história medicamentosa detalhada.",
+      "Solicitar e verbalizar os achados do exame físico direcionado.",
+      "Solicitar e interpretar exames complementares pertinentes ao caso clínico.",
+      "Identificar as interações medicamentosas e a necessidade de ajuste de dose.",
+      "Formular o diagnóstico principal e os diagnósticos diferenciais.",
+      "Propor a conduta terapêutica adequada e individualizada.",
+      "Realizar as orientações finais ao paciente e sua acompanhante."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "O paciente simulado é idoso(a) e pode apresentar dificuldade em recordar todos os medicamentos em uso. A filha da paciente está presente na consulta para auxiliar nas informações, mas o foco da anamnese deve ser o paciente."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: Maria da Silva\nIdade: 72 anos\nGênero: Feminino\nEstado civil: Viúva\nProfissão: Aposentada"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou me sentindo mal, com um cansaço que não passa e uma confusão na cabeça. Minha filha está preocupada, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "CANSAÇO (ASTENIA/FADIGA)",
+        "informacao": "Início: Começou há umas 2 semanas, doutor(a).\nDiferenciação: É um cansaço que não passa, sinto o corpo mole, sem força, diferente de fadiga de esforço.\nEvolução: Está piorando, antes eu conseguia fazer as coisas em casa, agora mal consigo levantar do sofá.\nImpacto funcional: Não consigo mais fazer minhas tarefas de casa, estou com dificuldade até para me cuidar.\nRelação com atividade/repouso: Piora quando tento fazer alguma coisa, melhora um pouquinho se fico deitada, mas não passa totalmente.\nQualidade do sono: Durmo, mas acordo cansada, e às vezes tenho uns pesadelos estranhos.\nSintomas de humor associados: Estou mais triste, sem ânimo para nada.\nEpisódios prévios: Não, nunca senti um cansaço assim antes."
+      },
+      {
+        "contextoOuPerguntaChave": "CONFUSÃO MENTAL/SONOLÊNCIA",
+        "informacao": "Início: Começou junto com o cansaço, mas está mais forte nos últimos 3 dias.\nTipo: Sinto a cabeça confusa, esqueço as coisas fácil, as vezes não sei onde estou por um momento.\nDuração: É intermitente, vem e vai, mas cada vez dura mais tempo e os episódios são mais frequentes.\nFatores desencadeantes: Parece piorar depois que tomo meus remédios do almoço.\nSintomas associados: Às vezes sinto umas tonturas também, e as pernas fracas.\nImpacto funcional: Minha filha está muito preocupada, não quer me deixar mais sozinha em casa.\nEpisódios prévios: Nunca tive isso antes."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES E REVISÃO DE SISTEMAS",
+        "informacao": "Boca Seca: Sim, muito seca, mesmo bebendo água.\nUrina Escura: Sim, tipo um chá forte, nos últimos dias.\nTontura: Sim, às vezes, quando levanto rápido.\nFraqueza nas Pernas: Sinto as pernas um pouco bambas e fracas.\nFebre: Nega.\nDor: Nega.\nNáuseas: Nega.\nVômitos: Nega.\nDiarreia: Nega.\nConstipação: Nega, intestino funciona normalmente.\nLesões de Pele: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS PATOLÓGICOS",
+        "informacao": "Doenças crônicas: Hipertensão Arterial Sistêmica, Diabetes Mellitus tipo 2, Osteoartrose nos joelhos, Depressão.\nCirurgias prévias: Catarata no olho direito, há 5 anos.\nInternações: Há 1 ano, por pneumonia, tratei em casa depois.\nAlergias: Nega alergias a medicamentos ou alimentos.\nMedicamentos em uso contínuo: Ah, doutor(a), são tantos... (A paciente tenta listar, mas não lembra todos, a filha se oferece para ajudar). Tomo para pressão, para diabetes, para dor no joelho e um para o 'nervoso' para dormir. (Se o candidato pedir a lista completa, o ator dirá que está no impresso MEDICAMENTOS_7).\nVacinação: Atualizada para gripe e COVID-19. Outras não lembro. (A filha informa que a vacinação está em dia para a idade).\nTrauma: Nega traumas recentes.\nTransfusões: Nega transfusões."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Ex-fumante, parei há 10 anos. Fumava 1 maço por dia por 30 anos.\nEtilismo: Bebo socialmente, uma taça de vinho no fim de semana, mas ultimamente nem isso.\nDrogas ilícitas: Nega.\nAlimentação: Como de tudo um pouco, mas não tenho muito apetite ultimamente. Minha filha cuida da minha dieta para o diabetes.\nAtividade física: Faço caminhadas leves no parque, mas agora com o cansaço está difícil. Estou mais sedentária.\nSono: Durmo umas 7 horas, mas não é um sono reparador, acordo cansada.\nIngestão hídrica: Bebo uns 4 copos de água por dia.\nExposição ocupacional: Sou aposentada, trabalhava em escritório, sem exposição a riscos.\nEstresse: Sinto um pouco de estresse com as preocupações da idade e da saúde, mas recebo apoio da minha filha."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Faleceu de infarto aos 65 anos.\nMãe: Faleceu de derrame (AVC) aos 70 anos.\nDoenças (específicas com relação e relevante ao caso) na família: Diabetes e hipertensão presentes nos pais e em um irmão.\nHistória de câncer na família: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS",
+        "informacao": "Gestações: 3 gestações.\nPartos: 3 partos vaginais.\nAbortos: Nega abortos.\nCesáreas: Nega cesáreas.\nData da Última Menstruação (DUM): Menopausa há 20 anos.\nMenarca: Aos 13 anos.\nCiclos menstruais: Eram regulares antes da menopausa.\nSexarca: Aos 20 anos.\nAtividade sexual: Não ativa atualmente.\nParceiros: Viúva.\nUso de contraceptivos: Não usa.\nUso de preservativos: Não usa.\nExames preventivos: Papanicolau regular até 5 anos atrás, mamografia anual. Tudo normal. (A filha confirma que os exames de rotina estavam em dia)."
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL",
+        "informacao": "Situação familiar: Mora com a filha.\nRede de apoio: Filha e netos moram perto e são muito presentes.\nSituação socioeconômica: Aposentada, renda suficiente, casa própria.\nNível educacional: Ensino médio completo.\nReligião: Católica praticante.\nEstresse psicossocial: Preocupação com a saúde, mas recebe apoio familiar e lida bem."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato questionar sobre a lista completa de medicamentos, o ator deve dizer 'Ah, doutor(a), eu trouxe a minha caixa de remédios aqui, está no fundo da bolsa. Minha filha fez uma lista para mim.' e, ao final, a filha libera o impresso com a lista detalhada de medicamentos (est1_impresso_MEDICAMENTOS_7).\nSe o candidato solicitar exames físicos, responda os achados conforme o impresso de Sinais Vitais e Exame Físico (est1_impresso_SINAISVITAIS_1), verbalizando.\nSe o candidato solicitar exames laboratoriais, responda 'considere solicitado', e, ao final da solicitação, libere o impresso de Exames Laboratoriais (est1_impresso_LABORATORIO_2), verbalizando os achados mais relevantes primeiro e depois o restante."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)? São meus remédios que estão me fazendo mal?\npergunta (2): É grave? Estou com medo de não conseguir mais me cuidar sozinha.\npergunta (3): Vou ter que parar de tomar todos os meus remédios? Eles são importantes para minha pressão e diabetes.\npergunta (4): Poderia ser outra doença? Minha vizinha teve um problema de memória e era uma doença grave.\npergunta (5): O que eu faço para que isso não aconteça novamente? Não quero ficar assim de novo."
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "130x80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "68 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.7 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "97% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Idosa, lúcida, desorientada no tempo. Hidratada, hipocorada ++/4+. Bom estado geral."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Normocefálica, sem linfonodomegalias. Tireoide impalpável. Jugulares planas."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular em 2T, bulhas normofonéticas, sem sopros. Pulsos periféricos presentes e simétricos."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Tórax simétrico, expansível. Murmúrio vesicular presente, simétrico, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, globoso às custas de panículo adiposo, indolor à palpação superficial e profunda. Ruídos hidroaéreos presentes."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Edema maleolar bilateral +/4+, simétrico. Sem sinais de trombose venosa profunda. Força muscular global diminuída (3/5) em membros inferiores. Reflexos normais."
+                },
+                {
+                  "chave": "Sistema Nervoso",
+                  "valor": "Consciente, orientação auto e alopsíquica comprometida para tempo. Fala lentificada. Sem déficits motores ou sensitivos focais. Coordenação preservada para movimentos básicos. Discreta sonolência."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "8.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "11.2 g/dL (Ref: 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "250.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "60 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.8 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "180 mg/dL (Ref: 70-100)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "138 mEq/L (Ref: 135-145)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "4.2 mEq/L (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "AST (TGO)",
+                  "valor": "28 U/L (Ref: 5-40)"
+                },
+                {
+                  "chave": "ALT (TGP)",
+                  "valor": "32 U/L (Ref: 5-40)"
+                },
+                {
+                  "chave": "Bilirrubina total",
+                  "valor": "0.6 mg/dL (Ref: 0.2-1.2)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_MEDICAMENTOS_7",
+        "tituloImpresso": "Lista de Medicamentos em Uso (Trazida pela Paciente)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "MEDICAMENTOS PRESCRITOS",
+              "itens": [
+                {
+                  "chave": "Losartana",
+                  "valor": "50 mg, 1x/dia (para pressão alta)"
+                },
+                {
+                  "chave": "Metformina",
+                  "valor": "850 mg, 2x/dia (para diabetes)"
+                },
+                {
+                  "chave": "Gabapentina",
+                  "valor": "300 mg, 3x/dia (para dor neuropática e nervosismo)"
+                },
+                {
+                  "chave": "Amitriptilina",
+                  "valor": "25 mg, 1x/dia à noite (para depressão e para dormir)"
+                },
+                {
+                  "chave": "Omeprazol",
+                  "valor": "20 mg, 1x/dia (para azia)"
+                },
+                {
+                  "chave": "Aspirina (AAS)",
+                  "valor": "100 mg, 1x/dia (para o coração)"
+                },
+                {
+                  "chave": "Vitamina D",
+                  "valor": "1000 UI, 1x/dia"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "AUTOMEDICAÇÃO E FITOTERÁPICOS",
+              "itens": [
+                {
+                  "chave": "Ibuprofeno",
+                  "valor": "400 mg, 2x/dia (para dor no joelho, por conta própria)"
+                },
+                {
+                  "chave": "Chá de boldo",
+                  "valor": "1 xícara/dia (para \"azia\", por conta própria)"
+                },
+                {
+                  "chave": "Paracetamol",
+                  "valor": "500 mg, se dor (por conta própria)"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_INTERACOES_AJUSTE_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente Maria da Silva, 72 anos, em polifarmácia para HAS, DM2, osteoartrose e depressão, apresenta quadro de cansaço, confusão mental e sonolência há 2 semanas, com piora progressiva, associado a disfunção renal e hiperglicemia. O caso exige uma revisão detalhada da farmacoterapia para identificar interações medicamentosas e necessidade de ajuste de dose, especialmente pela função renal comprometida, comum em idosos polimedicados. A abordagem deve focar na segurança e eficácia terapêutica.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa, com ênfase na história medicamentosa (polifarmácia, automedicação, adesão).",
+        "Avaliação e interpretação da função renal e hepática para ajuste de dose.",
+        "Identificação de potenciais interações farmacocinéticas e farmacodinâmicas.",
+        "Elaboração de plano terapêutico que inclua ajuste de dose, desprescrição e monitorização.",
+        "Comunicação clara com o paciente e familiar sobre o manejo medicamentoso."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação, acolhimento e investigação da queixa principal (Cansaço e Confusão):\n(1) Apresenta-se e cumprimenta o paciente e a acompanhante;\n(2) Pergunta o motivo da consulta e escuta sem interrupções;\n(3) Investiga início, evolução e impacto funcional do cansaço;\n(4) Investiga início, tipo, duração e fatores de piora da confusão mental;\n(5) Pergunta sobre sintomas associados (boca seca, urina escura, tontura, fraqueza nas pernas).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações de apresentação e investiga 8 de 10 sub-itens da queixa principal e sintomas associados.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza uma ação de apresentação e investiga 5 a 7 sub-itens da queixa principal e sintomas associados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Realiza menos de uma ação de apresentação ou investiga menos de 5 sub-itens da queixa principal e sintomas associados.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese detalhada da história medicamentosa:\n(1) Questiona todos os medicamentos em uso (prescritos, automedicação, fitoterápicos, suplementos);\n(2) Investiga doses, frequências e horários de administração de cada medicamento;\n(3) Pergunta sobre o tempo de uso de cada medicamento;\n(4) Avalia a adesão ao tratamento (uso regular, omissões, doses duplas);\n(5) Questiona ativamente sobre automedicação e esquecimento do uso;\n(6) Investiga uso de álcool, tabaco e drogas ilícitas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Questiona 5 ou 6 dos itens de anamnese medicamentosa de forma completa.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Questiona 3 ou 4 dos itens de anamnese medicamentosa de forma completa.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Questiona menos de 3 itens de anamnese medicamentosa ou não questiona.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese de antecedentes patológicos pessoais, comorbidades e revisão de sistemas relevantes:\n(1) Investiga doenças crônicas (HAS, DM2, osteoartrose, depressão);\n(2) Pergunta sobre cirurgias e internações prévias;\n(3) Questiona sobre alergias conhecidas;\n(4) Avalia hábitos urinários, intestinais e ingestão hídrica;\n(5) Pergunta sobre antecedentes familiares de doenças cardiovasculares e metabólicas;\n(6) Avalia o contexto psicossocial (situação familiar, rede de apoio).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Questiona 5 ou 6 dos itens de antecedentes e revisão de sistemas.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Questiona 3 ou 4 dos itens de antecedentes e revisão de sistemas.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Questiona menos de 3 itens de antecedentes ou não questiona.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Solicita e verbaliza os achados do exame físico direcionado:\n(1) Sinais vitais;\n(2) Estado geral e nível de consciência;\n(3) Avaliação neurológica (orientação, sonolência);\n(4) Exame cardiovascular (ausculta, pulsos);\n(5) Exame abdominal (inspeção, palpação);\n(6) Exame de membros (edema, força muscular).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e verbaliza corretamente 5 ou 6 dos achados do exame físico.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e verbaliza corretamente 3 ou 4 dos achados do exame físico.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita e verbaliza corretamente menos de 3 achados do exame físico ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Solicita exames laboratoriais essenciais para a avaliação do caso:\n(1) Função renal (creatinina, ureia);\n(2) Hemograma completo;\n(3) Glicemia (jejum/aleatória);\n(4) Eletrólitos (sódio, potássio);\n(5) Função hepática (AST, ALT, bilirrubinas).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 4 ou 5 dos grupos de exames laboratoriais essenciais.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 ou 3 dos grupos de exames laboratoriais essenciais.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 2 grupos de exames laboratoriais ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Interpreta os resultados dos exames laboratoriais corretamente, com foco na função renal:\n(1) Identifica disfunção renal (creatinina e ureia elevadas);\n(2) Calcula ou verbaliza a necessidade de calcular a Taxa de Filtração Glomerular (TFG) ou clearance de creatinina;\n(3) Identifica anemia leve (hemoglobina baixa);\n(4) Identifica hiperglicemia (glicose elevada).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente 3 ou 4 dos achados laboratoriais, incluindo a avaliação da função renal.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente 1 ou 2 dos achados laboratoriais.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não interpreta os achados laboratoriais corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Identifica potenciais interações medicamentosas e reações adversas relevantes no tratamento do paciente:\n(1) Interação entre Gabapentina e Amitriptilina (aumento da sedação e confusão);\n(2) Interação entre Ibuprofeno e Losartana (redução do efeito anti-hipertensivo e risco de nefrotoxicidade);\n(3) Risco de toxicidade renal pelo Ibuprofeno, potencializando disfunção renal;\n(4) Efeitos anticolinérgicos da Amitriptilina (boca seca, confusão, sonolência);\n(5) Polifarmácia como fator de risco para RAM em idosos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica 4 ou 5 das potenciais interações/RAMs/riscos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Identifica 2 ou 3 das potenciais interações/RAMs/riscos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Identifica menos de 2 interações/RAMs/riscos ou não identifica.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Identifica a necessidade de ajuste de dose de medicamentos específicos em função da disfunção renal:\n(1) Gabapentina;\n(2) Metformina.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica a necessidade de ajuste de dose para ambos os medicamentos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Identifica a necessidade de ajuste de dose para apenas um dos medicamentos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não identifica a necessidade de ajuste de dose para nenhum dos medicamentos.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Formula o diagnóstico principal, cita diagnósticos diferenciais e propõe conduta terapêutica:\n(1) Diagnóstico principal: Reação Adversa a Múltiplos Medicamentos (RAM) por polifarmácia, interações medicamentosas e toxicidade por dose inadequada em paciente com disfunção renal, manifestando confusão mental, sedação e astenia;\n(2) Cita pelo menos 2 diagnósticos diferenciais relevantes (ex: progressão de doença neurológica, desidratação, nova doença, não adesão);\n(3) Propõe ajuste de dose de Gabapentina e Metformina conforme TFG;\n(4) Recomenda suspensão do Ibuprofeno;\n(5) Considera redução ou substituição da Amitriptilina;\n(6) Enfatiza a monitorização clínica e laboratorial (função renal, glicemia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico principal completo, cita 2 ou mais diferenciais e propõe 5 ou 6 ações da conduta terapêutica.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico principal de forma parcial, cita 1 diferencial e propõe 3 ou 4 ações da conduta terapêutica.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico principal, não cita diferenciais e propõe menos de 3 ações da conduta ou não propõe.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Educa o paciente e acompanhante, e estabelece plano de seguimento:\n(1) Orienta sobre a importância de informar todos os medicamentos em uso (inclusive OTC e fitoterápicos) a qualquer profissional de saúde;\n(2) Reforça a importância da adesão à nova prescrição e as consequências da automedicação;\n(3) Orienta sobre sinais de alarme para buscar atendimento médico;\n(4) Agenda retorno para reavaliação clínica e laboratorial.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre 3 ou 4 dos aspectos de educação e seguimento.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta sobre 1 ou 2 dos aspectos de educação e seguimento.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não orienta adequadamente sobre os aspectos de educação e seguimento.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A estação aborda um cenário comum e complexo de farmacologia clínica em idosos: a polifarmácia, interações medicamentosas e a necessidade de ajuste de dose frente à disfunção renal. A paciente apresenta sintomas inespecíficos como cansaço e confusão, que são manifestações frequentes de Reações Adversas a Medicamentos (RAMs) e toxicidade em idosos. \n\nNa anamnese, é crucial aprofundar na história medicamentosa, incluindo automedicação e adesão, além de comorbidades (diabetes, hipertensão, depressão) e hábitos que influenciam o metabolismo dos fármacos. O exame físico deve focar em sinais de toxicidade (sonolência, desorientação), disfunção orgânica e edemas. Os exames laboratoriais são essenciais para avaliar a função renal (creatinina, ureia) e metabólica (glicemia, hemoglobina). \n\nA interpretação dos resultados revela disfunção renal (creatinina 1.8 mg/dL, ureia 60 mg/dL), que exige o cálculo da TFG para guiar o ajuste de dose. As interações identificadas incluem: Gabapentina e Amitriptilina (aumento de sedação e confusão), Ibuprofeno (AINE) e Losartana (redução do efeito anti-hipertensivo e risco de lesão renal aguda), e risco de toxicidade por Ibuprofeno e Amitriptilina devido à idade avançada e disfunção renal. Medicamentos como Metformina e Gabapentina exigem ajuste de dose em caso de TFG reduzida. \n\nO diagnóstico principal é de RAM por polifarmácia, interações medicamentosas e toxicidade por dose inadequada. Os diagnósticos diferenciais incluem progressão de doenças preexistentes ou novas condições. A conduta terapêutica envolve o ajuste ou a suspensão de medicamentos, sempre visando o equilíbrio entre o benefício e o risco. É fundamental a educação do paciente e da família sobre o uso correto dos medicamentos, a importância de reportar todos os fármacos e a necessidade de seguimento clínico e laboratorial rigoroso. O envolvimento do farmacêutico clínico é um fator de proteção importante na gestão desses casos.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Caderno de Atenção Básica n. 19: Envelhecimento e Saúde da Pessoa Idosa. Brasília, DF: Ministério da Saúde, 2017.",
+        "2. UpToDate: Drug interactions and adverse drug reactions in the elderly. Waltham, MA: UpToDate, Inc. (Accessed on January 25, 2025).",
+        "3. Sociedade Brasileira de Nefrologia. Diretrizes da Sociedade Brasileira de Nefrologia para o manejo da doença renal crônica. J Bras Nefrol. 2020;42(Suppl 1):1-104."
+      ]
+    }
+  }
+}

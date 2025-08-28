@@ -1,0 +1,681 @@
+{
+  "idEstacao": "REVALIDA_2024_2_CM_PTT_01",
+  "tituloEstacao": "Púrpura Trombocitopênica Trombótica (PTT)",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "PTT, Púrpura Trombocitopênica Trombótica, Microangiopatia Trombótica, ADAMTS13, Plasmaférese, Clínica Médica, Emergência",
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem",
+        "Medicações disponíveis",
+        "Unidade de terapia intensiva",
+        "Serviço de plasmaférese"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 35 anos chega à emergência referindo sentir-se muito fraca e confusa, e com o surgimento de manchas roxas na pele.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente.",
+      "Verbalizar a solicitação do exame físico geral e direcionado.",
+      "Solicitar exames complementares essenciais para triagem, diagnóstico e diferenciação da condição.",
+      "Interpretar os resultados dos exames apresentados.",
+      "Estabelecer o diagnóstico principal e os diagnósticos diferenciais mais relevantes.",
+      "Propor a conduta terapêutica de primeira linha e gerenciar condutas críticas.",
+      "Fornecer orientações iniciais e encaminhamento."
+    ],
+    "avisosImportantess": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou me sentindo muito fraca e confusa, e apareceram umas manchas roxas na minha pele."
+      },
+      {
+        "contextoOuPerguntaChave": "FRAQUEZA/FADIGA",
+        "informacao": "Início: Há cerca de 5 dias\nDuração: Contínua\nIntensidade: Muito intensa (impede atividades diárias)\nImpacto funcional: Não consigo levantar da cama direito\nFatores de piora: Qualquer esforço\nFatores de melhora: Repouso não ajuda muito\nEpisódios prévios: Nunca tive algo assim\nNega febre: Sim, não tive febre"
+      },
+      {
+        "contextoOuPerguntaChave": "DOR DE CABEÇA (CEFALEIA)",
+        "informacao": "Início: Há 5 dias (junto com a fraqueza)\nLocalização: Geral, 'pega a cabeça toda'\nIntensidade: Forte (8/10 na escala de dor)\nCaracterística: Pulsátil, como 'marteladas'\nDuração/frequência: Quase contínua, com picos de piora\nFatores de piora: Luz, barulho\nFatores de melhora: Repouso no escuro (não some completamente)\nSintomas associados: Tontura e enjoo\nVisão dupla: Nega\nFala arrastada: Nega\nDormência em um lado do corpo: Nega\nSinais de alarme: Nunca tive uma dor assim tão forte e persistente\nEpisódios prévios: Dor de cabeça ocasional, mas nada parecido"
+      },
+      {
+        "contextoOuPerguntaChave": "LESÕES NA PELE (PETÉQUIAS/EQUIMOSES)",
+        "informacao": "Início: Há 3 dias\nLocalização: Principalmente nas pernas e braços, algumas pequenas no tronco e na boca (petéquias)\nQuantidade: Muitas 'manchinhas roxas' (petéquias) e algumas maiores (equimoses)\nEvolução: Aumentando em número e tamanho\nSintomas associados: Não coçam\nDor: Não doem\nSangramento: Não sangram ativamente\nManchas vermelhas elevadas: Nega\nBolhas: Nega\nTrauma: Nega\nUso de medicamentos novos: Nega\nPicadas de inseto: Nega\nContato com plantas alergênicas: Nega\nEpisódios prévios: Nunca tive essas manchas antes"
+      },
+      {
+        "contextoOuPerguntaChave": "ICTERÍCIA",
+        "informacao": "Percebeu amarelão nos olhos/pele: Sim, o marido percebeu há 2 dias\nIntensidade: Leve a moderada\nPrurido: Nega coceira\nColúria: Não observou urina escura\nAcolia fecal: Não observou fezes claras\nSintomas associados: Nega dor abdominal, perda de peso, febre"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS URINÁRIOS",
+        "informacao": "Disúria: Nega\nPolaciúria: Nega\nUrgência: Nega\nVolume de urina: 'Acho que estou urinando um pouco menos que o normal nos últimos dois dias, mas não sei dizer ao certo a quantidade.'\nHematúria: Nega urina com sangue"
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE",
+        "informacao": "Aferiu temperatura: Não aferiu\nCalafrios: Nega\nSudorese: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Nega (hipertensão, diabetes, doenças autoimunes, lúpus, artrite reumatoide)\nCâncer: Nega\nHIV: Nega\nTransplantes: Nega\nCirurgias prévias: Nega\nInternações: Nega\nMedicações em uso contínuo: Nega uso de medicações regulares. Nega uso recente de quinina, ticlopidina, clopidogrel, ciclosporina, tacrolimus.\nAlergias: Nega\nTrauma: Nega\nTransfusões: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Menarca: 13 anos\nCiclo menstrual: Regular (28/5)\nÚltima menstruação (UM): Há 10 dias\nGestações/Paridade: G0P0A0\nUso de contraceptivo: Nega\nGravidez atual/puerpério: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Hipertensão\nMãe: Diabetes\nDoenças na família: Nega história familiar de doenças da coagulação\nHístória de câncer na família: Nega\nHistória de PTT na família: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega\nEtilismo: Nega\nDrogas ilícitas: Nega\nAlimentação: Não faz dieta específica\nAtividade física: Sedentária\nSono: Tem dormido mal nos últimos dias devido à dor de cabeça e preocupação"
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar exames para ADAMTS13 ou anticorpos anti-ADAMTS13, o chefe de estação verbalizará:\n'Os resultados dos exames específicos para ADAMTS13 chegaram:\n- Atividade da ADAMTS13: <5% (Deficiência severa)\n- Anticorpos anti-ADAMTS13: Positivos (indicando inibidor)'"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): Doutor(a), o que eu tenho? É grave?\npergunta (2): Vou precisar ficar internada? Tem tratamento? É rápido?\npergunta (3): Minhas plaquetas devem estar baixas por causa das manchas! Vou precisar de transfusão de plaquetas?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "120 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "110 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "37,8 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "98% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_2",
+        "tituloImpresso": "Exame Físico Geral",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESTADO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Regular, sonolenta, desorientada no tempo e espaço, descorada ++/4+, ictérica +/4+"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "PELE E MUCOSAS",
+              "itens": [
+                {
+                  "chave": "Pele",
+                  "valor": "Petéquias e equimoses disseminadas em membros inferiores e superiores, algumas petéquias em mucosa oral."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "NEUROLÓGICO",
+              "itens": [
+                {
+                  "chave": "Consciência",
+                  "valor": "Rebaixada (Glasgow 14 - O4V4M6)"
+                },
+                {
+                  "chave": "Exame de Pares Cranianos",
+                  "valor": "Sem alterações evidentes"
+                },
+                {
+                  "chave": "Força e Tônus",
+                  "valor": "Mantidos simetricamente"
+                },
+                {
+                  "chave": "Reflexos",
+                  "valor": "Normais"
+                },
+                {
+                  "chave": "Sinais meníngeos",
+                  "valor": "Ausentes"
+                },
+                {
+                  "chave": "Focalização",
+                  "valor": "Não há déficits focais evidentes no momento"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO CARDIOVASCULAR",
+              "itens": [
+                {
+                  "chave": "Ausculta cardíaca",
+                  "valor": "Bulhas rítmicas, normofonéticas, sem sopros"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO RESPIRATÓRIO",
+              "itens": [
+                {
+                  "chave": "Ausculta pulmonar",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ABDOME",
+              "itens": [
+                {
+                  "chave": "Palpação",
+                  "valor": "Flácido, indolor à palpação, ruídos hidroaéreos presentes"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MEMBROS",
+              "itens": [
+                {
+                  "chave": "Edema",
+                  "valor": "Ausente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_HEMOGRAMA_3",
+        "tituloImpresso": "Hemograma Completo",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SÉRIE VERMELHA",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "8,0 g/dL (VR: 12 - 16 g/dL)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "24% (VR: 36 - 48%)"
+                },
+                {
+                  "chave": "VCM",
+                  "valor": "90 fL (VR: 80 - 100 fL)"
+                },
+                {
+                  "chave": "HCM",
+                  "valor": "30 pg (VR: 27 - 33 pg)"
+                },
+                {
+                  "chave": "RDW",
+                  "valor": "18% (VR: 11.5 - 14.5%)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SÉRIE BRANCA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "8.000/mm³ (VR: 4.000 - 11.000/mm³)"
+                },
+                {
+                  "chave": "Neutrófilos",
+                  "valor": "60% (4.800/mm³)"
+                },
+                {
+                  "chave": "Linfócitos",
+                  "valor": "30% (2.400/mm³)"
+                },
+                {
+                  "chave": "Eosinófilos",
+                  "valor": "2%"
+                },
+                {
+                  "chave": "Basófilos",
+                  "valor": "0%"
+                },
+                {
+                  "chave": "Monócitos",
+                  "valor": "8%"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "PLAQUETAS",
+              "itens": [
+                {
+                  "chave": "Plaquetas",
+                  "valor": "25.000/mm³ (VR: 150.000 - 450.000/mm³)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ESFREGACO_4",
+        "tituloImpresso": "Esfregaço de Sangue Periférico",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM. ",
+          "caminhoImagem": "https://www.ncbi.nlm.nih.gov/books/NBK560706/figure/fig1/",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: esquizócitos esfregaço sangue periférico PTT)",
+          "laudo": "Presença de numerosos esquizócitos (células fragmentadas) em >2% dos campos. Ausência de aglomerados plaquetários."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_HEMOLISE_5",
+        "tituloImpresso": "Painel de Hemólise",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "MARCADORES DE HEMÓLISE",
+              "itens": [
+                {
+                  "chave": "LDH",
+                  "valor": "1500 U/L (VR: 120 - 250 U/L)"
+                },
+                {
+                  "chave": "Bilirrubina Indireta",
+                  "valor": "3,5 mg/dL (VR: 0,1 - 0,7 mg/dL)"
+                },
+                {
+                  "chave": "Haptoglobina",
+                  "valor": "<10 mg/dL (VR: 30 - 200 mg/dL)"
+                },
+                {
+                  "chave": "Reticulócitos",
+                  "valor": "5% (VR: 0,5 - 2,5%)"
+                },
+                {
+                  "chave": "Teste de Coombs Direto",
+                  "valor": "Negativo"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_RENAL_6",
+        "tituloImpresso": "Função Renal e Eletrólitos",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "FUNÇÃO RENAL",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "80 mg/dL (VR: 15 - 45 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1,8 mg/dL (VR: 0,6 - 1,2 mg/dL)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ELETRÓLITOS",
+              "itens": [
+                {
+                  "chave": "Sódio",
+                  "valor": "138 mEq/L (VR: 135 - 145 mEq/L)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "4,0 mEq/L (VR: 3,5 - 5,0 mEq/L)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_COAGULOGRAMA_7",
+        "tituloImpresso": "Coagulograma",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "COAGULAÇÃO",
+              "itens": [
+                {
+                  "chave": "TAP (Tempo de Atividade da Protrombina)",
+                  "valor": "12 segundos (VR: 10 - 14 segundos)"
+                },
+                {
+                  "chave": "RNI (Razão Normalizada Internacional)",
+                  "valor": "1,0 (VR: 0,8 - 1,2)"
+                },
+                {
+                  "chave": "TTPA (Tempo de Tromboplastina Parcial Ativada)",
+                  "valor": "28 segundos (VR: 25 - 35 segundos)"
+                },
+                {
+                  "chave": "Fibrinogênio",
+                  "valor": "300 mg/dL (VR: 200 - 400 mg/dL)"
+                },
+                {
+                  "chave": "D-dímero",
+                  "valor": "700 ng/mL (VR: < 500 ng/mL)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_PLASMIC_8",
+        "tituloImpresso": "PLASMIC Score (Tabela de Avaliação de Risco para PTT)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "cabecalho": [
+            "Critério",
+            "Presente (1 ponto)",
+            "Ausente (0 pontos)"
+          ],
+          "linhas": [
+            "[\"Plaquetas < 30.000/mm³\", \" \", \" \"]",
+            "[\"Hemólise (LDH > 2x VR)\", \" \", \" \"]",
+            "[\"Volume Corpuscular Médio (VCM) < 90 fL\", \" \", \" \"]",
+            "[\"Creatinina > 2,0 mg/dL\", \" \", \" \"]",
+            "[\"Coagulopatia (INR > 1,5 ou aPTT > 40s)\", \" \", \" \"]",
+            "[\"Câncer ativo\", \" \", \" \"]",
+            "[\"Transplante de órgão sólido ou células-tronco\", \" \", \" \"]"
+          ],
+          "rodape": "Pontuação total: (0-4 baixa probabilidade de ADAMTS13 <10%; 5-7 alta probabilidade)"
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_PTT_2024V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente do sexo feminino, 35 anos, apresenta quadro agudo de fadiga, cefaleia, alterações neurológicas (confusão, sonolência), lesões petequiais e equimóticas, icterícia, e leve oligúria. Exames laboratoriais revelam trombocitopenia grave, anemia hemolítica microangiopática com esquizócitos, elevação de LDH e bilirrubina indireta, queda de haptoglobina e função renal alterada. O coagulograma está normal, e o PLASMIC score indica baixa probabilidade de deficiência severa de ADAMTS13 com os dados iniciais, mas a forte suspeita clínica exige investigação adicional. A confirmação é dada por ADAMTS13 <5% e anticorpos anti-ADAMTS13 positivos.",
+      "focoPrincipalDetalhado": [
+        "Anamnese direcionada para a tríade (pêntade) da PTT e fatores de risco.",
+        "Solicitação e interpretação de exames laboratoriais essenciais para diagnóstico e diferenciais, incluindo esquizócitos e marcadores de hemólise.",
+        "Aplicação e interpretação de scores de risco (PLASMIC score).",
+        "Confirmação diagnóstica por atividade de ADAMTS13 e autoanticorpos.",
+        "Manejo emergencial da PTT, incluindo plasmaférese e contraindicação de transfusão de plaquetas."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e Postura:\n(1) Apresenta-se ao paciente simulado;\n(2) Cumprimenta o paciente simulado;\n(3) Mantém contato visual com o paciente simulado;\n(4) Demonstra empatia e acolhimento;\n(5) Permite que o paciente se expresse sem interrupções.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 4 ou 5 ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 2 ou 3 ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Realiza 1 ação ou não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Investigação dos sintomas da pêntade da PTT e sintomas associados:\n(1) Características da fraqueza/fadiga (início, duração, intensidade, progressão, impacto funcional);\n(2) Características da cefaleia (início, localização, intensidade, tipo, duração, fatores de piora/melhora, sintomas neurológicos associados, sinais de alarme);\n(3) Características das lesões cutâneas (início, localização, quantidade, evolução, sintomas associados, nega trauma/uso de novas medicações);\n(4) Presença e características da icterícia (início, intensidade, prurido, colúria, acolia fecal, sintomas associados);\n(5) Sintomas urinários (volume, disúria, hematúria);\n(6) Presença de febre, calafrios ou sudorese.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou 6 dos tipos de sintomas listados, com detalhamento adequado.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 dos tipos de sintomas listados, com detalhamento parcial.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos dos tipos de sintomas listados ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Investigação de Antecedentes Relevantes:\n(1) Patológicos (doenças autoimunes, câncer, HIV, transplantes);\n(2) Fisiológicos/Ginecológicos (gravidez/puerpério);\n(3) Familiares (história de PTT, doenças da coagulação, doenças autoimunes);\n(4) Hábitos de Vida (tabagismo, etilismo, uso de drogas ilícitas);\n(5) Uso de medicamentos indutores de PTT (quinina, ticlopidina, clopidogrel, ciclosporina, tacrolimus).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 dos tipos de antecedentes listados, com menção aos exemplos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 dos tipos de antecedentes listados.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 tipo de antecedente ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Verbaliza a solicitação do Exame Físico direcionado:\n(1) Avaliação do estado geral e sinais vitais;\n(2) Exame físico geral com foco em pele e mucosas (presença de petéquias, equimoses, icterícia, palidez);\n(3) Exame neurológico completo e seriado (nível de consciência, déficits focais).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a solicitação de todos os 3 exames e focos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza a solicitação de 1 ou 2 exames e focos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a solicitação ou solicita inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Solicita exames laboratoriais essenciais para triagem e diferenciação de PTT:\n(1) Hemograma completo;\n(2) Esfregaço de sangue periférico;\n(3) Painel de hemólise (LDH, bilirrubina indireta, haptoglobina, reticulócitos, Teste de Coombs Direto);\n(4) Função renal (ureia, creatinina);\n(5) Coagulograma (TAP, TTPA, Fibrinogênio, D-dímero).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 4 ou 5 grupos de exames corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 ou 3 grupos de exames corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 2 grupos de exames ou solicita inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Solicita exames confirmatórios para PTT:\n(1) Atividade da ADAMTS13;\n(2) Anticorpos anti-ADAMTS13.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita os dois exames corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita apenas um exame corretamente.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não solicita os exames confirmatórios.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Interpreta corretamente os achados nos Sinais Vitais e Exame Físico (Impressos 'Sinais Vitais' e 'Exame Físico Geral'):\n(1) Taquicardia;\n(2) Febre leve;\n(3) Estado geral regular, sonolência, desorientação, descoramento, icterícia;\n(4) Petéquias e equimoses disseminadas em pele e mucosas;\n(5) Rebaixamento de consciência (Glasgow 14).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 4 ou 5 achados corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 ou 3 achados corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 2 achados ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Interpreta corretamente os resultados dos exames laboratoriais essenciais (Impressos 'Hemograma Completo', 'Esfregaço de Sangue Periférico', 'Painel de Hemólise', 'Função Renal e Eletrólitos', 'Coagulograma'):\n(1) Trombocitopenia grave (<30.000/mm³);\n(2) Anemia (Hemoglobina 8.0 g/dL);\n(3) Esquizócitos no esfregaço de sangue periférico (>2% dos campos);\n(4) Elevação de LDH (>2x VR);\n(5) Elevação de bilirrubina indireta;\n(6) Queda de haptoglobina (<10 mg/dL);\n(7) Teste de Coombs Direto negativo;\n(8) Disfunção renal leve a moderada (creatinina 1,8 mg/dL);\n(9) Coagulograma normal (TAP, TTPA, Fibrinogênio);\n(10) D-dímero elevado, mas não diagnóstico.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 8 a 10 achados corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 5 a 7 achados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 5 achados ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpreta e aplica corretamente o PLASMIC Score (Impresso 'PLASMIC Score (Tabela de Avaliação de Risco para PTT)') e os resultados dos exames específicos (verbalizados):\n(1) Preenche os critérios do PLASMIC Score identificando os itens presentes (Plaquetas < 30.000/mm³, Hemólise (LDH > 2x VR));\n(2) Calcula a pontuação total (2 pontos);\n(3) Interpreta a pontuação como baixa probabilidade de deficiência severa de ADAMTS13;\n(4) Reconhece a necessidade de iniciar terapia empírica devido à alta suspeita clínica, apesar do PLASMIC score baixo;\n(5) Interpreta a deficiência severa da atividade de ADAMTS13 (<5%) e a presença de anticorpos anti-ADAMTS13 positivos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 4 ou 5 achados/ações corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 ou 3 achados/ações corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 2 achados/ações ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Estabelece o diagnóstico principal e cita diagnósticos diferenciais relevantes:\n(1) Estabelece o diagnóstico principal correto: Púrpura Trombocitopênica Trombótica (PTT) adquirida;\n(2) Cita Síndrome Hemolítico-Urêmica (SHU) (típica e atípica);\n(3) Cita Coagulação Intravascular Disseminada (CIVD);\n(4) Cita Síndrome HELLP (apesar de negar gravidez);\n(5) Cita Anemia Hemolítica Autoimune (AHAI) com trombocitopenia (Síndrome de Evans);\n(6) Cita Sepse grave.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Estabelece o diagnóstico principal correto e cita 4 ou 5 diagnósticos diferenciais.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Estabelece o diagnóstico principal correto e cita 2 ou 3 diagnósticos diferenciais.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico principal correto ou cita menos de 2 diagnósticos diferenciais.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Indica tratamento de primeira linha para PTT:\n(1) Plasmaférese Terapêutica (Troca Plasmática - PLEX) imediata;\n(2) Corticosteroides (ex: Prednisona ou Metilprednisolona intravenosa);\n(3) Caplacizumab (se apropriado e disponível, para PTT adquirida).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica os 3 componentes do tratamento corretamente.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica 1 ou 2 componentes do tratamento corretamente.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Não indica o tratamento ou indica inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Gerencia condutas críticas, contraindicações e Orientações/Encaminhamento:\n(1) Contraindica transfusão de plaquetas na fase aguda da PTT (exceto em sangramento com risco de vida);\n(2) Indica transfusão de concentrado de hemácias (se anemia grave);\n(3) Orienta sobre a gravidade da doença e a necessidade de internação em UTI/emergência;\n(4) Orienta sobre o prognóstico e a importância do tratamento imediato;\n(5) Encaminha o paciente para acompanhamento com Hematologista;\n(6) Responde adequadamente às perguntas do ator simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 5 ou 6 ações corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 3 ou 4 ações corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Realiza menos de 3 ações ou as realiza inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Púrpura Trombocitopênica Trombótica (PTT) é uma microangiopatia trombótica rara e grave, caracterizada pela pêntade clínica de trombocitopenia, anemia hemolítica microangiopática (MAHA), sintomas neurológicos, disfunção renal e febre. A anamnese deve focar no início súbito dos sintomas, presença de lesões cutâneas hemorrágicas, alterações de nível de consciência e fadiga intensa. Fatores de risco incluem doenças autoimunes, gravidez, câncer e uso de certos medicamentos. O exame físico é crucial para identificar petéquias, equimoses, icterícia, palidez e déficits neurológicos. Os exames laboratoriais essenciais incluem hemograma com trombocitopenia e anemia, esfregaço de sangue periférico com esquizócitos (achado patognomônico), elevação de LDH e bilirrubina indireta, redução de haptoglobina e Coombs negativo. Função renal pode estar levemente alterada, e o coagulograma é geralmente normal (diferente da CIVD). O PLASMIC score auxilia na estratificação de risco para deficiência de ADAMTS13. O diagnóstico definitivo é confirmado pela atividade de ADAMTS13 <10% e presença de autoanticorpos anti-ADAMTS13 na forma adquirida. O tratamento é uma emergência e deve ser iniciado rapidamente com plasmaférese terapêutica (PLEX), corticosteroides e, quando disponível, caplacizumab. É crucial contraindicar a transfusão de plaquetas na fase aguda da PTT, pois pode exacerbar a trombose. A transfusão de concentrado de hemácias pode ser necessária para anemia grave. Complicações incluem sangramentos graves, disfunção multissistêmica e recidivas. O acompanhamento a longo prazo com hematologista é fundamental.",
+      "fontes": [
+        "1. George, J.N. (2023). Thrombotic thrombocytopenic purpura: Clinical manifestations and diagnosis. UpToDate. Acesso em: 15 de novembro de 2023.",
+        "2. George, J.N. (2023). Thrombotic thrombocytopenic purpura: Treatment. UpToDate. Acesso em: 15 de novembro de 2023.",
+        "3. Scully, M., et al. (2017). Guidelines for the management of thrombotic thrombocytopenic purpura. British Journal of Haematology, 179(3), 349-362."
+      ]
+    }
+  }
+}
