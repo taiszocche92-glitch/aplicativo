@@ -1,0 +1,622 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_MENINGITE_01",
+  "tituloEstacao": "Meningite Meningocócica Aguda",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Meningite, Meningocócica, Neisseria meningitidis, Emergência, Pronto-Socorro, Clínica Médica",
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Consultórios de emergência",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (Tomografia Computadorizada)",
+        "Medicações disponíveis para emergência (antibióticos, corticosteroides)",
+        "Unidade de terapia intensiva"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente João Silva, 25 anos, estudante universitário, chega ao Pronto-Socorro referindo dor de cabeça terrível, febre alta e rigidez no pescoço. Ele também menciona ter notado manchinhas vermelhas na pele que não desaparecem à pressão.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente e sintomas associados.",
+      "Verbalizar a execução do exame físico completo, com ênfase nos sinais de irritação meníngea e achados cutâneos.",
+      "Solicitar os exames complementares pertinentes para a investigação do caso.",
+      "Interpretar os resultados dos exames apresentados.",
+      "Verbalizar o(s) diagnóstico(s) principal(is) e os diagnósticos diferenciais relevantes.",
+      "Elaborar e verbalizar a conduta terapêutica inicial e as medidas de suporte.",
+      "Comunicar as orientações ao paciente e a necessidade de notificação compulsória."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "O tempo total da estação é de 10 minutos."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com uma dor de cabeça terrível, febre alta e o pescoço duro."
+      },
+      {
+        "contextoOuPerguntaChave": "CEFALEIA",
+        "informacao": "Início: Súbito, há cerca de 18 horas.\nLocalização: Global, mas pior na nuca.\nIntensidade: 10/10, a pior dor que já senti.\nCaracterística: Latejante e pulsátil.\nIrradiação: Não irradia.\nDuração: Contínua, não melhora com nada.\nProgressão: Tem piorado progressivamente.\nFrequencia: É a primeira vez que sinto uma dor assim.\nFator de piora ou agravante: Piora com a luz forte (fotofobia), com barulho (fonofobia) e ao tentar movimentar a cabeça.\nFator de melhora ou atenuante: Nenhum, tentei analgésicos comuns, mas não ajudaram.\nEpisódios prévios: Nunca tive uma dor de cabeça tão forte.\nMedicação de alivio: Tomei dipirona e paracetamol, mas não fez efeito."
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE",
+        "informacao": "Início: Junto com a dor de cabeça, há cerca de 18 horas.\nDuração: Contínua.\nPadrão: Alta o tempo todo, mas não medi. Sinto calafrios.\nIntensidade: Sinto que estou 'queimando' de febre.\nSintomas associados: Calafrios intensos e sudorese.\nResposta a antitérmicos: Não diminuiu com os remédios.\nHistórico de Viagens Recentes: Não viajei.\nContato com doentes ou animais: Não tive contato com animais, mas um colega da república estava 'gripado' há uns 5 dias, com febre e tosse, mas já está melhor.\nUso de medicamentos recentes: Somente os analgésicos para a dor de cabeça e febre.\nEpisódios prévios: Não, nunca tive febre tão alta assim."
+      },
+      {
+        "contextoOuPerguntaChave": "RIGIDEZ DE NUCA",
+        "informacao": "Início: Há cerca de 12 horas, junto com a piora da dor de cabeça.\nDescrição: Não consigo encostar o queixo no peito, dói muito ao tentar.\nFator de piora: Qualquer movimento da cabeça."
+      },
+      {
+        "contextoOuPerguntaChave": "VÔMITOS",
+        "informacao": "Início: Há cerca de 6 horas.\nFrequência: Três episódios.\nRelação temporal: Não tem relação com alimentação, foram em jato.\nConteúdo: Principalmente alimentos ingeridos.\nSintomas associados: Sem náuseas prévias, só o vômito repentino.\nEpisódios prévios: Não, isso é incomum para mim."
+      },
+      {
+        "contextoOuPerguntaChave": "LESÕES CUTÂNEAS",
+        "informacao": "Início: Apareceram esta manhã.\nLocalização: Tronco e pernas.\nCaracterística: Pequenas, vermelhas, não somem à digitopressão."
+      },
+      {
+        "contextoOuPerguntaChave": "SINAIS DE ALARME",
+        "informacao": "Nível de consciência: Não me sinto confuso, só muito fraco e com dor.\nConvulsões: Não tive convulsões.\nDéficits neurológicos focais: Não, consigo mexer tudo normalmente."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Saudável, nunca tive doenças graves.\nCirurgias prévias: Nega.\nInternações: Nega.\nAlergias: Nega.\nMedicamentos em uso contínuo: Nega.\nVacinação: Não sei se estou em dia com as vacinas de meningite, acho que não recebi as mais recentes.\nTrauma: Nega.\nTransfusões: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Tipo do parto: Não consta no script.\nTempo de Gestação: Não consta no script.\nIntercorrências neonatais: Não consta no script.\nHábitos sexuais: Não consta no script.\nHábitos urinários: Não consta no script.\nHábitos intestinais: Não consta no script.\nIngestão hídrica: Não consta no script.\nExposição ocupacional: Estudante universitário, não tem exposição a riscos.\nEstresse: Sinto um pouco de estresse com os estudos, mas nada incomum."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Não fumo.\nEtilismo: Bebo socialmente, mas não agora.\nDrogas ilícitas: Não uso.\nAlimentação: Normal.\nAtividade física: Faço caminhadas leves ocasionalmente.\nSono: Ultimamente, tem sido irregular devido aos estudos, mas nunca assim tão mal.\nHábitos urinários: Não consta no script.\nHábitos intestinais: Não consta no script.\nIngestão hídrica: Não consta no script.\nExposição ocupacional: Estudante universitário, não tem exposição a riscos.\nEstresse: Sinto um pouco de estresse com os estudos, mas nada incomum."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Saudável.\nMãe: Saudável.\nDoenças na família: Ninguém na família teve meningite.\nHistória de câncer na família: Nega.\nIrmãos ou tias: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Não viajei para lugar algum nos últimos meses.\nExposição a doenças infecciosas: Um colega da república estava 'gripado' há uns 5 dias, com febre e tosse, mas já está melhor.\nContato com doentes: Colega de república.\nExposição a animais: Nega.\nExposição a vetores: Nega.\nÁgua consumida: Filtrada.\nExposição a agentes ambientais: Nega.\nAglomerações: Sou estudante universitário e moro em república com mais 4 colegas. Frequentamos a universidade, a biblioteca e o refeitório."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Mantenha a expressão de dor e desconforto.\nAo ser questionado sobre o pescoço, tente movimentar a cabeça com dificuldade e verbalize que dói muito."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "Pergunta (1): Doutor, o que é isso? É grave?\nPergunta (2): Eu vou precisar ficar internado?\nPergunta (3): Meus amigos da república correm risco também? O que eles devem fazer?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Ficha de Sinais Vitais - Admissão",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "110 × 70 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "105 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "22 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "39,3 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "96% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Resultado de Hemograma",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SÉRIE VERMELHA",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.0 g/dL (VR: 13 - 17 g/dL)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "42% (VR: 39 - 50%)"
+                },
+                {
+                  "chave": "VCM",
+                  "valor": "89 fL (VR: 80 - 100 fL)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SÉRIE BRANCA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "22.500/mm³ (VR: 4.000 - 10.000/mm³)"
+                },
+                {
+                  "chave": "Segmentados",
+                  "valor": "88% (VR: 40 - 70%)"
+                },
+                {
+                  "chave": "Bastonetes",
+                  "valor": "6% (VR: 0 - 5%)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "PLAQUETAS",
+              "itens": [
+                {
+                  "chave": "Plaquetas",
+                  "valor": "200.000/mm³ (VR: 150.000 - 450.000/mm³)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_3",
+        "tituloImpresso": "Resultados Bioquímicos Iniciais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "MARCADORES INFLAMATÓRIOS",
+              "itens": [
+                {
+                  "chave": "PCR",
+                  "valor": "120 mg/L (VR: <5 mg/L)"
+                },
+                {
+                  "chave": "Procalcitonina",
+                  "valor": "8.5 ng/mL (VR: <0.5 ng/mL)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "GLICEMIA E FUNÇÃO RENAL",
+              "itens": [
+                {
+                  "chave": "Glicose",
+                  "valor": "105 mg/dL (VR: 70 - 99 mg/dL)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (VR: 15 - 45 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (VR: 0.7 - 1.2 mg/dL)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_4",
+        "tituloImpresso": "Resultado de Líquido Cefalorraquidiano (LCR)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ANÁLISE FÍSICA E CITOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Aspecto",
+                  "valor": "Turvo"
+                },
+                {
+                  "chave": "Pressão de Abertura",
+                  "valor": "35 cmH2O (VR: 7 - 18 cmH2O)"
+                },
+                {
+                  "chave": "Células (Citometria)",
+                  "valor": "2.500/mm³ (VR: <5 células/mm³)"
+                },
+                {
+                  "chave": "Predomínio",
+                  "valor": "Neutrófilos 95%"
+                },
+                {
+                  "chave": "Proteínas",
+                  "valor": "350 mg/dL (VR: 15 - 45 mg/dL)"
+                },
+                {
+                  "chave": "Glicose",
+                  "valor": "25 mg/dL (VR: 40 - 70 mg/dL)"
+                },
+                {
+                  "chave": "Relação Glicose LCR/Sérica",
+                  "valor": "0.24 (VR: >0.5)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MICROBIOLOGIA",
+              "itens": [
+                {
+                  "chave": "Gram de LCR",
+                  "valor": "Cocos Gram-negativos aos pares"
+                },
+                {
+                  "chave": "Cultura de LCR",
+                  "valor": "POSITIVA para Neisseria meningitidis"
+                },
+                {
+                  "chave": "PCR para Meningococo",
+                  "valor": "DETECTADO"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_TC_5",
+        "tituloImpresso": "Tomografia Computadorizada de Crânio",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "[ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM].",
+          "caminhoImagem": "https://neuroradiology-teaching-cases.com/case-of-the-week/september-14-2015-meningitis-with-hydrocephalus/",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: TC de crânio com sinais discretos de edema cerebral difuso em meningite bacteriana)",
+          "laudo": "ACHADOS:\nTomografia Computadorizada de Crânio: Sem evidências de hidrocefalia, desvio de linha média ou lesões expansivas. Sinais discretos de edema cerebral difuso.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_MENINGITE_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 25 anos, estudante universitário, apresenta quadro de meningite bacteriana aguda, com forte suspeita para etiologia meningocócica, manifestado por cefaleia súbita e intensa, febre alta, rigidez de nuca, vômitos em jato e exantema petequial. Os exames laboratoriais e de LCR confirmam meningite bacteriana por Neisseria meningitidis.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa e direcionada para sinais e sintomas de meningite e fatores de risco.",
+        "Exame físico detalhado com busca ativa de sinais meníngeos e exantema.",
+        "Solicitação e interpretação de exames complementares (hemograma, marcadores inflamatórios, hemocultura, TC de crânio, punção lombar e análise do LCR).",
+        "Formulações diagnósticas (principal e diferenciais).",
+        "Elaboração de conduta terapêutica imediata e medidas de suporte.",
+        "Comunicação adequada ao paciente e familiares sobre a doença, tratamento e medidas de prevenção (quimioprofilaxia para contatos)."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, caracterizando a cefaleia:\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Característica;\n(5) Irradiação;\n(6) Duração;\n(7) Progressão;\n(8) Fatores de piora (fotofobia, fonofobia);\n(9) Fatores de melhora;\n(10) Episódios prévios;\n(11) Medicação de alívio e efeito.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 9 de 11 características da cefaleia.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 5 a 8 características da cefaleia.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 5 características ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, caracterizando a febre e sintomas sistêmicos:\n(1) Início;\n(2) Duração;\n(3) Padrão;\n(4) Intensidade;\n(5) Sintomas associados (calafrios, sudorese);\n(6) Resposta a antitérmicos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 5 de 6 características da febre.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 4 características da febre.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 características ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza anamnese, investigando sinais/sintomas de irritação meníngea e doença meningocócica invasiva:\n(1) Rigidez de nuca (dificuldade de flexão do pescoço);\n(2) Vômitos (em jato, relação com alimentação);\n(3) Presença e características de exantema cutâneo (petequial/purpúrico, não desaparece à digitopressão);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 3 de 3 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 1 ou 2 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 1 item ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Realiza anamnese, investigando antecedentes e fatores de risco:\n(1) Estado vacinal para meningococo;\n(2) Contato com caso suspeito/confirmado de doença respiratória ou meningite (colega de república);\n(3) Aglomerações (moradia em república/dormitórios);\n(4) Histórico de imunodeficiência (asplenia, deficiência de complemento).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 de 4 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não investiga ou investiga inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Verbaliza a execução do exame físico geral e específico:\n(1) Avaliação de Sinais vitais;\n(2) Avaliação do Estado geral e nível de consciência;\n(3) Exame neurológico (rigidez de nuca, sinais de Kernig e Brudzinski);\n(4) Exame da pele (busca ativa por exantema petequial/purpúrico, Glass Test).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a execução de 4 de 4 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza a execução de 2 ou 3 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a execução de menos de 2 itens ou inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita os exames laboratoriais iniciais para investigação:\n(1) Hemograma completo;\n(2) PCR e/ou Procalcitonina;\n(3) Hemocultura (antes do antibiótico);\n(4) Glicemia concomitante (para cálculo da relação LCR/sérica);\n(5) Coagulograma;\n(6) Eletrólitos, Função Renal e Hepática.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 5 de 6 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 3 ou 4 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 3 itens ou inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Verbaliza a indicação da Tomografia Computadorizada de Crânio antes da punção lombar e suas condições:\n(1) Em caso de sinais de hipertensão intracraniana (papiledema);\n(2) Déficit neurológico focal;\n(3) Crise convulsiva;\n(4) Imunocomprometimento grave.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza corretamente a indicação da TC de Crânio e 3 ou 4 de suas indicações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza a indicação da TC de Crânio e 1 ou 2 de suas indicações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a indicação da TC ou verbaliza incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita a Punção Lombar e os exames a serem realizados no LCR:\n(1) Aspecto e pressão de abertura;\n(2) Citometria (número de células e predomínio);\n(3) Bioquímica (proteínas e glicose);\n(4) Colorimetria de Gram;\n(5) Cultura;\n(6) PCR para meningococo e/ou pesquisa de antígenos bacterianos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita a punção e 5 de 6 exames do LCR de forma completa.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita a punção e 3 ou 4 exames do LCR de forma completa.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou solicita menos de 3 exames ou inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Interpreta os resultados dos exames apresentados:\n(1) LCR (aspecto turvo, pleocitose neutrofílica, proteinorraquia elevada, glicorraquia baixa, Gram positivo para cocos Gram-negativos, cultura/PCR para *N. meningitidis* detectado);\n(2) Hemograma (leucocitose com desvio à esquerda);\n(3) Marcadores inflamatórios (PCR e Procalcitonina elevados);\n(4) TC de crânio (sem contraindicações para PL).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente os 4 conjuntos de resultados (LCR, hemograma, marcadores, TC).",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente 2 ou 3 conjuntos de resultados.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não interpreta adequadamente os exames ou interpreta apenas 1 conjunto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Verbaliza o(s) diagnóstico(s) principal(is):\n(1) Meningite Bacteriana Aguda;\n(2) Meningite Meningocócica (após confirmação laboratorial);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza os dois diagnósticos corretamente.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza apenas o diagnóstico de Meningite Bacteriana Aguda.",
+            "pontos": 0.6
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza os diagnósticos corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Verbaliza os diagnósticos diferenciais relevantes:\n(1) Outras meningites bacterianas (ex: por *S. pneumoniae*, *H. influenzae*);\n(2) Meningite viral;\n(3) Hemorragia subaracnoidea;\n(4) Encefalite.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza 3 ou 4 diagnósticos diferenciais relevantes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 1 ou 2 diagnósticos diferenciais relevantes.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza ou verbaliza incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Elabora e verbaliza a conduta terapêutica medicamentosa e de suporte:\n(1) Início imediato de antibioticoterapia empírica (Ceftriaxona);\n(2) Prescrição de Dexametasona (antes ou concomitantemente ao antibiótico);\n(3) Internação hospitalar (preferencialmente em isolamento de gotículas);\n(4) Avaliação de necessidade de UTI (se houver sinais de choque);\n(5) Medidas de suporte (hidratação cautelosa, controle da febre, anticonvulsivantes se necessário).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora e verbaliza 4 ou 5 itens da conduta terapêutica de forma completa.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora e verbaliza 2 ou 3 itens da conduta terapêutica de forma completa.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não elabora ou verbaliza inadequadamente menos de 2 itens.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Orienta o paciente e responde às suas dúvidas:\n(1) Informa sobre a gravidade da doença e a necessidade de internação;\n(2) Orienta sobre o risco para contatos próximos e a necessidade de quimioprofilaxia (para colegas de república);\n(3) Responde às perguntas do paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta e responde 3 de 3 itens de forma completa.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta e responde 1 ou 2 itens de forma completa.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não orienta ou responde inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Notificação ao SINAN.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a necessidade de notificação compulsória do caso ao SINAN.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a necessidade de notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10,
+    "feedbackEstacao": {
+      "resumoTecnico": "A meningite meningocócica é uma emergência médica grave causada pela bactéria *Neisseria meningitidis*, com alta letalidade e potencial para sequelas neurológicas. A anamnese deve focar no início súbito de febre alta, cefaleia intensa, rigidez de nuca, vômitos em jato, fotofobia e, especialmente, a presença de exantema petequial ou purpúrico, que sugere doença invasiva. No exame físico, são essenciais a avaliação do nível de consciência, sinais de irritação meníngea (Kernig, Brudzinski) e a busca por lesões cutâneas. Os exames complementares incluem hemograma (leucocitose com desvio à esquerda), PCR/procalcitonina elevadas e, crucialmente, análise do líquido cefalorraquidiano (LCR). O LCR típico de meningite bacteriana apresenta aspecto turvo, pleocitose com predomínio neutrofílico, proteinorraquia elevada e glicorraquia baixa. A identificação do agente é feita por Gram, cultura ou PCR de LCR/sangue. A TC de crânio é indicada antes da punção lombar se houver sinais de hipertensão intracraniana ou déficits focais, mas não deve atrasar a antibioticoterapia. O tratamento empírico deve ser iniciado imediatamente com Ceftriaxona e Dexametasona. Após a confirmação de *N. meningitidis*, a Ceftriaxona é mantida. A notificação compulsória é obrigatória, e a quimioprofilaxia para contatos próximos é fundamental na prevenção secundária, além da vacinação como principal medida preventiva. O manejo inclui medidas de suporte e, em casos graves, internação em UTI, com atenção a complicações como choque séptico e síndrome de Waterhouse-Friderichsen.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde e Ambiente. Departamento de Imunização e Doenças Transmissíveis. Coordenação-Geral de Vigilância de Doenças Transmissíveis. Guia de Vigilância em Saúde: volume único. 5. ed. Brasília: Ministério da Saúde, 2023.",
+        "2. SOCIEDADE BRASILEIRA DE INFECTOLOGIA (SBI). Recomendações da SBI para o diagnóstico e tratamento das meningites. Disponível em: <https://www.infectologia.org.br/> (Consultado em: Janeiro de 2024).",
+        "3. UpToDate. Clinical features and diagnosis of meningococcal disease. Disponível em: <https://www.uptodate.com/contents/clinical-features-and-diagnosis-of-meningococcal-disease> (Consultado em: Janeiro de 2024)."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "b5e63098-4ee4-4128-9867-71d475b55ae7",
+  "created_at": "2025-08-28T08:40:23.629210",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Meningite meningococica",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

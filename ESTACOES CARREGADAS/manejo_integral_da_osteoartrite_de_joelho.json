@@ -1,0 +1,477 @@
+{
+  "idEstacao": "REVALIDA_2025_CM_OSTEOARTRITE",
+  "tituloEstacao": "Manejo Integral da Osteoartrite de Joelho",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Osteoartrite",
+    "Artrose",
+    "Dor no Joelho",
+    "Clínica Médica",
+    "Atenção Secundária"
+  ],
+  "nivelDificuldade": "Médio a Alto",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem",
+        "Receituário/prescrição"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente Maria Antônia da Silva, 68 anos, sexo feminino, comparece à consulta ambulatorial referindo dor no joelho direito e dificuldade para caminhar.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal da paciente.",
+      "Realizar o exame físico direcionado ao caso.",
+      "Solicitar exames complementares pertinentes ao quadro clínico e à paciente.",
+      "Interpretar os exames complementares apresentados e verbalizar seus achados.",
+      "Estabelecer o diagnóstico principal e citar diagnósticos diferenciais relevantes.",
+      "Elaborar a conduta terapêutica completa, incluindo medidas não farmacológicas e farmacológicas.",
+      "Orientar a paciente sobre o manejo da doença, sinais de alerta e a importância do seguimento."
+    ],
+    "avisosImportantess": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! A PACIENTE SIMULADA NÃO DEVERÁ SER TOCADA DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com dor no joelho direito e dificuldade para caminhar."
+      },
+      {
+        "contextoOuPerguntaChave": "Dor no joelho direito",
+        "informacao": "Início: Há cerca de 2 anos, gradual\nLocalização: Joelho direito, principalmente na parte interna\nIntensidade: 6/10 no pior momento (ao caminhar), 3/10 em repouso\nCaracterística: Peso\nCaracterística: Pontada ocasional\nIrradiação: Não irradia\nDuração: Contínua, mas piora com atividade\nProgressão: Piorando progressivamente nos últimos 6 meses\nFator de piora: Caminhar longas distâncias, subir e descer escadas, carregar peso\nFator de melhora: Repouso, uso de compressas mornas\nEpisódios prévios: Nunca sentiu dor similar em outro joelho ou articulação\nMedicação de alívio: Paracetamol 750mg quando a dor está forte, com alívio parcial e temporário."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Rigidez matinal: Sim\nDuração da rigidez matinal: Cerca de 15 minutos ao acordar, melhora após alguns passos\nRigidez pós-repouso: Sente o joelho 'emperrado' após ficar sentada por muito tempo, mas melhora rapidamente\nCrepitação: Sim, sente e ouve um 'rangido' ou 'estalo' no joelho direito ao se movimentar\nInchaço: Não tem notado inchaço no joelho\nCalor: Não tem notado calor no joelho\nDeformidade: Acha que o joelho está um pouco 'torto para dentro'\nPerda de função: Dificuldade para subir e descer escadas, levantar de cadeiras baixas, caminhar por mais de 15 minutos\nDor em outras articulações: Nega\nFebre: Nega\nPerda de peso não intencional: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Hipertensão Arterial Sistêmica, diagnosticada há 10 anos, controlada\nCirurgias prévias: Apendicectomia há 30 anos\nInternações: Nega\nAlergias: Nega\nMedicamentos em uso contínuo: Losartana 50mg/dia\nVacinação: Não consta no script\nTrauma: Fratura de tornozelo direito há 20 anos, sem sequelas no joelho\nTransfusões: Nega\nDiabetes Mellitus: Nega\nDoenças Cardíacas: Nega\nDoenças Renais: Nega\nDoenças Hepáticas: Nega\nÚlcera Péptica: Nega\nAsma: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nunca fumou\nEtilismo: Não ingere bebidas alcoólicas\nAtividade física: Caminhava 30 minutos, 3 vezes por semana, mas parou devido à dor no joelho\nDieta: Refere dieta equilibrada, mas tem sobrepeso\nPeso: 75kg\nAltura: 1,60m\nSono: Não consta no script\nHábitos urinários: Não consta no script\nHábitos intestinais: Não consta no script\nIngestão hídrica: Não consta no script\nExposição ocupacional: Não consta no script\nEstresse: Não consta no script"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Falecido por infarto\nMãe: 'Artrose nos joelhos'\nDoenças na família: 'Artrose nos joelhos' na tia materna\nHistória de câncer na família: Nega\nIrmãos ou tias: Tia materna com 'artrose nos joelhos'"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): Doutor(a), o que é exatamente essa 'artrose'? Tem cura? Vou ter que operar?\npergunta (2): Mas se eu fizer fisioterapia, vou poder voltar a caminhar como antes?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "130 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "78 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "36,5 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "98% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais (Realizados há 1 semana)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "12,8 g/dL (VR: 12-16 g/dL)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "38,5% (VR: 36-48%)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.500/mm³ (VR: 4.000-11.000/mm³)"
+                },
+                {
+                  "chave": "PCR",
+                  "valor": "5 mg/L (VR: < 5 mg/L)"
+                },
+                {
+                  "chave": "VHS",
+                  "valor": "15 mm/h (VR: < 20 mm/h para mulheres < 50 anos)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "95 mg/dL (VR: 70-99 mg/dL)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (VR: 15-45 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0,8 mg/dL (VR: 0,6-1,2 mg/dL)"
+                },
+                {
+                  "chave": "TGO",
+                  "valor": "22 U/L (VR: < 35 U/L)"
+                },
+                {
+                  "chave": "TGP",
+                  "valor": "20 U/L (VR: < 35 U/L)"
+                },
+                {
+                  "chave": "Ácido Úrico",
+                  "valor": "4,5 mg/dL (VR: 2,4-6,0 mg/dL)"
+                },
+                {
+                  "chave": "Fator Reumatoide",
+                  "valor": "< 10 UI/mL (VR: < 14 UI/mL)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_RAIOX_JOELHO_3",
+        "tituloImpresso": "Radiografia de Joelho Direito AP com Carga",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "[ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM].",
+          "caminhoImagem": "https://upload.wikimedia.org/wikipedia/commons/2/25/Knee_OA_grade_3.jpg",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: Radiografia de joelho osteoartrite grau 3 com estreitamento medial, osteófitos e esclerose subcondral)",
+          "laudo": "Radiografia de joelho direito em AP com carga evidenciando:\n(1) Estreitamento assimétrico do espaço articular medial.\n(2) Presença de osteófitos marginais (principalmente medial).\n(3) Esclerose subcondral na tíbia e fêmur medial.\n(4) Ausência de erosões ou cistos subcondrais extensos.\n(5) Classificação de Kellgren-Lawrence Grau III."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_OSTEOARTRITE_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente Maria Antônia da Silva, 68 anos, sexo feminino, apresenta quadro de dor crônica e progressiva no joelho direito há 2 anos, com ritmo mecânico, rigidez matinal de curta duração e crepitação. Possui antecedentes de hipertensão e história familiar de osteoartrite. O exame físico e exames complementares (laboratoriais e radiografia) corroboram o diagnóstico de osteoartrite de joelho direito grau III, com exclusão de outras artropatias inflamatórias. O manejo deve focar em medidas não farmacológicas, controle da dor e educação da paciente.",
+      "focoPrincipalDetalhado": [
+        "Anamnese direcionada para caracterização da dor articular e sintomas associados.",
+        "Avaliação de antecedentes pessoais, familiares e hábitos de vida relevantes para a osteoartrite e diagnósticos diferenciais.",
+        "Solicitação e interpretação de exames complementares para confirmação diagnóstica e exclusão de diferenciais.",
+        "Estabelecimento do diagnóstico principal e formulação de diagnósticos diferenciais.",
+        "Elaboração de plano terapêutico completo, incluindo manejo não farmacológico e farmacológico.",
+        "Orientação e educação da paciente sobre a doença, tratamento e seguimento."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta a paciente simulada.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Dor no joelho direito. Pergunta sobre as características da dor:\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Característica (peso);\n(5) Característica (pontada);\n(6) Irradiação;\n(7) Duração;\n(8) Progressão;\n(9) Fator de piora;\n(10) Fator de melhora;\n(11) Episódios prévios;\n(12) Medicação de alívio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 10 de 12 ou mais características da dor.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 6 a 9 de 12 características da dor.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Pergunta 5 de 12 ou menos características da dor ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Outros sintomas articulares e sistêmicos. Investiga:\n(1) Rigidez matinal (duração);\n(2) Rigidez pós-repouso;\n(3) Crepitação;\n(4) Inchaço ou calor articular;\n(5) Deformidade;\n(6) Perda de função;\n(7) Dor em outras articulações;\n(8) Sintomas sistêmicos (febre, perda de peso não intencional).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 de 8 ou mais itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 de 8 itens.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 de 8 ou menos itens ou não investiga item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Antecedentes Patológicos Pessoais e Familiares. Investiga:\n(1) Doenças crônicas (HAS, DM);\n(2) Cirurgias prévias;\n(3) Alergias;\n(4) Traumas articulares prévios;\n(5) Doenças Renais/Hepáticas/Úlcera/Asma;\n(6) História familiar de Osteoartrite;\n(7) Outras artropatias familiares.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 de 7 ou mais itens de forma completa.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 4 de 7 itens de forma completa.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 de 7 ou menos itens ou não investiga item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Hábitos de Vida e Medicamentos em Uso. Investiga:\n(1) Tabagismo;\n(2) Etilismo;\n(3) Nível de atividade física;\n(4) Dieta e peso (IMC);\n(5) Medicamentos em uso contínuo (além dos de alívio).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 de 5 ou mais itens de forma completa.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 a 3 de 5 itens de forma completa.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 de 5 ou menos itens ou não investiga item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Solicita Exame Físico Geral e Específico do Joelho. Solicita:\n(1) Sinais vitais;\n(2) IMC;\n(3) Inspeção da articulação afetada (marcha, desalinhamento, atrofia, deformidades);\n(4) Palpação da articulação afetada (dor, crepitação, espessamento, derrame, calor);\n(5) Avaliação da Amplitude de Movimento (ativa e passiva);\n(6) Avaliação da Força Muscular periarticular.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 5 de 6 ou mais itens adequadamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 3 a 4 de 6 itens adequadamente.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Solicita 2 de 6 ou menos itens ou não solicita item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicitação e Interpretação de Exames Laboratoriais. Solicita e interpreta:\n(1) Hemograma;\n(2) VHS e/ou PCR;\n(3) Função Renal (Ureia, Creatinina);\n(4) Função Hepática (TGO, TGP);\n(5) Ácido Úrico (para diferenciais);\n(6) Fator Reumatoide (para diferenciais).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 5 de 6 ou mais itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 3 a 4 de 6 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta corretamente 2 de 6 ou menos itens ou não solicita/interpreta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicitação e Interpretação de Exames de Imagem. Solicita e interpreta:\n(1) Radiografia simples da articulação afetada (AP com carga);\n(2) Estreitamento do espaço articular;\n(3) Osteófitos marginais;\n(4) Esclerose subcondral;\n(5) Classificação radiográfica (Kellgren-Lawrence).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita a radiografia e interpreta corretamente 4 de 5 ou mais achados.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita a radiografia e interpreta corretamente 2 a 3 de 5 achados.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não solicita a radiografia ou interpreta corretamente 1 de 5 ou menos achados.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Estabelece Diagnóstico Principal. Verbaliza o diagnóstico principal correto.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico principal correto (Osteoartrite de joelho direito).",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza um diagnóstico correto, mas incompleto ou impreciso (ex: apenas 'artrose').",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico principal correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Cita Diagnósticos Diferenciais. Cita pelo menos dois diagnósticos diferenciais relevantes.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 2 ou mais diagnósticos diferenciais relevantes (ex: Artrite Reumatoide, Gota, Bursite, Tendinite, Necrose Avascular).",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita apenas 1 diagnóstico diferencial relevante.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Propõe Conduta Não Farmacológica. Propõe:\n(1) Perda de peso;\n(2) Exercícios físicos de baixo impacto e fortalecimento muscular (Fisioterapia);\n(3) Uso de calor/frio local e/ou órteses;\n(4) Educação da paciente (autocuidado, manejo da dor).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe 3 de 4 ou mais itens de forma completa e adequada.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 1 a 2 de 4 itens de forma completa e adequada.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Propõe 0 de 4 itens ou de forma inadequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Propõe Conduta Farmacológica. Propõe:\n(1) Paracetamol ou AINE tópico como primeira linha;\n(2) AINE oral (com cautela, se necessário);\n(3) Alerta sobre riscos e efeitos colaterais dos medicamentos (especialmente AINEs).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe 3 de 3 itens de forma completa e adequada.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 1 a 2 de 3 itens de forma completa e adequada.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Propõe 0 de 3 itens ou de forma inadequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Oferece Orientações e Plano de Seguimento. Orienta sobre:\n(1) Natureza crônica da doença e adesão ao tratamento;\n(2) Sinais de alarme ou piora;\n(3) Necessidade de reavaliação periódica;\n(4) Responde adequadamente às perguntas da paciente simulada.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre 3 de 4 ou mais itens e responde às perguntas.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta sobre 1 a 2 de 4 itens e responde às perguntas.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Orienta sobre 0 de 4 itens ou não responde adequadamente às perguntas.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A osteoartrite (OA) é uma doença articular degenerativa crônica e progressiva, caracterizada pela deterioração da cartilagem, formação de osteófitos e esclerose subcondral. É a artropatia mais comum, afetando principalmente idosos e articulações de carga como joelhos e quadris.\n\nNa anamnese, o foco deve ser na dor de ritmo mecânico (piora com atividade, melhora com repouso), rigidez matinal de curta duração (<30min) e crepitação. Deve-se investigar fatores de risco como idade, obesidade, traumas prévios e história familiar. No exame físico, esperam-se crepitação palpável, dor à palpação da linha articular, redução da amplitude de movimento, atrofia muscular e, em casos avançados, deformidades e desalinhamento.\n\nExames laboratoriais são úteis para excluir diagnósticos diferenciais, como artrites inflamatórias (VHS, PCR, FR, Ácido Úrico geralmente normais na OA). A radiografia simples é fundamental para o diagnóstico, evidenciando estreitamento do espaço articular (assimétrico), osteófitos, esclerose e cistos subcondrais, sendo estadiada pela classificação de Kellgren-Lawrence.\n\nO diagnóstico é clínico-radiográfico. Os diferenciais incluem artrite reumatoide, gota, pseudogota, artrite séptica, bursite, tendinite e necrose avascular. O tratamento é individualizado e visa alívio da dor e melhora da função. A primeira linha é não farmacológica: educação, perda de peso e exercícios de baixo impacto (fisioterapia, fortalecimento muscular). Farmacologicamente, paracetamol ou AINEs tópicos são as primeiras escolhas, seguidos por AINEs orais (com cautela devido a efeitos adversos cardiovasculares, gastrointestinais e renais) ou tramadol em casos refratários. Infiltrações intra-articulares (corticoides ou ácido hialurônico) podem ser consideradas. A cirurgia (artroplastia) é reservada para casos avançados refratários ao tratamento conservador. Fatores de risco incluem idade, obesidade e trauma. A prevenção baseia-se na manutenção de peso saudável e atividade física moderada.\n\nSinais de alarme incluem dor noturna persistente, febre, calor/rubor articular (sugere artrite séptica) e perda de peso inexplicada. O seguimento é contínuo, com monitoramento da dor e função, e ajuste terapêutico conforme a evolução.",
+      "fontes": [
+        "1. Sociedade Brasileira de Reumatologia (SBR). Consenso Brasileiro para o Tratamento da Osteoartrite, 2017. Disponível em: [https://www.reumatologia.org.br/doencas-reumaticas/osteoartrite/](https://www.reumatologia.org.br/doencas-reumaticas/osteoartrite/)",
+        "2. Brasil. Ministério da Saúde. Portaria Conjunta nº 18, de 16 de maio de 2024. Aprova o Protocolo Clínico e Diretrizes Terapêuticas da Osteoartrite. Disponível em: [https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/portarias/2024/portaria-conjunta-no-18-de-16-de-maio-de-2024](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/portarias/2024/portaria-conjunta-no-18-de-16-de-maio-de-2024)",
+        "3. Hochberg MC, et al. American College of Rheumatology 2012 Recommendations for the Use of Nonpharmacologic and Pharmacologic Therapies in Osteoarthritis of the Hand, Hip, and Knee. Arthritis Care Res (Hoboken). 2012;64(4):465-474."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "7214c357-d53e-4798-a32d-cec6e10d57af",
+  "created_at": "2025-08-28T12:51:27.468554",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Osteoartrite",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

@@ -1,0 +1,758 @@
+{
+  "idEstacao": "REVALIDA_2025_CM_ZIKA",
+  "tituloEstacao": "Infecção por Zika Vírus em Gestante",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Zika Vírus",
+    "Arbovirose",
+    "Gestação",
+    "Exantema",
+    "Síndrome Congênita do Zika",
+    "Clínica Médica",
+    "Urgência e emergência"
+  ],
+  "nivelDificuldade": "Médio a Alto",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (Ultrassonografia)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente Maria da Silva, 30 anos, procura atendimento na Unidade de Pronto Atendimento (UPA) com queixa de manchas vermelhas no corpo e coceira generalizada.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese completa, investigando queixas principais, sintomas associados, antecedentes pessoais, ginecológicos, epidemiológicos e hábitos de vida.",
+      "Analisar e interpretar os dados de identificação do paciente, sinais vitais e achados do exame físico visual (ectoscopia).",
+      "Solicitar e interpretar os exames laboratoriais complementares pertinentes ao caso.",
+      "Verbalizar o diagnóstico principal e os diagnósticos diferenciais relevantes.",
+      "Elaborar a conduta terapêutica inicial e as orientações adequadas ao caso, incluindo cuidados na gestação e prevenção.",
+      "Responder às dúvidas do paciente simulado.",
+      "Realizar a notificação compulsória do caso."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: Maria da Silva\nIdade: 30 anos\nSexo: Feminino\nEstado Civil: Casada\nProfissão: Professora\nProcedência: Capital (área com alta transmissão de arboviroses)\nInformação adicional: Não usa método contraceptivo e teve relação desprotegida recentemente."
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com manchas vermelhas no corpo e uma coceira que me incomoda, além de um pouco de dor nas juntas e vermelhidão nos olhos."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA PRINCIPAL: EXANTEMA",
+        "informacao": "Início: Há 3 dias\nLocalização: Começou no rosto e pescoço e se espalhou para o tronco e membros, inclusive palma das mãos e planta dos pés\nQuantidade: Inúmeras manchas\nIntensidade: Leve a moderada\nCaracterística: Maculopapular, eritematoso, não confluente\nIrradiação: Não se aplica, é difuso\nDuração: Contínuo, ainda presente\nProgressão: Surgindo novas lesões, mas sem piora da intensidade das já existentes\nFrequência: Contínuo desde o início\nFator de piora ou agravante: Não identifica\nFator de melhora ou atenuante: Não identifica, mas um banho frio alivia um pouco\nEpisódios prévios: Nunca tive algo assim antes\nMedicação de alívio: Não usou nada específico, apenas um hidratante comum"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA ASSOCIADO: PRURIDO",
+        "informacao": "Início: Concomitante ao exantema\nIntensidade: Nota 6/10, incomoda bastante\nPiora: Piora à noite\nMelhora: Melhora um pouco com banho frio\nLesões associadas: Manchas vermelhas\nSintomas sistêmicos: Nega\nContexto: Ninguém mais em casa está com coceira\nEpisódios prévios: Nunca teve\nMedicação de alívio: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA ASSOCIADO: ARTRALGIA",
+        "informacao": "Início: Há 2 dias\nLocalização: Mais nas mãos e nos pés, bilateral e simétrica\nQuantidade: Pequenas articulações das mãos e pés\nIntensidade: Leve a moderada, nota 4/10\nCaracterística: Dor sem inchaço\nIrradiação: Não irradia\nDuração: Contínua, mas oscila\nProgressão: Sem piora significativa\nFrequência: Contínuo\nFator de piora ou agravante: Nega\nFator de melhora ou atenuante: Repouso não ajuda muito\nEpisódios prévios: Nunca teve\nMedicação de alívio: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA ASSOCIADO: CONJUNTIVITE",
+        "informacao": "Início: Há 2 dias\nLocalização: Ambos os olhos\nIntensidade: Leve\nCaracterística: Olhos vermelhos, sem secreção\nIrradiação: Não se aplica\nDuração: Contínua\nProgressão: Estável\nFrequência: Contínua\nFator de piora ou agravante: Nega\nFator de melhora ou atenuante: Nega\nEpisódios prévios: Nunca teve\nMedicação de alívio: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMA ASSOCIADO: FEBRE",
+        "informacao": "Início: No dia que as manchas apareceram\nIntensidade: Temperatura máxima 37,8°C (medida uma vez)\nSintomas associados: Nega calafrios ou sudorese noturna\nResposta a antitérmicos: Não usou antitérmico, pois a febre foi baixa e logo passou\nEpisódios prévios: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS NEGADOS",
+        "informacao": "Cefaleia: Nega\nDor retro-orbital: Nega\nMialgia: Nega\nFraqueza muscular progressiva: Nega\nDificuldade respiratória: Nega\nNáuseas/Vômitos: Nega\nDor abdominal: Nega\nSangramentos: Nega (nem espontâneos, nem gengivorragia, epistaxe, petéquias)\nSinais de alarme da dengue: Nega (dor abdominal intensa, vômitos persistentes, sangramentos, letargia)"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagem ou residência em área com transmissão de ZIKV: Sim, reside na capital, que é área endêmica. Nega viagens nos últimos 30 dias.\nContato com casos confirmados de arboviroses: Nega\nPicada de mosquito: Sim, algumas picadas de mosquito em casa nos últimos dias\nUso de proteção contra mosquitos: Usa repelente ocasionalmente\nContato sexual desprotegido com parceiro potencialmente infectado: Sim, relações desprotegidas com o marido nos últimos 2 meses.\nMarido: Sem sintomas de arboviroses\nCasos semelhantes na família ou em vizinhos: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PATOLÓGICOS PESSOAIS",
+        "informacao": "Doenças crônicas: Nega\nCirurgias prévias: Nega\nInternações: Nega\nAlergias: Nega\nMedicamentos em uso contínuo: Nega\nVacinação: Não consta no script\nTrauma: Não consta no script\nTransfusões: Não consta no script"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS",
+        "informacao": "Gestações: 1 gestação prévia há 5 anos (parto normal, sem intercorrências)\nPartos: 1 parto normal\nAbortos: Nega\nCesáreas: Nega\nData da Última Menstruação (DUM): Há 6 semanas\nMenarca: Não consta no script\nCiclos menstruais: Não consta no script\nSexarca: Não consta no script\nTelarca: Não consta no script\nPubarca: Não consta no script\nAtividade sexual: Sexualmente ativa\nParceiros: Parceiro fixo (marido)\nUso de contraceptivos: Nenhum\nUso de preservativos: Não usa\nExames preventivos: Nega exames pré-natais, pois não sabia que poderia estar grávida\nHistórico de IST: Não consta no script"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega\nEtilismo: Nega\nDrogas ilícitas: Nega\nAlimentação: Equilibrada\nAtividade física: Caminha 3x/semana\nSono: 7-8h/noite, sem interrupções\nHábitos urinários: Não consta no script\nHábitos intestinais: Não consta no script\nIngestão hídrica: Não consta no script\nExposição ocupacional: Não consta no script\nEstresse: Não consta no script"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): Doutor(a), e se eu estiver grávida? Isso pode ser perigoso para o bebê?\npergunta (2): Eu preciso me afastar do trabalho? Posso pegar de novo?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "110 x 70 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "88 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "37,6 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "98% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IDENTIFICACAO_PACIENTE_2",
+        "tituloImpresso": "Ficha de Identificação do Paciente",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "DADOS DO PACIENTE",
+              "itens": [
+                {
+                  "chave": "Nome",
+                  "valor": "Maria da Silva"
+                },
+                {
+                  "chave": "Idade",
+                  "valor": "30 anos"
+                },
+                {
+                  "chave": "Sexo",
+                  "valor": "Feminino"
+                },
+                {
+                  "chave": "Estado Civil",
+                  "valor": "Casada"
+                },
+                {
+                  "chave": "Profissão",
+                  "valor": "Professora"
+                },
+                {
+                  "chave": "Procedência",
+                  "valor": "Capital (área com alta transmissão de arboviroses)"
+                },
+                {
+                  "chave": "Informação adicional",
+                  "valor": "Não usa método contraceptivo e teve relação desprotegida recentemente."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ECTOSCOPIA_EXANTEMA_3",
+        "tituloImpresso": "Ectoscopia",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM.",
+          "caminhoImagem": "https://img.odr.info/img/odr/v0/symptoms/zika-virus-fever/symptoms-and-signs-of-zika-virus-fever-rash.webp",
+          "sugestaoBuscaImagem": "Exantema maculopapular difuso Zika",
+          "laudo": "Exantema maculopapular difuso, eritematoso, não confluente, predominantemente no tronco e membros superiores e inferiores, levemente pruriginoso. Conjuntivas hiperemiadas não purulentas."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_HEMOGRAMA_4",
+        "tituloImpresso": "Hemograma Completo",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SÉRIE VERMELHA",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "13,2 g/dL (VR: 12 - 16 g/dL)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "39,6% (VR: 36 - 48%)"
+                },
+                {
+                  "chave": "VCM",
+                  "valor": "88 fL (VR: 80 - 100 fL)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SÉRIE BRANCA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "3.800/mm³ (VR: 4.000 - 10.000/mm³)"
+                },
+                {
+                  "chave": "Neutrófilos",
+                  "valor": "45% (VR: 40 - 70%)"
+                },
+                {
+                  "chave": "Linfócitos",
+                  "valor": "48% (VR: 20 - 45%)"
+                },
+                {
+                  "chave": "Monócitos",
+                  "valor": "5% (VR: 2 - 10%)"
+                },
+                {
+                  "chave": "Eosinófilos",
+                  "valor": "2% (VR: 1 - 5%)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "PLAQUETAS",
+              "itens": [
+                {
+                  "chave": "Plaquetas",
+                  "valor": "180.000/mm³ (VR: 150.000 - 450.000/mm³)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_BIOQUIMICA_5",
+        "tituloImpresso": "Bioquímica Básica",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "FUNÇÃO RENAL",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "25 mg/dL (VR: 15 - 40 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0,8 mg/dL (VR: 0,6 - 1,2 mg/dL)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "GLICEMIA",
+              "itens": [
+                {
+                  "chave": "Glicose",
+                  "valor": "95 mg/dL (VR: 70 - 100 mg/dL)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "FUNÇÃO HEPÁTICA",
+              "itens": [
+                {
+                  "chave": "TGO (AST)",
+                  "valor": "30 U/L (VR: <40 U/L)"
+                },
+                {
+                  "chave": "TGP (ALT)",
+                  "valor": "35 U/L (VR: <40 U/L)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_SOROLOGIAS_6",
+        "tituloImpresso": "Sorologias para Arboviroses (Resultado Parcial)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ZIKA VÍRUS",
+              "itens": [
+                {
+                  "chave": "Zika IgM",
+                  "valor": "Reagente"
+                },
+                {
+                  "chave": "Zika IgG",
+                  "valor": "Não Reagente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "DENGUE VÍRUS",
+              "itens": [
+                {
+                  "chave": "Dengue IgM",
+                  "valor": "Não Reagente"
+                },
+                {
+                  "chave": "Dengue IgG",
+                  "valor": "Reagente (infecção prévia)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "CHIKUNGUNYA VÍRUS",
+              "itens": [
+                {
+                  "chave": "Chikungunya IgM",
+                  "valor": "Não Reagente"
+                },
+                {
+                  "chave": "Chikungunya IgG",
+                  "valor": "Não Reagente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_PCR_ZIKA_7",
+        "tituloImpresso": "Biologia Molecular (PCR-RT) - Urina",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ZIKA VÍRUS",
+              "itens": [
+                {
+                  "chave": "RNA viral Zika",
+                  "valor": "Detectado"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_BETA_HCG_8",
+        "tituloImpresso": "Beta-HCG Quantitativo",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HORMÔNIO GONADOTROFINA CORIÔNICA HUMANA",
+              "itens": [
+                {
+                  "chave": "Beta-HCG",
+                  "valor": "5.000 mUI/mL (VR: <5 mUI/mL para não grávidas)"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_ZIKA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina, 30 anos, com quadro agudo de exantema, prurido, artralgia e conjuntivite, além de febre baixa. Apresenta antecedentes epidemiológicos relevantes para arbovirose e suspeita de gravidez. Exames laboratoriais e sorológicos confirmam infecção aguda por Zika e gestação.",
+      "focoPrincipalDetalhado": [
+        "Anamnese direcionada para arboviroses e gestação",
+        "Interpretação de exames laboratoriais e de imagem para confirmação e diferenciação",
+        "Diagnóstico de Zika e gestação concomitante",
+        "Manejo clínico da infecção por Zika, com foco em orientações para gestantes e prevenção de complicações"
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, investigando o sintoma principal (EXANTEMA):\n(1) Início;\n(2) Localização;\n(3) Quantidade;\n(4) Intensidade;\n(5) Característica (maculopapular, eritematoso, não confluente);\n(6) Duração;\n(7) Progressão;\n(8) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 ou mais características do exantema.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 características do exantema.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 3 características ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, investigando outros sintomas associados:\n(1) Prurido (início, intensidade, piora/melhora);\n(2) Artralgia (início, localização, intensidade, presença de edema);\n(3) Conjuntivite (início, localização, características, secreção);\n(4) Febre (início, intensidade, duração, calafrios, sudorese, resposta a antitérmicos);\n(5) Sinais de alarme para Dengue (dor abdominal intensa, vômitos persistentes, sangramentos, letargia);\n(6) Mialgia;\n(7) Cefaleia (tipo, localização, intensidade, dor retro-orbital);\n(8) Fraqueza muscular progressiva ou outros sinais neurológicos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 ou mais sintomas associados, incluindo sinais de alarme para Dengue e SGB.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 sintomas associados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 3 sintomas ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza anamnese, investigando antecedentes epidemiológicos:\n(1) Viagem ou residência em área com transmissão de ZIKV nos últimos 15 dias;\n(2) Contato com casos confirmados de arboviroses;\n(3) Picada de mosquito e uso de proteção;\n(4) Contato sexual desprotegido com parceiro potencialmente infectado;\n(5) Casos semelhantes na família ou em vizinhos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 elementos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 elementos.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 2 elementos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Realiza anamnese, investigando antecedentes patológicos pessoais e ginecológicos:\n(1) Condições crônicas ou uso de medicamentos contínuos;\n(2) Histórico de outras arboviroses (Dengue, Chikungunya);\n(3) Gestações prévias, partos, abortos;\n(4) Data da Última Menstruação (DUM), método contraceptivo, exames pré-natais.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 elementos, incluindo informações sobre gestação.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 elementos.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 2 elementos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Realiza anamnese, investigando hábitos de vida:\n(1) Tabagismo;\n(2) Etilismo;\n(3) Uso de drogas ilícitas;\n(4) Alimentação;\n(5) Atividade física;\n(6) Sono.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou 6 elementos.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 3 ou 4 elementos.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Realiza menos de 3 elementos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Interpreta os dados da Ficha de Identificação do Paciente e os Sinais Vitais:\n(1) Identificação da paciente (nome, idade, sexo, procedência);\n(2) Temperatura e outros sinais vitais (PA, FC, FR, SatO2);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente ambos os itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente apenas um item.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não interpreta corretamente nenhum item.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Interpreta os achados da Ectoscopia (Impresso 3):\n(1) Exantema maculopapular difuso, eritematoso, não confluente e pruriginoso;\n(2) Conjuntivas hiperemiadas não purulentas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente ambos os achados.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente apenas um achado.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não interpreta corretamente nenhum achado.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpreta o Hemograma Completo (Impresso 4):\n(1) Hemoglobina, Hematócrito e VCM normais;\n(2) Leucopenia (Leucócitos 3.800/mm³);\n(3) Linfocitose relativa (Linfócitos 48%);\n(4) Plaquetas normais (180.000/mm³).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente 3 ou 4 achados.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente 2 achados.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Interpreta corretamente 1 ou nenhum achado.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Interpreta a Bioquímica Básica (Impresso 5):\n(1) Função renal (Ureia, Creatinina) normal;\n(2) Glicemia normal;\n(3) Função hepática (TGO, TGP) normal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente todos os achados.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente 1 ou 2 achados.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não interpreta corretamente nenhum achado.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Interpreta as Sorologias para Arboviroses (Impresso 6):\n(1) Zika IgM Reagente e IgG Não Reagente (infecção aguda/recente);\n(2) Dengue IgM Não Reagente e IgG Reagente (infecção prévia);\n(3) Chikungunya IgM e IgG Não Reagentes (sem infecção).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente todos os achados para os três vírus.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente achados para 1 ou 2 vírus.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não interpreta corretamente nenhum achado.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Interpreta a Biologia Molecular (PCR-RT) - Urina (Impresso 7):\n(1) RNA viral Zika Detectado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente o achado.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não interpreta corretamente o achado.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Interpreta o Beta-HCG Quantitativo (Impresso 8):\n(1) Beta-HCG 5.000 mUI/mL, indicando gestação.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente o achado e sua implicação.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não interpreta corretamente o achado ou sua implicação.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Verbaliza o diagnóstico principal:\n(1) Infecção por Zika Vírus (confirmada);\n(2) Gestação (confirmada).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza ambos os diagnósticos corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza apenas um dos diagnósticos corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza os diagnósticos corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes:\n(1) Dengue;\n(2) Chikungunya;\n(3) Sarampo;\n(4) Rubéola;\n(5) Outras doenças exantemáticas virais.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou mais diagnósticos diferenciais corretos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais corretos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Elabora a conduta terapêutica e orientações iniciais:\n(1) Repouso e hidratação oral;\n(2) Analgésicos e antitérmicos (Paracetamol ou Dipirona);\n(3) Antialérgicos para prurido;\n(4) Orienta a NÃO usar AAS/AINEs (Ácido Acetilsalicílico/Anti-inflamatórios Não Esteroidais);\n(5) Orienta sobre sinais de alarme e retorno imediato;\n(6) Orienta sobre o risco da infecção por Zika na gestação e a necessidade de seguimento pré-natal rigoroso com ultrassonografias seriadas;\n(7) Orienta sobre as medidas de proteção individual (repelentes, roupas) e controle do vetor (eliminação de focos);\n(8) Orienta sobre a transmissão sexual e a necessidade de uso de preservativo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora 6 ou mais condutas e orientações corretamente.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora 3 a 5 condutas e orientações corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não elabora ou elabora inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Responde às perguntas/dúvidas do paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde às perguntas/dúvidas de forma completa e correta.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não responde ou responde incorretamente às perguntas/dúvidas.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item18",
+        "itemNumeroOficial": "18",
+        "descricaoItem": "Notificação ao SINAN.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Menciona que fará a notificação do caso ao SINAN.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não menciona a notificação ao SINAN.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10,
+    "feedbackEstacao": {
+      "resumoTecnico": "A infecção pelo vírus Zika (ZIKV) é uma arbovirose transmitida principalmente pelo mosquito Aedes aegypti, com outras vias de transmissão importantes como sexual e vertical. A maioria dos casos é assintomática, mas em gestantes, pode levar à Síndrome Congênita do Zika, causando microcefalia e outras malformações neurológicas. Em adultos, a principal complicação é a Síndrome de Guillain-Barré. \nA anamnese deve focar em sintomas como exantema maculopapular pruriginoso, febre baixa, conjuntivite não purulenta, artralgia e antecedentes epidemiológicos de exposição ao vetor ou relações sexuais desprotegidas. É crucial investigar a possibilidade de gestação. \nO exame físico geralmente revela os achados cutâneos e oculares. Sinais vitais tendem a ser estáveis. Exames complementares incluem hemograma (pode haver leucopenia), e o diagnóstico é confirmado por PCR-RT (sangue, urina, saliva) na fase aguda, ou sorologia (IgM/IgG), embora com reatividade cruzada com outros flavivírus. O Beta-HCG é essencial para confirmar a gestação. Ultrassonografia obstétrica seriada é fundamental para gestantes. \nOs diagnósticos diferenciais incluem outras arboviroses (Dengue, Chikungunya) e doenças exantemáticas como sarampo e rubéola. O tratamento é sintomático (paracetamol/dipirona, anti-histamínicos), com **contraindicação absoluta de AAS e AINEs** devido ao risco de sangramento e síndrome de Reye, especialmente se Dengue não for descartada. \nSinais de alarme incluem fraqueza muscular progressiva e achados ultrassonográficos fetais anormais. A prevenção envolve controle do vetor, proteção individual (repelentes, roupas) e uso de preservativos. A infecção por Zika, especialmente em gestantes, é de notificação compulsória imediata.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde e Ambiente. Guia de Vigilância em Saúde. Vol. 2. 6. ed. Brasília: Ministério da Saúde, 2023.",
+        "2. Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde. Departamento de Articulação Estratégica de Vigilância em Saúde. Protocolo de vigilância e resposta à ocorrência de microcefalia relacionada à infecção pelo vírus Zika. Brasília: Ministério da Saúde, 2016.",
+        "3. UpToDate. Zika virus infection: Clinical manifestations, diagnosis, and treatment. Waltham, MA: UpToDate; [acesso em 2024.08.01]."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "1ed56fb2-c720-4678-b591-25b847f8aee7",
+  "created_at": "2025-08-28T08:57:32.863783",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Zika",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

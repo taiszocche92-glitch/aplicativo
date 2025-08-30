@@ -1,0 +1,531 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_GONORREIA",
+  "tituloEstacao": "Gonorreia",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Gonorreia",
+    "IST",
+    "Neisseria gonorrhoeae",
+    "Uretrite",
+    "Cervicite",
+    "Clínica Médica",
+    "Atenção primária à saúde"
+  ],
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção primária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Materiais para coleta de secreções",
+        "Medicações disponíveis"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 28 anos chega ao consultório referindo ardência ao urinar e saída de secreção do pênis.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente.",
+      "Verbalizar a necessidade de exames físicos direcionados ao caso.",
+      "Solicitar os exames complementares pertinentes ao caso clínico.",
+      "Interpretar os resultados dos exames apresentados.",
+      "Estabelecer o diagnóstico e os diagnósticos diferenciais.",
+      "Elaborar a conduta terapêutica e as orientações necessárias.",
+      "Responder aos questionamentos do paciente simulado."
+    ],
+    "avisosImportantess": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com ardência ao urinar e um corrimento diferente do pênis, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "ARDÊNCIA AO URINAR (Disúria)",
+        "informacao": "Início: Há 3 dias\nIntensidade: Moderada (6/10)\nCaracterística: Queimação\nFator de piora: Durante e logo após urinar\nFator de melhora: Não melhora com nada\nEpisódios prévios: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "CORRIMENTO URETRAL",
+        "informacao": "Início: Há 2 dias\nCor: Amarelado esverdeado\nOdor: Forte e desagradável\nQuantidade: Moderada, suja a cueca\nConsistência: Espesso, purulento\nEpisódios prévios: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Febre: Nega\nDor testicular: Nega\nDor em baixo ventre: Nega\nSangramento intermenstrual: Não se aplica\nDor na relação sexual (Dispareunia): Nega\nPrurido anal: Nega\nSecreção retal: Nega\nDor de garganta: Nega\nLesões de pele: Nega\nDor articular: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA SEXUAL",
+        "informacao": "Tipo de prática sexual: Vaginal e oral\nNúmero de parceiros: Três nos últimos 2 meses\nUso de preservativo: Nem sempre\nContato com parceiro com IST conhecida: Um parceiro relatou ter gonorreia há 1 semana"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Nega\nCirurgias prévias: Nega\nInternações: Nega\nAlergias: Penicilina (urticária)\nMedicamentos em uso contínuo: Nega\nVacinação: Completa para o calendário adulto\nTrauma: Nega\nTransfusões: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Hábitos sexuais: Ativo com múltiplos parceiros, uso inconsistente de preservativos\nHábitos urinários: Diurese clara, sem outras alterações além das queixas atuais\nHábitos intestinais: Regular, uma evacuação ao dia, fezes formadas\nIngestão hídrica: Cerca de 2 litros/dia\nExposição ocupacional: Nega estressores específicos\nEstresse: Refere estresse ocasional relacionado ao trabalho"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega\nEtilismo: Social, 2-3 vezes por semana\nDrogas ilícitas: Nega\nAlimentação: Variada e equilibrada\nAtividade física: Caminha 3 vezes por semana\nSono: 7-8 horas por noite, boa qualidade"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Hipertensão Arterial Sistêmica\nMãe: Diabetes Mellitus tipo 2\nDoenças na família: Nega outras doenças relevantes\nHistória de câncer na família: Avô materno com câncer de próstata\nIrmãos ou tias: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega\nExposição a doenças infecciosas: Nega\nContato com doentes: Relata parceiro sexual com gonorreia\nExposição a animais: Nega\nExposição a vetores: Nega\nÁgua consumida: Tratada e filtrada\nExposição a agentes ambientais: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL",
+        "informacao": "Situação familiar: Mora sozinho, bom relacionamento com a família\nRede de apoio: Amigos e familiares próximos\nSituação socioeconômica: Estável, ensino superior completo\nNível educacional: Superior completo\nReligião: Nega\nEstresse psicossocial: Nega estresse significativo no momento"
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato perguntar sobre o exame físico, responder: 'Ao exame físico, observa-se meato uretral eritematoso com presença de secreção purulenta amarelada esverdeada. Não há dor ou inchaço escrotal, nem lesões perianais.'\nSe o candidato solicitar o resultado de exames complementares, liberar o impresso correspondente."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)?\npergunta (2): Isso é grave? Pode me causar algum problema no futuro?\npergunta (3): Como eu pego essa doença? Meu parceiro me falou que teve, é a mesma coisa?\npergunta (4): O que eu preciso fazer para me curar? E meu(s) parceiro(s)?\npergunta (5): Como faço para não pegar de novo?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "120 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "78 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36,7 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Bom estado geral, lúcido, orientado, eupneico, afebril, anictérico, acianótico."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Normocefálico, sem linfonodomegalias palpáveis em cadeias cervicais e supraclaviculares."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular em dois tempos, bulhas normofonéticas, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Plano, flácido, indolor à palpação superficial e profunda, sem visceromegalias. Ruidos hidroaéreos presentes."
+                },
+                {
+                  "chave": "Genitália Masculina (verbalizado pelo ator)",
+                  "valor": "Meato uretral eritematoso, com presença de secreção purulenta amarelada esverdeada. Testículos tópicos, sem dor ou inchaço. Não há lesões cutâneas visíveis na região genital ou perianal."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edema, sem sinais flogísticos."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "8.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.2 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (Ref: 0.7-1.3)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SOROLOGIAS (solicitadas pelo candidato)",
+              "itens": [
+                {
+                  "chave": "HIV 1/2 (teste rápido)",
+                  "valor": "Não Reagente"
+                },
+                {
+                  "chave": "VDRL",
+                  "valor": "Não Reagente"
+                },
+                {
+                  "chave": "HBsAg",
+                  "valor": "Não Reagente"
+                },
+                {
+                  "chave": "Anti-HCV",
+                  "valor": "Não Reagente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_GRAM_3",
+        "tituloImpresso": "Esfregaço de Secreção Uretral (Coloração de Gram)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado do esfregaço de secreção uretral.",
+          "urlImagem": "https://upload.wikimedia.org/wikipedia/commons/2/27/Gram_stain_of_urethral_discharge_showing_Gram-negative_diplococci_within_neutrophils.jpg",
+          "laudo": "Presença de diplococos Gram-negativos intracelulares em grande quantidade, associados a polimorfonucleares."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_NAAT_4",
+        "tituloImpresso": "Teste de Amplificação de Ácidos Nucleicos (NAAT) - Urina",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "RESULTADO NAAT",
+              "itens": [
+                {
+                  "chave": "Neisseria gonorrhoeae",
+                  "valor": "Detectado"
+                },
+                {
+                  "chave": "Chlamydia trachomatis",
+                  "valor": "Não Detectado"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_GONORREIA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 28 anos, com queixa de disúria e corrimento uretral purulento. História de múltiplos parceiros e contato com IST. Os achados clínicos e laboratoriais confirmam infecção por Neisseria gonorrhoeae, sem evidências de complicações ou outras ISTs até o momento.",
+      "focoPrincipalDetalhado": [
+        "Anamnese direcionada para IST e história sexual",
+        "Verbalização de exame físico e achados específicos",
+        "Solicitação e interpretação de exames diagnósticos para gonorreia e co-infecções",
+        "Definição de diagnóstico e diagnósticos diferenciais",
+        "Elaboração de conduta terapêutica e orientações completas para paciente e parceiros"
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Disúria:\n(1) Início;\n(2) Intensidade;\n(3) Característica;\n(4) Fator de piora;\n(5) Fator de melhora;\n(6) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou 6 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracterização do Corrimento Uretral:\n(1) Início;\n(2) Cor;\n(3) Odor;\n(4) Quantidade;\n(5) Consistência;\n(6) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou 6 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Sintomas Associados e Histórico Sexual:\n(1) Febre OU dor testicular OU dor em baixo ventre OU sangramento intermenstrual OU dispareunia;\n(2) Prurido anal OU secreção retal OU dor de garganta;\n(3) Lesões de pele OU dor articular (sintomas sistêmicos);\n(4) Tipo de prática sexual (vaginal, anal, oral);\n(5) Número de parceiros sexuais;\n(6) Uso de preservativo;\n(7) Contato com parceiro com IST conhecida.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou mais itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Antecedentes:\n(1) História de outras ISTs (Chlamydia, HIV, sífilis, etc.) OU DIP prévia;\n(2) Gravidez (em mulheres) OU outros antecedentes fisiológicos relevantes;\n(3) Alergias medicamentosas;\n(4) Medicamentos em uso.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 2 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Verbaliza exame físico direcionado à queixa:\n(1) Inspeção do meato uretral (comentando presença de corrimento);\n(2) Palpação testicular (sensibilidade, edema, se relevante);\n(3) Inspeção da orofaringe (se houver prática oral);\n(4) Inspeção da região anal e toque retal (se houver prática anal).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza 3 ou 4 exames e seus achados.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 1 ou 2 exames e seus achados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o exame físico direcionado.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita exames complementares para Gonorreia e co-infecções:\n(1) Esfregaço de secreção (uretral, endocervical, retal, faríngea) para coloração de Gram;\n(2) Cultura de secreções com antibiograma (se relevante);\n(3) Testes de amplificação de ácidos nucleicos (NAAT) para N. gonorrhoeae;\n(4) Testes de amplificação de ácidos nucleicos (NAAT) para C. trachomatis;\n(5) Sorologia para HIV;\n(6) Sorologia para Sífilis (VDRL/FTA-Abs);\n(7) Sorologia para Hepatites Virais (HBsAg, Anti-HCV).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 6 ou 7 exames.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 4 ou 5 exames.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 4 exames ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Interpreta os resultados dos exames:\n(1) Esfregaço de Gram (diplococos Gram-negativos intracelulares);\n(2) NAAT para Neisseria gonorrhoeae (Detectado);\n(3) NAAT para Chlamydia trachomatis (Não Detectado);\n(4) Sorologias para HIV, Sífilis e Hepatites (Não Reagentes).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente os 4 resultados principais.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 ou 3 resultados principais.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não interpreta os resultados ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Estabelece o diagnóstico e os diagnósticos diferenciais:\n(1) Diagnóstico principal: Infecção gonocócica OU Gonorreia (Uretrite gonocócica);\n(2) Diagnóstico diferencial: Infecção por Chlamydia trachomatis;\n(3) Diagnóstico diferencial: Uretrite não gonocócica por outros agentes (Mycoplasma, Ureaplasma);\n(4) Diagnóstico diferencial: Tricomoníase.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Estabelece o diagnóstico principal e 3 diagnósticos diferenciais.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Estabelece o diagnóstico principal e 1 ou 2 diagnósticos diferenciais.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico principal ou cita diagnósticos incorretos.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Elabora a conduta terapêutica de primeira linha para gonorreia não complicada:\n(1) Ceftriaxona;\n(2) Dose de 500 mg;\n(3) Via intramuscular (IM);\n(4) Dose única;\n(5) Azitromicina;\n(6) Dose de 1g;\n(7) Via oral (VO);\n(8) Dose única.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Prescreve todos os 8 itens corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Prescreve 5 a 7 itens corretamente (incluindo ambos os medicamentos).",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Prescreve menos de 5 itens ou tratamento incorreto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Realiza orientações ao paciente:\n(1) Abstinência sexual por 7 dias após o tratamento;\n(2) Tratamento de todos os parceiros sexuais dos últimos 60 dias;\n(3) Aconselhamento e oferta de testagem para outras ISTs (HIV, sífilis, hepatites);\n(4) Reforçar a importância do uso consistente e correto de preservativos;\n(5) Orientar sobre retorno se sintomas persistirem.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta 4 ou 5 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta 2 ou 3 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Orienta menos de 2 itens ou não orienta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Responde às dúvidas do paciente:\n(1) Explica o que é a doença e como é transmitida;\n(2) Aborda a gravidade e as possíveis complicações (se não tratada);\n(3) Explica sobre o tratamento e a importância de tratar os parceiros;\n(4) Oferece estratégias de prevenção para evitar reinfecção.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde 3 ou 4 dúvidas de forma completa.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Responde 1 ou 2 dúvidas de forma parcial.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não responde ou responde incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Notificação ao SINAN.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Menciona a necessidade de notificação do caso ao SINAN.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não menciona a notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A gonorreia é uma infecção sexualmente transmissível causada pela bactéria *Neisseria gonorrhoeae*, que afeta principalmente as mucosas geniturinárias, retal e faríngea. O quadro clínico mais comum em homens é a uretrite, caracterizada por disúria e corrimento uretral purulento. Em mulheres, a cervicite é frequente e muitas vezes assintomática, podendo levar a Doença Inflamatória Pélvica (DIP) e suas complicações, como infertilidade. A anamnese deve ser detalhada, investigando características dos sintomas, história sexual completa (número de parceiros, uso de preservativo, práticas sexuais) e antecedentes de ISTs. O exame físico é crucial para identificar sinais de inflamação e secreções. O diagnóstico é confirmado pela visualização de diplococos Gram-negativos intracelulares em esfregaço de secreção uretral em homens sintomáticos, ou por testes de amplificação de ácidos nucleicos (NAAT) em urina ou swabs de diversas localizações, sendo este o método preferencial para rastreamento. Exames complementares incluem também sorologias para outras ISTs (HIV, sífilis, hepatites) devido à alta taxa de co-infecção. Os diagnósticos diferenciais incluem infecção por *Chlamydia trachomatis*, uretrites não gonocócicas e tricomoníase. O tratamento de primeira linha recomendado pelo PCDT IST do Ministério da Saúde é Ceftriaxona 500 mg IM (dose única) + Azitromicina 1g VO (dose única). É fundamental o tratamento de todos os parceiros sexuais e a orientação sobre abstinência sexual durante o tratamento e até a resolução dos sintomas, além de aconselhamento sobre prevenção e testagem para outras ISTs. Gonorreia é uma doença de notificação compulsória. Sinais de alarme incluem febre, dor pélvica intensa, dor/inchaço escrotal, e sintomas sistêmicos indicativos de infecção disseminada (artrite, lesões cutâneas).",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde e Ambiente. Departamento de HIV/Aids, Tuberculose, Hepatites Virais e Infecções Sexualmente Transmissíveis. Protocolo Clínico e Diretrizes Terapêuticas para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST). Brasília: Ministério da Saúde, 2023.",
+        "2. UpToDate. Gonorrhea in adults and adolescents: Clinical manifestations and diagnosis. Disponível em: www.uptodate.com. Acesso em: [data atual].",
+        "3. Centers for Disease Control and Prevention (CDC). Sexually Transmitted Infections Treatment Guidelines, 2021. MMWR Recomm Rep 2021;70(No. 4):1–187."
+      ]
+    }
+  }
+}

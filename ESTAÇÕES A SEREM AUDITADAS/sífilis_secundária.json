@@ -42,7 +42,7 @@
     "informacoesVerbaisSimulado": [
       {
         "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
-        "informacao": "Nome: Maria Silva\nIdade: 32 anos\nEstado civil: Casada\nProfissão: Professora"
+        "informacao": "Maria Silva, 32 anos, Professora e Casada"
       },
       {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",

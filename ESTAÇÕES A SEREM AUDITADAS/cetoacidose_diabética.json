@@ -44,6 +44,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Valter Guimarães, 25 anos, Estudante e Casado"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com muito mal-estar, enjoo e dor na barriga há uns dois dias."
       },

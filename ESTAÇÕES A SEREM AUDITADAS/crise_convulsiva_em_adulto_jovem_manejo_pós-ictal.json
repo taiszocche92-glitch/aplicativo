@@ -33,6 +33,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Luiz Pereira, 28 anos, Motorista e Divorciado"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Meu filho teve uma crise convulsiva em casa e eu o trouxe para o pronto atendimento, doutor(a)!"
       },
@@ -614,5 +618,23 @@
         "3. UpToDate, Inc. Initial treatment of convulsive status epilepticus in adults. Topic last updated: Oct 19, 2023."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "41d986a4-c646-46f7-84b8-dcd628c83851",
+  "created_at": "2025-08-28T14:12:19.891086",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Crise Convulsiva",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

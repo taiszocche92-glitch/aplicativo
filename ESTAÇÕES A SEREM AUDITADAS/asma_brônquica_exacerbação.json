@@ -42,6 +42,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Anderson Teixeira, 35 anos, Enfermeiro e Solteiro"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com muita falta de ar e um chiado no peito que não passa."
       },
@@ -516,5 +520,23 @@
         "3. Sociedade Brasileira de Pneumologia e Tisiologia (SBPT). Diretrizes da Sociedade Brasileira de Pneumologia e Tisiologia para o Manejo da Asma. J Bras Pneumol. 2017;43(5):378-406. Disponível em: https://www.jornaldepneumologia.com.br/detalhe_artigo.asp?id=2557"
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "cbf87d92-993a-4654-a57a-da68722b5c1c",
+  "created_at": "2025-08-28T10:06:40.243332",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Asma",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

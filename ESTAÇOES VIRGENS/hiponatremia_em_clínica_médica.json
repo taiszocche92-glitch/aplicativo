@@ -1,0 +1,577 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_01_HIPONATREMIA",
+  "tituloEstacao": "Hiponatremia em Clínica Médica",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Hiponatremia",
+    "SIADH",
+    "Distúrbio eletrolítico",
+    "Clínica Médica",
+    "Atenção secundária à saúde"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Hospitalar",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem",
+        "Medicações disponíveis para reposição volêmica e eletrolítica",
+        "Unidade de terapia intensiva"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente João Silva, 62 anos, chega ao pronto-atendimento acompanhado da filha, que refere que o pai tem apresentado confusão mental e episódios de náuseas nas últimas 48 horas.",
+    "tarefasPrincipais": [
+      "Realizar anamnese direcionada à queixa principal do paciente e sintomas associados.",
+      "Verbalizar o exame físico direcionado, com foco na avaliação do estado volêmico e neurológico.",
+      "Solicitar os exames complementares pertinentes ao caso clínico e interpretá-los.",
+      "Estabelecer a(s) hipótese(s) diagnóstica(s) principal(is) e diferencial(is).",
+      "Verbalizar o diagnóstico, sua classificação de gravidade e elaborar a conduta terapêutica inicial e de seguimento.",
+      "Orientar o paciente e a família sobre o diagnóstico, tratamento e sinais de alarme."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "Todos os exames complementares já solicitados anteriormente serão liberados verbalmente ou via impresso após a solicitação do candidato."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou meio confuso e com enjoo há uns dois dias, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "CONFUSÃO MENTAL",
+        "informacao": "Início: Começou gradualmente há cerca de 2 dias.\nLocalização: Não se aplica.\nIntensidade: A filha relata que ele está mais lento para responder e parece desorientado no tempo e espaço, nota 7 de 10 na percepção dela.\nCaracterística: Dificuldade de concentração, esquecimento recente, lentidão de raciocínio.\nIrradiação: Não se aplica.\nDuração: Contínua, com piora progressiva.\nProgressão: Piorando desde o início.\nFrequencia: Constante.\nFator Desencadeante: Não identificado.\nFator de piora: A filha não percebe um fator específico, mas piora à noite.\nFator de melhora: Não melhora com nada.\nEpisódios prévios: Nunca teve nada parecido.\nMedicação de alivio: Não usou nada."
+      },
+      {
+        "contextoOuPerguntaChave": "NÁUSEAS E VÔMITOS",
+        "informacao": "Início: Começou junto com a confusão mental, há 2 dias.\nFrequência: Tem tido náuseas quase o tempo todo, mas vomitou apenas 2 vezes ontem à noite. A filha não sabe o que ele vomitou.\nConteúdo: A filha não viu o conteúdo do vômito.\nFator de alívio: Nada alivia.\nSintomas associados: Não.\nEpisódios prévios: Nunca teve."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Cefaleia: Nega.\nLetargia: Relata cansaço e sonolência excessiva, sente-se pesado.\nFadiga: Sente-se muito cansado, sem energia.\nCãibras musculares: Nega.\nAlteração do humor: Nega.\nDesequilíbrio na marcha: A filha relata que ele está andando de forma mais arrastada e um pouco instável.\nConvulsões: Nega.\nComa: Nega.\nDiarreia: Nega.\nSangramentos: Nega.\nSudorese excessiva: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Nega.\nCirurgias prévias: Apendicectomia há 30 anos.\nInternações: Nega.\nAlergias: Nega.\nMedicamentos em uso contínuo: Fluoxetina 20mg/dia (para depressão leve) há 6 meses.\nVacinação: Completa para idade.\nTrauma: Nega.\nTransfusões: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Hábito urinário: Urina normal, sem alterações na frequência ou características.\nHábito intestinal: Evacua diariamente, fezes formadas.\nIngestão hídrica: A filha relata que ele tem bebido bastante água nos últimos dias, mais do que o habitual, por sentir muita sede.\nExposição ocupacional: Aposentado, trabalhava em escritório.\nEstresse: Nega estresse significativo recente."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Ex-fumante (parou há 10 anos, fumou 20 anos, 1 maço/dia).\nEtilismo: Social (1-2 cervejas nos fins de semana).\nDrogas ilícitas: Nega.\nAlimentação: Normal, sem restrições ou mudanças recentes no apetite (exceto o enjoo recente).\nAtividade física: Caminha 30 minutos, 3 vezes por semana.\nSono: Refere ter dormido mais que o normal nos últimos dias, mas a qualidade do sono parece alterada."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Hipertenso, falecido por infarto.\nMãe: Diabética tipo 2, viva.\nDoenças (específicas com relação e relevante ao caso) na família: Nega história de doenças renais, hepáticas ou neurológicas na família.\nHistória de câncer na família: Mãe teve câncer de mama.\nIrmãos ou tias: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES NEONATAIS",
+        "informacao": "Não consta no script."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS",
+        "informacao": "Não se aplica, paciente é do sexo masculino."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega.\nExposição a doenças infecciosas: Nega.\nContato com doentes: Nega.\nExposição a animais: Nega.\nExposição a vetores: Nega.\nÁgua consumida: Tratada, da rede pública.\nExposição a agentes ambientais: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL",
+        "informacao": "Situação familiar: Vive com a filha e netos. Bom relacionamento.\nRede de apoio: Família presente.\nSituação socioeconômica: Aposentado, renda estável.\nNível educacional: Ensino superior completo.\nReligião: Católica.\nEstresse psicossocial: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar exames laboratoriais, libere o impresso 'est1_impresso_LABORATORIO_Na_Inic_2' imediatamente. Se, após a interpretação, o candidato solicitar exames urinários, libere o impresso 'est1_impresso_LABORATORIO_Urina_3'. Se solicitar TC de crânio, libere o impresso 'est1_impresso_IMAGEM_TC_4'. Para quaisquer outros exames ou procedimentos, responda 'Considere solicitado/realizado'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)?\npergunta (2): É grave? Preciso ficar internado?\npergunta (3): Por que isso aconteceu?\npergunta (4): O que eu faço para melhorar e evitar que isso aconteça de novo?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "120 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "78 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Paciente em bom estado geral, lúcido, porém letárgico, orientado no tempo, desorientado no espaço, cooperativo, afebril, anictérico, acianótico, hidratado, eupneico."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Pupilas isocóricas e fotorreagentes. Jugulares não ingurgitadas. Tireoide não palpável. Ausência de bócio ou massas."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Bulhas rítmicas, normofonéticas em 2 tempos, sem sopros. Pulsos periféricos presentes e simétricos."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios. Expansibilidade preservada."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Plano, flácido, indolor à palpação superficial e profunda, sem visceromegalias ou massas. Ruidos hidroaéreos presentes."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edemas, pulsos presentes, simétricos. Sem cianose ou alterações tróficas. Força muscular global preservada (o paciente se move, mas com lentidão). Reflexos tendinosos normais. Marcha lenta e ligeiramente instável."
+                },
+                {
+                  "chave": "Estado volêmico",
+                  "valor": "Euvolemia."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_Na_Inic_2",
+        "tituloImpresso": "Exames Laboratoriais Iniciais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ELETRÓLITOS E FUNÇÃO RENAL",
+              "itens": [
+                {
+                  "chave": "Sódio",
+                  "valor": "122 mEq/L (Ref: 135-145)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "4.1 mEq/L (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "Cloro",
+                  "valor": "92 mEq/L (Ref: 98-107)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Glicose",
+                  "valor": "95 mg/dL (Ref: 70-99)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "OSMOLALIDADE",
+              "itens": [
+                {
+                  "chave": "Osmolalidade Sérica",
+                  "valor": "250 mOsm/kg H2O (Ref: 275-295)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_Urina_3",
+        "tituloImpresso": "Exames Laboratoriais Urinários",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "URINA - ELETRÓLITOS E OSMOLALIDADE",
+              "itens": [
+                {
+                  "chave": "Sódio Urinário",
+                  "valor": "55 mEq/L (Ref: >20 para SIADH)"
+                },
+                {
+                  "chave": "Osmolalidade Urinária",
+                  "valor": "350 mOsm/kg H2O (Ref: >100 para SIADH)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "FUNÇÃO TIREOIDIANA E ADRENAL",
+              "itens": [
+                {
+                  "chave": "TSH",
+                  "valor": "1.8 µUI/mL (Ref: 0.4-4.0)"
+                },
+                {
+                  "chave": "T4 livre",
+                  "valor": "1.2 ng/dL (Ref: 0.8-1.8)"
+                },
+                {
+                  "chave": "Cortisol Matinal",
+                  "valor": "15 µg/dL (Ref: 5-25)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_TC_4",
+        "tituloImpresso": "Tomografia Computadorizada de Crânio",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM.",
+          "caminhoImagem": "(Buscar no Google Imagens: TC de crânio normal paciente idoso)",
+          "sugestaoBuscaImagem": "TC de crânio normal paciente idoso",
+          "laudo": "ACHADOS:\nAusência de lesões expansivas, hemorragias, hidrocefalia ou sinais de edema cerebral. Sistema ventricular e sulcos corticais de aspecto normal para a idade.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_HIPONATREMIA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 62 anos, com história de confusão mental e náuseas há 2 dias. Em uso de fluoxetina. Exame físico revela letargia e marcha instável, com euvolemia. Exames laboratoriais iniciais confirmam hiponatremia (Na 122 mEq/L) e hipoosmolalidade sérica. Exames urinários subsequentes mostram sódio urinário e osmolalidade urinária elevados, descartando insuficiência adrenal e hipotireoidismo.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa com foco nos sintomas neurológicos e fatores de risco para hiponatremia.",
+        "Avaliação cuidadosa do estado volêmico no exame físico.",
+        "Solicitação e interpretação de exames laboratoriais séricos e urinários para classificar a hiponatremia.",
+        "Estabelecimento do diagnóstico etiológico (Síndrome de Secreção Inapropriada de ADH - SIADH).",
+        "Proposição de conduta terapêutica apropriada para hiponatremia crônica euvolêmica e orientações ao paciente e família."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, caracterizando a confusão mental:\n(1) início;\n(2) intensidade;\n(3) característica;\n(4) progressão;\n(5) duração;\n(6) episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou 6 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, caracterizando náuseas e vômitos:\n(1) início;\n(2) frequência;\n(3) conteúdo do vômito;\n(4) fatores de alívio;\n(5) episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 item ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Investiga sintomas associados relevantes para hiponatremia:\n(1) cefaleia;\n(2) letargia;\n(3) fadiga;\n(4) cãibras musculares;\n(5) alteração da marcha;\n(6) convulsões;\n(7) diarreia ou vômitos persistentes;\n(8) sangramentos;\n(9) polidipsia ou ingesta excessiva de líquidos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 7 ou mais itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 6 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Investiga antecedentes patológicos relevantes:\n(1) insuficiência cardíaca;\n(2) cirrose hepática;\n(3) insuficiência renal;\n(4) hipotireoidismo;\n(5) insuficiência adrenal;\n(6) doenças neurológicas;\n(7) HIV;\n(8) uso de medicamentos (diuréticos tiazídicos, ISRS, carbamazepina, etc.);\n(9) cirurgias recentes.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 7 ou mais itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 6 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Verbaliza a realização do exame físico direcionado, com foco em:\n(1) sinais vitais (PA, FC, FR, T, SatO2);\n(2) estado de consciência (Glasgow ou verbalização de nível de consciência);\n(3) avaliação do estado volêmico (turgor cutâneo, mucosas, JVP, edemas);\n(4) exame neurológico (orientação, déficits focais, marcha);\n(5) sinais de doenças subjacentes (icterícia, bócio, hiperpigmentação).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a avaliação de 4 ou 5 focos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza a avaliação de 2 ou 3 focos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Verbaliza a avaliação de 1 foco ou não verbaliza item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita os exames laboratoriais iniciais e os interpreta corretamente:\n(1) sódio sérico;\n(2) potássio sérico;\n(3) glicose sérica;\n(4) ureia e creatinina séricas;\n(5) osmolalidade sérica.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 5 itens corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 3 ou 4 itens corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita e interpreta os exames laboratoriais complementares para investigação etiológica:\n(1) sódio urinário;\n(2) osmolalidade urinária;\n(3) TSH e T4 livre;\n(4) cortisol matinal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 4 itens corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 2 ou 3 itens corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Estabelece a hipótese diagnóstica principal e sua classificação de gravidade:\n(1) Hiponatremia;\n(2) Hipotônica;\n(3) Euvolemica;\n(4) Moderada a grave (Na < 125 mEq/L e/ou sintomática).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza os 4 itens corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 2 ou 3 itens corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza ou verbaliza incorretamente item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Cita os diagnósticos diferenciais relevantes baseados nos achados:\n(1) Pseudohiponatremia (excluída pela osmolalidade sérica);\n(2) Hiponatremia hipertônica (excluída pela glicose sérica);\n(3) Hipotireoidismo (excluído pelos hormônios tireoidianos);\n(4) Insuficiência adrenal (excluída pelo cortisol);\n(5) Insuficiência cardíaca/cirrose/nefrose (excluídas pela euvolemia);\n(6) Polidipsia primária ou potomania (improvável dada a osmolalidade urinária concentrada, mas pode ser mencionada).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 5 ou 6 itens corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 3 ou 4 itens corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Cita 2 ou menos itens ou não cita item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Estabelece o diagnóstico etiológico provável e sua base:\n(1) Síndrome de Secreção Inapropriada de ADH (SIADH);\n(2) Baseado em hiponatremia hipotônica, euvolemia, sódio urinário > 20 mEq/L, osmolalidade urinária > 100 mOsm/kg H2O, e exclusão de outras causas (hipotireoidismo, insuficiência adrenal, insuficiência renal/cardíaca/hepática).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico e sua base corretamente (2 itens).",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico, mas com base incompleta.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza ou verbaliza incorretamente item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Propõe a conduta terapêutica inicial e de longo prazo:\n(1) Restrição hídrica (primeira linha para SIADH euvolêmica);\n(2) Elevação do sódio sérico lenta e gradual (não exceder 8 mEq/L em 24h);\n(3) Monitorização frequente do sódio sérico;\n(4) Descontinuação ou ajuste da fluoxetina (se considerada a causa);\n(5) Considerar furosemida + cloreto de sódio ou ureia oral em casos refratários.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe 4 ou 5 itens de conduta corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 2 ou 3 itens de conduta corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Propõe 1 item ou não propõe item algum ou propõe conduta inadequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Orientações ao paciente e à família:\n(1) Explica a causa da hiponatremia (SIADH);\n(2) Reforça a importância da restrição hídrica;\n(3) Alerta sobre sinais de piora ou de correção muito rápida (Síndrome de Desmielinização Osmótica - SDO);\n(4) Necessidade de acompanhamento e monitorização laboratorial;\n(5) Revisão da medicação (fluoxetina).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre 4 ou 5 aspectos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta sobre 2 ou 3 aspectos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Orienta sobre 1 aspecto ou não orienta adequadamente item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Notificação ao SINAN",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Nega a necessidade de notificação compulsória para hiponatremia.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Verbaliza a necessidade de notificação ou não nega a necessidade.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A hiponatremia é o distúrbio eletrolítico mais comum, definido por Na+ sérico < 135 mEq/L. A apresentação clínica varia de assintomática a grave, com sintomas neurológicos como confusão mental, náuseas, vômitos e, em casos extremos, convulsões e coma. A gravidade é determinada pela magnitude e velocidade de queda do sódio. No caso apresentado, o paciente exibe hiponatremia moderada/grave com sintomas neurológicos, exigindo atenção imediata.\n\nA anamnese deve focar nos fatores de risco (medicamentos como ISRS, diuréticos), comorbidades (ICC, cirrose, IR, hipotireoidismo, insuficiência adrenal) e ingesta hídrica. O exame físico é crucial para avaliar o estado volêmico (hipovolemia, euvolemia, hipervolemia), fundamental para guiar o tratamento. No caso do paciente, a euvolemia foi confirmada.\n\nOs exames complementares essenciais incluem sódio sérico, osmolalidade sérica, sódio urinário e osmolalidade urinária. O cálculo da osmolalidade plasmática efetiva é importante para excluir pseudohiponatremia. A investigação de função tireoidiana (TSH, T4 livre) e adrenal (cortisol) é padrão para descartar causas endócrinas. No cenário de hiponatremia hipotônica euvolêmica com sódio urinário e osmolalidade urinária elevados (como no caso), o diagnóstico mais provável é a Síndrome de Secreção Inapropriada de ADH (SIADH). Medicamentos como a fluoxetina são causas conhecidas de SIADH.\n\nO tratamento depende da gravidade dos sintomas e da duração. Em casos crônicos sintomáticos ou assintomáticos, a correção deve ser lenta e gradual, não excedendo 8 mEq/L nas primeiras 24 horas, para evitar a síndrome de desmielinização osmótica (SDO). A restrição hídrica é a primeira linha para SIADH. A identificação e correção da causa subjacente (ex: suspensão de medicamento) são primordiais. Outras opções incluem ureia oral, furosemida com sal ou vaptanos em casos selecionados. As orientações ao paciente e família devem incluir a restrição hídrica, sinais de alerta e a importância da monitorização contínua.\n\n",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Protocolos de Manejo Clínico da Hiponatremia. Disponível em: [Buscar no Google: Protocolos de Manejo Clínico da Hiponatremia Ministério da Saúde]. Acesso em: 2024.",
+        "2. Spasovski, G. et al. Clinical practice guideline on diagnosis and treatment of hyponatraemia. European Journal of Endocrinology, v. 170, n. 3, p. G1-G47, 2014.",
+        "3. Sterns, R. H. Disorders of plasma sodium--causes, consequences, and correction. N Engl J Med, v. 378, n. 6, p. 555-565, 2018.",
+        "4. UpToDate. Hyponatremia in adults: Evaluation and management. Disponível em: www.uptodate.com. Acesso em: 2024."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "f4b92ffe-7a1a-4b20-8b05-d3698d5f0d93",
+  "created_at": "2025-08-28T10:46:10.681448",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Hiponatremia",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

@@ -1,0 +1,556 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_MM",
+  "tituloEstacao": "Mieloma Múltiplo",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Mieloma Múltiplo",
+    "Dor Óssea",
+    "Anemia",
+    "Insuficiência Renal",
+    "Hipercalcemia",
+    "Clínica Médica",
+    "Oncologia",
+    "Hematologia",
+    "Atenção secundária à saúde"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Serviço de radiologia para exames de imagem (Raio-X, TC, RM, PET-CT)",
+        "Acesso a biópsia de medula óssea",
+        "Referência para hematologista/oncologista"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 70 anos de idade, sexo masculino, chega à consulta ambulatorial referindo dor nas costas que piora com o movimento e cansaço progressivo nos últimos meses.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada às queixas principais do paciente.",
+      "Solicitar o exame físico necessário para a avaliação do caso.",
+      "Solicitar e Interpretar exames complementares pertinentes ao caso clínico.",
+      "Formular o(s) diagnóstico(s) principal(is) e os diagnósticos diferenciais relevantes.",
+      "Elaborar a conduta terapêutica inicial e as orientações para o paciente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com uma dor nas costas que não melhora e me sinto muito cansado, doutor."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR ÓSSEA",
+        "informacao": "Início: Começou há uns 6 meses, mas piorou bastante nas últimas semanas.\nLocalização: É na parte de baixo da coluna, na região lombar, e às vezes parece que pega as costelas também.\nIntensidade: Era fraca no começo, mas agora está em uns 7/10, às vezes até 8/10.\nCaracterística ou Tipo da dor: É uma dor profunda, tipo um peso.\nIrradiação: Não irradia para as pernas.\nDuração: É contínua, não para.\nProgressão: Tem piorado progressivamente.\nFrequência: É constante, todo dia.\nFator de piora ou agravante: Piora muito quando ando, levanto peso, ou até mesmo quando viro na cama à noite.\nFator de melhora ou atenuante: Melhora um pouco quando deito e fico completamente parado, mas não some.\nEpisódios prévios: Nunca tive uma dor assim antes.\nMedicação de alivio: Tomei paracetamol e dipirona, mas não ajudou em nada. Já usei uns anti-inflamatórios que me receitaram, mas sem resultado duradouro."
+      },
+      {
+        "contextoOuPerguntaChave": "CANSANÇO/FADIGA",
+        "informacao": "Início: Sinto esse cansaço há uns 4 meses, mas agora está insuportável.\nLocalização: É no corpo todo, uma moleza geral.\nIntensidade: É muito forte, me deixa sem energia pra nada, nota 9/10 no pior momento.\nCaracterística ou Tipo da dor: É uma sensação de fraqueza e exaustão, como se tivesse corrido uma maratona.\nIrradiação: Não se aplica.\nDuração: É contínuo, não melhora.\nProgressão: Piorou muito com o tempo.\nFrequência: É o tempo todo.\nFator de piora ou agravante: Qualquer esforço mínimo me deixa exausto.\nFator de melhora ou atenuante: Mesmo dormindo bastante, acordo cansado.\nEpisódios prévios: Não, nunca senti algo assim.\nMedicação de alivio: Não usei nada, não sei o que tomar."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Perda de peso: Sim, perdi uns 5 quilos nos últimos 3 meses, sem fazer dieta.\nFebre: Não, não tive febre.\nInfecções de repetição: Sim, tenho tido umas gripes mais fortes e demoradas que o normal, e uma infecção urinária há um mês.\nPoliúria: Sim, tenho sentido muita sede e urinado bastante, mais do que o normal.\nPolidipsia: Sim, tenho sentido muita sede.\nConstipação: Sim, meu intestino está mais preso do que o costume.\nConfusão mental: Nega confusão mental.\nEdema: Nega edema nas pernas ou outras partes do corpo.\nOligúria: Nega oligúria.\nParestesias: Nega formigamento.\nFraqueza em membros: Nega fraqueza nos braços ou pernas."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Hipertensão arterial, controlada.\nCirurgias prévias: Apenas apendicectomia há muitos anos.\nInternações: Nega internações graves.\nAlergias: Nega alergias a medicamentos ou alimentos.\nMedicamentos em uso contínuo: Losartana 50mg, um comprimido por dia.\nVacinação: Vacinação em dia (gripe e Covid).\nTrauma: Nega traumas recentes.\nTransfusões: Nega transfusões prévias."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nunca fumei.\nEtilismo: Bebo socialmente, uma taça de vinho no fim de semana.\nDrogas ilícitas: Nega uso.\nAlimentação: Alimentação variada, mas com esse cansaço, tenho comido menos.\nAtividade física: Costumava caminhar todos os dias, mas com a dor e o cansaço, parei.\nSono: Durmo bem, mas acordo cansado.\nIngestão hídrica: Tenho bebido bastante água por causa da sede.\nExposição ocupacional: Sou aposentado, trabalhava em escritório. Nunca lidei com produtos químicos.\nEstresse: Preocupado com essa dor e o cansaço que não passam."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Faleceu de infarto.\nMãe: Faleceu de causas naturais, idosa.\nDoenças na família: Nega histórico de câncer no sangue na família.\nHistoria de câncer na família: Minha tia teve câncer de mama, já tratou e está bem.\nIrmãos ou tias: Nega outros antecedentes relevantes."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): Doutor, o que eu tenho?\npergunta (2): É grave? Eu vou precisar de cirurgia?\npergunta (3): Quais são as opções de tratamento?\npergunta (4): O que eu faço para que isso não aconteça novamente?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "140 x 90 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "95 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "96 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Regular estado geral, emagrecido, mucosas pálidas ++/4+."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Ictérico (-), cianose (-), linfonodos não palpáveis, tireoide sem alterações."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular, bulhas rítmicas e normofonéticas em 2 tempos, sopro sistólico ++/6+ em foco aórtico."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação profunda, ruídos hidroaéreos presentes, sem visceromegalias."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edema, sem sinais de trombose venosa profunda. Ausência de déficit motor ou sensitivo."
+                },
+                {
+                  "chave": "Sistema Musculoesquelético",
+                  "valor": "Dor à palpação da coluna lombar e arcos costais inferiores. Mobilidade de coluna lombar discretamente reduzida por dor."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais Iniciais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "6.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "8.2 g/dL (Ref: 13.5-17.5 M)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "25.0 % (Ref: 40-52%)"
+                },
+                {
+                  "chave": "VCM",
+                  "valor": "88 fL (Ref: 80-100 fL)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "180.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "60 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.8 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Cálcio total corrigido",
+                  "valor": "12.5 mg/dL (Ref: 8.5-10.5)"
+                },
+                {
+                  "chave": "Albumina",
+                  "valor": "3.0 g/dL (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "LDH",
+                  "valor": "300 U/L (Ref: 135-225)"
+                },
+                {
+                  "chave": "Beta-2 Microglobulina",
+                  "valor": "5.8 mg/L (Ref: <2.7)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "PROTEÍNAS SÉRICAS",
+              "itens": [
+                {
+                  "chave": "Eletroforese de Proteínas Séricas",
+                  "valor": "Pico monoclonal na região gama, com componente M de 4.5 g/dL."
+                },
+                {
+                  "chave": "Imunofixação Sérica",
+                  "valor": "Presença de imunoglobulina IgG kappa monoclonal."
+                },
+                {
+                  "chave": "Cadeias Leves Livres Séricas Kappa",
+                  "valor": "250 mg/L (Ref: 3.3-19.4)"
+                },
+                {
+                  "chave": "Cadeias Leves Livres Séricas Lambda",
+                  "valor": "10 mg/L (Ref: 5.7-26.3)"
+                },
+                {
+                  "chave": "Razão Kappa/Lambda",
+                  "valor": "25 (Ref: 0.26-1.65)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_RX_3",
+        "tituloImpresso": "Radiografia de Coluna Lombar e Bacia",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Radiografia da coluna lombar em perfil evidenciando alterações estruturais.",
+          "caminhoImagem": "(Buscar no Google Imagens: Raio-X coluna lombar perfil lesões líticas mieloma múltiplo fratura patológica L3)",
+          "laudo": "Múltiplas lesões osteolíticas em 'saca-bocados' nos corpos vertebrais L2, L3 e L4. Sinais de fratura patológica em L3, sem colapso vertebral significativo."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_MM_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 70 anos, com quadro de dor óssea progressiva em coluna lombar e fadiga há meses, associado a perda de peso, poliúria e infecções de repetição. Exames laboratoriais demonstram anemia, insuficiência renal, hipercalcemia, pico monoclonal IgG kappa, e biópsia de medula óssea confirma Mieloma Múltiplo com achado citogenético de alto risco (deleção 17p).",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa com foco nos sintomas CRAB e constitucionais.",
+        "Solicitação e interpretação de exames laboratoriais e de imagem específicos para Mieloma Múltiplo.",
+        "Diagnóstico diferencial de gamopatias monoclonais e outras causas de dor óssea/anemia/insuficiência renal.",
+        "Diagnóstico definitivo de Mieloma Múltiplo e estadiamento utilizando critérios IMWG/R-ISS.",
+        "Elaboração de conduta terapêutica inicial e encaminhamento adequado."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e Postura:\n(1) Apresenta-se e cumprimenta o paciente simulado;\n(2) Mantém contato visual e postura empática;\n(3) Pergunta o motivo da consulta e escuta ativamente o paciente.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ou duas ações.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Dor Óssea: Investiga de forma completa:\n(1) início;\n(2) localização;\n(3) intensidade;\n(4) característica;\n(5) irradiação;\n(6) duração;\n(7) progressão;\n(8) fatores de piora;\n(9) fatores de melhora;\n(10) episódios prévios;\n(11) uso de medicação de alívio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 9 de 11 itens.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 5 a 8 itens.",
+            "pontos": 0.6
+          },
+          "inadequado": {
+            "criterio": "Pergunta 4 ou menos itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracterização da Fadiga: Investiga de forma completa:\n(1) início;\n(2) intensidade;\n(3) característica;\n(4) duração;\n(5) progressão;\n(6) fatores de piora;\n(7) fatores de melhora;\n(8) impacto funcional.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 de 8 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 itens.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Sintomas Associados (CRAB e constitucionais): Investiga a presença de:\n(1) perda de peso;\n(2) febre/infecções de repetição;\n(3) poliúria/polidipsia;\n(4) constipação;\n(5) alterações neurológicas (parestesias/fraqueza/confusão);\n(6) edema/oligúria.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 de 6 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 itens.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Antecedentes e Hábitos: Investiga de forma completa:\n(1) doenças crônicas/comorbidades;\n(2) medicamentos em uso;\n(3) história prévia de Gamopatia Monoclonal de Significado Indeterminado (GMSI);\n(4) história familiar relevante para neoplasias hematológicas;\n(5) tabagismo/etilismo/drogas ilícitas;\n(6) exposição ocupacional a agentes químicos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 de 6 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Solicitação de Exame Físico (Verbalizado): Solicita verbalmente e de forma direcionada:\n(1) avaliação do estado geral e mucosas (palidez);\n(2) palpação óssea para dor (coluna, costelas, pelve);\n(3) avaliação de edema (MMII/periorbitário);\n(4) exame neurológico básico (pesquisa de déficits motores/sensitivos).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 3 de 4 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 1 ou 2 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou solicita inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicitação de Exames Laboratoriais Essenciais para Mieloma Múltiplo:\n(1) hemograma completo;\n(2) ureia, creatinina e cálcio sérico corrigido;\n(3) eletroforese de proteínas séricas e urinárias de 24h;\n(4) imunofixação sérica e urinária;\n(5) cadeias leves livres séricas kappa/lambda e sua razão;\n(6) beta-2 microglobulina e LDH.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 5 de 6 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 3 ou 4 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita 2 ou menos itens ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicitação de Exames de Imagem e Biópsia de Medula Óssea:\n(1) série óssea ou Tomografia Computadorizada de baixa dose de corpo inteiro;\n(2) Ressonância Magnética de coluna e pelve;\n(3) Biópsia e aspirado de medula óssea com citometria de fluxo e citogenética/FISH;\n(4) PET-CT (como exame complementar para estadiamento).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 3 de 4 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 1 ou 2 itens.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou solicita inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpretação dos Exames Complementares (Laboratoriais, Imagem e Biópsia):\n(1) Identifica anemia (Hb 8.2 g/dL);\n(2) Identifica insuficiência renal (creatinina 1.8 mg/dL, ureia 60 mg/dL);\n(3) Identifica hipercalcemia (cálcio corrigido 12.5 mg/dL);\n(4) Identifica componente monoclonal (pico gama 4.5 g/dL, IgG kappa);\n(5) Identifica razão de cadeias leves livres alterada (kappa/lambda 25);\n(6) Identifica infiltração de plasmócitos clonais na medula (70%);\n(7) Identifica deleção 17p na citogenética;\n(8) Interpreta lesões osteolíticas e fratura patológica na radiografia;\n(9) Interpreta focos hipermetabólicos no PET-CT.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 8 de 9 itens corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 5 a 7 itens corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Interpreta 4 ou menos itens ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Diagnóstico Definitivo de Mieloma Múltiplo e Estadiamento:\n(1) Verbaliza o diagnóstico de Mieloma Múltiplo;\n(2) Cita os critérios CRAB presentes (anemia, insuficiência renal, hipercalcemia, lesões ósseas);\n(3) Menciona biomarcadores de malignidade (SLiM CRAB: ≥60% plasmócitos, razão de cadeias leves ≥100, >1 lesão focal RM);\n(4) Sugere estadiamento conforme o R-ISS (Estágio III devido a Beta-2 microglobulina elevada e deleção 17p).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico e os 3 critérios de estadiamento corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico e 1 ou 2 critérios de estadiamento.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico ou o estadiamento corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Diagnósticos Diferenciais Relevantes:\n(1) Gamopatia Monoclonal de Significado Indeterminado (GMSI);\n(2) Mieloma Múltiplo Latente (Smoldering Myeloma);\n(3) Metástases ósseas de outros tumores sólidos;\n(4) Linfoma;\n(5) Amiloidose primária.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 4 de 5 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Cita 1 ou menos itens ou não cita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Plano Terapêutico Inicial e Encaminhamento:\n(1) Inicia medidas de suporte (hidratação vigorosa, bifosfonatos para hipercalcemia e lesões ósseas);\n(2) Encaminha urgentemente para avaliação de hematologista/oncologista;\n(3) Considera a elegibilidade do paciente para Transplante Autólogo de Células-Tronco Hematopoéticas (TCTH) na definição do esquema de indução.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza uma ou duas ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Orientações Finais ao Paciente:\n(1) Explica a doença de forma compreensível e a necessidade do tratamento;\n(2) Orienta sobre sinais de alarme e quando procurar atendimento imediato;\n(3) Reafirma a importância do acompanhamento médico regular.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza uma ou duas ações.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Notificação ao SISCAN/SINAN:\n(1) Verbaliza a necessidade de notificação do caso em sistema de registro de câncer (SISCAN/SINAN).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a necessidade de notificação.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a necessidade de notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "O Mieloma Múltiplo (MM) é uma neoplasia hematológica de plasmócitos clonais na medula óssea, responsável pela produção de uma proteína M monoclonal. Afeta principalmente idosos e manifesta-se por disfunção orgânica (eventos CRAB: hiperCalcemia, insuficiência Renal, Anemia, Lesões Ósseas - Bone lesions) e biomarcadores de malignidade (SLiM CRAB). A anamnese é fundamental para identificar dor óssea (coluna, costelas), fadiga (anemia), sintomas de hipercalcemia (poliúria, polidipsia, constipação), infecções de repetição e perda de peso. O exame físico pode revelar palidez, dor à palpação óssea e, raramente, sinais de amiloidose. Os exames laboratoriais essenciais incluem hemograma (anemia), bioquímica (cálcio, ureia, creatinina, albumina, LDH, beta-2 microglobulina), eletroforese/imunofixação de proteínas séricas e urinárias (detecção e tipagem do componente M), e cadeias leves livres séricas e sua razão. Exames de imagem (série óssea, TC de corpo inteiro, RM de coluna/pelve, PET-CT) são cruciais para detectar lesões osteolíticas e avaliar a extensão da doença. O diagnóstico definitivo requer biópsia de medula óssea com >10% de plasmócitos clonais ou plasmocitoma extramedular, associado a pelo menos um critério CRAB ou SLiM. O estadiamento R-ISS é utilizado para prognóstico. O tratamento depende da elegibilidade para TCTH, com regimes de indução contendo inibidores de proteassoma e imunomoduladores. Complicações como compressão medular, fraturas patológicas e insuficiência renal requerem manejo urgente. Pacientes com GMSI devem ser monitorados para detecção precoce. A notificação em registros de câncer é obrigatória.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Instituto Nacional de Câncer José Alencar Gomes da Silva (INCA). Mieloma Múltiplo. Disponível em: https://www.inca.gov.br/tipos-de-cancer/mieloma-multiplo",
+        "2. International Myeloma Working Group (IMWG) guidelines. Kyle, R. A., Rajkumar, S. V. (2009). Multiple myeloma: diagnostic criteria and staging. Best Practice & Research Clinical Haematology, 22(3), 365-373.",
+        "3. Rajkumar, S. V., et al. (2014). International Myeloma Working Group updated criteria for the diagnosis of multiple myeloma. The Lancet Oncology, 15(12), e538-e548.",
+        "4. UpToDate. Clinical features, diagnosis, and staging of multiple myeloma. Disponível em: www.uptodate.com (Acessado em Junho de 2024)."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "7aec207e-0a7d-44ff-9897-159aea72cd8b",
+  "created_at": "2025-08-28T13:07:37.162198",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Mieloma Múltiplo",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

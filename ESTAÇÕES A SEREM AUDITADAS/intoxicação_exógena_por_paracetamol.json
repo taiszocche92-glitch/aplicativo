@@ -44,6 +44,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Regina Soares, 32 anos, Comerciante e Solteira"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com um mal-estar e umas náuseas, doutor(a)."
       },
@@ -571,5 +575,23 @@
         "3. Sociedade Brasileira de Toxicologia (SBTOX). Diretrizes para o manejo de intoxicações. (Consultado em Outubro de 2024)."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "15f65a99-059c-4843-ad88-683060d95d90",
+  "created_at": "2025-08-28T15:28:31.718076",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Intoxicaçõe Exógena: Paracetamol",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

@@ -42,6 +42,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Fabio Vieira, 30 anos, Professor e Solteiro"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou tendo umas crises estranhas, doutor(a)."
       },
@@ -531,5 +535,23 @@
         "4. Fisher RS, Acevedo C, Arzimanoglou A, et al. ILAE official report: a practical clinical definition of epilepsy. Epilepsia. 2014;55(4):475-482."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "58583eb5-931a-4d89-b7ab-cb543e855afc",
+  "created_at": "2025-08-28T14:17:19.623363",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Epilepsia",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

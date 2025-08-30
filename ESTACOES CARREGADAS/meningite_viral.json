@@ -1,0 +1,622 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_08",
+  "tituloEstacao": "Meningite Viral",
+  "numeroDaEstacao": 8,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Meningite Viral",
+    "Dor de cabeça",
+    "Febre",
+    "Rigidez de nuca",
+    "LCR",
+    "Clínica Médica",
+    "Urgência e emergência"
+  ],
+  "nivelDificuldade": "Alto",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (Tomografia Computadorizada)",
+        "Medicações de suporte (analgésicos, antipiréticos, antieméticos, antibióticos empíricos)",
+        "Equipe de enfermagem"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente chega ao pronto-socorro referindo: 'Estou com uma dor de cabeça muito forte e febre'.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente.",
+      "Solicitar o exame físico direcionado e verbalizar os achados.",
+      "Solicitar exames complementares pertinentes ao caso clínico.",
+      "Interpretar os resultados dos exames complementares apresentados.",
+      "Estabelecer o diagnóstico principal e os diagnósticos diferenciais mais relevantes.",
+      "Elaborar a conduta terapêutica inicial e definitiva para o caso.",
+      "Oferecer orientações ao paciente sobre o manejo da doença, sinais de alarme e prognóstico.",
+      "Mencionar a necessidade de notificação compulsória do caso."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: João da Silva\nIdade: 35 anos\nSexo: Masculino\nEstado Civil: Casado\nProfissão: Analista de Sistemas"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com uma dor de cabeça muito forte e febre."
+      },
+      {
+        "contextoOuPerguntaChave": "CEFALEIA",
+        "informacao": "Início: Agudo, há 3 dias\nLocalização: Holocraniana, com predomínio occipital\nIntensidade: 8/10, a pior dor de cabeça que já tive\nCaracterística: Pulsátil, em aperto\nIrradiação: Não irradia\nDuração: Contínua, não melhora totalmente\nProgressão: Piorando ao longo dos dias\nFator de piora ou agravante: Movimento da cabeça, luz forte, barulho\nFator de melhora ou atenuante: Repouso no escuro alivia um pouco, analgésicos comuns (paracetamol) com pouca resposta\nEpisódios prévios: Nunca tive uma dor de cabeça como essa"
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE",
+        "informacao": "Início: Há 2 dias, gradual\nDuração: Contínua, com picos diários\nPadrão: Picos mais altos à tarde e noite\nIntensidade: Temperatura máxima 38.8°C\nSintomas associados: Calafrios ocasionais, sudorese noturna discreta\nResposta a antitérmicos: Melhora parcial e temporária com paracetamol"
+      },
+      {
+        "contextoOuPerguntaChave": "NÁUSEAS E VÔMITOS",
+        "informacao": "Início: Há 1 dia\nFrequência: 2 episódios\nRelação temporal: Não relacionados à alimentação\nConteúdo: Alimentar\nFatores de alívio: Nenhum\nSintomas associados: Nega dor abdominal"
+      },
+      {
+        "contextoOuPerguntaChave": "FOTOFOBIA",
+        "informacao": "Início: Há 2 dias\nSintoma: Sim, sinto muita sensibilidade à luz, incomoda bastante"
+      },
+      {
+        "contextoOuPerguntaChave": "DOR NA NUCA E RIGIDEZ",
+        "informacao": "Início: Há 2 dias\nSintoma: Sim, muita dor ao tentar mover o pescoço, principalmente para frente"
+      },
+      {
+        "contextoOuPerguntaChave": "OUTROS SINTOMAS ASSOCIADOS",
+        "informacao": "Alteração do nível de consciência: Nega confusão mental, sonolência excessiva ou desmaios\nCrises convulsivas: Nega\nDéficits neurológicos focais: Nega fraqueza em braços ou pernas, dificuldade para falar ou visão dupla\nPródromos virais: Nega sintomas gripais, diarreia, ou rash cutâneo prévio"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Nega diabetes, hipertensão, doenças cardíacas ou pulmonares\nImunocomprometimento: Nega HIV, uso de imunossupressores, câncer, transplantes\nCirurgias prévias: Nega\nMedicações em uso contínuo: Nega uso de medicações contínuas\nAlergias: Nega alergias conhecidas\nVacinação: Não consta"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Casos semelhantes na família: Nega\nPai: Não consta\nMãe: Não consta\nDoenças (especificas com relação e relevante ao caso) na família: Não consta\nHistoria de cancêr na família: Não consta"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA E EXPOSIÇÃO",
+        "informacao": "Tabagismo: Nega\nEtilismo: Nega\nDrogas ilícitas: Nega\nAlimentação: Não consta\nAtividade física: Não consta\nSono: Não consta\nExposição ocupacional: Não consta\nEstresse: Não consta\nViagens recentes: Nega viagens para áreas endêmicas\nExposição a vetores: Nega picadas de insetos recentes\nContato com doentes: Nega contato próximo com pessoas doentes com sintomas semelhantes ou em aglomerações"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "Pergunta (1): Doutor, essa doença é grave? Vou ficar com alguma sequela?\nPergunta (2): Posso voltar pra casa hoje?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est08_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "SINAIS VITAIS - 10/10/2024 - 14:00h",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "120 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "88 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "38,8 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "97% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est08_impresso_EXAMEFISICO_2",
+        "tituloImpresso": "EXAME FÍSICO GERAL - 10/10/2024 - 14:00h",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESTADO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Regular estado geral, lúcido, orientado em tempo e espaço, hidratado, corado, anictérico, acianótico, afebril no momento do exame. Sem exantemas ou lesões cutâneas visíveis."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MANOBRAS SEMIOLÓGICAS ESPECÍFICAS",
+              "itens": [
+                {
+                  "chave": "Rigidez de nuca",
+                  "valor": "Presente e dolorosa à flexão passiva do pescoço"
+                },
+                {
+                  "chave": "Sinal de Kernig",
+                  "valor": "Positivo bilateralmente"
+                },
+                {
+                  "chave": "Sinal de Brudzinski",
+                  "valor": "Positivo"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME NEUROLÓGICO",
+              "itens": [
+                {
+                  "chave": "Pares cranianos",
+                  "valor": "Preservados"
+                },
+                {
+                  "chave": "Força motora",
+                  "valor": "Grau V em todos os 4 membros"
+                },
+                {
+                  "chave": "Sensibilidade",
+                  "valor": "Preservada"
+                },
+                {
+                  "chave": "Reflexos",
+                  "valor": "Normais e simétricos"
+                },
+                {
+                  "chave": "Coordenação e marcha",
+                  "valor": "Não testados devido à dor, mas sem sinais evidentes de alteração no leito"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est08_impresso_LABORATORIO_3",
+        "tituloImpresso": "EXAMES LABORATORIAIS - 10/10/2024 - 15:30h",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.2 g/dL (VR: 13-17 g/dL)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "42% (VR: 39-50%)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "11.500/mm³ (VR: 4.000-11.000/mm³)"
+                },
+                {
+                  "chave": "Neutrófilos",
+                  "valor": "70% (VR: 40-75%)"
+                },
+                {
+                  "chave": "Linfócitos",
+                  "valor": "25% (VR: 20-45%)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000/mm³ (VR: 150.000-450.000/mm³)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "95 mg/dL (VR: 70-99 mg/dL)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (VR: 10-50 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (VR: 0.7-1.3 mg/dL)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "140 mEq/L (VR: 135-145 mEq/L)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "4.0 mEq/L (VR: 3.5-5.0 mEq/L)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MARCADORES INFLAMATÓRIOS",
+              "itens": [
+                {
+                  "chave": "Proteína C Reativa (PCR)",
+                  "valor": "28 mg/L (VR: <5 mg/L)"
+                },
+                {
+                  "chave": "Procalcitonina",
+                  "valor": "<0.1 ng/mL (VR: <0.5 ng/mL)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est08_impresso_LCR_4",
+        "tituloImpresso": "ANÁLISE DO LÍQUIDO CEFALORRAQUIDIANO (LCR) - 10/10/2024 - 16:00h",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ANÁLISE FÍSICA E CITOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Aspecto",
+                  "valor": "Límpido, incolor"
+                },
+                {
+                  "chave": "Pressão de abertura",
+                  "valor": "19 cmH2O (VR: 7-18 cmH2O)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "180 células/mm³ (VR: <5 células/mm³)"
+                },
+                {
+                  "chave": "Diferencial",
+                  "valor": "85% Linfócitos, 15% Neutrófilos"
+                },
+                {
+                  "chave": "Glicose",
+                  "valor": "62 mg/dL (VR: 40-70 mg/dL; 50-80% da glicemia sérica)"
+                },
+                {
+                  "chave": "Proteínas",
+                  "valor": "75 mg/dL (VR: 15-45 mg/dL)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MICROBIOLOGIA",
+              "itens": [
+                {
+                  "chave": "Coloração de Gram",
+                  "valor": "Ausência de bactérias"
+                },
+                {
+                  "chave": "Cultura bacteriana",
+                  "valor": "Negativa (prévia, resultado em 24h)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "TESTES MOLECULARES",
+              "itens": [
+                {
+                  "chave": "PCR para Enterovírus",
+                  "valor": "POSITIVO"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est08_impresso_IMAGEM_TC_5",
+        "tituloImpresso": "TOMOGRAFIA COMPUTADORIZADA DE CRÂNIO - 10/10/2024 - 14:45h",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Dirija-se para a câmera e explique os achados na imagem.",
+          "caminhoImagem": "https://neuroradiology.ucsf.edu/sites/neuroradiology.ucsf.edu/files/meningitis-ct.jpg",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: TC de crânio normal sem contraste, parênquima cerebral preservado, sem desvio de linha média ou hidrocefalia)",
+          "laudo": "ACHADOS:\nExame de tomografia computadorizada de crânio sem contraste mostra parênquima cerebral com densidade e diferenciação córtico-subcortical preservadas. Sistema ventricular de dimensões normais. Cisternas da base e sulcos corticais pérvios. Não há evidência de desvio de linha média, lesões expansivas intracranianas, coleções extra-axiais ou hidrocefalia. Ausência de sinais de hipertensão intracraniana. Estruturas ósseas da calota craniana e base sem alterações agudas.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST08_CM_MENINGITEVIRAL_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 32 anos, apresenta quadro agudo de cefaleia intensa, febre, náuseas, fotofobia e sinais de irritação meníngea (rigidez de nuca, Kernig, Brudzinski positivos). Exames laboratoriais mostram leucocitose discreta com neutrofilia, PCR elevado e procalcitonina normal. A TC de crânio é normal. O LCR apresenta pleocitose linfocitária, glicose normal, proteínas discretamente elevadas e PCR para Enterovírus positivo, confirmando meningite viral.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa e direcionada para sintomas neurológicos e infecciosos.",
+        "Exame físico focado em sinais de irritação meníngea e avaliação neurológica.",
+        "Solicitação e interpretação de exames laboratoriais, com destaque para a análise do Líquido Cefalorraquidiano (LCR) e exames de imagem.",
+        "Estabelecimento do diagnóstico diferencial e do diagnóstico definitivo da meningite viral.",
+        "Elaboração de um plano de tratamento adequado, incluindo manejo de suporte e específico, e orientações ao paciente."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est08_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est08_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Cefaleia: Questiona sobre as seguintes características:\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Característica (Tipo);\n(5) Irradiação;\n(6) Duração;\n(7) Progressão;\n(8) Fator de piora ou agravante;\n(9) Fator de melhora ou atenuante;\n(10) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 8 ou mais características da cefaleia.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 5 a 7 características da cefaleia.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 5 características ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est08_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Investigação de Sintomas Associados: Questiona sobre a presença de:\n(1) Febre (início, duração, padrão, intensidade, calafrios, sudorese, resposta a antitérmicos);\n(2) Náuseas e Vômitos (início, frequência, relação temporal, conteúdo);\n(3) Fotofobia;\n(4) Dor na nuca ou rigidez;\n(5) Alteração do nível de consciência (confusão, sonolência);\n(6) Crises convulsivas;\n(7) Déficits neurológicos focais (fraqueza, alteração de fala, visão);\n(8) Pródromos virais (sintomas gripais, diarreia, rash cutâneo).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 ou mais itens relevantes de sintomas associados.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 itens relevantes de sintomas associados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 3 itens ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est08_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Investigação de Antecedentes e Hábitos: Questiona sobre:\n(1) Antecedentes patológicos pessoais (comorbidades, imunocomprometimento, cirurgias, medicações, alergias);\n(2) Antecedentes familiares (casos semelhantes);\n(3) Hábitos de vida (tabagismo, etilismo, drogas ilícitas);\n(4) Antecedentes epidemiológicos (viagens, exposição a vetores, contato com doentes/aglomerações).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga todos os 4 tipos de antecedentes/hábitos com detalhes relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 tipos de antecedentes/hábitos com detalhes relevantes.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 2 tipos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est08_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Interpreta adequadamente os achados nos impressos de Sinais Vitais e Exame Físico Geral (Estado Geral):\n(1) Pressão arterial;\n(2) Frequência cardíaca;\n(3) Frequência respiratória;\n(4) Temperatura;\n(5) Saturação O2;\n(6) Estado geral do paciente;\n(7) Ausência de exantema.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente 6 ou 7 achados.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente 3 a 5 achados.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 3 achados ou não os interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est08_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Interpreta adequadamente os achados nas manobras semiológicas específicas para meningite e no exame neurológico focal (Impresso: Exame Físico Geral):\n(1) Rigidez de nuca;\n(2) Sinal de Kernig;\n(3) Sinal de Brudzinski;\n(4) Avaliação de Pares Cranianos;\n(5) Força motora;\n(6) Sensibilidade;\n(7) Reflexos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente 5 ou mais achados relevantes.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente 3 ou 4 achados relevantes.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 3 achados ou não os interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est08_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Interpreta adequadamente os seguintes exames laboratoriais complementares (Impresso: Exames Laboratoriais):\n(1) Hemograma (Leucócitos, Neutrófilos, Linfócitos);\n(2) Bioquímica (Glicose, Ureia, Creatinina, Eletrólitos);\n(3) Marcadores inflamatórios (Proteína C Reativa, Procalcitonina).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente 3 ou mais tipos de exames (com achados relevantes).",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente 2 tipos de exames (com achados relevantes).",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 2 tipos de exames ou não os interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est08_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Indica e interpreta a Tomografia Computadorizada de Crânio (Impresso: Tomografia Computadorizada de Crânio):\n(1) Indica a TC de crânio antes da Punção Lombar (PL) para excluir contraindicações;\n(2) Interpreta corretamente o laudo da TC, verbalizando a ausência de alterações agudas ou sinais de hipertensão intracraniana.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica e interpreta corretamente ambos os itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica corretamente a TC, mas interpreta de forma incompleta ou vice-versa.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não indica TC ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est08_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpreta corretamente a análise do Líquido Cefalorraquidiano (LCR) (Impresso: Análise do Líquido Cefalorraquidiano (LCR)) em relação a:\n(1) Coleta do LCR (aspecto, pressão de abertura);\n(2) Análise citoquímica (Leucócitos, Diferencial, Glicose, Proteínas);\n(3) Microbiologia (Coloração de Gram, Cultura bacteriana);\n(4) Testes moleculares (PCR para Enterovírus).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente todos os 4 itens, com foco no diagnóstico viral.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente 2 ou 3 itens, com alguma falha no foco diagnóstico.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Não interpreta o LCR ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est08_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Estabelece o diagnóstico principal e os diagnósticos diferenciais:\n(1) Diagnóstico principal: Meningite Viral por Enterovírus (Síndrome meníngea infecciosa + agente etiológico);\n(2) Cita ao menos dois diagnósticos diferenciais relevantes (Meningite Bacteriana Aguda; Meningoencefalite viral; Hemorragia Subaracnóidea; Meningite Fúngica/Tuberculosa).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Estabelece corretamente o diagnóstico principal e cita 2 ou mais diferenciais relevantes.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Estabelece corretamente o diagnóstico principal, mas cita 1 diferencial relevante, ou diagnóstico principal incompleto.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico principal correto ou não cita diferenciais relevantes.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est08_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Elabora a conduta terapêutica inicial e definitiva:\n(1) Inicia antibioticoterapia empírica e dexametasona enquanto aguarda resultados de LCR (ou suspende se LCR já confirmou viral);\n(2) Oferece tratamento de suporte (hidratação, analgésicos, antipiréticos, antieméticos);\n(3) Indica repouso adequado;\n(4) Não indica Aciclovir (visto que o PCR para Enterovírus foi positivo).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora conduta inicial e definitiva completa e correta (considerando o LCR já disponível).",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora conduta parcialmente correta ou incompleta (2 ou 3 itens).",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Elabora conduta incorreta ou não elabora.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est08_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Oferece orientações ao paciente sobre:\n(1) Curso geralmente benigno e autolimitado da doença;\n(2) Ausência de sequelas significativas na maioria dos casos;\n(3) Manejo dos sintomas em casa (repouso, hidratação, analgésicos);\n(4) Sinais de alarme para retorno ao pronto-socorro (piora da cefaleia, febre persistente, rebaixamento do nível de consciência, crises convulsivas, déficits focais);\n(5) Tempo de recuperação esperado (7-10 dias).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre 4 ou mais aspectos de forma clara e completa.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta sobre 2 ou 3 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Orienta sobre menos de 2 aspectos ou não orienta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est08_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Responde às perguntas/dúvidas do paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde às perguntas/dúvidas de forma clara e completa.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não responde às perguntas/dúvidas adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est08_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Verbaliza a necessidade de notificação compulsória do caso de meningite viral ao SINAN.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza corretamente a necessidade de notificação.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a necessidade de notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Meningite Viral é uma inflamação das meninges causada por vírus, sendo a forma mais comum de meningite asséptica. Geralmente tem um curso benigno e autolimitado, mas pode ser grave em imunocomprometidos. Os enterovírus são os agentes mais frequentes. Na anamnese, o paciente tipicamente apresenta início agudo ou subagudo de cefaleia intensa, febre (baixa a moderada), náuseas, vômitos, fotofobia e mal-estar geral, com possível dor e rigidez de nuca. Pródromos virais (gripais, diarreia, rash) podem preceder o quadro. Fatores de risco incluem imunocomprometimento, idade extrema e contato com pessoas infectadas. O exame físico pode revelar febre, rigidez de nuca, sinais de Kernig e Brudzinski positivos. O exame neurológico geralmente é normal, sem sinais focais. O diagnóstico principal é baseado na análise do Líquido Cefalorraquidiano (LCR), que tipicamente mostra pleocitose linfocitária (podendo ter neutrófilos no início), glicose normal, proteínas normais ou discretamente elevadas, Gram negativo e cultura bacteriana negativa. O PCR do LCR para vírus (Enterovírus, HSV, VZV) pode confirmar a etiologia. Exames de imagem como a TC de crânio geralmente são normais na meningite viral e são indicados antes da punção lombar apenas se houver sinais de hipertensão intracraniana ou déficits neurológicos focais. O diagnóstico diferencial inclui meningite bacteriana (mais grave, LCR com pleocitose neutrofílica, glicose baixa, proteínas muito elevadas, Gram/cultura positivos) e outras condições como meningite fúngica, tuberculosa, meningoencefalite e hemorragia subaracnoídea. O tratamento de primeira linha é de suporte, com repouso, hidratação, analgésicos e antipiréticos. A antibioticoterapia empírica com dexametasona é iniciada em casos de suspeita de meningite bacteriana (especialmente antes dos resultados do LCR) e suspensa após a exclusão bacteriana. Aciclovir intravenoso é reservado para suspeita ou confirmação de HSV/VZV. Complicações são raras, mas incluem déficits neurológicos residuais e hidrocefalia. A meningite viral é uma doença de notificação compulsória. A prevenção foca em vacinação (MMR, pólio), higiene e controle de vetores.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Guia de Vigilância em Saúde. 5ª ed. Brasília, DF: Ministério da Saúde, 2023.",
+        "2. UpToDate. Viral meningitis in adults: Clinical manifestations and diagnosis. Disponível em: [https://www.uptodate.com/contents/viral-meningitis-in-adults-clinical-manifestations-and-diagnosis](https://www.uptodate.com/contents/viral-meningitis-in-adults-clinical-manifestations-and-diagnosis). Acesso em: 10 out. 2024.",
+        "3. Revalida Fácil 2024.2 - EST08_CLINICA_MENINGITE_VIRAL (Conforme referência do contexto clínico)."
+      ]
+    }
+  }
+}

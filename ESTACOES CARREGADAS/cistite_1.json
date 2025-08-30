@@ -1,0 +1,615 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_CISTITE_01",
+  "tituloEstacao": "Cistite",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Cistite",
+    "ITU baixa",
+    "Infecção urinária",
+    "Disúria",
+    "Polaciúria",
+    "Clínica Médica",
+    "Atenção primária à saúde"
+  ],
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção primária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Medicações disponíveis na farmácia da unidade"
+      ]
+    },
+    "descricaoCasoCompleta": "Uma paciente feminina procura atendimento médico na Unidade Básica de Saúde com queixas urinárias agudas.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal da paciente.",
+      "Solicitar e/ou realizar exames físicos necessários à avaliação do caso.",
+      "Solicitar exames complementares pertinentes ao caso clínico.",
+      "Relacionar os resultados dos exames às hipóteses diagnósticas.",
+      "Verbalizar o diagnóstico, sua classificação e elaborar a conduta terapêutica completa.",
+      "Responder às dúvidas da paciente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com ardência ao urinar e vontade de ir ao banheiro toda hora, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "DISÚRIA",
+        "informacao": "Início: Há 2 dias\nLocalização: Na uretra, ao urinar\nIntensidade: 7/10\nCaracterística: Ardência, queimação\nIrradiação: Nega\nDuração: Contínua ao urinar\nProgressão: Piorando desde que começou\nFrequência: Toda vez que urino\nFator de piora: Nega fator específico, piora ao urinar\nFator de melhora: Nega fator específico, sinto um leve alívio após urinar, mas logo volta a ardência\nEpisódios prévios: Já tive isso umas 3 vezes no último ano\nMedicação de alívio: Nega uso de medicação para alívio"
+      },
+      {
+        "contextoOuPerguntaChave": "POLACIÚRIA",
+        "informacao": "Início: Há 2 dias, junto com a ardência\nFrequência: Vou ao banheiro a cada 10-15 minutos, mesmo com pouca urina\nDuração: Contínua\nProgressão: Piorando, me incomoda muito\nEpisódios prévios: Nega com essa intensidade"
+      },
+      {
+        "contextoOuPerguntaChave": "URGÊNCIA MICCIONAL",
+        "informacao": "Início: Há 2 dias\nIntensidade: Vontade súbita e muito forte de urinar, difícil de segurar\nDuração: Constante\nProgressão: Piorando, tenho medo de não chegar a tempo ao banheiro\nEpisódios prévios: Já tive umas vezes antes, mas não tão forte"
+      },
+      {
+        "contextoOuPerguntaChave": "DOR SUPRAPÚBICA",
+        "informacao": "Início: Começou hoje pela manhã\nLocalização: Abaixo do umbigo, na região da bexiga\nIntensidade: 4/10\nCaracterística: Peso, desconforto\nProgressão: Levemente piorando\nFator de piora: Piora quando a bexiga está cheia\nFator de melhora: Alivia um pouco depois de urinar\nEpisódios prévios: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Febre: Nega febre\nCalafrios: Nega calafrios\nDor lombar: Nega dor na região lombar ou nos flancos\nNáuseas: Nega náuseas\nVômitos: Nega vômitos\nCorrimento vaginal: Nega corrimento vaginal\nPrurido vaginal: Nega coceira na região vaginal\nHematúria macroscópica: Nega urina com sangue visível\nDor à relação sexual: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Nega doenças crônicas como diabetes ou hipertensão\nCirurgias prévias: Nega\nInternações: Nega\nAlergias: Nega alergias a medicamentos\nMedicamentos em uso contínuo: Nega uso de medicamentos contínuos\nVacinação: Completa para a idade\nTrauma: Nega\nTransfusões: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Gravidez: Nega gravidez (último teste negativo há 2 meses)\nMenopausa: Nega, ciclo menstrual regular\nUso de cateter urinário: Nega\nAnomalias congênitas do trato urinário: Nega\nImunossupressão: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nunca fumou\nEtilismo: Socialmente, ocasionalmente\nDrogas ilícitas: Nega\nAlimentação: Variada e equilibrada\nAtividade física: Caminhada 3 vezes por semana\nSono: 7-8 horas por noite, boa qualidade\nHábitos urinários: Costuma segurar a urina por muito tempo no trabalho (8-10h), pois não tem tempo de ir ao banheiro\nHábitos intestinais: Regulares, 1x/dia, fezes consistência normal\nIngestão hídrica: Bebe pouca água (cerca de 1 litro/dia)\nAtividade sexual: Sexualmente ativa, com parceiro fixo\nUso de preservativos: Sim, utiliza preservativo\nUso de espermicidas/diafragma: Nega\nHigiene íntima: Limpeza da frente para trás"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Saudável\nMãe: Hipertensa\nDoenças na família: Nega história familiar de ITUs recorrentes ou malformações renais\nHistória de câncer na família: Nega\nIrmãos ou tias: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS",
+        "informacao": "Gestações: 2\nPartos: 2 (normais)\nAbortos: Nega\nCesáreas: Nega\nData da Última Menstruação (DUM): Há 10 dias\nMenarca: 12 anos\nCiclos menstruais: Regulares, duração de 5 dias\nSexarca: 18 anos\nAtividade sexual: Sexualmente ativa\nParceiros: Parceiro fixo\nUso de contraceptivos: Anticoncepcional oral combinado\nUso de preservativos: Sim, utiliza preservativo\nExames preventivos: Papanicolau em dia (último há 6 meses, normal)\nHistórico de IST: Nega histórico de IST"
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar o resultado dos exames trazidos, libere os impressos 'Sinais Vitais e Exame Físico' e 'Resultado de Urinálise (EAS)'.\nSe o candidato solicitar urocultura, responda: 'Considere solicitada, o resultado sai em 72 horas'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)?\npergunta (2): É grave? Vou ter que ficar internada?\npergunta (3): Qual o tratamento? É antibiótico?\npergunta (4): O que eu posso fazer para isso não acontecer de novo, já que tive outras vezes?\npergunta (5): Esse tratamento é seguro para mim?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "120 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "78 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "37,2 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "98% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EF_1",
+        "tituloImpresso": "Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESTADO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Bom estado geral, consciente, orientada, corada, hidratada, anictérica, eupneica."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO RESPIRATÓRIO",
+              "itens": [
+                {
+                  "chave": "Ausculta pulmonar",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO CARDIOVASCULAR",
+              "itens": [
+                {
+                  "chave": "Ausculta cardíaca",
+                  "valor": "Bulhas rítmicas, normofonéticas, em 2 tempos, sem sopros."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ABDOME",
+              "itens": [
+                {
+                  "chave": "Inspeção",
+                  "valor": "Plano, sem abaulamentos ou cicatrizes."
+                },
+                {
+                  "chave": "Ausculta",
+                  "valor": "RHA presentes e normais."
+                },
+                {
+                  "chave": "Palpação",
+                  "valor": "Flácido, indolor à palpação superficial. Leve desconforto à palpação profunda em região suprapúbica. Sem visceromegalias. Punho-percussão lombar negativa bilateralmente (Giordano negativo)."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXTREMIDADES",
+              "itens": [
+                {
+                  "chave": "Edema",
+                  "valor": "Sem edemas, pulsos periféricos presentes e simétricos."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EAS_1",
+        "tituloImpresso": "Resultado de Urinálise (EAS)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "CARACTERÍSTICAS FÍSICAS",
+              "itens": [
+                {
+                  "chave": "Cor",
+                  "valor": "Amarelo-escuro"
+                },
+                {
+                  "chave": "Aspecto",
+                  "valor": "Turvo"
+                },
+                {
+                  "chave": "pH",
+                  "valor": "6,5 (VR: 4,5 - 8,0)"
+                },
+                {
+                  "chave": "Densidade",
+                  "valor": "1.025 (VR: 1.003 - 1.030)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "CARACTERÍSTICAS QUÍMICAS",
+              "itens": [
+                {
+                  "chave": "Glicose",
+                  "valor": "Negativo"
+                },
+                {
+                  "chave": "Proteínas",
+                  "valor": "Negativo"
+                },
+                {
+                  "chave": "Cetonas",
+                  "valor": "Negativo"
+                },
+                {
+                  "chave": "Bilirrubina",
+                  "valor": "Negativo"
+                },
+                {
+                  "chave": "Urobilinogênio",
+                  "valor": "Normal"
+                },
+                {
+                  "chave": "Nitrito",
+                  "valor": "Positivo"
+                },
+                {
+                  "chave": "Esterase Leucocitária",
+                  "valor": "Positivo (+++)"
+                },
+                {
+                  "chave": "Sangue",
+                  "valor": "Positivo (+)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SEDIMENTOSCÓPIA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": ">50/campo (VR: <5/campo)"
+                },
+                {
+                  "chave": "Hemácias",
+                  "valor": "10-15/campo (VR: <3/campo)"
+                },
+                {
+                  "chave": "Células Epiteliais",
+                  "valor": "Algumas"
+                },
+                {
+                  "chave": "Cilindros",
+                  "valor": "Ausentes"
+                },
+                {
+                  "chave": "Bactérias",
+                  "valor": "Numerosas"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_CISTITE_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina, em idade reprodutiva, apresentando sintomas clássicos de cistite (disúria, polaciúria, urgência, dor suprapúbica), sem sinais de complicação como febre ou dor lombar. Possui histórico de ITUs prévias e hábitos de vida que favorecem a infecção (baixa ingesta hídrica, retenção urinária). O diagnóstico é corroborado por urinálise com leucocitúria, nitrito positivo e bacteriúria.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa e direcionada para sintomas urinários e diferenciação de pielonefrite/uretrite/vaginite.",
+        "Realização e interpretação do exame físico com ênfase na exclusão de dor lombar.",
+        "Solicitação e interpretação adequada da urinálise.",
+        "Estabelecimento do diagnóstico de cistite não complicada e seus diferenciais.",
+        "Elaboração de conduta terapêutica de primeira linha e orientações de prevenção."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se e (2) cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Disúria:\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Característica;\n(5) Irradiação;\n(6) Duração;\n(7) Progressão;\n(8) Frequência;\n(9) Fator de piora ou agravante;\n(10) Fator de melhora ou atenuante;\n(11) Episódios prévios;\n(12) Medicação de alívio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 9 ou mais características da disúria.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 6 a 8 características da disúria.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 6 características ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracterização da Polaciúria e Urgência Miccional:\n(1) Início da polaciúria;\n(2) Frequência da polaciúria;\n(3) Duração da polaciúria;\n(4) Progressão da polaciúria;\n(5) Episódios prévios de polaciúria;\n(6) Início da urgência;\n(7) Intensidade da urgência;\n(8) Progressão da urgência;\n(9) Episódios prévios de urgência.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 7 ou mais características de polaciúria e urgência.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 4 a 6 características de polaciúria e urgência.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 4 características ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Caracterização da Dor Suprapúbica:\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Característica;\n(5) Progressão;\n(6) Fator de piora;\n(7) Fator de melhora;\n(8) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 6 ou mais características da dor suprapúbica.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 5 características da dor suprapúbica.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 características ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Sintomas Associados/Sinais de Alarme (positivos ou negativos):\n(1) Febre;\n(2) Calafrios;\n(3) Dor lombar;\n(4) Náuseas;\n(5) Vômitos;\n(6) Corrimento vaginal;\n(7) Prurido vaginal;\n(8) Hematúria macroscópica;\n(9) Dor à relação sexual.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 7 ou mais sintomas associados/sinais de alarme.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 4 a 6 sintomas associados/sinais de alarme.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 4 sintomas ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Antecedentes Pessoais Patológicos e Fisiológicos Relevantes:\n(1) Histórico de ITUs prévias (número e frequência);\n(2) Diabetes mellitus;\n(3) Gravidez;\n(4) Menopausa;\n(5) Uso de cateter urinário;\n(6) Anomalias congênitas do trato urinário;\n(7) Imunossupressão;\n(8) Alergias medicamentosas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 6 ou mais antecedentes relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 5 antecedentes relevantes.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 antecedentes ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Anamnese - Hábitos de Vida e Antecedentes Ginecológicos/Obstétricos Relevantes:\n(1) Atividade sexual (recente ou frequente);\n(2) Uso de espermicidas/diafragma;\n(3) Higiene íntima (sentido da limpeza);\n(4) Ingestão hídrica;\n(5) Hábitos miccionais (frequência, retenção);\n(6) Gestações e partos;\n(7) Uso de contraceptivos;\n(8) Histórico de ISTs.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 6 ou mais hábitos de vida/ginecológicos relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 5 hábitos de vida/ginecológicos relevantes.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 hábitos de vida/ginecológicos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita e interpreta adequadamente os Sinais Vitais (disponibilizado em impresso):\n(1) Pressão arterial;\n(2) Frequência cardíaca;\n(3) Frequência respiratória;\n(4) Temperatura (aferindo a ausência de febre);\n(5) Saturação de O2.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 4 ou 5 sinais vitais.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 2 ou 3 sinais vitais.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e interpreta adequadamente o Exame Físico Abdominal (disponibilizado em impresso):\n(1) Palpação suprapúbica para desconforto ou dor leve;\n(2) Punho-percussão lombar para sinal de Giordano negativo (excluindo pielonefrite).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente ambos os achados do exame físico abdominal.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente apenas um achado do exame físico abdominal.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita e interpreta adequadamente a Urinálise (EAS) (disponibilizada em impresso):\n(1) Leucocitúria (>10 leucócitos/campo ou esterase leucocitária positiva);\n(2) Nitrito positivo;\n(3) Presença de bactérias (bacteriúria);\n(4) Ausência de cilindros.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 3 ou 4 achados da urinálise.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 2 achados da urinálise.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Estabelece o diagnóstico e classifica a gravidade:\n(1) Cistite não complicada.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico correto e a classificação (cistite não complicada).",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza apenas o diagnóstico de cistite, sem a classificação.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes para o caso:\n(1) Pielonefrite;\n(2) Uretrite;\n(3) Vaginite;\n(4) Infecções Sexualmente Transmissíveis (ISTs).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou 4 diagnósticos diferenciais corretos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais corretos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Elabora a conduta terapêutica medicamentosa de primeira linha para cistite não complicada:\n(1) Nitrofurantoína (dose, frequência e duração);\n(2) Fosfomicina trometamol (dose e dose única);\n(3) Sulfametoxazol-Trimetoprima (SMX-TMP) (dose, frequência e duração);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica corretamente duas ou três opções de tratamento de primeira linha (com dose, frequência e duração).",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica corretamente uma opção de tratamento de primeira linha (com dose, frequência e duração).",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não indica tratamento adequado ou indica tratamento de segunda linha como primeira opção.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Fornece orientações gerais e de seguimento:\n(1) Completar o curso de antibióticos;\n(2) Aumentar a ingestão de líquidos;\n(3) Evitar irritantes vesicais;\n(4) Manter bons hábitos de higiene;\n(5) Micção regular e completa;\n(6) Retornar ao serviço de saúde se os sintomas não melhorarem em 48-72 horas ou piorarem (especialmente febre ou dor lombar).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Fornece 5 ou 6 orientações corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Fornece 3 ou 4 orientações corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Fornece 2 ou menos orientações ou não fornece adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Responde às perguntas/dúvidas da paciente simulada de forma clara e empática.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde satisfatoriamente a todas as dúvidas da paciente.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Responde parcialmente às dúvidas da paciente.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não responde ou responde inadequadamente às dúvidas da paciente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Notificação ao SINAN.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a necessidade de notificação do caso ao SINAN.",
+            "pontos": 0.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a necessidade de notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A cistite é uma infecção comum do trato urinário inferior, predominantemente em mulheres, causada mais frequentemente por *Escherichia coli*. O diagnóstico é primariamente clínico, baseado em sintomas como disúria, polaciúria, urgência miccional e dor suprapúbica. A anamnese é crucial para diferenciar de pielonefrite (ausência de febre, calafrios, dor lombar) e outras condições (uretrite, vaginite, ISTs). O exame físico geralmente revela apenas desconforto suprapúbico e ausência de sinal de Giordano. A urinálise (EAS) é o exame laboratorial chave, mostrando leucocitúria, nitritos positivos e bacteriúria. A urocultura não é rotineira para cistite não complicada, sendo reservada para gestantes, casos recorrentes, falha terapêutica ou pacientes imunocomprometidos. O tratamento de primeira linha para cistite não complicada inclui nitrofurantoína, fosfomicina trometamol ou sulfametoxazol-trimetoprima, em cursos curtos (3 a 7 dias). Fluoroquinolonas são reservadas para segunda linha devido à resistência e efeitos adversos. Fatores de risco incluem sexo feminino, atividade sexual, uso de espermicidas, histórico de ITUs, diabetes e menopausa. Medidas de prevenção envolvem hidratação adequada, micção pós-coito, higiene e, em casos de recorrência, profilaxia antibiótica ou estrogênio tópico em pós-menopausa. O seguimento é essencial para garantir a adesão ao tratamento e monitorar a melhora dos sintomas, com alerta para sinais de alarme que indicam complicação ou falha terapêutica.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde. Guia de bolso: doenças infecciosas e parasitárias. Brasília, DF: Ministério da Saúde; 2017.",
+        "2. Hooton TM. Acute simple cystitis in women. UpToDate. Disponível em: https://www.uptodate.com/contents/acute-simple-cystitis-in-women. Acesso em: 15 maio 2024.",
+        "3. Sociedade Brasileira de Infectologia (SBI). Consenso de manejo da infecção do trato urinário. Disponível em: https://www.infectologia.org.br/. Acesso em: 15 maio 2024."
+      ]
+    }
+  }
+}

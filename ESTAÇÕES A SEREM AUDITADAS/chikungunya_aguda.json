@@ -39,6 +39,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Sandra Gomes, 40 anos, Enfermeira, Solteira e Área urbana periférica"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com febre e dor nas articulações há 5 dias, doutor(a)."
       },
@@ -679,5 +683,23 @@
         "3. UpToDate, Chikungunya fever: Clinical manifestations and diagnosis, 2024."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "e65af55b-023e-4d40-beea-a342586382b9",
+  "created_at": "2025-08-28T09:05:10.515735",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Chikungunya",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

@@ -1,0 +1,447 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_01",
+  "tituloEstacao": "AVC Isquêmico",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Acidente Vascular Cerebral Isquêmico, AVC, AVCI, Déficit Neurológico Focal, Trombólise, Neurologia, Clínica Médica, Urgência, Emergência",
+  "nivelDificuldade": "Difícil",
+  "origem": "REVALIDA_FACIL",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção Terciária",
+      "tipoAtendimento": "Hospitalar (Pronto-Socorro)",
+      "infraestruturaUnidade": [
+        "Recursos de uma sala de emergência."
+      ]
+    },
+    "orientacao": "ATENÇÃO: As tarefas do candidato DEVEM ser criadas SOMENTE após a definição completa dos itens do PEP (itensAvaliacao), devem ser adaptadas conforme a especialidade da estação, e também estar TOTALMENTE alinhadas com esses itens. Cada tarefa deve ser genérica, sem citar nomes de manobras, exames, escalas, procedimentos ou condutas específicas, exceto quando houver impresso correspondente (ex: escala, teste, exame visual). NUNCA antecipe respostas, diagnósticos ou condutas nas tarefas. As tarefas devem avaliar o raciocínio clínico, comunicação, exame físico, solicitação e interpretação de exames, definição de conduta e orientações, sempre de forma objetiva e sem dar dicas explícitas. NÃO repita tarefas, NÃO crie tarefas vagas ou irrelevantes. Siga rigorosamente as regras do promptIA e garanta que cada tarefa corresponda a um ou mais itens de avaliação do PEP, sinomissões ou excessos.",
+    "descricaoCasoCompleta": "Paciente de 68 anos, sexo masculino, chega ao pronto-socorro com queixa de fraqueza no lado esquerdo do corpo e dificuldade para falar, iniciadas subitamente há 1 hora.",
+    "orientacoesETarefasExemplo": {
+      "orientacoesGerais": null,
+      "ClinicaMedica": null,
+      "CirurgiaGeral": null,
+      "GinecologiaObstetricia": null,
+      "Pediatria": null,
+      "MedicinaPreventiva": null
+    },
+    "tarefasPrincipais": [
+      "Realizar a anamnese completa do paciente, incluindo a queixa principal, antecedentes e hábitos.",
+      "Realizar exame físico geral e neurológico.",
+      "Formular hipóteses diagnósticas e diagnósticos diferenciais.",
+      "Solicitar exames complementares pertinentes.",
+      "Interpretar os exames complementares fornecidos.",
+      "Definir a conduta médica inicial.",
+      "Orientar o paciente e familiares sobre o diagnóstico, tratamento e prognóstico."
+    ]
+  },
+  "avisosImportantes": [
+    "Não realize procedimentos no paciente simulado.",
+    "Comunique verbalmente ao avaliador todos os exames complementares que você solicitaria e justifique sua escolha.",
+    "Ao interpretar exames de imagem, descreva os achados na imagem para o avaliador."
+  ],
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "informacao": "Comportamento: Demonstrar ansiedade e preocupação com o quadro.\nAções Específicas: Simular dificuldade para mover o braço e perna esquerdos e dificuldade para articular palavras."
+      },
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: José Silva\nIdade: 68 anos\nGênero: Masculino\nOcupação: Aposentado\nEstado Civil: Casado"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com o lado esquerdo do corpo fraco e não consigo falar direito. Começou de repente, há uma hora."
+      },
+      {
+        "contextoOuPerguntaChave": "FRAQUEZA",
+        "informacao": "Início: Há 1 hora.\nLocalização: Braço e perna esquerdos.\nIntensidade: Forte, não consigo mover o braço e a perna.\nCaracterística: Fraqueza, não consigo fazer força.\nIrradiação: Não.\nFatores de piora: Não sei, começou de repente.\nFatores de melhora: Nenhum.\nUso de medicação: Não tomei nada.\nEpisódios prévios: Nunca tive isso antes.\nProgressão: Parece que está igual desde que começou.\nSintomas acompanhantes: Dificuldade para falar."
+      },
+      {
+        "contextoOuPerguntaChave": "DIFICULDADE DE FALA",
+        "informacao": "Início: Junto com a fraqueza.\nLocalização: Boca, língua.\nIntensidade: Forte, não consigo formar palavras.\nCaracterística: Dificuldade para articular as palavras, como se minha língua estivesse presa.\nIrradiação: Não.\nFatores de piora: Não sei.\nFatores de melhora: Nenhum.\nUso de medicação: Não.\nEpisódios prévios: Não.\nProgressão: Igual desde o início.\nSintomas acompanhantes: Fraqueza no lado esquerdo."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS PATOLÓGICOS",
+        "informacao": "Hipertensão arterial: Sim, há 20 anos, em uso irregular de Losartana.\nDiabetes mellitus: Sim, tipo 2, diagnosticado há 10 anos, em uso de Metformina.\nDislipidemia: Sim, diagnosticada há 5 anos, em uso de Sinvastatina.\nTabagismo: Ex-tabagista, parou há 15 anos (fumava 1 maço/dia por 30 anos).\nEtilismo: Nega.\nOutras doenças: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Falecido aos 70 anos por infarto.\nMãe: Falecida aos 80 anos por AVC.\nIrmãos: 2 irmãos, 1 com hipertensão, 1 saudável."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS",
+        "informacao": "Tabagismo: Ex-tabagista (1 maço/dia por 30 anos).\nEtilismo: Nega.\nAtividade física: Sedentário.\nAlimentação: Rica em gorduras e sal."
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "180 x 110 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "80 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36,5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98%"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_TC_2",
+        "tituloImpresso": "Tomografia Computadorizada de Crânio sem contraste",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Tomografia de crânio sem contraste realizada na admissão.",
+          "caminhoImagem": "(Buscar no Google Imagens: Tomografia computadorizada de crânio normal sem contraste)",
+          "laudo": "Exame sem alterações agudas. Não se evidenciam sinais de sangramento ou outras lesões."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_NIHSS",
+        "tituloImpresso": "Escala NIHSS",
+        "tipoConteudo": "texto_livre",
+        "conteudo": "Escala NIHSS disponível para aplicação."
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_3",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "8.000 /mm³ (Ref: [4.000-11.000])"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14 g/dL (Ref: [13.5-17.5 M / 12.0-15.5 F])"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "250.000 /mm³ (Ref: [150.000-450.000])"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Glicose",
+                  "valor": "120 mg/dL (Ref: [70-100])"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "40 mg/dL (Ref: [15-45])"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1,1 mg/dL (Ref: [0.7-1.3])"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "COAGULOGRAMA",
+              "itens": [
+                {
+                  "chave": "INR",
+                  "valor": "1,0 (Ref: [0.8-1.2])"
+                },
+                {
+                  "chave": "TTPA",
+                  "valor": "30 segundos (Ref: [25-35])"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_2025V1",
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se ao paciente.\n(2) Cumprimenta o paciente. \n(3) Verbaliza o nome do paciente.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza uma ou duas ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Demonstra empatia com o paciente:\n(1) Estabelece contato visual.\n(2) Mantém postura atenta. \n(3) Mantém-se interessado(a) ao longo da consulta.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma ou realiza apenas uma ou duas.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese da queixa principal (fraqueza e dificuldade de fala), investigando:\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Característica;\n(5) Irradiação;\n(6) Fatores de piora;\n(7) Fatores de melhora;\n(8) Uso de medicação;\n(9) Episódios prévios;\n(10) Progressão;\n(11) Sintomas acompanhantes.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 8 ou mais dos 11 aspectos.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga de 5 a 7 dos 11 aspectos.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 5 aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Investiga antecedentes pessoais patológicos relevantes, incluindo:\n(1) Hipertensão Arterial Sistêmica (HAS);\n(2) Diabetes Mellitus (DM);\n(3) Dislipidemia;\n(4) Tabagismo;\n(5) Etilismo;\n(6) Doença arterial coronariana (DAC);\n(7) Fibrilação Atrial (FA);\n(8) AVC/AIT prévio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou mais dos 8 aspectos.",
+            "pontos": 1
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga de 3 a 4 dos 8 aspectos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 3 aspectos ou não investiga.",
+            "pontos": 0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Investiga antecedentes familiares relevantes para o caso, como:\n(1) Histórico de AVC;\n(2) Histórico de infarto agudo do miocárdio (IAM);\n(3) Histórico de doenças cardiovasculares.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga os 3 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 dos 3 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 2 aspectos ou não investiga.",
+            "pontos": 0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Realiza exame físico geral e neurológico, incluindo:\n(1) Avaliação do nível de consciência (Escala de Coma de Glasgow);\n(2) Avaliação de pares cranianos;\n(3) Avaliação da força motora;\n(4) Avaliação da sensibilidade;\n(5) Avaliação da coordenação;\n(6) Avaliação de linguagem e fala;\n(7) Pesquisa de sinais meníngeos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 6 ou 7 das 7 etapas do exame.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza de 4 a 5 das 7 etapas do exame.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Realiza menos de 4 etapas do exame ou não realiza.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Aplica a escala NIHSS corretamente e interpreta o resultado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Aplica a escala e interpreta o resultado.",
+            "pontos": 1
+          },
+          "inadequado": {
+            "criterio": "Não aplica a escala ou não interpreta o resultado.",
+            "pontos": 0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita exames complementares pertinentes para investigação de AVC isquêmico, incluindo:\n(1) Tomografia Computadorizada (TC) de crânio sem contraste;\n(2) Hemograma completo;\n(3) Coagulograma completo;\n(4) Glicemia;\n(5) Eletrólitos séricos;\n(6) Eletrocardiograma (ECG).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 5 ou 6 dos 6 exames.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita de 3 a 4 dos 6 exames.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 3 exames ou não solicita.",
+            "pontos": 0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpreta corretamente os resultados da tomografia de crânio sem contraste, hemograma, coagulograma, glicemia, eletrólitos e ECG.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta os 6 exames corretamente.",
+            "pontos": 1
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta de 4 a 5 dos 6 exames corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 4 exames corretamente ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Formula hipóteses diagnósticas e diagnósticos diferenciais para o quadro, considerando:\n(1) Acidente Vascular Cerebral Isquêmico (AVCI);\n(2) Acidente Isquêmico Transitório (AIT);\n(3) Crise convulsiva;\n(4) Hipoglicemia;\n(5) Enxaqueca com aura complexa.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 4 ou 5 dos 5 diagnósticos.",
+            "pontos": 1
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita de 2 a 3 dos 5 diagnósticos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Cita menos de 2 diagnósticos ou não cita.",
+            "pontos": 0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Define a conduta médica inicial, incluindo:\n(1)  Acionar a equipe de código AVC ou neurologia;\n(2)  Administrar oxigênio suplementar, se necessário;\n(3)  Monitorizar os sinais vitais e glicemia capilar;\n(4)  Obter acesso venoso periférico;\n(5)  Verificar elegibilidade para trombólise com alteplase.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as 5 ações.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 3 ou 4 das 5 ações.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Realiza menos de 3 ações ou não realiza.",
+            "pontos": 0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Orienta o paciente e familiares sobre:\n(1) Diagnóstico;\n(2) Tratamento;\n(3) Prognóstico;\n(4) Sinais de alerta para piora neurológica.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza os 4 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Realiza 1 ou nenhum item.",
+            "pontos": 0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Notificação ao SINAM",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Notifica o caso ao SINAM.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não notifica o caso ao SINAM.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "sinteseEstacao": {
+      "foco": "AVCI",
+      "objetivo": "Diagnosticar e manejar um paciente com suspeita de AVC isquêmico na sala de emergência.",
+      "resumoCasoPEP": "Paciente de 68 anos com HAS, DM e dislipidemia chega à emergência com fraqueza à esquerda e disartria de início súbito há 1 hora. A estação avalia a capacidade do candidato de realizar anamnese, exame físico, solicitar e interpretar exames complementares, formular hipóteses diagnósticas, definir conduta e orientar o paciente.",
+      "focoPrincipalDetalhado": "Avaliar a capacidade do candidato de identificar rapidamente os sinais e sintomas de AVC isquêmico, iniciar o manejo adequado na sala de emergência e solicitar os exames complementares necessários para a confirmação diagnóstica e definição do tratamento específico.",
+      "objetivosAprendizagem": {
+        "objetivosGerais": [],
+        "ClinicaMedica": []
+      },
+      "competenciasChave": {
+        "competenciasGerais": [],
+        "ClinicaMedica": []
+      }
+    },
+    "feedbackEstacao": {
+      "resumoTecnico": "O Acidente Vascular Cerebral Isquêmico (AVCI) ocorre pela interrupção do fluxo sanguíneo para uma área do cérebro, levando a déficit neurológico focal súbito. A causa mais comum é a tromboembólica, originada principalmente de placas ateroscleróticas em carótidas ou cardioembolia (fibrilação atrial). Fatores de risco incluem HAS, DM, dislipidemia, tabagismo e idade avançada.\n\nA anamnese deve focar no tempo de início dos sintomas (\"última vez visto bem\"), características do déficit (motor, sensitivo, linguagem, visual), sintomas associados (cefaleia, náuseas) e história pregressa. O exame físico inclui avaliação do nível de consciência (Glasgow), pares cranianos, força motora, sensibilidade, coordenação, linguagem e reflexos. A escala NIHSS quantifica o déficit neurológico.\n\nA TC de crânio sem contraste é o exame inicial para excluir hemorragia. O ECG identifica arritmias cardíacas. Exames laboratoriais (hemograma, coagulograma, glicemia, eletrólitos) auxiliam no diagnóstico e manejo. Diagnósticos diferenciais incluem AIT, hipoglicemia, crise convulsiva e enxaqueca.\n\nO tratamento na fase aguda visa restaurar o fluxo sanguíneo o mais rápido possível. A trombólise intravenosa com alteplase é indicada em pacientes selecionados dentro da janela terapêutica (até 4,5 horas do início dos sintomas). A trombectomia mecânica pode ser considerada em casos de oclusão de grandes vasos. Após a fase aguda, o tratamento inclui antiagregantes plaquetários, anticoagulantes (se cardioembólico) e controle dos fatores de risco.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Diretrizes para o tratamento do Acidente Vascular Cerebral. 2019.",
+        "2. Powers WJ, Rabinstein AA, Ackerson T, et al; American Heart Association Stroke Council. 2018 Guidelines for the Early Management of Patients With Acute Ischemic Stroke: A Guideline for Healthcare Professionals From the American Heart Association/American Stroke Association. Stroke. 2018;49(3):e46-e110."
+      ]
+    }
+  }
+}

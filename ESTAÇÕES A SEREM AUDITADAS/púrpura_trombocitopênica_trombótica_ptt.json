@@ -36,6 +36,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Rita Ribeiro, 35 anos, Professora e Divorciada"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou me sentindo muito fraca e confusa, e apareceram umas manchas roxas na minha pele."
       },
@@ -677,5 +681,23 @@
         "3. Scully, M., et al. (2017). Guidelines for the management of thrombotic thrombocytopenic purpura. British Journal of Haematology, 179(3), 349-362."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "a1ca0a09-cf7d-4f62-9e0a-b0df09e50764",
+  "created_at": "2025-08-28T13:20:54.022672",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Distúrbios da Coagulação: PTT",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

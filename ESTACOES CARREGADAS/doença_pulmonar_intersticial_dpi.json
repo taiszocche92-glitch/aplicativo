@@ -1,0 +1,691 @@
+{
+  "idEstacao": "REVALIDA_DIFICIL_2025_CM_DPI_01",
+  "tituloEstacao": "Doença Pulmonar Intersticial (DPI)",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "DPI, FPI, Fibrose Pulmonar, Pneumologia, Clínica Médica, Atenção secundária, Atenção terciária, Dispneia, Tosse seca, Baqueteamento digital, Crepitantes em velcro",
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem",
+        "Medicações disponíveis"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 68 anos chega ao ambulatório de pneumologia referindo dispneia progressiva e tosse seca.",
+    "tarefasPrincipais": [
+      "Realizar anamnese completa do paciente.",
+      "Realizar exame físico direcionado.",
+      "Analisar e interpretar os exames complementares apresentados.",
+      "Estabelecer hipóteses diagnósticas principais e diagnósticos diferenciais.",
+      "Elaborar plano terapêutico inicial e plano de investigação adicional.",
+      "Comunicar ao paciente o diagnóstico provisório e as orientações."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "Todos os resultados de exames complementares relevantes serão fornecidos ao serem solicitados."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com falta de ar e tosse seca, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "DISPNEIA",
+        "informacao": "Início: Começou de mansinho, há uns 2 anos, mas agora está pior.\nProgressão: No começo, só sentia quando fazia muito esforço, como subir escadas. Agora, até para andar dentro de casa ou tomar banho eu sinto.\nFrequência: É o tempo todo, mas piora muito quando me esforço.\nIntensidade: Acho que um 7/10 quando estou andando, e uns 4/10 quando estou parado.\nOrtopneia: Preciso de uns 3 travesseiros para dormir, se deito reto, a falta de ar piora.\nDispneia Paroxística Noturna (DPN): Nega acordar à noite sufocado(a).\nFator de piora: Qualquer esforço físico, quando estou mais ansioso(a).\nFator de melhora: Sentar e descansar um pouco, usar o oxigênio que me emprestaram (mas não é meu).\nEpisódios prévios: Nega ter tido falta de ar tão ruim antes.\nImpacto nas Atividades de Vida Diária (AVDs): Mal consigo cuidar da casa, tenho que parar várias vezes. Sinto muito cansaço."
+      },
+      {
+        "contextoOuPerguntaChave": "TOSSE",
+        "informacao": "Início: Começou junto com a falta de ar, também há uns 2 anos.\nCaracterística: É uma tosse seca, irritativa, não tem catarro nenhum.\nDuração: É persistente, quase o dia todo, com crises mais fortes às vezes.\nFator de piora: Quando falo muito ou quando me esforço.\nFator de melhora: Nega melhora com xaropes ou outros medicamentos.\nPresença de sangue: Nega sangramento."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Dor torácica: Nega dor no peito.\nFadiga/Mal-estar: Sinto um cansaço que não passa, mesmo dormindo, tem piorado muito. Me sinto sem forças para nada.\nPerda de peso: Nega perda de peso não intencional.\nFebre: Nega febre ou calafrios.\nArtralgia: Nega dores nas juntas.\nMialgia: Nega dores musculares.\nFenômeno de Raynaud: Nega os dedos ficarem brancos ou roxos com o frio.\nRash cutâneo: Nega manchas na pele.\nXerostomia: Nega boca seca.\nXeroftalmia: Nega olhos secos."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Idade: Tenho 68 anos.\nSexo: Sou do sexo masculino.\nDoenças crônicas: Nega doenças do tecido conjuntivo (artrite reumatoide, lúpus, esclerose sistêmica, dermatomiosite/polimiosite, síndrome de Sjögren), sarcoidose, doenças cardíacas ou renais. Tenho refluxo gastroesofágico (DRGE), mas controlo com omeprazol.\nCirurgias prévias: Não consta.\nInternações: Não consta.\nAlergias: Nega alergias.\nMedicamentos em uso contínuo: Omeprazol para o refluxo. Nega uso de amiodarona, metotrexato, nitrofurantoína, bleomicina, biológicos ou inibidores de checkpoint.\nVacinação: Nega ter tomado a vacina da gripe ou pneumonia recentemente.\nHistórico de infecções pulmonares graves: Nega histórico de infecções pulmonares graves."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Fumei por 40 anos, 1 maço por dia, mas parei há 10 anos.\nEtilismo: Bebo socialmente, uma cerveja no fim de semana.\nDrogas ilícitas: Nega uso de drogas ilícitas.\nAlimentação: Alimentação regular, mas perdi um pouco o apetite por causa do cansaço.\nAtividade física: Antes caminhava, agora mal consigo.\nSono: Durmo bem, mas o refluxo às vezes me incomoda um pouco à noite.\nExposição ocupacional: Trabalhei a vida toda como marceneiro, com muita poeira de madeira. Nega contato com amianto, sílica ou aves."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "História familiar de DPI: Minha mãe e um tio paterno tiveram 'endurecimento do pulmão', mas não sei o nome certo."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar exames, libere os impressos correspondentes.\nSe o candidato perguntar sobre o motivo da consulta novamente, reforce 'falta de ar e tosse seca'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)? É grave?\npergunta (2): Tem tratamento? Vou melhorar?\npergunta (3): O que eu posso fazer para me sentir melhor?\npergunta (4): É alguma coisa do meu trabalho antigo?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "130x80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "88 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "22 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "89% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado Geral",
+                  "valor": "Regular estado geral, lúcido, orientado, eupneico em repouso."
+                },
+                {
+                  "chave": "Ectoscopia",
+                  "valor": "Cianose discreta de extremidades, baqueteamento digital grau II. Uso de musculatura acessória leve."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO CARDIOVASCULAR",
+              "itens": [
+                {
+                  "chave": "Ausculta Cardíaca",
+                  "valor": "RCR em 2T, bulhas normofonéticas, sem sopros."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO RESPIRATÓRIO",
+              "itens": [
+                {
+                  "chave": "Ausculta Pulmonar",
+                  "valor": "Crepitantes finos, inspiratórios, bilaterais e simétricos em bases pulmonares ('crepitantes em velcro'). Murmúrio vesicular presente bilateralmente, sem sibilos ou roncos."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ABDOME",
+              "itens": [
+                {
+                  "chave": "Palpação",
+                  "valor": "Flácido, indolor à palpação, RHA presentes."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MEMBROS",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Sem edemas. Pulsos periféricos presentes e simétricos."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "8.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "12.8 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "250.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "35 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.0 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "TGO",
+                  "valor": "25 U/L (Ref: 10-40)"
+                },
+                {
+                  "chave": "TGP",
+                  "valor": "28 U/L (Ref: 10-40)"
+                },
+                {
+                  "chave": "PCR",
+                  "valor": "5 mg/L (Ref: <5)"
+                },
+                {
+                  "chave": "VHS",
+                  "valor": "20 mm/h (Ref: <15)"
+                },
+                {
+                  "chave": "BNP",
+                  "valor": "80 pg/mL (Ref: <100)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "AUTOANTICORPOS",
+              "itens": [
+                {
+                  "chave": "FAN",
+                  "valor": "Negativo"
+                },
+                {
+                  "chave": "FR",
+                  "valor": "Negativo"
+                },
+                {
+                  "chave": "Anti-CCP",
+                  "valor": "Negativo"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "GASOMETRIA ARTERIAL",
+              "itens": [
+                {
+                  "chave": "pH",
+                  "valor": "7.42 (Ref: 7.35-7.45)"
+                },
+                {
+                  "chave": "pCO2",
+                  "valor": "38 mmHg (Ref: 35-45)"
+                },
+                {
+                  "chave": "pO2",
+                  "valor": "58 mmHg (Ref: 75-100)"
+                },
+                {
+                  "chave": "HCO3",
+                  "valor": "24 mEq/L (Ref: 22-26)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_PFP_3",
+        "tituloImpresso": "Provas de Função Pulmonar (PFP)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESPIROMETRIA",
+              "itens": [
+                {
+                  "chave": "CVF",
+                  "valor": "65% do previsto (Valor Abs: 2.1 L)"
+                },
+                {
+                  "chave": "VEF1",
+                  "valor": "60% do previsto (Valor Abs: 1.6 L)"
+                },
+                {
+                  "chave": "VEF1/CVF",
+                  "valor": "85%"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "CAPACIDADE DE DIFUSÃO",
+              "itens": [
+                {
+                  "chave": "DLCO",
+                  "valor": "45% do previsto"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_TCAR_4",
+        "tituloImpresso": "Tomografia Computadorizada de Alta Resolução (TCAR) de Tórax",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Apresenta infiltrados reticulares subpleurais e basais bilateralmente, com favo de mel incipiente em bases.",
+          "caminhoImagem": "N/A - Imagem simulada ou a ser buscada.",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: TCAR tórax padrão PIU provável favo de mel incipiente reticular subpleural)",
+          "laudo": "ACHADOS:\nPresença de infiltrados reticulares subpleurais e basais bilateralmente, com algumas áreas de favo de mel incipiente em bases. Bronquiectasias de tração discretas em lobos inferiores. Ausência de opacidades em vidro fosco extensas, nódulos significativos ou adenomegalias mediastinais proeminentes. Padrão radiológico compatível com Pneumonia Intersticial Usual (PIU) provável.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_TC6M_5",
+        "tituloImpresso": "Teste da Caminhada de 6 Minutos (TC6M)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "RESULTADOS",
+              "itens": [
+                {
+                  "chave": "Distância Percorrida",
+                  "valor": "350 metros (VR: >450m)"
+                },
+                {
+                  "chave": "Dessaturação de O₂",
+                  "valor": "De 89% para 80% durante o esforço"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_DPI_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 68 anos, com queixas progressivas de dispneia e tosse seca por 2 anos. Apresenta histórico de tabagismo e exposição ocupacional a poeira de madeira, além de histórico familiar de 'endurecimento do pulmão'. Exame físico com crepitantes em velcro e baqueteamento digital. Exames complementares mostram hipoxemia, padrão restritivo com DLCO reduzida nas PFP e TCAR com padrão de PIU provável. A estação foca na integração de dados clínicos, funcionais e radiológicos para o diagnóstico e manejo inicial de uma Doença Pulmonar Intersticial (DPI), com ênfase na FPI ou pneumoconioses como diferenciais.",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada para investigar sintomas, exposições e antecedentes relevantes para DPI.",
+        "Realização e interpretação de exame físico direcionado, buscando sinais de DPI.",
+        "Interpretação de exames complementares essenciais (TCAR, PFP, gasometria, autoanticorpos).",
+        "Formulações de hipóteses diagnósticas e diferenciais para DPI.",
+        "Elaboração de plano terapêutico inicial e plano de investigação adicional.",
+        "Comunicação efetiva com o paciente sobre a doença e as próximas etapas."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracteriza a dispneia, investigando:\n(1) Início;\n(2) Progressão;\n(3) Frequência;\n(4) Intensidade (escala 0-10);\n(5) Ortopneia/DPN;\n(6) Fatores de piora/melhora;\n(7) Impacto nas AVDs.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 ou 7 aspectos da dispneia.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 aspectos da dispneia.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 3 aspectos da dispneia ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracteriza a tosse, investigando:\n(1) Início;\n(2) Característica (seca/produtiva);\n(3) Duração;\n(4) Fatores de piora/melhora;\n(5) Presença de sangue.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 aspectos da tosse.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 aspectos da tosse.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 2 aspectos da tosse ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Investiga sintomas sistêmicos/associados relevantes:\n(1) Dor torácica;\n(2) Fadiga/mal-estar;\n(3) Perda de peso;\n(4) Febre/calafrios;\n(5) Sintomas autoimunes (artralgia, mialgia, fenômeno de Raynaud, rash cutâneo, xerostomia, xeroftalmia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 categorias de sintomas sistêmicos/associados.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 categorias de sintomas sistêmicos/associados.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 2 categorias ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Investiga antecedentes patológicos relevantes:\n(1) Doenças do tecido conjuntivo (AR, LES, Esclerose, etc.);\n(2) Sarcoidose;\n(3) DRGE;\n(4) Doenças cardíacas/renais;\n(5) Histórico de infecções pulmonares graves;\n(6) Uso de medicamentos pneumotóxicos (amiodarona, metotrexato, etc.).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou 6 categorias de antecedentes patológicos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 categorias de antecedentes patológicos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 3 categorias ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Investiga hábitos de vida e exposições relevantes:\n(1) Tabagismo (quantifica e duração);\n(2) Etilismo/drogas ilícitas;\n(3) Exposição ambiental/ocupacional (poeiras, mofos, aves);\n(4) História familiar de DPI (FPI familiar).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 3 ou 4 categorias de hábitos/exposições/antecedentes familiares.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 categorias de hábitos/exposições/antecedentes familiares.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 2 categorias ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Verbaliza a necessidade e realiza exame físico direcionado, incluindo:\n(1) Inspeção (baqueteamento digital, cianose, uso de musculatura acessória);\n(2) Ausculta pulmonar (crepitantes em velcro);\n(3) Sinais vitais (FR, SatO2).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a necessidade e realiza os 3 itens do exame físico.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza a necessidade e realiza 2 dos 3 itens do exame físico.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a necessidade ou não realiza adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Interpreta os achados relevantes do exame físico:\n(1) Crepitantes em velcro nas bases pulmonares;\n(2) Baqueteamento digital e cianose;\n(3) Taquipneia (FR > 20 irpm);\n(4) Hipoxemia (SatO2 < 90%).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 3 ou 4 achados relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 achados relevantes.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 2 achados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita os exames complementares essenciais para investigação de DPI:\n(1) Hemograma e bioquímica básica (função renal/hepática, eletrólitos);\n(2) Gasometria arterial;\n(3) Autoanticorpos (FAN, FR, anti-CCP, anti-Jo-1, anti-Scl-70);\n(4) Provas de Função Pulmonar (espirometria, DLCO);\n(5) Tomografia Computadorizada de Alta Resolução (TCAR) de tórax;\n(6) Teste da Caminhada de 6 Minutos (TC6M).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 5 ou 6 categorias de exames.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 3 ou 4 categorias de exames.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 3 categorias de exames ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Interpreta os achados dos exames laboratoriais e gasometria:\n(1) Anemia leve (Hemoglobina reduzida);\n(2) Gasometria com hipoxemia (pO2 reduzido);\n(3) Autoanticorpos negativos (excluindo DPI-DTC neste momento);\n(4) PCR/VHS (Inflamação inespecífica ou ausência).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 3 ou 4 achados corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 achados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 2 achados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Interpreta Provas de Função Pulmonar (PFP) e Teste da Caminhada de 6 Minutos (TC6M):\n(1) Padrão restritivo na espirometria (CVF e VEF1 reduzidos, VEF1/CVF normal/aumentada);\n(2) Redução da DLCO;\n(3) Redução da distância percorrida no TC6M;\n(4) Dessaturação significativa ao esforço no TC6M.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 3 ou 4 achados corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 achados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 2 achados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Interpreta Tomografia Computadorizada de Alta Resolução (TCAR) de tórax:\n(1) Reconhece infiltrados reticulares subpleurais e basais;\n(2) Identifica áreas de favo de mel incipiente;\n(3) Descreve bronquiectasias de tração;\n(4) Conclui padrão radiológico de Pneumonia Intersticial Usual (PIU) provável.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 3 ou 4 achados corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 achados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 2 achados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Estabelece a hipótese diagnóstica principal:\n(1) Doença Pulmonar Intersticial (DPI).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Estabelece corretamente a hipótese diagnóstica.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não estabelece a hipótese diagnóstica correta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes:\n(1) Fibrose Pulmonar Idiopática (FPI);\n(2) Pneumonite de Hipersensibilidade (PH);\n(3) DPI associada a doenças do tecido conjuntivo (DPI-DTC);\n(4) Pneumoconiose (dado o histórico ocupacional).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou 4 diagnósticos diferenciais corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Elabora plano terapêutico inicial e plano de investigação adicional:\n(1) Medidas gerais (cessação do tabagismo, oxigenoterapia, reabilitação pulmonar, vacinação);\n(2) Tratamento farmacológico (Antifibróticos se FPI, Corticosteroides/Imunossupressores se outras DPIs inflamatórias);\n(3) Indicação de discussão multidisciplinar (MDD);\n(4) Indicação de biópsia pulmonar (VATS) se necessário para diagnóstico definitivo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora 3 ou 4 categorias do plano corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora 2 categorias do plano corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Elabora menos de 2 categorias ou não elabora adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Orientações ao paciente sobre a doença, tratamento, sinais de alarme, seguimento, e responde às dúvidas:\n(1) Natureza da doença e importância do tratamento;\n(2) Sinais de alarme para piora ou complicações;\n(3) Importância do seguimento regular (PFP, TC6M, TCAR);\n(4) Suporte psicossocial;\n(5) Responde às dúvidas do paciente de forma clara e empática.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre 4 ou 5 aspectos e responde às dúvidas.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta sobre 2 ou 3 aspectos e/ou responde parcialmente às dúvidas.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Orienta sobre menos de 2 aspectos ou não responde adequadamente às dúvidas.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Notificação ao SINAM (se suspeita de pneumoconiose).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a necessidade de notificação, considerando o histórico ocupacional e a suspeita de pneumoconiose como um diagnóstico diferencial.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a necessidade de notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "As Doenças Pulmonares Intersticiais (DPI) são um grupo heterogêneo de condições caracterizadas por inflamação e/ou fibrose do parênquima pulmonar. A Fibrose Pulmonar Idiopática (FPI) é a forma mais comum e grave, de etiologia desconhecida. A anamnese deve ser detalhada, focando em dispneia progressiva, tosse seca, sintomas sistêmicos (febre, perda de peso, autoimunes), tabagismo, exposições ambientais/ocupacionais (poeiras de madeira, amianto, sílica) e uso de medicamentos pneumotóxicos. O exame físico é crucial para identificar crepitantes finos bilaterais ('velcro') em bases pulmonares, baqueteamento digital, cianose e sinais de hipertensão pulmonar em fases avançadas. Os exames complementares essenciais incluem Provas de Função Pulmonar (padrão restritivo, DLCO reduzida), TCAR de tórax (padrões como PIU, PIN, PH), gasometria arterial (hipoxemia), e autoanticorpos (para DPI-DTC). O diagnóstico é multidisciplinar, integrando clínica, imagem e função pulmonar, podendo necessitar de biópsia pulmonar cirúrgica. Os diferenciais incluem FPI, DPI-DTC, PH, sarcoidose e pneumoconioses. O tratamento é específico para o subtipo, com antifibróticos (pirfenidona/nintedanibe) para FPI e algumas DPIs fibrosantes progressivas, e corticosteroides/imunossupressores para DPIs inflamatórias. Complicações incluem exacerbações agudas, hipertensão pulmonar, infecções e câncer de pulmão. A reabilitação pulmonar e oxigenoterapia são medidas de suporte fundamentais. A notificação de pneumoconioses é compulsória.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas de Doenças Pulmonares Intersticiais. Portaria Nº 1.258, de 29 de julho de 2021.",
+        "2. Raghu, G., Remy-Jardin, M., Ryerson, J. G., et al. (2018). Diagnosis of Idiopathic Pulmonary Fibrosis. An Official ATS/ERS/JRS/ALAT Clinical Practice Guideline. American Journal of Respiratory and Critical Care Medicine, 198(5), e44-e68.",
+        "3. UpToDate. (2024). Overview of interstitial lung disease. Recuperado de www.uptodate.com."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "72b2c035-0167-4d5f-b108-f9ce367ff4b6",
+  "created_at": "2025-08-28T10:18:26.098217",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Doenças Pulmonares Intersticiais",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

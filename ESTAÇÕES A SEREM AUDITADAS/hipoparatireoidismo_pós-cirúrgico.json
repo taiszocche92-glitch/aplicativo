@@ -39,6 +39,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Denise Castro, 55 anos, Funcionária pública e Casada"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou sentindo formigamento e cãibras, doutor(a)."
       },
@@ -509,5 +513,23 @@
     "feedbackEstacao": {
       "resumoTecnico": "O hipoparatireoidismo é uma síndrome caracterizada pela deficiência na produção ou ação do paratormônio (PTH), levando a hipocalcemia e hiperfosfatemia. A etiologia mais comum é iatrogênica, geralmente pós-cirúrgica de tireoide ou paratireoide, como no caso apresentado. Os sintomas neuromusculares, como parestesias (perioral e extremidades), espasmos musculares, cãibras e tetania, são a principal manifestação da hipocalcemia. A fadiga, ansiedade e irritabilidade também são comuns.\n\nNa anamnese, é crucial investigar o histórico de cirurgias de pescoço. O exame físico deve incluir a pesquisa dos Sinais de Chvostek (espasmo facial) e Trousseau (espasmo carpopedal), que são patognomônicos de hipocalcemia. Reflexos osteotendíneos exaltados e alterações tegumentares (pele seca, unhas quebradiças) também podem ser encontrados.\n\nOs exames complementares diagnósticos incluem cálcio sérico total corrigido e iônico baixos, fósforo sérico elevado e PTH sérico indetectável ou inapropriadamente baixo. É fundamental excluir outras causas de hipocalcemia, como deficiência de vitamina D, insuficiência renal ou hipomagnesemia grave. O ECG pode revelar prolongamento do intervalo QT, um sinal de alarme para arritmias cardíacas.\n\nO tratamento da crise hipocalcêmica envolve gluconato de cálcio IV. O manejo crônico baseia-se na suplementação oral de cálcio e análogos da vitamina D ativa (calcitriol, alfacalcidol), com o objetivo de manter o cálcio sérico no limite inferior da normalidade, evitando hipercalciúria. Em casos refratários, a terapia com rhPTH pode ser indicada. Complicações crônicas incluem nefrocalcinose, nefrolitíase, calcificações de gânglios da base e catarata. As orientações ao paciente são essenciais para adesão ao tratamento e reconhecimento de sinais de alarme.\n\n**Fontes:**\n1. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas. Hipoparatireoidismo. Disponível em: [Buscar na biblioteca virtual em saúde do Ministério da Saúde].\n2. UpToDate. Hypoparathyroidism: Clinical manifestations, diagnosis, and management. Disponível em: [Buscar em www.uptodate.com].\n3. Sociedade Brasileira de Endocrinologia e Metabologia (SBEM). Consenso Brasileiro sobre Hipoparatireoidismo. Disponível em: [Buscar no site da SBEM]."
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "7e426516-f460-49da-97ea-69c4e0977d87",
+  "created_at": "2025-08-28T10:02:25.690652",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "hipoparatireoidismo",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

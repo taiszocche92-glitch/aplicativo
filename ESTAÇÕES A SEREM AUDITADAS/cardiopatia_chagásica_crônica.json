@@ -41,6 +41,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Osvaldo Duarte, 55 anos, Trabalhador rural, Solteiro e Área rural de Minas Gerais"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com cansaço aos esforços e palpitações."
       },
@@ -570,4 +574,4 @@
       ]
     }
   }
-  }
+}

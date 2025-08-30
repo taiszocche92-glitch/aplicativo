@@ -1,0 +1,627 @@
+{
+  "idEstacao": "REVALIDA_DIFICIL_2025_CM_01_AVC_HEMORRAGICO",
+  "tituloEstacao": "Acidente Vascular Cerebral Hemorrágico",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "AVC hemorrágico",
+    "hemorragia intraparenquimatosa",
+    "hemorragia subaracnoidea",
+    "hipertensão",
+    "neuroemergência",
+    "clínica médica",
+    "urgência e emergência"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Sala de emergência",
+        "Tomografia Computadorizada de Crânio",
+        "Laboratório de análises clínicas",
+        "Unidade de Terapia Intensiva (UTI)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 62 anos é trazido à emergência por familiares após apresentar início súbito de forte dor de cabeça, dificuldade para falar e fraqueza no lado direito do corpo.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente.",
+      "Verbalizar a solicitação e descrever a interpretação do exame físico direcionado ao caso.",
+      "Verbalizar a solicitação e interpretar os exames complementares pertinentes ao caso clínico.",
+      "Estabelecer a(s) hipótese(s) diagnóstica(s) principal(is) e os diagnósticos diferenciais relevantes.",
+      "Definir a conduta terapêutica inicial e as medidas de suporte necessárias.",
+      "Identificar os fatores de risco e as possíveis complicações do quadro.",
+      "Realizar as orientações finais ao paciente e/ou acompanhante, incluindo o seguimento."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "O Chefe de Estação liberará os resultados dos exames conforme forem solicitados verbalmente."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com a pior dor de cabeça da minha vida, não consigo falar direito e meu lado direito está fraco, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR DE CABEÇA (CEFALEIA)",
+        "informacao": "Início: Súbito, como uma explosão, há cerca de 2 horas\nLocalização: Principalmente na nuca, mas se espalhou por toda a cabeça\nIntensidade: Nota 10 em 10, a pior dor que já senti\nCaracterística ou Tipo da dor: Uma dor pulsátil muito forte, como se latejasse\nIrradiação: Não irradia para outros locais além da cabeça e nuca\nDuração: Contínua desde o início, sem alívio\nProgressão: Piorou gradualmente nos primeiros minutos e se manteve intensa\nFrequencia: É a primeira vez que sinto uma dor de cabeça tão forte assim\nFator Desencadeante: Estava lendo o jornal, em repouso\nFator de piora ou agravante: Piora com qualquer movimento da cabeça, com luz e barulho\nFator de melhora ou atenuante: Nenhuma posição ou ação alivia a dor\nEpisódios prévios: Nunca tive uma dor assim antes, minhas dores de cabeça normais são mais leves\nMedicação de alivio: Tomei um analgésico comum (dipirona) em casa, mas não fez efeito"
+      },
+      {
+        "contextoOuPerguntaChave": "FRAQUEZA NO LADO DIREITO (HEMIPARESIA)",
+        "informacao": "Início: Súbito, junto com a dor de cabeça\nLocalização: Braço e perna direitos\nIntensidade: Não consigo levantar o braço nem a perna direitos\nCaracterística ou Tipo da dor: Fraqueza mesmo, perdi a força\nProgressão: Começou fraco e em poucos minutos ficou totalmente sem força\nEpisódios prévios: Nunca tive fraqueza assim antes"
+      },
+      {
+        "contextoOuPerguntaChave": "DIFICULDADE PARA FALAR (AFASIA/DISARTRIA)",
+        "informacao": "Início: Súbito, junto com a dor de cabeça e fraqueza\nCaracterística ou Tipo da dor: As palavras não saem direito, parece que embolam, ou não consigo formular o que quero dizer\nProgressão: Piorou rapidamente no início\nEpisódios prévios: Nunca tive problema para falar"
+      },
+      {
+        "contextoOuPerguntaChave": "NÁUSEAS E VÔMITOS",
+        "informacao": "Náuseas: Sim, sinto náuseas desde o início do quadro\nVômitos: Sim, vomitei uma vez, era alimento digerido\nFrequência: Um episódio de vômito\nEpisódios prévios: Não tenho histórico de vômitos frequentes"
+      },
+      {
+        "contextoOuPerguntaChave": "ALTERAÇÃO DO NÍVEL DE CONSCIÊNCIA",
+        "informacao": "Sonolência: Estou um pouco sonolento, mas consigo responder\nTorpor: Não estou em torpor\nComa: Não estou em coma"
+      },
+      {
+        "contextoOuPerguntaChave": "CRISES CONVULSIVAS",
+        "informacao": "Presença: Nega crises convulsivas\nEpisódios prévios: Nega histórico de epilepsia ou convulsões"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Rigidez de nuca: Sim, sinto o pescoço duro e dolorido\nAlterações visuais: Nega visão dupla ou perda súbita de visão\nFebre: Nega febre\nCalafrios: Nega calafrios"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Hipertensão Arterial Sistêmica (HAS) há 15 anos, mas não controlo muito bem, às vezes esqueço de tomar o remédio. Não tenho diabetes, dislipidemia ou cardiopatias conhecidas.\nCirurgias prévias: Apendicectomia há 20 anos\nInternações: Apenas para a cirurgia de apêndice\nAlergias: Nega alergias conhecidas\nMedicamentos em uso contínuo: Losartana 50mg/dia (mas uso de forma irregular)\nVacinação: Completa para idade (negou vacina da gripe este ano)\nTrauma: Nega traumatismo cranioencefálico recente\nTransfusões: Nega transfusões prévias"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Tipo do parto: Não aplicável\nTempo de Gestação: Não aplicável\nIntercorrências neonatais: Não aplicável\nHábitos sexuais: Não relevante\nHábitos urinários: Normais\nHábitos intestinais: Normais\nIngestão hídrica: Bebe cerca de 1,5L de água por dia\nExposição ocupacional: Não relevante\nEstresse: Refere estresse no trabalho nos últimos meses"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Ex-tabagista há 10 anos (fumou 1 maço/dia por 30 anos)\nEtilismo: Social, 1-2 doses de cerveja nos fins de semana\nDrogas ilícitas: Nega uso de drogas ilícitas\nAlimentação: Dieta regular, com ingestão de frutas e vegetais, mas gosta de comidas salgadas\nAtividade física: Sedentário\nSono: Dorme cerca de 6-7 horas por noite, mas tem tido dificuldade para pegar no sono ultimamente\nHábitos urinários: Normais\nHábitos intestinais: Normais\nIngestão hídrica: Bebe cerca de 1,5L de água por dia\nExposição ocupacional: Não relevante\nEstresse: Refere estresse no trabalho nos últimos meses"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Falecido por infarto aos 70 anos\nMãe: Viva, 85 anos, com HAS e diabetes\nDoenças na família: Avô materno teve AVC aos 65 anos\nHistoria de câncer na família: Nega\nIrmãos ou tias: Nega histórico de aneurismas ou MAVs em familiares próximos"
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO CHEFE DE ESTAÇÃO",
+        "informacao": "Se o candidato solicitar o resultado dos exames trazidos ou exames gerais, libere o impresso 'Sinais Vitais e Exame Físico' e 'Exames Laboratoriais'.\nSe o candidato solicitar neuroimagem, libere o impresso 'Tomografia Computadorizada de Crânio'.\nSe o candidato solicitar exames para investigação etiológica, libere o impresso 'Angiotomografia de Crânio'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)?\npergunta (2): É muito grave?\npergunta (3): Eu vou ficar com alguma sequela?\npergunta (4): O que precisa ser feito agora para me ajudar?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico (Verbalizado pelo Chefe de Estação)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "200 × 110 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "55 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "12 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "37,2 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "96 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO (Verbalizado pelo Chefe de Estação)",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Paciente em regular estado geral, contactuante, sonolento, mas desperta ao estímulo verbal, com fala disártrica e afásica (dificuldade para encontrar palavras e articulá-las). Pupilas isocóricas e fotorreagentes."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Rigidez de nuca presente. Sem outras alterações."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Bulhas rítmicas normofonéticas, 2 tempos, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação, ruídos hidroaéreos presentes."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Hemiparesia (força muscular grau 1/5) em membro superior e inferior direitos. Reflexo cutâneo plantar extensor (Babinski) à direita."
+                },
+                {
+                  "chave": "Sinais de Irritação Meníngea",
+                  "valor": "Sinais de Kernig e Brudzinski positivos."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais (Verbalizado pelo Chefe de Estação)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "12.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.2 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "38 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.0 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Glicemia Capilar",
+                  "valor": "130 mg/dL (Ref: 70-110)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "138 mEq/L (Ref: 135-145)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "4.1 mEq/L (Ref: 3.5-5.0)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "COAGULOGRAMA",
+              "itens": [
+                {
+                  "chave": "TAP (INR)",
+                  "valor": "1.1 (Ref: 0.8-1.2)"
+                },
+                {
+                  "chave": "KPTT",
+                  "valor": "30 segundos (Ref: 25-35)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_TC_3",
+        "tituloImpresso": "Tomografia Computadorizada de Crânio (sem contraste)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Imagens axiais de TC de crânio sem contraste demonstrando área de hiperdensidade no parênquima cerebral, sugestiva de sangramento agudo.",
+          "caminhoImagem": "(Buscar no Google Imagens: TC de crânio sem contraste mostrando hemorragia intraparenquimatosa em gânglios da base direita com extensão ventricular)",
+          "sugestaoBuscaImagem": "TC de crânio sem contraste mostrando hemorragia intraparenquimatosa em gânglios da base direita com extensão ventricular",
+          "laudo": "ACHADOS:\nHemorragia intraparenquimatosa volumosa em gânglios da base à direita, com extensão para o sistema ventricular (IV ventrículo), medindo aproximadamente 50 mL. Presença de edema perilesional discreto e desvio da linha média de 4 mm à esquerda. Ausência de lesões isquêmicas agudas ou outras alterações significativas.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_ANGIOTC_4",
+        "tituloImpresso": "Angiotomografia de Crânio",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Imagens de Angio-TC de crânio demonstrando avaliação dos vasos cerebrais.",
+          "caminhoImagem": "(Buscar no Google Imagens: Angio-TC de crânio normal ou sem aneurismas em caso de HIP por HAS)",
+          "sugestaoBuscaImagem": "Angio-TC de crânio normal",
+          "laudo": "ACHADOS:\nEstudo angiográfico da circulação cerebral intracraniana sem evidência de aneurismas, malformações arteriovenosas, fístulas ou outras anomalias vasculares significativas.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_AVCH_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente de 62 anos, com história de hipertensão arterial sistêmica mal controlada, apresenta quadro agudo de cefaleia intensa (\"pior da vida\"), déficits neurológicos focais (hemiparesia direita, afasia/disartria) e rebaixamento do nível de consciência, com sinais de irritação meníngea e hipertensão severa. Exames laboratoriais com leucocitose discreta e glicemia limítrofe. TC de crânio demonstra hemorragia intraparenquimatosa volumosa com extensão ventricular, compatível com AVC hemorrágico. Angio-TC sem evidência de causas estruturais (aneurisma/MAV).",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa e direcionada para o quadro neurológico agudo e fatores de risco.",
+        "Avaliação e interpretação do exame físico neurológico e sinais vitais.",
+        "Solicitação e interpretação de exames laboratoriais e de neuroimagem (TC e Angio-TC) para diagnóstico e etiologia.",
+        "Formulação do diagnóstico definitivo e diferenciais.",
+        "Estabelecimento da conduta terapêutica emergencial e suporte (controle pressórico, PIC, reversão de coagulopatia).",
+        "Identificação de complicações e fatores prognósticos.",
+        "Orientações ao paciente/acompanhante e plano de seguimento."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, investigando as características da cefaleia:\n(1) início;\n(2) localização;\n(3) intensidade;\n(4) tipo/qualidade;\n(5) irradiação;\n(6) duração;\n(7) progressão;\n(8) fatores de piora/agravantes;\n(9) fatores de melhora/atenuantes;\n(10) episódios prévios;\n(11) uso de medicação de alívio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 9 ou mais de 11 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 6 a 8 de 11 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 5 ou menos de 11 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, investigando os déficits neurológicos:\n(1) início da fraqueza;\n(2) localização da fraqueza;\n(3) intensidade da fraqueza;\n(4) progressão da fraqueza;\n(5) início da dificuldade para falar;\n(6) tipo da dificuldade para falar;\n(7) progressão da dificuldade para falar;\n(8) presença de alterações visuais;\n(9) presença de alteração do nível de consciência (sonolência, torpor, coma).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 7 ou mais de 9 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 6 de 9 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos de 9 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza anamnese, investigando sintomas acompanhantes e sinais de alerta:\n(1) náuseas e vômitos (início, frequência);\n(2) crises convulsivas (presença, tipo, episódios prévios);\n(3) rigidez de nuca;\n(4) febre;\n(5) calafrios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 de 5 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 de 5 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos de 5 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Realiza anamnese, investigando antecedentes patológicos pessoais:\n(1) doenças crônicas (HAS, DM, dislipidemia, cardiopatias);\n(2) cirurgias prévias;\n(3) internações;\n(4) alergias;\n(5) medicamentos em uso contínuo;\n(6) vacinação;\n(7) trauma craniano recente;\n(8) transfusões.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou mais de 8 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 de 8 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos de 8 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Realiza anamnese, investigando hábitos de vida:\n(1) tabagismo;\n(2) etilismo;\n(3) uso de drogas ilícitas;\n(4) alimentação;\n(5) atividade física;\n(6) qualidade do sono.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou 6 de 6 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 de 6 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos de 6 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Realiza anamnese, investigando antecedentes familiares:\n(1) história familiar de AVC;\n(2) história familiar de aneurismas ou malformações arteriovenosas (MAVs);\n(3) história familiar de HAS ou DM.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 de 3 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 ou 2 de 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Verbaliza a solicitação e interpreta os Sinais Vitais do paciente:\n(1) Pressão Arterial elevada (200x110 mmHg);\n(2) Bradicardia (55 bpm);\n(3) FR normal (12 irpm);\n(4) Temperatura normal (37,2 °C);\n(5) Saturação normal (96%).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 4 ou 5 de 5 achados.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 2 ou 3 de 5 achados.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta 1 ou menos de 5 achados.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Verbaliza a solicitação e interpreta o Exame Físico Neurológico:\n(1) avalia o nível de consciência (sonolência, desorientação);\n(2) avalia pares cranianos (pupilas isocóricas e fotorreagentes);\n(3) avalia força muscular (hemiparesia direita, grau 1/5);\n(4) avalia reflexos (Babinski à direita);\n(5) avalia sinais de irritação meníngea (rigidez de nuca, Kernig e Brudzinski positivos).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 4 ou 5 de 5 achados.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 2 ou 3 de 5 achados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta 1 ou menos de 5 achados.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Verbaliza a solicitação e interpreta os Exames Laboratoriais:\n(1) Hemograma (leucocitose discreta);\n(2) Coagulograma (TAP/INR e KPTT normais);\n(3) Glicemia (limítrofe/elevada);\n(4) Eletrólitos (Sódio e Potássio normais);\n(5) Ureia e Creatinina (normais).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 4 ou 5 de 5 grupos de achados.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 2 ou 3 de 5 grupos de achados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta 1 ou menos de 5 grupos de achados.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Verbaliza a solicitação e interpreta a Tomografia Computadorizada de Crânio (sem contraste):\n(1) identifica hiperdensidade em parênquima cerebral (sangramento);\n(2) descreve localização (gânglios da base direita);\n(3) descreve extensão (com extensão ventricular);\n(4) avalia volume do hematoma (50 mL);\n(5) identifica efeito de massa (desvio da linha média de 4 mm).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 4 ou 5 de 5 achados.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 2 ou 3 de 5 achados.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta 1 ou menos de 5 achados.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Verbaliza a solicitação e interpreta a Angiotomografia de Crânio:\n(1) solicita para investigar etiologia do sangramento;\n(2) interpreta ausência de aneurismas, MAVs ou outras anomalias vasculares significativas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente os 2 achados.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita ou interpreta corretamente apenas 1 achado.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Estabelece a(s) hipótese(s) diagnóstica(s) principal(is) e classifica a condição:\n(1) Acidente Vascular Cerebral Hemorrágico Intraparenquimatoso (HIP);\n(2) Etiologia provável: Hipertensão Arterial Sistêmica (HAS) descompensada;\n(3) Classifica como grave (volumoso, com extensão ventricular e efeito de massa).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza corretamente os 3 itens.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza corretamente 1 ou 2 itens.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza corretamente nenhum item.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes:\n(1) Acidente Vascular Cerebral Isquêmico (AVCI);\n(2) Hemorragia Subaracnoidea (HSA) primária por aneurisma (descartado pela TC/Angio-TC);\n(3) Tumor cerebral com sangramento;\n(4) Crise convulsiva com déficit pós-ictal (Todd);\n(5) Encefalopatia hipertensiva.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 4 ou 5 de 5 diagnósticos diferenciais corretos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 2 ou 3 de 5 diagnósticos diferenciais corretos.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Cita 1 ou menos de 5 diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Define a conduta terapêutica inicial e as medidas de suporte:\n(1) Admissão em UTI/Unidade de AVC para monitoramento contínuo;\n(2) Controle rigoroso da Pressão Arterial (alvo PAS < 140 mmHg com anti-hipertensivos IV, ex: labetalol, nicardipino);\n(3) Medidas para controle da Pressão Intracraniana (elevação da cabeceira, sedação, analgésia, manitol/salina hipertônica);\n(4) Avaliação neurocirúrgica de urgência para possível evacuação cirúrgica do hematoma (devido ao volume e extensão ventricular);\n(5) Suporte básico de vida (ABC: via aérea, ventilação, oxigenação);\n(6) Controle glicêmico;\n(7) Profilaxia de crises convulsivas (se houver indicação);\n(8) Avaliação para reversão de coagulopatia (mesmo que coagulograma normal, se paciente tivesse em uso).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Define 7 ou 8 de 8 itens da conduta.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Define 4 a 6 de 8 itens da conduta.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Define 3 ou menos de 8 itens da conduta ou não define adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Identifica os principais fatores de risco e sinais de alarme/complicações:\n(1) Fatores de risco: HAS mal controlada, tabagismo (ex-fumante), sedentarismo, idade avançada;\n(2) Sinais de alarme/complicações: piora do nível de consciência, aumento da cefaleia, novas crises convulsivas, sinais de herniação cerebral (Tríade de Cushing, anisocoria), ressangramento, hidrocefalia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica corretamente 3 ou 4 de 4 fatores de risco e 4 ou 5 de 5 sinais de alarme/complicações.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Identifica corretamente 2 fatores de risco e 2 ou 3 sinais de alarme/complicações.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Identifica menos que o critério parcial ou incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Realiza orientações finais ao paciente e/ou acompanhante, incluindo o seguimento:\n(1) explica a gravidade do quadro e a necessidade de internação em UTI;\n(2) informa sobre as opções de tratamento (clínico e cirúrgico);\n(3) orienta sobre o prognóstico e possíveis sequelas (reabilitação);\n(4) enfatiza a importância do controle rigoroso da PA e cessação do tabagismo para prevenção secundária;\n(5) esclarece as dúvidas do paciente.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 4 ou 5 de 5 orientações e esclarece as dúvidas.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 2 ou 3 de 5 orientações e/ou esclarece parcialmente as dúvidas.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Realiza 1 ou menos de 5 orientações ou não esclarece as dúvidas.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10,
+    "feedbackEstacao": {
+      "resumoTecnico": "O Acidente Vascular Cerebral Hemorrágico (AVCh) é uma emergência neurológica grave, caracterizada pelo extravasamento de sangue dentro do crânio. Clinicamente, apresenta-se com início súbito de déficits neurológicos focais, cefaleia intensa (muitas vezes descrita como a 'pior da vida'), náuseas, vômitos e alteração do nível de consciência. Os sinais de irritação meníngea (rigidez de nuca, Kernig, Brudzinski) são comuns, especialmente na hemorragia subaracnoidea (HSA) mas podem ocorrer em HIP com extensão ventricular. A Hipertensão Arterial Sistêmica (HAS) mal controlada é o principal fator de risco para hemorragia intraparenquimatosa (HIP), enquanto aneurismas cerebrais são a causa mais comum de HSA não traumática. Outros fatores de risco incluem uso de anticoagulantes/antiagregantes, malformações vasculares e tabagismo.\nO diagnóstico é confirmado por neuroimagem de urgência, sendo a Tomografia Computadorizada (TC) de crânio sem contraste o exame padrão-ouro, que identifica o sangramento agudo como hiperdensidade. A Angiotomografia (Angio-TC) ou Angioressonância (Angio-RM) é essencial para investigar a etiologia do sangramento, como aneurismas ou MAVs. Os exames laboratoriais visam avaliar coagulopatias, distúrbios eletrolíticos e função renal. Escalas como a de Coma de Glasgow (ECG) e a NIHSS (National Institutes of Health Stroke Scale) são fundamentais para avaliação da gravidade e prognóstico. Os diagnósticos diferenciais incluem AVCI, crise convulsiva, tumor cerebral, hemorragias traumáticas e outras encefalopatias. O tratamento é emergencial e multidisciplinar, focado na estabilização clínica, controle da Pressão Arterial (PA) sistólica (alvo <140 mmHg em HIP sem contraindicações), reversão de coagulopatias, e manejo da Pressão Intracraniana (PIC) elevada. A neurocirurgia pode ser indicada para evacuação do hematoma (em casos selecionados de HIP) ou para clipagem/embolização do aneurisma (na HSA) para prevenir ressangramento. Complicações incluem ressangramento, hidrocefalia, vasoespasmo (na HSA) e edema cerebral. O manejo pós-agudo envolve reabilitação intensiva e controle rigoroso dos fatores de risco para prevenção secundária.\n\nEste caso exemplifica um AVCh intraparenquimatoso com extensão ventricular, provavelmente secundário à HAS não controlada, exigindo manejo imediato para controle pressórico, da PIC e avaliação neurocirúrgica, com um prognóstico reservado devido ao volume e localização do sangramento.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas. Acidente Vascular Cerebral. Brasília, DF: Ministério da Saúde, 2018.",
+        "2. Sociedade Brasileira de Cardiologia. V Diretrizes Brasileiras de Hipertensão Arterial. Arq Bras Cardiol. 2018; 110(1 Supl 1):1-100.",
+        "3. UpToDate. Intracerebral hemorrhage: Management of acute intracerebral hemorrhage. Última atualização: 2024.",
+        "4. UpToDate. Aneurysmal subarachnoid hemorrhage: Clinical manifestations and diagnosis. Última atualização: 2024."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "89748b9e-a44d-4000-a71e-ba81be46f126",
+  "created_at": "2025-08-28T13:41:40.686791",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "AVC hemorrágico",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

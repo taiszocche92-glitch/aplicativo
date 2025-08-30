@@ -1,0 +1,605 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_HRV_01",
+  "tituloEstacao": "Hipertensão Renovascular",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Hipertensão Renovascular",
+    "Hipertensão Resistente",
+    "Estenose de Artéria Renal",
+    "Aterosclerose",
+    "Clínica Médica",
+    "Atenção secundária"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultório médico equipado",
+        "Laboratório de análises clínicas com exames de rotina",
+        "Setor de exames de imagem (Ultrassonografia com Doppler, Angiotomografia, Ecocardiograma)",
+        "Disponibilidade de medicamentos anti-hipertensivos",
+        "Acesso a avaliação de especialistas (Nefrologia, Cardiologia, Cirurgia Vascular)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 60 anos, sexo masculino, chega ao ambulatório referindo que, apesar de usar vários medicamentos, a sua pressão arterial continua alta e difícil de controlar. Ele apresenta exames recentes para avaliação.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente.",
+      "Solicitar os exames físicos necessários à avaliação do caso, verbalizando os achados.",
+      "Solicitar e Interpretar os exames complementares já disponíveis e/ou pertinentes ao caso.",
+      "Relacionar os resultados dos exames às hipóteses diagnósticas.",
+      "Verbalizar o diagnóstico principal e os diagnósticos diferenciais mais relevantes.",
+      "Elaborar a conduta terapêutica inicial e o plano de seguimento.",
+      "Realizar as orientações finais ao paciente, respondendo a quaisquer dúvidas."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "Os exames complementares solicitados serão entregues pelo avaliador."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: João da Silva\nIdade: 60 anos\nSexo: Masculino\nEstado Civil: Casado\nProfissão: Aposentado"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Minha pressão não baixa de jeito nenhum, doutor!"
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA DA DOENÇA ATUAL - HIPERTENSÃO",
+        "informacao": "Início: Comecei a ter pressão alta há uns 10 anos, mas nos últimos 2 anos piorou muito de repente.\nControle: Minha pressão está sempre alta, mesmo tomando 4 remédios diferentes para a pressão. Está muito difícil de controlar.\nResposta a medicamentos: Uma vez, quando o doutor mudou um remédio para 'pril', minha creatinina subiu muito e precisei trocar. Com o remédio 'sartana' aconteceu o mesmo.\nEdema Pulmonar: Já tive uns 2 episódios de falta de ar súbita, fui para a emergência e disseram que era 'edema de pulmão', mas meu coração estava bom.\nSintomas ateroscleróticos: Sinto dores nas pernas quando ando um pouco mais, parece que são 'câimbras'."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Dor nas pernas ao caminhar: Relata que sim, sente dor nas panturrilhas após caminhar algumas quadras, que melhora com o repouso. Não sente dor no peito nem fraqueza nos braços.\nFalta de ar: Não sente falta de ar no dia a dia, apenas naqueles episódios de 'edema de pulmão'.\nAlteração na visão ou fala: Nega.\nDor abdominal: Nega.\nTontura: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Diabetes Mellitus tipo 2 (há 5 anos, controlado com metformina), Dislipidemia (há 8 anos, em uso de sinvastatina).\nCirurgias prévias: Nega.\nInternações: Duas internações por 'edema agudo de pulmão' nos últimos 6 meses.\nAlergias: Nega alergias a medicamentos ou alimentos.\nMedicamentos em uso contínuo: Metformina 850mg 2x/dia, Sinvastatina 20mg 1x/dia, Anlodipino 10mg 1x/dia, Hidroclorotiazida 25mg 1x/dia, Metoprolol 50mg 2x/dia.\nVacinação: Completa para a idade.\nTrauma: Nega.\nTransfusões: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Ex-fumante há 5 anos (fumou 1 maço/dia por 30 anos).\nEtilismo: Nega ingestão regular de álcool.\nDrogas ilícitas: Nega.\nAlimentação: Refere alimentação com consumo regular de carnes vermelhas e alimentos processados. Não tem restrições alimentares específicas.\nAtividade física: Sedentário devido à dor nas pernas.\nSono: Refere sono regular, sem interrupções.\nIngestão hídrica: Refere boa ingestão de água.\nExposição ocupacional: Não relevante, aposentado.\nEstresse: Refere estresse com a dificuldade de controle da pressão."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Hipertenso, faleceu aos 70 anos de infarto.\nMãe: Diabética e hipertensa, viva aos 80 anos.\nDoenças na família: Irmão com histórico de doença aterosclerótica (AVC aos 65 anos).\nHistória de câncer na família: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que o senhor acha que eu tenho, doutor? Por que minha pressão não baixa?\npergunta (2): Isso é muito grave? Pode afetar outros órgãos?\npergunta (3): Qual o melhor tratamento para o meu caso? Vou ter que tomar mais remédios?\npergunta (4): Tem alguma chance de ser outra coisa? Eu já fui em tantos médicos...\npergunta (5): O que eu preciso fazer para me cuidar melhor e evitar que isso piore?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "180 x 100 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "92 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "97% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Bom estado geral, consciente, orientado, hidratado, eupneico, afebril. IMC: 29 kg/m²."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Cabelos bem implantados, escleras anictéricas, pupilas isocóricas e fotorreagentes. Pescoço sem linfonodomegalias ou turgência jugular. Pulsos carotídeos rítmicos e simétricos."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular em 2 tempos, bulhas rítmicas e normofonéticas. Ausculta sem sopros. Ictus cordis não palpável."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente e simétrico bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Plano, flácido, indolor à palpação superficial e profunda. Ruidos hidroaéreos presentes. Ausculta de sopro sistodiastólico em flanco esquerdo e epigástrio."
+                },
+                {
+                  "chave": "Membros Inferiores",
+                  "valor": "Sem edema. Pulsos femorais, poplíteos, tibiais posteriores e pediosos diminuídos bilateralmente, mas presentes. Sinais tróficos discretos em pés. Sem varizes."
+                },
+                {
+                  "chave": "Neurológico",
+                  "valor": "Sem alterações."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.2 g/dL (Ref: 13.5-17.5 M)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "250.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "60 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.8 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "138 mEq/L (Ref: 135-145)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "3.2 mEq/L (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "115 mg/dL (Ref: 70-99)"
+                },
+                {
+                  "chave": "Colesterol Total",
+                  "valor": "220 mg/dL (Ref: <200)"
+                },
+                {
+                  "chave": "LDL-colesterol",
+                  "valor": "140 mg/dL (Ref: <100)"
+                },
+                {
+                  "chave": "HDL-colesterol",
+                  "valor": "35 mg/dL (Ref: >40)"
+                },
+                {
+                  "chave": "Triglicerídeos",
+                  "valor": "190 mg/dL (Ref: <150)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_USGDOPPLER_3",
+        "tituloImpresso": "Ultrassonografia Doppler de Artérias Renais",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado do exame de Ultrassonografia Doppler de Artérias Renais.",
+          "caminhoImagem": "Não aplicável, o avaliador descreverá o laudo.",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: Ultrassonografia Doppler artéria renal estenose aterosclerótica, com velocidades elevadas e alteração de onda espectral)",
+          "laudo": "Artéria Renal Esquerda: Estenose significativa (>70%) no terço proximal, com aumento da velocidade de pico sistólico (VPS > 250 cm/s) e índice de resistência (IR > 0.8).\nArtéria Renal Direita: Fluxo preservado, sem sinais de estenose hemodinamicamente significativa.\nDimensões Renais: Rim esquerdo reduzido (8.5 cm) em comparação com o rim direito (11.0 cm). Sem sinais de hidronefrose."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ANGIOTC_4",
+        "tituloImpresso": "Angiotomografia de Artérias Renais",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado da Angiotomografia de Artérias Renais.",
+          "caminhoImagem": "Não aplicável, o avaliador descreverá o laudo.",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: Angiotomografia de artéria renal estenose aterosclerótica significativa, com placas calcificadas)",
+          "laudo": "ACHADOS:\nArtéria Renal Esquerda: Placa aterosclerótica calcificada no óstio e terço proximal, causando estenose de aproximadamente 80% do lúmen. Redução do calibre da artéria pós-estenose.\nArtéria Renal Direita: Calibre e trajeto normais, sem evidência de estenose.\nParenquima renal: Atrofia renal esquerda em comparação com o lado direito, com espessura cortical reduzida. Ausência de massas ou cistos.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ECOCARDIOGRAMA_5",
+        "tituloImpresso": "Ecocardiograma com Doppler",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "DIMENSÕES E FUNÇÃO",
+              "itens": [
+                {
+                  "chave": "Diâmetro diastólico do VE",
+                  "valor": "5.8 cm (Ref: 3.9-5.3 cm)"
+                },
+                {
+                  "chave": "Espessura septal",
+                  "valor": "1.3 cm (Ref: 0.6-1.0 cm)"
+                },
+                {
+                  "chave": "Parede posterior do VE",
+                  "valor": "1.2 cm (Ref: 0.6-1.0 cm)"
+                },
+                {
+                  "chave": "Fração de Ejeção do VE",
+                  "valor": "62% (Ref: >55%)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "CONCLUSÃO",
+              "itens": [
+                {
+                  "chave": "Achados",
+                  "valor": "Hipertrofia ventricular esquerda concêntrica grave. Função sistólica do VE preservada. Diastólica alterada (padrão de relaxamento)."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST01_CM_HRV_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 60 anos, com histórico de hipertensão arterial resistente, diabetes, dislipidemia e tabagismo. Relata piora de função renal com inibidores de SRAA e episódios de edema agudo de pulmão. Ao exame físico, apresenta sopro sistodiastólico abdominal e sinais de doença arterial periférica. Exames complementares mostram creatinina elevada, hipocalemia, hipertrofia ventricular esquerda e estenose aterosclerótica significativa em artéria renal esquerda, com rim atrofiado.",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada para rastrear causas secundárias de hipertensão.",
+        "Realização e interpretação de exame físico buscando sinais de hipertensão secundária e aterosclerose sistêmica.",
+        "Solicitação e interpretação de exames laboratoriais e de imagem para confirmação diagnóstica.",
+        "Formulações de hipóteses diagnósticas e diferenciais.",
+        "Elaboração de plano terapêutico que inclui manejo medicamentoso e indicação de revascularização, com as devidas contraindicações.",
+        "Orientações ao paciente sobre a doença e o tratamento."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Hipertensão:\n(1) Início da hipertensão e padrão de agravamento (súbito/idade atípica);\n(2) Resistência ao tratamento (uso de múltiplos medicamentos);\n(3) Piora da função renal com IECA/BRA (remédios 'pril'/'sartana');\n(4) Episódios de edema agudo de pulmão recorrente sem causa cardíaca aparente.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 aspectos da hipertensão.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 ou 2 aspectos da hipertensão.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não pergunta nenhum aspecto relevante.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Investigação de Sintomas Associados e Comorbidades:\n(1) Sintomas de doença aterosclerótica sistêmica (claudicação intermitente);\n(2) Diabetes Mellitus;\n(3) Dislipidemia;\n(4) Tabagismo (ativo ou prévio);\n(5) História familiar de doença renal ou hipertensão precoce.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou nenhum item.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Verbaliza os achados do exame físico geral e cardiovascular:\n(1) Pressão arterial elevada (180x100 mmHg);\n(2) Pulsos periféricos diminuídos;\n(3) Ausência de edema de membros inferiores.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza os três achados.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza um ou dois achados.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza os achados.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Verbaliza o achado de sopro abdominal:\n(1) Presença de sopro sistodiastólico em flanco esquerdo e epigástrio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o achado corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o achado ou verbaliza incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Interpreta os exames laboratoriais apresentados:\n(1) Creatinina elevada (1.8 mg/dL) com ureia elevada (60 mg/dL);\n(2) Hipocalemia (Potássio 3.2 mEq/L);\n(3) Glicemia e perfil lipídico alterados (glicose 115 mg/dL, colesterol total 220 mg/dL, LDL 140 mg/dL, HDL 35 mg/dL, triglicerídeos 190 mg/dL).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente os três itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente um ou dois itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não interpreta ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Interpreta a Ultrassonografia Doppler de Artérias Renais:\n(1) Estenose significativa (>70%) em artéria renal esquerda com aumento da VPS e IR;\n(2) Rim esquerdo reduzido em comparação com o direito;\n(3) Fluxo preservado em artéria renal direita.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente os três achados.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente um ou dois achados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não interpreta ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Interpreta a Angiotomografia de Artérias Renais:\n(1) Estenose aterosclerótica de aproximadamente 80% no óstio/terço proximal da artéria renal esquerda;\n(2) Atrofia renal esquerda;\n(3) Artéria renal direita sem estenose.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente os três achados.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente um ou dois achados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não interpreta ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpreta o Ecocardiograma:\n(1) Hipertrofia ventricular esquerda concêntrica grave;\n(2) Função sistólica do VE preservada;\n(3) Função diastólica alterada.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente os três achados.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente um ou dois achados.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não interpreta ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Estabelece o diagnóstico principal:\n(1) Hipertensão Renovascular por estenose aterosclerótica da artéria renal esquerda.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico completo e correto.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza Hipertensão Renovascular, mas omite a etiologia ou o lado.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes para hipertensão secundária:\n(1) Hipertensão Arterial Essencial;\n(2) Hiperaldosteronismo primário;\n(3) Doença parenquimatosa renal;\n(4) Feocromocitoma;\n(5) Displasia Fibromuscular (como diferencial de etiologia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 4 ou 5 diagnósticos diferenciais relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 2 ou 3 diagnósticos diferenciais relevantes.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Cita 1 ou nenhum diagnóstico diferencial ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Elabora o plano terapêutico medicamentoso inicial:\n(1) Manutenção e otimização dos anti-hipertensivos não IECA/BRA (ex: bloqueadores de cálcio, beta-bloqueadores, diuréticos); \n(2) Ênfase na cautela/contraindicação de IECA/BRA devido ao risco de piora renal em estenose unilateral significativa com atrofia ou bilateral; \n(3) Controle agressivo dos fatores de risco cardiovascular (diabetes, dislipidemia, cessação do tabagismo).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora os três itens da conduta medicamentosa.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora um ou dois itens da conduta medicamentosa.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não elabora ou elabora inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Indica o tratamento por revascularização e a técnica adequada para estenose aterosclerótica:\n(1) Indica angioplastia transluminal percutânea com colocação de stent;\n(2) Menciona as indicações para revascularização (hipertensão resistente, piora da função renal, edema agudo de pulmão recorrente).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica corretamente os dois itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica apenas um item corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não indica ou indica inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Orientações e Seguimento:\n(1) Dieta hipossódica e DASH;\n(2) Atividade física regular (conforme tolerância e melhora da claudicação);\n(3) Monitoramento domiciliar da PA;\n(4) Cessação do tabagismo (reforço);\n(5) Encaminhamento para nefrologista/cardiologista/cirurgião vascular;\n(6) Retorno para reavaliação periódica (PA, função renal, eletrólitos).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta 5 ou 6 aspectos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta 3 ou 4 aspectos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Orienta 2 ou menos aspectos ou não orienta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Responde às perguntas/dúvidas do paciente simulado de forma clara e empática.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde às perguntas/dúvidas de forma satisfatória e demonstra empatia.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Responde parcialmente ou com pouca clareza/empatia.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Não responde às perguntas/dúvidas ou responde de forma inadequada.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Hipertensão Renovascular (HRV) é uma causa secundária de hipertensão, frequentemente resistente ao tratamento, causada pela estenose da artéria renal. A ativação do sistema renina-angiotensina-aldosterona (SRAA) é um mecanismo chave. As etiologias mais comuns são aterosclerose (em idosos, com fatores de risco cardiovasculares) e displasia fibromuscular (em mulheres jovens). Suspeitar de HRV em casos de hipertensão de início súbito ou agravamento em idade atípica, hipertensão resistente, piora da função renal com IECA/BRA, ou episódios recorrentes de edema agudo de pulmão sem causa cardíaca. O exame físico pode revelar sopro abdominal sistodiastólico. O diagnóstico é confirmado por exames de imagem como Ultrassonografia Doppler, Angio-TC ou Angio-RM de artérias renais, sendo a arteriografia o padrão-ouro. Os exames laboratoriais podem mostrar elevação de creatinina, hipocalemia e alterações relacionadas aos fatores de risco. O tratamento envolve controle farmacológico rigoroso (com cautela ou contraindicação de IECA/BRA em estenose bilateral ou rim único) e, muitas vezes, revascularização. A angioplastia com stent é a preferida para estenose aterosclerótica, enquanto a angioplastia com balão é indicada para displasia fibromuscular. Encaminhamentos a nefrologistas, cardiologistas e cirurgiões vasculares são essenciais. O manejo dos fatores de risco cardiovasculares é crucial para prevenir complicações.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde. Protocolos de Manejo da Hipertensão Arterial Sistêmica. 2021. Disponível em: https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/publicacoes-saude/2021/protocolos-de-manejo-da-hipertensao-arterial-sistemica. Acesso em: 10 mai. 2024.",
+        "2. Whelton, P. K. et al. 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. Hypertension, v. 71, n. 6, p. e13-e115, 2018.",
+        "3. UpToDate. Renal artery stenosis. Revisado em: 2024. Disponível em: www.uptodate.com. Acesso em: 10 mai. 2024."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "04cb5125-7e19-4aad-a8a1-3a0c0ecac693",
+  "created_at": "2025-08-28T11:08:24.095890",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Hipertensão Renovascular",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

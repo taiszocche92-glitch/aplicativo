@@ -1,0 +1,542 @@
+{
+  "idEstacao": "REVALIDA_MEDIO_2025_CM_01",
+  "tituloEstacao": "Cefaleia Tensional",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "cefaleia tensional",
+    "dor de cabeça",
+    "estresse",
+    "ansiedade",
+    "clínica médica",
+    "atenção primária"
+  ],
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção primária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Medicações disponíveis"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 35 anos, sexo feminino, chega ao consultório referindo dor de cabeça frequente.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente.",
+      "Verbalizar a necessidade de exames físicos para a avaliação do caso.",
+      "Verbalizar a necessidade de exames complementares se pertinente ao caso.",
+      "Verbalizar as hipóteses diagnósticas principais e diferenciais.",
+      "Elaborar a conduta terapêutica, incluindo tratamento e orientações.",
+      "Responder às dúvidas do paciente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com uma dor de cabeça que não passa, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "CEFALEIA (Dor de Cabeça)",
+        "informacao": "Início: Começou há uns 6 meses, mas nas últimas semanas ficou bem mais frequente e forte\nDuração: A dor dura horas, às vezes o dia todo. Teve vezes que durou uns 3 ou 4 dias seguidos\nFrequência: Quase todo dia, ou pelo menos umas 4 a 5 vezes por semana\nLocalização: É dos dois lados da cabeça, parece que tem um capacete apertando, ou uma faixa na testa e na nuca\nQualidade da Dor: É uma pressão, um aperto constante, um peso. Não lateja, não pulsa\nIntensidade: É leve a moderada, umas 4 ou 5 na escala de 0 a 10. Consigo fazer minhas coisas, mas é incômodo\nIrradiação: Não se espalha muito, fica mais na cabeça e na nuca\nFator de piora ou agravante: Geralmente piora quando estou muito estressado no trabalho, ou quando durmo mal. Não piora com exercício físico\nFator de melhora ou atenuante: Melhora um pouco com analgésicos comuns, tipo paracetamol ou ibuprofeno, e quando consigo descansar\nEpisódios prévios: Sim, desde a adolescência eu tenho dor de cabeça, mas nunca foi tão constante assim\nMedicação de alivio: Uso paracetamol ou ibuprofeno quando a dor piora"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Fotofobia: Sim, às vezes a luz me incomoda um pouco\nNáuseas: Não sinto náuseas\nVômitos: Não tenho vômitos\nAura: Não tenho aura\nFonofobia: Não sinto fonofobia\nDor à palpação muscular: Sinto dor quando tocam nos músculos da nuca e têmporas\nDéficits neurológicos: Nega\nFebre: Nega\nRigidez de nuca: Nega\nCefaleia súbita: Nega\nAlteração de consciência: Nega\nTrauma craniano recente: Nega\nAlterações de fala/visão: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Tenho ansiedade e faço tratamento com psicólogo. Meu dentista já comentou que tenho bruxismo e às vezes acordo com a mandíbula dolorida\nCirurgias prévias: Nega\nInternações: Nega\nAlergias: Nega\nMedicamentos em uso contínuo: Tomo paroxetina para ansiedade. Para a dor de cabeça, uso paracetamol ou ibuprofeno quando não aguento mais\nVacinação: Atualizada\nTrauma: Nega\nTransfusões: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega\nEtilismo: Socialmente, uma ou duas vezes por mês\nDrogas ilícitas: Nega\nAlimentação: Equilibrada, mas às vezes pulo refeições quando estou com pressa\nAtividade física: Nega, não tenho tempo nem disposição\nSono: Durmo mal, umas 5 horas por noite. Tenho dificuldade para pegar no sono\nIngestão hídrica: Boa ingestão, cerca de 2 litros por dia\nExposição ocupacional: Trabalho em escritório, muitas horas no computador\nEstresse: Sim, como já disse, estou muito estressada ultimamente com o trabalho e problemas pessoais"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "História de cefaleia: Minha mãe e minha avó também sofriam muito de dor de cabeça, parecida com a minha\nPai: Nega doenças relevantes\nMãe: Cefaleia\nDoenças na família: Nega outras doenças relevantes\nHistória de câncer na família: Nega\nIrmãos ou tias: Nega doenças relevantes"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS",
+        "informacao": "Gestações: Nega\nPartos: Nega\nAbortos: Nega\nCesáreas: Nega\nData da Última Menstruação (DUM): Há 15 dias\nMenarca: 13 anos\nCiclos menstruais: Regulares, a cada 28 dias\nSexarca: 18 anos\nTelarca: Normal\nPubarca: Normal\nAtividade sexual: Sim, sou sexualmente ativa\nParceiros: Fixo\nUso de contraceptivos: Nega\nUso de preservativos: Sim\nExames preventivos: Papanicolau atualizado\nHistórico de IST: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR: (Ex: Se o candidato solicitar o resultado dos exames trazidos libere o impresso (x) / Ex: Após o candidato solicitar o exame X responda 'considere solicitado' ou 'considere realizado o procedimento'.)",
+        "informacao": "Se o candidato solicitar exames laboratoriais, libere o impresso de Exames Laboratoriais. Se solicitar exames de imagem (TC ou RM de crânio), responda 'Considerando a sua história clínica e exame físico, não há indicação para exames de imagem de rotina. Contudo, se ainda assim desejar, eles seriam normais'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE: (ex: Dúvidas do ator sobre medicamentos, exames, condutas, etc., Perguntar após o atendimento se o candidato realizar a anamnese/exame fisico/conduta/tratamento/, Ex: Após o candidato realizar a anamnese, pergunte o que o paciente tem / Ex: Após realizar o diagnostico, pergunta se o que voce tem é grave, ou se tem complicações, ou se nao poderia ser outra coisa.)",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)?\npergunta (2): Essa dor de cabeça é grave?\npergunta (3): Quais são as opções de tratamento, não aguento mais essa dor de cabeça!\npergunta (4): Essa dor pode ser outra coisa, tipo um tumor?\npergunta (5): O que eu faço para que isso não aconteça novamente?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est01_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "120 x 80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "75 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "99% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Estado Geral",
+                  "valor": "Bom estado geral, corada, hidratada, lúcida e orientada"
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Dor à palpação de músculos temporais, masseteres e da nuca. Sem rigidez de nuca, sem linfonodomegalias"
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular, bulhas normofonéticas, sem sopros"
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente e simétrico, sem ruídos adventícios"
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação, sem visceromegalias"
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edema, sem déficits motores ou sensitivos"
+                },
+                {
+                  "chave": "Exame Neurológico",
+                  "valor": "Exame neurológico sumário normal, sem déficits focais (pares cranianos preservados, força e sensibilidade sem alterações, reflexos normais, marcha e equilíbrio normais)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "13.0 g/dL (Ref: 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "250.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "95 mg/dL (Ref: 70-99)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_IMAGEM_TC_3",
+        "tituloImpresso": "Tomografia Computadorizada de Crânio",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado de exame de imagem cerebral solicitado previamente para investigação de cefaleia.",
+          "caminhoImagem": "NÃO INDICADO ROTINEIRAMENTE. SE SOLICITADO, CONSIDERAR RESULTADO NORMAL. (Buscar no Google Imagens: TC de crânio normal, sem alterações significativas)",
+          "sugestaoBuscaImagem": "TC de crânio normal, sem alterações significativas",
+          "laudo": "ACHADOS:\nTomografia computadorizada de crânio sem alterações significativas. Estruturas da linha média preservadas, ausência de lesões expansivas, hemorragias ou hidrocefalia.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_IMAGEM_RX_4",
+        "tituloImpresso": "Radiografia de Coluna Cervical",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado de exame de imagem da coluna cervical solicitado previamente para investigação de dor cervical.",
+          "caminhoImagem": "NÃO INDICADO ROTINEIRAMENTE. SE SOLICITADO, CONSIDERAR RESULTADO NORMAL. (Buscar no Google Imagens: Radiografia coluna cervical AP e perfil normal, sem alterações)",
+          "sugestaoBuscaImagem": "Radiografia coluna cervical AP e perfil normal, sem alterações",
+          "laudo": "Radiografia de coluna cervical em projeções AP e perfil sem alterações degenerativas ou traumáticas agudas. Alinhamento vertebral preservado."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST01_CM_CT_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente de 35 anos, sexo feminino, queixa-se de cefaleia bilateral, em aperto, intensidade leve a moderada, frequente há 6 meses, com fotofobia ocasional, associada a estresse, privação de sono e dor à palpação muscular pericraniana. Nega náuseas, vômitos, aura e déficits neurológicos. Antecedentes de ansiedade e bruxismo. Exame físico e laboratoriais sem sinais de alarme. O caso direciona para o diagnóstico de Cefaleia Tensional Crônica, com necessidade de tratamento agudo e profilaxia não farmacológica e farmacológica, além de orientações ao paciente.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa e direcionada para caracterização da cefaleia tensional e exclusão de sinais de alarme.",
+        "Exame físico neurológico normal e identificação de dor à palpação muscular pericraniana, avaliação cervical e de ATM.",
+        "Racionalização da não necessidade de exames complementares de rotina para diagnóstico de cefaleia primária.",
+        "Formulações de hipóteses diagnósticas de cefaleia tensional crônica e seus principais diferenciais.",
+        "Proposta de tratamento agudo e profilático, além de medidas não farmacológicas, adaptadas ao perfil do paciente.",
+        "Orientações detalhadas ao paciente sobre a condição, manejo e sinais de alerta."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est01_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se e (2) cumprimenta o paciente simulado",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Postura:\n(1) estabelece contato visual;\n(2) mantém postura empática ao longo da consulta;\n(3) escuta a fala do paciente simulado sem interrompê-lo",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ou duas ações",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Responde às perguntas/dúvidas do paciente simulado",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde às perguntas/dúvidas",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não responde às perguntas/dúvidas",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Caracterização da Cefaleia (Sintoma Guia): Investiga 9 de 11 aspectos da dor:\n(1) início;\n(2) duração;\n(3) frequência;\n(4) localização;\n(5) qualidade/tipo;\n(6) intensidade;\n(7) irradiação;\n(8) fatores de piora/agravantes;\n(9) fatores de melhora/atenuantes;\n(10) medicação de alívio;\n(11) episódios prévios",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 9 ou mais aspectos",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 5 a 8 aspectos",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Pergunta 4 ou menos aspectos ou não pergunta item algum",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Sintomas Associados e Sinais de Alarme: Investiga 8 de 12 itens relevantes:\n(1) náuseas;\n(2) vômitos;\n(3) fotofobia;\n(4) fonofobia;\n(5) aura;\n(6) déficits neurológicos (fraqueza, alteração de fala/visão);\n(7) febre;\n(8) rigidez de nuca;\n(9) cefaleia súbita (\"trovoada\");\n(10) alteração de consciência;\n(11) trauma craniano recente;\n(12) idade > 50 anos com novo padrão de cefaleia",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 8 ou mais itens",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 7 itens",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos itens ou não pergunta item algum",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Antecedentes Pessoais (Patológicos): Investiga 4 de 5 itens relevantes:\n(1) doenças crônicas (ansiedade, depressão, bruxismo);\n(2) cirurgias prévias;\n(3) internações;\n(4) alergias;\n(5) medicamentos em uso contínuo (incluindo analgésicos e psicotrópicos)",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 itens",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 itens",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 item ou não pergunta item algum",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Anamnese - Hábitos de Vida e Contexto Psicossocial: Investiga 6 de 8 itens relevantes:\n(1) estresse psicológico e emocional;\n(2) padrão de sono;\n(3) consumo de cafeína/álcool/tabagismo/drogas ilícitas;\n(4) alimentação (incluindo pular refeições);\n(5) atividade física;\n(6) postura (especialmente no trabalho);\n(7) bruxismo/disfunção de ATM;\n(8) exposição ocupacional relevante",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou mais itens",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 itens",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos itens ou não pergunta item algum",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Anamnese - Antecedentes Familiares: Investiga:\n(1) história de cefaleia tensional ou enxaqueca na família",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta o item",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não pergunta o item",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Exame Físico - Solicitação e Interpretação: Verbaliza a necessidade e interpreta corretamente os achados de:\n(1) sinais vitais;\n(2) exame neurológico (ausência de déficits focais);\n(3) palpação de músculos pericranianos (temporais, masseteres, nuca, trapézios);\n(4) avaliação cervical (amplitude de movimento);\n(5) avaliação de ATM (dor, disfunção)",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a necessidade e interpreta corretamente 4 ou 5 itens",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza a necessidade e interpreta corretamente 2 ou 3 itens",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Verbaliza a necessidade ou interpreta corretamente 1 item ou nenhum item",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Exames Complementares - Racionalidade na Solicitação: Verbaliza a racionalidade da solicitação e interpreta os achados de:\n(1) indica que exames laboratoriais de rotina não são necessários para CT primária e solicita apenas se houver suspeita de condição secundária;\n(2) interpreta corretamente os resultados normais do hemograma e bioquímica, caso solicitados;\n(3) indica que exames de imagem (TC/RM) não são indicados rotineiramente para CT e reserva para sinais de alarme;\n(4) interpreta corretamente os resultados normais de exames de imagem, caso solicitados",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza e interpreta corretamente 3 ou 4 itens",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza e interpreta corretamente 1 ou 2 itens",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza ou interpreta corretamente item algum",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Hipóteses Diagnósticas Principais e Diferenciais: Verbaliza:\n(1) o diagnóstico principal de Cefaleia Tensional (especificando tipo: crônica ou episódica frequente);\n(2) pelo menos 2 diagnósticos diferenciais relevantes (Ex: Enxaqueca sem aura, Cefaleia cervicogênica, Cefaleia por abuso de medicação, Disfunção de ATM)",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico principal e 2 ou mais diferenciais corretos",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico principal e 1 diferencial correto",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico principal ou cita incorretamente",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Plano Terapêutico - Tratamento Agudo: Indica:\n(1) analgésicos simples (paracetamol ou dipirona) OU AINEs (ibuprofeno ou naproxeno);\n(2) orientação sobre limitar o uso a 2-3 dias/semana para evitar cefaleia por abuso de medicação",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica corretamente os dois itens",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica corretamente apenas um item",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não indica adequadamente nenhum item",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Plano Terapêutico - Tratamento Profilático (quando indicado para CT crônica): Indica:\n(1) antidepressivos tricíclicos (Ex: Amitriptilina, com dose inicial e titulação);\n(2) Outros antidepressivos (Ex: mirtazapina, venlafaxina) OU relaxantes musculares (Ex: ciclobenzaprina)",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica corretamente o item 1 e pelo menos um do item 2",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica corretamente apenas o item 1 ou apenas um do item 2",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não indica adequadamente nenhum item",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Plano Terapêutico - Medidas Não Farmacológicas: Indica pelo menos 3 de 6 medidas:\n(1) técnicas de relaxamento (biofeedback, relaxamento muscular progressivo);\n(2) fisioterapia/acupuntura/massagem;\n(3) Terapia Cognitivo-Comportamental (TCC);\n(4) exercícios físicos regulares;\n(5) higiene do sono;\n(6) manejo do estresse/ansiedade",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica 3 ou mais medidas",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica 1 ou 2 medidas",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não indica nenhuma medida",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Orientações e Seguimento: Fornece 3 de 4 orientações:\n(1) educação do paciente sobre a natureza benigna da condição e necessidade de manejo;\n(2) instrução sobre o diário de cefaleia;\n(3) reforço da adesão à medicação profilática e medidas não farmacológicas;\n(4) necessidade de seguimento regular para ajuste de tratamento e monitoramento",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Fornece 3 ou 4 orientações",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Fornece 1 ou 2 orientações",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não fornece nenhuma orientação",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Cefaleia Tensional (CT) é a cefaleia primária mais comum, caracterizada por dor de cabeça bilateral, de intensidade leve a moderada, com sensação de pressão ou aperto (não pulsátil), não agravada por atividade física de rotina. Geralmente não acompanha náuseas e vômitos, e, se houver, no máximo um dos sintomas de fotofobia ou fonofobia. É frequentemente associada a estresse, ansiedade, má postura, privação de sono e tensão muscular. Na anamnese, é fundamental caracterizar a dor (início, duração, frequência, localização, qualidade, intensidade, fatores agravantes/atenuantes) e investigar a presença de sintomas associados e, principalmente, a ausência de sinais de alarme que sugeririam uma cefaleia secundária. O exame físico, incluindo o exame neurológico, deve ser completamente normal, sendo comum a dor à palpação de músculos pericranianos. Exames complementares não são necessários para o diagnóstico de CT primária, sendo indicados apenas na presença de 'red flags' ou exame neurológico alterado. O diagnóstico é clínico, baseado nos critérios da ICHD-3, classificando-a como episódica (infrequente ou frequente) ou crônica. Os principais diferenciais incluem enxaqueca sem aura, cefaleia cervicogênica e cefaleia por abuso de medicação. O tratamento agudo envolve analgésicos simples ou AINEs, com a ressalva de limitar o uso para evitar a cronificação. Para casos crônicos ou episódicos frequentes, a profilaxia é indicada, sendo os antidepressivos tricíclicos (como amitriptilina) a primeira linha. Medidas não farmacológicas, como técnicas de relaxamento, TCC, fisioterapia, exercícios e higiene do sono, são cruciais no manejo e prevenção. Fatores de risco incluem estresse, ansiedade, privação de sono e má postura, enquanto fatores de proteção envolvem o manejo do estresse, atividade física regular e higiene do sono. O seguimento deve incluir a educação do paciente, uso de diário de cefaleia e ajuste do plano terapêutico.",
+      "fontes": [
+        "1. Sociedade Brasileira de Cefaleia. Cefaleia Tensional. Disponível em: [https://sbcefaleia.com.br/](https://sbcefaleia.com.br/). Acesso em: [data atual].",
+        "2. The International Classification of Headache Disorders, 3rd edition (ICHD-3). Cephalalgia, 2018;38(1):1-211.",
+        "3. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas. Disponível em: [https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/p/protocolos-clinicos-e-diretrizes-terapeuticas-pcdt](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/p/protocolos-clinicos-e-diretrizes-terapeuticas-pcdt). Acesso em: [data atual]."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "7d112917-8d12-4fed-9380-9629f1cc69a9",
+  "created_at": "2025-08-28T13:52:51.911400",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Cefaleia tensional",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

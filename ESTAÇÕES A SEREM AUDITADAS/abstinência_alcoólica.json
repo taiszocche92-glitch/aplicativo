@@ -42,6 +42,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Gilberto Marques, 45 anos, Enfermeiro e Divorciado"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com muitos tremores e uma ansiedade enorme, doutor(a), desde que parei de beber ontem."
       },
@@ -572,5 +576,23 @@
         "3. American Psychiatric Association. Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5). Arlington, VA: American Psychiatric Publishing, 2013."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "b8ab8c9a-740f-41e0-8db6-eef367309831",
+  "created_at": "2025-08-28T15:24:59.988102",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Abstinencia alcoolica",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

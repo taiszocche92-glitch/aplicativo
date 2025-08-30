@@ -33,6 +33,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Rosangela Cardoso, 35 anos, Funcionária pública e Casada"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou me sentindo muito cansada e minha visão está estranha há alguns meses, doutor(a)."
       },
@@ -476,5 +480,23 @@
         "4. UpToDate. Disease-modifying therapies for multiple sclerosis. Disponível em: www.uptodate.com (Acessado em Julho de 2024)."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "81f17c52-6e13-4e77-b92c-ffea753927d0",
+  "created_at": "2025-08-28T14:45:47.299937",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Esclerose Múltipla",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

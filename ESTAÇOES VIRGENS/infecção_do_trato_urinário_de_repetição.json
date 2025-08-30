@@ -1,0 +1,656 @@
+{
+  "idEstacao": "REVALIDA_FACIL_CM_ITU_REPETICAO",
+  "tituloEstacao": "Infecção do Trato Urinário de Repetição",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "ITU",
+    "Infecção urinária",
+    "Pielonefrite",
+    "Cistite",
+    "Repetição",
+    "Urologia",
+    "Clínica Médica",
+    "Atenção secundária à saúde"
+  ],
+  "nivelDificuldade": "Alto",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios de Clínica Médica",
+        "Laboratório de análises clínicas para exames de urina e sangue",
+        "Serviço de exames de imagem (Ultrassonografia)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente do sexo feminino, 58 anos, comparece ao ambulatório de Clínica Médica queixando-se de episódios recorrentes de infecção do trato urinário há cerca de um ano.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal e aos antecedentes do paciente.",
+      "Verbalizar as manobras do exame físico necessárias à avaliação do caso.",
+      "Solicitar e Interpretar os exames complementares pertinentes ao caso clínico.",
+      "Verbalizar as hipóteses diagnósticas e os diagnósticos diferenciais.",
+      "Elaborar o plano terapêutico e as orientações para o paciente."
+    ],
+    "avisosImportantess": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "Considere que você tem acesso aos resultados de exames complementares, mas deve verbalizá-los e interpretá-los."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou tendo infecções urinárias uma atrás da outra, doutor(a), não aguento mais."
+      },
+      {
+        "contextoOuPerguntaChave": "EPISÓDIOS RECORRENTES",
+        "informacao": "Início: Há cerca de 1 ano e meio que as infecções não me dão paz.\nFrequência: Já tive 4 episódios nos últimos 6 meses, e 6 episódios no último ano.\nCronologia: O último episódio foi há 3 semanas, tratei com Ciprofloxacino por 7 dias, mas agora sinto que está voltando.\nTratamentos prévios: Já usei amoxicilina, sulfametoxazol-trimetoprima e ciprofloxacino em diferentes ocasiões, com melhora inicial, mas os sintomas sempre voltavam.\nUroculturas prévias: Sim, geralmente mostra *E. coli*, sensível à maioria dos antibióticos que usei, mas uma vez deu resistência ao SMX-TMP."
+      },
+      {
+        "contextoOuPerguntaChave": "DISÚRIA",
+        "informacao": "Início: Começou ontem à noite, de forma gradual.\nLocalização: Sinto uma ardência na 'saída da urina'.\nIntensidade: Moderada, nota 5/10.\nCaracterística: Ardência e queimação.\nIrradiação: Nega.\nDuração: Contínua enquanto urino.\nProgressão: Piorando desde ontem.\nFrequência: Em todas as micções.\nFator de piora: Ao urinar.\nFator de melhora: Nega.\nEpisódios prévios: Sim, é igual às outras vezes.\nMedicação de alívio: Ainda não tomei nada para este episódio."
+      },
+      {
+        "contextoOuPerguntaChave": "POLACIÚRIA",
+        "informacao": "Início: Começou ontem.\nFrequência: Estou indo ao banheiro a cada 30-60 minutos, muito mais do que o normal.\nProgressão: Tem piorado.\nEpisódios prévios: Sim, sempre tenho junto com a ardência."
+      },
+      {
+        "contextoOuPerguntaChave": "URGÊNCIA MICCIONAL",
+        "informacao": "Início: Desde ontem.\nCaracterística: É uma vontade súbita e forte de urinar, que não consigo segurar por muito tempo.\nEpisódios prévios: Sim, é um sintoma comum nas minhas infecções."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR SUPRAPÚBICA",
+        "informacao": "Início: Começou hoje de manhã.\nLocalização: No 'pé da barriga', acima da 'bexiga'.\nIntensidade: Leve a moderada, nota 4/10.\nCaracterística: Peso e desconforto.\nIrradiação: Nega.\nFator de piora: Quando a bexiga está cheia.\nFator de melhora: Após urinar um pouco.\nEpisódios prévios: Sim, já senti em alguns episódios anteriores."
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE",
+        "informacao": "Início: Nega febre neste episódio.\nSintomas associados: Nega calafrios ou sudorese."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR LOMBAR",
+        "informacao": "Início: Nega dor lombar neste episódio.\nIntensidade: Nega.\nCaracterística: Nega.\nIrradiação: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "HEMATÚRIA",
+        "informacao": "Início: Nega sangue na urina neste episódio.\nCaracterística: Nega urina avermelhada ou escura."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Náuseas: Nega.\nVômitos: Nega.\nDiarreia: Nega.\nFraqueza: Sinto um pouco de cansaço geral, mas não fraqueza intensa.\nAstenia: Sim, um pouco mais cansada do que o normal."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Diabetes Mellitus tipo 2 há 10 anos, controlada com Metformina e Glibenclamida.\nCirurgias prévias: Nega cirurgias urogenitais.\nInternações: Internação há 2 anos por crise hipertensiva, não relacionada a ITU.\nAlergias: Nega alergias conhecidas.\nMedicamentos em uso contínuo: Metformina 850mg 2x/dia, Glibenclamida 5mg 1x/dia, Losartana 50mg 1x/dia.\nVacinação: Completa para idade.\nCálculos renais: Nega histórico de cálculos renais.\nImunossupressão: Nega.\nDoenças neurológicas: Nega (sem bexiga neurogênica).\nMalformações congênitas do trato urinário: Nega conhecimento."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Idade: 58 anos, pós-menopausa há 8 anos.\nGestação: 2 gestações, 2 partos vaginais.\nDIU: Não usa DIU.\nAtrofia vaginal: Sim, sinto ressecamento vaginal e desconforto em relações sexuais.\nHábitos sexuais: Atividade sexual ocasional, não usa espermicidas ou diafragma."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega.\nEtilismo: Social, ocasional.\nDrogas ilícitas: Nega.\nAlimentação: Dieta regular para diabéticos.\nAtividade física: Caminhada leve 3x/semana.\nSono: Regular.\nHábitos urinários: Costumo segurar a urina às vezes por estar ocupada. Urina com frequência após o coito: Nega.\nHábitos intestinais: Constipação ocasional, mas geralmente bem controlada com dieta.\nIngestão hídrica: Tento beber bastante água, mas às vezes esqueço, cerca de 1 a 1,5 litros por dia.\nHigiene perineal: Limpeza da frente para trás. Uso de diafragma ou espermicidas: Nega.\nEstresse: Refere estresse no trabalho, mas não acha que influencia as ITUs."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Hipertenso, falecido por AVC.\nMãe: Diabética e hipertensa, viva.\nDoenças na família: Nega histórico familiar de ITU de repetição ou malformações renais.\nHistória de câncer na família: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar resultados de uroculturas prévias, diga: 'As uroculturas anteriores mostraram *E. coli*, sensível à maioria dos antibióticos, mas uma vez resistente ao SMX-TMP.'\nSe o candidato solicitar ultrassonografia de rins e vias urinárias, diga: 'Consideramos o exame solicitado e o resultado está no impresso.'"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)?\npergunta (2): É grave ter tanta infecção assim? Pode afetar meus rins?\npergunta (3): Quais são as opções de tratamento, além de tomar antibiótico toda vez?\npergunta (4): O que eu faço para que isso não aconteça novamente? Tem algo que eu possa fazer em casa?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "130x85 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "92 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "37,5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Estado Geral",
+                  "valor": "Bom estado geral, lúcida e orientada, hidratada, corada, eupneica."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Plano, flácido, indolor à palpação superficial e profunda. Sensibilidade leve à palpação suprapúbica. Ruídos hidroaéreos presentes. Ausência de massas ou megalias."
+                },
+                {
+                  "chave": "Região Lombar",
+                  "valor": "Punho-percussão lombar (Giordano) bilateralmente negativa."
+                },
+                {
+                  "chave": "Exame Ginecológico (verbalizado pelo examinador)",
+                  "valor": "Sinais de atrofia vaginal (mucosa pálida, ressecada, perda de elasticidade). Nega secreções ou lesões visíveis em vulva e vagina."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais (Urina 1, Hemograma, Função Renal)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "URINA TIPO 1 (EAS)",
+              "itens": [
+                {
+                  "chave": "Cor",
+                  "valor": "Amarelo escuro"
+                },
+                {
+                  "chave": "Aspecto",
+                  "valor": "Turvo"
+                },
+                {
+                  "chave": "pH",
+                  "valor": "6.0 (Ref: 4.5-8.0)"
+                },
+                {
+                  "chave": "Densidade",
+                  "valor": "1.025 (Ref: 1.003-1.030)"
+                },
+                {
+                  "chave": "Proteínas",
+                  "valor": "Negativo"
+                },
+                {
+                  "chave": "Glicose",
+                  "valor": "Negativo"
+                },
+                {
+                  "chave": "Nitrito",
+                  "valor": "Positivo"
+                },
+                {
+                  "chave": "Esterase Leucocitária",
+                  "valor": "Positivo"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": ">100.000/mL (Ref: <10.000)"
+                },
+                {
+                  "chave": "Hemácias",
+                  "valor": "5-10/campo (Ref: <5)"
+                },
+                {
+                  "chave": "Cilindros",
+                  "valor": "Ausentes"
+                },
+                {
+                  "chave": "Bactérias",
+                  "valor": "Inúmeras"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "8.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Segmentados",
+                  "valor": "65% (Ref: 40-70)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "13.2 g/dL (Ref: 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "39% (Ref: 36-45)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45) (VR: 15-40 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (Ref: 0.7-1.3) (VR: 0,6-1,2 mg/dL)"
+                },
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "110 mg/dL (Ref: 70-99)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_UROCULTURA_3",
+        "tituloImpresso": "Resultado de Urocultura com Antibiograma",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "UROCULTURA",
+              "itens": [
+                {
+                  "chave": "Crescimento",
+                  "valor": ">10^5 UFC/mL"
+                },
+                {
+                  "chave": "Agente Etiológico",
+                  "valor": "*Escherichia coli*"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ANTIBIOGRAMA",
+              "itens": [
+                {
+                  "chave": "Ciprofloxacino",
+                  "valor": "Sensível"
+                },
+                {
+                  "chave": "Nitrofurantoína",
+                  "valor": "Sensível"
+                },
+                {
+                  "chave": "Fosfomicina",
+                  "valor": "Sensível"
+                },
+                {
+                  "chave": "Sulfametoxazol-Trimetoprima",
+                  "valor": "Resistente"
+                },
+                {
+                  "chave": "Cefalexina",
+                  "valor": "Sensível"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_USG_4",
+        "tituloImpresso": "Ultrassonografia de Rins e Vias Urinárias",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado da ultrassonografia dos rins e vias urinárias.",
+          "caminhoImagem": "",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: Ultrassonografia rins e bexiga normal, com leve espessamento de parede vesical)",
+          "laudo": "Rins com dimensões e ecogenicidade preservadas, sem dilatação de cálices ou pelve. Ausência de cálculos ou massas. Bexiga com contornos regulares, conteúdo anecoico. Parede vesical com leve espessamento difuso (4mm), compatível com bexiga crônica. Ausência de resíduo pós-miccional significativo."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_ITU_REPETICAO_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina, 58 anos, diabética e pós-menopausa, apresenta quadro de Infecção do Trato Urinário (ITU) sintomática recorrente, com 4 episódios nos últimos 6 meses. O quadro atual inclui disúria, polaciúria, urgência e dor suprapúbica, sem febre ou dor lombar. Exames complementares confirmam ITU por *E. coli* sensível a múltiplos antibióticos, com Urina 1 indicativa e ultrassonografia sem achados obstrutivos.",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada da ITU de repetição e fatores de risco.",
+        "Exame físico direcionado para diferenciar cistite de pielonefrite.",
+        "Solicitação e interpretação de exames laboratoriais (Urina 1, Urocultura) e de imagem (USG).",
+        "Formulação de diagnóstico, diferenciais e plano terapêutico abrangente (agudo e profilático)."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e Comunicação Inicial:\n(1) Apresenta-se ao paciente;\n(2) Cumprimenta o paciente de forma cordial;\n(3) Pergunta o motivo da consulta.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza duas ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Realiza uma ação ou não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização dos Episódios de Repetição:\n(1) Início da recorrência;\n(2) Frequência dos episódios (em 6 e 12 meses);\n(3) Tratamentos prévios (quais antibióticos, duração);\n(4) Resposta aos tratamentos anteriores;\n(5) Resultados de uroculturas prévias (agente, perfil de sensibilidade).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 item ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracterização da Queixa Atual (Disúria, Polaciúria, Urgência, Dor Suprapúbica):\n(1) Início;\n(2) Intensidade;\n(3) Característica;\n(4) Progressão;\n(5) Fatores de piora/melhora;\n(6) Medicação de alívio utilizada.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou 6 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos itens ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Investigação de Sinais de Alarme ou Complicações:\n(1) Febre/calafrios;\n(2) Dor lombar;\n(3) Hematúria;\n(4) Náuseas/vômitos;\n(5) Alteração do estado geral.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 item ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Antecedentes Patológicos Pessoais Relevantes:\n(1) ITU prévias;\n(2) Diabetes Mellitus;\n(3) Cirurgias urogenitais;\n(4) Cálculos renais;\n(5) Imunossupressão ou outras doenças neurológicas/malformações.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 item ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Antecedentes Fisiológicos e Hábitos de Vida Relevantes:\n(1) Idade (pós-menopausa);\n(2) Atividade sexual (frequência, uso de espermicidas/diafragma);\n(3) Ingestão hídrica;\n(4) Hábitos de higiene perineal;\n(5) Atrofia vaginal (sintomas);\n(6) Constipação intestinal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou 6 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos itens ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita e Interpreta Achados do Exame Físico:\n(1) Solicita avaliação da dor suprapúbica;\n(2) Solicita punho-percussão lombar (Giordano);\n(3) Solicita avaliação ginecológica (sinais de atrofia);\n(4) Interpreta os achados dos sinais vitais (temperatura, FC);\n(5) Interpreta os achados do exame abdominal e lombar;\n(6) Interpreta os achados do exame ginecológico.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 5 ou 6 itens corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 3 ou 4 itens corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta 2 ou menos itens ou não realiza.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita Exames Laboratoriais:\n(1) Urina 1 (EAS / Urinálise);\n(2) Urocultura com antibiograma;\n(3) Hemograma;\n(4) Função Renal (Creatinina, Ureia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita os 4 exames.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 ou 3 exames.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita 1 exame ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpreta os Achados dos Exames Laboratoriais (Urina 1, Urocultura, Hemograma, Função Renal):\n(1) Leucocitúria, nitrito e esterase leucocitária positiva na Urina 1;\n(2) Urocultura positiva para *E. coli* com sensibilidade a antibióticos;\n(3) Hemograma sem sinais de infecção sistêmica (ausência de leucocitose com desvio à esquerda);\n(4) Função renal preservada.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta os 4 achados corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 ou 3 achados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta 1 achado ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita Exames de Imagem e Interpreta seus Achados:\n(1) Solicita Ultrassonografia de rins e vias urinárias;\n(2) Interpreta USG sem achados obstrutivos ou malformações significativas (esvaziamento completo, leve espessamento vesical).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita o exame e interpreta corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita o exame, mas interpreta parcialmente ou incorretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Verbaliza o Diagnóstico Principal e Classificação:\n(1) Diagnóstico de Infecção do Trato Urinário de Repetição;\n(2) Diagnóstico de Cistite Aguda (episódio atual);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza ambos os diagnósticos corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza apenas um dos diagnósticos corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza ou verbaliza incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Cita Diagnósticos Diferenciais Relevantes:\n(1) Uretrite;\n(2) Vaginite atrófica;\n(3) Bexiga hiperativa/Cistite intersticial;\n(4) Cálculos urinários (excluído por USG);\n(5) Bacteriúria assintomática (excluída por sintomas).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 4 ou 5 diagnósticos diferenciais relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 2 ou 3 diagnósticos diferenciais relevantes.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Cita 1 ou nenhum diagnóstico diferencial.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Elabora Plano Terapêutico para o Episódio Agudo:\n(1) Indica antibiótico adequado conforme antibiograma (ex: Nitrofurantoína, Fosfomicina, Ciprofloxacino, Cefalexina);\n(2) Indica duração do tratamento (3-5 dias para cistite não complicada).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica antibiótico e duração corretos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica apenas o antibiótico ou a duração corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não indica corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Elabora Estratégias de Prevenção e Profilaxia:\n(1) Discute uso de estrogênio tópico vaginal (para atrofia);\n(2) Considera antibioticoprofilaxia contínua ou pós-coito;\n(3) Orienta sobre D-manose ou Cranberry;\n(4) Orienta sobre ingestão hídrica adequada e micção frequente.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora 3 ou 4 estratégias corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora 2 estratégias corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Elabora 1 estratégia ou não elabora.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Orientações e Seguimento:\n(1) Orienta sobre sinais de alarme;\n(2) Orienta sobre a importância da aderência ao tratamento;\n(3) Informa sobre urocultura de controle após o tratamento;\n(4) Discute o acompanhamento clínico e a necessidade de reavaliação.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Fornece 3 ou 4 orientações corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Fornece 2 orientações corretamente.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Fornece 1 orientação ou não fornece.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Responde às perguntas/dúvidas do paciente simulado de forma completa e acolhedora.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde todas as perguntas de forma completa e acolhedora.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Responde a maioria das perguntas de forma parcial ou menos acolhedora.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não responde ou responde incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Infecção do Trato Urinário (ITU) de repetição é definida pela ocorrência de dois ou mais episódios em seis meses ou três ou mais em 12 meses. É mais comum em mulheres, especialmente após a menopausa, devido à deficiência de estrogênio que altera a flora vaginal e o pH, facilitando a colonização por uropatógenos. Outros fatores de risco incluem atividade sexual, diabetes mellitus, uso de espermicidas e constipação. A anamnese deve ser detalhada, investigando a frequência dos episódios, sintomas (disúria, polaciúria, urgência, dor suprapúbica, febre, dor lombar), tratamentos prévios e resultados de uroculturas, além de fatores de risco individuais. No exame físico, é crucial descartar pielonefrite (Giordano negativo, ausência de febre alta) e avaliar condições predisponentes, como atrofia vaginal. O diagnóstico é confirmado pela história clínica e urocultura positiva. Exames complementares incluem Urina 1 (leucocitúria, nitrito positivo), hemograma (para avaliar sistemicidade) e função renal. Exames de imagem como ultrassonografia de rins e vias urinárias são úteis para excluir anomalias anatômicas ou cálculos. O tratamento do episódio agudo segue o antibiograma. Para prevenção, as estratégias incluem antibioticoprofilaxia contínua em baixa dose ou pós-coito, estrogênio tópico vaginal para mulheres pós-menopausa, D-manose, cranberry e modificações comportamentais como ingestão hídrica adequada e higiene perineal. Sinais de alarme como febre alta, dor lombar intensa ou sinais de sepse indicam complicação e necessitam de investigação e manejo urgentes.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Protocolos de Atenção à Saúde. Infecção do Trato Urinário. Disponível em: [https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/doencas-transmissiveis/boletim_epidemiologico_svs_2023_v43_n2_ITU.pdf](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/doencas-transmissiveis/boletim_epidemiologico_svs_2023_v43_n2_ITU.pdf)",
+        "2. Hooton, T. M. (2023). Recurrent urinary tract infection in women. UpToDate. Acesso em 22 de maio de 2024.",
+        "3. Sociedade Brasileira de Urologia (SBU). Recomendações para o tratamento e profilaxia das Infecções Urinárias. Disponível em: [http://sbu.org.br/site/pdfs/pub_sbu_01.pdf](http://sbu.org.br/site/pdfs/pub_sbu_01.pdf)"
+      ]
+    }
+  }
+}

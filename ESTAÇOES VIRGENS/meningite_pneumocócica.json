@@ -1,0 +1,568 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_01",
+  "tituloEstacao": "Meningite Pneumocócica",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Meningite pneumocócica",
+    "Streptococcus pneumoniae",
+    "Infecção do SNC",
+    "Clínica Médica",
+    "Urgência e emergência"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Unidade de pronto atendimento",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (Tomografia, Ressonância)",
+        "Unidade de terapia intensiva",
+        "Medicações disponíveis"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 35 anos chega à unidade de pronto atendimento referindo febre alta, dor de cabeça intensa e rigidez no pescoço. Você é o médico responsável pelo primeiro atendimento.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente.",
+      "Solicitar/realizar exame físico direcionado.",
+      "Solicitar e interpretar exames complementares pertinentes ao caso.",
+      "Verbalizar a(s) hipótese(s) diagnóstica(s) principal e diferenciais.",
+      "Elaborar a conduta terapêutica inicial.",
+      "Realizar orientações finais ao paciente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "O tempo total da estação é de 10 minutos."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: João da Silva\nIdade: 35 anos\nSexo: Masculino\nEstado Civil: Casado\nProfissão: Analista de Sistemas"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com febre alta, dor de cabeça forte e meu pescoço está duro, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE ALTA",
+        "informacao": "Início: \"Começou há 2 dias, de repente.\"\nDuração: \"Contínua desde então.\"\nIntensidade: \"Chegou a 39,5°C. Medida em casa.\"\nPadrão: \"É contínua, com calafrios intensos.\"\nSintomas associados: \"Sim, muitos calafrios e suores.\"\nMedicação de alivio: \"Tomei dipirona, mas a febre não cedia totalmente, só baixava um pouco e voltava.\"\nEpisódios prévios: \"Não, nunca tive febre tão alta assim sem explicação.\""
+      },
+      {
+        "contextoOuPerguntaChave": "DOR DE CABEÇA",
+        "informacao": "Início: \"Começou junto com a febre, há 2 dias, e tem piorado progressivamente.\"\nLocalização: \"Dói a cabeça inteira, parece que vai explodir, mas principalmente na nuca.\"\nIntensidade: \"É insuportável, nota 10 de 10 na minha escala.\"\nCaracterística: \"É uma dor pulsátil, como marteladas, e também parece uma pressão constante.\"\nIrradiação: \"Não irradia para outros lugares, fica só na cabeça.\"\nDuração: \"É contínua, não passa por nada.\"\nProgressão: \"Está piorando a cada hora que passa.\"\nFrequencia: \"É o tempo todo, não tem alívio.\"\nFator de piora ou agravante: \"Piora muito com a luz forte (fotofobia) e com qualquer barulho (fonofobia). Também piora se eu tento mexer o pescoço ou me esforçar.\"\nFator de melhora ou atenuante: \"Só melhora um pouco no escuro, em silêncio e deitado, sem mexer a cabeça.\"\nEpisódios prévios: \"Já tive dores de cabeça antes, mas nunca assim, tão forte e sem passar. Essa é diferente.\"\nMedicação de alivio: \"Tentei analgésicos comuns que costumo usar, mas não fizeram efeito nenhum.\""
+      },
+      {
+        "contextoOuPerguntaChave": "RIGIDEZ DE NUCA",
+        "informacao": "Início: \"Surgiu umas horas depois da febre e da dor de cabeça, ontem mesmo.\"\nLocalização: \"Sinto no pescoço inteiro, mas principalmente na nuca.\"\nIntensidade: \"É uma dor forte quando tento mexer, 8 de 10.\"\nCaracterística: \"Sinto o pescoço 'duro', travado, não consigo abaixar a cabeça para tocar o queixo no peito.\"\nFatores de piora ou agravante: \"Qualquer movimento do pescoço piora muito a dor e a sensação de travamento.\"\nFatores de melhora ou atenuante: \"Não melhora, só se eu ficar completamente parado e deitado.\"\nEpisódios prévios: \"Nunca tive isso antes.\""
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Náuseas e Vômitos: \"Sim, comecei a sentir náuseas ontem, e vomitei 3 vezes. Era comida, depois só líquido. Não aliviou a dor de cabeça.\"\nFotofobia: \"Sim, a luz forte incomoda muito meus olhos, preciso ficar no escuro.\"\nFonofobia: \"Sim, qualquer barulho me irrita e piora minha dor de cabeça.\"\nAlteração do estado mental: \"Sim, sinto uma confusão mental, dificuldade para me concentrar e estou mais sonolento que o normal. Não consigo pensar direito.\"\nConvulsões: \"Não, nunca tive convulsões.\"\nRash cutâneo: \"Não notei nenhuma mancha, pintinha ou lesão na minha pele.\"\nSinais de foco infeccioso primário (otite, sinusite, pneumonia): \"Nega dor de ouvido, dor na face, secreção nasal, tosse ou falta de ar recentes.\""
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: \"Tenho pressão alta (hipertensão arterial) controlada com losartana. Nego diabetes, doenças cardíacas ou pulmonares crônicas.\"\nCirurgias prévias: \"Fiz uma cirurgia de amígdalas na infância, nada grave.\"\nInternações: \"Nego internações recentes.\"\nAlergias: \"Nego alergias a medicamentos ou alimentos.\"\nMedicamentos em uso contínuo: \"Losartana 50mg, 1 comprimido por dia.\"\nVacinação: \"Não sei se tomei a vacina para pneumonia quando era criança. Nego ter tomado alguma vacina para isso na idade adulta.\"\nTrauma: \"Nego qualquer traumatismo cranioencefálico recente.\"\nAsplenia: \"Nego ter retirado o baço ou ter alguma doença que afete o baço.\"\nImunodeficiências: \"Nego HIV, câncer ou uso de imunossupressores.\"\nImplantes cocleares: \"Nego.\"\nInfecções recentes por pneumococo (otite, sinusite, pneumonia): \"Nego ter tido otite, sinusite ou pneumonia nas últimas semanas ou meses.\""
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: \"Fumo cerca de 1 maço de cigarros por dia há 15 anos.\"\nEtilismo: \"Bebo socialmente, cerca de 2-3 vezes por semana, geralmente cerveja ou vinho. Não sou dependente.\"\nDrogas ilícitas: \"Nego uso.\"\nAlimentação: \"Minha alimentação é variada, como de tudo um pouco.\"\nAtividade física: \"Caminho 3 vezes por semana por uns 40 minutos.\"\nSono: \"Durmo cerca de 7 horas por noite, mas nos últimos dias está difícil por causa da dor e febre.\""
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: \"Meu pai é hipertenso.\"\nMãe: \"Minha mãe é diabética.\"\nDoenças na família: \"Nego casos de meningite na família. Nego outras doenças neurológicas hereditárias.\""
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: \"Nego viagens recentes para fora da cidade ou do país.\"\nExposição a doenças infecciosas: \"Nego exposição a pessoas com doenças infecciosas conhecidas.\"\nContato com doentes: \"Nego contato recente com pessoas doentes.\"\nAmbientes de aglomeração: \"Trabalho em escritório, mas não frequento ambientes com muita aglomeração ultimamente.\""
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): \"O que eu tenho, doutor(a)? É grave?\"\npergunta (2): \"Vou ficar com alguma sequela por causa disso?\"\npergunta (3): \"Como é que pega isso? Tem como prevenir?\"\npergunta (4): \"E o tratamento, é muito demorado?\""
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "140 × 90 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "105 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "22 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "39.2 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "96% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO GERAL E NEUROLÓGICO (Verbalizado pelo chefe da estação ao ser solicitado pelo candidato)",
+              "itens": [
+                {
+                  "chave": "Estado Geral",
+                  "valor": "Paciente prostrado, gemendo de dor, fotofóbico, levemente confuso ao ser estimulado. Eupneico, hidratado, acianótico, anictérico. Sem lesões cutâneas visíveis."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Rigidez de nuca presente, dor à flexão passiva do pescoço. Sinais de Kernig e Brudzinski positivos. Sem linfonodomegalias palpáveis. Otoscopia sem alterações. Oroscopia sem lesões. Pupils isocóricas e fotorreagentes."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular, bulhas rítmicas, normofonéticas, sem sopros ou extrassístoles. Pulsos periféricos presentes e simétricos."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Tórax simétrico, sem retrações. Murmúrio vesicular presente e simétrico bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação superficial e profunda. Ruídos hidroaéreos presentes, normoativos. Sem visceromegalias ou massas palpáveis."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edemas, varizes ou alterações tróficas. Força e tônus preservados, sem déficits motores ou sensitivos focais. Reflexos tendinosos profundos normais e simétricos."
+                },
+                {
+                  "chave": "Neurológico",
+                  "valor": "Escala de Coma de Glasgow 13 (Abertura ocular: 3; Resposta verbal: 4; Resposta motora: 6). Sem déficits focais evidentes. Reflexos patelares e aquileu presentes e simétricos. Babinski negativo."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais Sanguíneos",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA COMPLETO",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "18.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Neutrófilos Segmentados",
+                  "valor": "85% (Ref: 45-75%)"
+                },
+                {
+                  "chave": "Linfócitos",
+                  "valor": "10% (Ref: 20-40%)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.2 g/dL (Ref: 13.5-17.5)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA E PROVAS INFLAMATÓRIAS",
+              "itens": [
+                {
+                  "chave": "Glicose",
+                  "valor": "110 mg/dL (Ref: 70-99)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "130 mEq/L (Ref: 135-145)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "4.0 mEq/L (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "Proteína C Reativa (PCR)",
+                  "valor": "120 mg/L (Ref: <5)"
+                },
+                {
+                  "chave": "Velocidade de Hemossedimentação (VHS)",
+                  "valor": "80 mm/h (Ref: <20)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LCR_3",
+        "tituloImpresso": "Líquido Cefalorraquidiano (LCR)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ANÁLISE FÍSICO-QUÍMICA E CITOMÉTRICA",
+              "itens": [
+                {
+                  "chave": "Aspecto",
+                  "valor": "Turvo"
+                },
+                {
+                  "chave": "Pressão de Abertura",
+                  "valor": "280 mmH2O (Ref: 80-180)"
+                },
+                {
+                  "chave": "Citometria (total)",
+                  "valor": "1800 células/mm³ (Ref: <5)"
+                },
+                {
+                  "chave": "Citometria (diferencial)",
+                  "valor": "90% Neutrófilos, 10% Linfócitos"
+                },
+                {
+                  "chave": "Proteínas",
+                  "valor": "250 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Glicose",
+                  "valor": "25 mg/dL (Ref: 50-80 ou 60-70% da glicemia sérica)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MICROBIOLOGIA",
+              "itens": [
+                {
+                  "chave": "Coloração de Gram",
+                  "valor": "Diplococos Gram-positivos"
+                },
+                {
+                  "chave": "Cultura",
+                  "valor": "Pendente"
+                },
+                {
+                  "chave": "Pesquisa de Antígenos/PCR",
+                  "valor": "Pendente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_HEMOCULTURA_4",
+        "tituloImpresso": "Hemocultura",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "RESULTADO HEMOCULTURA",
+              "itens": [
+                {
+                  "chave": "Resultado",
+                  "valor": "Pendente"
+                },
+                {
+                  "chave": "Interpretação",
+                  "valor": "Aguardando resultado para identificação e antibiograma."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_TC_5",
+        "tituloImpresso": "Tomografia Computadorizada de Crânio (sem contraste)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Laudo radiológico da Tomografia Computadorizada de Crânio, realizada antes da punção lombar.",
+          "urlImagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Bacterial_meningitis_on_CT.jpg/800px-Bacterial_meningitis_on_CT.jpg",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: TC de crânio meningite bacteriana realce leptomeníngeo)",
+          "laudo": "ACHADOS:\nTomografia Computadorizada de Crânio sem contraste:\n- Sistema ventricular de dimensões normais, simétrico, sem desvio de linha média.\n- Ausência de lesões focais com efeito de massa, sangramentos intraparenquimatosos ou coleções extra-axiais agudas.\n- Cissuras e sulcos corticais preservados.\n- Seios da face e mastoides sem sinais de processo inflamatório/infeccioso agudo.\n- Discreto realce leptomeníngeo difuso, inespecífico sem contraste, mas compatível com processo inflamatório/infeccioso em curso.\n- Ossos da calota e base do crânio sem alterações.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_MENINGITE_PNEUMO_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente de 35 anos com quadro agudo de febre, cefaleia intensa, rigidez de nuca, náuseas, vômitos e alteração do estado mental, com sinais meníngeos positivos ao exame físico. Exames laboratoriais e de LCR (com pleocitose neutrofílica, hiperproteinorraquia e hipoglicorraquia, diplococos Gram-positivos) e TC de crânio compatíveis com meningite bacteriana, necessitando de diagnóstico rápido e tratamento imediato, provavelmente por Streptococcus pneumoniae.",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada dos sintomas meníngeos e pesquisa de fatores de risco para meningite pneumocócica.",
+        "Exame físico neurológico minucioso, incluindo avaliação do nível de consciência e pesquisa de sinais meníngeos.",
+        "Solicitação e interpretação correta de exames complementares urgentes, com ênfase no líquido cefalorraquidiano (LCR) e hemocultura.",
+        "Formulações de hipóteses diagnósticas (principal e diferenciais) com base nos achados clínicos e laboratoriais.",
+        "Estabelecimento da conduta terapêutica empírica imediata, incluindo antibioticoterapia e corticoesteroides adjuntos.",
+        "Orientações ao paciente sobre complicações, prevenção e necessidade de notificação compulsória."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e Postura:\n(1) Apresenta-se e cumprimenta o paciente simulado;\n(2) Mantém contato visual e postura empática;\n(3) Escuta o paciente sem interrupções;",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza uma ou duas ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Febre e Sintomas Associados:\n(1) Início, duração, intensidade, padrão, calafrios e sudorese da febre;\n(2) Presença de náuseas e vômitos (com frequência, conteúdo e alívio);\n(3) Presença de fotofobia e fonofobia;\n(4) Alteração do estado mental (confusão, sonolência);\n(5) Negação de convulsões;\n(6) Negação de rash cutâneo;\n(7) Negação de foco infeccioso primário (otite, sinusite, pneumonia);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 10 ou mais aspectos dos 13 possíveis.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 6 a 9 aspectos dos 13 possíveis.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 5 ou menos aspectos, ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracterização da Cefaleia e Rigidez de Nuca:\n(1) Início, localização, intensidade, característica, irradiação, progressão, fatores de piora/melhora e medicação de alívio da cefaleia;\n(2) Início, localização, intensidade, característica, fatores de piora/melhora da rigidez de nuca;",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 10 ou mais aspectos dos 14 possíveis.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 6 a 9 aspectos dos 14 possíveis.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 5 ou menos aspectos, ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Antecedentes Patológicos, Vacinação e Fatores de Risco:\n(1) Doenças crônicas (hipertensão, diabetes, DPOC);\n(2) Medicamentos em uso contínuo;\n(3) Estado vacinal para pneumococo;\n(4) Infecções recentes por pneumococo (otite, sinusite, pneumonia);\n(5) Traumatismo cranioencefálico com fístula liquórica;\n(6) Asplenia (anatômica ou funcional);\n(7) Imunodeficiências (HIV, câncer, uso de imunossupressores);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou 7 aspectos dos 7 possíveis.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 ou 5 aspectos dos 7 possíveis.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos aspectos, ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Hábitos de Vida e Antecedentes Epidemiológicos:\n(1) Tabagismo;\n(2) Etilismo;\n(3) Contato com casos de doença invasiva por S. pneumoniae (negação);\n(4) Exposição a ambientes de aglomeração (negação);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 aspectos dos 4 possíveis.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 aspectos dos 4 possíveis.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos aspectos, ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Solicita e Interpreta Sinais Vitais e Exame Físico Geral:\n(1) Solicita e interpreta a temperatura (febre);\n(2) Solicita e interpreta a frequência cardíaca (taquicardia);\n(3) Solicita e interpreta a frequência respiratória (taquipneia);\n(4) Solicita e interpreta a pressão arterial (normotenso, descarta hipotensão);\n(5) Solicita e interpreta a saturação de O₂;\n(6) Avalia o estado geral do paciente (prostrado, confuso);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 5 ou 6 aspectos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 3 ou 4 aspectos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta 2 ou menos aspectos, ou não solicita item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Realiza e Interpreta Exame Neurológico Específico e Sinais Meníngeos:\n(1) Avalia o nível de consciência (Escala de Coma de Glasgow - GCS);\n(2) Avalia a presença de rigidez de nuca;\n(3) Pesquisa o Sinal de Kernig;\n(4) Pesquisa o Sinal de Brudzinski;\n(5) Avalia os pares cranianos (e/ou pupilas, reflexos);\n(6) Busca por déficits neurológicos focais (hemiparesia - nega);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza e interpreta 5 ou 6 aspectos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza e interpreta 3 ou 4 aspectos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Realiza e interpreta 2 ou menos aspectos, ou não realiza item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita e Interpreta Exames Laboratoriais Sanguíneos Gerais e Hemocultura:\n(1) Solicita e interpreta Hemograma (leucocitose com desvio à esquerda);\n(2) Solicita e interpreta Proteína C Reativa (PCR) e/ou Velocidade de Hemossedimentação (VHS) (elevados);\n(3) Solicita e interpreta Eletrólitos (Sódio - hiponatremia);\n(4) Solicita Hemocultura;",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 4 itens com seus achados relevantes.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 2 ou 3 itens com seus achados relevantes.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta 1 item ou não solicita item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e Interpreta Líquido Cefalorraquidiano (LCR):\n(1) Solicita e interpreta o aspecto do LCR (turvo);\n(2) Solicita e interpreta a pressão de abertura (elevada);\n(3) Solicita e interpreta a citometria (pleocitose com predomínio neutrofílico);\n(4) Solicita e interpreta a bioquímica (hiperproteinorraquia e hipoglicorraquia);\n(5) Solicita e interpreta a coloração de Gram (diplococos Gram-positivos);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 5 aspectos.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 3 ou 4 aspectos.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta 2 ou menos aspectos, ou não solicita item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita e Interpreta Tomografia Computadorizada de Crânio:\n(1) Avalia a necessidade de realizar TC de crânio antes da punção lombar (devido à alteração do nível de consciência);\n(2) Interpreta os achados da TC (ausência de lesões com efeito de massa, realce leptomeníngeo);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza e interpreta 2 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza e interpreta 1 aspecto.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza ou interpreta adequadamente item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Formula o Diagnóstico Etiológico e Cita Diagnósticos Diferenciais:\n(1) Formula o diagnóstico de Meningite Bacteriana Aguda (ou Meningite Pneumocócica);\n(2) Cita pelo menos 3 diagnósticos diferenciais relevantes (ex: meningocócica, viral, fúngica, tuberculosa, encefalite, hemorragia subaracnóidea);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Formula o diagnóstico etiológico e cita 3 ou mais diferenciais.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Formula o diagnóstico etiológico e cita 1 ou 2 diferenciais.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não formula o diagnóstico etiológico ou não cita diferenciais relevantes.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Estabelece Conduta Terapêutica Medicamentosa Inicial, Orientações Finais, Prevenção e Notificação Compulsória:\n(1) Prescreve antibioticoterapia empírica (Ceftriaxona OU Cefotaxima E Vancomicina);\n(2) Prescreve Dexametasona (dose, via, timing – antes ou com a primeira dose de ATB);\n(3) Orienta sobre sinais de alarme para complicações (piora da consciência, convulsões);\n(4) Orienta sobre a importância da vacinação para pneumococo (prevenção);\n(5) Menciona a necessidade de notificação compulsória imediata do caso ao SINAN;\n(6) Orienta sobre a necessidade de seguimento ambulatorial e possível reabilitação;",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 5 ou 6 aspectos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 3 ou 4 aspectos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Realiza 2 ou menos aspectos, ou não realiza item algum.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A meningite pneumocócica é uma infecção grave do sistema nervoso central, causada pelo *Streptococcus pneumoniae*, sendo a principal causa de meningite bacteriana em adultos e crianças em muitos locais. A apresentação clínica é aguda, com febre alta, cefaleia intensa, rigidez de nuca e frequentemente alteração do estado mental, náuseas, vômitos e fotofobia. Fatores de risco incluem asplenia, imunodeficiências, etilismo, tabagismo e infecções respiratórias prévias. O diagnóstico é confirmado pela análise do LCR, que tipicamente apresenta aspecto turvo, pleocitose neutrofílica, hiperproteinorraquia, hipoglicorraquia e identificação de diplococos Gram-positivos. A TC de crânio é indicada antes da punção lombar em pacientes com sinais de hipertensão intracraniana ou déficits neurológicos. O tratamento empírico deve ser iniciado rapidamente com antibióticos de amplo espectro, como ceftriaxona (ou cefotaxima) e vancomicina, devido à resistência crescente do pneumococo. A dexametasona deve ser administrada antes ou junto com a primeira dose do antibiótico para reduzir complicações neurológicas. As complicações incluem sequelas neurológicas (surdez, déficits cognitivos), hidrocefalia, abscessos e óbito. A prevenção primária é a vacinação, com vacinas conjugadas (PCV10/PCV13) e polissacarídicas (PPSV23), especialmente em grupos de risco. É uma doença de notificação compulsória imediata.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde e Ambiente. Guia de Vigilância em Saúde. Volume 2. 6. ed. Brasília: Ministério da Saúde, 2023.",
+        "2. Tunkel AR, et al. Practice Guidelines for the Management of Bacterial Meningitis. Clin Infect Dis. 2017;64(7):e1-e22.",
+        "3. UpToDate: Pneumococcal meningitis: Epidemiology, microbiology, clinical manifestations, and diagnosis. (Última revisão: Fevereiro 2024).",
+        "4. World Health Organization (WHO). Meningitis: Burden and response. (Acessado em: Maio 2024)."
+      ]
+    }
+  }
+}

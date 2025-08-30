@@ -42,6 +42,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Vicente Borges, 35 anos, Enfermeiro e Casado"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com o rosto inchado, a urina escura e com pouca urina há uns 5 dias, doutor(a)."
       },
@@ -636,5 +640,23 @@
         "1. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney International, Vol. 100, Suppl 1, S1–S276, 2021. \n2. Brenner & Rector's The Kidney. 11th ed. Elsevier; 2020. \n3. Sociedade Brasileira de Nefrologia. Diretrizes para o diagnóstico e tratamento das glomerulonefrites. Disponível em: www.sbn.org.br."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "57cb21db-8f96-4110-8a3e-e027e1738a8e",
+  "created_at": "2025-08-28T10:59:04.153723",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Síndrome nefrítica",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

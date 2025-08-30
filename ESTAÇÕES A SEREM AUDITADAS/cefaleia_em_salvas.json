@@ -45,7 +45,7 @@
       },
       {
         "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
-        "informacao": "Nome: João da Silva\nIdade: 35 anos\nEstado civil: Casado\nProfissão: Pedreiro"
+        "informacao": "João da Silva, 35 anos, Pedreiro e Casado"
       },
       {
         "contextoOuPerguntaChave": "DOR DE CABEÇA",
@@ -468,5 +468,23 @@
         "3. UpToDate. Cluster headache: Treatment. Topic 3380 Version 30.0. Disponível em: https://www.uptodate.com"
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "4e14d77d-a996-4659-9d31-cf63e8042d14",
+  "created_at": "2025-08-28T14:02:57.715874",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Cefaleia em salvas",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

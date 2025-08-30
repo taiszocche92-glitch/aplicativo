@@ -34,6 +34,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Benedita Moraes, 48 anos, Profissional liberal e Solteira"
+      },
+      {
         "contextoOuPerguntaChave": "IDENTIFICAÇÃO",
         "informacao": "Nome: Ana Paula Silva\nIdade: 48 anos\nEstado Civil: Casada\nProfissão: Professora\nProcedência: Salvador, Bahia"
       },
@@ -571,5 +575,23 @@
         "2. American Diabetes Association (ADA). Standards of Medical Care in Diabetes—2024. Diabetes Care 2024;47(Suppl. 1):S1–S291. Disponível em: https://diabetesjournals.org/care/issue/47/Supplement_1"
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "3ad4e123-b4a8-4629-9f85-e1508a4acc01",
+  "created_at": "2025-08-28T09:45:58.003062",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Diabetes Mellitus (DM) tipo 1 e 2: Diagnóstico, metas de controle, tratamento",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

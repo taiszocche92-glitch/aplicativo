@@ -40,6 +40,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Cleide Henrique, 65 anos, Funcionária pública e Viúva"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com uma dor no joelho esquerdo, doutor(a)."
       },
@@ -566,5 +570,23 @@
         "3. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas. Disponível em: https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/p/protocolos-clinicos-e-diretrizes-terapeuticas. Acesso em: 15 mai. 2024."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "7bddd233-5e9b-4d3c-941d-4952819c2207",
+  "created_at": "2025-08-28T12:56:33.918923",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Artrose",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

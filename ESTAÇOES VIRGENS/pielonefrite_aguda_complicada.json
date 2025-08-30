@@ -1,0 +1,662 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2024_CM_PIELONEFRITE",
+  "tituloEstacao": "Pielonefrite Aguda Complicada",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Pielonefrite",
+    "ITU complicada",
+    "Diabetes Mellitus",
+    "Sepse urinária",
+    "Clínica Médica",
+    "Atenção terciária à saúde"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Ficha do paciente com informações básicas",
+        "Materiais para exame físico",
+        "Exames de laboratório disponíveis",
+        "Exames de imagem disponíveis",
+        "Prontuário"
+      ]
+    },
+    "descricaoCasoCompleta": "Você está de plantão na sala de emergência de um hospital terciário quando uma paciente de 35 anos é trazida pela família com queixa de dor lombar e febre alta.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese da paciente.",
+      "Solicitar o exame físico da paciente.",
+      "Solicitar exames complementares pertinentes ao caso clínico.",
+      "Interpretar os resultados dos exames complementares.",
+      "Verbalizar o diagnóstico e os diagnósticos diferenciais.",
+      "Propor a conduta terapêutica inicial e as orientações."
+    ],
+    "avisosImportantess": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com dor nas costas e febre alta."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR LOMBAR",
+        "informacao": "Início: Há 3 dias, súbito\nLocalização: Inicialmente flanco direito, agora também um pouco à esquerda\nIntensidade: 8/10, forte e incapacitante\nCaracterística: Contínua, tipo pontada e peso\nIrradiação: Não irradia\nDuração: Contínua\nProgressão: Piorando desde o início\nFrequência: Constante\nFator de piora: Movimento, palpação\nFator de melhora: Não melhora com repouso, dipirona oral ajudou pouco\nEpisódios prévios: Nunca tive dor assim"
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE",
+        "informacao": "Início: Junto com a dor, há 3 dias\nDuração: Contínua\nPadrão: Picos de temperatura >38.5°C, mais alta à noite\nIntensidade: >38.5°C\nSintomas associados: Calafrios intensos; Sudorese\nResposta a antitérmicos: Dipirona oral abaixou um pouco, mas subiu novamente\nHistórico de Viagens Recentes: Nega\nContato com doentes ou animais: Nega\nUso de medicamentos recentes: Nega\nEpisódios prévios: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "NÁUSEAS E VÔMITOS",
+        "informacao": "Início: Há 2 dias\nFrequência: 3 episódios nas últimas 24h\nRelação temporal: Após alimentação\nConteúdo: Alimentar recente\nFatores de alívio: Nega\nSintomas associados: Prostração; Mal-estar geral\nEpisódios prévios: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS URINÁRIOS",
+        "informacao": "Início: Há 5 dias (precedendo a dor lombar e febre)\nDisúria: Ardência ao urinar\nPolaciúria: Aumento da frequência urinária\nUrgência: Vontade súbita e incontrolável de urinar\nHematúria: Nega\nEpisódios prévios: Nega sintomas similares nos últimos 6 meses, apenas uma cistite tratada"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PATOLÓGICOS PESSOAIS",
+        "informacao": "Diabetes Mellitus tipo 2: Há 5 anos, controlado com metformina (500mg 2x/dia)\nInfecção do Trato Urinário (ITU): Uma cistite há 6 meses, tratada com fosfomicina\nCálculos renais: Nega\nHipertensão arterial: Nega\nAnomalias congênitas do trato urinário: Nega\nInstrumentação urológica recente: Nega\nImunossupressão: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Gestação: G2P2A0\nÚltima menstruação: Há 15 dias\nGravidez atual: Nega (realizou teste caseiro negativo)\nUso de contraceptivos: Nega\nHábitos intestinais: Regulares"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "ITUs: Mãe tem histórico de ITUs de repetição\nCálculos renais: Nega\nDoenças renais: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Ingestão hídrica: Adequada (média de 2L/dia)\nHigiene perineal: Adequada\nTabagismo: Nega\nEtilismo: Nega\nDrogas ilícitas: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "Doutor(a), o que eu tenho? É grave?\nVou precisar ficar internada? Por quanto tempo?\nQuanto tempo dura o tratamento com antibiótico?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "100 × 60 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "110 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "22 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "38,8 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "96% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_2",
+        "tituloImpresso": "Exame Físico Geral e Abdominal",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESTADO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Regular, prostrada, pálida, levemente desidratada"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO CARDIOVASCULAR",
+              "itens": [
+                {
+                  "chave": "Ausculta cardíaca",
+                  "valor": "Ritmo cardíaco regular, bulhas rítmicas, 2 tempos, sem sopros"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO RESPIRATÓRIO",
+              "itens": [
+                {
+                  "chave": "Ausculta pulmonar",
+                  "valor": "Murmúrio vesicular presente e simétrico, sem ruídos adventícios"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ABDOME",
+              "itens": [
+                {
+                  "chave": "Inspeção",
+                  "valor": "Plano, sem abaulamentos ou retrações"
+                },
+                {
+                  "chave": "Ausculta",
+                  "valor": "Ruidos hidroaéreos presentes, normais"
+                },
+                {
+                  "chave": "Palpação",
+                  "valor": "Dor à palpação profunda em flanco direito. Levemente doloroso à palpação em flanco esquerdo."
+                },
+                {
+                  "chave": "Punho-percussão",
+                  "valor": "Giordano positivo à direita, negativo à esquerda"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_3",
+        "tituloImpresso": "Exames Laboratoriais (Urgência)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "13.2 g/dL (VR: 12.0 - 16.0 g/dL)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "39% (VR: 36 - 48%)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "18.500/mm³ (VR: 4.000 - 11.000/mm³)"
+                },
+                {
+                  "chave": "Segmentados",
+                  "valor": "85% (VR: 40 - 75%)"
+                },
+                {
+                  "chave": "Bastões",
+                  "valor": "8% (VR: 0 - 5%)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (VR: 15 - 45 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.8 mg/dL (VR: 0.6 - 1.2 mg/dL)"
+                },
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "180 mg/dL (VR: 70 - 99 mg/dL)"
+                },
+                {
+                  "chave": "PCR",
+                  "valor": "120 mg/L (VR: <5 mg/L)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_URINA_4",
+        "tituloImpresso": "Sumário de Urina",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "URINÁLISE",
+              "itens": [
+                {
+                  "chave": "Aspecto",
+                  "valor": "Turvo"
+                },
+                {
+                  "chave": "Cor",
+                  "valor": "Amarelo escuro"
+                },
+                {
+                  "chave": "Densidade",
+                  "valor": "1.025 (VR: 1.005 - 1.030)"
+                },
+                {
+                  "chave": "pH",
+                  "valor": "6.0 (VR: 5.0 - 7.0)"
+                },
+                {
+                  "chave": "Proteínas",
+                  "valor": "Negativo"
+                },
+                {
+                  "chave": "Glicose",
+                  "valor": "Positivo (++)"
+                },
+                {
+                  "chave": "Cetonas",
+                  "valor": "Negativo"
+                },
+                {
+                  "chave": "Nitrito",
+                  "valor": "Positivo"
+                },
+                {
+                  "chave": "Esterase Leucocitária",
+                  "valor": "Positivo (+++)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SEDIMENTOSCOPÍA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": ">50 p/campo (VR: <5 p/campo)"
+                },
+                {
+                  "chave": "Hemácias",
+                  "valor": "5-10 p/campo (VR: <3 p/campo)"
+                },
+                {
+                  "chave": "Bactérias",
+                  "valor": "Numerosas (VR: Ausentes)"
+                },
+                {
+                  "chave": "Cilindros",
+                  "valor": "Leucocitários presentes (VR: Ausentes)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_USG_5",
+        "tituloImpresso": "Ultrassonografia Renal e Vias Urinárias",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM.",
+          "urlImagem": "https://i.ibb.co/L5Q82m2/ultrassom-pielonefrite.png",
+          "laudo": "Rins com dimensões e contornos normais. Espessamento focal do parênquima renal à direita, com diminuição da ecogenicidade em área correspondente, sugestivo de processo inflamatório/infeccioso. Ausência de hidronefrose ou cálculos obstrutivos em ambos os rins e vias urinárias. Bexiga de paredes finas, sem alterações."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_PIELONEFRITE_2024V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina, 35 anos, diabética tipo 2, apresenta quadro de pielonefrite aguda complicada, com sinais de infecção sistêmica (febre, taquicardia, leucocitose, PCR elevada) e sintomas urinários altos e baixos. Exames laboratoriais confirmam infecção urinária e descontrole glicêmico. Ultrassonografia renal sugere processo inflamatório focal, sem obstrução.",
+      "focoPrincipalDetalhado": [
+        "Anamnese direcionada para sintomas de pielonefrite e fatores complicadores.",
+        "Avaliação de sinais vitais e exame físico para identificação de gravidade.",
+        "Solicitação e interpretação de exames laboratoriais e de imagem para diagnóstico e exclusão de complicações.",
+        "Estabelecimento do diagnóstico de pielonefrite aguda complicada e diferenciais.",
+        "Definição da conduta terapêutica inicial e medidas de suporte adequadas."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, investigando as características da dor lombar:\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Característica;\n(5) Irradiação;\n(6) Duração;\n(7) Progressão;\n(8) Frequência;\n(9) Fator de piora;\n(10) Fator de melhora;\n(11) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 8 ou mais características da dor.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 5 a 7 características da dor.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 5 características ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, investigando as características da febre:\n(1) Início;\n(2) Duração;\n(3) Padrão;\n(4) Intensidade;\n(5) Sintomas associados (calafrios ou sudorese);\n(6) Resposta a antitérmicos;\n(7) Histórico de viagens recentes;\n(8) Contato com doentes ou animais;\n(9) Uso de medicamentos recentes;\n(10) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 7 ou mais características da febre.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 4 a 6 características da febre.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 4 características ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza anamnese, investigando náuseas e vômitos:\n(1) Início;\n(2) Frequência;\n(3) Relação temporal;\n(4) Conteúdo;\n(5) Fatores de alívio;\n(6) Sintomas associados (prostração ou mal-estar geral);\n(7) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 6 ou 7 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 5 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Realiza anamnese, investigando sintomas urinários:\n(1) Início;\n(2) Disúria;\n(3) Polaciúria;\n(4) Urgência;\n(5) Hematúria;\n(6) Episódios prévios (cistite prévia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 5 ou 6 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 4 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Realiza anamnese, investigando antecedentes patológicos pessoais:\n(1) Diabetes Mellitus;\n(2) ITUs prévias;\n(3) Cálculos renais;\n(4) Hipertensão arterial;\n(5) Anomalias congênitas do trato urinário;\n(6) Instrumentação urológica recente;\n(7) Imunossupressão.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 6 ou 7 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 5 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Realiza anamnese, investigando antecedentes fisiológicos e familiares:\n(1) Gestação atual;\n(2) Uso de contraceptivos;\n(3) Hábitos intestinais;\n(4) História familiar de ITUs;\n(5) História familiar de cálculos renais ou doenças renais.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 4 ou 5 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 2 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Realiza anamnese, investigando hábitos de vida:\n(1) Ingestão hídrica;\n(2) Hábitos de higiene perineal;\n(3) Tabagismo;\n(4) Etilismo;\n(5) Uso de drogas ilícitas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 4 ou 5 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 2 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e interpreta os Sinais Vitais (disponíveis no impresso 'Sinais Vitais'):\n(1) Temperatura elevada (>38°C);\n(2) Taquicardia (FC >100 bpm);\n(3) Pressão arterial normal ou limítrofe;\n(4) Saturação de O2 normal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 3 ou 4 achados.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 1 ou 2 achados.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita e interpreta o Exame Físico Geral e Abdominal (disponível no impresso 'Exame Físico Geral e Abdominal'):\n(1) Avalia o estado geral (prostração ou desidratação);\n(2) Avalia palpação abdominal (dor em flanco);\n(3) Realiza punho-percussão em loja renal (Giordano positivo).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente os 3 achados.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 1 ou 2 achados.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Solicita e interpreta os Exames Laboratoriais (disponíveis no impresso 'Exames Laboratoriais (Urgência)'):\n(1) Hemograma (leucocitose com desvio à esquerda);\n(2) Função renal (ureia e creatinina normais);\n(3) Glicemia (elevada);\n(4) PCR (elevada).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente os 4 achados.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 2 ou 3 achados.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Solicita e interpreta o Sumário de Urina (disponível no impresso 'Sumário de Urina'):\n(1) Piúria (>50 leucócitos/campo);\n(2) Bacteriúria (numerosas bactérias);\n(3) Nitrito positivo;\n(4) Esterase leucocitária positiva;\n(5) Cilindros leucocitários presentes.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 4 ou 5 achados.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 2 ou 3 achados.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Solicita e interpreta o exame de imagem (disponível no impresso 'Ultrassonografia Renal e Vias Urinárias'):\n(1) Indica ultrassonografia renal e de vias urinárias;\n(2) Interpreta a ausência de obstrução ou cálculos;\n(3) Interpreta achados sugestivos de pielonefrite (espessamento ou diminuição de ecogenicidade focal).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente os 3 achados.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 1 ou 2 achados.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Estabelece o diagnóstico:\n(1) Pielonefrite Aguda Complicada ou Pielonefrite Aguda em Diabética.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Estabelece o diagnóstico correto e completo.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Estabelece o diagnóstico correto, mas incompleto ou impreciso (ex: apenas Pielonefrite Aguda).",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes:\n(1) Urolitíase (com cólica renal);\n(2) Apendicite aguda (se dor à direita);\n(3) Abscesso renal ou perirrenal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 2 ou mais diagnósticos diferenciais corretos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita apenas 1 diagnóstico diferencial correto.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Propõe a conduta terapêutica inicial e medidas de suporte:\n(1) Internação hospitalar;\n(2) Hidratação venosa;\n(3) Analgesia (Dipirona EV ou Morfina EV);\n(4) Antiemético (Ondansetrona EV);\n(5) Coleta de urocultura e hemocultura antes do antibiótico.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe corretamente 4 ou 5 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe corretamente 2 ou 3 itens.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não propõe adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Inicia antibioticoterapia empírica endovenosa:\n(1) Ceftriaxona EV (1-2g/dia) ou Piperacilina-Tazobactam EV (4,5g 3x/dia) ou Cefepime EV (2g 2x/dia) ou Meropeném EV (1g 3x/dia);\n(2) Tempo de tratamento inicial (10-14 dias).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica corretamente o antibiótico e o tempo de tratamento.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica corretamente apenas o antibiótico ou apenas o tempo de tratamento.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não indica adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A pielonefrite é uma infecção renal grave, muitas vezes ascendente. O caso apresenta uma paciente com fatores de complicação (Diabetes Mellitus tipo 2), justificando a internação. Clinicamente, ela manifesta febre alta, dor lombar (Giordano positivo), náuseas, vômitos e sintomas urinários baixos, indicativos de infecção parenquimatosa. Laboratorialmente, leucocitose com desvio à esquerda, PCR elevada e sumário de urina com piúria, bacteriúria e cilindros leucocitários confirmam a infecção renal. A glicemia elevada indica descontrole do diabetes. A ultrassonografia exclui obstrução, mas revela alterações inflamatórias focais. O diagnóstico principal é pielonefrite aguda complicada. Diagnósticos diferenciais incluem urolitíase (embora sem obstrução na USG), abscesso renal/perirrenal e apendicite (se dor predominantemente à direita). O manejo inicial exige internação, hidratação venosa, analgesia, antieméticos e coleta de culturas. A antibioticoterapia empírica endovenosa deve cobrir gram-negativos comuns, como Ceftriaxona ou Piperacilina-Tazobactam, com duração de 10-14 dias e ajuste conforme antibiograma. Complicações a serem monitoradas incluem sepse, abscesso e falha terapêutica.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Infecção do Trato Urinário. 2021.",
+        "2. UpToDate. Pyelonephritis in adults. Última atualização: 2024.",
+        "3. Sociedade Brasileira de Nefrologia (SBN). Recomendações para o Diagnóstico e Tratamento da Pielonefrite. 2023."
+      ]
+    }
+  }
+}

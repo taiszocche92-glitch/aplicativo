@@ -39,6 +39,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Antônia Alves, 35 anos, Enfermeira e Solteira"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com uma dor de cabeça muito forte, doutor(a). É pulsátil e está me deixando enjoada. Começou hoje de manhã."
       },
@@ -456,5 +460,23 @@
         "4. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas. Cefaleia. Disponível em: [Buscar 'Ministério da Saúde PCDT Cefaleia']"
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "01f1dc0d-3f19-4c1c-86e9-4de0156c935a",
+  "created_at": "2025-08-28T13:46:03.378110",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Migrânea",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

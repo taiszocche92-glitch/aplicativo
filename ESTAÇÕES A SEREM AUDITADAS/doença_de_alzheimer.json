@@ -46,7 +46,7 @@
       },
       {
         "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
-        "informacao": "Nome: Maria da Silva\nIdade: 78 anos\nSexo: Feminino\nProfissão: Aposentada\nEstado Civil: Viúva"
+        "informacao": "Maria da Silva, 78 anos, Aposentada e Viúva"
       },
       {
         "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO ACOMPANHANTE",
@@ -556,5 +556,23 @@
         "3. UpToDate. Clinical features and diagnosis of Alzheimer disease. Disponível em: https://www.uptodate.com/contents/clinical-features-and-diagnosis-of-alzheimer-disease"
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "9f7ad590-8f89-4162-a32f-3d8a0b0862e7",
+  "created_at": "2025-08-28T14:27:19.180920",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Doença de Alzheimer",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

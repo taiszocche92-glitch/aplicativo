@@ -1,0 +1,636 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_SEPSE_01",
+  "tituloEstacao": "Sepse e Choque Séptico",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "sepse, choque séptico, infecção grave, UTI, disfunção orgânica, clínica médica, atenção terciária",
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Pronto-socorro",
+        "Laboratório de análises clínicas",
+        "Exames de imagem",
+        "Medicações e equipamentos para emergência",
+        "Unidade de terapia intensiva (UTI)"
+      ]
+    },
+    "descricaoCasoCompleta": "Você está de plantão na sala de emergência de um hospital terciário. Um paciente de 68 anos de idade é trazido pela família com queixa de febre, prostração intensa e confusão mental há aproximadamente 24 horas.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada ao paciente e familiar.",
+      "Verbalizar o exame físico geral e sistêmico.",
+      "Solicitar os exames complementares pertinentes ao caso.",
+      "Interpretar os resultados dos exames apresentados.",
+      "Formular as hipóteses diagnósticas e os diagnósticos diferenciais.",
+      "Definir o diagnóstico principal e sua classificação de gravidade.",
+      "Elaborar e verbalizar a conduta terapêutica inicial e as medidas de suporte.",
+      "Fornecer orientações ao paciente e familiar sobre o quadro e a necessidade de internação."
+    ],
+    "avisosImportantess": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "O familiar está acompanhando o paciente e poderá responder às perguntas."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Paciente (com dificuldade): 'Estou com muita febre, prostrado e meio confuso, doutor(a), desde ontem.'\nFamiliar: 'Ele está assim há umas 24 horas, muito molinho e falando coisas sem sentido.'"
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE",
+        "informacao": "Início: 'Começou há umas 24 horas.'\nIntensidade: 'Familiar: Chegou a 39.5°C, medi em casa.'\nPadrão: 'Contínua, com calafrios intensos.'\nSintomas associados: 'Sente calafrios e tremores no corpo todo quando a febre sobe.'"
+      },
+      {
+        "contextoOuPerguntaChave": "PROSTRAÇÃO/ASTENIA",
+        "informacao": "Início: 'Desde ontem, não consegue sair da cama.'\nEvolução: 'Está piorando, se sente muito fraco.'\nImpacto funcional: 'Familiar: Ele não consegue se levantar, nem comer direito.'"
+      },
+      {
+        "contextoOuPerguntaChave": "CONFUSÃO MENTAL",
+        "informacao": "Início: 'Familiar: Percebemos hoje de manhã. Ele está meio desorientado, falando coisas desconexas.'\nDescrição: 'Desorientado no tempo e espaço, não consegue se concentrar.'"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Tosse: 'Estou tossindo um pouco, com catarro esverdeado, há uns dois dias, mas achei que era só um resfriado.'\nDuração: 'Dois dias.'\nCaracterística: 'Produtiva, com catarro esverdeado.'\nDisúria: 'Nega dor ou ardência ao urinar.'\nPolaciúria/Urgência: 'Nega alterações na frequência ou urgência urinária.'\nDor Lombar: 'Nega dor na região lombar ou nos flancos.'\nDor Abdominal: 'Nega dor na barriga.'\nVômitos: 'Nega vômitos.'\nDiarreia: 'Nega diarreia.'"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: 'Tenho diabetes tipo 2 e pressão alta há muitos anos, e também doença renal crônica.'\nControle DM: 'Meu diabetes está um pouco descontrolado ultimamente.'\nMedicamentos em uso contínuo: 'Uso insulina para o diabetes e losartana para a pressão, mas às vezes esqueço de tomar.'\nInternações: 'Fui internado há 2 meses por uma infecção urinária grave.'\nCirurgias prévias: 'Nega cirurgias.'\nAlergias: 'Nega alergias a medicamentos ou alimentos.'\nVacinação: 'Familiar: Ele não lembra se tomou as vacinas da gripe e pneumonia este ano.'"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: 'Fumei por uns 30 anos, mas parei há 5 anos.'\nEtilismo: 'Bebo socialmente, umas duas vezes por semana.'\nDrogas ilícitas: 'Nega uso de drogas ilícitas.'\nAlimentação: 'A alimentação é irregular.'\nAtividade física: 'Sedentário, quase não faço exercícios.'"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: 'Familiar: Meu pai tinha diabetes e pressão alta.'\nMãe: 'Familiar: Minha mãe também tinha diabetes e pressão alta.'\nDoenças na família: 'Nega histórico de outras doenças genéticas ou imunológicas relevantes na família.'\nHistória de câncer na família: 'Nega histórico de câncer na família.'"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: 'Nega viagens recentes.'\nExposição a doenças infecciosas: 'Nega contato recente com pessoas doentes com infecções graves.'\nContato com animais: 'Nega contato recente com animais ou vetores.'\nÁgua consumida: 'Familiar: Água tratada e filtrada em casa.'"
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL",
+        "informacao": "Situação familiar: 'Vive com a família.'\nRede de apoio: 'Possui bom suporte familiar.'\nSituação socioeconômica: 'Aposentado, condições de vida estáveis.'\nNível educacional: 'Ensino fundamental completo.'\nEstresse psicossocial: 'Nega estresse psicossocial recente significativo.'"
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar informações adicionais ou exames físicos, liberar os impressos de Sinais Vitais e Exame Físico. Ao solicitar exames complementares, liberar o impresso de Exames Laboratoriais e o laudo da Tomografia Computadorizada de Abdome e Pelve. O paciente está sonolento e confuso, e o familiar responderá à maioria das perguntas da anamnese."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "Paciente (com voz fraca): 'O que está acontecendo comigo, doutor(a)?'\nFamiliar: 'Doutor(a), o que ele tem? É grave? Ele vai precisar ficar internado na UTI?'"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est01_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "80 × 50 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "110 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "28 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "39.2 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "90 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Estado Geral",
+                  "valor": "Regular estado geral, prostrado, sonolento, desorientado no tempo e espaço (Glasgow 12 - O3 V4 M5)."
+                },
+                {
+                  "chave": "Pele e Mucosas",
+                  "valor": "Pele fria e pegajosa, tempo de enchimento capilar > 3 segundos, livedo reticularis em joelhos."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Normocefálico, pescoço sem turgência jugular, linfonodos não palpáveis."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Bulhas rítmicas, taquicárdicas, normofonéticas, sem sopros. Pulsos finos e rápidos."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, creptantes esparsos em bases pulmonares. Taquipneico, sem tiragens."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação superficial e profunda, sem visceromegalias. RHA presentes e diminuídos."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edema, pulsos periféricos palpáveis, porém finos. Reflexos tendinosos profundos simétricos. Força muscular global diminuída (3/5)."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "18.000 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Neutrófilos Segmentados",
+                  "valor": "85 % (Ref: 40-70)"
+                },
+                {
+                  "chave": "Bastonetes",
+                  "valor": "10 % (Ref: 0-5)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "11.5 g/dL (Ref: 13.5-17.5 M)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "120.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Lactato",
+                  "valor": "4.5 mmol/L (Ref: < 2.0)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "90 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "2.1 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Bilirrubina Total",
+                  "valor": "2.5 mg/dL (Ref: < 1.2)"
+                },
+                {
+                  "chave": "PCR",
+                  "valor": "250 mg/L (Ref: < 5)"
+                },
+                {
+                  "chave": "Procalcitonina",
+                  "valor": "15 ng/mL (Ref: < 0.05)"
+                },
+                {
+                  "chave": "Glicemia",
+                  "valor": "280 mg/dL (Ref: 70-100)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "GASOMETRIA ARTERIAL",
+              "itens": [
+                {
+                  "chave": "pH",
+                  "valor": "7.28 (Ref: 7.35-7.45)"
+                },
+                {
+                  "chave": "pCO2",
+                  "valor": "30 mmHg (Ref: 35-45)"
+                },
+                {
+                  "chave": "pO2",
+                  "valor": "70 mmHg (Ref: 75-100)"
+                },
+                {
+                  "chave": "HCO3",
+                  "valor": "15 mEq/L (Ref: 22-26)"
+                },
+                {
+                  "chave": "Excesso de Base",
+                  "valor": "-8 mEq/L (Ref: -2 a +2)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "UROANÁLISE",
+              "itens": [
+                {
+                  "chave": "Leucocitúria",
+                  "valor": ">100.000/mL (Ref: <10.000)"
+                },
+                {
+                  "chave": "Nitrito",
+                  "valor": "Positivo"
+                },
+                {
+                  "chave": "Hemácias",
+                  "valor": "Presentes (+) (Ref: Ausentes)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_IMAGEM_TC_3",
+        "tituloImpresso": "Tomografia Computadorizada de Abdome e Pelve com Contraste",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Imagens axiais e coronais de tomografia computadorizada de abdome e pelve com contraste endovenoso, revelando alterações inflamatórias no rim direito.",
+          "urlImagem": "https://radiopaedia.org/cases/acute-pyelonephritis-1",
+          "laudo": "ACHADOS:\nRim direito com aumento difuso de volume, presença de áreas multifocais de hipodensidade cortical em cunha, que não realçam após a administração de contraste, e estriações na gordura perirrenal, compatíveis com pielonefrite aguda. Ausência de sinais de obstrução ou abscessos renais.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_IMAGEM_RX_4",
+        "tituloImpresso": "Radiografia de Tórax em PA e Perfil",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Radiografia de tórax, incidências póstero-anterior e perfil.",
+          "urlImagem": "https://radiopaedia.org/cases/pneumonia-19",
+          "laudo": "Presença de infiltrado parenquimatoso mal definido em base pulmonar direita, sem sinais de derrame pleural ou pneumotórax. Área cardíaca e grandes vasos dentro dos limites da normalidade."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST01_CM_SEPSE_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente idoso com histórico de comorbidades (DM, HAS, DRC, ITU prévia) apresenta quadro agudo de febre, prostração e confusão mental, associado a sinais de hipoperfusão (hipotensão, taquicardia, lactato elevado) e disfunção orgânica (renal, hepática, respiratória, neurológica). A urocultura prévia e os achados da TC de abdome e pelve sugerem pielonefrite como foco infecccioso, mas também há infiltrado em radiografia de tórax. O quadro é compatível com sepse grave evoluindo para choque séptico, exigindo reconhecimento e manejo emergencial.",
+      "focoPrincipalDetalhado": [
+        "Anamnese direcionada para identificar sinais de infecção e disfunção orgânica, além de fatores de risco.",
+        "Exame físico para avaliar estado hemodinâmico e neurológico e sinais de hipoperfusão.",
+        "Solicitação e interpretação de exames laboratoriais e de imagem essenciais para diagnóstico e identificação do foco.",
+        "Diagnóstico correto de sepse e choque séptico e a provável fonte de infecção.",
+        "Elaboração de um plano terapêutico inicial de acordo com as diretrizes da Campanha de Sobrevivência à Sepse.",
+        "Comunicação adequada da gravidade do quadro e necessidade de internação em UTI."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est01_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e comunicação inicial:\n(1) Apresenta-se ao paciente e familiar;\n(2) Cumprimenta o paciente e familiar de maneira adequada/cordial;\n(3) Pergunta o nome completo do paciente ou confirma a identidade.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza duas ações.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Realiza apenas uma ação ou não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, investigando o motivo de consulta:\n(1) Pergunta sobre a febre;\n(2) Pergunta sobre a prostração;\n(3) Pergunta sobre a confusão mental.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta os três itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta dois itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta um ou nenhum item.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, caracterizando a FEBRE:\n(1) Início;\n(2) Intensidade;\n(3) Padrão;\n(4) Sintomas associados (calafrios/tremores).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Caracteriza 3 ou 4 itens da febre.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Caracteriza 2 itens da febre.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Caracteriza 1 ou nenhum item da febre.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza anamnese, caracterizando PROSTRAÇÃO e CONFUSÃO MENTAL:\n(1) Início da prostração;\n(2) Evolução da prostração;\n(3) Início da confusão mental;\n(4) Descrição da confusão mental (tipo de desorientação).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Caracteriza 3 ou 4 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Caracteriza 2 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Caracteriza 1 ou nenhum item.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Investiga ativamente SINTOMAS ASSOCIADOS relevantes:\n(1) Tosse (caracterização);\n(2) Disúria/Polaciúria/Urgência urinária;\n(3) Dor lombar/flanco;\n(4) Dor abdominal;\n(5) Náuseas/Vômitos;\n(6) Diarreia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou 6 itens de sintomas associados.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 itens de sintomas associados.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos itens de sintomas associados ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Investiga ANTECEDENTES PESSOAIS PATOLÓGICOS relevantes:\n(1) Diabetes Mellitus (tipo e controle);\n(2) Hipertensão Arterial Sistêmica;\n(3) Doença Renal Crônica;\n(4) Internações prévias por infecção grave (ex: ITU prévia);\n(5) Uso de medicamentos contínuos (insulina, losartana).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 itens de antecedentes patológicos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 itens de antecedentes patológicos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 ou nenhum item de antecedentes patológicos.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Investiga HÁBITOS DE VIDA e ANTECEDENTES FAMILIARES/EPIDEMIOLÓGICOS:\n(1) Tabagismo (história);\n(2) Etilismo;\n(3) Sedentarismo/Atividade física;\n(4) Antecedentes familiares de DM/HAS;\n(5) Viagens recentes/contato com doentes (epidemiologia de infecções).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 itens.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 ou nenhum item.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Verbaliza a realização do EXAME FÍSICO e SINAIS VITAIS, identificando alterações:\n(1) Sinais vitais alterados (hipotensão, taquicardia, taquipneia, febre);\n(2) Estado geral (prostração, confusão, Glasgow);\n(3) Sinais de hipoperfusão (pele fria/pegajosa, TEC > 2s, livedo reticularis).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza os três itens corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza dois itens corretamente.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Verbaliza um ou nenhum item corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita EXAMES LABORATORIAIS essenciais:\n(1) Hemograma completo;\n(2) Lactato sérico;\n(3) Função renal (ureia, creatinina);\n(4) Função hepática (bilirrubinas);\n(5) Gasometria arterial;\n(6) PCR e Procalcitonina;\n(7) Culturas (hemoculturas e urocultura).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 6 ou 7 itens corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 4 ou 5 itens corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita 3 ou menos itens ou não solicita item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita EXAME DE IMAGEM para foco infeccioso:\n(1) Tomografia Computadorizada de Abdome e Pelve.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita o item corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não solicita o item ou solicita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Interpreta corretamente os achados dos EXAMES LABORATORIAIS:\n(1) Leucocitose com desvio à esquerda;\n(2) Lactato elevado;\n(3) Disfunção renal (ureia e creatinina elevadas);\n(4) Acidose metabólica (pH baixo, HCO3 baixo, pCO2 compensatório);\n(5) Bilirrubina elevada (disfunção hepática);\n(6) PCR e Procalcitonina elevadas;\n(7) Achados de infecção urinária (leucocitúria, nitrito positivo).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 6 ou 7 itens corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 4 ou 5 itens corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta 3 ou menos itens ou não interpreta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Interpreta corretamente os achados da TOMOGRAFIA COMPUTADORIZADA DE ABDOME e PELVE:\n(1) Sinais de pielonefrite aguda à direita (áreas de hipodensidade cortical, estriações perirrenais).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta o item corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não interpreta o item ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Formula o DIAGNÓSTICO PRINCIPAL completo e sua gravidade:\n(1) Sepse (ou disfunção orgânica relacionada à infecção);\n(2) Choque Séptico (ou hipotensão persistente com lactato > 2 mmol/L após fluidos);\n(3) Foco infeccioso provável (Pielonefrite Aguda ou Infecção do Trato Urinário).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Formula os três itens corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Formula dois itens corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Formula um ou nenhum item corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Cita DIAGNÓSTICOS DIFERENCIAIS relevantes para o quadro:\n(1) Choque cardiogênico;\n(2) Choque hipovolêmico;\n(3) Cetoacidose diabética;\n(4) Outras causas de coma ou confusão.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou 4 itens corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 2 itens corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Cita 1 ou nenhum item ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Elabora a CONDUTA TERAPÊUTICA INICIAL conforme o Pacote da 1ª Hora da SSC:\n(1) Iniciar ressuscitação volêmica com cristaloides (30 mL/kg IV);\n(2) Iniciar vasopressor (Norepinefrina) se hipotensão persistir (manter PAM ≥ 65 mmHg);\n(3) Administrar antibiótico de amplo espectro (ex: Ceftriaxona + Metronidazol ou Piperacilina/Tazobactam, ou Carbapenêmico para cobertura de ESBL) o mais rápido possível;\n(4) Coletar culturas (hemoculturas e urocultura) antes do antibiótico.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora 3 ou 4 itens corretamente (incluindo nome do ATB e via).",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora 2 itens corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Elabora 1 ou nenhum item ou elabora incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Elabora CONDUTA TERAPÊUTICA COMPLEMENTAR e suporte:\n(1) Controle da fonte de infecção (avaliação para drenagem, etc., se necessário);\n(2) Suporte respiratório (oxigenoterapia);\n(3) Controle glicêmico;\n(4) Encaminhamento para Unidade de Terapia Intensiva (UTI).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora 3 ou 4 itens corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora 2 itens corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Elabora 1 ou nenhum item ou elabora incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Fornece ORIENTAÇÕES ao paciente/familiar:\n(1) Sobre a gravidade do quadro (prognóstico);\n(2) Sobre a necessidade de internação em UTI;\n(3) Sobre o plano de tratamento e monitorização contínua.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta 3 itens corretamente.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta 2 itens corretamente.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Orienta 1 ou nenhum item ou orienta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A sepse é uma disfunção orgânica com risco de vida causada por uma resposta desregulada do hospedeiro a uma infecção. O choque séptico é um subconjunto da sepse com anormalidades circulatórias e metabólicas/celulares profundas, associado a maior risco de mortalidade. O caso apresenta um paciente idoso com comorbidades (DM, HAS, DRC), fatores de risco para sepse, que chega com febre, prostração e confusão mental. No exame físico, são notados sinais de hipoperfusão e choque (hipotensão, taquicardia, TEC prolongado, livedo). Os exames laboratoriais confirmam disfunção orgânica (lactato elevado, insuficiência renal aguda, disfunção hepática, acidose metabólica) e inflamação sistêmica (leucocitose, PCR/Procalcitonina elevadas). A urocultura prévia e a TC de abdome/pelve com sinais de pielonefrite aguda à direita indicam o foco infeccioso principal, embora a radiografia de tórax sugira um possível infiltrado pulmonar. O diagnóstico é de Sepse e Choque Séptico, provável foco urinário (pielonefrite). Os diagnósticos diferenciais incluem outros tipos de choque ou condições que mimetizam sepse. O manejo imediato envolve o 'Pacote da 1ª Hora' da Campanha de Sobrevivência à Sepse, que inclui coleta de culturas, administração de antibióticos de amplo espectro (com cobertura para patógenos gram-negativos e ESBL, considerando ITU e internação prévia), ressuscitação volêmica com cristaloides e uso de vasopressores (norepinefrina) para manter a PAM ≥ 65 mmHg. É fundamental o controle da fonte da infecção e o encaminhamento para UTI para monitorização e suporte avançado.",
+      "fontes": [
+        "1. Singer M, et al. The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). JAMA. 2016;315(8):801-10.",
+        "2. Rhodes A, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2016. Crit Care Med. 2017;45(3):486-552.",
+        "3. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas. (Acesso em 2024)."
+   ]
+    }
+  }
+}

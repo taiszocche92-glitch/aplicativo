@@ -45,7 +45,7 @@
     "informacoesVerbaisSimulado": [
       {
         "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
-        "informacao": "Nome: Maria da Silva\nIdade: 55 anos\nEstado Civil: Casada\nProfissão: Professora aposentada"
+        "informacao": "Maria da Silva, 55 anos, Professora aposentada e Casada"
       },
       {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
@@ -577,5 +577,23 @@
         "4. Eastell R, Brandi ML, Costa AG, et al. Diagnosis of asymptomatic primary hyperparathyroidism: proceedings of the Fourth International Workshop. J Clin Endocrinol Metab. 2014;99(10):3570-3579."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "3caedb5e-b441-40ea-9cf8-e684da08e39a",
+  "created_at": "2025-08-28T09:58:30.217372",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Hiperparatireoidismo",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

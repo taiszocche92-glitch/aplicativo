@@ -1,0 +1,531 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_HIPOPARATIREOIDISMO",
+  "tituloEstacao": "Hipoparatireoidismo Pós-Cirúrgico",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Hipoparatireoidismo",
+    "Hipocalcemia",
+    "Paratormônio",
+    "Distúrbio eletrolítico",
+    "Clínica Médica",
+    "Atenção secundária à saúde"
+  ],
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem",
+        "Medicações disponíveis"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 55 anos, sexo feminino, comparece à consulta referindo episódios de parestesias e espasmos musculares.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal da paciente.",
+      "Solicitar exame físico direcionado ao caso.",
+      "Solicitar e interpretar exames complementares pertinentes.",
+      "Verbalizar a(s) hipótese(s) diagnóstica(s) principal(is) e diferencial(is).",
+      "Elaborar a conduta terapêutica e as orientações."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou sentindo formigamento e cãibras, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "Parestesias",
+        "informacao": "Início: Começou há cerca de 3 meses, de forma mais leve, mas nas últimas semanas tem piorado bastante.\nLocalização: Sinto mais ao redor da boca, sabe? E também nas pontas dos dedos das mãos e pés.\nIntensidade: É um incômodo, nota 6 de 10, mas quando vem a cãibra, é bem mais forte, uns 8.\nCaracterística: É como se fosse um formigamento, umas agulhadinhas, mas às vezes fica dormente mesmo.\nIrradiação: Não se espalha muito além desses locais.\nDuração: O formigamento é quase contínuo, mas as cãibras vêm e vão, duram alguns minutos.\nProgressão: Tem piorado, sim. Antes era só umas fisgadas, agora é mais constante.\nFrequencia: O formigamento é diário, e as cãibras umas 3 a 4 vezes por semana.\nFator Desencadeante: Às vezes, quando fico mais nervosa ou faço algum esforço, parece que piora.\nFator de piora ou agravante: Estresse e ansiedade pioram. Nega infecção ou desidratação como fator.\nFator de melhora ou atenuante: Não melhora muito com nada, mas quando estou mais tranquila, parece mais suave.\nEpisódios prévios: Não, é a primeira vez que sinto algo assim.\nMedicação de alivio: Tomei um relaxante muscular que me deram, mas não resolveu."
+      },
+      {
+        "contextoOuPerguntaChave": "Espasmos Musculares/Cãibras",
+        "informacao": "Início: Começaram junto com o formigamento, há uns 3 meses.\nLocalização: Principalmente nas mãos e nos pés, às vezes até sinto o músculo do rosto repuxar.\nIntensidade: Bem fortes, me fazem parar o que estou fazendo. Nota 8 de 10.\nCaracterística: É uma dor muscular aguda, parece que o músculo endurece.\nIrradiação: Ficam restritos às mãos e pés.\nDuração: Duram alguns minutos, uns 2 a 5 minutos, mas depois o músculo fica dolorido.\nProgressão: A frequência aumentou nas últimas semanas.\nFrequencia: Umas 3 a 4 vezes por semana.\nFator Desencadeante: Às vezes, o estresse ou quando tento segurar algo com mais força.\nFator de piora ou agravante: Estresse. Nega infecção ou desidratação.\nFator de melhora ou atenuante: Alongar um pouco o músculo às vezes ajuda.\nEpisódios prévios: Não, só agora.\nMedicação de alivio: Nega uso de medicação específica para as cãibras."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Palpitações: Sim, sinto meu coração acelerar às vezes, mas não é sempre.\nDor torácica atípica: Nega.\nFraqueza/Astenia: Sim, me sinto bem cansada, sem energia, mesmo dormindo bem.\nPele seca: Minha pele está mais seca ultimamente, sim.\nUnhas quebradiças: Nega.\nQueda de cabelo: Nega.\nIrritabilidade: Estou mais impaciente, sim, com os nervos à flor da pele.\nAnsiedade: Sim, me sinto mais ansiosa com tudo isso.\nConvulsões: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Nega diabetes, hipertensão ou outras doenças crônicas.\nCirurgias prévias: Sim, fiz uma tireoidectomia total há 2 anos devido a um nódulo na tireoide.\nInternações: Nega outras internações.\nAlergias: Nega alergias.\nMedicamentos em uso contínuo: Estou tomando levotiroxina para a tireoide.\nVacinação: Vacinação em dia.\nTrauma: Nega traumas recentes ou antigos relevantes.\nTransfusões: Nega transfusões.\nDoenças Autoimunes: Nega doença de Addison, diabetes tipo 1 ou tireoidite autoimune (fora a cirurgia).\nDoenças Renais: Nega histórico de nefrolitíase ou nefrocalcinose.\nOutras: Nega doença celíaca ou alcoolismo."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Gestação e lactação: Tenho 2 filhos, já adultos. Nega gestação ou lactação atual.\nHistória de radioterapia cervical: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nunca fumei.\nEtilismo: Bebo socialmente, ocasionalmente.\nDrogas ilícitas: Nega.\nAlimentação: Dieta variada, mas não sou muito fã de laticínios, então a ingestão de cálcio pode ser baixa.\nAtividade física: Caminho 3 vezes por semana.\nSono: Tenho tido dificuldade para dormir ultimamente por causa do estresse.\nUso de medicações que afetam o metabolismo do cálcio: Nega uso de bifosfonatos, diuréticos tiazídicos/de alça, ranelato de estrôncio, cinacalcete, foscarnet."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Saudável, 80 anos.\nMãe: Hipertensa e diabética.\nDoenças na família: Nega história de hipoparatireoidismo ou síndromes genéticas como DiGeorge.\nHistoria de cancêr na família: Mãe teve câncer de mama, mas está curada.\nIrmãos ou tias: Não consta no script."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): Doutor(a), o que eu tenho? É algo sério com esses formigamentos e cãibras?\npergunta (2): Tem alguma relação com a cirurgia da tireoide que fiz?\npergunta (3): Como isso é tratado?\npergunta (4): É possível que eu melhore completamente?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "110x70 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "88 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 %"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Paciente consciente, orientada, levemente ansiosa, bom estado geral, hidratada, corada."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Cicatriz cirúrgica em região cervical anterior, bem consolidada. Sinal de Chvostek positivo."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular em 2 tempos, bulhas normofonéticas. Nega sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente e simétrico, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação, ruídos hidroaéreos presentes."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sinal de Trousseau positivo. Reflexos osteotendíneos exaltados."
+                },
+                {
+                  "chave": "Sinais de Inflamação",
+                  "valor": "Nega."
+                },
+                {
+                  "chave": "Edema",
+                  "valor": "Nega."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "13.0 g/dL (Ref: 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "300.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Cálcio Total",
+                  "valor": "6.8 mg/dL (Ref: 8.5-10.5)"
+                },
+                {
+                  "chave": "Cálcio Iônico",
+                  "valor": "3.2 mg/dL (Ref: 4.6-5.3)"
+                },
+                {
+                  "chave": "Fósforo Sérico",
+                  "valor": "5.1 mg/dL (Ref: 2.5-4.5)"
+                },
+                {
+                  "chave": "Paratormônio (PTHi)",
+                  "valor": "8 pg/mL (Ref: 15-65)"
+                },
+                {
+                  "chave": "Magnésio Sérico",
+                  "valor": "1.9 mg/dL (Ref: 1.6-2.4)"
+                },
+                {
+                  "chave": "Albumina",
+                  "valor": "4.0 g/dL (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.8 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "25-OH Vitamina D",
+                  "valor": "35 ng/mL (Ref: 30-100)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_ECG_3",
+        "tituloImpresso": "Eletrocardiograma (ECG)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado do Eletrocardiograma da paciente.",
+          "caminhoImagem": "(Buscar no Google Imagens: ECG com prolongamento do intervalo QT e hipocalcemia)",
+          "sugestaoBuscaImagem": "ECG com prolongamento do intervalo QT e hipocalcemia",
+          "laudo": "ACHADOS:\nRitmo sinusal, frequência cardíaca 88 bpm. Eixo elétrico normal. PR normal. QRS normal. Intervalo QT prolongado (QTc = 480 ms). Não há outras alterações.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_HIPOPARATIREOIDISMO_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente de 55 anos, feminina, com histórico de tireoidectomia total há 2 anos, apresenta queixas de parestesias periorais e em extremidades, espasmos musculares e cãibras, além de fraqueza e ansiedade. O exame físico revela Sinais de Chvostek e Trousseau positivos, e exames laboratoriais confirmam hipocalcemia, hiperfosfatemia e PTH inapropriadamente baixo, configurando hipoparatireoidismo pós-cirúrgico. O ECG mostra prolongamento do QT. A conduta envolve reposição de cálcio e vitamina D ativa, e orientações sobre a doença e suas complicações.",
+      "focoPrincipalDetalhado": [
+        "Realizar anamnese detalhada, focando em sintomas neuromusculares e histórico cirúrgico relevante.",
+        "Executar exame físico para identificar sinais de hipocalcemia (Chvostek, Trousseau, reflexos).",
+        "Solicitar e interpretar exames laboratoriais para confirmar hipocalcemia, hiperfosfatemia e PTH baixo, além de excluir outras causas.",
+        "Identificar e interpretar alterações no eletrocardiograma (prolongamento do QT).",
+        "Estabelecer o diagnóstico de hipoparatireoidismo pós-cirúrgico e seus diferenciais.",
+        "Elaborar plano terapêutico adequado para o manejo agudo e crônico da hipocalcemia e fornecer orientações abrangentes ao paciente."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização de Parestesias: Investiga de forma completa os seguintes aspectos:\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Característica;\n(5) Irradiação;\n(6) Duração;\n(7) Progressão;\n(8) Frequência;\n(9) Fator de piora ou agravante;\n(10) Fator de melhora ou atenuante;\n(11) Episódios prévios;\n(12) Medicação de alívio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 10 de 12 ou mais aspectos da parestesia.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 6 a 9 de 12 aspectos da parestesia.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Pergunta 5 de 12 ou menos aspectos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracterização de Espasmos Musculares/Cãibras: Investiga de forma completa os seguintes aspectos:\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Característica;\n(5) Irradiação;\n(6) Duração;\n(7) Progressão;\n(8) Frequência;\n(9) Fator de piora ou agravante;\n(10) Fator de melhora ou atenuante;\n(11) Episódios prévios;\n(12) Medicação de alívio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 10 de 12 ou mais aspectos dos espasmos/cãibras.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 6 a 9 de 12 aspectos dos espasmos/cãibras.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Pergunta 5 de 12 ou menos aspectos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Investigação de Sintomas Associados: Pergunta sobre a presença de:\n(1) Palpitações;\n(2) Fraqueza ou Astenia;\n(3) Alterações de pele e anexos (pele seca, unhas quebradiças, queda de cabelo);\n(4) Irritabilidade;\n(5) Ansiedade;\n(6) Convulsões.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 de 6 ou mais sintomas associados.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 4 de 6 sintomas associados.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 de 6 ou menos sintomas associados ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Antecedentes Pessoais Patológicos: Investiga:\n(1) Cirurgias prévias (especialmente de tireoide ou pescoço);\n(2) Doenças autoimunes (doença de Addison, diabetes tipo 1, tireoidite autoimune);\n(3) Doenças renais (nefrolitíase, nefrocalcinose);\n(4) Medicações em uso contínuo (incluindo levotiroxina);\n(5) Outras condições (doença celíaca, alcoolismo).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 de 5 ou mais aspectos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 a 3 de 5 aspectos.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 de 5 ou menos aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Hábitos de Vida e Fisiológicos: Investiga:\n(1) Uso de álcool;\n(2) Dieta (ingestão de cálcio e vitamina D);\n(3) Uso de medicações que afetam o metabolismo do cálcio (ex: bifosfonatos, diuréticos);\n(4) Histórico de gestação e lactação;\n(5) História de radioterapia cervical.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 de 5 ou mais aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 a 3 de 5 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 de 5 ou menos aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita e Interpreta Exame Físico: Solicita o exame físico e interpreta corretamente os achados relevantes:\n(1) Sinais Vitais (FC);\n(2) Sinal de Chvostek positivo;\n(3) Sinal de Trousseau positivo;\n(4) Hiperreflexia;\n(5) Avaliação de pele e anexos;\n(6) Ausculta cardíaca e pulmonar.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 5 de 6 ou mais achados relevantes.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 3 a 4 de 6 achados relevantes.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta corretamente 2 de 6 ou menos achados relevantes ou não solicita/interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita Exames Laboratoriais Essenciais: Solicita os seguintes exames:\n(1) Cálcio total;\n(2) Cálcio iônico;\n(3) Fósforo sérico;\n(4) Paratormônio (PTHi);\n(5) Magnésio sérico;\n(6) Albumina;\n(7) Creatinina;\n(8) 25-hidroxivitamina D.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 7 de 8 ou mais exames essenciais.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 4 a 6 de 8 exames essenciais.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita 3 de 8 ou menos exames essenciais ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpreta Corretamente os Exames Laboratoriais: Interpreta corretamente os seguintes achados:\n(1) Hipocalcemia (cálcio total corrigido ou iônico baixo);\n(2) Hiperfosfatemia;\n(3) Níveis de PTH indetectáveis ou inapropriadamente baixos;\n(4) Magnésio sérico normal (excluindo hipomagnesemia grave);\n(5) Função renal normal (creatinina);\n(6) Níveis de 25-OH Vitamina D normais (excluindo deficiência concomitante).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente 5 de 6 ou mais achados.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente 3 a 4 de 6 achados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta corretamente 2 de 6 ou menos achados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita e Interpreta Eletrocardiograma (ECG): Solicita o ECG e interpreta corretamente o achado de:\n(1) Prolongamento do intervalo QT.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente o prolongamento do intervalo QT.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Verbaliza o Diagnóstico Principal: Verbaliza o diagnóstico de:\n(1) Hipoparatireoidismo (com a etiologia de pós-cirúrgico).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico principal completo.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza apenas o diagnóstico de hipocalcemia ou hipoparatireoidismo sem a etiologia.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico principal ou verbaliza incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Cita Diagnósticos Diferenciais Relevantes: Cita ao menos 3 diagnósticos diferenciais relevantes para hipocalcemia:\n(1) Deficiência de Vitamina D;\n(2) Insuficiência Renal Crônica;\n(3) Pseudohipoparatireoidismo;\n(4) Hipomagnesemia grave.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 de 4 ou mais diagnósticos diferenciais corretos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 a 2 de 4 diagnósticos diferenciais corretos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Elabora a Conduta Terapêutica Inicial para Crise Hipocalcêmica: Indica conduta:\n(1) Gluconato de cálcio 10% IV (dose e forma de administração); (2) Correção de hipomagnesemia com sulfato de magnésio IV (se necessário).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica corretamente os dois itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica corretamente apenas um item.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não indica adequadamente nenhum item.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Elabora a Conduta Terapêutica Crônica e Orientações Finais: Indica a terapia de manutenção e orienta sobre a doença:\n(1) Suplementação oral de cálcio (dose e fracionamento);\n(2) Análogos da vitamina D ativa (calcitriol/alfacalcidol);\n(3) Menção à rhPTH (teriparatida/rhPTH 1-84) para casos refratários;\n(4) Monitoramento periódico (cálcio, fósforo, creatinina, cálcio urinário 24h);\n(5) Orientações sobre sintomas de hipo e hipercalcemia;\n(6) Dieta e interações medicamentosas;\n(7) Sinais de alarme para complicações agudas (tetania grave, laringoespasmo, convulsões).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica 6 de 7 ou mais aspectos da conduta crônica e orientações.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica 3 a 5 de 7 aspectos da conduta crônica e orientações.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Indica 2 de 7 ou menos aspectos ou não indica/orienta.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "O hipoparatireoidismo é uma síndrome caracterizada pela deficiência na produção ou ação do paratormônio (PTH), levando a hipocalcemia e hiperfosfatemia. A etiologia mais comum é iatrogênica, geralmente pós-cirúrgica de tireoide ou paratireoide, como no caso apresentado. Os sintomas neuromusculares, como parestesias (perioral e extremidades), espasmos musculares, cãibras e tetania, são a principal manifestação da hipocalcemia. A fadiga, ansiedade e irritabilidade também são comuns.\n\nNa anamnese, é crucial investigar o histórico de cirurgias de pescoço. O exame físico deve incluir a pesquisa dos Sinais de Chvostek (espasmo facial) e Trousseau (espasmo carpopedal), que são patognomônicos de hipocalcemia. Reflexos osteotendíneos exaltados e alterações tegumentares (pele seca, unhas quebradiças) também podem ser encontrados.\n\nOs exames complementares diagnósticos incluem cálcio sérico total corrigido e iônico baixos, fósforo sérico elevado e PTH sérico indetectável ou inapropriadamente baixo. É fundamental excluir outras causas de hipocalcemia, como deficiência de vitamina D, insuficiência renal ou hipomagnesemia grave. O ECG pode revelar prolongamento do intervalo QT, um sinal de alarme para arritmias cardíacas.\n\nO tratamento da crise hipocalcêmica envolve gluconato de cálcio IV. O manejo crônico baseia-se na suplementação oral de cálcio e análogos da vitamina D ativa (calcitriol, alfacalcidol), com o objetivo de manter o cálcio sérico no limite inferior da normalidade, evitando hipercalciúria. Em casos refratários, a terapia com rhPTH pode ser indicada. Complicações crônicas incluem nefrocalcinose, nefrolitíase, calcificações de gânglios da base e catarata. As orientações ao paciente são essenciais para adesão ao tratamento e reconhecimento de sinais de alarme.\n\n**Fontes:**\n1. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas. Hipoparatireoidismo. Disponível em: [Buscar na biblioteca virtual em saúde do Ministério da Saúde].\n2. UpToDate. Hypoparathyroidism: Clinical manifestations, diagnosis, and management. Disponível em: [Buscar em www.uptodate.com].\n3. Sociedade Brasileira de Endocrinologia e Metabologia (SBEM). Consenso Brasileiro sobre Hipoparatireoidismo. Disponível em: [Buscar no site da SBEM]."
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "7e426516-f460-49da-97ea-69c4e0977d87",
+  "created_at": "2025-08-28T10:02:25.690652",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "hipoparatireoidismo",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

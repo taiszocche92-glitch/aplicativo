@@ -36,6 +36,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "André Melo, 55 anos, Enfermeiro e Divorciado"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "O paciente está em coma."
       },
@@ -489,5 +493,23 @@
         "3. Posner, J. B., Saper, C. B., Schiff, N. D., & Plum, F. (2019). Plum and Posner's Diagnosis and Treatment of Stupor and Coma (5th ed.). Oxford University Press."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "ff369939-c929-492f-a35f-4e3428b5737e",
+  "created_at": "2025-08-28T14:55:06.791078",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Coma: Avaliação inicial",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

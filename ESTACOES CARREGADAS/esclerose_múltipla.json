@@ -1,0 +1,498 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_ESCLEROSE_MULTIPLA_01",
+  "tituloEstacao": "Esclerose Múltipla",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "esclerose multipla, neurologia, desmielinizante, autoimune, clínica médica, atenção terciária",
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Centro de imagem (Ressonância Magnética, Potenciais Evocados)",
+        "Medicações disponíveis para tratamento modificador e sintomático"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 35 anos, sexo feminino, comparece ao ambulatório de Clínica Médica com queixas neurológicas persistentes e recorrentes nos últimos meses, apresentando fadiga e alterações visuais.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese completa, focando na história da doença atual, antecedentes e hábitos de vida.",
+      "Solicitar os exames físicos necessários para a avaliação do caso.",
+      "Solicitar e Interpretar exames complementares pertinentes ao caso clínico.",
+      "Relacionar os resultados dos exames a(s) suspeita(s) diagnóstica(s), estabelecendo o diagnóstico principal e os diferenciais.",
+      "Elaborar a conduta terapêutica inicial e as orientações para o paciente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "Considere que todos os materiais e equipamentos necessários para os exames solicitados estão disponíveis."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou me sentindo muito cansada e minha visão está estranha há alguns meses, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "FADIGA",
+        "informacao": "Início: Há uns 6 meses, começou devagar e foi piorando.\nIntensidade: É um cansaço que não melhora com o descanso, me sinto exausta o tempo todo, nota 8 de 10.\nProgressão: Tem piorado, agora mal consigo fazer as tarefas de casa.\nFator de piora: Piora com o calor e com qualquer esforço físico.\nFator de melhora: Só um pouco com repouso, mas não some.\nEpisódios prévios: Nunca senti um cansaço assim antes."
+      },
+      {
+        "contextoOuPerguntaChave": "ALTERAÇÃO VISUAL",
+        "informacao": "Início: Há uns 4 meses, tive um episódio de visão turva e dor no olho direito que durou umas 3 semanas e melhorou sozinho.\nLocalização: Principalmente no olho direito, a visão ficava 'embaçada' no centro.\nIntensidade: A dor no olho era leve, mais um desconforto ao mover o olho.\nCaracterística: Perda da acuidade visual, como se estivesse olhando através de um vidro sujo.\nProgressão: Melhorou quase completamente, mas sinto que a visão do olho direito não é a mesma de antes.\nEpisódios prévios: Foi a primeira vez que tive isso, mas há 2 meses comecei a ver 'dobrado' (diplopia) às vezes, mas também vai e vem."
+      },
+      {
+        "contextoOuPerguntaChave": "PARESTESIA (FORMIGAMENTO/DORMÊNCIA)",
+        "informacao": "Início: Tive um episódio de formigamento no braço esquerdo há uns 8 meses que durou 1 mês e passou. Agora, sinto dormência nos dedos do pé direito há umas 3 semanas.\nLocalização: Primeiro no braço esquerdo, agora nos dedos do pé direito.\nCaracterística: Sensação de 'alfinetes e agulhas' ou 'estar dormente'.\nProgressão: O do braço melhorou, o do pé direito continua igual.\nFator de piora: Nega.\nFator de melhora: Nega.\nEpisódios prévios: Foram esses dois episódios."
+      },
+      {
+        "contextoOuPerguntaChave": "FRAQUEZA",
+        "informacao": "Início: Nega fraqueza importante que impeça movimentos.\nCaracterística: Sinto as pernas um pouco 'pesadas' às vezes, mas consigo andar normalmente.\nFator de piora: Piora um pouco ao final do dia.\nFator de melhora: Melhora com repouso.\nEpisódios prévios: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR",
+        "informacao": "Característica: Nega dor intensa. Apenas o desconforto no olho direito durante o surto visual e uma sensação de 'choque elétrico' na coluna ao fletir o pescoço (Sinal de Lhermitte), que é transitório e raro.\nFator de piora: O choque elétrico piora ao fletir o pescoço."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS CEREBELARES",
+        "informacao": "Início: Nega alterações de coordenação, tontura frequente ou dificuldade na fala.\nAtaxia: Nega.\nDisartria: Nega.\nNistagmo: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "DISFUNÇÕES VESICAL, INTESTINAL E SEXUAL",
+        "informacao": "Urgência urinária: Sinto mais vontade de ir ao banheiro e às vezes tenho que correr, mas não perco urina.\nFrequência urinária: Tenho ido mais vezes ao banheiro do que o normal.\nConstipação: Nega.\nDisfunção sexual: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "COGNITIVO E HUMOR",
+        "informacao": "Memória: Sinto que minha memória não está tão boa, às vezes esqueço onde coloquei as coisas.\nAtenção: Tenho dificuldade para me concentrar.\nDepressão/Ansiedade: Sinto-me mais triste e ansiosa ultimamente por causa de tudo isso."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Nega.\nCirurgias prévias: Apendicectomia aos 15 anos.\nInternações: Apenas para a cirurgia.\nAlergias: Nega alergias a medicamentos ou alimentos.\nMedicamentos em uso contínuo: Nega.\nVacinação: Completa, conforme calendário. Tomou vacina de Hepatite B e Febre Amarela. Nega vacinação recente.\nTrauma: Nega.\nTransfusões: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Parto: Nega.\nTempo de Gestação: Nega.\nIntercorrências neonatais: Nega.\nHábitos sexuais: Sexualmente ativa, com parceiro fixo, usa preservativo ocasionalmente. Nega histórico de IST.\nHábitos urinários: Conforme relatado na HDA (urgência e frequência).\nHábitos intestinais: Regulares, sem alterações.\nIngestão hídrica: Bebe cerca de 1.5 a 2 litros de água por dia.\nExposição ocupacional: Professora universitária, trabalha sentada, sem exposição a substâncias ou riscos.\nEstresse: Relata estar estressada e ansiosa pelos sintomas e pela falta de um diagnóstico."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Ex-fumante, parou há 5 anos (fumou por 10 anos, cerca de 10 cigarros/dia).\nEtilismo: Socialmente, 1 a 2 doses de bebida alcoólica por semana.\nDrogas ilícitas: Nega.\nAlimentação: Dieta variada, rica em frutas e vegetais. Nega restrições.\nAtividade física: Caminhada leve 3 vezes por semana, mas tem diminuído devido à fadiga.\nSono: Dificuldade para iniciar o sono devido à ansiedade, acorda algumas vezes à noite. Relata não se sentir restaurada após o sono.\nHábitos urinários: Conforme relatado na HDA (urgência e frequência).\nHábitos intestinais: Regulares.\nIngestão hídrica: Bebe cerca de 1.5 a 2 litros de água por dia.\nExposição ocupacional: Professora universitária, sem riscos específicos.\nEstresse: Relata alto nível de estresse devido à doença."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Hipertenso.\nMãe: Diabetes Mellitus tipo 2.\nDoenças na família: Uma tia paterna tem Lúpus Eritematoso Sistêmico. Nega história de Esclerose Múltipla na família.\nHistória de câncer na família: Avó materna com câncer de mama.\nIrmãos: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS",
+        "informacao": "Gestações: 1\nPartos: 1 (normal)\nAbortos: Nega\nCesáreas: Nega\nData da Última Menstruação (DUM): Há 15 dias.\nMenarca: 13 anos.\nCiclos menstruais: Regulares, duração de 5 dias, fluxo moderado.\nSexarca: 18 anos.\nTelarca: 12 anos.\nPubarca: 12 anos.\nAtividade sexual: Sexualmente ativa.\nParceiros: Um parceiro fixo.\nUso de contraceptivos: Não usa método hormonal, apenas preservativo ocasional.\nUso de preservativos: Ocasional.\nExames preventivos: Papanicolau realizado há 6 meses, resultado normal. Nega mamografia (idade não indicada).\nHistórico de IST: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega viagens para áreas endêmicas.\nExposição a doenças infecciosas: Nega.\nContato com doentes: Nega contato recente com pessoas doentes.\nExposição a animais: Nega.\nExposição a vetores: Nega.\nÁgua consumida: Tratada e filtrada.\nExposição a agentes ambientais: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL",
+        "informacao": "Situação familiar: Casada, com um filho de 5 anos.\nRede de apoio: Boa rede de apoio familiar.\nSituação socioeconômica: Classe média, renda estável.\nNível educacional: Pós-graduação.\nReligião: Católica, praticante.\nEstresse psicossocial: Refere estresse com os sintomas e impacto na qualidade de vida e no trabalho."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar exame físico neurológico, responda verbalizando os achados do impresso 'est[NºEstação]_impresso_EXAME_NEURO_6'.\nSe o candidato solicitar Ressonância Magnética, libere o impresso 'est[NºEstação]_impresso_RM_ENCEFALO_3' e 'est[NºEstação]_impresso_RM_MEDULA_4'.\nSe o candidato solicitar exames laboratoriais específicos (LCR, anti-AQP4, anti-MOG), libere o impresso 'est[NºEstação]_impresso_LABORATORIO_ESPECIFICO_7'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)?\npergunta (2): Isso é grave? Vai piorar?\npergunta (3): Quais são as opções de tratamento? Tem cura?\npergunta (4): Poderia ser outra coisa? Eu li sobre outras doenças parecidas.\npergunta (5): O que eu faço para que isso não aconteça novamente? Posso levar uma vida normal?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est[NºEstação]_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            "{\"tituloSecao\": \"SINAIS VITAIS\", \"itens\": [{\"chave\": \"Pressão Arterial\", \"valor\": \"120 × 80 mmHg\"}, {\"chave\": \"Frequência Cardíaca\", \"valor\": \"78 bpm\"}, {\"chave\": \"Frequência Respiratória\", \"valor\": \"16 irpm\"}, {\"chave\": \"Temperatura Axilar\", \"valor\": \"36.8 °C\"}, {\"chave\": \"Saturação de O₂\", \"valor\": \"98 % em ar ambiente\"}]}"
+          ]
+        }
+      },
+      {
+        "idImpresso": "est[NºEstação]_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais (Rotina)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            "{\"tituloSecao\": \"HEMOGRAMA\", \"itens\": [{\"chave\": \"Leucócitos\", \"valor\": \"7.500 /mm³ (Ref: 4.000-11.000)\"}, {\"chave\": \"Hemoglobina\", \"valor\": \"13.2 g/dL (Ref: 12.0-15.5 F)\"}, {\"chave\": \"Plaquetas\", \"valor\": \"280.000 /mm³ (Ref: 150.000-450.000)\"}, {\"chave\": \"Eritrossedimentação (VHS)\", \"valor\": \"15 mm/h (Ref: <20)\"}]}",
+            "{\"tituloSecao\": \"BIOQUÍMICA\", \"itens\": [{\"chave\": \"Ureia\", \"valor\": \"30 mg/dL (Ref: 15-45)\"}, {\"chave\": \"Creatinina\", \"valor\": \"0.8 mg/dL (Ref: 0.5-0.9)\"}, {\"chave\": \"Glicose jejum\", \"valor\": \"95 mg/dL (Ref: 70-99)\"}, {\"chave\": \"TGO\", \"valor\": \"25 U/L (Ref: <35)\"}, {\"chave\": \"TGP\", \"valor\": \"20 U/L (Ref: <35)\"}, {\"chave\": \"TSH\", \"valor\": \"2.1 µUI/mL (Ref: 0.4-4.0)\"}, {\"chave\": \"Vitamina B12\", \"valor\": \"450 pg/mL (Ref: 200-900)\"}, {\"chave\": \"Vitamina D (25-OH)\", \"valor\": \"28 ng/mL (Ref: 30-100)\"}]}",
+            "{\"tituloSecao\": \"SOROLOGIAS E AUTOANTICORPOS\", \"itens\": [{\"chave\": \"HIV 1/2\", \"valor\": \"Não Reagente\"}, {\"chave\": \"VDRL\", \"valor\": \"Não Reagente\"}, {\"chave\": \"Anti-HCV\", \"valor\": \"Não Reagente\"}, {\"chave\": \"HBsAg\", \"valor\": \"Não Reagente\"}, {\"chave\": \"FAN\", \"valor\": \"Não Reagente\"}, {\"chave\": \"Anti-DNA\", \"valor\": \"Negativo\"}]}"
+          ]
+        }
+      },
+      {
+        "idImpresso": "est[NºEstação]_impresso_RM_ENCEFALO_3",
+        "tituloImpresso": "Ressonância Magnética do Encéfalo com Contraste (Laudo)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Laudo de Ressonância Magnética do Encéfalo, mostrando lesões características de doença desmielinizante.",
+          "caminhoImagem": "NÃO DISPONÍVEL NO MODELO JSON",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: RM encefálica FLAIR lesões periventriculares justacorticais infratentoriais esclerose múltipla com captação de contraste)",
+          "laudo": "RESUMO DO LAUDO:\n- Múltiplas lesões hiperintensas em T2 e FLAIR, localizadas predominantemente na substância branca periventricular, justacortical e infratentorial.\n- Algumas lesões apresentam captação anelar de contraste, sugestivas de atividade inflamatória aguda.\n- Lesões ovóides perpendiculares ao corpo caloso ('dedos de Dawson').\n- Ausência de hidrocefalia ou sinais de hipertensão intracraniana."
+        }
+      },
+      {
+        "idImpresso": "est[NºEstação]_impresso_RM_MEDULA_4",
+        "tituloImpresso": "Ressonância Magnética da Medula Espinhal com Contraste (Laudo)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Laudo de Ressonância Magnética da Medula Espinhal, mostrando lesões inflamatórias.",
+          "caminhoImagem": "NÃO DISPONÍVEL NO MODELO JSON",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: RM medula espinhal lesão hiperintensa T2 esclerose múltipla cervical com captação de contraste)",
+          "laudo": "RESUMO DO LAUDO:\n- Lesão hiperintensa em T2, com extensão menor que 3 corpos vertebrais, localizada na medula cervical.\n- Discreta captação de contraste pela lesão medular.\n- Não há evidência de compressão medular ou outras alterações estruturais."
+        }
+      },
+      {
+        "idImpresso": "est[NºEstação]_impresso_EXAME_NEURO_6",
+        "tituloImpresso": "Exame Neurológico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            "{\"tituloSecao\": \"NERVOS CRANIANOS\", \"itens\": [{\"chave\": \"Acuidade Visual\", \"valor\": \"Reduzida no olho direito (20/40), normal no olho esquerdo (20/20).\"}, {\"chave\": \"Fundoscopia\", \"valor\": \"Palidez temporal do disco óptico direito. Normal à esquerda.\"}, {\"chave\": \"Motilidade Ocular Extrínseca\", \"valor\": \"Nistagmo horizontal bilateral de pequena amplitude. Paralisia do músculo reto lateral do olho direito. Nega oftalmoplegia internuclear.\"}, {\"chave\": \"Reflexos de Tronco\", \"valor\": \"Normais.\"}, {\"chave\": \"Deglutição e Fonação\", \"valor\": \"Normais.\"}]}",
+            "{\"tituloSecao\": \"SISTEMA MOTOR\", \"itens\": [{\"chave\": \"Força Muscular\", \"valor\": \"Grau 4+/5 em membros inferiores bilateralmente, grau 5/5 em membros superiores.\"}, {\"chave\": \"Tônus Muscular\", \"valor\": \"Discreta espasticidade em membros inferiores.\"}, {\"chave\": \"Reflexos Tendinosos Profundos\", \"valor\": \"Hiperreflexia patelar e aquileu bilateralmente, sem clonus.\"}, {\"chave\": \"Sinal de Babinski\", \"valor\": \"Presente em pé direito, ausente em pé esquerdo.\"}]}",
+            "{\"tituloSecao\": \"SISTEMA SENSITIVO\", \"itens\": [{\"chave\": \"Sensibilidade Tátil e Dolorosa\", \"valor\": \"Diminuída nos dedos do pé direito.\"}, {\"chave\": \"Sensibilidade Vibratória e Proprioceptiva\", \"valor\": \"Preservadas.\"}, {\"chave\": \"Sinal de Lhermitte\", \"valor\": \"Positivo (referido pelo paciente na anamnese).\"}]}",
+            "{\"tituloSecao\": \"COORDENAÇÃO E MARCHA\", \"itens\": [{\"chave\": \"Testes de Coordenação\", \"valor\": \"Dismetria discreta no teste calcanhar-joelho bilateralmente.\"}, {\"chave\": \"Marcha\", \"valor\": \"Discretamente atáxica, com base alargada.\"}, {\"chave\": \"Romberg\", \"valor\": \"Positivo (piora com olhos fechados).\"}]}",
+            "{\"tituloSecao\": \"FUNÇÕES SUPERIORES\", \"itens\": [{\"chave\": \"Estado Mental\", \"valor\": \"Orientada no tempo e espaço, consciente.\"}, {\"chave\": \"Memória e Atenção\", \"valor\": \"Queixas subjetivas de dificuldade de memória recente e atenção.\"}]}"
+          ]
+        }
+      },
+      {
+        "idImpresso": "est[NºEstação]_impresso_LABORATORIO_ESPECIFICO_7",
+        "tituloImpresso": "Exames Laboratoriais Específicos (LCR, Autoanticorpos)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            "{\"tituloSecao\": \"LÍQUIDO CEFALORRAQUIDIANO (LCR)\", \"itens\": [{\"chave\": \"Aspecto\", \"valor\": \"Claro, incolor\"}, {\"chave\": \"Células\", \"valor\": \"3/mm³ (Ref: <5)\"}, {\"chave\": \"Proteínas\", \"valor\": \"35 mg/dL (Ref: 15-45)\"}, {\"chave\": \"Glicose\", \"valor\": \"60 mg/dL (Ref: 50-80)\"}, {\"chave\": \"Bandas Oligoclonais de IgG (BOCs)\", \"valor\": \"Presentes no LCR, ausentes no soro\"}, {\"chave\": \"Índice de IgG\", \"valor\": \"0.8 (Ref: <0.7)\"}]}",
+            "{\"tituloSecao\": \"AUTOANTICORPOS ESPECÍFICOS\", \"itens\": [{\"chave\": \"Anti-AQP4 (IgG NMO)\", \"valor\": \"Negativo\"}, {\"chave\": \"Anti-MOG (IgG)\", \"valor\": \"Negativo\"}]}"
+          ]
+        }
+      },
+      {
+        "idImpresso": "est[NºEstação]_impresso_POTENCIAIS_EVOCADOS_8",
+        "tituloImpresso": "Laudo de Potenciais Evocados Visuais (PEV)",
+        "tipoConteudo": "texto_livre",
+        "conteudo": {
+          "texto": "LAUDO DE POTENCIAIS EVOCADOS VISUAIS (PEV):\nRetardo significativo na latência das ondas P100 em ambos os olhos, mais proeminente no olho direito. Amplitude das ondas preservada. Achados compatíveis com desmielinização na via visual."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST01_CM_ESCLEROSE_MULTIPLA_2025V1_01",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina, 35 anos, com quadro clínico de fadiga, episódios recorrentes de alterações visuais (neurite óptica, diplopia), parestesias e sintomas urinários, compatível com Esclerose Múltipla. Exame neurológico revela nistagmo, paresia, espasticidade, Babinski positivo, dismetria e Romberg positivo. Exames complementares (RM de encéfalo e medula, LCR com bandas oligoclonais e PEV alterado) confirmam disseminação no espaço e no tempo e exclusão de diferenciais.",
+      "focoPrincipalDetalhado": [
+        "Realizar anamnese detalhada para identificar sintomas neurológicos multifocais e recorrentes.",
+        "Executar exame físico neurológico completo para evidenciar sinais piramidais, cerebelares e sensitivos.",
+        "Solicitar e interpretar corretamente exames complementares cruciais (RM, LCR, Potenciais Evocados).",
+        "Formular o diagnóstico de Esclerose Múltipla Remitente-Recorrente com base nos Critérios de McDonald e diferenciar de outras doenças desmielinizantes.",
+        "Propor plano terapêutico que inclua tratamento de surto, modificador da doença e sintomático, além de orientações ao paciente."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est01_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se e (2) cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, investigando as características da fadiga:\n(1) início;\n(2) intensidade;\n(3) progressão;\n(4) fator de piora (calor);\n(5) fator de melhora;\n(6) episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou 6 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, investigando as características da alteração visual:\n(1) início;\n(2) localização;\n(3) tipo/característica;\n(4) progressão;\n(5) episódios prévios (incluindo diplopia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza anamnese, investigando as características das parestesias:\n(1) início;\n(2) localização;\n(3) característica;\n(4) progressão;\n(5) episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Realiza anamnese, investigando outros sintomas neurológicos relevantes:\n(1) fraqueza muscular;\n(2) espasticidade;\n(3) ataxia/disartria/nistagmo (sintomas cerebelares);\n(4) disfunção vesical (urgência/frequência);\n(5) dor neuropática (incluindo Sinal de Lhermitte);\n(6) sintomas cognitivos (memória, atenção);\n(7) sintomas de humor (depressão, ansiedade).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou 7 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Investiga antecedentes pessoais e hábitos de vida:\n(1) doenças crônicas;\n(2) cirurgias prévias;\n(3) alergias;\n(4) medicamentos em uso;\n(5) vacinação;\n(6) tabagismo (quantificado);\n(7) etilismo;\n(8) alimentação;\n(9) atividade física;\n(10) sono (qualidade);\n(11) estresse/contexto psicossocial;\n(12) história familiar de doenças autoimunes.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 10 ou mais itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 6 a 9 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 5 ou menos itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Verbaliza a necessidade de realização de exame físico neurológico completo e interpreta seus achados:\n(1) avalia nervos cranianos (acuidade visual, fundoscopia, motilidade ocular);\n(2) avalia sistema motor (força, tônus, reflexos, Babinski);\n(3) avalia sistema sensitivo (tátil, dolorosa, proprioceptiva, vibratória, Lhermitte);\n(4) avalia coordenação e marcha (testes cerebelares, Romberg).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a necessidade e interpreta corretamente 4 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza a necessidade e interpreta corretamente 2 ou 3 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a necessidade ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita e interpreta exames laboratoriais de rotina e específicos:\n(1) hemograma;\n(2) função renal/hepática/glicemia;\n(3) TSH e Vitamina B12;\n(4) sorologias para diagnóstico diferencial (HIV, sífilis);\n(5) autoanticorpos (FAN, anti-DNA) para descartar lúpus;\n(6) interpreta LCR (bandas oligoclonais, índice de IgG, pleocitose discreta);\n(7) anti-AQP4 e anti-MOG para diagnóstico diferencial.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 6 ou 7 itens corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 3 a 5 itens corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta 2 ou menos itens ou não solicita/interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e interpreta adequadamente Ressonância Magnética (RM) do encéfalo e medula espinhal com contraste:\n(1) solicita RM de encéfalo com contraste;\n(2) interpreta RM de encéfalo (múltiplas lesões em T2/FLAIR, periventriculares, justacorticais, infratentoriais, captação de contraste, dedos de Dawson);\n(3) solicita RM de medula espinhal com contraste;\n(4) interpreta RM de medula espinhal (lesões hiperintensas em T2, captação de contraste, comprimento).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 4 itens corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 2 ou 3 itens corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta 1 ou menos itens ou não solicita/interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita e interpreta Potenciais Evocados Visuais (PEV):\n(1) solicita PEV;\n(2) interpreta PEV (retardo de latência de P100, indicando desmielinização).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 2 itens corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 1 item corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Verbaliza o diagnóstico principal e os diagnósticos diferenciais relevantes:\n(1) Esclerose Múltipla Remitente-Recorrente (EMRR);\n(2) Neuromielite Óptica (NMO) ou MOGAD;\n(3) Lúpus Eritematoso Sistêmico com acometimento do SNC;\n(4) Mielopatia associada ao HTLV-1;\n(5) Deficiência de Vitamina B12.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico principal e 3 ou 4 diagnósticos diferenciais.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico principal e 1 ou 2 diagnósticos diferenciais.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico principal ou cita diagnósticos incorretos.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Elabora a conduta terapêutica inicial e orientações:\n(1) tratamento do surto agudo (Metilprednisolona IV ou plasmaférese, se refratário);\n(2) indicação de tratamento modificador da doença (DMT) - cita exemplos de 1ª ou 2ª linha;\n(3) tratamento sintomático (fadiga, espasticidade, dor, disfunção vesical);\n(4) encaminhamento a neurologista;\n(5) orientações sobre adesão ao tratamento, estilo de vida (vitamina D, cessar tabagismo);\n(6) sinais de alarme para retorno.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora 5 ou 6 itens da conduta corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora 3 ou 4 itens da conduta corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Elabora 2 ou menos itens ou não elabora adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Responde às perguntas/dúvidas do paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde às perguntas/dúvidas de forma clara e empática.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Responde parcialmente ou de forma confusa.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não responde às perguntas/dúvidas.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Demonstra empatia e profissionalismo durante a consulta.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Mantém postura empática e profissional durante toda a consulta.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Demonstra empatia e profissionalismo em parte da consulta.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não demonstra empatia ou profissionalismo.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Esclerose Múltipla (EM) é uma doença autoimune, inflamatória e desmielinizante do Sistema Nervoso Central, que causa uma variedade de sintomas neurológicos devido a lesões no cérebro, medula espinhal e nervo óptico. A anamnese deve buscar o padrão de surtos e remissões ou progressão contínua, com sintomas multifocais no espaço e no tempo, como fraqueza, parestesias, fadiga debilitante, neurite óptica, diplopia, ataxia, disfunções vesicais e cognitivas. Fatores de risco incluem sexo feminino, idade jovem, deficiência de vitamina D, tabagismo e histórico familiar. O exame físico neurológico é fundamental para identificar sinais piramidais (espasticidade, hiperreflexia, Babinski), cerebelares (ataxia, nistagmo), sensoriais e de nervos cranianos. Os Critérios de McDonald (revisados) são a base diagnóstica, exigindo disseminação no espaço e no tempo, documentadas por RM de encéfalo e medula com contraste. Lesões periventriculares, justacorticais, infratentoriais e medulares são típicas. O LCR pode mostrar bandas oligoclonais de IgG. Potenciais Evocados (especialmente visuais) podem detectar lesões subclínicas. O diagnóstico diferencial inclui Neuromielite Óptica (NMO) e MOGAD (excluídos por sorologias negativas para anti-AQP4 e anti-MOG), Lúpus Eritematoso Sistêmico, deficiência de vitamina B12, entre outros. O tratamento do surto agudo é feito com metilprednisolona IV. O tratamento modificador da doença (DMT) visa prevenir surtos e progressão da incapacidade, com opções de primeira linha (interferon beta, acetato de glatirâmer, teriflunomida, dimetilfumarato) e de alta eficácia (natalizumabe, fingolimode, ocrelizumabe, alemtuzumabe, cladribina) para casos mais agressivos. O tratamento sintomático é crucial para fadiga, espasticidade, dor e disfunção vesical. O acompanhamento multidisciplinar é essencial. A educação do paciente sobre a doença, adesão e sinais de alarme é fundamental. A EM não é de notificação compulsória.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Esclerose Múltipla. Portaria SAS/MS nº 1.344, de 16 de novembro de 2021. Disponível em: https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/doencas-nao-transmissiveis-dnt/pcdt-esclerose-multipla-2021.pdf",
+        "2. UpToDate. Clinical manifestations of multiple sclerosis in adults. Disponível em: www.uptodate.com (Acessado em Julho de 2024).",
+        "3. UpToDate. Diagnosis of multiple sclerosis in adults. Disponível em: www.uptodate.com (Acessado em Julho de 2024).",
+        "4. UpToDate. Disease-modifying therapies for multiple sclerosis. Disponível em: www.uptodate.com (Acessado em Julho de 2024)."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "81f17c52-6e13-4e77-b92c-ffea753927d0",
+  "created_at": "2025-08-28T14:45:47.299937",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Esclerose Múltipla",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

@@ -43,6 +43,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Maria Rodrigues, 60 anos, Enfermeira e Casada"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com a pele e os olhos amarelados, além de sentir uma dor na barriga e ter perdido muito peso."
       },
@@ -634,5 +638,23 @@
         "4. UpToDate. Management of resectable and borderline resectable exocrine pancreatic cancer. Disponível em: https://www.uptodate.com/contents/management-of-resectable-and-borderline-resectable-exocrine-pancreatic-cancer. Acesso em 25/05/2024."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "ad272d8e-f91d-4e76-b180-c74ee856d1ed",
+  "created_at": "2025-08-28T11:38:50.216726",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Cancer de cabeça de pancreas",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

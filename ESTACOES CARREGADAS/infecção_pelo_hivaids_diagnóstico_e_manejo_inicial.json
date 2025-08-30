@@ -1,0 +1,740 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_01",
+  "tituloEstacao": "Infecção pelo HIV/AIDS: Diagnóstico e Manejo Inicial",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "HIV",
+    "AIDS",
+    "Infectologia",
+    "Clínica Médica",
+    "Infecções Oportunistas",
+    "TARV",
+    "Diagnóstico",
+    "Manejo Inicial",
+    "Ambulatorial",
+    "Terciário",
+    "Alto"
+  ],
+  "nivelDificuldade": "Alto",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios de infectologia",
+        "Laboratório de análises clínicas com testes específicos para HIV",
+        "Exames de imagem (Raio-X, TC)",
+        "Farmácia com antirretrovirais e medicamentos para infecções oportunistas",
+        "Equipe multidisciplinar (psicologia, nutrição, serviço social)"
+      ]
+    },
+    "descricaoCasoCompleta": "Você está de plantão em um ambulatório de infectologia de um hospital terciário. Um paciente do sexo masculino, 35 anos, procura atendimento com queixas de febre persistente, perda de peso e lesões na boca. Ele relata um histórico de relações sexuais desprotegidas e uso de drogas injetáveis.",
+    "tarefasPrincipais": [
+      {
+        "idTarefa": "tarefa_01",
+        "descricao": "Realizar anamnese completa, focando na História da Doença Atual, antecedentes e fatores de risco."
+      },
+      {
+        "idTarefa": "tarefa_02",
+        "descricao": "Solicitar e verbalizar os achados dos exames físicos necessários para a avaliação do caso."
+      },
+      {
+        "idTarefa": "tarefa_03",
+        "descricao": "Solicitar e interpretar os exames complementares pertinentes para o diagnóstico, estadiamento e investigação de comorbidades/complicações."
+      },
+      {
+        "idTarefa": "tarefa_04",
+        "descricao": "Verbalizar o diagnóstico principal e os diagnósticos diferenciais relevantes."
+      },
+      {
+        "idTarefa": "tarefa_05",
+        "descricao": "Elaborar a conduta terapêutica inicial e o plano de seguimento."
+      },
+      {
+        "idTarefa": "tarefa_06",
+        "descricao": "Mencionar a necessidade de notificação compulsória."
+      },
+      {
+        "idTarefa": "tarefa_07",
+        "descricao": "Oferecer orientações ao paciente e responder aos seus questionamentos de forma empática e clara."
+      }
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com febre, tenho emagrecido muito e apareceu umas coisas brancas na minha boca."
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE",
+        "informacao": "Início: Há cerca de 2 meses\nIntensidade: Atinge 38.5-39°C\nCaracterística: Contínua, com picos à noite\nDuração: Vários dias, cede um pouco com analgésicos\nProgressão: Piorando com o tempo\nFrequencia: Quase todos os dias\nFator de piora ou agravante: Não identifica\nFator de melhora ou atenuante: Dipirona alivia um pouco, mas não cede completamente\nEpisódios prévios: Não, nunca tive uma febre tão prolongada\nMedicação de alivio: Dipirona."
+      },
+      {
+        "contextoOuPerguntaChave": "PERDA DE PESO",
+        "informacao": "Início: Há cerca de 3 meses\nQuantificação: Perdi cerca de 8 kg\nIntencionalidade: Não foi intencional, não estou fazendo dieta\nRelação com apetite: Meu apetite diminuiu bastante\nTempo de evolução: Notei a mudança há uns 3 meses\nSintomas associados: Muito cansaço\nEpisódios prévios: Não, é a primeira vez que emagreço assim."
+      },
+      {
+        "contextoOuPerguntaChave": "LESÕES NA BOCA",
+        "informacao": "Início: Há 1 mês\nLocalização: Na língua e no céu da boca\nQuantidade: Várias placas\nCor: Placas brancas\nTextura: Cremosas\nRemovibilidade: Removíveis\nEritema subjacente: Presente\nLeucoplasia pilosa: Ausente\nDor/Incomodo: Não dói, mas incomoda para comer\nProgressão: Aumentando em número e tamanho\nFrequencia: Presente o tempo todo\nFator de piora ou agravante: Não identifica\nFator de melhora ou atenuante: Não melhora com nada\nEpisódios prévios: Nunca tive isso antes\nMedicação de alivio: Nenhuma."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ASSOCIADOS",
+        "informacao": "Tosse: Negado\nDispneia: Negado\nDiarreia: Negado\nSudorese noturna: Presente, intensa\nLinfoadenopatia: Não notou caroços, mas se sente inchado\nCefaleia: Negado\nLesões cutâneas: Negado\nFadiga: Sente-se muito cansado e sem energia."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS PATOLÓGICOS",
+        "informacao": "Doenças crônicas: Nega\nHepatites virais: Nega histórico prévio\nTuberculose: Nega histórico prévio\nISTs prévias: Sim, já teve gonorreia há 5 anos, tratada\nCirurgias: Nega\nAlergias: Nega\nMedicamentos em uso contínuo: Nega\nVacinação: Não sabe informar a situação vacinal."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Tipo do parto: Não se aplica (sexo masculino)\nTempo de Gestação: Não se aplica (sexo masculino)\nIntercorrências neonatais: Não se aplica (sexo masculino)\nHábitos sexuais: Atividade sexual com vários parceiros nos últimos 5 anos, nem sempre usa preservativo.\nHábitos urinários: Normais\nHábitos intestinais: Normais\nIngestão hídrica: Boa\nExposição ocupacional: Nega exposição a riscos no trabalho\nEstresse: Refere estresse ocasional devido a questões financeiras."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Hipertenso\nMãe: Diabética\nDoenças na família: Nega histórico familiar de HIV ou outras doenças infecciosas relevantes.\nHistória de câncer na família: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega\nEtilismo: Socialmente, fins de semana\nDrogas ilícitas: Sim, usou drogas injetáveis esporadicamente há 2 anos, mas parou.\nAlimentação: Irregular, diminuiu o apetite\nAtividade física: Sedentário\nSono: Dorme mal devido à sudorese noturna e febre.\nIngestão hídrica: Boa\nExposição ocupacional: Auxiliar de serviços gerais, nega exposição a riscos biológicos recentes.\nEstresse: Refere estresse ocasional devido a questões financeiras."
+      },
+      {
+        "contextoOuPerguntaChave": "PERGUNTAS DO ATOR SIMULADO",
+        "informacao": "pergunta (1): Doutor(a), o que eu tenho? É grave?\npergunta (2): Essa doença tem cura? Vou ter que tomar remédio para sempre?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "SINAIS VITAIS",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "110 × 70 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "98 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "38,7 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "97% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_2",
+        "tituloImpresso": "EXAME FÍSICO GERAL",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESTADO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Regular estado geral, emagrecido, consciente, orientado, hipocorado 2+/4+, desidratado 1+/4+."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "PELE E MUCOSAS",
+              "itens": [
+                {
+                  "chave": "Pele",
+                  "valor": "Sem lesões aparentes em tronco e membros. Ausência de icterícia ou cianose."
+                },
+                {
+                  "chave": "Linfonodomegalia",
+                  "valor": "Linfoadenopatia generalizada palpável em cadeias cervicais, axilares e inguinais (linfonodos de 1-2 cm, móveis, indolores, elásticos)."
+                },
+                {
+                  "chave": "Orofaringe",
+                  "valor": "Presença de múltiplas placas brancas, cremosas e removíveis na língua e palato, com eritema subjacente. Ausência de leucoplasia pilosa."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO CARDIOVASCULAR",
+              "itens": [
+                {
+                  "chave": "Ausculta cardíaca",
+                  "valor": "Ritmo cardíaco regular, bulhas rítmicas e normofonéticas, sem sopros."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO RESPIRATÓRIO",
+              "itens": [
+                {
+                  "chave": "Ausculta pulmonar",
+                  "valor": "Murmúrio vesicular presente, simétrico, sem ruídos adventícios."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ABDOME",
+              "itens": [
+                {
+                  "chave": "Inspeção",
+                  "valor": "Plano, sem abaulamentos ou cicatrizes."
+                },
+                {
+                  "chave": "Palpação",
+                  "valor": "Indolor, flácido. Ausência de visceromegalias."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SISTEMA NEUROLÓGICO",
+              "itens": [
+                {
+                  "chave": "Exame neurológico",
+                  "valor": "Sem déficits focais, força e sensibilidade preservadas. Nível de consciência adequado."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIAL_3",
+        "tituloImpresso": "EXAMES LABORATORIAIS INICIAIS",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA COMPLETO",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "10.5 g/dL (VR: 13-17 g/dL)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "32% (VR: 39-50%)"
+                },
+                {
+                  "chave": "VCM",
+                  "valor": "88 fL (VR: 80-100 fL)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "3.500/mm³ (VR: 4.000-11.000/mm³)"
+                },
+                {
+                  "chave": "Linfócitos",
+                  "valor": "18% (VR: 20-40%)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "180.000/mm³ (VR: 150.000-450.000/mm³)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Glicemia de Jejum",
+                  "valor": "95 mg/dL (VR: 70-99 mg/dL)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (VR: 10-50 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (VR: 0.7-1.3 mg/dL)"
+                },
+                {
+                  "chave": "AST (TGO)",
+                  "valor": "35 U/L (VR: 10-40 U/L)"
+                },
+                {
+                  "chave": "ALT (TGP)",
+                  "valor": "40 U/L (VR: 10-40 U/L)"
+                },
+                {
+                  "chave": "Bilirrubina Total",
+                  "valor": "0.8 mg/dL (VR: 0.3-1.2 mg/dL)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_SOROLOGIAS_4",
+        "tituloImpresso": "SOROLOGIAS E MARCADORES ESPECÍFICOS",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "TESTE DE HIV",
+              "itens": [
+                {
+                  "chave": "Teste Rápido HIV",
+                  "valor": "Reagente"
+                },
+                {
+                  "chave": "Anti-HIV 1/2 (ELISA 4ª geração)",
+                  "valor": "Reagente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MARCADORES DE HIV",
+              "itens": [
+                {
+                  "chave": "Contagem de Linfócitos T CD4+",
+                  "valor": "150 células/mm³ (VR: 500-1600 células/mm³)"
+                },
+                {
+                  "chave": "Carga Viral do HIV (RNA)",
+                  "valor": "150.000 cópias/mL (VR: Indetectável)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "OUTRAS SOROLOGIAS",
+              "itens": [
+                {
+                  "chave": "VDRL",
+                  "valor": "Não reagente"
+                },
+                {
+                  "chave": "HBsAg",
+                  "valor": "Não reagente"
+                },
+                {
+                  "chave": "Anti-HCV",
+                  "valor": "Não reagente"
+                },
+                {
+                  "chave": "Anti-Toxoplasma IgG",
+                  "valor": "Reagente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_RX_TORAX_5",
+        "tituloImpresso": "RADIOGRAFIA DE TÓRAX",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "[ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM].",
+          "urlImagem": "https://upload.wikimedia.org/wikipedia/commons/2/23/PCP_Pneumocystis_Jirovecii_Pneumonia_CXr.png",
+          "laudo": "Infiltrado intersticial bilateral difuso, predominante em regiões perihilares, com padrão retículo-nodular e aspecto em 'vidro fosco'. Sugestivo de pneumonia por Pneumocystis jirovecii (PCP)."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_MICOLOGICO_6",
+        "tituloImpresso": "EXAME MICOLÓGICO DE OROFARINGE",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "RESULTADO",
+              "itens": [
+                {
+                  "chave": "Cultura para fungos",
+                  "valor": "Crescimento de Candida albicans."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_HIVAIDS_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 35 anos, com queixas de febre persistente, perda de peso e candidíase oral, apresentando fatores de risco para HIV. Exames confirmam infecção por HIV/AIDS com imunossupressão grave (CD4 150 células/mm³, alta carga viral) e infecções oportunistas: Pneumonia por Pneumocystis jirovecii (PCP) e Candidíase oral. O caso requer diagnóstico, estadiamento e início urgente de TARV e tratamento das infecções oportunistas.",
+      "focoPrincipalDetalhado": [
+        "Anamnese direcionada para sintomas, antecedentes e fatores de risco para HIV e infecções oportunistas.",
+        "Solicitação e interpretação de exames físicos e complementares para diagnóstico, estadiamento do HIV e identificação de comorbidades/infecções.",
+        "Verbalização do diagnóstico principal (HIV/AIDS e infecções oportunistas) e diagnósticos diferenciais.",
+        "Elaboração de plano terapêutico inicial e seguimento, incluindo início da TARV e tratamento de infecções oportunistas.",
+        "Comunicação empática e orientações ao paciente, incluindo notificação compulsória."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, investigando as características da FEBRE:\n(1) Início;\n(2) Intensidade;\n(3) Característica;\n(4) Duração;\n(5) Progressão;\n(6) Frequencia;\n(7) Fator de melhora ou atenuante;\n(8) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 6 ou mais características da febre.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 5 características da febre.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 características ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, investigando as características da PERDA DE PESO:\n(1) Início;\n(2) Quantificação;\n(3) Intencionalidade;\n(4) Relação com apetite;\n(5) Sintomas associados.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 4 ou 5 características da perda de peso.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 2 ou 3 características da perda de peso.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 2 características ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza anamnese, investigando as características das LESÕES NA BOCA:\n(1) Início;\n(2) Localização;\n(3) Quantidade;\n(4) Cor;\n(5) Textura;\n(6) Removibilidade;\n(7) Eritema subjacente;\n(8) Dor/Incomodo;\n(9) Progressão;\n(10) Leucoplasia pilosa (ausência).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 8 a 10 características das lesões na boca.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 4 a 7 características das lesões na boca.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 4 características ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Realiza anamnese, investigando os seguintes SINTOMAS ASSOCIADOS:\n(1) Tosse;\n(2) Dispneia;\n(3) Diarreia;\n(4) Sudorese noturna;\n(5) Linfoadenopatia;\n(6) Cefaleia;\n(7) Lesões cutâneas;\n(8) Fadiga.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 6 a 8 sintomas associados.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 5 sintomas associados.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 sintomas associados ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Realiza anamnese, investigando ANTECEDENTES PESSOAIS PATOLÓGICOS relevantes:\n(1) Doenças crônicas;\n(2) Hepatites virais;\n(3) Tuberculose;\n(4) ISTs prévias;\n(5) Cirurgias;\n(6) Alergias.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 5 ou 6 antecedentes patológicos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 ou 4 antecedentes patológicos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 antecedentes patológicos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Realiza anamnese, investigando HÁBITOS DE VIDA e FATORES DE RISCO relevantes:\n(1) Tabagismo;\n(2) Etilismo;\n(3) Uso de drogas injetáveis;\n(4) Parceiros sexuais;\n(5) Uso de preservativo;\n(6) Transfusões sanguíneas (histórico);\n(7) Vacinação.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 5 a 7 itens de hábitos de vida e fatores de risco.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 ou 4 itens de hábitos de vida e fatores de risco.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita e interpreta os achados dos SINAIS VITAIS (imp_01) e do EXAME FÍSICO GERAL (imp_02):\n(1) Avalia PA, FC, FR, Temperatura, SatO2;\n(2) Avalia Estado geral (emagrecido, hipocorado, desidratado);\n(3) Avalia Pele e mucosas (ausência de icterícia/cianose);\n(4) Avalia Linfoadenopatia generalizada;\n(5) Avalia Orofaringe (placas brancas removíveis, eritema);\n(6) Avalia Aparelho cardiovascular (bulhas rítmicas, sem sopros);\n(7) Avalia Aparelho respiratório (MV presente, simétrico, sem adventícios);\n(8) Avalia Abdome (indolor, flácido, sem visceromegalias);\n(9) Avalia Sistema neurológico (sem déficits focais, consciência adequada).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 7 a 9 achados.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 4 a 6 achados.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente menos de 4 achados.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e interpreta os achados dos EXAMES LABORATORIAIS INICIAIS (imp_03):\n(1) Hemoglobina e Hematócrito (anemia);\n(2) Leucócitos (leucopenia);\n(3) Linfócitos (linfopenia relativa);\n(4) Função renal (ureia, creatinina) e hepática (AST, ALT, bilirrubina) normais;\n(5) Glicemia de jejum normal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 4 ou 5 achados.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 2 ou 3 achados.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente menos de 2 achados.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita e interpreta os achados das SOROLOGIAS e MARCADORES ESPECÍFICOS (imp_04):\n(1) Teste Rápido HIV e Anti-HIV 1/2 reagentes;\n(2) Contagem de Linfócitos T CD4+ (baixa, indicando imunossupressão grave);\n(3) Carga Viral do HIV (detectável e alta, indicando replicação viral ativa);\n(4) VDRL, HBsAg, Anti-HCV não reagentes;\n(5) Anti-Toxoplasma IgG reagente.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 4 ou 5 achados.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 2 ou 3 achados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente menos de 2 achados.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Solicita e interpreta os achados da RADIOGRAFIA DE TÓRAX (imp_05):\n(1) Infiltrado intersticial bilateral difuso;\n(2) Padrão retículo-nodular e aspecto em 'vidro fosco';\n(3) Sugestivo de pneumonia por *Pneumocystis jirovecii* (PCP).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente os 3 achados.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 1 ou 2 achados.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente nenhum achado.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Solicita e interpreta os achados do EXAME MICOLÓGICO DE OROFARINGE (imp_06):\n(1) Crescimento de *Candida albicans*.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente o achado.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente o achado.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Verbaliza o diagnóstico principal:\n(1) Infecção pelo HIV;\n(2) Síndrome da Imunodeficiência Adquirida (AIDS), estadiada como fase AIDS (CD4 < 200 células/mm³ e presença de doença definidora);\n(3) Pneumonia por *Pneumocystis jirovecii* (PCP);\n(4) Candidíase oral.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza corretamente os 4 diagnósticos, incluindo o estadiamento de AIDS.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 2 ou 3 diagnósticos corretamente, mas com omissões no estadiamento ou infecções oportunistas.",
+            "pontos": 0.6
+          },
+          "inadequado": {
+            "criterio": "Verbaliza menos de 2 diagnósticos ou diagnósticos incorretos.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes para o quadro:\n(1) Tuberculose pulmonar;\n(2) Outras infecções fúngicas ou bacterianas respiratórias;\n(3) Sarcoma de Kaposi;\n(4) Outras causas de perda de peso/doença consuptiva.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou 4 diagnósticos diferenciais relevantes.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais relevantes.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Propõe a conduta terapêutica para a Infecção pelo HIV e infecções oportunistas:\n(1) Início imediato da Terapia Antirretroviral (TARV), citando a classe e/ou nome de fármacos (ex: INI + 2 ITRN);\n(2) Tratamento específico para Pneumonia por *Pneumocystis jirovecii* (Sulfametoxazol-Trimetoprim);\n(3) Tratamento específico para Candidíase oral (Fluconazol);\n(4) Profilaxia para outras infecções oportunistas (ex: Toxoplasmose com SMX-TMP).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe as 4 condutas terapêuticas corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 2 ou 3 condutas terapêuticas corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Propõe menos de 2 condutas terapêuticas ou incorretas.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Oferece orientações e elabora plano de seguimento:\n(1) Importância da adesão à TARV;\n(2) Monitoramento regular (CD4, carga viral);\n(3) Prevenção de ISTs e novas infecções (preservativos);\n(4) Atualização do calendário vacinal;\n(5) Encaminhamento para infectologista e equipe multidisciplinar (psicólogo, nutricionista, assistente social).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre 4 ou 5 aspectos do seguimento.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta sobre 2 ou 3 aspectos do seguimento.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Orienta sobre menos de 2 aspectos ou de forma inadequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Responde às perguntas/dúvidas do paciente simulado de forma empática e clara, abordando cura e tempo de tratamento.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde a todas as perguntas/dúvidas de forma satisfatória.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não responde ou responde de forma inadequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item18",
+        "itemNumeroOficial": "18",
+        "descricaoItem": "Menciona a necessidade de notificação compulsória da Infecção pelo HIV ao SINAN.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Menciona que fará a notificação do caso ao SINAN.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não menciona a notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A estação avaliou a capacidade do candidato em manejar um caso de Infecção pelo HIV/AIDS recém-diagnosticada com infecções oportunistas. O paciente apresenta quadro de febre, perda de peso e candidíase oral, em um contexto de fatores de risco para HIV. A anamnese direcionada é crucial para identificar sintomas sugestivos de imunossupressão (febre prolongada, perda de peso, sudorese noturna, candidíase) e fatores de risco (práticas sexuais desprotegidas, UDI). O exame físico revela emaciação, linfoadenopatia e candidíase oral. Os exames complementares (teste rápido e ELISA reagentes, CD4 baixo, carga viral alta) confirmam o diagnóstico de HIV/AIDS. A Radiografia de Tórax é sugestiva de Pneumonia por Pneumocystis jirovecii (PCP), e o exame micológico confirma Candidíase oral. O diagnóstico principal é Infecção pelo HIV/AIDS, fase AIDS, com PCP e candidíase oral. O tratamento envolve início imediato da TARV, tratamento específico para PCP (Sulfametoxazol-Trimetoprim) e candidíase oral (Fluconazol), além de profilaxia para outras infecções oportunistas (como toxoplasmose). É essencial o acompanhamento multidisciplinar e a notificação compulsória do caso. Os fatores de proteção incluem PrEP, PEP e testagem regular. A conduta deve ser integral, com orientações sobre adesão, monitoramento, prevenção e vacinação, buscando melhorar a qualidade de vida e reduzir a transmissibilidade (U=U).",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde e Ambiente. Departamento de HIV/Aids, Tuberculose, Hepatites Virais e Infecções Sexualmente Transmissíveis. Protocolo Clínico e Diretrizes Terapêuticas para Manejo da Infecção pelo HIV em Adultos. Brasília, DF: Ministério da Saúde, 2022.",
+        "2. UpToDate, Inc. HIV infection: Initial evaluation and management in adults. Waltham, MA: UpToDate; [última atualização consultada: 2024]."
+      ]
+    }
+  }
+}

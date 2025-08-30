@@ -48,6 +48,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Mauro Mendes, 65 anos, Motorista e Casado"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com uma tosse que não passa e tenho perdido peso nos últimos meses, doutor(a)."
       },
@@ -563,5 +567,23 @@
         "4. NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®) – Non-Small Cell Lung Cancer (NSCLC) and Small Cell Lung Cancer (SCLC). Disponível em: https://www.nccn.org/guidelines/category_1. Acesso em: [Data Atual]."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "e751526d-b077-4162-8bbc-6ac92c3d7bb9",
+  "created_at": "2025-08-28T10:22:54.212916",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Câncer de Pulmão",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

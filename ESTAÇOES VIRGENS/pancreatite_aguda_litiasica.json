@@ -1,0 +1,550 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_PANCREATITE_AGUDA",
+  "tituloEstacao": "Pancreatite Aguda Litiasica",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Pancreatite Aguda",
+    "Litiasica",
+    "Colelitíase",
+    "Coledocolitíase",
+    "Dor abdominal",
+    "Clínica Médica",
+    "Atenção terciária"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Pronto-socorro",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (USG, TC, RM)",
+        "Medicações disponíveis",
+        "Unidade de terapia intensiva (UTI)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 45 anos, sexo feminino, chega ao pronto-socorro referindo dor intensa no andar superior do abdome com irradiação para o dorso, acompanhada de náuseas e vômitos.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal.",
+      "Solicitar e verbalizar os achados do exame físico.",
+      "Solicitar e Interpretar exames complementares pertinentes.",
+      "Estabelecer a(s) hipótese(s) diagnóstica(s) principal(is) e diferencial(is).",
+      "Verbalizar o diagnóstico, sua classificação de gravidade e elaborar a conduta terapêutica inicial.",
+      "Discutir o tratamento definitivo e as orientações para o seguimento."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com uma dor muito forte na barriga que vai para as costas, e não consigo parar de vomitar."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR ABDOMINAL",
+        "informacao": "Início: Começou de repente, umas 3 horas depois de um jantar bem gorduroso, ontem à noite.\nLocalização: Bem na boca do estômago (epigástrio), mas se espalha como uma faixa para as costas (dorso).\nIntensidade: É a pior dor que já senti na vida, um 10 de 10.\nCaracterística: É uma dor constante, tipo uma pressão ou aperto muito forte, que não passa.\nIrradiação: Irradia em faixa para o dorso.\nDuração: Já faz umas 12 horas que a dor não alivia.\nProgressão: Não melhora, parece que só piora.\nFrequencia: É contínua.\nFator Desencadeante: Acho que foi depois de comer uma feijoada bem completa.\nFator de piora ou agravante: Não consigo achar posição que melhore. Qualquer movimento ou respirar fundo parece piorar.\nFator de melhora ou atenuante: Nada alivia, nem deitado nem em pé.\nEpisódios prévios: Já tive umas cólicas na barriga, mais leves, do lado direito, mas nada igual a isso.\nMedicação de alivio: Tomei um Buscopan, mas não fez efeito nenhum."
+      },
+      {
+        "contextoOuPerguntaChave": "NÁUSEAS E VÔMITOS",
+        "informacao": "Início: Começaram junto com a dor.\nFrequência: Já vomitei umas 5 ou 6 vezes. É muita ânsia.\nRelação temporal: Depois de comer e mesmo em jejum.\nConteúdo: Só líquidos e bile, porque não consigo comer nada. Nega sangue.\nFator de alívio: Vomitar não alivia a dor, só me deixa mais exausta.\nSintomas associados: Muita boca seca, sede.\nEpisódios prévios: Nega episódios com essa frequência e intensidade."
+      },
+      {
+        "contextoOuPerguntaChave": "OUTROS SINTOMAS ASSOCIADOS",
+        "informacao": "Febre: Não medi, mas sinto o corpo quente e suado.\nIcterícia: Nega ter percebido nada amarelo nos olhos ou na pele.\nDistensão abdominal: Minha barriga está estufada.\nAnorexia: Nega apetite.\nDiarreia: Nega.\nConstipação: Relata intestinos parados.\nSíncope: Nega.\nDispneia: Relata um pouco de falta de ar, por causa da dor forte.\nTosse: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Nega.\nCirurgias prévias: Fiz uma cirurgia de vesícula (colecistectomia) há uns 5 anos para retirar pedras.\nInternações: Somente para a cirurgia da vesícula.\nAlergias: Nega alergias a medicamentos.\nMedicamentos em uso contínuo: Nenhum.\nVacinação: Completa, influenza e COVID em dia.\nTrauma: Nega.\nTransfusões: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega.\nEtilismo: Socialmente, uma taça de vinho no fim de semana.\nDrogas ilícitas: Nega.\nAlimentação: Gosto de comida mais gordurosa, mas estou tentando controlar.\nAtividade física: Caminho 3 vezes por semana.\nSono: Dormia bem antes, mas agora com a dor não consigo.\nIngestão hídrica: Costumo beber bastante água."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Hipertensão.\nMãe: Diabetes tipo 2 e também teve pedras na vesícula.\nDoenças (específicas com relação e relevante ao caso) na família: Minha mãe teve pedras na vesícula.\nHistória de câncer na família: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS",
+        "informacao": "Gestações: Duas gestações.\nPartos: Dois partos vaginais.\nAbortos: Nega.\nCesáreas: Nega.\nData da Última Menstruação (DUM): Há 15 dias.\nCiclos menstruais: Regulares.\nUso de contraceptivos: Nega.\nExames preventivos: Papanicolau em dia."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato perguntar sobre a cirurgia da vesícula, informar: 'Sim, fiz a cirurgia (colecistectomia) há 5 anos, por causa de cálculos biliares. Achei que isso tinha resolvido o problema.'. Se o candidato solicitar exames, diga 'Considero solicitado/realizado'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)? É a vesícula de novo?.\npergunta (2): É muito grave?.\npergunta (3): Vou precisar operar de novo?.\npergunta (4): O que eu faço para essa dor passar?."
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "100x60 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "110 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "22 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "38.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "95% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Consciente, orientada, prostrada, fácies de dor, desidratada (++/4+), sem icterícia visível."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "RCR em 2T, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "MV presente bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Distendido, dor intensa à palpação profunda em epigástrio e hipocôndrio direito. Ruídos hidroaéreos diminuídos. Sinais de irritação peritoneal negativos (Blumberg, Descompressão dolorosa). Sinal de Cullen e Grey-Turner negativos."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edemas, pulsos periféricos presentes e simétricos."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "18.000 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "13.0 g/dL (Ref: 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "300.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Amilase",
+                  "valor": "900 U/L (Ref: 30-110)"
+                },
+                {
+                  "chave": "Lipase",
+                  "valor": "1500 U/L (Ref: 0-160)"
+                },
+                {
+                  "chave": "TGO",
+                  "valor": "120 U/L (Ref: 5-40)"
+                },
+                {
+                  "chave": "TGP",
+                  "valor": "150 U/L (Ref: 5-40)"
+                },
+                {
+                  "chave": "Bilirrubina total",
+                  "valor": "2.5 mg/dL (Ref: 0.2-1.2)"
+                },
+                {
+                  "chave": "Bilirrubina direta",
+                  "valor": "1.8 mg/dL (Ref: 0.0-0.3)"
+                },
+                {
+                  "chave": "Fosfatase Alcalina",
+                  "valor": "200 U/L (Ref: 40-150)"
+                },
+                {
+                  "chave": "Gama-GT",
+                  "valor": "180 U/L (Ref: 5-50)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "60 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.5 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Glicose",
+                  "valor": "180 mg/dL (Ref: 70-99)"
+                },
+                {
+                  "chave": "Cálcio",
+                  "valor": "7.8 mg/dL (Ref: 8.5-10.2)"
+                },
+                {
+                  "chave": "Proteína C Reativa (PCR)",
+                  "valor": "80 mg/L (Ref: <5)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_USG_ABDOMINAL_3",
+        "tituloImpresso": "Ultrassonografia Abdominal Total",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM.",
+          "caminhoImagem": "(Buscar no Google Imagens: Ultrassonografia abdominal colelitíase e dilatação de vias biliares com pâncreas edemaciado)",
+          "sugestaoBuscaImagem": "Ultrassonografia abdominal colelitíase e dilatação de vias biliares com pâncreas edemaciado",
+          "laudo": "Vesícula biliar: Ausente (pós-colecistectomia). Vias biliares: Ducto biliar comum (colédoco) dilatado, medindo 10 mm, com imagem hiperecogênica no seu interior em porção distal, sugestiva de cálculo impactado. Pâncreas: Aumentado de volume (edemaciado) e com ecotextura heterogênea, compatível com processo inflamatório agudo (pancreatite). Líquido livre: Pequena quantidade de líquido peripancreático."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_PANCREATITE_AGUDA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina, 45 anos, com histórico de colecistectomia prévia, apresenta quadro de dor abdominal intensa em faixa com irradiação para o dorso, náuseas e vômitos persistentes. Exame físico revela dor à palpação abdominal intensa em epigástrio, taquicardia, febre e desidratação. Exames laboratoriais mostram amilase e lipase elevadas (acima de 3x LSN), leucocitose, alteração de função hepática (padrão colestático com elevação de bilirrubinas diretas, TGO, TGP, FA, GGT) e renal (ureia, creatinina elevadas), além de hipocalcemia e PCR elevada. A ultrassonografia abdominal revela ausência da vesícula biliar, dilatação de vias biliares com cálculo no colédoco e pâncreas edemaciado. O quadro é compatível com pancreatite aguda litiasica com coledocolitíase residual/recorrente.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa, focando na caracterização da dor abdominal e sintomas associados.",
+        "Exame físico direcionado para avaliação abdominal e sinais de gravidade.",
+        "Solicitação e interpretação de exames laboratoriais e de imagem essenciais (amilase, lipase, hemograma, função hepática/renal, USG).",
+        "Estabelecimento do diagnóstico de pancreatite aguda litiasica com coledocolitíase e diagnósticos diferenciais.",
+        "Classificação da gravidade e elaboração de conduta terapêutica inicial e definitiva, incluindo indicações de CPRE e manejo da causa biliar.",
+        "Comunicação e orientações ao paciente, incluindo sinais de alarme e seguimento."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e Postura:\n(1) Apresenta-se e cumprimenta o paciente simulado;\n(2) Mantém contato visual e postura empática;\n(3) Escuta a fala do paciente sem interrupção;\n(4) Pergunta o motivo da consulta.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 3 ou 4 ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 1 ou 2 ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Dor Abdominal:\n(1) Início;\n(2) Localização;\n(3) Intensidade (escala 0-10);\n(4) Característica/Qualidade;\n(5) Irradiação;\n(6) Duração/Progressão;\n(7) Fator desencadeante;\n(8) Fatores de piora/agravantes;\n(9) Fatores de melhora/atenuantes;\n(10) Uso de medicação de alívio e resultado;\n(11) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 8 ou mais itens.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 7 itens.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Investigação de Sintomas Associados:\n(1) Náuseas (início, frequência, relação, alívio);\n(2) Vômitos (início, frequência, conteúdo, alívio);\n(3) Febre;\n(4) Icterícia;\n(5) Distensão abdominal;\n(6) Anorexia;\n(7) Alterações intestinais (diarreia/constipação);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou mais aspectos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 aspectos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos aspectos ou não investiga aspecto algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Antecedentes Pessoais (Patológicos e Cirúrgicos) e Familiares:\n(1) Doenças crônicas;\n(2) Cirurgias prévias (especialmente colecistectomia e data);\n(3) Internações prévias;\n(4) Alergias medicamentosas;\n(5) Medicamentos em uso contínuo;\n(6) História familiar de colelitíase ou pancreatite.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou mais itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 item ou não investiga item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Hábitos de Vida:\n(1) Etilismo;\n(2) Tabagismo;\n(3) Dieta (consumo de gordura).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga os 3 itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 1 ou 2 itens.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não investiga item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Interpretação de Sinais Vitais e Exame Físico Geral (conforme impresso):\n(1) Pressão Arterial (hipotensão);\n(2) Frequência Cardíaca (taquicardia);\n(3) Frequência Respiratória (taquipneia);\n(4) Temperatura (febre);\n(5) Estado geral (prostração, desidratação);\n(6) Icterícia (ausência).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 4 ou mais achados.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 ou 3 achados.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Interpreta 1 ou menos achados ou não interpreta achado algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Interpretação do Exame Físico Abdominal (conforme impresso):\n(1) Distensão abdominal;\n(2) Dor à palpação (localização, intensidade);\n(3) Ruídos hidroaéreos diminuídos;\n(4) Sinais de irritação peritoneal (ausência);\n(5) Sinais de hemorragia retroperitoneal (ausência de Cullen/Grey-Turner).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 3 ou mais achados.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 ou 2 achados.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não interpreta achado algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita e Interpreta Exames Laboratoriais (conforme impresso):\n(1) Amilase e Lipase (elevadas);\n(2) Hemograma (leucocitose);\n(3) Função Hepática (bilirrubinas, TGO, TGP, FA, GGT elevados);\n(4) Função Renal (ureia, creatinina elevadas);\n(5) Eletrólitos (hipocalcemia);\n(6) Glicemia (hiperglicemia);\n(7) PCR (elevada).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 5 ou mais alterações laboratoriais.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 3 ou 4 alterações laboratoriais.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Interpreta 2 ou menos alterações ou não interpreta alteração alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e Interpreta Exame de Imagem (USG Abdominal - conforme impresso):\n(1) Ausência de vesícula biliar;\n(2) Dilatação do ducto biliar comum;\n(3) Presença de cálculo no colédoco distal;\n(4) Pâncreas edemaciado e heterogêneo;\n(5) Pequena quantidade de líquido peripancreático.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 4 ou mais achados.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 ou 3 achados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta 1 ou menos achados ou não interpreta achado algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Estabelecimento do Diagnóstico Principal e Classificação de Gravidade:\n(1) Verbaliza o diagnóstico de Pancreatite Aguda Litiasica com Coledocolitíase;\n(2) Menciona que a condição é pós-colecistectomia;\n(3) Cita pelo menos dois dos três critérios diagnósticos (dor, enzimas, imagem);\n(4) Classifica a gravidade (leve, moderadamente grave ou grave, utilizando critérios de Atlanta ou escores como Ranson/APACHE II/BISAP).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza os 4 itens.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 2 ou 3 itens.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Verbaliza 1 item ou não verbaliza item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Cita Diagnósticos Diferenciais Relevantes:\n(1) Úlcera péptica perfurada;\n(2) Colecistite aguda;\n(3) Colangite aguda;\n(4) Obstrução intestinal alta;\n(5) Infarto Agudo do Miocárdio (parede inferior).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou mais diagnósticos diferenciais corretos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais corretos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnóstico diferencial algum ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Elaboração da Conduta Terapêutica Inicial (Suporte):\n(1) Hidratação venosa agressiva com cristaloides;\n(2) Analgesia potente (opióides);\n(3) Jejum oral;\n(4) Antieméticos;\n(5) Monitorização de sinais vitais, débito urinário e eletrólitos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora 4 ou 5 itens corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora 2 ou 3 itens corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Elabora 1 item ou não elabora item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Indicação da Conduta Terapêutica Específica e Definitiva:\n(1) Indica CPRE com esfincterotomia e remoção de cálculo (com indicação correta: colangite aguda, icterícia obstrutiva progressiva, ou pancreatite biliar grave com obstrução persistente, preferencialmente nas primeiras 24-72h);\n(2) Discute a necessidade de investigação adicional da etiologia da coledocolitíase residual/recorrente;\n(3) Menciona que antibioticoterapia não é de rotina e é reservada para necrose infectada ou colangite aguda concomitante.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica os 3 itens corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica 1 ou 2 itens corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não indica item algum ou indica incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Orientações ao Paciente e Plano de Seguimento:\n(1) Orienta sobre a importância do tratamento específico (CPRE);\n(2) Orienta sobre dieta (evitar alimentos ricos em gordura e bebidas alcoólicas);\n(3) Orienta sobre reconhecimento de sinais de alarme para buscar atendimento médico;\n(4) Orienta sobre acompanhamento regular com gastroenterologista.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta 3 ou 4 itens corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta 1 ou 2 itens corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não orienta item algum ou orienta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A pancreatite aguda litiasica é a causa mais comum de pancreatite aguda. O quadro clínico clássico envolve dor abdominal súbita e intensa em epigástrio, com irradiação para o dorso em faixa, frequentemente após refeição gordurosa, acompanhada de náuseas e vômitos. O diagnóstico é estabelecido com a presença de dois dos três critérios: dor abdominal característica, elevação de amilase/lipase (>3x LSN) e achados de imagem compatíveis. A etiologia litiasica é confirmada pela presença de cálculos biliares ou coledocolitíase em exames de imagem, como a ultrassonografia abdominal, que neste caso revelou dilatação do colédoco com cálculo, mesmo após colecistectomia prévia, sugerindo coledocolitíase residual ou recorrente. Exames laboratoriais são cruciais para o diagnóstico e avaliação da gravidade, incluindo hemograma (leucocitose), função hepática (padrão colestático), função renal e eletrólitos (hipocalcemia é um sinal de gravidade). A tomografia computadorizada com contraste é padrão ouro para estadiamento e avaliação de complicações após 48-72h. O tratamento inicial é de suporte, com hidratação venosa agressiva, analgesia potente e jejum oral. Para a etiologia litiasica, a CPRE com esfincterotomia e remoção de cálculo é indicada em casos de colangite aguda, icterícia obstrutiva progressiva ou pancreatite biliar grave, preferencialmente nas primeiras 24-72h. A colecistectomia é o tratamento definitivo para prevenir recorrências em pacientes com vesícula, mas neste caso, o foco seria a coledocolitíase. Antibióticos não são de rotina, apenas para necrose infectada ou colangite. A classificação de gravidade é fundamental (critérios de Atlanta ou escores como Ranson, APACHE II, BISAP) para guiar o manejo e a necessidade de UTI. Os principais diagnósticos diferenciais incluem úlcera péptica perfurada, colecistite/colangite aguda, IAM inferior e obstrução intestinal.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas (PCDT). Disponível em: https://www.gov.br/saude/pt-br/assuntos/protocolos-clinicos-e-diretrizes-terapeuticas\n2. UpToDate. Overview of acute pancreatitis. Disponível em: https://www.uptodate.com/contents/overview-of-acute-pancreatitis (Acessado em: Maio de 2024).\n3. Banks PA, et al. Classification of acute pancreatitis--2012: revision of the Atlanta classification and definitions by international consensus. Gut. 2013 Jan;62(1):102-11.",
+        "4. Sociedade Brasileira de Gastroenterologia. Consenso Brasileiro de Pancreatite Aguda. Disponível em: https://www.fbg.org.br/Publicacoes/Documentos-Cientificos"
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "e241d7b2-d736-4771-af04-fd8d3e0d52f6",
+  "created_at": "2025-08-28T11:29:22.383896",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Pancreatite Aguda litiasica",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

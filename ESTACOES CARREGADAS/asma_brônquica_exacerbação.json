@@ -1,0 +1,538 @@
+{
+  "idEstacao": "REVALIDA_CM_ASMA_01",
+  "tituloEstacao": "Asma Brônquica (Exacerbação)",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Asma",
+    "Dispneia",
+    "Sibilos",
+    "Broncoespasmo",
+    "Corticosteroide inalatório",
+    "Beta-2 agonista",
+    "Clínica Médica",
+    "Atenção secundária",
+    "Exacerbação"
+  ],
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (Radiografia)",
+        "Medicações inalatórias e sistêmicas disponíveis"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 35 anos de idade procura a emergência referindo quadro de intensa dificuldade para respirar e chiado no peito que não melhora com as medicações habituais.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada ao quadro atual do paciente.",
+      "Realizar exame físico direcionado, verbalizando os achados.",
+      "Solicitar e interpretar exames complementares pertinentes ao caso.",
+      "Estabelecer a(s) hipótese(s) diagnóstica(s) e o diagnóstico diferencial.",
+      "Definir a conduta terapêutica inicial e as orientações para o paciente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com muita falta de ar e um chiado no peito que não passa."
+      },
+      {
+        "contextoOuPerguntaChave": "DISPNEIA, SIBILOS E APERTO NO PEITO (História da Doença Atual - HDA)",
+        "informacao": "Início: Há cerca de 3 horas, de repente, piorando progressivamente.\nLocalização: No peito, sinto um aperto generalizado.\nIntensidade: Nota 8 de 10 na escala de dor. Não consigo falar frases completas.\nCaracterística: Uma dificuldade para respirar intensa, como se o ar não entrasse e um chiado forte. O aperto no peito é como se estivessem me esmagando.\nIrradiação: Nega irradiação.\nDuração: Contínua desde o início, sem alívio prolongado.\nProgressão: Piorando rapidamente.\nFrequencia: É um episódio contínuo, mas sinto esse chiado há muitos anos, em crises.\nFator Desencadeante: Não consigo identificar um fator específico para esta crise aguda, mas às vezes piora com poeira ou cheiros fortes. Também ando muito estressado.\nFator de piora ou agravante: Piora com o esforço, ao deitar.\nFator de melhora ou atenuante: Só melhora um pouco com a bombinha (salbutamol), mas o efeito dura pouco e a falta de ar volta logo.\nEpisódios prévios: Sim, tive muitas crises de asma desde criança. Já fui internado várias vezes por isso, a última há 2 anos. Nega intubação prévia.\nMedicação de alivio: Usei Salbutamol (minha bombinha de resgate) 4 vezes na última hora, sem melhora significativa."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Tosse: Tosse seca e persistente, acompanhando a falta de ar.\nFebre: Nega febre.\nDor no peito: Nega dor torácica aguda, é mais o aperto que acompanha a falta de ar.\nExpectoração: Nega expectoração.\nCianose: Nega coloração azulada nos lábios ou unhas.\nPalpitações/Taquicardia: Sinto meu coração disparado, mas acho que é por causa da falta de ar e da bombinha.\nFadiga: Estou muito cansado por causa da dificuldade de respirar e da tosse."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Asma brônquica (desde a infância), Rinite alérgica.\nCirurgias prévias: Apenas uma amigdalectomia na infância.\nInternações: Sim, várias vezes por crise de asma, a última há 2 anos. Nega outras internações.\nAlergias: Alergia a ácaros e poeira. Nega alergia medicamentosa ou alimentar.\nMedicamentos em uso contínuo: Uso Busonid (budesonida 200mcg) inalatório, 1 puff 2 vezes ao dia, todos os dias, e Salbutamol (bombinha azul) quando sinto falta de ar.\nVacinação: Vacina da gripe em dia (tomada há 3 meses). Nega vacina para pneumonia recentemente.\nDRGE: Nega sintomas de refluxo gastroesofágico.\nOutras pneumopatias: Nega outras doenças pulmonares."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nunca fumou.\nEtilismo: Socialmente, ocasionalmente, uma vez por mês.\nDrogas ilícitas: Nega uso.\nAlimentação: Regular, sem restrições dietéticas.\nAtividade física: Caminhada leve 3 vezes por semana, mas agora não consigo devido à falta de ar.\nSono: Prejudicado pelas crises de tosse e falta de ar nas últimas noites.\nAnimais domésticos: Tenho um gato em casa.\nPoeira domiciliar: Minha casa tem alguns tapetes e cortinas antigas.\nExposição ocupacional: Trabalho em escritório, sem exposição a produtos químicos, fumaça ou poeira no ambiente de trabalho."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Asma e rinite alérgica.\nMãe: Hipertensão arterial.\nDoenças na família: Nega outras doenças crônicas ou autoimunes na família.\nHistória de câncer na família: Nega.\nIrmãos: Um irmão com rinite alérgica."
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL",
+        "informacao": "Estresse psicossocial: Sim, ando muito estressado ultimamente com problemas no trabalho e em casa, e percebo que as crises de asma pioram com o estresse."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)?\npergunta (2): É grave? Vou precisar ficar internado de novo?\npergunta (3): O que eu faço para que isso não aconteça de novo?\npergunta (4): Essa bombinha (salbutamol) que eu uso em casa não faz mais efeito, por que será?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "130x80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "110 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "28 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.8 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "89% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Paciente em desconforto respiratório, ansioso, sudoreico, fala entrecortada (dificuldade para completar frases)."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Sem alterações, jugulares planas, tireoide sem alterações."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular, taquicárdico, bulhas rítmicas e normofonéticas, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Inspeção: Tiragem intercostal e de fúrcula, batimento de asas do nariz. Ausculta: Murmúrio vesicular universalmente diminuído, sibilos expiratórios difusos em ambos os hemitórax, prolongamento do tempo expiratório. Percussão e palpação: Não realizadas no momento do atendimento agudo."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação superficial e profunda, sem visceromegalias."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edema, pulsos periféricos presentes e simétricos, sem cianose de extremidades."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "12.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Neutrófilos",
+                  "valor": "80% (Ref: 40-75%)"
+                },
+                {
+                  "chave": "Eosinófilos",
+                  "valor": "5% (Ref: 1-6%)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.2 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "110 mg/dL (Ref: 70-99)"
+                },
+                {
+                  "chave": "Eletrólitos",
+                  "valor": "Sódio: 138 mEq/L (Ref: 135-145); Potássio: 4.0 mEq/L (Ref: 3.5-5.0)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_RX_3",
+        "tituloImpresso": "Radiografia de Tórax (PA e Perfil)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Radiografia de tórax apresentando achados que podem indicar hiperinsuflação pulmonar discreta, comum em pacientes com asma, sem sinais de consolidações, infiltrados ou outras alterações agudas.",
+          "caminhoImagem": "(Buscar no Google Imagens: Radiografia de tórax normal asma ou Radiografia de tórax com hiperinsuflação pulmonar discreta)",
+          "sugestaoBuscaImagem": "Raio-X de tórax normal em paciente asmático com discreta hiperinsuflação pulmonar.",
+          "laudo": "Campos pleuropulmonares com transparência preservada, discretos sinais de hiperinsuflação pulmonar. Áreas de consolidação, infiltrado parenquimatoso ou atelectasia não são observadas. Seios costofrênicos livres. Área cardíaca de dimensões normais. Linhas traqueais e brônquicas pérvias. Ausência de pneumotórax ou pneumomediastino."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_ASMA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente de 35 anos, asmático conhecido desde a infância, procura o pronto-socorro com crise de dispneia intensa, sibilos e tosse seca, com piora progressiva nas últimas horas e má resposta à medicação de resgate usual. Ao exame, apresenta taquipneia, taquicardia, saturação de oxigênio baixa e uso de musculatura acessória, com sibilos difusos. Exames laboratoriais com leucocitose discreta e RX de tórax com hiperinsuflação sem outras alterações agudas.",
+      "focoPrincipalDetalhado": [
+        "Anamnese direcionada para caracterização da exacerbação e identificação de gatilhos e adesão ao tratamento.",
+        "Exame físico com avaliação da gravidade da crise asmática.",
+        "Solicitação e interpretação de exames complementares para afastar complicações (pneumonia, pneumotórax) e diagnósticos diferenciais.",
+        "Classificação da gravidade da exacerbação de asma.",
+        "Elaboração e execução do plano terapêutico inicial para exacerbação de asma e orientações de alta ou internação.",
+        "Comunicação empática e resposta às dúvidas do paciente."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e Comunicação Inicial:\n(1) Apresenta-se ao paciente;\n(2) Cumprimenta o paciente simulado de forma adequada;\n(3) Pergunta o motivo da consulta.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza uma ou duas ações.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, caracterizando os sintomas atuais (dispneia, sibilos, tosse, aperto no peito):\n(1) Início;\n(2) Duração e frequência;\n(3) Intensidade (incluindo impacto na fala);\n(4) Característica ou tipo;\n(5) Progressão ou evolução.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 itens de forma completa.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 itens de forma completa.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 item ou menos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, investigando fatores desencadeantes, agravantes e atenuantes:\n(1) Exposição a alérgenos/irritantes (poeira, cheiro forte);\n(2) Infecções virais recentes;\n(3) Estresse;\n(4) Piora em repouso ou ao deitar;\n(5) Melhora com uso de Salbutamol e duração do efeito.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 itens de forma completa.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 itens de forma completa.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 item ou menos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Investiga o uso de medicação para asma:\n(1) Frequência e dose da medicação de resgate (Salbutamol);\n(2) Eficácia da medicação de resgate na crise atual;\n(3) Adesão à medicação controladora (Budesonida).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta os 3 itens de forma completa.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 itens de forma completa.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 item ou menos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Investiga histórico de exacerbações prévias e gravidade:\n(1) Episódios prévios de exacerbação de asma;\n(2) Necessidade de internação hospitalar anterior;\n(3) Necessidade de internação em UTI ou intubação prévia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta os 3 itens de forma completa.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 itens de forma completa.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 item ou menos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Investiga antecedentes pessoais e comorbidades relevantes:\n(1) Asma e Rinite Alérgica (tempo de diagnóstico);\n(2) Alergias conhecidas (medicamentosa, alimentar);\n(3) Outras doenças crônicas (ex: DRGE, obesidade);\n(4) Medicamentos de uso contínuo (além dos da asma, ex: AINEs, Beta-bloqueadores).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 itens de forma completa.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 itens de forma completa.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 item ou menos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Investiga hábitos de vida e exposições ambientais relevantes:\n(1) Tabagismo (ativo/passivo);\n(2) Exposição a animais domésticos (gato);\n(3) Exposição a poeira domiciliar ou mofo;\n(4) Exposição ocupacional a irritantes/sensibilizantes.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 itens de forma completa.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 itens de forma completa.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 item ou menos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita e interpreta adequadamente os sinais vitais:\n(1) Pressão Arterial;\n(2) Frequência Cardíaca (taquicardia);\n(3) Frequência Respiratória (taquipneia);\n(4) Saturação de O₂ (hipoxemia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 4 itens, identificando as alterações.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 2 ou 3 itens, identificando as alterações.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita ou interpreta 1 item ou menos, ou não identifica as alterações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e interpreta exame físico geral e ausculta pulmonar:\n(1) Avalia estado geral (desconforto, ansiedade);\n(2) Avalia uso de musculatura acessória (tiragem, batimento de asa de nariz);\n(3) Avalia qualidade da fala (entrecortada);\n(4) Ausculta pulmonar (murmúrio vesicular diminuído, sibilos difusos, tempo expiratório prolongado).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 4 itens, identificando as alterações.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 2 ou 3 itens, identificando as alterações.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Solicita ou interpreta 1 item ou menos, ou não identifica as alterações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita e interpreta exames laboratoriais complementares:\n(1) Hemograma (Leucocitose com desvio, eosinofilia);\n(2) Bioquímica (Glicose, Eletrólitos).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta os 2 itens (hemograma e bioquímica) e identifica as alterações (leucocitose, glicose elevada).",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 1 item ou não identifica todas as alterações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Solicita e interpreta a Radiografia de Tórax:\n(1) Solicita a radiografia;\n(2) Interpreta os achados (hiperinsuflação discreta, ausência de outras alterações agudas como pneumonia/pneumotórax).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta ambos os itens, identificando os achados e sua relevância.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita a radiografia, mas interpreta parcialmente ou não identifica a relevância.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Formula o diagnóstico de Exacerbação de Asma e classifica a gravidade:\n(1) Diagnóstico de Exacerbação de Asma;\n(2) Classifica a gravidade da exacerbação (moderada a grave, baseando-se em SpO2 < 92%, FR > 28 irpm, FC > 110 bpm, fala entrecortada e uso de musculatura acessória).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico completo e classifica corretamente a gravidade com justificativa.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico, mas a classificação de gravidade está incompleta ou imprecisa.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico ou a classificação de gravidade está incorreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes:\n(1) DPOC (Doença Pulmonar Obstrutiva Crônica);\n(2) Insuficiência Cardíaca Aguda;\n(3) Embolia Pulmonar ou Pneumonia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 2 ou 3 diagnósticos diferenciais corretos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita apenas 1 diagnóstico diferencial correto.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Propõe a conduta terapêutica medicamentosa inicial para exacerbação:\n(1) Oxigênio suplementar (para manter SpO2 > 92-95%);\n(2) Beta-2 agonista de curta duração (SABA) inalatório em doses repetidas (ex: Salbutamol);\n(3) Corticosteroide sistêmico (oral ou intravenoso);\n(4) Antimuscarínico de curta duração (ACD) inalatório (ex: Ipratrópio) associado ao SABA.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe 4 itens da conduta de forma completa e correta.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 2 ou 3 itens da conduta de forma completa e correta.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Propõe 1 item ou menos da conduta ou de forma incorreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Define o seguimento/conduta e orienta o paciente:\n(1) Orienta sobre o plano de ação individualizado para asma;\n(2) Orienta sobre controle ambiental de gatilhos (ácaros, pelos de animais, fumaça);\n(3) Orienta sobre sinais de alarme para buscar atendimento;\n(4) Revisa a técnica inalatória correta;\n(5) Responde às dúvidas do paciente de forma clara e empática.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta 4 ou 5 itens de forma completa e responde às dúvidas.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta 2 ou 3 itens de forma completa e/ou responde parcialmente às dúvidas.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Orienta 1 item ou menos, ou não responde às dúvidas adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A asma é uma doença inflamatória crônica das vias aéreas, caracterizada por hiperresponsividade brônquica e obstrução variável do fluxo aéreo, reversível espontaneamente ou com tratamento. O quadro clínico se manifesta com episódios recorrentes de sibilância, dispneia, aperto no peito e tosse, especialmente noturnos ou pela manhã. A exacerbação asmática é um episódio de piora aguda ou subaguda dos sintomas e da função pulmonar. \nNa anamnese, é fundamental caracterizar os sintomas, identificar gatilhos (alérgenos, infecções, estresse, irritantes), avaliar a adesão ao tratamento de manutenção e a frequência/eficácia da medicação de resgate. Antecedentes de exacerbações graves (internações, intubações) são fatores de risco. O exame físico é crucial para avaliar a gravidade: taquipneia, taquicardia, SpO2 baixa, uso de musculatura acessória, fala entrecortada e sibilos difusos são achados comuns. Em casos muito graves, o 'tórax silencioso' é um sinal de alerta máximo. \nExames complementares incluem hemograma (para avaliar eosinofilia ou leucocitose infecciosa), e radiografia de tórax, que geralmente é normal ou mostra hiperinsuflação, mas serve para descartar complicações como pneumonia ou pneumotórax. A espirometria é o padrão-ouro para o diagnóstico de asma, mas não é realizada na fase aguda da exacerbação. \nO diagnóstico de exacerbação é clínico, baseado na piora dos sintomas em um paciente asmático. Os diagnósticos diferenciais incluem DPOC (em tabagistas), insuficiência cardíaca, embolia pulmonar e pneumonia. \nO tratamento da exacerbação visa restaurar o fluxo aéreo e reduzir a inflamação. A conduta de primeira linha inclui oxigênio suplementar (para manter SpO2 > 92-95%), beta-2 agonistas de curta duração (SABA, ex: salbutamol) em doses repetidas, e corticosteroides sistêmicos (oral ou IV) iniciados precocemente. Antimuscarínicos de curta duração (ACD, ex: ipratrópio) podem ser adicionados ao SABA em casos moderados a graves. O manejo da asma crônica é escalonado, com corticosteroides inalatórios (CI) como base e adição de broncodilatadores de longa duração (LABA) conforme a necessidade de controle. \nAs orientações ao paciente devem incluir educação sobre a doença, plano de ação individualizado, controle de gatilhos ambientais, adesão ao tratamento de manutenção, revisão da técnica inalatória e reconhecimento de sinais de alarme para buscar atendimento médico imediato. Fatores de risco para asma incluem história familiar, atopia, exposição a alérgenos e irritantes, infecções virais e obesidade. Complicações podem ser insuficiência respiratória aguda e status asthmaticus.",
+      "fontes": [
+        "1. Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention. 2023. Disponível em: https://ginasthma.org/wp-content/uploads/2023/07/GINA-Main-Report-2023-FINAL-23-07-06-WMS.pdf",
+        "2. Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas (PCDT) da Asma. Portaria Conjunta nº 19, de 03 de novembro de 2021. Disponível em: https://www.gov.br/saude/pt-br/centrais-de-conteudo/pcdt/pcdt-asma-2021.pdf",
+        "3. Sociedade Brasileira de Pneumologia e Tisiologia (SBPT). Diretrizes da Sociedade Brasileira de Pneumologia e Tisiologia para o Manejo da Asma. J Bras Pneumol. 2017;43(5):378-406. Disponível em: https://www.jornaldepneumologia.com.br/detalhe_artigo.asp?id=2557"
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "cbf87d92-993a-4654-a57a-da68722b5c1c",
+  "created_at": "2025-08-28T10:06:40.243332",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Asma",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

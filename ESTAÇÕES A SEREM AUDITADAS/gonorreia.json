@@ -42,6 +42,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Creuza Machado, 28 anos, Funcionária pública e Solteira"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com ardência ao urinar e um corrimento diferente do pênis, doutor(a)."
       },

@@ -1,0 +1,658 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_SINDROME_NEFRITICA_01",
+  "tituloEstacao": "Síndrome Nefrítica",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Síndrome Nefrítica",
+    "Glomerulonefrite",
+    "Hipertensão",
+    "Edema",
+    "Hematúria",
+    "Insuficiência Renal",
+    "Clínica Médica",
+    "Atenção secundária"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (Ultrassonografia, Radiografia)",
+        "Medicações disponíveis"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 35 anos chega ao ambulatório referindo inchaço no rosto, diminuição do volume urinário e urina escura. Refere que os sintomas iniciaram há cerca de 5 dias.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente.",
+      "Realizar o exame físico direcionado ao caso clínico.",
+      "Solicitar e interpretar exames complementares pertinentes ao caso.",
+      "Formular a(s) hipótese(s) diagnóstica(s) principal(is) e os diagnósticos diferenciais relevantes.",
+      "Elaborar o plano terapêutico inicial e as orientações para o paciente.",
+      "Responder às dúvidas do paciente simulado."
+    ],
+    "avisosImportantess": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com o rosto inchado, a urina escura e com pouca urina há uns 5 dias, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "EDEMA",
+        "informacao": "Início: Começou há uns 5 dias, meio de repente, mas foi piorando.\nLocalização: Principalmente no rosto, de manhã, e nas pernas, no fim do dia.\nIntensidade: É um inchaço perceptível, que deixa marca se apertar, uns 7/10 de desconforto.\nCaracterística: É um inchaço mole, que afunda.\nProgressão: Tem piorado, antes era só de manhã, agora fica o dia todo.\nFator de piora ou agravante: Piora quando fico muito tempo em pé.\nFator de melhora ou atenuante: Melhora um pouco deitado, mas não some.\nEpisódios prévios: Não, nunca tive inchaço assim antes.\nMedicação de alivio: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "OLIGÚRIA",
+        "informacao": "Início: Mais ou menos na mesma época do inchaço, há uns 5 dias.\nQuantidade: Está saindo bem pouca urina, antes eu ia várias vezes, agora quase não vou.\nFrequencia: Acho que umas 2 ou 3 vezes ao dia, com pouco volume.\nCaracterística: A urina está escura, cor de Coca-Cola.\nProgressão: Tem piorado.\nEpisódios prévios: Nega.\nMedicação de alivio: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "HEMATÚRIA",
+        "informacao": "Início: Na mesma época da oligúria, a urina ficou bem escura, vermelha, tipo Coca-Cola.\nIntensidade: É bem visível, não é só um vermelhinho fraco, está bem escura.\nEpisódios prévios: Nega.\nMedicação de alivio: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "CEFALEIA",
+        "informacao": "Início: Começou há 3 dias.\nLocalização: Na testa e atrás da cabeça.\nIntensidade: É uma dor moderada, uns 6/10.\nCaracterística: Uma dor latejante.\nProgressão: Mantém a intensidade.\nFator de piora ou agravante: Piora com o esforço.\nFator de melhora ou atenuante: Melhora um pouco com analgésico comum (paracetamol) e repouso.\nEpisódios prévios: Nega.\nMedicação de alivio: Paracetamol, com melhora parcial."
+      },
+      {
+        "contextoOuPerguntaChave": "MAL-ESTAR",
+        "informacao": "Início: Há uma semana já sinto um cansaço e mal-estar geral, sem energia.\nProgressão: Tem piorado junto com os outros sintomas.\nEpisódios prévios: Nega.\nMedicação de alivio: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR LOMBAR",
+        "informacao": "Início: Senti uma dorzinha leve nas costas, na altura dos rins, há uns 2 dias.\nIntensidade: Leve, uns 3/10.\nCaracterística: Um peso, um incômodo.\nIrradiação: Nega.\nEpisódios prévios: Nega.\nMedicação de alivio: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "RELAÇÃO COM INFECÇÕES RECENTES",
+        "informacao": "Faringite: Há umas 2 semanas, tive uma dor de garganta forte, com febre, mas melhorei com chá e pastilha. Não fui ao médico.\nImpetigo/Piodermite: Nega lesões de pele recentes.\nOutros focos infecciosos: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Febre: Nega febre atualmente.\nArtralgia: Nega dor nas juntas.\nMialgia: Nega dor nos músculos.\nRash cutâneo: Nega manchas na pele.\nQueda de cabelo: Nega.\nFotossensibilidade: Nega.\nSintomas respiratórios (hemoptise): Nega tosse ou sangue ao tossir."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Nega doenças crônicas como diabetes ou hipertensão.\nCirurgias prévias: Nega.\nInternações: Nega.\nAlergias: Nega alergias.\nMedicamentos em uso contínuo: Nega uso de medicação contínua.\nVacinação: Vacinação em dia, mas não sei as datas exatas.\nTrauma: Nega traumas recentes.\nTransfusões: Nega transfusões."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega tabagismo.\nEtilismo: Socialmente, uma taça de vinho no fim de semana.\nDrogas ilícitas: Nega.\nAlimentação: Comida caseira, normal.\nAtividade física: Caminhada 3 vezes por semana.\nSono: Durmo bem, umas 7-8 horas por noite.\nHábitos urinários: Com a doença, tenho urinado pouco, mas antes era normal.\nHábitos intestinais: Regulares.\nIngestão hídrica: Costumo beber bastante água.\nExposição ocupacional: Trabalho em escritório, sem exposição a nada de risco.\nEstresse: Nega estresse significativo."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Pai tem hipertensão e diabetes.\nMãe: Mãe saudável.\nDoenças na família: Nega histórico de doenças renais na família.\nHistoria de cancêr na família: Nega.\nIrmãos ou tias: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega viagens.\nExposição a doenças infecciosas: Nega contato com doentes além da gripe na garganta.\nContato com doentes: Nega contato com pessoas doentes.\nExposição a animais: Nega.\nExposição a vetores: Nega.\nÁgua consumida: Água da torneira filtrada.\nExposição a agentes ambientais: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar o resultado dos exames trazidos libere os impressos disponíveis. Caso o candidato solicite exames que não estão impressos, responder 'Considere solicitado'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "O que eu tenho, doutor(a)?\nÉ grave? Posso perder os meus rins?\nO que eu faço para melhorar? Vai precisar de muitos remédios?\nPoderia ser só uma infecção de urina?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "160x100 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "98 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "37.0 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Consciente, orientada, levemente pálida, com edema periorbital bilateral e de membros inferiores (+2/+4)."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Orofaringe hiperemiada sem exsudato ou outras lesões. Linfonodos cervicais não palpáveis. Jugulares não ingurgitadas."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Bulhas rítmicas, normofonéticas, em 2 tempos, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação, sem visceromegalias."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Edema (+2/+4) bilateral em membros inferiores, simétrico, mole, com cacifo. Pulsos periféricos presentes e simétricos."
+                },
+                {
+                  "chave": "Pele",
+                  "valor": "Nega lesões cutâneas."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais Gerais e Urinálise",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "8.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "11.8 g/dL (Ref: 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "80 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "2.5 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "138 mEq/L (Ref: 135-145)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "4.8 mEq/L (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "Albumina",
+                  "valor": "3.6 g/dL (Ref: 3.5-5.5)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "URINÁLISE (EAS)",
+              "itens": [
+                {
+                  "chave": "Células epiteliais",
+                  "valor": "Raras"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "5-8 p/campo (Ref: <5)"
+                },
+                {
+                  "chave": "Hemácias",
+                  "valor": ">100 p/campo (Ref: <3)"
+                },
+                {
+                  "chave": "Dismórficas",
+                  "valor": "Presentes (>50%)"
+                },
+                {
+                  "chave": "Cilindros hemáticos",
+                  "valor": "Presentes (Raros)"
+                },
+                {
+                  "chave": "Proteinúria (fita)",
+                  "valor": "++"
+                },
+                {
+                  "chave": "Densidade",
+                  "valor": "1.020 (Ref: 1.003-1.030)"
+                },
+                {
+                  "chave": "pH",
+                  "valor": "5.5 (Ref: 4.5-8.0)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "PROTEINÚRIA DE 24 HORAS",
+              "itens": [
+                {
+                  "chave": "Total",
+                  "valor": "1.8 g/24h (Ref: <0.15 g/24h)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_ETIOLOGICO_3",
+        "tituloImpresso": "Exames Laboratoriais Etiológicos",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "AUTOIMUNIDADE E INFECCIOSOS",
+              "itens": [
+                {
+                  "chave": "Complemento C3",
+                  "valor": "60 mg/dL (Ref: 90-180)"
+                },
+                {
+                  "chave": "Complemento C4",
+                  "valor": "25 mg/dL (Ref: 10-40)"
+                },
+                {
+                  "chave": "ASLO (Antiestreptolisina O)",
+                  "valor": "450 UI/mL (Ref: <200)"
+                },
+                {
+                  "chave": "FAN (Fator Antinuclear)",
+                  "valor": "Negativo"
+                },
+                {
+                  "chave": "ANCA (Anticorpos Anticitoplasma de Neutrófilos)",
+                  "valor": "Negativo"
+                },
+                {
+                  "chave": "Anti-GBM (Anticorpos Anti-Membrana Basal Glomerular)",
+                  "valor": "Negativo"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_USG_4",
+        "tituloImpresso": "Ultrassonografia Renal com Doppler",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado da Ultrassonografia Renal.",
+          "caminhoImagem": "(Buscar no Google Imagens: Ultrassonografia renal normal com ecogenicidade cortical discretamente aumentada)",
+          "sugestaoBuscaImagem": "Ultrassonografia renal com discretas alterações de ecogenicidade",
+          "laudo": "Rins de tamanho normal (Direito: 10.5 cm, Esquerdo: 10.8 cm), contornos regulares, ecogenicidade cortical discretamente aumentada. Ausência de hidronefrose ou cálculos. Fluxo vascular renal preservado ao Doppler."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_RX_5",
+        "tituloImpresso": "Radiografia de Tórax",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado da Radiografia de Tórax.",
+          "caminhoImagem": "(Buscar no Google Imagens: Radiografia de tórax com congestão hilar bilateral e discreto derrame pleural)",
+          "sugestaoBuscaImagem": "Raio-X tórax sobrecarga volêmica",
+          "laudo": "Áreas de congestão hilar bilateralmente e discreto derrame pleural em bases, compatível com sobrecarga volêmica. Área cardíaca de tamanho normal."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_SINDROMENEFRITICA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente adulto com quadro agudo de edema, oligúria, hematúria macroscópica, hipertensão arterial e insuficiência renal aguda, com histórico de infecção de vias aéreas superiores recente. Exames laboratoriais e de imagem compatíveis com Síndrome Nefrítica, incluindo achados que sugerem Glomerulonefrite Difusa Aguda Pós-estreptocócica (C3 baixo, ASLO elevado). O caso exige investigação etiológica e manejo de suporte para as complicações da síndrome.",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada para caracterização dos sintomas e investigação de gatilhos infecciosos e sintomas sistêmicos.",
+        "Exame físico direcionado para identificação dos sinais de sobrecarga volêmica e hipertensão.",
+        "Solicitação e interpretação de exames laboratoriais (função renal, urinálise com elementos dismórficos/cilindros, complemento, ASLO) e de imagem (USG renal, RX tórax).",
+        "Formulações de hipóteses diagnósticas (Síndrome Nefrítica e etiologias diferenciais) e plano terapêutico inicial (suporte e investigação etiológica).",
+        "Comunicação clara com o paciente sobre o diagnóstico e o plano de manejo."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Questiona sobre o motivo de consulta e a história da doença atual (HDA) dos principais sintomas:\n(1) Início do edema;\n(2) Início da oligúria;\n(3) Início da hematúria;\n(4) Caracterização da urina escura (cor e aspecto);\n(5) Progressão dos sintomas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 dos itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 dos itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos dos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Investiga sintomas associados e sistêmicos relevantes:\n(1) Cefaleia;\n(2) Mal-estar/astenia;\n(3) Dor lombar;\n(4) Febre;\n(5) Artralgia/Mialgia;\n(6) Rash cutâneo;\n(7) Sintomas respiratórios (tosse, hemoptise).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou mais dos itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 dos itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos dos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Investiga relação com infecções recentes:\n(1) Histórico de faringite ou amigdalite (tempo, tratamento);\n(2) Histórico de impetigo ou outras lesões de pele;\n(3) Outros focos infecciosos (ITU, pneumonia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 2 ou 3 dos itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 dos itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Questiona antecedentes pessoais relevantes:\n(1) Doenças crônicas (HAS, DM, doenças autoimunes);\n(2) Doenças renais prévias;\n(3) Uso de medicamentos (AINEs, nefrotóxicos);\n(4) Alergias.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 dos itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 ou 2 dos itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Questiona hábitos de vida e antecedentes familiares:\n(1) Tabagismo/Etilismo/Drogas ilícitas;\n(2) Antecedentes de doenças renais hereditárias ou autoimunes na família.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta os 2 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 item.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita e interpreta Sinais Vitais e Exame Físico Geral:\n(1) Solicita aferição da pressão arterial;\n(2) Solicita avaliação da frequência cardíaca e respiratória;\n(3) Solicita medição da temperatura e saturação de O₂;\n(4) Interpreta a presença de hipertensão arterial;\n(5) Interpreta a presença de taquicardia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 4 ou 5 dos itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 2 ou 3 dos itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Realiza 1 ou menos dos itens ou não realiza item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita e interpreta Exame Físico Específico:\n(1) Solicita avaliação do edema (localização, intensidade, cacifo);\n(2) Solicita ausculta cardíaca (ritmo, bulhas, sopros);\n(3) Solicita ausculta pulmonar (murmúrio vesicular, ruídos adventícios);\n(4) Interpreta achados de sobrecarga volêmica (edema, turgência jugular, crepitações pulmonares);\n(5) Solicita e interpreta inspeção de pele para lesões.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 4 ou 5 dos itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 2 ou 3 dos itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Realiza 1 ou menos dos itens ou não realiza item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e interpreta Exames Laboratoriais Iniciais (Impressos 2 e 3):\n(1) Solicita urinálise (EAS);\n(2) Solicita ureia e creatinina;\n(3) Solicita hemograma completo;\n(4) Solicita eletrólitos (sódio, potássio);\n(5) Interpreta hematúria dismórfica e cilindros hemáticos na urinálise;\n(6) Interpreta proteinúria subnefrótica;\n(7) Interpreta elevação de ureia e creatinina;\n(8) Interpreta presença de anemia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 7 ou 8 dos itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 4 a 6 dos itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Realiza 3 ou menos dos itens ou não realiza item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita e interpreta Exames Etiológicos e de Imagem (Impressos 3, 4 e 5):\n(1) Solicita complemento sérico (C3, C4);\n(2) Solicita ASLO;\n(3) Solicita autoanticorpos (FAN, ANCA, anti-GBM);\n(4) Solicita ultrassonografia renal;\n(5) Solicita radiografia de tórax;\n(6) Interpreta C3 baixo e ASLO elevado;\n(7) Interpreta exclusão de outras etiologias por autoanticorpos negativos;\n(8) Interpreta achados da USG renal (tamanho, ecogenicidade);\n(9) Interpreta achados da RX tórax (sobrecarga volêmica).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 8 ou 9 dos itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 5 a 7 dos itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Realiza 4 ou menos dos itens ou não realiza item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Formula hipóteses diagnósticas:\n(1) Síndrome Nefrítica;\n(2) Glomerulonefrite Difusa Aguda Pós-estreptocócica (GNPE);\n(3) Nefropatia por IgA (Doença de Berger);\n(4) Glomerulonefrite Rapidamente Progressiva (GRPR).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Formula o diagnóstico de Síndrome Nefrítica e cita as 3 principais etiologias.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Formula o diagnóstico de Síndrome Nefrítica e cita 1 ou 2 etiologias principais.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não formula o diagnóstico de Síndrome Nefrítica ou não cita etiologias.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes:\n(1) Síndrome Nefrótica;\n(2) Infecção do Trato Urinário (ITU);\n(3) Necrose Tubular Aguda (NTA);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita os 3 diagnósticos diferenciais.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Elabora plano terapêutico inicial:\n(1) Restrição hídrica e sódica;\n(2) Diuréticos de alça (Furosemida);\n(3) Anti-hipertensivos (Ex: Anlodipino);\n(4) Antibioticoterapia para infecção subjacente (Ex: Penicilina).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora plano terapêutico com 3 ou 4 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora plano terapêutico com 1 ou 2 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não elabora plano terapêutico ou elabora inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Orienta sobre necessidade de investigação e seguimento:\n(1) Orienta sobre a possível necessidade de biópsia renal;\n(2) Orienta sobre encaminhamento ao nefrologista;\n(3) Orienta sobre monitorização domiciliar (PA, peso) e dieta.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta 2 ou 3 dos itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta 1 dos itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não orienta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Responde às dúvidas do paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde às perguntas/dúvidas.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não responde às perguntas/dúvidas.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Síndrome Nefrítica é uma emergência nefrológica caracterizada por hematúria glomerular (com dismorfismo eritrocitário e cilindros hemáticos), hipertensão arterial, edema e graus variáveis de insuficiência renal aguda e oligúria. É crucial diferenciá-la da Síndrome Nefrótica pela magnitude da proteinúria e ausência de sinais inflamatórios glomerulares.\nNa anamnese, é fundamental investigar infecções recentes (principalmente estreptocócicas para GNPE, ou de vias aéreas superiores para Nefropatia por IgA), uso de medicações e sintomas sistêmicos (autoimunes). O exame físico deve focar em sinais de sobrecarga volêmica (edema, hipertensão, congestão pulmonar) e possíveis etiologias sistêmicas. Os exames laboratoriais essenciais incluem urinálise (confirma hematúria glomerular), função renal (ureia, creatinina), eletrólitos, hemograma, complemento sérico (C3 baixo sugere GNPE, LES, membranoproliferativa), ASLO (elevado em GNPE) e autoanticorpos (FAN, ANCA, anti-GBM). Exames de imagem como ultrassonografia renal avaliam a morfologia e hidronefrose, e radiografia de tórax pode indicar sobrecarga volêmica.\nO diagnóstico é clínico-laboratorial, com a biópsia renal sendo o padrão-ouro para confirmação etiológica e prognóstico, especialmente em casos atípicos ou de rápida progressão. Os principais diferenciais incluem Síndrome Nefrótica, ITU e NTA. O tratamento é de suporte (restrição hídrica/sódica, diuréticos, anti-hipertensivos) e específico para a etiologia (antibióticos para GNPE, imunossupressores para glomerulonefrites autoimunes ou rapidamente progressivas). Sinais de alarme incluem crise hipertensiva, edema agudo de pulmão e IRA grave progressiva. O seguimento com nefrologista é mandatório para monitoramento e ajuste terapêutico.",
+      "fontes": [
+        "1. KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney International, Vol. 100, Suppl 1, S1–S276, 2021. \n2. Brenner & Rector's The Kidney. 11th ed. Elsevier; 2020. \n3. Sociedade Brasileira de Nefrologia. Diretrizes para o diagnóstico e tratamento das glomerulonefrites. Disponível em: www.sbn.org.br."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "57cb21db-8f96-4110-8a3e-e027e1738a8e",
+  "created_at": "2025-08-28T10:59:04.153723",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Síndrome nefrítica",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

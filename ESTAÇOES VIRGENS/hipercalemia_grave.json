@@ -1,0 +1,705 @@
+{
+  "idEstacao": "REVALIDA_2025_CM_HIPERCALEMIA_01",
+  "tituloEstacao": "Hipercalemia Grave",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Hipercalemia",
+    "Emergência Metabólica",
+    "Insuficiência Renal",
+    "Arritmia Cardíaca",
+    "Clínica Médica",
+    "Atenção terciária à saúde"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Sala de emergência",
+        "Laboratório de análises clínicas",
+        "Eletrocardiografia",
+        "Medicações de emergência disponíveis",
+        "Unidade de terapia intensiva"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 68 anos, sexo masculino, Sr. João da Silva, chega ao pronto-socorro referindo fraqueza muscular progressiva e palpitações há dois dias. Ele já teve a coleta de sangue inicial realizada, e o resultado do potássio sérico (elevado) está disponível, bem como um ECG de 12 derivações. Você é o médico plantonista que recebe o caso.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese dirigida ao paciente.",
+      "Solicitar o exame físico e verbalizar os achados pertinentes.",
+      "Interpretar os exames complementares disponíveis.",
+      "Estabelecer o diagnóstico e classificá-lo quanto à gravidade.",
+      "Elaborar a conduta terapêutica completa e sequencial para o caso.",
+      "Discutir prognóstico, sinais de alarme e orientações de seguimento para o paciente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com fraqueza muscular e palpitações, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "FRAQUEZA MUSCULAR (HDA)",
+        "informacao": "Início: Começou há 2 dias\nLocalização: Principalmente nas pernas, mas sinto no corpo todo\nIntensidade: Nota 7/10, está difícil até para levantar\nSensação: Peso\nResposta: Pernas não respondem direito\nProgressão: Está piorando, hoje já não consigo andar direito\nIrradiação: Nega que se espalhe, mas parece que está subindo\nFator de piora ou agravante: Qualquer movimento, mesmo pequeno\nFator de melhora ou atenuante: O repouso alivia um pouco, mas não resolve\nEpisódios prévios: Nega ter sentido isso antes\nMedicação de alivio: Tomei um relaxante muscular, mas não adiantou nada"
+      },
+      {
+        "contextoOuPerguntaChave": "PALPITAÇÕES (HDA)",
+        "informacao": "Início: Começaram junto com a fraqueza, há 2 dias\nIntensidade: Sinto o coração bater devagar\nCaracterística: Sinto o coração falhar às vezes\nFrequência: Algumas vezes ao dia, de repente\nDuração: Minutos\nFator de piora ou agravante: Nega ter percebido algo específico\nFator de melhora ou atenuante: Nega que melhore com algo\nEpisódios prévios: Nega ter tido isso antes"
+      },
+      {
+        "contextoOuPerguntaChave": "PARESTESIAS (HDA)",
+        "informacao": "Início: Ontem, após a fraqueza começar\nLocalização: Nas mãos e nos pés\nCaracterística: Formigamento e dormência\nIntensidade: Desconfortável, mas não dói\nProgressão: Está mais constante hoje"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES (HDA)",
+        "informacao": "Náuseas: Sinto um pouco de enjoo\nVômitos: Nega\nDiarreia: Nega\nFadiga: Sinto muito cansaço, mais do que o normal\nCãibras: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Tenho pressão alta e diabetes há mais de 10 anos. Também tenho uma insuficiência renal crônica em estágio avançado que está sendo acompanhada.\nCirurgias prévias: Nega\nInternações: Sim, várias vezes por conta da insuficiência renal\nAlergias: Nega\nMedicamentos em uso contínuo: Estou tomando Losartana para a pressão, Espironolactona (diurético) e Metformina para o diabetes. E também um anti-inflamatório (Ibuprofeno) que comecei a usar há uma semana para uma dor no joelho.\nVacinação: Não lembro, está atrasada\nTrauma: Nega\nTransfusões: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Tipo do parto: Não aplicável\nTempo de Gestação: Não aplicável\nIntercorrências neonatais: Não aplicável\nHábitos sexuais: Não consta\nHábitos urinários: Nega alterações recentes\nHábitos intestinais: Nega alterações recentes\nIngestão hídrica: Nega alterações recentes\nExposição ocupacional: Não consta\nEstresse: Não consta"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nunca fumei\nEtilismo: Socialmente, raramente\nDrogas ilícitas: Nega\nAlimentação: Como de tudo, não faço restrição. Gosto muito de banana e água de coco.\nAtividade física: Nega, me sinto muito cansado ultimamente\nSono: Durmo mal, acordo várias vezes à noite\nIngestão hídrica: Bebo pouca água, uns 4 copos por dia"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Tinha pressão alta\nMãe: Tinha diabetes\nDoenças na família: Nega problemas renais ou cardíacos em outros membros\nHistoria de cancêr na família: Nega\nIrmãos ou tias: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES NEONATAIS",
+        "informacao": "Não aplicável"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS",
+        "informacao": "Não aplicável"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega\nExposição a doenças infecciosas: Nega\nContato com doentes: Nega\nExposição a animais: Nega\nExposição a vetores: Nega\nÁgua consumida: Tratada\nExposição a agentes ambientais: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL",
+        "informacao": "Situação familiar: Não consta\nRede de apoio: Não consta\nSituação socioeconômica: Não consta\nNível educacional: Não consta\nReligião: Não consta\nEstresse psicossocial: Não consta"
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR:",
+        "informacao": "Se o candidato perguntar sobre o motivo da consulta, descreva 'fraqueza muscular e palpitações'. Se perguntar sobre exames, libere os impressos disponíveis (Sinais Vitais, Exame Físico, Exames Laboratoriais, ECG) quando solicitado."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE:",
+        "informacao": "pergunta (1): Doutor(a), o que eu tenho?\npergunta (2): Isso é grave? Meu coração está batendo estranho.\npergunta (3): O que vamos fazer agora? Tenho medo de não melhorar.\npergunta (4): Essa fraqueza vai passar?\npergunta (5): O que eu faço para isso não acontecer novamente?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_FICHA_IDENTIFICACAO_1",
+        "tituloImpresso": "Ficha de Identificação do Paciente",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "DADOS DO PACIENTE",
+              "itens": [
+                {
+                  "chave": "Nome",
+                  "valor": "João da Silva"
+                },
+                {
+                  "chave": "Idade",
+                  "valor": "68 anos"
+                },
+                {
+                  "chave": "Sexo",
+                  "valor": "Masculino"
+                },
+                {
+                  "chave": "Procedência",
+                  "valor": "Zona urbana"
+                },
+                {
+                  "chave": "Data de Nascimento",
+                  "valor": "DD/MM/AAAA"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_2",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "100 x 60 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "50 bpm (bradicardia)"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "36,5 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "96% em ar ambiente"
+                },
+                {
+                  "chave": "Glicemia Capilar",
+                  "valor": "180 mg/dL"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAME_FISICO_GERAL_3",
+        "tituloImpresso": "Exame Físico Geral",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESTADO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Regular estado geral, consciente, orientado, hipocorado (+/4+), afebril, anictérico, acianótico, eupneico."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO CARDIOVASCULAR",
+              "itens": [
+                {
+                  "chave": "Ausculta cardíaca",
+                  "valor": "Bulhas rítmicas, 2 tempos, hipofonéticas, sem sopros. Ritmo regular, FC 50 bpm."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO RESPIRATÓRIO",
+              "itens": [
+                {
+                  "chave": "Ausculta pulmonar",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ABDOME",
+              "itens": [
+                {
+                  "chave": "Palpação",
+                  "valor": "Flácido, indolor à palpação superficial e profunda. RHA presentes."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXTREMIDADES E NEUROLÓGICO",
+              "itens": [
+                {
+                  "chave": "Edemas",
+                  "valor": "Sem edemas"
+                },
+                {
+                  "chave": "Pulsos",
+                  "valor": "Periféricos palpáveis e simétricos"
+                },
+                {
+                  "chave": "Força muscular",
+                  "valor": "Global diminuída (3/5) em membros inferiores"
+                },
+                {
+                  "chave": "Reflexos tendinosos profundos",
+                  "valor": "Hipoativos (1+/4+) em membros inferiores"
+                },
+                {
+                  "chave": "Sensibilidade",
+                  "valor": "Parestesias em \"luva e bota\""
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_4",
+        "tituloImpresso": "Exames Laboratoriais: Eletrólitos, Função Renal e Gasometria",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ELETRÓLITOS",
+              "itens": [
+                {
+                  "chave": "Potássio sérico",
+                  "valor": "7.1 mEq/L (VR: 3.5 - 5.0 mEq/L)"
+                },
+                {
+                  "chave": "Sódio sérico",
+                  "valor": "135 mEq/L (VR: 135 - 145 mEq/L)"
+                },
+                {
+                  "chave": "Cálcio total",
+                  "valor": "8.5 mg/dL (VR: 8.5 - 10.2 mg/dL)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "FUNÇÃO RENAL E GLICEMIA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "90 mg/dL (VR: 10 - 50 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "2.8 mg/dL (VR: 0.7 - 1.2 mg/dL)"
+                },
+                {
+                  "chave": "Glicose",
+                  "valor": "180 mg/dL (VR: 70 - 99 mg/dL)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "GASOMETRIA ARTERIAL",
+              "itens": [
+                {
+                  "chave": "pH",
+                  "valor": "7.28 (VR: 7.35 - 7.45)"
+                },
+                {
+                  "chave": "pCO2",
+                  "valor": "38 mmHg (VR: 35 - 45 mmHg)"
+                },
+                {
+                  "chave": "HCO3",
+                  "valor": "16 mEq/L (VR: 22 - 26 mEq/L)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ECG_5",
+        "tituloImpresso": "Eletrocardiograma de 12 derivações",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Eletrocardiograma de 12 derivações do paciente João da Silva.",
+          "caminhoImagem": "(Buscar no Google Imagens: ECG hipercalemia grave ondas T apiculadas prolongamento PR achatamento onda P alargamento QRS morfologia sinusoidal ou bloqueio AV)",
+          "sugestaoBuscaImagem": "ECG hipercalemia grave ondas T apiculadas prolongamento PR achatamento onda P alargamento QRS",
+          "laudo": "Ritmo sinusal. Frequência cardíaca: 50 bpm. Ondas T altas, apiculadas e simétricas em múltiplas derivações. Prolongamento do intervalo PR (240ms). Achatamento da onda P. Alargamento do complexo QRS (160ms)."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_HIPERCALEMIA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 68 anos, com fraqueza muscular e palpitações, histórico de hipertensão, diabetes e insuficiência renal crônica, e uso de medicamentos que elevam potássio. Apresenta hipercalemia grave (7.1 mEq/L) com alterações eletrocardiográficas significativas (bradicardia, ondas T apiculadas, PR prolongado, P achatada, QRS alargado) e acidose metabólica.",
+      "focoPrincipalDetalhado": [
+        "Anamnese direcionada para sintomas e fatores de risco de hipercalemia.",
+        "Exame físico focado em achados cardíacos e neurológicos.",
+        "Interpretação de exames laboratoriais e eletrocardiograma para diagnóstico e gravidade.",
+        "Definição de tratamento emergencial e definitivo para hipercalemia.",
+        "Orientações e seguimento do paciente."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Investigação do Motivo de Consulta e HDA de Fraqueza Muscular:\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Característica (sensação, resposta); \n(5) Progressão;\n(6) Irradiação;\n(7) Fatores de piora ou agravante;\n(8) Fatores de melhora ou atenuante;\n(9) Episódios prévios;\n(10) Medicação de alívio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 8 de 10 aspectos da fraqueza muscular.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 5 a 7 aspectos da fraqueza muscular.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 4 ou menos aspectos da fraqueza muscular ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Investigação da HDA de Palpitações e Parestesias:\n(1) Início das palpitações;\n(2) Intensidade e característica das palpitações;\n(3) Frequência e duração das palpitações;\n(4) Episódios prévios de palpitações;\n(5) Início das parestesias;\n(6) Localização das parestesias;\n(7) Característica das parestesias;\n(8) Progressão das parestesias.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 de 8 aspectos das palpitações e parestesias.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 5 aspectos das palpitações e parestesias.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos aspectos ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Investigação de Sintomas Associados:\n(1) Náuseas;\n(2) Vômitos;\n(3) Diarreia;\n(4) Fadiga;\n(5) Cãibras.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 de 5 sintomas associados.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 a 3 sintomas associados.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos sintomas ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Investigação de Antecedentes Pessoais Patológicos:\n(1) Doenças crônicas (Hipertensão, Diabetes, Insuficiência Renal Crônica);\n(2) Cirurgias prévias;\n(3) Internações;\n(4) Alergias;\n(5) Medicamentos em uso contínuo (Losartana, Espironolactona, Metformina, Ibuprofeno);\n(6) Vacinação.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 de 6 aspectos dos antecedentes patológicos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 4 aspectos dos antecedentes patológicos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos aspectos ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Investigação de Hábitos de Vida:\n(1) Tabagismo;\n(2) Etilismo;\n(3) Drogas ilícitas;\n(4) Alimentação (preferências);\n(5) Atividade física;\n(6) Sono;\n(7) Ingestão hídrica.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 de 7 aspectos dos hábitos de vida.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 4 aspectos dos hábitos de vida.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos aspectos ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Anamnese - Investigação de Antecedentes Familiares:\n(1) Diabetes;\n(2) Hipertensão;\n(3) Doença renal ou cardíaca.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 2 de 3 aspectos dos antecedentes familiares.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 aspecto dos antecedentes familiares.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita e Interpreta o Exame Físico Geral e Sinais Vitais (disponíveis nos impressos):\n(1) Consciente e orientado;\n(2) Hipocorado;\n(3) Afebril e eupneico;\n(4) Bradicardia (FC 50 bpm);\n(5) Hipotensão (PA 100x60 mmHg);\n(6) Glicemia capilar elevada (180 mg/dL).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 5 de 6 achados do exame físico e sinais vitais.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 3 a 4 achados do exame físico e sinais vitais.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta 2 ou menos achados ou não interpreta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e Interpreta o Exame Físico Cardiovascular e Neurológico/Extremidades (disponíveis nos impressos):\n(1) Bulhas rítmicas, hipofonéticas, FC 50 bpm;\n(2) Ausculta pulmonar normal;\n(3) Abdome flácido e indolor;\n(4) Força muscular global diminuída em MMII (3/5);\n(5) Reflexos tendinosos profundos hipoativos em MMII (1+/4+);\n(6) Parestesias em \"luva e bota\".",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 5 de 6 achados do exame físico.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 3 a 4 achados do exame físico.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta 2 ou menos achados ou não interpreta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Interpreta os Exames Laboratoriais (disponíveis nos impressos):\n(1) Potássio sérico elevado (7.1 mEq/L);\n(2) Ureia e Creatinina elevadas (90 mg/dL e 2.8 mg/dL);\n(3) Glicose elevada (180 mg/dL);\n(4) Acidose metabólica (pH 7.28, HCO3 16 mEq/L);\n(5) Sódio e Cálcio normais.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 4 de 5 achados dos exames laboratoriais.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 a 3 achados dos exames laboratoriais.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta 1 ou menos achados ou não interpreta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Interpreta o Eletrocardiograma (ECG) (disponível no impresso):\n(1) Bradicardia (FC 50 bpm);\n(2) Ondas T altas, apiculadas e simétricas;\n(3) Prolongamento do intervalo PR;\n(4) Achatamento da onda P;\n(5) Alargamento do complexo QRS.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 4 de 5 alterações do ECG.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 a 3 alterações do ECG.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta 1 ou menos alterações ou não interpreta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Estabelece o Diagnóstico Principal e Etiológico:\n(1) Hipercalemia grave;\n(2) Secundária à insuficiência renal crônica descompensada e uso de medicamentos (IECA, diurético poupador de potássio, AINE).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico principal e etiologia corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza apenas o diagnóstico principal sem etiologia ou incompleto.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Cita Diagnósticos Diferenciais Relevantes:\n(1) Pseudohipercalemia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita pseudohipercalemia como diferencial.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não cita o diagnóstico diferencial.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Elabora a Conduta Terapêutica de Estabilização da Membrana Cardíaca:\n(1) Gluconato de Cálcio 10% (10-20 mL IV em 5-10 min).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Prescreve Gluconato de Cálcio corretamente (dose, via, tempo).",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Prescreve Gluconato de Cálcio, mas com dose, via ou tempo incompletos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não prescreve Gluconato de Cálcio ou prescreve incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Elabora a Conduta Terapêutica de Redistribuição Intracelular do Potássio:\n(1) Insulina Regular (10 UI IV) + Glicose 50% (50 mL IV);\n(2) Beta-2 agonistas (Salbutamol nebulizado 10-20 mg);\n(3) Bicarbonato de Sódio (50-100 mEq IV, justificado pela acidose grave).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Prescreve 3 de 3 opções de redistribuição com dose e via corretas.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Prescreve 2 de 3 opções de redistribuição com dose e via corretas.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Prescreve 1 ou menos opções ou prescreve incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Elabora a Conduta Terapêutica de Remoção de Potássio do Corpo:\n(1) Diuréticos de alça (Furosemida 20-40 mg IV);\n(2) Resinas de troca iônica (Polistirenossulfonato de cálcio/sódio - Kayexalate);\n(3) Diálise (Hemodiálise), com indicação adequada.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Prescreve 3 de 3 opções de remoção, com dose/via e indicação corretas.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Prescreve 2 de 3 opções de remoção, com dose/via e indicação corretas.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Prescreve 1 ou menos opções ou prescreve incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Discute Sinais de Alarme e Complicações:\n(1) Piora das alterações no ECG (alargamento QRS, morfologia sinusoidal, bloqueio AV, FV/assistolia);\n(2) Paralisia muscular progressiva (risco de insuficiência respiratória);\n(3) Parada cardíaca súbita.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Discute 3 de 3 sinais de alarme/complicações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Discute 1 a 2 sinais de alarme/complicações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não discute sinais de alarme/complicações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item18",
+        "itemNumeroOficial": "18",
+        "descricaoItem": "Orientações e Seguimento:\n(1) Restrição dietética de potássio;\n(2) Revisão e ajuste da farmacoterapia (suspensão de IECA, BRA, diuréticos poupadores de potássio, AINEs);\n(3) Monitoramento seriado do potássio sérico e ECG;\n(4) Tratamento da doença de base (insuficiência renal, diabetes);\n(5) Educação do paciente sobre sintomas e dieta.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta 4 de 5 aspectos de seguimento.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta 2 a 3 aspectos de seguimento.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Orienta 1 ou menos aspectos ou não orienta item algum.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A hipercalemia é uma emergência metabólica com risco de vida, frequentemente associada a disfunção renal e uso de medicamentos. O caso apresenta um paciente idoso com insuficiência renal crônica, diabetes e hipertensão, em uso de IECA, espironolactona e AINEs, fatores de risco clássicos para hipercalemia. Os sintomas como fraqueza muscular progressiva e palpitações são altamente sugestivos. O exame físico com bradicardia, hipotensão, força muscular diminuída e reflexos hipoativos são achados esperados. Os exames laboratoriais confirmam potássio sérico > 6.5 mEq/L (7.1 mEq/L), insuficiência renal (Ureia 90, Creatinina 2.8), hiperglicemia (180 mg/dL) e acidose metabólica (pH 7.28, HCO3 16), o que agrava a condição. O ECG é crucial, mostrando alterações como ondas T apiculadas, prolongamento do PR, achatamento da onda P e alargamento do QRS, indicando gravidade e necessidade de intervenção imediata. O diagnóstico diferencial principal é a pseudohipercalemia, que deve ser descartada antes de iniciar o tratamento agressivo. O tratamento é trifásico: 1) Estabilizar a membrana cardíaca com Gluconato de Cálcio (ação rápida e protetora, não reduz potássio), 2) Redistribuir o potássio para o intracelular com Insulina + Glicose, beta-2 agonistas (Salbutamol) e Bicarbonato de Sódio (especialmente se acidose), e 3) Remover o potássio do organismo com diuréticos de alça (se função renal presente), resinas de troca iônica (ação lenta) ou diálise (o método mais eficaz em casos graves/refratários). Orientações de dieta (restrição de potássio) e ajuste medicamentoso (suspensão de drogas hipercalêmicas) são essenciais para o seguimento e prevenção de recorrências, além do tratamento da doença de base. Monitoramento rigoroso do potássio e ECG é fundamental.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Protocolos de Manejo Clínico de Hipercalemia. Versão 2023.",
+        "2. UpToDate. Clinical manifestations and treatment of hyperkalemia in adults. Latest literature review, 2024.",
+        "3. Sociedade Brasileira de Cardiologia. Diretrizes Brasileiras de Hipertensão Arterial. 2020."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "00e71b7a-704e-4459-b143-a7dafc8d6498",
+  "created_at": "2025-08-28T10:50:18.103792",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "hipercalemia",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

@@ -41,6 +41,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Ana Ferreira, 58 anos, Motorista e Solteira"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou tendo infecções urinárias uma atrás da outra, doutor(a), não aguento mais."
       },

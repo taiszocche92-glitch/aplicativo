@@ -1,0 +1,581 @@
+{
+  "idEstacao": "REVALIDA_MEDIO_2025_CM_01",
+  "tituloEstacao": "Câncer de Tireoide",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Câncer de Tireoide",
+    "Nódulo Tireoidiano",
+    "Carcinoma Papilífero",
+    "Endocrinologia",
+    "Clínica Médica",
+    "Atenção Secundária"
+  ],
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios médicos",
+        "Laboratório de análises clínicas",
+        "Serviço de imagem (Ultrassonografia, PAAF)",
+        "Equipamentos básicos para exame físico"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 45 anos, sexo feminino, Sra. Ana Paula Silva, chega ao ambulatório referindo que sua médica da família identificou um nódulo no pescoço durante um exame de rotina. Ela traz exames complementares já realizados.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese completa do paciente.",
+      "Verbalizar a solicitação do exame físico direcionado.",
+      "Interpretar os exames complementares disponibilizados.",
+      "Formular a(s) hipótese(s) diagnóstica(s) e citar diagnósticos diferenciais.",
+      "Estabelecer o plano terapêutico inicial e as orientações de seguimento.",
+      "Comunicar-se de forma empática e responder às dúvidas do paciente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "Todos os exames complementares pertinentes já foram realizados e os resultados estão disponíveis nos impressos."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Eu vim aqui porque minha médica da família achou um carocinho no meu pescoço durante um exame de rotina."
+      },
+      {
+        "contextoOuPerguntaChave": "NÓDULO CERVICAL (Queixa Principal)",
+        "informacao": "Início: Há cerca de 6 meses\nPercepção: Não percebi, minha médica que sentiu na consulta de rotina, mas agora que sei, acho que ele está um pouco maior\nCrescimento: Lento, mas acredito que sim\nDor local: Nega\nRouquidão: Nega\nDisfagia: Nega\nDispneia: Nega\nTosse seca: Nega\nSensação de compressão cervical: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS DE DISFUNÇÃO TIREOIDIANA",
+        "informacao": "Palpitações: Nega\nPerda de peso não intencional: Nega\nGanho de peso não intencional: Nega\nIntolerância ao frio/calor: Nega\nTremores: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS PATOLÓGICOS",
+        "informacao": "Doenças tireoidianas prévias: Nega\nHistória de irradiação na região de cabeça e pescoço: Nega\nOutras doenças crônicas: Hipertensão arterial sistêmica, controlada com Losartana 50mg/dia\nCirurgias prévias: Apenas cesariana há 15 anos\nAlergias: Nega alergias medicamentosas\nMedicamentos em uso contínuo: Losartana 50mg/dia"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Câncer de tireoide em parentes de primeiro grau: Mãe teve câncer de tireoide, curada há muitos anos. Irmã possui nódulos benignos.\nSíndromes genéticas associadas: Nega conhecimento de síndromes genéticas na família."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nunca fumou\nEtilismo: Socialmente, vinho ocasional (1 taça por semana)\nDrogas ilícitas: Nega uso\nAlimentação: Equilibrada\nAtividade física: Caminha 3 vezes por semana\nSono: Não consta no script"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "Pergunta (1): Doutor(a), o que pode ser esse carocinho?\nPergunta (2): É câncer? Meu Deus!\nPergunta (3): Vou ter que operar? E o que acontece depois da cirurgia? Tem risco de voltar?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est01_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "125 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "78 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "36,7 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "98% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_EXAMEFISICO_2",
+        "tituloImpresso": "Exame Físico Geral e Cervical",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESTADO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Bom estado geral, lúcida, orientada em tempo e espaço, normocorada, hidratada, anictérica, acianótica. Sem sinais de sofrimento agudo."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "CABEÇA E PESCOÇO",
+              "itens": [
+                {
+                  "chave": "Inspeção cervical",
+                  "valor": "Abaulamento discreto em região cervical anterior direita, móvel à deglutição."
+                },
+                {
+                  "chave": "Palpação tireoide",
+                  "valor": "Nódulo único, palpável em lobo direito da tireoide, medindo aproximadamente 2,5 cm, consistência endurecida, limites imprecisos, móvel à deglutição. Ausência de outros nódulos palpáveis no restante da glândula."
+                },
+                {
+                  "chave": "Linfonodos cervicais",
+                  "valor": "Não palpáveis em cadeias cervicais anteriores, laterais ou supraclaviculares."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHOS",
+              "itens": [
+                {
+                  "chave": "Cardiovascular",
+                  "valor": "RCR em 2T, sem sopros."
+                },
+                {
+                  "chave": "Respiratório",
+                  "valor": "MV presente bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdominal",
+                  "valor": "Flácido, indolor à palpação, RHA presentes."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_USG_3",
+        "tituloImpresso": "Ultrassonografia Cervical com Doppler",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM. IMAGEM MERAMENTE ILUSTRATIVA.",
+          "caminhoImagem": "https://www.drsergiomedina.com.br/wp-content/uploads/2021/08/ti-rads.png",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: Ultrassonografia tireoide nódulo TI-RADS 5)",
+          "laudo": "Tireoide tópica, de dimensões e ecotextura preservadas.\nLobo direito: Nódulo sólido, hipoecoico, com microcalcificações e margens irregulares, medindo 2,5 x 1,8 x 2,0 cm. Vascularização central e periférica ao Doppler.\nClassificação TI-RADS: 5 (muito suspeito para malignidade).\nLobo esquerdo: Sem alterações.\nIstmo: Sem alterações.\nLinfonodos cervicais: Linfonodo de aspecto reacional em cadeia cervical bilateral (nível II), sem características suspeitas para metástase (menor que 1,0 cm, formato ovalar, hilo preservado)."
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_LABORATORIAL_5",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "FUNÇÃO TIREOIDIANA",
+              "itens": [
+                {
+                  "chave": "TSH",
+                  "valor": "1,8 µUI/mL (VR: 0,4 - 4,0 µUI/mL)"
+                },
+                {
+                  "chave": "T4 livre",
+                  "valor": "1,2 ng/dL (VR: 0,8 - 1,9 ng/dL)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MARCADORES TUMORAIS",
+              "itens": [
+                {
+                  "chave": "Calcitonina Sérica",
+                  "valor": "5 pg/mL (VR: <10 pg/mL)"
+                },
+                {
+                  "chave": "Tireoglobulina Sérica",
+                  "valor": "35 ng/mL (VR: <30 ng/mL, em pacientes com tireoide intacta)"
+                },
+                {
+                  "chave": "Anticorpos Anti-Tireoglobulina (Anti-Tg)",
+                  "valor": "15 UI/mL (VR: <40 UI/mL)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA BÁSICA",
+              "itens": [
+                {
+                  "chave": "Hemograma",
+                  "valor": "Normal"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (VR: 15 - 45 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0,8 mg/dL (VR: 0,6 - 1,2 mg/dL)"
+                },
+                {
+                  "chave": "Cálcio sérico",
+                  "valor": "9,2 mg/dL (VR: 8,5 - 10,2 mg/dL)"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST01_CM_TIR_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "A paciente Ana Paula Silva, 45 anos, apresenta um nódulo tireoidiano em lobo direito, incidentalmente descoberto. A investigação com ultrassonografia revela características de alto risco (TI-RADS 5) e a PAAF confirma Carcinoma Papilífero de Tireoide (Bethesda VI). Exames laboratoriais de função tireoidiana estão normais, mas a tireoglobulina está discretamente elevada. Há história familiar de câncer de tireoide. O caso exige diagnóstico preciso, comunicação empática e planejamento terapêutico inicial.",
+      "focoPrincipalDetalhado": [
+        "Anamnese direcionada para nódulo tireoidiano e fatores de risco.",
+        "Verbalização de exame físico da região cervical e busca de adenomegalias.",
+        "Interpretação de exames de imagem (USG, TI-RADS) e citopatológico (PAAF, Bethesda).",
+        "Interpretação de exames laboratoriais (função tireoidiana, marcadores tumorais).",
+        "Formulações de hipótese diagnóstica principal e diagnósticos diferenciais.",
+        "Elaboração de plano terapêutico inicial (cirurgia) e seguimento.",
+        "Habilidade de comunicação e acolhimento das dúvidas da paciente."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est01_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e Escuta Inicial:\n(1) Apresenta-se e cumprimenta o paciente simulado;\n(2) Pergunta o nome do paciente e o motivo da consulta;\n(3) Mantém uma escuta ativa, sem interrupções.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza uma ou duas ações.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização do Nódulo Cervical:\n(1) Início do nódulo;\n(2) Percepção e crescimento do nódulo;\n(3) Dor local;\n(4) Rouquidão ou disfonia;\n(5) Disfagia;\n(6) Dispneia;\n(7) Tosse seca;\n(8) Sensação de compressão cervical.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 7 ou 8 características do nódulo e sintomas associados.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 6 características do nódulo e sintomas associados.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 4 características ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Sintomas de Disfunção Tireoidiana:\n(1) Palpitações;\n(2) Perda de peso não intencional;\n(3) Ganho de peso não intencional;\n(4) Intolerância térmica;\n(5) Tremores.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 sintomas de disfunção tireoidiana.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 sintomas de disfunção tireoidiana.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 2 sintomas ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Antecedentes Patológicos Pessoais:\n(1) História de doenças tireoidianas prévias;\n(2) História de irradiação de cabeça e pescoço;\n(3) Outras doenças crônicas ou comorbidades;\n(4) Cirurgias prévias;\n(5) Alergias medicamentosas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 itens de antecedentes pessoais.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 itens de antecedentes pessoais.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 2 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Antecedentes Familiares:\n(1) História de câncer de tireoide em parentes de primeiro grau;\n(2) História familiar de síndromes genéticas associadas (Ex: MEN2).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta os dois itens de antecedentes familiares.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta apenas um item de antecedentes familiares.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Não pergunta nenhum item de antecedentes familiares.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Hábitos de Vida:\n(1) Tabagismo;\n(2) Etilismo;\n(3) Uso de drogas ilícitas;\n(4) Prática de atividade física;\n(5) Padrão alimentar.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 itens de hábitos de vida.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 itens de hábitos de vida.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 2 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicitação e Verbalização do Exame Físico:\n(1) Solicita aferição dos sinais vitais;\n(2) Realiza inspeção cervical (abaulamentos, simetria);\n(3) Realiza palpação da tireoide, caracterizando o nódulo (localização, tamanho, consistência, mobilidade, presença de outros nódulos);\n(4) Realiza palpação de linfonodos cervicais em todas as cadeias.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as quatro ações corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza duas ou três ações corretamente.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Realiza apenas uma ação ou nenhuma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Interpretação dos Impressos de Sinais Vitais e Exame Físico (Impresso 1 e 2):\n(1) Interpreta os sinais vitais;\n(2) Interpreta os achados da inspeção cervical (abaulamento, mobilidade à deglutição);\n(3) Interpreta os achados da palpação da tireoide (nódulo único, lobo direito, 2,5 cm, endurecido, limites imprecisos, móvel);\n(4) Interpreta a ausência de linfonodos cervicais palpáveis.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta os quatro achados corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta dois ou três achados corretamente.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Interpreta apenas um achado ou nenhum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpretação da Ultrassonografia Cervical com Doppler (Impresso 3):\n(1) Interpreta as características ultrassonográficas do nódulo (sólido, hipoecoico, microcalcificações, margens irregulares, vascularização central e periférica);\n(2) Cita a classificação TI-RADS 5 e seu significado (muito suspeito para malignidade);\n(3) Avalia a ausência de linfonodos suspeitos para metástase.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta os três achados corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta um ou dois achados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não interpreta os achados ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Interpretação da Punção Aspirativa por Agulha Fina (PAAF) (Impresso 4):\n(1) Interpreta os achados citopatológicos compatíveis com Carcinoma Papilífero de Tireoide (atipias nucleares, sulcos nucleares, pseudoinclusões nucleares, corpo psamomatoso);\n(2) Cita a classificação de Bethesda VI (Maligno).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta os dois achados corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta apenas um achado corretamente.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não interpreta os achados ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Interpretação dos Exames Laboratoriais (Impresso 5):\n(1) Interpreta TSH e T4 livre (função tireoidiana normal);\n(2) Interpreta Calcitonina sérica (descartando CMT);\n(3) Interpreta Tireoglobulina sérica (discretamente elevada, mas no contexto de tireoide intacta) e Anticorpos Anti-Tireoglobulina (negativos).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta os três grupos de exames corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta um ou dois grupos de exames corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não interpreta os exames laboratoriais ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Hipótese Diagnóstica Principal:\n(1) Estabelece o diagnóstico de Carcinoma Papilífero da Tireoide;\n(2) Menciona o prognóstico favorável da maioria dos casos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Estabelece os dois itens corretamente.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Estabelece apenas um item corretamente.",
+            "pontos": 0.6
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico correto ou omite o prognóstico.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Diagnósticos Diferenciais:\n(1) Nódulo tireoidiano benigno (adenoma folicular, cisto coloide);\n(2) Bócio multinodular;\n(3) Tireoidite (Hashimoto, subaguda).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita dois ou três diagnósticos diferenciais relevantes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita apenas um diagnóstico diferencial relevante.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais relevantes ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Plano de Tratamento - Conduta Cirúrgica:\n(1) Indica a tireoidectomia (total ou hemitireoidectomia, justificando a escolha para a paciente);\n(2) Indica a linfadenectomia cervical (profilática ou terapêutica, se houver indicação baseada nos achados pré-operatórios).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica corretamente os dois itens com justificativa para a paciente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica apenas um item corretamente ou sem justificativa adequada.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não indica a conduta cirúrgica adequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Plano de Tratamento - Complementar e Seguimento:\n(1) Discute a possibilidade de terapia com Iodo Radioativo (I-131) após a cirurgia (se indicado pelo risco de recorrência);\n(2) Menciona a terapia supressiva com Levotiroxina (TSH supressão) e ajuste de dose;\n(3) Orienta sobre o monitoramento com Tireoglobulina e Ultrassonografia cervical no seguimento.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Discute os três itens corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Discute um ou dois itens corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não discute adequadamente o tratamento complementar e seguimento.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Comunicação, Orientações e Respostas a Dúvidas:\n(1) Responde de forma clara e empática às perguntas do paciente simulado;\n(2) Orienta sobre os sinais de alarme para buscar atendimento médico;\n(3) Reforça a importância do seguimento regular.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações corretamente.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza uma ou duas ações corretamente.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "O câncer de tireoide é a neoplasia endócrina mais comum, predominantemente o Carcinoma Diferenciado da Tireoide (CDT), com excelente prognóstico. O diagnóstico inicia com a estratificação de risco de nódulos tireoidianos, principalmente via ultrassonografia (sistema TI-RADS) e confirmação citopatológica por Punção Aspirativa por Agulha Fina (PAAF), classificada pelo sistema de Bethesda. A história clínica deve focar na evolução do nódulo, sintomas compressivos, disfunção tireoidiana, história de irradiação na cabeça/pescoço e antecedentes familiares de câncer de tireoide ou síndromes genéticas. O exame físico busca caracterizar o nódulo (tamanho, consistência, mobilidade), avaliar linfonodos cervicais e a função do nervo laríngeo recorrente. Exames laboratoriais essenciais incluem TSH, T4 livre, Calcitonina (para rastreio de CMT) e Tireoglobulina/Anti-Tg para seguimento. O tratamento de primeira linha para CDT é a cirurgia (tireoidectomia total ou hemitireoidectomia), podendo ser seguida por terapia com Iodo Radioativo (I-131) e terapia supressiva com Levotiroxina. Complicações incluem hipocalcemia e lesão do nervo laríngeo recorrente. O seguimento é crucial, com dosagem de TSH, tireoglobulina e ultrassonografia cervical periódicas. Não há rastreamento populacional recomendado, mas a detecção precoce de nódulos suspeitos é fundamental. O câncer de tireoide é de notificação compulsória para Registros Hospitalares de Câncer e Registros de Câncer de Base Populacional (INCA).",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Atenção à Saúde. Departamento de Atenção Especializada e Temática. Protocolos Clínicos e Diretrizes Terapêuticas em Oncologia: Carcinoma Diferenciado de Tireoide. 2019.",
+        "2. UpToDate: Initial management of thyroid nodules. Acessado em Fevereiro de 2025.",
+        "3. Sociedade Brasileira de Endocrinologia e Metabologia (SBEM). Consenso Brasileiro para a Investigação e Manejo dos Nódulos Tireoidianos e do Câncer Diferenciado de Tireoide. Arquivos Brasileiros de Endocrinologia & Metabologia, v. 60, n. 5, 2016."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "b1454c18-8253-4b82-b5d5-a5e67c0d25ce",
+  "created_at": "2025-08-28T09:54:31.971242",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Câncer de Tireoide",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

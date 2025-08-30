@@ -1,0 +1,639 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_01",
+  "tituloEstacao": "Cefaleia em Trovoada: Hemorragia Subaracnoidea",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Cefaleia em Trovoada, Hemorragia Subaracnoidea, HSA, Neurologia, Urgência, Emergência",
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (Tomografia Computadorizada, Angiografia Cerebral)",
+        "Medicações disponíveis",
+        "Unidade de terapia intensiva",
+        "Centro de Neurocirurgia/Neurorradiologia Intervencionista"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 45 anos, sexo feminino, chega à emergência acompanhada pelo marido, referindo início súbito de uma forte dor de cabeça.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal da paciente.",
+      "Solicitar os exames físicos necessários à avaliação do caso, incluindo o exame neurológico.",
+      "Solicitar e Interpretar exames complementares pertinentes ao caso clínico.",
+      "Estabelecer o diagnóstico principal e os diagnósticos diferenciais mais relevantes.",
+      "Elaborar o plano terapêutico inicial e definitivo para o caso.",
+      "Prestar as orientações necessárias à paciente e seu acompanhante."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com a pior dor de cabeça da minha vida, doutor(a)!"
+      },
+      {
+        "contextoOuPerguntaChave": "Cefaleia (Dor de Cabeça)",
+        "informacao": "Início: 'Começou de repente, do nada, como um trovão na minha cabeça, doutor(a). Nunca senti nada parecido. Foi a pior dor da minha vida'.\nLocalização: 'Dói na cabeça inteira, mas sinto que começou mais forte na nuca, e agora parece que explode tudo'.\nIntensidade: 'É 10/10, insuportável. Eu estava fazendo um esforço para levantar uma caixa quando começou'.\nCaracterística ou Tipo da dor: 'É uma dor pulsátil, como se meu cérebro estivesse batendo lá dentro'.\nIrradiação: 'Não irradia para outro lugar, fica só na cabeça mesmo'.\nDuração: 'Durou menos de um minuto para atingir o máximo, mas já faz umas 2 horas que começou e ainda está muito forte'.\nProgressão: 'Não está melhorando, só piora com qualquer coisa'.\nFrequencia: 'É a primeira vez que tenho uma dor assim tão forte'.\nFator Desencadeante: 'Eu estava fazendo um esforço físico para levantar uma caixa pesada'.\nFator de piora ou agravante: 'Qualquer movimento, luz forte ou barulho pioram muito a dor'.\nFator de melhora ou atenuante: 'Só um pouco quando fico deitada no escuro e em silêncio, mas não alivia de verdade'.\nEpisódios prévios: 'Não, nunca tive nada assim'.\nMedicação de alivio: 'Tomei um analgésico que tinha em casa, um comprimido de dipirona, mas não fez efeito nenhum'."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES (descreva os sintomas acompanhantes do motivo de consulta 'HDA')",
+        "informacao": "Náuseas: 'Sim, estou com muito enjoo'.\nVômitos: 'Vomitei uma vez no caminho para cá'.\nFotofobia: 'Sim, a luz me incomoda muito'.\nFonofobia: 'Sim, qualquer barulho me irrita'.\nRigidez de nuca: 'Não sei dizer, mas sinto a nuca bem dolorida e dura'.\nAlteração do nível de consciência: 'Não, não desmaiei, mas me senti muito tonta na hora'.\nDéficits neurológicos focais: 'Não, não sinto fraqueza ou dormência em nenhum lugar, e estou enxergando normal'.\nConvulsões: 'Não, não tive nenhuma convulsão'.\nFebre: 'Não, não tive febre'.\nMal-estar geral: 'Sim, me sinto muito mal, muito prostrada'."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos (item obrigatório)",
+        "informacao": "Doenças crônicas: 'Sou hipertensa há 10 anos, mas não controlo muito bem a pressão. Não tenho diabetes, dislipidemia ou doenças renais'.\nCirurgias prévias: 'Só uma cesariana há 15 anos'.\nInternações: 'Nenhuma internação hospitalar significativa'.\nAlergias: 'Nenhuma alergia conhecida'.\nMedicamentos em uso contínuo: 'Só tomo Losartana 50mg uma vez ao dia para a pressão, mas às vezes esqueço'.\nVacinação: 'Vacinação em dia, inclusive da gripe e COVID-19'.\nTrauma: 'Nega traumas recentes na cabeça ou em outro lugar'.\nTransfusões: 'Nega transfusões anteriores'."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA'(ITEM OBRIGATÓRIO)",
+        "informacao": "Tabagismo: 'Sim, fumo um maço de cigarros por dia há uns 20 anos'.\nEtilismo: 'Bebo socialmente nos finais de semana, mas nada excessivo'.\nDrogas ilícitas: 'Nega uso de drogas ilícitas'.\nAlimentação: 'Minha alimentação não é muito saudável, como bastante fast food e coisas industrializadas'.\nAtividade física: 'Sou sedentária, não pratico exercícios físicos regularmente'.\nSono: 'Durmo em média 6-7 horas por noite, mas me sinto cansada'.\nHábitos urinários: 'Normais, não tenho alterações'.\nHábitos intestinais: 'Normais, intestino funciona bem'.\nIngestão hídrica: 'Bebo pouca água ao longo do dia'.\nExposição ocupacional: 'Trabalho em escritório, sem exposição a agentes químicos'.\nEstresse: 'Sim, sou uma pessoa muito estressada com o trabalho e a vida em geral'."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: 'Meu pai teve um AVC aos 60 anos'.\nMãe: 'Minha mãe tem pressão alta'.\nDoenças (especificas com relação e relevante ao caso) na família: 'Minha tia materna teve um aneurisma cerebral que rompeu há alguns anos'.\nHistoria de cancêr na família: 'Nega história de câncer na família'.\nIrmãos ou tias: 'Tenho uma tia que teve aneurisma cerebral'."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS (apenas para mulheres quando relevante)",
+        "informacao": "Gestações: 'Uma gestação'.\nPartos: 'Um parto (cesárea)'.\nAbortos: 'Nega abortos'.\nCesáreas: 'Uma cesárea'.\nData da Última Menstruação (DUM): 'Há 15 dias'.\nMenarca: 'Aos 13 anos'.\nCiclos menstruais: 'Regulares'.\nSexarca: 'Aos 18 anos'.\nTelarca: 'Normal'.\nPubarca: 'Normal'.\nAtividade sexual: 'Sexualmente ativa'.\nParceiros: 'Um parceiro fixo'.\nUso de contraceptivos: 'Não uso contraceptivos hormonais, apenas camisinha ocasionalmente'.\nUso de preservativos: 'Ocasionalmente'.\nExames preventivos: 'Papanicolau há 1 ano, normal; nunca fiz mamografia'.\nHistórico de IST: 'Nega histórico de IST'."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR: (Ex: Se o candidato solicitar o resultado dos exames trazidos libere o impresso (x) / Ex: Após o candidato solicitar o exame X responda 'considere solicitado' ou 'considere realizado o procedimento'.)",
+        "informacao": "Se o candidato solicitar 'Sinais Vitais' ou 'Exame Físico', libere o impresso 'est1_impresso_SINAISVITAIS_1'.\nSe o candidato solicitar 'Exames Laboratoriais' ou 'Exames de Sangue', libere o impresso 'est1_impresso_LABORATORIO_2'.\nSe o candidato solicitar 'Tomografia de Crânio' ou 'TC de Crânio', libere o impresso 'est1_impresso_IMAGEM_TC_3'.\nSe o candidato solicitar 'Punção Lombar' e a TC de crânio já tiver sido liberada e for normal, verbalize: 'O líquor apresentou xantocromia, com presença de hemácias nos três tubos, que não diminuíram na contagem sequencial'.\nSe o candidato solicitar 'Angiografia Cerebral' ou 'Angio-TC', 'Angio-RM', 'Arteriografia Cerebral', libere o impresso 'est1_impresso_ANGIOGRAFIA_4'.\nSe o candidato perguntar sobre o nível de consciência, diga: 'Paciente lúcida e orientada no momento, mas um pouco sonolenta e irritada pela dor'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE: (ex: Dúvidas do ator sobre medicamentos, exames, condutas, etc., Perguntar após o atendimento se o candidato realizar a anamnese/exame fisico/conduta/tratamento/, Ex: Após o candidato realizar a anamnese, pergunte o que o paciente tem / Ex: Após realizar o diagnostico, pergunta se o que voce tem é grave, ou se tem complicações, ou se nao poderia ser outra coisa.)",
+        "informacao": "pergunta (1): 'Doutor(a), o que eu tenho? Essa dor me assustou muito.'\npergunta (2): 'É grave? Tem cura?'\npergunta (3): 'Vou precisar de cirurgia?'\npergunta (4): 'O que eu faço para evitar que isso aconteça de novo?'"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "180 × 100 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "58 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "14 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 %"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Paciente em regular estado geral, lúcida, orientada, Glasgow 15, com expressão de dor, levemente taquipneica."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Pupilas isocóricas e fotorreagentes. Rigidez de nuca presente. Sinais de Kernig e Brudzinski positivos. Sem outros achados relevantes."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Bulhas cardíacas rítmicas, normofonéticas, em 2 tempos, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação, ruídos hidroaéreos presentes, sem visceromegalias."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edemas, sem sinais de trombose venosa profunda. Força e sensibilidade preservadas globalmente."
+                },
+                {
+                  "chave": "Exame Neurológico",
+                  "valor": "Pares cranianos preservados. Força muscular grau V em todos os quatro membros. Sensibilidade preservada. Reflexos profundos simétricos. Sem déficits focais aparentes. Ataxia de marcha não avaliável devido à dor."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "13.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "13.2 g/dL (Ref: 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "140 mEq/L (Ref: 135-145)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "4.2 mEq/L (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "Glicose",
+                  "valor": "110 mg/dL (Ref: 70-99)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "COAGULOGRAMA",
+              "itens": [
+                {
+                  "chave": "TAP",
+                  "valor": "12.5 s (Ref: 11-15 s)"
+                },
+                {
+                  "chave": "INR",
+                  "valor": "1.0 (Ref: 0.8-1.2)"
+                },
+                {
+                  "chave": "PTTa",
+                  "valor": "30 s (Ref: 25-35 s)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_TC_3",
+        "tituloImpresso": "Tomografia Computadorizada de Crânio sem Contraste",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Imagens axiais de TC de crânio mostrando hiperdensidade no espaço subaracnoideo.",
+          "caminhoImagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Subarachnoid_haemorrhage_1.jpg/800px-Subarachnoid_haemorrhage_1.jpg",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: TC de crânio mostrando hiperdensidade no espaço subaracnoideo, hemorragia subaracnoidea TC)",
+          "laudo": "ACHADOS:\nSinais de hemorragia no espaço subaracnoideo, predominantemente nas cisternas da base e na fissura de Sylvius. Não há evidência de hidrocefalia ou sangramento intraparenquimatoso significativo. Sistema ventricular e sulcos corticais de morfologia e dimensões usuais para a idade.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ANGIOGRAFIA_4",
+        "tituloImpresso": "Arteriografia Cerebral Digital",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Imagens da angiografia cerebral mostrando um aneurisma sacular.",
+          "caminhoImagem": "https://www.intechopen.com/media/chapter/52775/media/F3.png",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: Arteriografia cerebral aneurisma sacular artéria comunicante anterior)",
+          "laudo": "Presença de aneurisma sacular com 6mm de diâmetro localizado na artéria comunicante anterior. Demais vasos cerebrais com calibre e trajeto normais, sem outras alterações vasculares."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_HSA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina, 45 anos, com cefaleia em trovoada após esforço, hipertensa e tabagista. Apresenta rigidez de nuca, sinais de Kernig e Brudzinski positivos. Exames laboratoriais com leucocitose leve. TC de crânio confirma hemorragia subaracnoidea. Angiografia revela aneurisma em artéria comunicante anterior.",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada e dirigida para cefaleia em trovoada e fatores de risco de HSA.",
+        "Realização e interpretação de exame físico neurológico com ênfase em sinais meníngeos.",
+        "Solicitação e interpretação de exames complementares essenciais (TC de crânio, Punção Lombar se TC normal, Angiografia cerebral).",
+        "Estabelecimento do diagnóstico de Hemorragia Subaracnoidea aneurismática e diferenciais.",
+        "Manejo clínico inicial e proposta de tratamento definitivo e de complicações."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e estabelecimento de vínculo:\n(1) Apresenta-se e cumprimenta o paciente simulado;\n(2) Dirige-se ao paciente pelo nome e demonstra empatia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações de forma completa.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma das ações de forma completa.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, investigando as características da cefaleia em trovoada:\n(1) Início (súbito, o pior da vida);\n(2) Intensidade (grave, 10/10);\n(3) Localização;\n(4) Tipo/Característica (pulsátil, explosão);\n(5) Irradiação;\n(6) Duração e progressão (atinge o máximo em <1min);\n(7) Fatores desencadeantes (esforço físico, sexual, estresse);\n(8) Fatores de piora/melhora;\n(9) Episódios prévios (cefaleia sentinela ou dor atípica).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 7 ou mais dos 9 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 6 dos 9 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos dos 9 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Investiga sintomas associados à cefaleia:\n(1) Náuseas e/ou vômitos;\n(2) Fotofobia e/ou fonofobia;\n(3) Rigidez de nuca (ou dor/dificuldade de movimento do pescoço);\n(4) Alteração do nível de consciência (síncope, desmaio, tontura);\n(5) Déficits neurológicos focais (fraqueza, parestesias, alterações visuais);\n(6) Convulsões.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou 6 dos 6 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 dos 6 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos dos 6 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Investiga antecedentes pessoais patológicos relevantes:\n(1) Hipertensão arterial sistêmica (HAS) e seu controle;\n(2) Dislipidemia;\n(3) Diabetes Mellitus;\n(4) Doenças renais (ex: doença renal policística);\n(5) Coarctação da aorta;\n(6) Uso de anticoagulantes ou antiagregantes plaquetários.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou 6 dos 6 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 dos 6 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos dos 6 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Investiga hábitos de vida relevantes:\n(1) Tabagismo (quantidade e tempo de uso);\n(2) Etilismo;\n(3) Uso de drogas ilícitas (especialmente cocaína e anfetaminas);\n(4) Sedentarismo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 dos 4 itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 dos 4 itens.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos dos 4 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Investiga antecedentes familiares relevantes:\n(1) História de aneurismas cerebrais na família (parentes de primeiro grau);\n(2) História de HSA na família;\n(3) História de AVC na família.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 dos 3 itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 dos 3 itens.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos dos 3 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita e interpreta os Sinais Vitais e o Exame Físico Geral, identificando:\n(1) Hipertensão arterial;\n(2) Bradicardia (ou alterações respiratórias se a Tríade de Cushing estivesse completa);\n(3) Nível de consciência (Escala de Coma de Glasgow).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita o impresso de Sinais Vitais e Exame Físico e interpreta corretamente 3 dos 3 achados.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita o impresso de Sinais Vitais e Exame Físico e interpreta corretamente 2 dos 3 achados.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita o impresso ou interpreta 1 ou menos dos 3 achados ou não interpreta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita e interpreta o Exame Neurológico direcionado e Sinais de Irritação Meníngea:\n(1) Rigidez de nuca;\n(2) Sinal de Kernig;\n(3) Sinal de Brudzinski;\n(4) Avaliação de déficits neurológicos focais (pares cranianos, força, sensibilidade, reflexos).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita o exame físico e interpreta corretamente 4 dos 4 achados no impresso.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita o exame físico e interpreta corretamente 2 ou 3 dos 4 achados no impresso.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita o exame ou interpreta 1 ou menos dos 4 achados ou não interpreta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e interpreta exames laboratoriais de rotina:\n(1) Hemograma completo (com atenção a leucocitose reacional);\n(2) Eletrólitos (sódio, potássio, com atenção a hiponatremia);\n(3) Coagulograma (TAP, PTTa, INR);\n(4) Função renal (ureia, creatinina);\n(5) Glicemia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita o impresso de Exames Laboratoriais e interpreta corretamente 4 ou 5 dos 5 grupos de exames.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita o impresso de Exames Laboratoriais e interpreta corretamente 2 ou 3 dos 5 grupos de exames.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita o impresso ou interpreta 1 ou menos dos 5 grupos de exames ou não interpreta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita e interpreta a Tomografia Computadorizada (TC) de crânio sem contraste:\n(1) Indicação da TC como exame de primeira linha para HSA;\n(2) Interpretação dos achados da TC (sangue no espaço subaracnoideo: cisternas da base, fissuras, sulcos); \n(3) Identificação de possíveis complicações iniciais na TC (hidrocefalia, hematoma).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita o impresso de TC de Crânio e interpreta corretamente 3 dos 3 achados no laudo/imagem.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita o impresso de TC de Crânio e interpreta corretamente 2 dos 3 achados no laudo/imagem.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não solicita o impresso ou interpreta 1 ou menos dos 3 achados ou não interpreta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Verbaliza a necessidade de Punção Lombar (PL) se a TC de crânio fosse normal e interpreta o achado de xantocromia como diagnóstico de HSA.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a necessidade de PL e interpreta a xantocromia corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza a necessidade de PL, mas não especifica a xantocromia ou a interpretação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a necessidade de PL ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Solicita e interpreta a Angiografia Cerebral (TC-Angiografia, RM-Angiografia ou Arteriografia Cerebral Digital) para identificar a fonte do sangramento:\n(1) Indicação correta do exame após confirmação de HSA;\n(2) Interpretação do achado de aneurisma cerebral (localização, tamanho, morfologia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita o impresso de Angiografia Cerebral e interpreta corretamente 2 dos 2 achados no laudo/imagem.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita o impresso de Angiografia Cerebral e interpreta corretamente 1 dos 2 achados no laudo/imagem.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não solicita o impresso ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Estabelece o diagnóstico principal correto e completo:\n(1) Hemorragia Subaracnoidea (HSA);\n(2) Provável causa aneurismática.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico principal completo.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza apenas 'Hemorragia Subaracnoidea'.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes de cefaleia em trovoada:\n(1) Cefaleia em trovoada primária;\n(2) Síndrome de Vasoconstrição Cerebral Reversível (RCVS);\n(3) Dissecção arterial cervical;\n(4) Trombose Venosa Cerebral (TVC);\n(5) Meningoencefalite aguda;\n(6) Crise hipertensiva com encefalopatia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 4 ou mais dos 6 diagnósticos diferenciais.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 2 ou 3 dos 6 diagnósticos diferenciais.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Cita 1 ou menos dos 6 diagnósticos diferenciais ou não cita item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Inicia o manejo agudo e suporte do paciente:\n(1) Controle da pressão arterial (manter PA sistólica < 160 mmHg, evitar hipotensão);\n(2) Controle da dor (analgesia adequada);\n(3) Controle de náuseas e vômitos (antieméticos);\n(4) Monitorização neurológica rigorosa.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica 4 dos 4 itens do manejo agudo.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica 2 ou 3 dos 4 itens do manejo agudo.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Indica 1 ou menos dos 4 itens do manejo agudo ou não indica item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Propõe o tratamento definitivo da fonte do sangramento:\n(1) Clipagem cirúrgica do aneurisma;\n(2) Embolização endovascular com molas (coils);\n(3) Menciona que a escolha depende de fatores como localização, tamanho e condição do paciente.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica 3 dos 3 itens do tratamento definitivo.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica 2 dos 3 itens do tratamento definitivo.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Indica 1 ou menos dos 3 itens do tratamento definitivo ou não indica item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Propõe o manejo de complicações, especificamente o vasoespasmo cerebral:\n(1) Uso de Nimodipino oral;\n(2) Manutenção de euvolemia e normonatremia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica 2 dos 2 itens do manejo de vasoespasmo.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica 1 dos 2 itens do manejo de vasoespasmo.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Não indica item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item18",
+        "itemNumeroOficial": "18",
+        "descricaoItem": "Verbaliza a necessidade/ausência de notificação compulsória ao SINAN e seu racional para o caso específico de HSA não traumática.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza corretamente que HSA não traumática não é de notificação compulsória.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza que não é notificação compulsória, mas sem racional claro.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Verbaliza a necessidade de notificação compulsória ou não aborda o tema.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item19",
+        "itemNumeroOficial": "19",
+        "descricaoItem": "Fornece orientações e encaminhamentos adequados:\n(1) Encaminhamento urgente para centro de referência (neurocirurgia/neurorradiologia intervencionista);\n(2) Orientações sobre controle de fatores de risco (cessação do tabagismo, controle da PA);\n(3) Orientações sobre o seguimento neurológico e neurocirúrgico.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Fornece 3 dos 3 itens de orientações e encaminhamentos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Fornece 2 dos 3 itens de orientações e encaminhamentos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Fornece 1 ou menos dos 3 itens de orientações e encaminhamentos ou não fornece item algum.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Hemorragia Subaracnoidea (HSA) é uma emergência neurológica, frequentemente causada pela ruptura de um aneurisma cerebral. A cefaleia em trovoada, caracterizada por início súbito e intensidade máxima em menos de um minuto, é o sintoma cardinal e exige investigação imediata. A anamnese deve ser detalhada, focando nas características da dor, sintomas associados como náuseas, vômitos, fotofobia, fonofobia e alteração do nível de consciência, além de fatores desencadeantes e presença de cefaleia 'sentinela' prévia. Fatores de risco como hipertensão arterial não controlada, tabagismo, uso de drogas ilícitas e história familiar de aneurisma ou HSA são cruciais.\nO exame físico deve incluir avaliação do nível de consciência (Glasgow) e busca ativa por sinais de irritação meníngea (rigidez de nuca, Kernig, Brudzinski) e déficits neurológicos focais. Sinais vitais podem revelar hipertensão arterial e bradicardia (Tríade de Cushing).\nO diagnóstico é confirmado inicialmente pela Tomografia Computadorizada (TC) de crânio sem contraste, que possui alta sensibilidade nas primeiras 6-12 horas. Se a TC for normal, mas a suspeita clínica persistir, a Punção Lombar (PL) com pesquisa de xantocromia é mandatória. Uma vez confirmada a HSA, a Angiografia Cerebral (TC-Angiografia, RM-Angiografia ou Arteriografia Digital) é essencial para identificar a fonte do sangramento, geralmente um aneurisma.\nOs diagnósticos diferenciais de cefaleia em trovoada incluem cefaleia primária em trovoada, Síndrome de Vasoconstrição Cerebral Reversível (RCVS), dissecção arterial, trombose venosa cerebral e meningoencefalite. O tratamento inicial visa a estabilização do paciente, controle da pressão arterial (PA sistólica < 160 mmHg), analgesia e prevenção de ressangramento através do tratamento definitivo do aneurisma, que pode ser feito por clipagem cirúrgica ou embolização endovascular. A prevenção do vasoespasmo cerebral, uma complicação comum, é realizada com Nimodipino oral e manutenção da euvolemia/normonatremia. Outras complicações como hidrocefalia devem ser manejadas ativamente. O paciente deve ser encaminhado a um centro especializado com capacidade neurocirúrgica e neurorradiológica intervencionista. HSA não traumática não é uma doença de notificação compulsória no SINAN.\n",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Portaria nº 204, de 17 de fevereiro de 2016. Define a Lista Nacional de Doenças e Agravos de Notificação Compulsória.",
+        "2. AHA/ASA Guidelines for the Management of Aneurysmal Subarachnoid Hemorrhage. Stroke. 2012;43:1711-1737. (Atualizadas periodicamente, consultar versão mais recente).",
+        "3. UpToDate. Clinical manifestations and diagnosis of aneurysmal subarachnoid hemorrhage. Disponível em: www.uptodate.com. Acesso em: [Data do acesso].",
+        "4. Machado, André Ricardo et al. Hemorragia subaracnoidea aneurismática: uma revisão da literatura. Brazilian Journal of Health Review, Curitiba, v. 6, n. 4, p. 15306-15320, jul./ago. 2023."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "fd87fa99-fce0-4b0f-9e87-8474c352b05f",
+  "created_at": "2025-08-28T13:59:04.973242",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Cefaleia em trovoada: Hemorragia subaracnoidea",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

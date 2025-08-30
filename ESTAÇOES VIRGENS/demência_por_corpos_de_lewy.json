@@ -1,0 +1,625 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_01",
+  "tituloEstacao": "Demência por Corpos de Lewy",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "demência",
+    "corpos de lewy",
+    "DCL",
+    "neurologia",
+    "clínica médica",
+    "atenção terciária"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem",
+        "Medicações disponíveis para tratamento de demências e sintomas associados"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente idoso(a) comparece à consulta com familiar referindo alterações cognitivas progressivas e flutuantes, acompanhadas de outros sintomas. O objetivo é realizar a avaliação clínica e estabelecer um plano de manejo.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente e seu histórico médico.",
+      "Realizar o exame físico e verbalizar os achados relevantes.",
+      "Solicitar e interpretar exames complementares pertinentes ao caso clínico.",
+      "Estabelecer o diagnóstico e os principais diagnósticos diferenciais.",
+      "Definir a conduta terapêutica e as orientações para o paciente e seu familiar."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "O paciente está acompanhado pela filha, que pode complementar informações."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com a cabeça meio aérea e minhas lembranças não estão muito boas, sabe? E às vezes eu vejo umas coisas que não estão lá..."
+      },
+      {
+        "contextoOuPerguntaChave": "DECLÍNIO COGNITIVO E FLUTUAÇÕES",
+        "informacao": "Início: Começou de mansinho, faz uns dois ou três anos, mas agora está bem mais difícil.\nProgressão: Está sempre piorando, mas tem dias que eu estou mais lúcido e dias que estou bem confuso, parece que minha cabeça 'liga e desliga'.\nDificuldade: Doutor(a), tenho dificuldade de prestar atenção, me perco fácil, e para planejar as coisas ou fazer algo novo, é um martírio. Minha memória até que não está tão ruim para coisas antigas, mas o 'agora' está complicado.\nFlutuações Cognitivas: Sim, é o que mais me incomoda. Tem dias que estou super bem, conversando, entendendo tudo. No outro dia, acordo grogue, sonolento, quase não raciocino. Minha filha diz que sou 'duas pessoas' diferentes."
+      },
+      {
+        "contextoOuPerguntaChave": "ALUCINAÇÕES VISUAIS RECORRENTES",
+        "informacao": "Início: Começaram há cerca de um ano, mas já aconteciam antes de ficar tão ruim da cabeça.\nCaracterística: Eu vejo pessoas sentadas no sofá que não estão lá, ou uns cachorros brincando no jardim. São bem nítidas, parecem reais, mas sei que não são. Elas não me assustam, só me confundem.\nFrequência: Quase todo dia acontece, principalmente no fim da tarde ou à noite."
+      },
+      {
+        "contextoOuPerguntaChave": "PARKINSONISMO ESPONTÂNEO",
+        "informacao": "Início: Notei tremores nas mãos e me sinto mais lento faz uns 8 meses. Isso começou depois que minha cabeça já estava ruim.\nLocalização: Mais nas mãos, e me sinto rígido, duro para andar e me virar.\nSintomas: Tenho dificuldade para começar a andar, e meus passos são curtos. Às vezes, me desequilibro fácil."
+      },
+      {
+        "contextoOuPerguntaChave": "DISTÚRBIO COMPORTAMENTAL DO SONO REM (DCS-REM)",
+        "informacao": "Início: Minha esposa sempre reclamou que eu dou socos e chutes enquanto durmo, e grito muito. Ela diz que pareço estar atuando os sonhos. Isso acontece há anos, muito antes dessas coisas da cabeça."
+      },
+      {
+        "contextoOuPerguntaChave": "DISAUTONOMIA",
+        "informacao": "Hipotensão Ortostática: Quando levanto muito rápido, a vista escurece e sinto que vou desmaiar. Já caí algumas vezes por causa disso.\nIntestino: Sou bem constipado, sempre tive dificuldade para ir ao banheiro, mas piorou bastante.\nUrinário: Às vezes perco urina sem sentir, principalmente à noite."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS NEUROPSIQUIÁTRICOS",
+        "informacao": "Humor: Sinto-me muito para baixo, triste e sem vontade de fazer nada. Fico muito ansioso também.\nDelírios: Tenho a impressão de que minha filha está me roubando, ou que as pessoas estão tramando contra mim, mesmo sem ter motivo."
+      },
+      {
+        "contextoOuPerguntaChave": "SENSIBILIDADE A ANTIPSICÓTICOS",
+        "informacao": "História: Uma vez me deram um remédio para agitação e eu fiquei muito duro, não conseguia me mexer e parecia que estava 'ligado no 220'. Foi horrível."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES (descreva os sintomas acompanhantes do motivo de consulta 'HDA')",
+        "informacao": "Tosse: Nega\nFebre: Nega\nDor no peito: Nega\nPerda de peso recente não intencional: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos (item obrigatório)",
+        "informacao": "Doenças crônicas: Hipertensão controlada com medicação.\nCirurgias prévias: Apenas apendicectomia na juventude.\nInternações: Nenhuma relevante, exceto pela reação ao antipsicótico.\nAlergias: Nega alergias conhecidas a medicamentos ou alimentos.\nMedicamentos em uso contínuo: Losartana para pressão. Não uso nenhum outro.\nVacinação: Todas em dia, inclusive da gripe e pneumonia.\nTrauma: Nega traumas recentes.\nTransfusões: Nega transfusões prévias."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Tipo do parto: Não consta\nTempo de Gestação: Não consta\nIntercorrências neonatais: Não consta\nHábitos sexuais: Não consta\nHábitos urinários: Tenho incontinência urinária de urgência e às vezes perco urina ao tossir.\nHábitos intestinais: Constipação crônica, com evacuações a cada 3-4 dias.\nIngestão hídrica: Bebo pouca água, uns 4 copos por dia.\nExposição ocupacional: Aposentado, era contador. Nega exposição a substâncias.\nEstresse: Sinto muito estresse com a minha condição e com as brigas em casa por causa dos meus esquecimentos."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA (ITEM OBRIGATÓRIO)",
+        "informacao": "Tabagismo: Ex-fumante há 20 anos (fumou 1 maço/dia por 30 anos).\nEtilismo: Nega etilismo.\nDrogas ilícitas: Nega uso de drogas ilícitas.\nAlimentação: Regular, mas minha filha reclama que como pouco e sou seletivo.\nAtividade física: Caminhava antes, agora quase não consigo pela lentidão e medo de cair.\nSono: Durmo mal, minha esposa diz que eu me debato muito. Tenho sonolência diurna excessiva."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Faleceu de infarto, tinha hipertensão.\nMãe: Faleceu de causas naturais, sem história de demência.\nDoenças (especificas com relação e relevante ao caso) na família: Nega histórico familiar de demência ou Parkinson.\nHistoria de cancêr na família: Nega.\nIrmãos ou tias: Nega relevância."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato perguntar sobre queda de pressão ao levantar, descreva 'A pressão arterial cai de 150/90 mmHg sentado para 110/70 mmHg em pé após 3 minutos'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho?.\npergunta (2): É uma demência igual à do Alzheimer?.\npergunta (3): Tem cura ou tratamento?.\npergunta (4): Vou ficar dependente?.\npergunta (5): Minha filha me disse para perguntar se essa doença pode piorar rápido com alguns remédios."
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "150x90 mmHg (sentado) / 110x70 mmHg (em pé após 3 min)"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "78 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Idoso, vigil, orientado, com lentidão psicomotora e fácies hipomímica. Pele hidratada. Mucosas normocoradas."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Sem alterações."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Bulhas rítmicas, normofonéticas, sem sopros. Pulsos periféricos presentes e simétricos."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação, ruídos hidroaéreos diminuídos."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Rigidez axial e apendicular (sinal da roda denteada bilateralmente), bradicinesia, discreto tremor de repouso em membros superiores. Instabilidade postural com tendência a retropulsão. Marcha com passos curtos e arrastados."
+                },
+                {
+                  "chave": "Sinais de Inflamação",
+                  "valor": "Nega."
+                },
+                {
+                  "chave": "Edema",
+                  "valor": "Nega."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais Básicos",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "6.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.2 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "95 mg/dL (Ref: 70-99)"
+                },
+                {
+                  "chave": "TSH",
+                  "valor": "2.1 mUI/L (Ref: 0.4-4.0)"
+                },
+                {
+                  "chave": "Vitamina B12",
+                  "valor": "400 pg/mL (Ref: 200-900)"
+                },
+                {
+                  "chave": "Folato",
+                  "valor": "10 ng/mL (Ref: >4.0)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SOROLOGIAS (EXCLUSÃO)",
+              "itens": [
+                {
+                  "chave": "VDRL",
+                  "valor": "Não Reagente"
+                },
+                {
+                  "chave": "Anti-HIV",
+                  "valor": "Não Reagente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_TC_3",
+        "tituloImpresso": "Tomografia Computadorizada de Crânio",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Apresenta cortes axiais de TC de crânio. Imagem para interpretação do candidato.",
+          "caminhoImagem": "https://www.neurorradiologia.com.br/wp-content/uploads/2014/10/Demencia-02.jpg",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: TC crânio atrofia cortical leve difusa DCL relativa preservação hipocampal)",
+          "laudo": "ACHADOS:\nAtrofia cortical leve difusa, mais proeminente em regiões posteriores. Relativa preservação volumétrica dos hipocampos. Ausência de lesões vasculares agudas, tumores ou hidrocefalia.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_PET_FDG_4",
+        "tituloImpresso": "PET com FDG (Fluorodesoxiglicose)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Imagens de PET com FDG cerebral. Imagem para interpretação do candidato.",
+          "caminhoImagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SPECT-Dementia-Lewy-bodies-Alzheimer.jpg/300px-SPECT-Dementia-Lewy-bodies-Alzheimer.jpg",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: PET FDG hipometabolismo occipital cíngulo posterior DCL)",
+          "laudo": "Hipometabolismo predominantemente nas regiões occipital e do cíngulo posterior, com relativa preservação do córtex mesial temporal."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_DAT_SCAN_5",
+        "tituloImpresso": "SPECT ou PET com ligantes de transportador de dopamina (DAT-Scan)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Imagens de DAT-Scan cerebral. Imagem para interpretação do candidato.",
+          "caminhoImagem": "https://neurorradiologia.com.br/wp-content/uploads/2016/09/DATScan_Parkinson_demencia_corpos_Lewy.jpg",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: DAT-Scan redução captação dopamina gânglios base putâmen DCL)",
+          "laudo": "Redução bilateral da captação do transportador de dopamina nos gânglios da base, mais notável nos putâmens."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_DCL_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente idoso com quadro de demência progressiva, flutuações cognitivas marcadas, alucinações visuais recorrentes e parkinsonismo de início recente (menos de 1 ano após o declínio cognitivo). Apresenta também histórico de distúrbio comportamental do sono REM (DCS-REM), disautonomia e sensibilidade a antipsicóticos. Exames de imagem corroboram o diagnóstico de Demência por Corpos de Lewy.",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada para identificação dos sintomas cardinais e sugestivos da DCL.",
+        "Exame físico neurológico direcionado para avaliar parkinsonismo e disautonomia.",
+        "Solicitação e interpretação de exames complementares (laboratoriais de exclusão e neuroimagem específica).",
+        "Formulação do diagnóstico e consideração de diagnósticos diferenciais.",
+        "Estabelecimento de conduta terapêutica e orientações, com ênfase na sensibilidade a antipsicóticos."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se e (2) cumprimenta o paciente simulado e sua acompanhante.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, investigando as características do declínio cognitivo e flutuações de alerta:\n(1) início;\n(2) progressão;\n(3) tipo de dificuldades cognitivas (atenção, executivas, visuoespaciais, memória);\n(4) variação proeminente na atenção e alerta (dias bons/ruins, sonolência/clareza).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 aspectos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 ou 2 aspectos.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Não pergunta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, investigando as características das alucinações visuais:\n(1) início;\n(2) frequência;\n(3) tipo/conteúdo (bem formadas, detalhadas, não ameaçadoras);\n(4) impacto (confusão, medo).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 aspectos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 ou 2 aspectos.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Não pergunta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza anamnese, investigando as características do parkinsonismo:\n(1) início (se antes ou depois do declínio cognitivo e tempo);\n(2) bradicinesia (lentidão);\n(3) rigidez;\n(4) tremor de repouso;\n(5) instabilidade postural.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não pergunta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Realiza anamnese, investigando sobre distúrbio comportamental do sono REM (DCS-REM) e disautonomia:\n(1) atuação de sonhos (gritos, socos, pontapés) durante o sono e seu início;\n(2) hipotensão ortostática (tontura ao levantar, síncope, quedas);\n(3) constipação;\n(4) incontinência urinária/disfunção erétil.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 aspectos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 ou 2 aspectos.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Não pergunta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Realiza anamnese, investigando sobre sensibilidade a antipsicóticos e sintomas neuropsiquiátricos:\n(1) história de reações adversas a antipsicóticos;\n(2) depressão;\n(3) ansiedade;\n(4) apatia;\n(5) delírios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não pergunta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Realiza anamnese sobre antecedentes pessoais, familiares e hábitos de vida:\n(1) doenças crônicas (hipertensão, diabetes, etc.);\n(2) medicamentos em uso;\n(3) histórico familiar de demência ou Parkinson;\n(4) tabagismo/etilismo;\n(5) qualidade do sono.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não pergunta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Verbaliza a realização do exame físico direcionado, incluindo:\n(1) avaliação do estado geral e nível de alerta;\n(2) avaliação da pressão arterial deitado e em pé para hipotensão ortostática;\n(3) exame neurológico (atenção, funções executivas, habilidades visuoespaciais);\n(4) avaliação motora (bradicinesia, rigidez, tremor, instabilidade postural, marcha);\n(5) avaliação de reflexos pupilares e outros sinais de disautonomia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza 4 ou 5 aspectos do exame físico.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 2 ou 3 aspectos do exame físico.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza adequadamente o exame físico.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e interpreta exames laboratoriais para exclusão de causas reversíveis de demência:\n(1) hemograma;\n(2) função renal e hepática;\n(3) eletrólitos;\n(4) glicemia;\n(5) TSH;\n(6) vitamina B12 e folato;\n(7) sorologias para sífilis e HIV.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 5 ou mais exames adequadamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 3 ou 4 exames adequadamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Interpreta os achados da Tomografia Computadorizada de Crânio (Impresso 3):\n(1) atrofia cortical leve difusa;\n(2) relativa preservação dos hipocampos;\n(3) ausência de outras causas estruturais.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta os 3 achados corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 ou 2 achados corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Interpreta os achados do PET com FDG (Fluorodesoxiglicose) (Impresso 4):\n(1) hipometabolismo predominantemente na região occipital;\n(2) hipometabolismo no cíngulo posterior;\n(3) relativa preservação do córtex mesial temporal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta os 3 achados corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 ou 2 achados corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Interpreta os achados do SPECT ou PET com ligantes de transportador de dopamina (DAT-Scan) (Impresso 5):\n(1) redução da captação de dopamina nos gânglios da base (putâmen).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta o achado corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Verbaliza o diagnóstico principal, conforme os critérios de consenso (DCL provável ou possível):\n(1) Demência por Corpos de Lewy.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico completo e correto.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico parcialmente correto (ex: apenas demência, ou sem especificar 'Corpos de Lewy').",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes:\n(1) Doença de Alzheimer;\n(2) Doença de Parkinson com Demência;\n(3) Demência Vascular;\n(4) Delirium.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou 4 diagnósticos diferenciais corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais corretamente.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Elabora a conduta terapêutica farmacológica:\n(1) Indica inibidores da colinesterase (donepezila, rivastigmina ou galantamina) para sintomas cognitivos, flutuações e alucinações;\n(2) Indica levodopa com cautela e em doses baixas para parkinsonismo;\n(3) Menciona que antipsicóticos típicos e muitos atípicos são contraindicados devido à sensibilidade grave, sugerindo quetiapina ou clozapina (com ressalvas) em doses baixas se psicose for refratária.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica os 3 pontos corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica 1 ou 2 pontos corretamente.",
+            "pontos": 0.375
+          },
+          "inadequado": {
+            "criterio": "Não indica adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Elabora a conduta terapêutica não farmacológica e orientações:\n(1) Orientações sobre segurança domiciliar para prevenir quedas;\n(2) Estimulação cognitiva e atividade física leve;\n(3) Manejo da constipação e hidratação;\n(4) Orientação sobre DCS-REM (ex: clonazepam ou melatonina) e disautonomia;\n(5) Aconselhamento sobre o curso da doença, flutuações e apoio a cuidadores;\n(6) Importância do acompanhamento multidisciplinar.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora 4 ou mais aspectos da conduta e orientações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora 2 ou 3 aspectos da conduta e orientações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não elabora adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Demência por Corpos de Lewy (DCL) é a segunda causa mais comum de demência neurodegenerativa. É caracterizada pela tríade de flutuações cognitivas, parkinsonismo espontâneo (que surge até 12 meses após os sintomas cognitivos) e alucinações visuais recorrentes. Outras características sugestivas incluem distúrbio comportamental do sono REM (DCS-REM) e sensibilidade a antipsicóticos. Na anamnese, é crucial detalhar cada um desses sintomas, investigando seu início, progressão e impacto. O exame físico deve focar na avaliação neurológica (parkinsonismo, estado cognitivo) e sinais de disautonomia (como hipotensão ortostática). Exames laboratoriais de rotina servem para excluir outras causas de demência. A neuroimagem é fundamental: a TC ou RM excluem lesões estruturais, o PET com FDG pode mostrar hipometabolismo occipital/cíngulo posterior, e o DAT-Scan (SPECT ou PET com ligantes do transportador de dopamina) revela redução da captação de dopamina nos gânglios da base, auxiliando no diagnóstico diferencial com DA. O diagnóstico é clínico, baseado nos critérios de consenso. O tratamento é sintomático, sendo os inibidores da colinesterase (donepezila, rivastigmina, galantamina) a base para sintomas cognitivos, flutuações e psicose. Levodopa pode ser usada com extrema cautela para o parkinsonismo, e antipsicóticos típicos são contraindicados devido ao risco de reações graves; quetiapina ou clozapina (com monitoramento) são as opções mais seguras para psicose refratária. O manejo é multidisciplinar e envolve suporte aos pacientes e cuidadores, com foco em segurança e qualidade de vida. Complicações incluem quedas, delirium e pneumonia aspirativa. Não há notificação compulsória para DCL.",
+      "fontes": [
+        "1. McKeith, I. G., et al. (2017). Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. Neurology, 89(1), 88-100.",
+        "2. UpToDate. (2024). Clinical features and diagnosis of dementia with Lewy bodies. Acesso em: [Data do acesso, ex: 15 de maio de 2024].",
+        "3. Brasil. Ministério da Saúde. Portaria de Consolidação nº 2, de 28 de setembro de 2017. Dispõe sobre as políticas nacionais de saúde, incluindo aspectos do cuidado ao idoso e doenças crônicas."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "ace8c2e6-3d97-45b2-9f11-b08e19c037cb",
+  "created_at": "2025-08-28T14:32:05.596050",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Demencia por corpusculos de levy",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

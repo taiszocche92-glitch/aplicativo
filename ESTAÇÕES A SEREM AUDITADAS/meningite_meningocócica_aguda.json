@@ -36,6 +36,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Sônia Martins, 25 anos, Estudante universitária e Solteira"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com uma dor de cabeça terrível, febre alta e o pescoço duro."
       },
@@ -600,5 +604,23 @@
         "3. UpToDate. Clinical features and diagnosis of meningococcal disease. Disponível em: <https://www.uptodate.com/contents/clinical-features-and-diagnosis-of-meningococcal-disease> (Consultado em: Janeiro de 2024)."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "b5e63098-4ee4-4128-9867-71d475b55ae7",
+  "created_at": "2025-08-28T08:40:23.629210",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Meningite meningococica",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

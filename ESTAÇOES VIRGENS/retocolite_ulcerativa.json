@@ -1,0 +1,564 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_RETOCOLITE_ULCERATIVA",
+  "tituloEstacao": "Retocolite Ulcerativa",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "retocolite ulcerativa",
+    "diarreia com sangue",
+    "dor abdominal",
+    "doença inflamatória intestinal",
+    "clínica médica",
+    "atenção terciária"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios de gastroenterologia",
+        "Laboratório de análises clínicas",
+        "Serviço de endoscopia digestiva",
+        "Exames de imagem (TC, RM)",
+        "Medicações para DII (aminossalicilatos, corticoides, imunomoduladores, biológicos)",
+        "Centro cirúrgico para casos de complicação"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 42 anos chega ao consultório de Gastroenterologia referindo diarreia com sangue e dor abdominal.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente.",
+      "Solicitar e interpretar os achados de exames físicos necessários à avaliação do caso.",
+      "Solicitar exames complementares pertinentes ao caso clínico.",
+      "Interpretar os resultados dos exames complementares.",
+      "Relacionar os achados clínicos e complementares às hipóteses diagnósticas.",
+      "Verbalizar o diagnóstico, sua classificação de gravidade e elaborar a conduta terapêutica.",
+      "Mencionar os sinais de alarme e a necessidade de seguimento, além das orientações finais."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "O ambiente de consulta é um consultório de gastroenterologia ambulatorial."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com diarreia com sangue e dor na barriga há umas semanas, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "DIARREIA",
+        "informacao": "Início: Começou há uns 2 meses, mas tem piorado bastante na última semana.\nFrequência: Umas 8 a 10 vezes por dia. Às vezes, acordo de madrugada para ir ao banheiro.\nConsistência: Líquida ou pastosa.\nPresença de muco: Sim, sempre tem muco.\nPresença de pus: Sim, às vezes um pouco de pus junto com o sangue.\nUrgência evacuatória (Tenesmo): Sinto uma urgência muito grande, às vezes mal consigo segurar.\nSangue: Sim, sempre tem sangue nas fezes, vermelho vivo.\nDiarreia noturna: Sim, isso é o que mais me incomoda, acordo várias vezes.\nFator de piora: Piora depois de comer, e quando estou muito estressado(a).\nFator de melhora: Não melhora com nada, nem com os chás que eu tomei.\nEpisódios prévios: Já tive outras vezes, mas nunca tão forte e duradouro como agora.\nMedicação de alívio: Tomei um remédio para dor de barriga que tinha em casa, mas não ajudou em nada."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR ABDOMINAL",
+        "informacao": "Início: Começou junto com a diarreia mais intensa, há uns 2 meses.\nLocalização: Dói mais na parte de baixo da barriga, no lado esquerdo.\nIntensidade: Umas 7 na escala de 0 a 10, bem forte.\nCaracterística: É uma cólica, aperta e depois alivia um pouco, mas sempre volta.\nIrradiação: Não irradia.\nDuração: Praticamente contínua, com picos de dor mais forte.\nFator de piora: Piora quando me alimento.\nFator de melhora: Às vezes alivia um pouco depois de evacuar, mas logo volta.\nEpisódios prévios: Sim, já tive outras vezes, mas nunca tão persistente."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Perda de peso: Sim, perdi uns 5 quilos nos últimos 2 meses, sem dieta.\nFebre: Não, nega febre.\nFadiga: Sim, estou sempre muito cansado(a) e sem energia.\nAnorexia (Falta de apetite): Meu apetite está péssimo, não tenho vontade de comer.\nDor articular: Às vezes sinto umas dores nas juntas, principalmente nos joelhos, mas passa.\nLesões cutâneas: Não, nenhuma mancha ou ferida na pele.\nAlterações oculares: Não, meus olhos estão normais.\nNáuseas: Nega.\nVômitos: Nega.\nViagens recentes: Nega.\nContato com animais: Nega.\nUso de antibióticos recentes: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Tenho pressão alta, mas está controlada.\nCirurgias prévias: Fiz uma cirurgia de apendicite quando era criança.\nInternações: Nenhuma outra internação além da apendicite.\nAlergias: Nega.\nMedicamentos em uso contínuo: Só o remédio da pressão, losartana.\nVacinação: Minhas vacinas estão em dia, mas não tomei a da gripe este ano.\nTrauma: Nega.\nTransfusões: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Fumo há uns 15 anos, umas 10 cigarros por dia.\nEtilismo: Bebo socialmente, nos fins de semana.\nDrogas ilícitas: Nega.\nAlimentação: Minha alimentação não é muito regular ultimamente, por causa da dor de barriga. Como bastante fast food.\nAtividade física: Não pratico atividade física regularmente.\nSono: Durmo mal por causa da diarreia noturna.\nHábitos urinários: Normais.\nHábitos intestinais: Diarreia como já expliquei.\nIngestão hídrica: Bebo pouca água, uns 4 copos por dia.\nExposição ocupacional: Trabalho em escritório, sem exposição.\nEstresse: Estou bastante estressado(a) por causa do trabalho e da doença."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Saudável.\nMãe: Minha mãe tem uma doença de Crohn.\nDoenças na família: Minha tia também tem doença inflamatória intestinal.\nHistoria de câncer na família: Nega.\nIrmãos ou tias: Uma irmã saudável."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar exames, diga 'Os resultados dos exames já estão disponíveis nos impressos'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): Doutor(a), o que eu tenho?\npergunta (2): Essa doença é grave? Vou precisar de cirurgia?\npergunta (3): Como é o tratamento? Vou ter que tomar remédio para sempre?\npergunta (4): Poderia ser só uma infecção, ou algo mais simples?\npergunta (5): O que eu faço para evitar que isso piore?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "110x70 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "98 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "20 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "37.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Paciente emagrecido, com palidez cutâneo-mucosa leve, hidratado, consciente e orientado."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular, bulhas rítmicas e normofonéticas, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente e simétrico, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Ligeiramente distendido, doloroso à palpação profunda em cólon esquerdo, sem sinais de peritonismo. Ruídos hidroaéreos aumentados."
+                },
+                {
+                  "chave": "Membros Inferiores",
+                  "valor": "Sem edemas, pulsos presentes e simétricos."
+                },
+                {
+                  "chave": "Exame Perianal",
+                  "valor": "Sem lesões, fissuras ou fístulas externas."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "12.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "9.8 g/dL (Ref: 12.0-15.5 F / 13.5-17.5 M)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "480.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA E MARCADORES INFLAMATÓRIOS",
+              "itens": [
+                {
+                  "chave": "PCR (Proteína C Reativa)",
+                  "valor": "35 mg/L (Ref: < 5)"
+                },
+                {
+                  "chave": "VHS (Velocidade de Hemossedimentação)",
+                  "valor": "45 mm/h (Ref: < 20)"
+                },
+                {
+                  "chave": "Albumina",
+                  "valor": "3.0 g/dL (Ref: 3.5-5.2)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAMES FECAIS",
+              "itens": [
+                {
+                  "chave": "Calprotectina Fecal",
+                  "valor": "800 µg/g (Ref: < 50)"
+                },
+                {
+                  "chave": "Coprocultura",
+                  "valor": "Negativa"
+                },
+                {
+                  "chave": "Toxina de Clostridioides difficile",
+                  "valor": "Negativa"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_COLONOSCOPIA_3",
+        "tituloImpresso": "Laudo de Colonoscopia",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Visualização de imagem endoscópica do cólon.",
+          "caminhoImagem": "(Buscar no Google Imagens: Colonoscopia Retocolite Ulcerativa ativa grave com úlceras e pseudopólipos)",
+          "laudo": "Exame realizado até o ceco. Observa-se inflamação contínua da mucosa colônica, iniciando no reto e estendendo-se por todo o cólon (pancolite). Mucosa edemaciada, eritematosa, friável, com perda do padrão vascular, erosões múltiplas e úlceras superficiais e profundas. Presença de pseudopólipos inflamatórios esparsos. Biópsias realizadas."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_HISTOPATOLOGICO_4",
+        "tituloImpresso": "Resultado Histopatológico de Biópsias Colônicas",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HISTOPATOLÓGICO DE CÓLON",
+              "itens": [
+                {
+                  "chave": "Achados",
+                  "valor": "Fragmentos de mucosa colônica com arquitetura glandular distorcida, infiltrado inflamatório crônico de plasmócitos basais, criptite e abscessos de criptas. Ausência de granulomas. Achados compatíveis com Retocolite Ulcerativa."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_RETOCOLITE_ULCERATIVA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente de 42 anos com quadro de diarreia crônica com sangue, dor abdominal em cólica, perda de peso e fadiga. Apresenta histórico familiar de DII e tabagismo. Exames complementares mostram anemia, marcadores inflamatórios elevados, calprotectina fecal alta e colonoscopia com achados de pancolite e biópsia compatível com Retocolite Ulcerativa.",
+      "focoPrincipalDetalhado": [
+        "Anamnese direcionada para caracterização da diarreia, dor abdominal e sintomas sistêmicos/extraintestinais.",
+        "Solicitação e interpretação de exames físicos e complementares para confirmação diagnóstica e exclusão de diferenciais.",
+        "Formulações de hipóteses diagnósticas e diferenciais.",
+        "Elaboração de plano terapêutico e orientações ao paciente, considerando as fases de indução e manutenção da remissão, além do manejo de complicações."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se e (2) cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, caracterizando a diarreia com sangue, investigando:\n(1) Início;\n(2) Frequência (incluindo noturna);\n(3) Consistência;\n(4) Presença de muco/pus;\n(5) Urgência evacuatória (tenesmo);\n(6) Presença e características do sangue;\n(7) Fatores de piora/melhora;\n(8) Episódios prévios;\n(9) Uso de medicação para alívio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 7 ou mais de 9 características da diarreia.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 6 características da diarreia.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos características ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, caracterizando a dor abdominal, investigando:\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Característica (cólica, queimação);\n(5) Irradiação;\n(6) Duração;\n(7) Fatores de piora/melhora;\n(8) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou mais de 8 características da dor abdominal.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 características da dor abdominal.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos características ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Investiga sintomas sistêmicos e manifestações extraintestinais associadas:\n(1) Perda de peso;\n(2) Febre;\n(3) Fadiga/Cansaço;\n(4) Anorexia/Falta de apetite;\n(5) Dor articular (artrite);\n(6) Lesões cutâneas;\n(7) Alterações oculares;\n(8) Viagens recentes e uso de antibióticos (para descartar causas infecciosas).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 ou mais de 8 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos itens ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Investiga antecedentes pessoais patológicos:\n(1) Doenças crônicas/autoimunes;\n(2) Cirurgias prévias (ex: apendicectomia);\n(3) Uso de medicamentos contínuos (especialmente AINEs);\n(4) Alergias;\n(5) Vacinação.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 ou nenhum item ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Investiga hábitos de vida e antecedentes familiares:\n(1) Tabagismo (ativo ou prévio);\n(2) Etilismo;\n(3) Alimentação;\n(4) Estresse;\n(5) História familiar de DII (doença inflamatória intestinal).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 ou nenhum item ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita e verbaliza a realização de exame físico direcionado, incluindo:\n(1) Sinais vitais;\n(2) Estado geral (nutrição, palidez, hidratação);\n(3) Exame do abdome (inspeção, palpação);\n(4) Exame perianal;\n(5) Busca por manifestações extraintestinais.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a realização de 4 ou 5 itens do exame físico e dos sinais vitais.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza a realização de 2 ou 3 itens do exame físico e dos sinais vitais.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Verbaliza a realização de 1 item ou não verbaliza.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita exames laboratoriais complementares pertinentes:\n(1) Hemograma completo;\n(2) Provas inflamatórias (PCR e/ou VHS);\n(3) Albumina;\n(4) Calprotectina fecal;\n(5) Coprocultura e pesquisa de toxina de Clostridioides difficile.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 4 ou 5 itens corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 ou 3 itens corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Solicita 1 ou nenhum item ou solicita exames inadequados.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpreta os resultados dos exames laboratoriais (Impresso 2), identificando:\n(1) Anemia (Hb baixa);\n(2) Leucocitose/Trombocitose (atividade inflamatória);\n(3) Elevação de PCR e/ou VHS (inflamação sistêmica);\n(4) Hipoalbuminemia (desnutrição/perda proteica);\n(5) Calprotectina fecal elevada (inflamação intestinal);\n(6) Resultados negativos para causas infecciosas (coprocultura, C. difficile).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 5 ou 6 resultados corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 3 ou 4 resultados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta 2 ou menos resultados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita colonoscopia com biópsias para diagnóstico e avaliação da extensão da doença.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita colonoscopia com biópsias.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou solicita exame inadequado.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Interpreta os achados da colonoscopia (Impresso 3) e do histopatológico (Impresso 4), identificando:\n(1) Inflamação contínua da mucosa colônica;\n(2) Início no reto e extensão proximal (pancolite);\n(3) Achados endoscópicos (edema, eritema, friabilidade, úlceras);\n(4) Achados histopatológicos (plasmócitos basais, criptite, abscessos de criptas);\n(5) Ausência de granulomas (diferencial com Crohn).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 4 ou 5 achados corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 ou 3 achados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta 1 ou nenhum achado ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Estabelece o diagnóstico completo de Retocolite Ulcerativa, classificando a extensão (Pancolite) e a gravidade (Moderada a Grave).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico completo com extensão e gravidade.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico de Retocolite Ulcerativa, mas omite a extensão ou gravidade.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes:\n(1) Doença de Crohn;\n(2) Colite infecciosa;\n(3) Colite isquêmica.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 2 ou 3 diagnósticos diferenciais relevantes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 diagnóstico diferencial relevante.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Elabora o plano terapêutico, incluindo:\n(1) Indução de remissão com corticoides sistêmicos (ex: prednisona oral);\n(2) Manutenção com imunomoduladores (ex: azatioprina) ou agentes biológicos (ex: anti-TNF);\n(3) Menciona a necessidade de colectomia em casos de falha do tratamento clínico ou complicações (megacólon tóxico, perfuração).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora o plano terapêutico de forma completa (3 itens).",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora o plano terapêutico parcialmente (2 itens).",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Elabora o plano terapêutico de forma inadequada ou omite.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Fornece orientações finais e sobre seguimento, incluindo:\n(1) Adesão ao tratamento (mesmo em remissão);\n(2) Monitoramento regular com gastroenterologista e exames (calprotectina fecal);\n(3) Vigilância para câncer colorretal (colonoscopia periódica em longo prazo);\n(4) Sinais de alarme para buscar atendimento imediato (febre alta, dor abdominal intensa, sangramento volumoso, distensão abdominal).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Fornece 3 ou 4 orientações relevantes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Fornece 1 ou 2 orientações relevantes.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não fornece orientações adequadas.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Retocolite Ulcerativa (RCU) é uma doença inflamatória intestinal crônica, idiopática, caracterizada por inflamação contínua da mucosa do cólon, sempre iniciando no reto e estendendo-se proximalmente. Clinicamente, manifesta-se por diarreia com sangue (hematoquezia), dor abdominal em cólica, urgência evacuatória (tenesmo) e, em casos mais graves, sintomas sistêmicos como perda de peso, fadiga e febre. Manifestações extraintestinais (articulares, cutâneas, oculares) também podem ocorrer. A anamnese detalhada é crucial para caracterizar os sintomas e identificar fatores de risco (história familiar de DII) e de proteção (tabagismo paradoxal, apendicectomia). O exame físico pode revelar palidez, emagrecimento e sensibilidade abdominal. O diagnóstico é estabelecido pela combinação de achados clínicos, endoscópicos (colonoscopia com inflamação contínua, friabilidade, úlceras) e histopatológicos (plasmócitos basais, criptite, abscessos de criptas, ausência de granulomas). Exames laboratoriais (hemograma, PCR, VHS, calprotectina fecal) são importantes para avaliar a atividade da doença e excluir infecções. O tratamento visa induzir e manter a remissão, utilizando aminossalicilatos para doença leve a moderada e corticoides, imunomoduladores ou biológicos para doença moderada a grave ou refratária. A cirurgia (colectomia) é indicada em casos de falha do tratamento clínico otimizado, complicações agudas (megacólon tóxico, perfuração, hemorragia refratária) ou displasia/câncer colorretal. O seguimento inclui monitoramento da atividade da doença e vigilância para câncer colorretal.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas (PCDT) - Doença de Crohn e Retocolite Ulcerativa. Disponível em: https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/doenca-de-crohn-e-retocolite-ulcerativa/protocolos-clinicos",
+        "2. UpToDate. Clinical manifestations, diagnosis, and prognosis of ulcerative colitis in adults. Last updated: Jan 2024. Disponível em: https://www.uptodate.com/contents/clinical-manifestations-diagnosis-and-prognosis-of-ulcerative-colitis-in-adults",
+        "3. Federação Brasileira de Gastroenterologia (FBG). Consenso Brasileiro de Retocolite Ulcerativa. Disponível em: https://fbg.org.br/"
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "e564558e-d7c1-4852-b068-575e34b89d22",
+  "created_at": "2025-08-28T11:24:04.593606",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Retocolite Ulcerativa",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

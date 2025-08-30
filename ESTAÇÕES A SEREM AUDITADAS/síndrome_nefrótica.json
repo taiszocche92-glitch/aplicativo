@@ -43,6 +43,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Célia Moreira, 45 anos, Comerciante e Casada"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com o corpo todo inchado e minha urina está fazendo muita espuma, doutor(a)."
       },
@@ -700,5 +704,23 @@
         "3. UpToDate. Clinical manifestations and diagnosis of nephrotic syndrome in adults. Acesso em: [Data do acesso]."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "0292a82a-e494-442f-9b59-553c1b924b56",
+  "created_at": "2025-08-28T11:04:02.213654",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Síndrome nefrotica",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

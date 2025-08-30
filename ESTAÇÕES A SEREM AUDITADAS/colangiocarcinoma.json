@@ -42,6 +42,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Wilson Araújo, 65 anos, Comerciante e Viúvo"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou ficando amarelo, com dor na barriga e emagreci muito, doutor."
       },
@@ -591,5 +595,23 @@
         "3. National Comprehensive Cancer Network (NCCN) Guidelines for Hepatobiliary Cancers. Versão 2.2024. Disponível em: https://www.nccn.org/guidelines/guidelines-by-cancer/hepatobiliary-cancers. Acesso em 15/05/2024."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "26fe7370-e3dc-4b68-90db-b0e417540039",
+  "created_at": "2025-08-28T11:45:23.931882",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Colangiocarcinoma",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

@@ -46,7 +46,7 @@
     "informacoesVerbaisSimulado": [
       {
         "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
-        "informacao": "Nome: João Silva\nIdade: 72 anos\nSexo: Masculino\nAcompanhante: Filha Ana Silva (45 anos)"
+        "informacao": "João Silva e 72 anos"
       },
       {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",

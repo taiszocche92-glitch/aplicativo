@@ -1,0 +1,869 @@
+{
+  "idEstacao": "REVALIDA_DRC_2025_CM_01",
+  "tituloEstacao": "Doença Renal Crônica: Diagnóstico, Estadiamento e Manejo de Complicações",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Doença Renal Crônica",
+    "DRC",
+    "Nefropatia Diabética",
+    "Hipertensão Arterial Sistêmica",
+    "Insuficiência Renal",
+    "Clínica Médica",
+    "Atenção Secundária"
+  ],
+  "nivelDificuldade": "Alto",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem",
+        "Medicações disponíveis para tratamento inicial"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente João da Silva, 62 anos, sexo masculino, motorista de ônibus aposentado, chega à consulta de retorno no ambulatório de Clínica Médica referindo cansaço e inchaço nas pernas.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese completa, direcionada à queixa principal e antecedentes relevantes.",
+      "Verbalizar a realização do exame físico necessário para o caso.",
+      "Interpretar os exames complementares já disponíveis e os que foram solicitados durante a consulta.",
+      "Verbalizar o diagnóstico principal, estadiamento da Doença Renal Crônica (DRC) e as complicações presentes.",
+      "Elaborar e verbalizar a conduta terapêutica inicial e o plano de seguimento.",
+      "Responder aos questionamentos do paciente, fornecendo orientações claras sobre a doença e o tratamento."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com cansaço e inchaço nas pernas, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "CANSAÇO (ASTENIA/FADIGA)",
+        "informacao": "Início: Há 3 meses, gradual\nIntensidade: Piorado progressivamente, agora nota 8/10\nImpacto funcional: Dificuldade para realizar tarefas diárias como subir escadas ou caminhar longas distâncias\nRelação com atividade/repouso: Piora com esforço, melhora pouco com repouso\nQualidade do sono: Tenho dormido mal, acordo várias vezes à noite para urinar\nSintomas de humor associados: Sinto-me desanimado e sem energia\nEpisódios prévios: Nunca senti um cansaço tão intenso"
+      },
+      {
+        "contextoOuPerguntaChave": "INCHAÇO NAS PERNAS (EDEMA DE MEMBROS)",
+        "informacao": "Início: Há 2 meses, começou nos tornozelos e agora atinge as panturrilhas\nLocalização: Bilateral, simétrico\nPadrão: Pior no final do dia, melhora pouco ao elevar as pernas\nCaráter: Cacifo positivo (+3/4)\nSintomas associados: Nego dor nem vermelhidão\nEpisódios prévios: Já tive inchaço leve em outras ocasiões, mas nunca tão persistente e intenso"
+      },
+      {
+        "contextoOuPerguntaChave": "DISPNEIA (FALTA DE AR)",
+        "informacao": "Início: Há 1 mês, gradual\nIntensidade: Leve aos grandes esforços, mas tem progredido\nGatilhos: Sinto ao subir um lance de escadas ou caminhar duas quadras\nOrtopneia: Preciso de 2 travesseiros para dormir\nDispneia paroxística noturna: Nego acordar sufocado à noite\nSintomas associados: Nego tosse ou chiado\nEpisódios prévios: Nunca tive falta de ar significativa antes"
+      },
+      {
+        "contextoOuPerguntaChave": "PRURIDO (COCEIRA)",
+        "informacao": "Início: Há 1 mês, progressivo\nLocalização: Generalizado, mas mais intenso no tronco e braços\nIntensidade: Nota 6/10, incomoda bastante à noite\nPiora/melhora: Piora à noite, não melhora com banho frio\nLesões associadas: Tenho algumas escoriações por coçar\nSintomas sistêmicos: Nego febre ou icterícia\nEpisódios prévios: Nunca tive coceira assim"
+      },
+      {
+        "contextoOuPerguntaChave": "NÁUSEAS E VÔMITOS",
+        "informacao": "Início: Há 1 semana\nFrequência: Náuseas quase diárias, principalmente pela manhã. Vomitei 2 vezes nesta semana, após as refeições.\nRelação temporal: Após alimentação\nConteúdo: Alimentar recente\nFatores de alívio: Nego melhora com medicamentos\nSintomas associados: Nego dor abdominal ou diarreia\nEpisódios prévios: Nunca tive episódios recorrentes"
+      },
+      {
+        "contextoOuPerguntaChave": "ALTERAÇÕES DO HÁBITO URINÁRIO",
+        "informacao": "Nictúria: Levanto 3-4 vezes à noite para urinar\nPolaciúria: Urino mais vezes durante o dia, mas em pequeno volume\nDisúria: Nego dor ou ardência ao urinar\nHematúria: Nego sangue na urina\nJato fraco: Nego jato fraco ou gotejamento\nCor da urina: Cor normal, sem espuma excessiva"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Diabetes Mellitus tipo 2 (Diagnosticado há 15 anos) e Hipertensão Arterial Sistêmica (Diagnosticada há 10 anos).\nCirurgias prévias: Nega\nInternações: Nega\nAlergias: Nego alergias medicamentosas\nMedicamentos em uso contínuo: Metformina 850mg 2x/dia (uso irregular) e Captopril 25mg 2x/dia (uso irregular).\nVacinação: Não sei informar se a vacinação está em dia. Não tomei vacina para gripe este ano.\nTrauma: Nega.\nTransfusões: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Tipo do parto: Não aplicável\nTempo de Gestação: Não aplicável\nIntercorrências neonatais: Não aplicável\nHábitos sexuais: Não relatou.\nHábitos urinários: Nictúria e polaciúria presentes, conforme HDA.\nHábitos intestinais: Regulares, sem alterações recentes.\nIngestão hídrica: Consumo médio de água, não quantifica.\nExposição ocupacional: Trabalhava como motorista de ônibus, aposentado há 5 anos.\nEstresse: Sinto-me estressado com a doença."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Ex-tabagista há 10 anos (fumou 20 maços/ano por 30 anos)\nEtilismo: Social, 1-2 cervejas nos finais de semana\nDrogas ilícitas: Nego\nAlimentação: Refiro ser rica em sal e industrializados, pouca ingestão de vegetais e frutas. Como carne vermelha quase todos os dias.\nAtividade física: Sedentário\nSono: Dormindo mal devido à nictúria e coceira.\nHábitos urinários: Nictúria e polaciúria presentes.\nHábitos intestinais: Regulares.\nIngestão hídrica: Não quantifica, mas bebe água regularmente.\nExposição ocupacional: Motorista de ônibus aposentado.\nEstresse: Sinto-me bastante estressado e desanimado com o cansaço."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Hipertensão e 'problema do coração'.\nMãe: Diabetes e Hipertensão. Faleceu por 'problema nos rins'.\nDoenças na família: Diabetes, Hipertensão, 'problema nos rins'.\nHistória de câncer na família: Nega.\nIrmãos: Um irmão mais velho com Diabetes e outro com Hipertensão."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES NEONATAIS",
+        "informacao": "Não aplicável ao caso."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS",
+        "informacao": "Não aplicável ao caso."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega.\nExposição a doenças infecciosas: Nega.\nContato com doentes: Nega.\nExposição a animais: Nega.\nExposição a vetores: Nega.\nÁgua consumida: Tratada.\nExposição a agentes ambientais: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL",
+        "informacao": "Situação familiar: Casado, tem filhos que moram fora. \nRede de apoio: Minha esposa me ajuda bastante.\nSituação socioeconômica: Aposentado, com renda razoável.\nNível educacional: Ensino médio completo.\nReligião: Católico.\nEstresse psicossocial: Preocupado com minha saúde e com o futuro."
+      },
+      {
+        "contextoOuPerguntaChave": "ACOMPANHAMENTO MÉDICO",
+        "informacao": "Não tenho acompanhamento regular com especialista. Procuro o clínico geral apenas quando me sinto mal."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "Doutor(a), 'problema nos rins' é grave? Eu vou precisar de diálise?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "160 x 95 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "88 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.6 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "96% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_2",
+        "tituloImpresso": "Exame Físico (Achados relevantes)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESTADO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Regular, hipocorado (++/4+), eupneico, afebril, consciente e orientado, desidratado (1+/4+)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "PELE",
+              "itens": [
+                {
+                  "chave": "Pele",
+                  "valor": "Palidez cutaneomucosa. Lesões de escoriação difusas no tronco e membros superiores. Não há 'frost urêmico'."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "CABEÇA E PESCOÇO",
+              "itens": [
+                {
+                  "chave": "Edema periorbital",
+                  "valor": "Ausente"
+                },
+                {
+                  "chave": "Turgência jugular",
+                  "valor": "Ausente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO CARDIOVASCULAR",
+              "itens": [
+                {
+                  "chave": "Ausculta cardíaca",
+                  "valor": "RCR em 2T, bulhas normofonéticas, sem sopros. Ictus cordis não palpável."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO RESPIRATÓRIO",
+              "itens": [
+                {
+                  "chave": "Ausculta pulmonar",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ABDOME",
+              "itens": [
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação, sem massas ou visceromegalias. RHA presentes."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MEMBROS INFERIORES",
+              "itens": [
+                {
+                  "chave": "Edema",
+                  "valor": "Presente em membros inferiores, +3/4, simétrico, com cacifo, bilateral, atingindo tornozelos e panturrilhas. Pulsos periféricos presentes e simétricos."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME NEUROLÓGICO",
+              "itens": [
+                {
+                  "chave": "Exame Neurológico",
+                  "valor": "Sem sinais de focalização. Presença de tremores finos em extremidades. Nega asterixe."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_BIOQ_3",
+        "tituloImpresso": "Resultados de Exames Laboratoriais (colhidos hoje)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": []
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_HEMOGLIC_4",
+        "tituloImpresso": "Resultados de Exames Laboratoriais (cont.)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": []
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_URINA_5",
+        "tituloImpresso": "Urinálise (EAS) e Relação Albumina/Creatinina Urinária (RAC) (colhidos hoje)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ELEMENTOS ANORMAIS",
+              "itens": [
+                {
+                  "chave": "Proteinúria",
+                  "valor": "+++/4+"
+                },
+                {
+                  "chave": "Glicose",
+                  "valor": "++"
+                },
+                {
+                  "chave": "Cetonas",
+                  "valor": "Negativo"
+                },
+                {
+                  "chave": "Sangue",
+                  "valor": "Negativo"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SEDIMENTOSCOPIA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "5-10 por campo"
+                },
+                {
+                  "chave": "Hemácias",
+                  "valor": "0-2 por campo"
+                },
+                {
+                  "chave": "Cilindros",
+                  "valor": "Hialinos raros"
+                },
+                {
+                  "chave": "Células epiteliais",
+                  "valor": "Raras"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "OUTROS",
+              "itens": [
+                {
+                  "chave": "Densidade",
+                  "valor": "1.010"
+                },
+                {
+                  "chave": "pH",
+                  "valor": "6.0"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "RELAÇÃO ALBUMINA/CREATININA URINÁRIA (RAC)",
+              "itens": [
+                {
+                  "chave": "RAC",
+                  "valor": "450 mg/g",
+                  "valorReferencia": "< 30 mg/g"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_GASO_6",
+        "tituloImpresso": "Gasometria Venosa (colhida hoje)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "GASOMETRIA VENOSA",
+              "itens": [
+                {
+                  "chave": "pH",
+                  "valor": "7.28",
+                  "valorReferencia": "7.35 - 7.45"
+                },
+                {
+                  "chave": "pCO2",
+                  "valor": "40 mmHg",
+                  "valorReferencia": "40 - 50 mmHg"
+                },
+                {
+                  "chave": "HCO3",
+                  "valor": "18 mEq/L",
+                  "valorReferencia": "22 - 26 mEq/L"
+                },
+                {
+                  "chave": "Excesso de Base (BE)",
+                  "valor": "-6 mEq/L",
+                  "valorReferencia": "-2 a +2 mEq/L"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_USG_7",
+        "tituloImpresso": "Ultrassonografia Renal e de Vias Urinárias (realizada há 6 meses)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Apresenta alterações estruturais renais compatíveis com doença renal crônica avançada.",
+          "caminhoImagem": "(Buscar no Google Imagens: Ultrassonografia renal atrofia cortical aumento ecogenicidade bilateral)",
+          "sugestaoBuscaImagem": "Ultrassonografia renal mostrando rins diminuídos, perda de diferenciação córtico-medular e aumento da ecogenicidade cortical bilateralmente.",
+          "laudo": "Rins com dimensões reduzidas (Rim direito: 7,5 x 3,2 cm; Rim esquerdo: 7,8 x 3,5 cm), com perda da diferenciação córtico-medular e aumento da ecogenicidade cortical bilateralmente. Não há evidência de hidronefrose, cálculos ou massas. Bexiga com paredes de espessura preservada, sem alterações no seu lúmen. Ausência de ectasia de vias urinárias."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_DRC_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "O paciente João da Silva, 62 anos, com histórico de Diabetes Mellitus tipo 2 e Hipertensão Arterial Sistêmica de longa data e mal controladas, apresenta quadro de cansaço progressivo, edema de membros inferiores, dispneia aos esforços, prurido generalizado, náuseas e vômitos, além de alterações urinárias como nictúria e polaciúria. Os exames laboratoriais revelam elevação acentuada de ureia e creatinina, hipercalemia, hipocalcemia, hiperfosfatemia, PTH elevado, anemia normocítica e normocrômica, dislipidemia e descontrole glicêmico. A urinálise mostra proteinúria significativa e a ultrassonografia renal revela rins atróficos com perda da diferenciação córtico-medular, achados típicos de Doença Renal Crônica avançada. Há também acidose metabólica na gasometria venosa.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa, focando na HDA e antecedentes de DM e HAS.",
+        "Avaliação dos sinais vitais e exame físico para identificação de complicações da DRC (edema, anemia, sinais urêmicos).",
+        "Interpretação de exames laboratoriais (função renal, eletrólitos, hemograma, glicemia, perfil lipídico, urinálise, gasometria) e de imagem (USG renal).",
+        "Diagnóstico e estadiamento da Doença Renal Crônica (DRC G5 A3), identificando as etiologias e complicações.",
+        "Elaboração de conduta terapêutica inicial, incluindo manejo de complicações e indicação de Terapia de Substituição Renal (TSR).",
+        "Comunicação clara com o paciente e orientações sobre a doença e tratamento."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Investigação do CANSAÇO (ASTENIA/FADIGA):\n(1) Início;\n(2) Intensidade;\n(3) Impacto funcional;\n(4) Relação com atividade/repouso;\n(5) Qualidade do sono;\n(6) Sintomas de humor associados;\n(7) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 6 ou 7 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 5 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Investigação do INCHAÇO NAS PERNAS (EDEMA DE MEMBROS):\n(1) Início;\n(2) Localização;\n(3) Padrão;\n(4) Caráter (cacifo);\n(5) Sintomas associados (dor, vermelhidão);\n(6) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 5 ou 6 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 4 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Investigação da DISPNEIA (FALTA DE AR):\n(1) Início;\n(2) Intensidade;\n(3) Gatilhos (esforço);\n(4) Ortopneia;\n(5) Dispneia Paroxística Noturna;\n(6) Sintomas associados (tosse, chiado).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 5 ou 6 itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 4 itens.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Investigação do PRURIDO (COCEIRA):\n(1) Início;\n(2) Localização;\n(3) Intensidade;\n(4) Piora/melhora;\n(5) Lesões associadas;\n(6) Sintomas sistêmicos;\n(7) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 6 ou 7 itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 5 itens.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Investigação de NÁUSEAS E VÔMITOS:\n(1) Início;\n(2) Frequência;\n(3) Relação temporal;\n(4) Conteúdo;\n(5) Fatores de alívio;\n(6) Sintomas associados;\n(7) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 6 ou 7 itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 5 itens.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Anamnese - Investigação de ALTERAÇÕES DO HÁBITO URINÁRIO:\n(1) Nictúria;\n(2) Polaciúria;\n(3) Disúria;\n(4) Hematúria;\n(5) Jato fraco;\n(6) Cor da urina.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 5 ou 6 itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 a 4 itens.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Anamnese - Investigação de Antecedentes Pessoais Patológicos Relevantes:\n(1) Diabetes Mellitus (tipo, controle glicêmico, tempo de doença);\n(2) Hipertensão Arterial Sistêmica (duração, controle pressórico, medicações);\n(3) Uso crônico de nefrotóxicos (AINES);\n(4) Histórico de Lesão Renal Aguda;\n(5) Uso de medicações em uso contínuo (Metformina, Captopril, regularidade);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 4 ou 5 itens e suas características.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 2 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Anamnese - Investigação de Antecedentes Familiares:\n(1) História familiar de DRC;\n(2) História familiar de DM;\n(3) História familiar de HAS.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre os 3 itens e suas características.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 1 ou 2 itens.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre nenhum item ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Anamnese - Investigação de Hábitos de Vida:\n(1) Tabagismo (quantificação);\n(2) Etilismo;\n(3) Dieta (restrição de sal, proteínas, frutas/vegetais);\n(4) Atividade física/Sedentarismo;\n(5) Qualidade do sono.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 4 ou 5 itens e suas características.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 2 ou 3 itens.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 2 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Avalia o estado geral e os sinais vitais:\n(1) Avalia estado geral (hipocorado, desidratado);\n(2) Avalia edema em membros inferiores (cacifo, localização, simetria);\n(3) Avalia sinais de uremia (prurido, lesões de escoriação, tremores);\n(4) Avalia PA, FC, FR e T;\n(5) Avalia turgência jugular e crepitações pulmonares (sinais de sobrecarga volêmica);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Avalia 4 ou 5 itens corretamente e interpreta os Sinais Vitais (SV).",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Avalia 2 ou 3 itens e/ou interpreta parcialmente os SV.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não avalia adequadamente ou não interpreta os SV.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Interpreta os resultados de Bioquímica Renal e Eletrólitos (Impresso 3):\n(1) Identifica alterações na função renal (Creatinina elevada, Ureia elevada);\n(2) Identifica hipercalemia (Potássio elevado);\n(3) Identifica hipocalcemia (Cálcio diminuído);\n(4) Identifica hiperfosfatemia (Fósforo elevado);\n(5) Identifica hiperparatireoidismo secundário (PTH elevado);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica e interpreta 4 ou 5 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Identifica e interpreta 2 ou 3 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Identifica e interpreta menos de 2 itens ou incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Interpreta os resultados do Hemograma (Impresso 4):\n(1) Identifica anemia (Hb diminuída, Ht diminuído);\n(2) Classifica a anemia (Normocítica, Normocrômica - VCM normal);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica e classifica corretamente os 2 itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Identifica apenas 1 item corretamente.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não identifica ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Interpreta os resultados de Glicemia e Perfil Lipídico (Impresso 4):\n(1) Identifica descontrole glicêmico (Glicemia jejum elevada, HbA1c elevada);\n(2) Identifica dislipidemia (Colesterol Total elevado, LDL-c elevado, HDL-c diminuído, Triglicerídeos elevados).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica e interpreta os 2 itens corretamente.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Identifica apenas 1 item corretamente.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não identifica ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Interpreta a Urinálise (EAS) e Relação Albumina/Creatinina Urinária (RAC) (Impresso 5):\n(1) Identifica proteinúria significativa (+++/4+ no EAS, RAC >300 mg/g);\n(2) Identifica glicosúria (Glicose ++ no EAS);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica e interpreta os 2 itens corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Identifica apenas 1 item corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não identifica ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Interpreta a Gasometria Venosa (Impresso 6):\n(1) Identifica acidose metabólica (pH diminuído, HCO3 diminuído, BE diminuído);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica e interpreta corretamente o item.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não identifica ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Interpreta a Ultrassonografia Renal (Impresso 7):\n(1) Identifica rins com dimensões reduzidas;\n(2) Identifica perda da diferenciação córtico-medular;\n(3) Identifica aumento da ecogenicidade cortical bilateralmente;",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica e interpreta os 3 itens corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Identifica e interpreta 1 ou 2 itens corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não identifica ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item18",
+        "itemNumeroOficial": "18",
+        "descricaoItem": "Verbaliza o diagnóstico principal e estadiamento da DRC:\n(1) Doença Renal Crônica (DRC);\n(2) Etiologia provável (Nefropatia Diabética e Hipertensiva);\n(3) Estadiamento da TFG (G5 - TFG < 15 mL/min/1,73m²);\n(4) Estadiamento da Albuminúria (A3 - RAC > 300 mg/g).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza os 4 itens corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 2 ou 3 itens corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Verbaliza menos de 2 itens ou incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item19",
+        "itemNumeroOficial": "19",
+        "descricaoItem": "Verbaliza as principais complicações da DRC presentes no paciente:\n(1) Anemia da DRC;\n(2) Distúrbio Mineral e Ósseo (DMO-DRC);\n(3) Hipercalemia;\n(4) Acidose metabólica;\n(5) Síndrome urêmica.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza 4 ou 5 complicações corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 2 ou 3 complicações corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Verbaliza menos de 2 complicações ou incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item20",
+        "itemNumeroOficial": "20",
+        "descricaoItem": "Verbaliza os principais diagnósticos diferenciais a serem descartados (pelo menos 1):\n(1) Lesão Renal Aguda (LRA) sobreposta à DRC;\n(2) Outras causas de azotemia (ex: desidratação grave).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza os 2 itens corretamente.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 1 item corretamente.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza ou verbaliza incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item21",
+        "itemNumeroOficial": "21",
+        "descricaoItem": "Elabora e verbaliza a conduta terapêutica inicial e o plano de seguimento:\n(1) Otimização do controle pressórico (ajuste de anti-hipertensivo, meta <130/80 mmHg);\n(2) Otimização do controle glicêmico (ajuste de antidiabético, meta HbA1c <7%);\n(3) Manejo da hipercalemia (restrição dietética, medidas farmacológicas se necessário);\n(4) Manejo da anemia (suplementação de ferro e/ou agentes estimuladores da eritropoese - EPO);\n(5) Manejo do DMO-DRC (restrição de fósforo, quelantes, calcitriol/análogos);\n(6) Manejo da acidose metabólica (bicarbonato de sódio);\n(7) Orientação dietética (restrição de sódio, potássio, fósforo, proteínas);\n(8) Cessação de tabagismo/sedentarismo;\n(9) Evitar nefrotóxicos (AINES, contrastes).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza 7 a 9 itens de conduta corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 4 a 6 itens de conduta corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Verbaliza menos de 4 itens ou incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item22",
+        "itemNumeroOficial": "22",
+        "descricaoItem": "Define a necessidade de Terapia de Substituição Renal (TSR) e discute as opções:\n(1) Menciona a necessidade de iniciar TSR devido à DRC estágio G5 e/ou complicações refratárias (síndrome urêmica, hipercalemia, acidose);\n(2) Discute as modalidades (Hemodiálise, Diálise Peritoneal) e a possibilidade de Transplante Renal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Menciona os 2 itens corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Menciona apenas 1 item corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não menciona ou menciona incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item23",
+        "itemNumeroOficial": "23",
+        "descricaoItem": "Orientações e Encaminhamentos:\n(1) Educa o paciente sobre a doença, tratamento e complicações;\n(2) Reforça a importância da adesão à medicação e dieta;\n(3) Orienta sobre sinais de alarme para buscar atendimento (piora do edema, falta de ar, vômitos persistentes);\n(4) Encaminhamento para Nefrologia (se já não estiver sendo acompanhado);\n(5) Encaminhamento para Nutrição;\n(6) Encaminhamento para confecção de Fístula Arteriovenosa (se optar por HD).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 5 ou 6 itens corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 3 ou 4 itens corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Realiza menos de 3 itens ou incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item24",
+        "itemNumeroOficial": "24",
+        "descricaoItem": "Responde adequadamente aos questionamentos do paciente simulado sobre a gravidade da doença e a necessidade de diálise.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde de forma completa, clara e empática.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Responde parcialmente ou com pouca clareza.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não responde ou responde incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Doença Renal Crônica (DRC) é uma condição progressiva e irreversível, definida por alterações estruturais ou funcionais do rim por mais de três meses, ou TFG < 60 ml/min/1,73m² por mais de três meses. No caso de João da Silva, a etiologia é provável nefropatia diabética e hipertensiva, devido ao histórico de DM e HAS mal controladas. A anamnese é fundamental para identificar sintomas urêmicos (fadiga, náuseas, vômitos, prurido, alterações cognitivas, dispneia, edema, nictúria) e fatores de risco. O exame físico deve focar em sinais de sobrecarga volêmica (edema, turgência jugular), anemia (palidez), e uremia (tremores, lesões de escoriação). Os exames laboratoriais confirmam a disfunção renal (creatinina 4.8 mg/dL, ureia 120 mg/dL), distúrbios eletrolíticos (hipercalemia 5.9 mEq/L, hipocalcemia 8.0 mg/dL, hiperfosfatemia 5.5 mg/dL), hiperparatireoidismo secundário (PTH 350 pg/mL), anemia (Hb 9.2 g/dL), descontrole glicêmico (HbA1c 9.5%) e dislipidemia. A urinálise mostra proteinúria grave (RAC 450 mg/g) e a gasometria, acidose metabólica. A ultrassonografia renal com rins atróficos e perda de diferenciação córtico-medular reforça a cronicidade do quadro. O estadiamento da DRC para João da Silva é G5A3 (TFG < 15 ml/min/1,73m² com albuminúria > 300 mg/g), indicando doença renal terminal. Os diagnósticos diferenciais incluem LRA sobreposta à DRC e outras causas de azotemia. O tratamento conservador visa controlar a pressão arterial (<130/80 mmHg), glicemia (HbA1c <7%), proteinúria, e as complicações (anemia, DMO, hipercalemia, acidose) com ajustes medicamentosos e dieta. Devido ao estágio avançado e à presença de síndrome urêmica e complicações refratárias, a Terapia de Substituição Renal (TSR) é indicada, devendo-se discutir as modalidades (hemodiálise, diálise peritoneal) e o transplante renal. Encaminhamento para nefrologia, nutrição e cirurgia vascular (se fístula para HD) são cruciais. É vital educar o paciente sobre a doença, aderência ao tratamento e sinais de alarme.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Portaria nº 1.633, de 27 de setembro de 2017. Aprova o Protocolo Clínico e Diretrizes Terapêuticas da Doença Renal Crônica. Diário Oficial da União, Brasília, DF, 28 set. 2017.",
+        "2. KDIGO 2012 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney International Supplements (2012) 2, 1–150.",
+        "3. Sociedade Brasileira de Nefrologia (SBN). Diretrizes Brasileiras de Doença Renal Crônica. SBN, 2020."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "5d06d7bf-1e03-4fae-98c5-6ba45a2fa25d",
+  "created_at": "2025-08-28T10:42:29.716722",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Doença Renal Crônica (DRC): Diagnóstico, estadiamento e manejo das complicações.",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

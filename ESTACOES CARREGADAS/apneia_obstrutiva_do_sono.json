@@ -1,0 +1,694 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_AOS_01",
+  "tituloEstacao": "Apneia Obstrutiva do Sono",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Apneia do Sono",
+    "AOS",
+    "Clínica Médica",
+    "Pneumologia",
+    "Sonolência Diurna",
+    "Ronco",
+    "HAS",
+    "Obesidade",
+    "Síndrome Metabólica"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (incluindo Ecocardiograma)",
+        "Disponibilidade de Polissonografia e CPAP"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 52 anos, sexo masculino, casado, bancário, chega à consulta referindo queixas de sonolência diurna excessiva e ronco alto há cerca de 2 anos.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente.",
+      "Realizar exame físico geral e direcionado conforme a necessidade do caso.",
+      "Solicitar exames complementares pertinentes ao caso clínico.",
+      "Interpretar os resultados dos exames apresentados.",
+      "Estabelecer o diagnóstico principal e os diagnósticos diferenciais.",
+      "Elaborar a conduta terapêutica inicial e orientações gerais.",
+      "Verbalizar ao paciente o plano de cuidado e responder às suas dúvidas."
+    ],
+    "avisosImportantos": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "Todos os exames solicitados que não possuem impresso serão considerados realizados, e seus resultados, se relevantes, serão verbalizados pelo chefe de estação mediante questionamento."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou roncando muito e sinto um cansaço enorme durante o dia."
+      },
+      {
+        "contextoOuPerguntaChave": "Sonolência Diurna Excessiva (SDE)",
+        "informacao": "Início: Há 2 anos, gradual.\nIntensidade: Muita, não consigo me manter acordado em reuniões, assistindo TV ou lendo. Já cheguei a cochilar dirigindo.\nFrequência: Diária, em vários momentos do dia.\nImpacto: Tenho dificuldade de concentração no trabalho, sinto a memória fraca e meu desempenho profissional caiu. Meu humor está mais irritadiço."
+      },
+      {
+        "contextoOuPerguntaChave": "Ronco",
+        "informacao": "Início: Há mais de 5 anos, piorou muito nos últimos 2 anos.\nIntensidade: Muito alto, minha esposa reclama que acorda com meu ronco.\nFrequência: Todas as noites.\nCaracterística: Irregular, com pausas respiratórias."
+      },
+      {
+        "contextoOuPerguntaChave": "Apneias Testemunhadas",
+        "informacao": "Minha esposa diz que eu paro de respirar por alguns segundos, engasgo e depois respiro forte. Isso acontece várias vezes por noite."
+      },
+      {
+        "contextoOuPerguntaChave": "Despertares Noturnos",
+        "informacao": "Acordo várias vezes à noite, umas 3 a 4 vezes, para ir ao banheiro (nictúria).\nQualidade do Sono: Não sinto que meu sono seja reparador, acordo cansado."
+      },
+      {
+        "contextoOuPerguntaChave": "Sintomas Noturnos Associados",
+        "informacao": "Boca seca: Sim, ao acordar.\nSudorese noturna: Sim, transpiro muito à noite.\nInsônia: Não, pego no sono facilmente, mas não dura.\nEngasgos/Sufocamento noturno: Sim, ocasionalmente."
+      },
+      {
+        "contextoOuPerguntaChave": "Sintomas Diurnos Associados",
+        "informacao": "Fadiga crônica: Sim, sinto cansaço o dia todo.\nIrritabilidade: Sim, estou mais impaciente com todos.\nAlterações de humor: Sim, mais para baixo, desanimado.\nDificuldade de concentração: Sim, especialmente no trabalho.\nLapsos de memória: Sim, esqueço coisas simples.\nCefaleia matinal: Sim, quase todos os dias, principalmente na nuca.\nDiminuição da libido: Sim."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Hipertensão Arterial Sistêmica (HAS) há 10 anos, difícil de controlar com 3 medicamentos diferentes. Diabetes Mellitus tipo 2 há 5 anos, controlo com dieta e metformina. Obesidade, fui diagnosticado há 15 anos e venho ganhando peso progressivamente. Dislipidemia há 8 anos, tomo sinvastatina. Hipotireoidismo, diagnosticado há 3 anos e tomo levotiroxina, os exames estão normais.\nCirurgias prévias: Nega.\nInternações: Nega.\nAlergias: Nega.\nMedicamentos em uso contínuo: Losartana 50mg 2x/dia, Anlodipino 10mg 1x/dia, Hidroclorotiazida 25mg 1x/dia, Metformina 850mg 2x/dia, Sinvastatina 40mg 1x/dia, Levotiroxina 75mcg 1x/dia.\nVacinação: Completa e em dia.\nTrauma: Nega.\nTransfusões: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Tipo do parto: Não se aplica.\nTempo de Gestação: Não se aplica.\nIntercorrências neonatais: Não se aplica.\nHábitos sexuais: Casado, relação estável, nega múltiplos parceiros.\nHábitos urinários: Nictúria (3-4x/noite), sem disúria ou polaciúria diurna.\nHábitos intestinais: Regular, 1x/dia, fezes formadas.\nIngestão hídrica: Bebe 1.5L de água por dia.\nExposição ocupacional: Trabalho de escritório (bancário), sem exposição a agentes químicos ou ruídos.\nEstresse: Sente muito estresse devido ao trabalho e à dificuldade de concentração."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Ex-fumante há 5 anos (fumava 1 maço/dia por 20 anos).\nEtilismo: Sim, bebe socialmente, mas tem tomado uma taça de vinho quase todas as noites antes de dormir para relaxar.\nDrogas ilícitas: Nega.\nAlimentação: Pouco saudável, rica em gorduras e carboidratos, come fora frequentemente.\nAtividade física: Sedentário, não pratica exercícios regularmente.\nSono: Padrão irregular, costuma dormir por volta da meia-noite e acorda às 6h, mas o sono é picado e não reparador.\nHábitos urinários: Nictúria frequente.\nHábitos intestinais: Normais.\nIngestão hídrica: Suficiente.\nExposição ocupacional: Nega.\nEstresse: Sente estresse relacionado à família e trabalho."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Roncador, tinha HAS e Obesidade, faleceu de infarto.\nMãe: Vive, tem Diabetes tipo 2 e HAS.\nDoenças na família: História de HAS e DM tipo 2 em tios.\nHistória de câncer na família: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar exames de imagem como Raio-X de tórax, TC de crânio ou USG abdominal, responda: 'Considerar solicitado, aguardando resultados, sem achados agudos relevantes para este quadro'.\nSe o candidato solicitar ausculta cardíaca, diga: 'Bulhas rítmicas, normofonéticas, sem sopros ou extrassístoles. B2 hiperfonética em foco pulmonar.'\nSe o candidato solicitar ausculta pulmonar, diga: 'Murmúrio vesicular presente e simétrico, sem ruídos adventícios.'"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "O que eu tenho, doutor(a)?.\nÉ grave? Poderia ser algo mais sério?\nQual o melhor tratamento para isso? Preciso fazer alguma cirurgia?\nO que eu faço para que isso não aconteça novamente?\nPosso continuar dirigindo?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "150 × 95 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "85 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "96% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado Geral",
+                  "valor": "Bom, lúcido, orientado, fácies sonolenta. Obeso, IMC: 35 kg/m²."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Sem alterações à inspeção e palpação. Circunferência cervical: 44 cm."
+                },
+                {
+                  "chave": "Orofaringe",
+                  "valor": "Classificação de Mallampati modificada grau IV, úvula alongada e edemaciada, palato mole espesso e baixo, amígdalas discretamente hipertrofiadas."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Bulhas rítmicas, 2T, normofonéticas, sem sopros. B2 hiperfonética em foco pulmonar."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente e simétrico, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Globoso, flácido, indolor à palpação, RHA presentes."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edemas, pulsos periféricos presentes e simétricos."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "8.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "16.8 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "51% (Ref: 40-52%)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "130 mg/dL (Ref: 70-99)"
+                },
+                {
+                  "chave": "Hemoglobina Glicada (HbA1c)",
+                  "valor": "7.2 % (Ref: < 5.7)"
+                },
+                {
+                  "chave": "Colesterol Total",
+                  "valor": "220 mg/dL (Ref: < 200)"
+                },
+                {
+                  "chave": "HDL-Colesterol",
+                  "valor": "35 mg/dL (Ref: > 40)"
+                },
+                {
+                  "chave": "LDL-Colesterol",
+                  "valor": "150 mg/dL (Ref: < 130)"
+                },
+                {
+                  "chave": "Triglicerídeos",
+                  "valor": "210 mg/dL (Ref: < 150)"
+                },
+                {
+                  "chave": "TSH",
+                  "valor": "2.5 µUI/mL (Ref: 0.4-4.0)"
+                },
+                {
+                  "chave": "T4 livre",
+                  "valor": "1.2 ng/dL (Ref: 0.8-1.8)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (Ref: 0.7-1.3)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_ECO_3",
+        "tituloImpresso": "Ecocardiograma Transtorácico",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado do Ecocardiograma realizado para investigação de comorbidades cardiovasculares.",
+          "caminhoImagem": "",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: ecocardiograma transtorácico com hipertrofia ventricular esquerda e hipertensão pulmonar leve)",
+          "laudo": "ACHADOS:\nFunção sistólica do ventrículo esquerdo preservada (FEVE 65%). Hipertrofia ventricular esquerda concêntrica leve. Pressão sistólica de artéria pulmonar estimada em 40 mmHg (leve a moderada). Valvopatias sem repercussão hemodinâmica.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_ECG_4",
+        "tituloImpresso": "Eletrocardiograma (ECG)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Traçado de Eletrocardiograma de 12 derivações.",
+          "caminhoImagem": "",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: ECG de 12 derivações com sobrecarga ventricular esquerda)",
+          "laudo": "ACHADOS:\nRitmo sinusal, 80 bpm. Eixo elétrico desviado para a esquerda. Sobrecarga ventricular esquerda (critérios de Cornell e Sokolow-Lyon positivos). Repolarização ventricular sem alterações isquêmicas agudas.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LAUDOPSG_5",
+        "tituloImpresso": "Laudo de Polissonografia Completa",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SUMÁRIO DA POLISSONOGRAFIA",
+              "itens": [
+                {
+                  "chave": "Tempo Total de Sono (TST)",
+                  "valor": "360 minutos"
+                },
+                {
+                  "chave": "Latência do Sono",
+                  "valor": "10 minutos"
+                },
+                {
+                  "chave": "Eficiência do Sono",
+                  "valor": "90%"
+                },
+                {
+                  "chave": "Índice de Apneia-Hipopneia (IAH)",
+                  "valor": "35 eventos/hora (predominantemente obstrutivo)"
+                },
+                {
+                  "chave": "Índice de Dessaturação (ID)",
+                  "valor": "30 eventos/hora"
+                },
+                {
+                  "chave": "Menor Saturação de O2 Noturna",
+                  "valor": "78%"
+                },
+                {
+                  "chave": "Tempo com Saturação O2 < 90%",
+                  "valor": "15% do TST"
+                },
+                {
+                  "chave": "Eventos de Microdespertar (Índice)",
+                  "valor": "25/hora"
+                },
+                {
+                  "chave": "Ronco",
+                  "valor": "Presente em 80% do tempo de sono."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ESCALAS E QUESTIONÁRIOS",
+              "itens": [
+                {
+                  "chave": "Escala de Sonolência de Epworth (ESS)",
+                  "valor": "18/24 (Sugestivo de sonolência diurna excessiva grave)"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_AOS_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino de 52 anos com quadro de sonolência diurna excessiva, ronco alto e apneias testemunhadas. Apresenta múltiplas comorbidades como HAS refratária, Obesidade, DM2 e Dislipidemia. A polissonografia revelou AOS grave.",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada para sintomas de AOS e comorbidades.",
+        "Exame físico direcionado para fatores de risco e achados específicos de AOS.",
+        "Solicitação e interpretação de exames complementares (laboratoriais, cardíacos, polissonografia).",
+        "Estabelecimento do diagnóstico de Apneia Obstrutiva do Sono (AOS) grave e suas comorbidades.",
+        "Elaboração de plano terapêutico e orientações abrangentes."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se e (2) cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Sonolência Diurna Excessiva (SDE):\n(1) Início e duração;\n(2) Intensidade e frequência (incluindo cochilos em situações ativas);\n(3) Impacto nas atividades diárias (trabalho, direção) e qualidade de vida;\n(4) Avaliação de sonolência com escala (ex: Epworth).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 aspectos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 ou 2 aspectos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 1 aspecto ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Ronco e Apneias Testemunhadas:\n(1) Caracterização do ronco (intensidade, regularidade, frequência);\n(2) Presença de pausas respiratórias ou engasgos testemunhados;\n(3) Piora em decúbito dorsal ou com álcool.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 aspectos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 ou 2 aspectos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 1 aspecto ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Sintomas Noturnos e Diurnos Associados:\n(1) Despertares frequentes (incluindo nictúria);\n(2) Boca seca ao acordar e sudorese noturna;\n(3) Fadiga crônica e cefaleia matinal;\n(4) Irritabilidade, alterações de humor, dificuldade de concentração e lapsos de memória;\n(5) Diminuição da libido.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 aspectos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 aspectos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 2 aspectos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Antecedentes Patológicos Relevantes:\n(1) Hipertensão Arterial Sistêmica (HAS) e seu controle (refratariedade);\n(2) Obesidade e história de ganho de peso;\n(3) Diabetes Mellitus tipo 2 e dislipidemia;\n(4) Hipotireoidismo ou outras endocrinopatias;\n(5) Histórico de cirurgias orofaringeanas ou rinite/sinusite crônica.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 aspectos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 aspectos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 2 aspectos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Hábitos de Vida e Fatores de Risco:\n(1) Consumo de álcool (especialmente à noite);\n(2) Tabagismo (ativo/ex-fumante);\n(3) Uso de sedativos/hipnóticos;\n(4) Padrão de sono (horas, qualidade, regularidade);\n(5) Hábitos alimentares e atividade física (sedentarismo).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 2 aspectos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Anamnese - Antecedentes Familiares:\n(1) História familiar de ronco ou apneia do sono;\n(2) História familiar de HAS, obesidade ou diabetes.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 2 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 aspecto.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita Exame Físico:\n(1) Sinais vitais (com foco em Pressão Arterial);\n(2) Inspeção e palpação do pescoço (circunferência cervical);\n(3) Oroscopia (Mallampati, amígdalas, úvula, palato mole);\n(4) RInoscopia (desvio de septo, hipertrofia de cornetos);\n(5) Avaliação do IMC/Peso e altura.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 4 ou 5 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 ou 3 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 2 aspectos ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Identifica Achados Relevantes no Exame Físico (do impresso):\n(1) Hipertensão Arterial Sistêmica;\n(2) Obesidade (IMC) e Circunferência Cervical aumentada;\n(3) Achados orofaríngeos (Mallampati IV, úvula alongada/espessada, palato mole espesso);\n(4) Fácies sonolenta ou outros sinais de cansaço.\n(5) Ausculta cardíaca (B2 hiperfonética em foco pulmonar).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica 4 ou 5 achados corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Identifica 2 ou 3 achados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Identifica menos de 2 achados ou não identifica.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita o exame padrão-ouro para o diagnóstico de AOS:\n(1) Polissonografia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Interpreta o Laudo de Polissonografia (do impresso):\n(1) Identifica o Índice de Apneia-Hipopneia (IAH);\n(2) Classifica a gravidade da AOS (Grave);\n(3) Identifica o Índice de Dessaturação e menor saturação de O2;\n(4) Identifica a Escala de Sonolência de Epworth (ESS) e sua pontuação.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 3 ou 4 aspectos corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 ou 2 aspectos corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 1 aspecto ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Solicita e Interpreta Exames Laboratoriais (do impresso):\n(1) Solicita Glicemia de jejum, HbA1c, Perfil Lipídico e Hemograma;\n(2) Interpreta achados de DM2, Dislipidemia e Policitemia (Hemoglobina alta);\n(3) Solicita e interpreta TSH/T4 livre para descartar hipotireoidismo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 3 aspectos corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 1 ou 2 aspectos corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta menos de 1 aspecto ou não o faz.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Solicita e Interpreta Exames de Imagem (do impresso):\n(1) Solicita ECG e Ecocardiograma;\n(2) Interpreta achados de sobrecarga ventricular esquerda no ECG;\n(3) Interpreta achados de hipertrofia ventricular esquerda e hipertensão pulmonar no Ecocardiograma.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 3 aspectos corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 1 ou 2 aspectos corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta menos de 1 aspecto ou não o faz.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Estabelece o Diagnóstico Principal e Comorbidades:\n(1) Diagnóstico de Apneia Obstrutiva do Sono Grave;\n(2) Comorbidades: Hipertensão Arterial Sistêmica (refratária), Obesidade, Diabetes Mellitus tipo 2, Dislipidemia, Hipertensão pulmonar e sobrecarga cardíaca.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico principal e 3 ou mais comorbidades.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico principal e 1 ou 2 comorbidades.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico principal ou comorbidades.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Cita Diagnósticos Diferenciais:\n(1) Ronco primário;\n(2) Apneia Central do Sono (ACS);\n(3) Hipotireoidismo;\n(4) Insônia psicofisiológica;\n(5) Narcolepsia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou mais diagnósticos diferenciais corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Elabora Plano Terapêutico Inicial:\n(1) Medidas comportamentais (perda de peso, higiene do sono, evitar álcool/sedativos à noite, dormir de lado);\n(2) Indicação de CPAP (Continuous Positive Airway Pressure);\n(3) Opcional: considerar avaliação para Aparelhos Intraorais (AIOs) ou cirurgia (otorrino, bariátrica);\n(4) Otimização do controle de comorbidades (HAS, DM2, Dislipidemia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora 3 ou 4 aspectos do plano terapêutico.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora 1 ou 2 aspectos do plano terapêutico.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não elabora ou o faz inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Orientações ao Paciente e Seguimento:\n(1) Esclarece sobre a doença e a importância do tratamento a longo prazo;\n(2) Orienta sobre sinais de alarme e quando procurar atendimento médico;\n(3) Enfatiza adesão ao CPAP (se indicado);\n(4) Recomenda encaminhamento a especialistas (Pneumologista/Médico do Sono, Nutricionista/Endocrinologista, Cardiologista).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre 3 ou 4 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta sobre 1 ou 2 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não orienta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Apneia Obstrutiva do Sono (AOS) é um distúrbio crônico caracterizado por episódios repetidos de obstrução das vias aéreas superiores durante o sono, levando à hipoxemia intermitente e despertares. O caso apresenta um paciente masculino, de meia-idade, com queixas clássicas de ronco alto, sonolência diurna excessiva (ESS elevada), apneias testemunhadas, fadiga crônica e cefaleia matinal. São fatores de risco relevantes a obesidade (IMC elevado e circunferência cervical aumentada), sexo masculino e consumo noturno de álcool. O exame físico revela achados consistentes como Mallampati IV, úvula alongada e palato mole espesso. As comorbidades cardiovasculares (HAS refratária, evidências de sobrecarga ventricular esquerda e hipertensão pulmonar no ECG/Ecocardiograma) e metabólicas (DM2, Dislipidemia e policitemia leve no hemograma) são achados comuns e agravados pela AOS. O diagnóstico definitivo é confirmado pela Polissonografia, que demonstrou IAH ≥ 30 eventos/hora, classificando a AOS como grave. Os diagnósticos diferenciais incluem ronco primário, apneia central do sono, hipotireoidismo (já investigado e controlado), e distúrbios de sono como narcolepsia ou insônia. O tratamento de primeira linha para AOS grave é o CPAP, que melhora significativamente a qualidade de vida e reduz os riscos cardiovasculares. Medidas comportamentais, como perda de peso (fundamental para pacientes com obesidade), evitar álcool e sedativos à noite, e higiene do sono, são essenciais. O acompanhamento multidisciplinar com pneumologista/médico do sono, cardiologista, endocrinologista/nutricionista e, em alguns casos, otorrinolaringologista, é crucial para o manejo das comorbidades e otimização do tratamento.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Protocolos de Encaminhamento da Atenção Básica para a Atenção Especializada: Pneumologia. 2018.",
+        "2. Sociedade Brasileira de Pneumologia e Tisiologia. III Diretrizes Brasileiras para o Consenso sobre a Síndrome da Apneia Obstrutiva do Sono. J Bras Pneumol. 2017;43(2):142-53.",
+        "3. UpToDate. Clinical presentation and diagnosis of obstructive sleep apnea in adults. Disponível em: www.uptodate.com. Acesso em 2024.",
+        "4. American Academy of Sleep Medicine. Clinical Practice Guideline for the Treatment of Obstructive Sleep Apnea and Snoring with Oral Appliance Therapy. J Clin Sleep Med. 2015;11(7):773-82.",
+        "5. Diretrizes Brasileiras de Hipertensão Arterial. Arq Bras Cardiol. 2020; 114(3):560-592."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "0b5735e1-6939-4dc9-8e7f-03371d9ebeee",
+  "created_at": "2025-08-28T10:32:24.585559",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Apneia Obstrutiva do Sono",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

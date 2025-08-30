@@ -42,6 +42,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Antônio Santos, 55 anos, Profissional liberal e Solteiro"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com muita sede, urinando demais e com falta de ar há dois dias, doutor(a)."
       },
@@ -566,5 +570,23 @@
         "3. Sociedade Brasileira de Diabetes. Diretrizes da Sociedade Brasileira de Diabetes 2023-2024. Disponível em: [https://www.diabetes.org.br/profissionais/images/2023/diretrizes/Diretrizes_SBD-2023-2024.pdf]. Acesso em: [27/05/2024]."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "6b2b04b7-b346-43c5-9e0f-e2a6731ec211",
+  "created_at": "2025-08-28T10:54:58.386588",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Distúrbios Ácido-Base",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

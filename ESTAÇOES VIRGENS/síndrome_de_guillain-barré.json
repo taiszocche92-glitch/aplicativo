@@ -1,0 +1,602 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_SGB",
+  "tituloEstacao": "Síndrome de Guillain-Barré",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Síndrome de Guillain-Barré",
+    "Polirradiculoneuropatia",
+    "Fraqueza muscular ascendente",
+    "Arreflexia",
+    "Neurologia",
+    "Clínica Médica",
+    "Atenção terciária"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Centro de imagem (RM e ENMG disponíveis)",
+        "Unidade de terapia intensiva (UTI)",
+        "Medicações disponíveis (incluindo IVIg)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 45 anos, sexo feminino, chega à emergência referindo fraqueza progressiva nas pernas que começou a subir para os braços, acompanhada de formigamento nas mãos e pés.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente.",
+      "Realizar o exame físico direcionado ao quadro neurológico do paciente.",
+      "Solicitar os exames complementares pertinentes ao caso clínico.",
+      "Interpretar os resultados dos exames apresentados.",
+      "Verbalizar o diagnóstico, suas classificações e os possíveis diagnósticos diferenciais.",
+      "Elaborar a conduta terapêutica inicial e as orientações para o paciente.",
+      "Identificar e comunicar os sinais de alarme e o prognóstico ao paciente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "A estação simulará um ambiente de emergência em hospital terciário, com acesso a todos os recursos de diagnóstico e tratamento."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: Maria da Silva\nIdade: 45 anos\nEstado Civil: Casada\nProfissão: Contadora"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com as pernas fracas e formigando, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "FRAQUEZA MUSCULAR",
+        "informacao": "Início: Começou há uns 5 dias, meio de repente, com as pernas pesadas.\nLocalização: Começou nas pernas, agora sinto que está subindo para os braços. Sinto que não consigo levantar os braços direito também.\nIntensidade: Muito forte, doutor(a). Acho que é uns 8/10. Não consigo mais caminhar sozinha.\nCaracterística: É uma fraqueza que parece tirar a força total, as pernas estão moles.\nProgressão: Piorou bastante, a cada dia sinto que fico mais fraca.\nFator de piora: Qualquer tentativa de me mover piora.\nFator de melhora: Nada melhora, nem o repouso.\nEpisódios prévios: Nunca senti nada parecido antes."
+      },
+      {
+        "contextoOuPerguntaChave": "PARESTESIAS (FORMIGAMENTO/DORMÊNCIA)",
+        "informacao": "Início: Começou junto com a fraqueza, no mesmo dia.\nLocalização: Primeiro nas pontas dos pés, agora sinto nas mãos também, como se estivessem dormentes.\nIntensidade: É um desconforto chato, uns 6/10.\nCaracterística: É como agulhadas e dormência ao mesmo tempo.\nProgressão: Tem se espalhado um pouco, mas a fraqueza é o que mais incomoda.\nFator de piora: Nega.\nFator de melhora: Nega.\nEpisódios prévios: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR NEUROPÁTICA",
+        "informacao": "Início: A dor apareceu há uns 3 dias, depois da fraqueza.\nLocalização: Sinto uma dor profunda nas costas, nos ombros e nas coxas.\nIntensidade: É uma dor constante, tipo um peso, uns 7/10.\nCaracterística: É uma dor profunda, como um aperto.\nProgressão: Está mais ou menos igual, constante.\nFator de piora: Nega.\nFator de melhora: Nega.\nEpisódios prévios: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "DIFICULDADE PARA CAMINHAR",
+        "informacao": "Início: Desde que a fraqueza nas pernas piorou, há uns 3 dias.\nProgressão: Agora não consigo mais andar sozinha, preciso de ajuda pra tudo.\nImpacto funcional: Não consigo levantar da cama, nem ir ao banheiro. Me sinto presa no corpo."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Dificuldade para engolir (disfagia): Sim, sinto que a comida 'engasga' às vezes e a água desce errado. Tenho medo de me afogar.\nAlteração na fala (disartria): Sinto minha boca pesada, a voz sai mais arrastada. As pessoas pedem pra eu repetir.\nVisão dupla (diplopia): Às vezes sinto a visão meio embaçada, mas não chega a ser dupla.\nParalisia facial: Sinto o rosto meio caído, minha boca não fecha direito, parece que a pálpebra também está pesada dos dois lados.\nTontura/Mal-estar (Disautonomia): Sinto meu coração disparar do nada e depois fica lento. Às vezes me sinto fraca e tonta quando tento levantar.\nRetenção urinária: Estou com dificuldade pra fazer xixi, sinto a bexiga cheia mas não sai tudo.\nConstipação/Íleo paralítico: Nega, mas o intestino está um pouco preso nos últimos dias.\nDiarreia: Nega.\nFebre: Nega.\nTosse: Nega.\nDispneia: Nega, ainda consigo respirar bem."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Nega.\nCirurgias prévias: Nega.\nInternações: Nega.\nAlergias: Nega.\nMedicamentos em uso contínuo: Nega.\nVacinação: Tomei a vacina da gripe há uns 3 meses.\nTrauma: Nega.\nTransfusões: Nega.\nInfecções recentes: Tive uma diarreia forte e vômitos há umas 3 semanas, durou uns 2 dias. Pensei que era algo que comi. E um resfriado leve no mês passado."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega, nunca fumei.\nEtilismo: Socialmente, uma taça de vinho no fim de semana.\nDrogas ilícitas: Nega.\nAlimentação: Saudável, com frutas e vegetais.\nAtividade física: Caminhada leve 3 vezes por semana, mas agora não consigo.\nSono: Durmo bem, umas 7-8 horas por noite, mas a dor e a fraqueza têm atrapalhado nos últimos dias.\nHábitos urinários: Com dificuldade pra urinar agora, mas antes era normal.\nHábitos intestinais: Normal antes, agora está meio preso.\nIngestão hídrica: Bebo bastante água.\nExposição ocupacional: Nega, trabalho em escritório.\nEstresse: Sim, muito estresse com a fraqueza e o que pode ser."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Nega doenças neurológicas.\nMãe: Nega doenças neurológicas.\nDoenças (especificas com relação e relevante ao caso) na família: Nega doenças autoimunes ou neurológicas.\nHistoria de cancêr na família: Mãe teve câncer de mama, mas já tratou.\nIrmãos ou tias: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega viagens internacionais ou para áreas endêmicas de Zika/Dengue.\nExposição a doenças infecciosas: Nega contato com pessoas doentes além da gripe e diarreia que tive.\nContato com doentes: Nega.\nExposição a animais: Nega.\nExposição a vetores: Nega.\nÁgua consumida: Filtrada.\nExposição a agentes ambientais: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL",
+        "informacao": "Situação familiar: Casada, dois filhos.\nRede de apoio: Familiares e amigos.\nSituação socioeconômica: Estável.\nNível educacional: Superior completo (Contadora).\nReligião: Católica.\nEstresse psicossocial: Muito assustada com a doença e o impacto na vida familiar e profissional."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar exames, diga 'considere solicitado'. Se pedir para realizar um procedimento, diga 'considere realizado'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)?.\npergunta (2): É grave? Vou ficar curada?.\npergunta (3): Quanto tempo dura o tratamento?."
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico (Verbalizado pelo Chefe de Estação)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "150 × 90 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "110 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.8 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO NEUROLÓGICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Paciente lúcida, orientada, Glasgow 15, com dificuldade de mobilização em leito."
+                },
+                {
+                  "chave": "Nervos Cranianos",
+                  "valor": "Paresia facial bilateral, dificuldade de oclusão palpebral e elevação de comissuras labiais. Disfagia leve para líquidos e disartria. Diplopia ocasional."
+                },
+                {
+                  "chave": "Motor",
+                  "valor": "Paresia flácida 2/5 em membros inferiores, 3/5 em membros superiores (escala de força muscular MRC). Diminuição da massa muscular em membros (atrofia de desuso)."
+                },
+                {
+                  "chave": "Reflexos",
+                  "valor": "Arreflexia patelar e aquileu bilateralmente. Hiporreflexia bicipital e tricipital. Reflexos cutâneo-abdominais ausentes."
+                },
+                {
+                  "chave": "Sensibilidade",
+                  "valor": "Preservada à picada em membros, com discreta hipoestesia distal (luva e bota) em mãos e pés para tato leve e vibração. Nega dor à palpação de troncos nervosos."
+                },
+                {
+                  "chave": "Coordenação e Marcha",
+                  "valor": "Não testável devido à fraqueza."
+                },
+                {
+                  "chave": "Sinais de Irritação Meníngea",
+                  "valor": "Nega"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais Padrão",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA COMPLETO",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "13.2 g/dL (Ref: 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA SANGUÍNEA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "0.9 mg/dL (Ref: 0.6-1.1)"
+                },
+                {
+                  "chave": "Glicemia",
+                  "valor": "95 mg/dL (Ref: 70-100)"
+                },
+                {
+                  "chave": "CPK (Creatinofosfoquinase)",
+                  "valor": "80 U/L (Ref: 26-192)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ELETRÓLITOS",
+              "itens": [
+                {
+                  "chave": "Sódio",
+                  "valor": "138 mEq/L (Ref: 135-145)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "4.0 mEq/L (Ref: 3.5-5.0)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LCR_3",
+        "tituloImpresso": "Análise do Líquido Cefalorraquidiano (LCR)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "RESULTADOS DO LCR",
+              "itens": [
+                {
+                  "chave": "Proteínas",
+                  "valor": "0.85 g/L (VR: 0.15-0.45 g/L) - Elevado"
+                },
+                {
+                  "chave": "Celularidade",
+                  "valor": "3 células/mm³ (VR: < 5 células/mm³) - Normal"
+                },
+                {
+                  "chave": "Glicose",
+                  "valor": "60 mg/dL (VR: 45-80 mg/dL) - Normal"
+                },
+                {
+                  "chave": "Aspecto",
+                  "valor": "Límpido e incolor"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ENMG_4",
+        "tituloImpresso": "Eletroneuromiografia (ENMG) de Membros Inferiores e Superiores",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ACHADOS DE CONDUÇÃO NERVOSA MOTORA",
+              "itens": [
+                {
+                  "chave": "Velocidade de Condução",
+                  "valor": "Lentificada em múltiplos nervos (mediano, ulnar, fibular, tibial) bilateralmente."
+                },
+                {
+                  "chave": "Latências Distais",
+                  "valor": "Prolongadas em múltiplos nervos."
+                },
+                {
+                  "chave": "Bloqueios de Condução",
+                  "valor": "Presentes em nervos mediano e tibial bilateralmente."
+                },
+                {
+                  "chave": "Dispersão Temporal",
+                  "valor": "Aumentada em alguns nervos."
+                },
+                {
+                  "chave": "Ondas F e H",
+                  "valor": "Ausentes ou com latências prolongadas."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ACHADOS DE CONDUÇÃO NERVOSA SENSITIVA",
+              "itens": [
+                {
+                  "chave": "Velocidade de Condução",
+                  "valor": "Levemente reduzida em alguns nervos, com amplitudes geralmente preservadas."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ATIVIDADE DE AGULHA",
+              "itens": [
+                {
+                  "chave": "Achados",
+                  "valor": "Potenciais de fibrilação e ondas positivas (sinais de denervação) em músculos proximais e distais, mais evidentes em MMII."
+                }
+              ]
+            },
+            {
+              "chave": "CONCLUSÃO",
+              "valor": "Polineuropatia desmielinizante inflamatória aguda (PDIA), compatível com Síndrome de Guillain-Barré."
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_RM_CAUDA_EQUINA_5",
+        "tituloImpresso": "Ressonância Magnética de Coluna Lombossacra (Axial T1 Pós-Contraste)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Visualização de realce de raízes nervosas na cauda equina após administração de contraste.",
+          "caminhoImagem": "https://neuroradiology.com/images/pages/2006/06/guillain-barre_syndrome_mri_of_spinal_cord.gif",
+          "sugestaoBuscaImagem": "Buscar no Google Imagens: RM coluna lombossacra axial T1 pós-contraste realce raízes cauda equina Guillain-Barré",
+          "laudo": "ACHADOS:\nRessonância Magnética da coluna lombossacra demonstra espessamento e realce anômalo das raízes da cauda equina após administração de gadolínio, sugestivo de processo inflamatório/desmielinizante.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_SGB_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina, 45 anos, com quadro agudo/subagudo de fraqueza muscular ascendente e parestesias, acompanhada de dor neuropática, disartria, disfagia, paresia facial e disautonomia. História de infecção gastrointestinal recente e vacinação prévia. Exame físico revela paresia flácida e arreflexia. Exames complementares mostram dissociação albuminocitológica no LCR, achados de polineuropatia desmielinizante no ENMG e realce de raízes na RM, corroborando o diagnóstico de Síndrome de Guillain-Barré.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa e direcionada para sintomas neurológicos e gatilhos da SGB.",
+        "Realização de exame físico neurológico com ênfase em força, reflexos, nervos cranianos e disautonomia.",
+        "Solicitação e interpretação de exames complementares cruciais (LCR, ENMG, RM).",
+        "Formulações diagnósticas precisas, incluindo variantes e diagnósticos diferenciais.",
+        "Elaboração de plano terapêutico imunomodulador e de suporte adequado.",
+        "Comunicação de sinais de alarme e orientações de seguimento."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e Queixa Principal:\n(1) Cumprimenta o paciente simulado e identifica-se;\n(2) Pergunta o motivo da consulta de forma aberta;\n(3) Deixa o paciente relatar a queixa principal sem interrupções.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza duas ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Realiza apenas uma ação ou não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Fraqueza Muscular e Parestesias: Investiga os seguintes aspectos:\n(1) início e progressão (agudo/subagudo, padrão ascendente, piora progressiva);\n(2) localização (membros inferiores -> superiores);\n(3) intensidade (grau de limitação funcional);\n(4) presença e características de parestesias (localização, qualidade, evolução);\n(5) presença e características de dor neuropática (localização, qualidade, intensidade).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 de 5 aspectos da fraqueza muscular e parestesias.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 de 5 aspectos da fraqueza muscular e parestesias.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos de 5 aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Investigação de Sintomas Bulbares, Respiratórios e Disautonômicos:\n(1) disfagia;\n(2) disartria;\n(3) diplopia;\n(4) paresia facial bilateral;\n(5) sintomas de disautonomia (flutuações de PA/FC, sudorese);\n(6) retenção urinária ou íleo paralítico;\n(7) dispneia (avaliar função respiratória).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 ou 7 de 7 aspectos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 de 7 aspectos.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos de 7 aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Investigação de Antecedentes Relevantes (Gatilhos):\n(1) infecções recentes (gastrointestinais, respiratórias, por CMV, EBV, Zika);\n(2) vacinação recente;\n(3) cirurgia recente;\n(4) trauma recente.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 de 4 aspectos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 de 4 aspectos.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 ou menos de 4 aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Exame Físico - Avaliação Neurológica Completa (Motora, Reflexos, Sensibilidade, Nervos Cranianos):\n(1) avalia fraqueza muscular flácida, simétrica/relativamente simétrica, progressiva;\n(2) avalia arreflexia ou hiporreflexia global (membros superiores e inferiores);\n(3) avalia alterações sensitivas (parestesias, hipoestesia distal);\n(4) avalia envolvimento de nervos cranianos (facial, bulbares).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 4 de 4 avaliações do exame neurológico.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 2 ou 3 de 4 avaliações do exame neurológico.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Realiza 1 ou menos de 4 avaliações ou não realiza.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Exame Físico - Sinais Vitais e Sinais de Disautonomia:\n(1) avalia e reconhece taquicardia/bradicardia;\n(2) avalia e reconhece hipotensão ortostática ou hipertensão;\n(3) monitora a frequência respiratória e saturação de O2.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 3 de 3 avaliações dos sinais vitais/disautonomia.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 2 de 3 avaliações dos sinais vitais/disautonomia.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Realiza 1 ou menos de 3 avaliações ou não realiza.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicitação de Exames Complementares Essenciais:\n(1) Punção lombar para análise de Líquido Cefalorraquidiano (LCR);\n(2) Eletroneuromiografia (ENMG);\n(3) Exames laboratoriais de triagem (Hemograma, Bioquímica) e para gatilhos (Sorologias para Campylobacter, CMV, EBV, Zika).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 3 de 3 categorias de exames complementares.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 de 3 categorias de exames complementares.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita 1 ou menos de 3 categorias de exames ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Interpretação dos Exames Complementares (LCR e ENMG):\n(1) LCR: identifica dissociação albuminocitológica (aumento de proteínas com celularidade normal/discretamente elevada);\n(2) ENMG: identifica achados compatíveis com polineuropatia desmielinizante ou axonal (lentificação da condução, bloqueios, prolongamento de latências).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente os 2 achados principais do LCR e ENMG.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente apenas 1 dos achados principais do LCR e ENMG.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não interpreta corretamente os achados ou interpreta de forma errônea.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Verbaliza o Diagnóstico Principal e Cita Diagnósticos Diferenciais:\n(1) estabelece o diagnóstico principal de Síndrome de Guillain-Barré (G61.0);\n(2) menciona a variante (ex: Polirradiculoneuropatia Desmielinizante Inflamatória Aguda - PDIA) quando aplicável;\n(3) cita 2-3 diagnósticos diferenciais relevantes (ex: Mielite transversa, Botulismo, Miastenia gravis).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico principal, variante e cita 2-3 diagnósticos diferenciais.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico principal e a variante, ou o diagnóstico principal e 1 diagnóstico diferencial.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico principal ou cita diagnósticos incorretos.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Elabora Conduta Terapêutica Específica (Imunomoduladora):\n(1) indica Imunoglobulina Humana Endovenosa (IVIg);\n(2) especifica a dose e via (0.4 g/kg/dia por 5 dias ou dose total de 2 g/kg);\n(3) OU indica Plasmaférese (PE) com 5 sessões em dias alternados.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica IVIg com dose/via ou Plasmaférese corretamente (2 de 3 itens).",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica IVIg ou Plasmaférese, mas sem especificar dose/sessões (1 de 3 itens).",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não indica terapia imunomoduladora ou indica incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Elabora Conduta Terapêutica de Suporte e Monitoramento de Complicações:\n(1) indica monitorização intensiva (respiratória, CVF, cardíaca);\n(2) indica profilaxia de trombose venosa profunda (TVP);\n(3) indica início precoce de reabilitação (fisioterapia motora e respiratória, terapia ocupacional, fonoaudiologia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora 3 de 3 condutas de suporte e monitoramento.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora 2 de 3 condutas de suporte e monitoramento.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Elabora 1 ou menos de 3 condutas ou não elabora.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Orientações e Notificação:\n(1) comunica ao paciente sobre os sinais de alarme (ex: dificuldade respiratória, disautonomia grave);\n(2) enfatiza a importância da reabilitação e acompanhamento neurológico a longo prazo;\n(3) considera a notificação compulsória do caso (se associado a etiologia específica como Zika).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Comunica os 3 aspectos de orientações e notificação.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Comunica 2 de 3 aspectos de orientações e notificação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Comunica 1 ou menos de 3 aspectos ou não comunica.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Síndrome de Guillain-Barré (SGB) é uma polirradiculoneuropatia aguda, imunomediada, caracterizada por fraqueza muscular progressiva e arreflexia, geralmente de padrão ascendente. Frequentemente segue um evento infeccioso (gastrointestinal por *Campylobacter jejuni* ou respiratório). A fisiopatologia envolve mimetismo molecular e ataque autoimune à mielina ou axônios do sistema nervoso periférico. \nNa anamnese, é crucial investigar o início (agudo/subagudo), progressão (ascendente típica), localização da fraqueza, presença de parestesias, dor neuropática, e sintomas bulbares (disfagia, disartria, diplopia, paralisia facial) e respiratórios (dispneia). Os antecedentes devem focar em infecções recentes, vacinações, cirurgias ou traumas. \nO exame físico revela fraqueza flácida, simétrica/relativamente simétrica, e o achado cardinal de arreflexia ou hiporreflexia global. Sinais de disautonomia (flutuações da PA, arritmias, sudorese, retenção urinária) são comuns. A avaliação da capacidade vital forçada (CVF) é essencial para monitorar a função respiratória.\nO diagnóstico é clínico, suportado por exames complementares: a punção lombar (LCR) mostra a clássica dissociação albuminocitológica (aumento de proteínas com celularidade normal) e a eletroneuromiografia (ENMG) confirma a polineuropatia, classificando-a como desmielinizante (PDIA) ou axonal (AMN/AMSAN). A RM de coluna pode mostrar realce das raízes nervosas. Diagnósticos diferenciais incluem mielite transversa, botulismo e miastenia gravis.\nO tratamento é imunomodulador, com Imunoglobulina Humana Endovenosa (IVIg) na dose de 0.4 g/kg/dia por 5 dias ou Plasmaférese (PE) em 5 sessões. O tratamento de suporte é fundamental, incluindo monitorização respiratória e cardíaca, manejo da dor, profilaxia de TVP e início precoce da reabilitação. Complicações graves incluem insuficiência respiratória e disfunção autonômica. A recuperação pode ser prolongada, com sequelas residuais em parte dos pacientes. A SGB associada a etiologias como Zika pode ser de notificação compulsória.\n",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde. Guia de Vigilância em Saúde: volume único. 3. ed. Brasília: Ministério da Saúde, 2019.",
+        "2. Van Doorn PA, Ruts L, Jacobs BC. Clinical features, pathogenesis, and treatment of Guillain-Barré syndrome. Lancet Neurol. 2008;7(10):939-950.",
+        "3. UpToDate. Guillain-Barré syndrome: Clinical features and diagnosis. Waltham, MA: UpToDate Inc. (Accessed on January 25, 2025)."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "cde7843d-7404-4407-8a78-9b739e997d75",
+  "created_at": "2025-08-28T14:50:11.537750",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Síndrome de Guillain-Barré",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

@@ -44,6 +44,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Angela Jesus, 42 anos, Funcionária pública e Divorciada"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com diarreia com sangue e dor na barriga há umas semanas, doutor(a)."
       },
@@ -542,5 +546,23 @@
         "3. Federação Brasileira de Gastroenterologia (FBG). Consenso Brasileiro de Retocolite Ulcerativa. Disponível em: https://fbg.org.br/"
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "e564558e-d7c1-4852-b068-575e34b89d22",
+  "created_at": "2025-08-28T11:24:04.593606",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Retocolite Ulcerativa",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

@@ -1,0 +1,597 @@
+{
+  "idEstacao": "REVALIDA_INEP_2025_CM_COVID19",
+  "tituloEstacao": "COVID-19 em Clínica Médica (SRAG)",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "COVID-19",
+    "Clínica Médica",
+    "SRAG",
+    "Sindrome Respiratória Aguda Grave",
+    "Coronavírus",
+    "Pneumonia Viral",
+    "Pandemia",
+    "Atenção terciária",
+    "Hospitalar"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Hospitalar",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (Radiografia, Tomografia Computadorizada)",
+        "Medicações disponíveis para tratamento hospitalar",
+        "Unidade de terapia intensiva (UTI) para casos críticos",
+        "Equipamentos de proteção individual (EPIs)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente João Silva, 55 anos, motorista de aplicativo, casado, comparece à emergência referindo febre, tosse e falta de ar progressiva há 5 dias. Ele relata que sua esposa testou positivo para COVID-19 há uma semana.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente.",
+      "Solicitar e interpretar o exame físico necessário à avaliação do caso, verbalizando os achados.",
+      "Solicitar e Interpretar exames complementares se pertinentes ao caso.",
+      "Formular o diagnóstico definitivo.",
+      "Definir o plano terapêutico inicial e a conduta a ser adotada.",
+      "Verbalizar os sinais de alarme e orientar sobre as complicações da doença.",
+      "Realizar as orientações finais ao paciente e responder às suas dúvidas."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "CONSIDERE QUE TODOS OS EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL (EPIs) ESTÃO DISPONÍVEIS E FORAM DEVIDAMENTE UTILIZADOS."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com febre, tosse e muita falta de ar há alguns dias, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE",
+        "informacao": "Início: Começou há 5 dias.\nIntensidade: A temperatura mais alta que medi foi 39°C.\nCaracterística: Vem e vai, geralmente à noite.\nCalafrios: Tenho sentido calafrios quando a febre sobe.\nSudorese: Muita sudorese noturna.\nResposta a antitérmicos: Tomo paracetamol, melhora um pouco, mas a febre volta."
+      },
+      {
+        "contextoOuPerguntaChave": "TOSSE",
+        "informacao": "Início: Começou junto com a febre, há 5 dias.\nCaracterística: É uma tosse seca, mas às vezes sinto um catarro branco.\nProgressão: Tem piorado nos últimos dias, me deixa muito cansado.\nFatores de piora: Piora quando falo muito ou tento fazer algum esforço."
+      },
+      {
+        "contextoOuPerguntaChave": "DISPNEIA (Falta de Ar)",
+        "informacao": "Início: Começou há 3 dias, gradual.\nIntensidade: É moderada, sinto falta de ar para ir ao banheiro ou para me virar na cama.\nProgressão: Piorou bastante de ontem para hoje.\nFatores de piora: Piora com qualquer movimento, até para falar.\nOrtopneia: Preciso de três travesseiros para conseguir dormir.\nDispneia paroxística noturna: Não tenho acordado sufocado à noite."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR DE GARGANTA",
+        "informacao": "Início: Começou há 6 dias, antes da febre e tosse.\nIntensidade: Fraca, é mais um desconforto.\nFatores de melhora: Melhora um pouco com chás quentes."
+      },
+      {
+        "contextoOuPerguntaChave": "CEFALEIA (Dor de Cabeça)",
+        "informacao": "Início: Começou há 4 dias.\nLocalização: Na testa e nas têmporas.\nIntensidade: Moderada, nota 5/10.\nCaracterística: É uma dor constante, tipo pressão.\nFatores de melhora: Alivia um pouco com paracetamol."
+      },
+      {
+        "contextoOuPerguntaChave": "FADIGA / MIALGIA",
+        "informacao": "Início: A fadiga começou há 5 dias, junto com a febre.\nIntensidade: Sinto um cansaço extremo, não consigo fazer nada.\nLocalização da Mialgia: Dores no corpo todo, principalmente nas costas e pernas.\nFatores de melhora: Melhora um pouco com repouso, mas não passa totalmente."
+      },
+      {
+        "contextoOuPerguntaChave": "PERDA DE PALADAR/OLFATO (Ageusia/Anosmia)",
+        "informacao": "Início: Notei que perdi o paladar e o olfato há 3 dias.\nProgressão: Não sinto gosto de nada, nem cheiro."
+      },
+      {
+        "contextoOuPerguntaChave": "DIARREIA",
+        "informacao": "Início: Nega. Não tive diarreia."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Náuseas: Nega.\nVômitos: Nega.\nDor torácica: Nega.\nCongestão nasal: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Sim, tenho Pressão Alta (Hipertensão Arterial Sistêmica) e Diabetes Mellitus tipo 2. Faço tratamento para as duas.\nCirurgias prévias: Nega.\nInternações: Nega.\nAlergias: Nega alergias a medicamentos ou alimentos.\nMedicamentos em uso contínuo: Tomo Losartana para a pressão e Metformina para o diabetes."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Vacinação COVID-19: Sim, tenho 3 doses. A última foi há cerca de 1 ano.\nHábitos sexuais: Nega relevância.\nHábitos urinários: Normais.\nHábitos intestinais: Normais.\nIngestão hídrica: Tenho bebido pouca água por causa do mal-estar.\nExposição ocupacional: Como motorista de aplicativo, tenho contato com muitas pessoas diariamente.\nEstresse: Tenho ficado muito preocupado com a doença."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Ex-fumante. Parei há 10 anos. Fumava 1 maço por dia por 20 anos.\nEtilismo: Bebo socialmente, ocasionalmente, cerveja.\nDrogas ilícitas: Nega.\nAlimentação: Meu apetite diminuiu muito nos últimos dias.\nAtividade física: Faço caminhadas leves 3 vezes por semana.\nSono: Tenho dormido mal por causa da tosse e febre."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Tem Pressão Alta e Diabetes.\nMãe: Saudável, 78 anos.\nDoenças na família: Nega outras doenças relevantes na família.\nHistória de câncer na família: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega viagens recentes.\nExposição a doenças infecciosas: Minha esposa testou positivo para COVID-19 há uma semana. Estamos isolados em casa, mas ela tem sintomas leves.\nContato com doentes: Minha esposa, em casa.\nExposição a animais: Nega.\nExposição a vetores: Nega.\nÁgua consumida: Água filtrada."
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL",
+        "informacao": "Situação familiar: Sou casado, tenho dois filhos adultos que não moram mais conosco. Minha esposa está comigo em casa.\nRede de apoio: Meus filhos ligam sempre, mas não podem vir por causa da doença.\nSituação socioeconômica: Tenho minha casa própria, mas o trabalho diminuiu muito na pandemia.\nNível educacional: Ensino médio completo.\nReligião: Católica.\nEstresse psicossocial: Muito estressado com a doença e preocupado com a situação da minha esposa."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)?.\npergunta (2): É grave? Vou precisar ficar internado?\npergunta (3): Eu vou ficar bem? E minha esposa, pode piorar?\npergunta (4): O que faço para não transmitir para ninguém? \npergunta (5): Meu diabetes e pressão podem piorar por causa dessa doença?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "130 x 80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "105 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "24 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "38,5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "92 % em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_2",
+        "tituloImpresso": "Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "EXAME FÍSICO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado Geral",
+                  "valor": "Regular estado geral, prostrado, consciente, orientado, eupneico em repouso."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO RESPIRATÓRIO",
+              "itens": [
+                {
+                  "chave": "Ausculta Pulmonar",
+                  "valor": "Murmúrio vesicular presente em ambos os hemitórax, bilateralmente, com presença de estertores crepitantes finos difusos em bases."
+                },
+                {
+                  "chave": "Sinais de Desconforto Respiratório",
+                  "valor": "Presença de tiragem intercostal discreta. Uso da musculatura acessória leve. Sem batimento de asa de nariz. Sem cianose visível."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO CARDIOVASCULAR",
+              "itens": [
+                {
+                  "chave": "Ausculta Cardíaca",
+                  "valor": "Bulhas rítmicas, normofonéticas, 2 tempos, sem sopros."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ABDOME",
+              "itens": [
+                {
+                  "chave": "Inspeção e Palpação",
+                  "valor": "Plano, flácido, indolor à palpação superficial e profunda. Sem visceromegalias."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MEMBROS",
+              "itens": [
+                {
+                  "chave": "Inspeção e Palpação",
+                  "valor": "Sem edemas, pulsos periféricos presentes e simétricos."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_3",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "8.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Linfócitos",
+                  "valor": "800 /mm³ (Ref: 1.000-4.000) - Linfopenia"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.2 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA E MARCADORES INFLAMATÓRIOS",
+              "itens": [
+                {
+                  "chave": "Proteína C Reativa (PCR)",
+                  "valor": "65 mg/L (Ref: <5)"
+                },
+                {
+                  "chave": "DHL (Desidrogenase Láctica)",
+                  "valor": "350 U/L (Ref: 120-250)"
+                },
+                {
+                  "chave": "D-dímero",
+                  "valor": "0.8 µg/mL (Ref: <0.5)"
+                },
+                {
+                  "chave": "Ferritina",
+                  "valor": "850 ng/mL (Ref: 20-250)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "38 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.0 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "TGO (AST)",
+                  "valor": "40 U/L (Ref: <40)"
+                },
+                {
+                  "chave": "TGP (ALT)",
+                  "valor": "45 U/L (Ref: <40)"
+                },
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "180 mg/dL (Ref: 70-99)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_RX_4",
+        "tituloImpresso": "Radiografia de Tórax (PA e Perfil)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Visualização de infiltrados pulmonares bilaterais.",
+          "caminhoImagem": "https://www.google.com/search?q=raio-x+torax+covid+infiltrados+bilaterais&tbm=isch",
+          "sugestaoBuscaImagem": "Buscar no Google Imagens: Raio-X tórax PA COVID-19 com infiltrados pulmonares bilaterais e consolidações",
+          "laudo": "Infiltrados alveolares e intersticiais bilaterais, com predomínio em bases pulmonares. Algumas áreas de consolidação incipiente em lobos inferiores."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_TC_5",
+        "tituloImpresso": "Tomografia Computadorizada de Tórax (sem contraste)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Visualização de opacidades em vidro fosco multifocais.",
+          "caminhoImagem": "https://www.google.com/search?q=tomografia+torax+covid+vidro+fosco&tbm=isch",
+          "sugestaoBuscaImagem": "Buscar no Google Imagens: TC tórax COVID-19 opacidades em vidro fosco bilaterais periféricas crazy paving",
+          "laudo": "ACHADOS:\nOpacidades em vidro fosco multifocais, bilaterais e periféricas, envolvendo ambos os pulmões, com áreas esparsas de consolidação e espessamento septal intralobular (padrão 'crazy-paving'). Score de acometimento pulmonar sugestivo de doença moderada a grave.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_COVID19_2025_V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 55 anos, com HAS e DM2, ex-tabagista, com contato domiciliar de COVID-19, apresenta quadro de 5 dias de febre, tosse, dispneia progressiva, ageusia/anosmia e fadiga. Ao exame físico, taquipneico, taquicárdico, dessaturando em ar ambiente (SpO2 92%), com crepitantes difusos. Exames laboratoriais mostram linfopenia, PCR, DHL, D-dímero e ferritina elevados. Imagens de tórax (RX e TC) evidenciam infiltrados e opacidades em vidro fosco bilaterais. O caso sugere COVID-19 na forma de Síndrome Respiratória Aguda Grave (SRAG) com fatores de risco para piora.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa e direcionada para a COVID-19 e seus fatores de risco.",
+        "Avaliação e interpretação do exame físico com foco nos sinais de gravidade respiratória.",
+        "Solicitação e interpretação de exames complementares relevantes para o diagnóstico, gravidade e prognóstico da COVID-19.",
+        "Estabelecimento do diagnóstico de COVID-19 (SRAG) e diferenciais.",
+        "Elaboração de um plano terapêutico e de manejo adequado para um paciente hospitalizado com COVID-19 grave.",
+        "Comunicação empática e orientações sobre a doença, tratamento e sinais de alarme."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se e (2) cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, investigando as características da FEBRE:\n(1) Início;\n(2) Intensidade;\n(3) Característica;\n(4) Calafrios;\n(5) Sudorese;\n(6) Resposta a antitérmicos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 de 6 aspectos da febre.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 aspectos da febre.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos aspectos da febre ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, investigando as características da TOSSE:\n(1) Início;\n(2) Característica;\n(3) Progressão;\n(4) Fatores de piora.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 de 4 aspectos da tosse.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 aspectos da tosse.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos aspectos da tosse ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza anamnese, investigando as características da DISPNEIA:\n(1) Início;\n(2) Intensidade;\n(3) Progressão;\n(4) Fatores de piora;\n(5) Ortopneia;\n(6) Dispneia paroxística noturna.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 de 6 aspectos da dispneia.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 aspectos da dispneia.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos aspectos da dispneia ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Realiza anamnese, investigando sintomas acompanhantes e específicos da COVID-19:\n(1) Dor de garganta;\n(2) Cefaleia;\n(3) Fadiga/Mialgia;\n(4) Perda de paladar/olfato (Ageusia/Anosmia);\n(5) Diarreia;\n(6) Náuseas/Vômitos;\n(7) Dor torácica;\n(8) Congestão nasal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 7 de 8 sintomas associados.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 6 sintomas associados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos sintomas associados ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Questiona sobre antecedentes patológicos pessoais e vacinação:\n(1) Doenças crônicas (HAS, DM);\n(2) Cirurgias/Internações prévias;\n(3) Alergias;\n(4) Medicamentos em uso contínuo;\n(5) Estado vacinal contra COVID-19 (número de doses e data da última).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 itens dos antecedentes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 itens dos antecedentes.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos itens dos antecedentes ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Questiona sobre hábitos de vida e epidemiologia:\n(1) Tabagismo (ex-fumante/carga tabágica);\n(2) Etilismo;\n(3) Drogas ilícitas;\n(4) Contato com caso confirmado de COVID-19;\n(5) Viagens recentes ou exposição em área de alta transmissão.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 itens dos hábitos e epidemiologia.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 itens dos hábitos e epidemiologia.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos itens dos hábitos e epidemiologia ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Realiza e interpreta adequadamente o exame físico:\n(1) Verifica sinais vitais (PA, FC, FR, Temp, SpO2);\n(2) Avalia estado geral (nível de consciência, prostração, desconforto respiratório);\n(3) Realiza ausculta pulmonar, verbalizando os achados (MV, crepitantes, sibilos);\n(4) Avalia sinais de hipóxia (cianose).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza e interpreta 3 ou 4 itens do exame físico, incluindo SpO2 e ausculta pulmonar.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza e interpreta 2 itens do exame físico.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não realiza ou interpreta adequadamente o exame físico.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e interpreta corretamente exames laboratoriais e de imagem:\n(1) Hemograma (Linfopenia);\n(2) Marcadores inflamatórios (PCR, DHL, D-dímero, Ferritina elevados);\n(3) Função renal e hepática;\n(4) Glicemia;\n(5) Radiografia de Tórax (infiltrados/consolidações);\n(6) Tomografia Computadorizada de Tórax (opacidades em vidro fosco/crazy-paving).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 5 ou 6 achados relevantes nos exames complementares.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 3 ou 4 achados relevantes nos exames complementares.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente os exames.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Estabelece o diagnóstico correto e diferenciais:\n(1) Diagnóstico definitivo: COVID-19 / SRAG por COVID-19;\n(2) Diagnósticos diferenciais (ex: Pneumonia bacteriana, Influenza, Embolia pulmonar, ICC descompensada).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico completo de COVID-19/SRAG e cita pelo menos 2 diagnósticos diferenciais relevantes.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico de COVID-19/SRAG, mas cita apenas 1 diagnóstico diferencial ou o faz de forma incompleta.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico correto ou não cita diagnósticos diferenciais relevantes.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Elabora a conduta terapêutica inicial e definitiva para SRAG por COVID-19:\n(1) Internação hospitalar;\n(2) Oxigenoterapia (cânula nasal, máscara com reservatório, alto fluxo) com meta de SpO2 ≥ 95%;\n(3) Corticosteroide (Dexametasona 6 mg/dia);\n(4) Anticoagulação profilática;\n(5) Monitorização rigorosa (sinais vitais, SpO2);\n(6) Não indica uso de terapias ineficazes (hidroxicloroquina, ivermectina, azitromicina isolada).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora 5 ou 6 itens da conduta terapêutica.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora 3 ou 4 itens da conduta terapêutica.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Elabora 2 ou menos itens da conduta terapêutica ou inclui terapias contraindicadas.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Orienta o paciente e responde às dúvidas:\n(1) Explica sobre a gravidade da doença e necessidade de internação;\n(2) Orienta sobre os riscos para comorbidades (DM e HAS);\n(3) Orienta sobre as medidas de prevenção de transmissão domiciliar;\n(4) Responde adequadamente às dúvidas do paciente de forma clara e empática.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza 4 de 4 itens de orientação e resposta às dúvidas.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza 2 ou 3 itens de orientação e resposta às dúvidas.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Realiza 1 ou menos itens de orientação e resposta às dúvidas ou não responde.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Notificação ao SINAN",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Menciona que fará a notificação do caso ao SINAN.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza a notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10,
+    "feedbackEstacao": {
+      "resumoTecnico": "A COVID-19, causada pelo SARS-CoV-2, é uma doença infecciosa com espectro clínico variado. Em Clínica Médica, o manejo da Síndrome Respiratória Aguda Grave (SRAG) é crucial. A anamnese deve cobrir início, progressão dos sintomas (febre, tosse, dispneia, ageusia/anosmia, mialgia), comorbidades (DM, HAS, obesidade, doenças cardiovasculares/pulmonares), estado vacinal e contato epidemiológico. No exame físico, a taquipneia (>20 irpm), dessaturação (SpO2 < 95% em ar ambiente), e sinais de desconforto respiratório são indicadores de gravidade. A ausculta pulmonar pode revelar estertores crepitantes. O diagnóstico baseia-se na clínica, epidemiologia e confirmação laboratorial (RT-PCR, teste rápido de antígeno). Exames complementares incluem hemograma (linfopenia), marcadores inflamatórios (PCR, DHL, D-dímero, ferritina elevados), e imagem (RX e TC de tórax com infiltrados, opacidades em vidro fosco). Diagnósticos diferenciais abrangem outras infecções respiratórias virais/bacterianas, embolia pulmonar, ou descompensação de doenças crônicas. O tratamento para SRAG é hospitalar, com oxigenoterapia, corticosteroides (dexametasona), anticoagulação profilática e suporte ventilatório quando necessário. Não se recomenda hidroxicloroquina, ivermectina ou azitromicina isolada. Fatores de risco para gravidade incluem idade avançada, comorbidades e não vacinação. A notificação compulsória é obrigatória. Orientações devem focar em sinais de alarme, seguimento e prevenção (vacinação, higiene, uso de máscaras).",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Guia de Vigilância Epidemiológica: Emergência de Saúde Pública de Importância Nacional pela Doença por Coronavírus 2019 (COVID-19). Brasília, DF: Ministério da Saúde; 2023.",
+        "2. Sociedade Brasileira de Infectologia (SBI). Recomendações da SBI sobre o manejo da COVID-19. Atualização contínua.",
+        "3. UpToDate. Coronavirus disease 2019 (COVID-19): Management of adults with moderate to severe disease. Tópico atualizado regularmente."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "679e7975-cac4-4d27-ba12-0db862ab1260",
+  "created_at": "2025-08-28T09:25:21.864562",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "COVID-19",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

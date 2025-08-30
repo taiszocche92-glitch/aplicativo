@@ -1,0 +1,491 @@
+{
+  "idEstacao": "REVALIDA_MEDIO_2025_CM_NODULOTIREOIDIANO_01",
+  "tituloEstacao": "Nódulo Tireoidiano",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "nódulo tireoidiano, tireoide, câncer de tireoide, ultrassonografia, PAAF, tireoidectomia, clínica médica, atenção secundária",
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Serviço de imagem (Ultrassonografia)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente do sexo feminino, 48 anos, chega ao consultório de Clínica Médica referindo a presença de um caroço no pescoço que ela mesma percebeu. A paciente busca avaliação para entender a natureza do nódulo e qual a melhor conduta.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente.",
+      "Solicitar os exames físicos necessários à avaliação do caso, verbalizando os achados.",
+      "Solicitar exames complementares pertinentes ao caso clínico.",
+      "Interpretar os resultados dos exames complementares disponíveis.",
+      "Estabelecer as hipóteses diagnósticas e os principais diagnósticos diferenciais.",
+      "Elaborar a conduta terapêutica inicial e as orientações para a paciente."
+    ],
+    "avisosImportantess": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com um caroço no pescoço, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "NÓDULO TIREOIDIANO (HDA)",
+        "informacao": "Início: Percebi há uns 6 meses, enquanto me olhava no espelho e engolia.\nLocalização: No meio do pescoço, um pouco para o lado direito.\nIntensidade: Não dói, é apenas um desconforto ao tocar.\nCaracterística: Sinto ele durinho.\nIrradiação: Nega.\nDuração: Contínuo, sempre presente.\nProgressão: Parece que cresceu um pouco, mas bem devagar.\nFrequência: Nega.\nFator Desencadeante: Nega.\nFator de piora ou agravante: Nega.\nFator de melhora ou atenuante: Nega.\nEpisódios prévios: Nunca tive nada parecido antes.\nMedicação de alívio: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS COMPRESSIVOS",
+        "informacao": "Disfagia (dificuldade para engolir): Tenho uma leve dificuldade para engolir alimentos mais secos, às vezes, mas não é sempre.\nDispneia (dificuldade para respirar): Nego.\nRouquidão/disfonia (alteração na voz): Nego."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS DE HIPERFUNÇÃO TIREOIDIANA",
+        "informacao": "Sudorese: Nego.\nPalpitações: Nego.\nTaquicardia: Nego.\nPerda de peso: Nego.\nAnsiedade: Nego.\nTremore: Nego."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS DE HIPOFUNÇÃO TIREOIDIANA",
+        "informacao": "Fadiga: Nego.\nGanho de peso: Nego.\nIntolerância ao frio: Nego.\nConstipação: Nego.\nPele seca: Nego."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS PATOLÓGICOS",
+        "informacao": "Doenças crônicas: Nego.\nCirurgias prévias: Nego.\nInternações: Nego.\nAlergias: Nego.\nMedicamentos em uso contínuo: Nego.\nVacinação: Em dia.\nHistória de irradiação na região de cabeça e pescoço: Nego."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Hábitos sexuais: Não consta no script.\nHábitos urinários: Não consta no script.\nHábitos intestinais: Não consta no script.\nIngestão hídrica: Não consta no script.\nExposição ocupacional: Não consta no script.\nEstresse: Não consta no script.\nOutras doenças tireoidianas prévias: Nego.\nExposição a iodo (deficiência ou excesso): Não consta no script, mas moro em área de suficiência de iodo."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nego.\nEtilismo: Nego.\nDrogas ilícitas: Nego.\nAlimentação: Variada e equilibrada.\nAtividade física: Caminho 3 vezes por semana.\nSono: Durmo bem, cerca de 7-8 horas por noite."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Câncer de tireoide: Nego história de câncer de tireoide na família.\nSíndromes de câncer genéticas: Nego."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS",
+        "informacao": "Gestações: 2\nPartos: 2 vaginais\nAbortos: Nego\nCesáreas: Nego\nData da Última Menstruação (DUM): Há 3 meses\nMenarca: 12 anos\nCiclos menstruais: Regulares, com duração de 5 dias a cada 28 dias\nSexarca: 18 anos\nTelarca: Nega\nPubarca: Nega\nAtividade sexual: Ativa\nParceiros: Fixo\nUso de contraceptivos: Nega\nUso de preservativos: Nega\nExames preventivos: Papanicolau há 1 ano, normal.\nHistórico de IST: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): Doutor(a), o que pode ser esse caroço no meu pescoço?\npergunta (2): É grave? Pode ser câncer?\npergunta (3): O que vamos fazer agora?\npergunta (4): Tem algum tratamento?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "120 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "78 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36,5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 %"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Estado Geral",
+                  "valor": "Bom estado geral, lúcida, orientada, corada, hidratada, eupneica, anictérica."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Tireoide com nódulo palpável em lobo direito, de aproximadamente 2,0 cm, consistência elástica, móvel à deglutição, indolor à palpação. Ausência de linfonodomegalia cervical ou supraclavicular. Ausculta da tireoide sem sopros."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular, bulhas rítmicas e normofonéticas em 2 tempos, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente e simétrico bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Plano, flácido, indolor à palpação superficial e profunda, ruídos hidroaéreos presentes, sem visceromegalias."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edemas ou sinais de trombose venosa profunda. Pulsos periféricos presentes e simétricos."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais (TSH, T4 Livre, Anti-TPO)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "FUNÇÃO TIREOIDIANA",
+              "itens": [
+                {
+                  "chave": "TSH",
+                  "valor": "1.8 mUI/L (Ref: 0.4 - 4.0 mUI/L)"
+                },
+                {
+                  "chave": "T4 Livre",
+                  "valor": "1.2 ng/dL (Ref: 0.8 - 1.8 ng/dL)"
+                },
+                {
+                  "chave": "Anti-TPO",
+                  "valor": "<10 UI/mL (Ref: <35 UI/mL)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_USG_3",
+        "tituloImpresso": "Ultrassonografia de Tireoide e Região Cervical",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado do exame de Ultrassonografia da Tireoide, fundamental para a caracterização do nódulo e estratificação de risco.",
+          "caminhoImagem": "(Buscar no Google Imagens: Ultrassonografia de tireoide nódulo sólido isoecóico margens regulares sem microcalcificações TI-RADS 3)",
+          "laudo": "Tireoide de dimensões e ecotextura usuais. Lobo direito com nódulo sólido, isoecóico, de margens regulares, sem microcalcificações ou fluxo vascular central proeminente ao Doppler, medindo 2,0 x 1,5 x 1,8 cm (volume estimado de 2,8 mL). Lobo esquerdo sem alterações nodulares. Ausência de linfonodomegalia na cadeia jugular ou supraclavicular. Classificação TI-RADS: 3 (Baixo risco)."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_NODULOTIREOIDIANO_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina, 48 anos, com nódulo tireoidiano palpável. Anamnese e exame físico sem sinais de alarme. Exames laboratoriais com função tireoidiana normal. Ultrassonografia revela nódulo sólido, isoecóico, com margens regulares e sem microcalcificações, classificado como TI-RADS 3 (2,0 cm). O manejo envolve a estratificação de risco e a decisão sobre a necessidade de PAAF.",
+      "focoPrincipalDetalhado": [
+        "Anamnese direcionada para nódulo tireoidiano, incluindo fatores de risco e sintomas associados.",
+        "Exame físico da tireoide e região cervical, com foco na palpação do nódulo e linfonodos.",
+        "Solicitação e interpretação de exames laboratoriais (TSH, T4L, Anti-TPO) e de imagem (Ultrassonografia de tireoide).",
+        "Estratificação de risco do nódulo com base nos achados e indicação de PAAF.",
+        "Elaboração de conduta terapêutica e orientações ao paciente."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se e (2) cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese inicial:\n(1) Pergunta o motivo da consulta; (2) Deixa o paciente explicar a queixa principal sem interrupções.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não se aplica.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese direcionada ao nódulo tireoidiano, investigando:\n(1) quando e como foi descoberto;\n(2) crescimento (rápido ou lento/progressivo);\n(3) dor local (presente ou ausente);\n(4) episódios prévios similares.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 de 4 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 de 4 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou nenhum item.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Investiga sintomas compressivos associados ao nódulo:\n(1) disfagia;\n(2) dispneia;\n(3) rouquidão/disfonia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 de 3 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 ou 2 de 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não pergunta nenhum item.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Investiga sintomas de disfunção tireoidiana:\n(1) de hiperfunção (sudorese, palpitações, perda de peso, ansiedade, tremores);\n(2) de hipofunção (fadiga, ganho de peso, intolerância ao frio, constipação, pele seca).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 5 ou mais sintomas combinados de hiperfunção e hipofunção.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 3 ou 4 sintomas combinados.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não pergunta sobre sintomas de disfunção tireoidiana ou pergunta sobre menos de 3.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Investiga antecedentes patológicos pessoais e familiares:\n(1) história de irradiação na região de cabeça e pescoço;\n(2) outras doenças tireoidianas prévias;\n(3) história familiar de câncer de tireoide ou síndromes genéticas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 de 3 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 ou 2 de 3 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não pergunta nenhum item.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Investiga hábitos de vida:\n(1) tabagismo;\n(2) etilismo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 2 de 2 itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 de 2 itens.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não pergunta nenhum item.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita e verbaliza os achados do exame físico da tireoide e região cervical:\n(1) inspeção (abaulamentos, assimetrias);\n(2) palpação do nódulo (localização, tamanho, número, consistência, mobilidade, sensibilidade);\n(3) palpação de linfonodos cervicais (presença/ausência de linfonodomegalia);\n(4) ausculta da tireoide (presença/ausência de sopro).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e verbaliza corretamente 4 de 4 aspectos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e verbaliza corretamente 2 ou 3 de 4 aspectos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não verbaliza adequadamente os achados.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita exames laboratoriais pertinentes para avaliação inicial:\n(1) TSH;\n(2) T4 Livre;\n(3) Anti-TPO.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 3 de 3 exames.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 1 ou 2 de 3 exames.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita nenhum exame ou solicita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Interpreta os resultados dos exames laboratoriais (TSH, T4L, Anti-TPO):\n(1) TSH e T4L normais, indicando função tireoidiana eutireoidiana;\n(2) Anti-TPO negativo, afastando tireoidite autoimune como causa do nódulo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente os 2 resultados.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente 1 resultado.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não interpreta ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Solicita a Ultrassonografia de Tireoide e interpreta seus achados:\n(1) nódulo sólido, isoecóico;\n(2) margens regulares;\n(3) ausência de microcalcificações ou fluxo proeminente;\n(4) tamanho do nódulo (2,0 cm);\n(5) classifica como TI-RADS 3.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 5 de 5 achados, incluindo a classificação TI-RADS.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 3 ou 4 de 5 achados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta incorretamente menos de 3 achados.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Define a necessidade de Punção Aspirativa por Agulha Fina (PAAF):\n(1) indica PAAF devido ao tamanho do nódulo (2,0 cm) e classificação TI-RADS 3, conforme diretrizes; ou (2) indica observação com ultrassonografia periódica em caso de nódulos < 2.5cm TI-RADS 3 e ausência de fatores de risco.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica corretamente a PAAF ou observação conforme os critérios de risco para TI-RADS 3 e tamanho.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não se aplica.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não indica PAAF ou observação, ou indica conduta inadequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Estabelece hipóteses diagnósticas e diagnósticos diferenciais:\n(1) Hipótese Diagnóstica Principal: Nódulo Tireoidiano de Baixo Risco (provável benigno/bócio coloide);\n(2) Diagnóstico Diferencial de Maior Risco: Câncer de tireoide (papilífero/folicular);\n(3) Diagnóstico Diferencial de Baixo Risco: Cisto tireoidiano/Adenoma folicular.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza corretamente a hipótese principal e pelo menos 2 diagnósticos diferenciais relevantes.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza corretamente a hipótese principal e apenas 1 diagnóstico diferencial relevante.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não estabelece hipóteses ou diagnósticos diferenciais, ou os estabelece incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Elabora a conduta e orientações para o paciente:\n(1) Explica a provável natureza benigna do nódulo e o baixo risco de malignidade atual;\n(2) Orienta sobre o procedimento da PAAF (se indicada) ou a necessidade de seguimento com ultrassonografia periódica (se apenas observação);\n(3) Reforça os sinais de alarme para retorno imediato (crescimento rápido, rouquidão, disfagia progressiva, surgimento de linfonodos palpáveis);\n(4) Encaminha para o endocrinologista para seguimento.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora corretamente 4 de 4 itens da conduta e orientações.",
+            "pontos": 1.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora corretamente 2 ou 3 de 4 itens da conduta e orientações.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Não elabora ou elabora inadequadamente menos de 2 itens.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "O manejo do nódulo tireoidiano é uma queixa comum que exige uma abordagem sistemática para diferenciar nódulos benignos (maioria) de malignos (5-10%). A anamnese deve buscar fatores de risco (história de irradiação, história familiar de câncer de tireoide, idade, crescimento rápido do nódulo) e sintomas compressivos (disfagia, dispneia, rouquidão) ou de disfunção tireoidiana. O exame físico foca na palpação do nódulo (tamanho, consistência, mobilidade) e dos linfonodos cervicais. Os exames complementares essenciais são: TSH sérico (para avaliar função tireoidiana) e Ultrassonografia de Tireoide e Região Cervical. A ultrassonografia é fundamental para caracterizar o nódulo e estratificar o risco de malignidade pela classificação TI-RADS. Nódulos TI-RADS 3 com tamanho >2.5 cm (ou >1-1.5 cm com fatores de risco) geralmente indicam a necessidade de Punção Aspirativa por Agulha Fina (PAAF), que é o método mais eficaz para o diagnóstico citopatológico. Nódulos TI-RADS 3 menores que 2.5 cm podem ser apenas observados com USG periódica. O resultado da PAAF é classificado pelo sistema Bethesda, que guia a conduta subsequente. As hipóteses diagnósticas variam de nódulos benignos (adenoma folicular, cisto coloide) a malignos (carcinoma papilífero, folicular, medular, anaplásico). Diagnósticos diferenciais incluem cistos do ducto tireoglosso e linfonodomegalias. O tratamento depende da natureza do nódulo: observação para benignos, cirurgia para malignos ou sintomáticos. É crucial o encaminhamento ao endocrinologista e, se necessário, ao cirurgião de cabeça e pescoço e medicina nuclear. A orientação sobre sinais de alarme e seguimento é vital para o paciente.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Atenção à Saúde. Departamento de Atenção Básica. Nódulos da tireoide. Protocolos da Atenção Básica: Saúde da Mulher. Brasília, DF: Ministério da Saúde, 2016.",
+        "2. American Thyroid Association (ATA) Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016 Jan;26(1):1-133.",
+        "3. Haugen BR, et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016 Jan;26(1):1-133.",
+        "4. UpToDate. Evaluation and management of thyroid nodules. Latest update: March 2024."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "2bea29d0-ec55-4c15-b187-15a8892cad7b",
+  "created_at": "2025-08-28T09:49:35.456847",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Nódulo Tireoidiano",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

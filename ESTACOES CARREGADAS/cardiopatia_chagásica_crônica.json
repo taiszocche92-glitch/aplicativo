@@ -1,0 +1,573 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_01",
+  "tituloEstacao": "Cardiopatia Chagásica Crônica",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "cardiopatia chagásica",
+    "insuficiência cardíaca",
+    "arritmia",
+    "doença de chagas",
+    "clínica médica",
+    "atenção terciária"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem",
+        "Medicações disponíveis",
+        "Unidade de terapia intensiva"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 55 anos, sexo masculino, chega à consulta ambulatorial com queixa de cansaço aos esforços e palpitações.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente.",
+      "Solicitar os exames físicos necessários à avaliação do caso.",
+      "Solicitar e interpretar exames complementares pertinentes ao caso clínico.",
+      "Formular a(s) hipótese(s) diagnóstica(s) principal(is) e os diagnósticos diferenciais.",
+      "Elaborar a conduta terapêutica inicial e as orientações para o paciente.",
+      "Discutir a necessidade de notificação compulsória do caso."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com cansaço aos esforços e palpitações."
+      },
+      {
+        "contextoOuPerguntaChave": "FADIGA/CANSAÇO",
+        "informacao": "Início: Há cerca de 6 meses\nDuração: Contínua, piora com esforço\nProgressão: Tem piorado gradualmente\nIntensidade: Nota 7/10 na escala de cansaço\nImpacto nas Atividades de Vida Diária: Dificuldade para realizar tarefas domésticas simples e caminhar distâncias curtas\nFator de piora: Esforço físico, subir escadas\nFator de melhora: Repouso\nEpisódios prévios: Não, este nível de cansaço é novo"
+      },
+      {
+        "contextoOuPerguntaChave": "PALPITAÇÕES",
+        "informacao": "Início: Há uns 3 meses, com episódios esporádicos\nFrequência: Várias vezes ao dia, sem um padrão fixo\nIntensidade: Sinto meu coração 'disparar' ou 'bater fora do ritmo', desconfortável\nCaracterística: Sensação de batimentos irregulares e fortes\nDuração: Alguns segundos a poucos minutos\nSintomas associados: Às vezes sinto tontura leve, mas nunca desmaiei\nFator de piora: Estresse, esforço leve\nFator de melhora: Não há um fator claro, às vezes passa sozinho\nEpisódios prévios: Sim, mas eram mais raros e menos intensos"
+      },
+      {
+        "contextoOuPerguntaChave": "DISPNEIA",
+        "informacao": "Início: Conjunto com o cansaço, há 6 meses\nDuração: Contínua aos esforços\nProgressão: Piora progressiva\nIntensidade: Limita atividades, subo apenas um lance de escadas\nOrtopneia: Precisa de 2 travesseiros para dormir ocasionalmente\nDispneia Paroxística Noturna: Nega\nFator de piora: Esforço físico, subir ladeiras\nFator de melhora: Repouso\nSintomas associados: Nega tosse ou dor no peito\nEpisódios prévios: Não neste grau"
+      },
+      {
+        "contextoOuPerguntaChave": "EDEMA DE MEMBROS INFERIORES",
+        "informacao": "Início: Há cerca de 2 meses\nLocalização: Bilateral, nas duas pernas e tornozelos\nProgressão: Aumenta ao final do dia\nCaracterística: Deixa marca do dedo ao apertar\nFator de melhora: Elevar as pernas, dormir\nEpisódios prévios: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "DOR PRECORDIAL",
+        "informacao": "Início: Não há um claro\nLocalização: Nega dor típica no peito\nTipo/Característica: Raramente uma 'fisgada' rápida no peito, sem relação com esforço\nIrradiação: Nega\nIntensidade: Leve (2/10)\nFatores de piora: Nega\nFatores de melhora: Nega\nEpisódios prévios: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "TONTURA/SÍNCOPE",
+        "informacao": "Início: Não há\nTipo: Nega episódios de desmaio ou perda de consciência\nSintomas associados: Sente tontura leve associada às palpitações, mas sem queda\nEpisódios prévios: Nega síncope"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos (item obrigatório)",
+        "informacao": "Doenças crônicas: Diagnóstico de Doença de Chagas (fase indeterminada) aos 25 anos, sem acompanhamento regular\nCirurgias prévias: Nega\nInternações: Nega\nAlergias: Nega\nMedicamentos em uso contínuo: Nega\nVacinação: Não consta\nTrauma: Nega\nTransfusões: Sim, há 30 anos, após acidente de trabalho em área rural de Minas Gerais"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Origem ou residência prolongada em área endêmica: Sim, morou em uma área rural de Minas Gerais até os 20 anos\nHábitos sexuais: Não consta no script\nHábitos urinários: Nega alterações\nHábitos intestinais: Nega alterações\nIngestão hídrica: 1 a 2 litros por dia\nExposição ocupacional: Trabalhou na lavoura até os 40 anos\nEstresse: Refere preocupação com a saúde e as limitações"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA (ITEM OBRIGATÓRIO)",
+        "informacao": "Tabagismo: Ex-fumante (parou há 5 anos, fumou por 20 anos, 10 cigarros/dia)\nEtilismo: Social, ocasional\nDrogas ilícitas: Nega\nAlimentação: Regular, tenta evitar sal, mas sem dieta específica\nAtividade física: Caminhadas leves, mas com limitação devido ao cansaço\nSono: Qualidade regular, acorda ocasionalmente por falta de ar\nHábitos urinários: Nega\nHábitos intestinais: Nega\nIngestão hídrica: 1-2 L/dia\nExposição ocupacional: Trabalhou na lavoura até os 40 anos\nEstresse: Refere preocupação com a saúde e as limitações"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Falecido por causas naturais\nMãe: Viva, 78 anos, hipertensa\nDoenças na família: Irmão mais velho também diagnosticado com Doença de Chagas\nHistória de câncer na família: Nega\nIrmãos ou tias: Irmãos saudáveis, exceto o mencionado"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega\nExposição a doenças infecciosas: Nega\nContato com doentes: Nega\nExposição a animais: Criou animais de fazenda na infância\nExposição a vetores: Sim, via 'barbeiros' na casa de pau a pique na infância\nÁgua consumida: Tratada\nExposição a agentes ambientais: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR: (Ex: Se o candidato solicitar o resultado dos exames trazidos libere o impresso (x) / Ex: Após o candidato solicitar o exame X responda 'considere solicitado' ou 'considere realizado o procedimento'.)",
+        "informacao": "Se o candidato solicitar o resultado da sorologia para Doença de Chagas, informe que os resultados são antigos, de quando ele tinha 25 anos, e deram 'Reagente para T. cruzi por ELISA e Imunofluorescência Indireta (IFI)'. Se solicitar novos exames, diga que serão incluídos nos impressos."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE: (ex: Dúvidas do ator sobre medicamentos, exames, condutas, etc., Perguntar após o atendimento se o candidato realizar a anamnese/exame fisico/conduta/tratamento/, Ex: Após o candidato realizar a anamnese, pergunte o que o paciente tem / Ex: Após realizar o diagnostico, pergunta se o que voce tem é grave, ou se tem complicações, ou se nao poderia ser outra coisa.)",
+        "informacao": "pergunta (1): O que eu tenho, doutor?\npergunta (2): Essa doença de Chagas está atacando meu coração?\npergunta (3): Tem tratamento pra isso?\npergunta (4): Posso continuar trabalhando na roça?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est01_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "100 × 60 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "98 bpm (irregular)"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "22 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.6 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "94 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Lucido, orientado, eupneico em repouso, levemente hipocorado (2+/4+), hidratado, anictérico. Apresenta edema de membros inferiores 2+/4+, simétrico, com cacifo."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Sem linfonodomegalias, tireoide impalpável. Jugulares túrgidas a 45°."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ictus cordis desviado para a esquerda e para baixo (6º EIC na linha axilar anterior). Bulhas cardíacas arrítmicas, normofonéticas, B3 presente. Sopros sistólicos 2+/6+ em foco mitral e tricúspide."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente em ambos os hemitórax, diminuído nas bases. Crepitações finas bilaterais em bases pulmonares."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação, ruídos hidroaéreos presentes. Hepatomegalia (fígado palpável a 3 cm do RCD)."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Edema de membros inferiores 2+/4+, bilateral, simétrico, com cacifo."
+                },
+                {
+                  "chave": "Sinais de Inflamação",
+                  "valor": "Ausentes"
+                },
+                {
+                  "chave": "Edema",
+                  "valor": "Presente em membros inferiores"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "11.2 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "220.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "55 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.4 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "134 mEq/L (Ref: 135-145)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "5.1 mEq/L (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "BNP",
+                  "valor": "850 pg/mL (Ref: <100)"
+                },
+                {
+                  "chave": "Sorologia Trypanosoma cruzi (ELISA)",
+                  "valor": "Reagente"
+                },
+                {
+                  "chave": "Sorologia Trypanosoma cruzi (IFI)",
+                  "valor": "Reagente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_IMAGEM_ECG_3",
+        "tituloImpresso": "Eletrocardiograma (ECG)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ECG de 12 derivações em ritmo de taquicardia sinusal, com extrassístoles ventriculares frequentes e Bloqueio de Ramo Direito completo.",
+          "urlImagem": "https://www.google.com/search?q=ecg+cardiopatia+chagasica+bloqueio+ramo+direito+extrassistoles+ventriculares+frequentes",
+          "laudo": "ACHADOS:\nRitmo sinusal com frequência de 98 bpm. Extrassístoles ventriculares polimórficas frequentes. Bloqueio de Ramo Direito (BRD) completo. Área eletricamente inativa em parede inferior. Repolarização ventricular alterada.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_IMAGEM_RX_4",
+        "tituloImpresso": "Radiografia de Tórax",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Radiografia de tórax em posteroanterior e perfil evidenciando cardiomegalia e sinais de congestão pulmonar.",
+          "urlImagem": "https://www.google.com/search?q=radiografia+torax+cardiomegalia+sinais+congestao+pulmonar+chagasica",
+          "laudo": "Coração com aumento global de suas dimensões, caracterizando cardiomegalia (índice cardiotorácico > 0,55). Sinais de congestão pulmonar leve, com redistribuição do fluxo e velamento dos seios costofrênicos bilaterais."
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_IMAGEM_ECO_5",
+        "tituloImpresso": "Ecocardiograma Transtorácico",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Ecocardiograma transtorácico demonstrando dilatação de câmaras e disfunção ventricular.",
+          "urlImagem": "https://www.google.com/search?q=ecocardiograma+cardiopatia+chagasica+dilatada+aneurisma+apical+disfuncao+ve",
+          "laudo": "ACHADOS:\nVentrículo esquerdo dilatado com disfunção sistólica grave (Fração de Ejeção do VE: 30%). Aneurisma de ponta de ventrículo esquerdo. Dilatação de átrio esquerdo e ventrículo direito. Insuficiência mitral e tricúspide moderadas secundárias à dilatação ventricular. Pressão sistólica da artéria pulmonar estimada em 45 mmHg.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST01_CM_CHAGAS_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 55 anos, com história prévia de Doença de Chagas (fase indeterminada), procura atendimento com queixas de fadiga progressiva, dispneia aos esforços, palpitações e edema de membros inferiores, sugestivas de descompensação cardíaca. Exame físico revela sinais de insuficiência cardíaca. Exames complementares (ECG, Raio-X de Tórax, Ecocardiograma, Laboratoriais com BNP elevado e sorologia positiva para Chagas) confirmam o diagnóstico de Cardiopatia Chagásica Crônica com disfunção ventricular grave e arritmias, necessitando de manejo abrangente da insuficiência cardíaca e estratificação de risco para arritmias e tromboembolismo.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa com foco nos sintomas de insuficiência cardíaca e história epidemiológica de Chagas.",
+        "Avaliação do exame físico para identificar sinais de descompensação cardíaca.",
+        "Interpretação de exames complementares para confirmação diagnóstica e estratificação.",
+        "Estabelecimento do diagnóstico de Cardiopatia Chagásica Crônica e seus diferenciais.",
+        "Elaboração de um plano terapêutico abrangente, incluindo tratamento da insuficiência cardíaca, manejo de arritmias, anticoagulação e orientações."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est01_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Investigação de Fadiga/Cansaço:\n(1) Início;\n(2) Duração;\n(3) Progressão;\n(4) Intensidade;\n(5) Impacto nas Atividades de Vida Diária (AVDs);\n(6) Fatores de piora;\n(7) Fatores de melhora;\n(8) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 7 ou 8 itens da fadiga.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 6 itens da fadiga.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos itens da fadiga ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Investigação de Palpitações:\n(1) Início;\n(2) Frequência;\n(3) Intensidade;\n(4) Característica;\n(5) Duração;\n(6) Sintomas associados (tontura, síncope);\n(7) Fatores de piora;\n(8) Fatores de melhora;\n(9) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 7 a 9 itens das palpitações.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 6 itens das palpitações.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos itens das palpitações ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Investigação de Dispneia:\n(1) Início;\n(2) Duração;\n(3) Progressão;\n(4) Intensidade (limitação); \n(5) Ortopneia;\n(6) Dispneia Paroxística Noturna (DPN);\n(7) Fatores de piora;\n(8) Fatores de melhora;\n(9) Sintomas associados (tosse, dor no peito);\n(10) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 8 a 10 itens da dispneia.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 7 itens da dispneia.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos itens da dispneia ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Investigação de Edema de Membros Inferiores:\n(1) Início;\n(2) Localização;\n(3) Progressão;\n(4) Característica (cacifo);\n(5) Fatores de melhora;\n(6) Fatores de piora;\n(7) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 a 7 itens do edema.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 a 4 itens do edema.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos itens do edema ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Antecedentes Pessoais Patológicos:\n(1) Diagnóstico prévio de Doença de Chagas;\n(2) Transfusões sanguíneas (em área endêmica);\n(3) História de megaesôfago ou megacólon;\n(4) Outras doenças crônicas (diabetes, hipertensão, dislipidemia);\n(5) Uso de medicamentos contínuos e alergias.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 itens dos antecedentes patológicos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 itens dos antecedentes patológicos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos itens dos antecedentes patológicos ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Anamnese - Antecedentes Fisiológicos, Familiares e Epidemiológicos:\n(1) Origem ou residência em área endêmica;\n(2) História familiar de Doença de Chagas ou morte súbita precoce;\n(3) Exposição a vetores (barbeiros);\n(4) Consumo de alimentos contaminados.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta os 4 itens dos antecedentes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 itens dos antecedentes.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 1 ou menos itens dos antecedentes ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Anamnese - Hábitos de Vida:\n(1) Tabagismo;\n(2) Etilismo;\n(3) Uso de drogas ilícitas;\n(4) Atividade física;\n(5) Alimentação;\n(6) Qualidade do sono.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou 6 itens dos hábitos de vida.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 itens dos hábitos de vida.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos itens dos hábitos de vida ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Exame Físico:\n(1) Solicita avaliação dos Sinais Vitais (Pressão Arterial, Frequência Cardíaca, Frequência Respiratória, Temperatura, Saturação O2);\n(2) Solicita avaliação do Estado Geral (mucosas, hidratação, nível de consciência);\n(3) Solicita exame Cardiovascular (ictus, bulhas, sopros, ritmo, turgência jugular);\n(4) Solicita exame Respiratório (murmúrio vesicular, crepitações);\n(5) Solicita exame Abdominal (hepatomegalia, ascite);\n(6) Solicita exame das Extremidades (edema, perfusão periférica).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 5 ou 6 componentes do exame físico e o interpreta corretamente (considerando os achados no impresso).",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 3 ou 4 componentes do exame físico e os interpreta corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Solicita 2 ou menos componentes do exame físico ou não os interpreta corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Exames Complementares Laboratoriais:\n(1) Solicita e interpreta Hemograma (anemia);\n(2) Solicita e interpreta Função Renal (ureia, creatinina);\n(3) Solicita e interpreta Eletrólitos (sódio, potássio);\n(4) Solicita e interpreta Peptídeos Natriuréticos (BNP/NT-proBNP);\n(5) Solicita e interpreta Sorologia para T. cruzi.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 4 ou 5 exames laboratoriais.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 2 ou 3 exames laboratoriais.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Solicita ou interpreta incorretamente 1 ou menos exames laboratoriais.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Exames Complementares de Imagem:\n(1) Solicita e interpreta Eletrocardiograma (ECG);\n(2) Solicita e interpreta Radiografia de Tórax;\n(3) Solicita e interpreta Ecocardiograma Transtorácico.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente os 3 exames de imagem.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 1 ou 2 exames de imagem.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta incorretamente os exames de imagem.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Diagnóstico:\n(1) Estabelece o diagnóstico de Cardiopatia Chagásica Crônica;\n(2) Classifica a Insuficiência Cardíaca (ex: ICFEr);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Estabelece os dois itens do diagnóstico corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Estabelece apenas um item do diagnóstico corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Diagnósticos Diferenciais:\n(1) Cita cardiomiopatia dilatada idiopática;\n(2) Cita cardiomiopatia isquêmica;\n(3) Cita cardiomiopatia hipertensiva;\n(4) Cita cardiomiopatia viral.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou 4 diagnósticos diferenciais relevantes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais relevantes.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Conduta Terapêutica e Orientações:\n(1) Inicia tratamento medicamentoso para Insuficiência Cardíaca com Fração de Ejeção Reduzida (ex: IECA/BRA ou ARNI, Beta-bloqueador, Antagonista de Receptor Mineralocorticoide, Inibidor de SGLT2, Diurético);\n(2) Discute a necessidade de manejo de arritmias (antiarrítmicos, marca-passo ou CDI);\n(3) Avalia a necessidade de anticoagulação (FA, trombo intracavitário);\n(4) Orienta medidas não farmacológicas (restrição de sal/líquidos, atividade física);\n(5) Orienta sobre sinais de alarme e seguimento;\n(6) Menciona a necessidade de encaminhamento a cardiologista/especialista.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Aborda 5 ou 6 itens da conduta terapêutica e orientações.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Aborda 3 ou 4 itens da conduta terapêutica e orientações.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Aborda 2 ou menos itens da conduta terapêutica ou não aborda corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Notificação ao SINAN:\n(1) Verbaliza a necessidade de notificação do caso ao Sistema de Informação de Agravos de Notificação (SINAN).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a necessidade de notificação.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a necessidade de notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A cardiopatia chagásica crônica é a manifestação mais grave da doença de Chagas, causada pelo Trypanosoma cruzi, levando a uma cardiomiopatia dilatada, inflamatória e fibrosante. A anamnese é crucial para identificar história de exposição em áreas endêmicas e sintomas de insuficiência cardíaca (dispneia, fadiga, edema), arritmias (palpitações, tontura, síncope) e eventos tromboembólicos. No exame físico, são comuns cardiomegalia, bulhas arrítmicas, B3, sopros de insuficiência mitral/tricúspide e sinais de congestão (crepitações pulmonares, hepatomegalia, edema). O diagnóstico requer sorologia positiva para T. cruzi (ELISA e IFI) e evidência de acometimento cardíaco. Exames complementares incluem ECG (BRD, BAV, arritmias ventriculares, ZEI), Radiografia de Tórax (cardiomegalia, congestão) e Ecocardiograma (dilatação de câmaras, disfunção sistólica, aneurisma apical). O tratamento abrange a terapia antiparasitária (Benznidazol/Nifurtimox, com indicação controversa na fase crônica avançada), e o manejo da insuficiência cardíaca conforme diretrizes (IECA/BRA/ARNI, betabloqueadores, MRA, SGLT2i, diuréticos). O controle de arritmias pode envolver antiarrítmicos, marca-passo ou CDI. A anticoagulação é indicada em FA ou trombo intracavitário. Diagnósticos diferenciais incluem outras cardiomiopatias dilatadas. Fatores de risco são exposição ao vetor e transfusões/transplantes contaminados. A doença é de notificação compulsória.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde. Guia de Vigilância em Saúde. Volume único. 5. ed. Brasília: Ministério da Saúde, 2021. Disponível em: <https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/guia-de-vigilancia-em-saude-volume-unico-2021.pdf/view>",
+        "2. Sociedade Brasileira de Cardiologia. Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda. Arq Bras Cardiol. 2018; 111(3):49-536.",
+        "3. Rassi Jr A, Rassi A, Rassi SG. Prevenção e tratamento da doença de Chagas. Rev Soc Bras Med Trop. 2000;33 Suppl 2:37-41."
+      ]
+    }
+  }
+  }

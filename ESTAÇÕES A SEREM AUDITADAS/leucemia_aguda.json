@@ -38,7 +38,7 @@
     "informacoesVerbaisSimulado": [
       {
         "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
-        "informacao": "Nome: João da Silva\nIdade: 45 anos\nSexo: Masculino\nEstado civil: Casado\nProfissão: Pedreiro"
+        "informacao": "João da Silva, 45 anos, Pedreiro e Casado"
       },
       {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
@@ -679,5 +679,23 @@
         "3. National Comprehensive Cancer Network (NCCN) Guidelines. Acute Myeloid Leukemia. Disponível em: www.nccn.org. Acesso em: 29 out. 2024."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "b82dd4b6-2470-4c01-ba9c-4ebf217ccf5d",
+  "created_at": "2025-08-28T13:13:40.061755",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Leucemia Aguda",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

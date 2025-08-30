@@ -1,0 +1,613 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_COLANGIOCARCINOMA_01",
+  "tituloEstacao": "Colangiocarcinoma",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Colangiocarcinoma",
+    "Câncer de vias biliares",
+    "Icterícia obstrutiva",
+    "Oncologia",
+    "Clínica Médica",
+    "Atenção terciária à saúde"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Hospitalar",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Centro cirúrgico",
+        "Exames de imagem",
+        "Unidade de terapia intensiva",
+        "Serviço de endoscopia e radiologia intervencionista"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 65 anos de idade, sexo masculino, chega ao hospital universitário referindo icterícia progressiva, dor abdominal e perda de peso nos últimos 3 meses.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese completa do paciente.",
+      "Verbalizar a realização do exame físico direcionado e seus achados.",
+      "Solicitar e interpretar exames complementares (laboratoriais e de imagem) pertinentes ao caso.",
+      "Formular as hipóteses diagnósticas e o diagnóstico mais provável.",
+      "Estabelecer o plano de manejo e a conduta terapêutica inicial.",
+      "Fornecer orientações e responder às dúvidas do paciente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou ficando amarelo, com dor na barriga e emagreci muito, doutor."
+      },
+      {
+        "contextoOuPerguntaChave": "ICTERÍCIA",
+        "informacao": "Início: Há cerca de 3 meses, percebi que meus olhos e pele começaram a amarelar gradualmente.\nProgressão: O amarelão tem aumentado progressivamente, ficando mais intenso a cada semana.\nIntensidade: É bem visível, todo mundo comenta que estou muito amarelo.\nPrurido: Tenho sentido uma coceira intensa em todo o corpo, que piora à noite e me atrapalha para dormir.\nColúria: Minha urina está muito escura, como refrigerante de cola.\nAcolia fecal: Minhas fezes estão muito claras, quase brancas."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR ABDOMINAL",
+        "informacao": "Início: Começou há uns 3 meses, junto com o amarelão, mas era mais leve no começo.\nLocalização: No lado direito da barriga, na parte de cima, bem abaixo das costelas (hipocôndrio direito).\nIntensidade: Nota 6 em 10, é uma dor contínua, mas que às vezes aperta mais.\nCaracterística: Uma dor mais de peso, constante, que às vezes fica mais forte como um aperto.\nIrradiação: Não irradia para outros locais, fica só na barriga mesmo.\nDuração: É contínua, não passa.\nProgressão: Tem piorado um pouco com o tempo.\nFator de piora: Não identifiquei nada que piore especificamente.\nFator de melhora: Não melhora com nada, nem com analgésico comum.\nEpisódios prévios: Não tive dores assim antes.\nMedicação de alívio: Tentei tomar dipirona, mas não ajudou em nada."
+      },
+      {
+        "contextoOuPerguntaChave": "PERDA DE PESO",
+        "informacao": "Início: Notei que estou emagrecendo há uns 3 meses, desde que comecei a sentir outros sintomas.\nQuantificação: Perdi uns 10 kg nesse período.\nIntencionalidade: Não foi intencional, não estou fazendo dieta.\nRelação com apetite: Tenho sentido muito pouco apetite e enjoos, o que dificulta comer."
+      },
+      {
+        "contextoOuPerguntaChave": "FADIGA",
+        "informacao": "Início: A fadiga começou junto com os outros sintomas, há uns 3 meses.\nProgressão: Tenho me sentido cada vez mais cansado, com menos energia.\nImpacto funcional: Sinto dificuldade para realizar as atividades do dia a dia, mesmo as mais simples.\nRelação com atividade/repouso: O cansaço é constante, não melhora com repouso.\nSintomas associados: Sinto um cansaço que não passa, mesmo dormindo bem."
+      },
+      {
+        "contextoOuPerguntaChave": "NÁUSEAS E VÔMITOS",
+        "informacao": "Início: Começaram há cerca de 2 meses.\nFrequência: Tenho náuseas quase todos os dias, principalmente depois de comer. Vômitos ocorrem umas 2 a 3 vezes por semana.\nRelação temporal: Geralmente após as refeições.\nConteúdo: O vômito é de comida recém-ingerida, às vezes com um líquido amargo (bilioso).\nFatores de alívio: Não encontrei nada que alivie muito, só um pouco de repouso."
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE E CALAFRIOS",
+        "informacao": "Início: Tive febre e calafrios há cerca de 1 semana, por uns 2 dias.\nIntensidade: A febre chegou a 38,5°C.\nSintomas associados: Os calafrios eram intensos, e suava bastante depois que a febre passava.\nResposta a antitérmicos: Tomei paracetamol e a febre cedeu temporariamente."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Nega diabetes, hipertensão. Sofreu de uma inflamação nos canais da bile (colangite) há muitos anos, mas 'acha que curou'.\nCirurgias prévias: Apendicectomia há 40 anos. Nega outras cirurgias abdominais.\nInternações: Internação há muitos anos pela colangite.\nAlergias: Nega alergias conhecidas.\nMedicamentos em uso contínuo: Nega uso de medicamentos contínuos.\nVacinação: Rotina vacinal completa para a idade, mas não recorda a última vacina de Hepatite B.\nTrauma: Nega traumas recentes ou relevantes.\nTransfusões: Nega transfusões sanguíneas prévias."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Idade: 65 anos.\nTipo do parto: Não aplicável.\nTempo de Gestação: Não aplicável.\nIntercorrências neonatais: Não aplicável.\nHábitos sexuais: Não relevante para o caso.\nHábitos urinários: Urina clara, sem dor ou alteração de frequência.\nHábitos intestinais: Fezes claras, dificuldade para evacuar às vezes devido à consistência, mas sem sangramento ou muco. Frequência reduzida desde o início das fezes claras.\nIngestão hídrica: Bebe pouca água, uns 4 copos por dia.\nExposição ocupacional: Aposentado, trabalhava como agricultor.\nEstresse: Refere estresse com a situação atual de saúde."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Ex-tabagista, parou há 10 anos. Fumou 1 maço/dia por 30 anos.\nEtilismo: Socialmente, 1-2 doses de destilado por semana.\nDrogas ilícitas: Nega uso.\nAlimentação: Pouco apetite, dieta variada antes, mas agora tem comido pouco devido aos enjoos.\nAtividade física: Caminhadas leves 3 vezes por semana antes dos sintomas, agora está muito cansado para fazer.\nSono: Dificuldade para dormir devido à coceira intensa."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Falecido por infarto aos 70 anos.\nMãe: Falecida por acidente vascular cerebral aos 75 anos.\nDoenças na família: Nega histórico familiar de colangiocarcinoma ou outras neoplasias específicas.\nHistoria de câncer na família: Nega.\nIrmãos ou tias: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS",
+        "informacao": "Não aplicável ao paciente simulado, que é do sexo masculino."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega viagens para áreas endêmicas de doenças parasitárias. Viveu sempre na mesma cidade rural no interior de Minas Gerais.\nExposição a doenças infecciosas: Nega.\nContato com doentes: Nega.\nExposição a animais: Criava galinhas e porcos na fazenda.\nExposição a vetores: Nega.\nÁgua consumida: Água de poço, mas sempre fervida.\nExposição a agentes ambientais: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL",
+        "informacao": "Situação familiar: Casado, tem dois filhos adultos que o apoiam.\nRede de apoio: Família e vizinhos.\nSituação socioeconômica: Aposentado, renda modesta.\nNível educacional: Ensino fundamental incompleto.\nReligião: Católico.\nEstresse psicossocial: Preocupado com a saúde e o que pode estar acontecendo."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR:",
+        "informacao": "Se o candidato solicitar exames físicos, verbalize os achados contidos no impresso 'est1_impresso_SINAISVITAIS_1'.\nSe o candidato solicitar exames laboratoriais, libere o impresso 'est1_impresso_LABORATORIO_2'.\nSe o candidato solicitar ultrassonografia abdominal, libere o impresso 'est1_impresso_IMAGEM_USG_3'.\nSe o candidato solicitar tomografia computadorizada, libere o impresso 'est1_impresso_IMAGEM_TC_4'.\nSe o candidato solicitar ressonância magnética com CPRM, libere o impresso 'est1_impresso_IMAGEM_CPRM_5'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE:",
+        "informacao": "pergunta (1): O que eu tenho, doutor? É grave?.\npergunta (2): Tem tratamento pra isso?.\npergunta (3): Eu vou ficar bom?.\npergunta (4): Poderia ser cálculo na vesícula? Um vizinho meu teve isso e ficou amarelo também."
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "130x80 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "88 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.8 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "97 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Paciente em regular estado geral, emagrecido, consciente, orientado, ictérico 3+/4+, com escoriações difusas na pele (tronco e membros) por prurido."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Icterícia escleral presente, sem linfonodomegalias palpáveis. Pescoço sem alterações."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Bulhas rítmicas normofonéticas em 2 tempos, sem sopros. Pulsos periféricos presentes e simétricos."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente e simétrico bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Distendido, doloroso à palpação profunda em hipocôndrio direito, com hepatomegalia (fígado palpável a 4 cm do rebordo costal direito). Vesícula biliar palpável, indolor e distendida (Sinal de Courvoisier positivo)."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edemas, sem sinais de trombose venosa profunda. Escoriaações por prurido em membros."
+                },
+                {
+                  "chave": "Sinais de Inflamação",
+                  "valor": "Nega."
+                },
+                {
+                  "chave": "Edema",
+                  "valor": "Nega."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "8.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "10.8 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "250.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "COAGULOGRAMA",
+              "itens": [
+                {
+                  "chave": "Tempo de Protrombina (TP)",
+                  "valor": "20.5 segundos (Ref: 11.0-15.0 segundos)"
+                },
+                {
+                  "chave": "INR",
+                  "valor": "1.8 (Ref: 0.8-1.2)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "FUNÇÃO HEPÁTICA E VIAS BILIARES",
+              "itens": [
+                {
+                  "chave": "Bilirrubina Total",
+                  "valor": "15.2 mg/dL (Ref: <1.2)"
+                },
+                {
+                  "chave": "Bilirrubina Direta",
+                  "valor": "12.8 mg/dL (Ref: <0.3)"
+                },
+                {
+                  "chave": "Fosfatase Alcalina (FA)",
+                  "valor": "450 U/L (Ref: 40-150)"
+                },
+                {
+                  "chave": "Gama-GT (GGT)",
+                  "valor": "520 U/L (Ref: 0-50)"
+                },
+                {
+                  "chave": "AST (TGO)",
+                  "valor": "90 U/L (Ref: 0-40)"
+                },
+                {
+                  "chave": "ALT (TGP)",
+                  "valor": "85 U/L (Ref: 0-40)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MARCADORES TUMORAIS",
+              "itens": [
+                {
+                  "chave": "CA 19-9",
+                  "valor": "1.500 U/mL (Ref: <37)"
+                },
+                {
+                  "chave": "CEA",
+                  "valor": "12 ng/mL (Ref: <5)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_USG_3",
+        "tituloImpresso": "Ultrassonografia de Abdome Total",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Apresenta imagem de Ultrassonografia abdominal. O médico deve descrever os achados na câmera.",
+          "caminhoImagem": "(Buscar no Google Imagens: Ultrassonografia de abdome total com dilatação de vias biliares intra e extra-hepáticas e massa sólida hipoecogênica em região hilar do fígado)",
+          "laudo": "Fígado com dimensões aumentadas e ecotextura heterogênea. Dilatação acentuada das vias biliares intra e extra-hepáticas. Presença de massa sólida hipoecogênica na região do hilo hepático, medindo aproximadamente 3,5 x 2,8 cm, sem fluxo ao Doppler. Vesícula biliar distendida e sem cálculos. Pâncreas e baço sem alterações. Ausência de ascite."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_TC_4",
+        "tituloImpresso": "Tomografia Computadorizada de Abdome e Pelve com Contraste",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Apresenta imagem de Tomografia Computadorizada de abdome e pelve. O médico deve descrever os achados na câmera.",
+          "caminhoImagem": "(Buscar no Google Imagens: Tomografia computadorizada de abdome com colangiocarcinoma hilar (tumor de Klatskin) com invasão de ductos biliares e linfonodos peripancreáticos aumentados)",
+          "laudo": "ACHADOS:\nMassa com realce tardio, hipodenso na fase arterial e portal, localizada na confluência dos ductos hepáticos (tumor de Klatskin), com extensão para os ductos biliares direito e esquerdo. Invasão de ramos da veia porta. Dilatação significativa das vias biliares a montante. Ausência de metástases hepáticas ou à distância (pulmões, ossos). Linfonodos peripancreáticos e periduodenais de dimensões aumentadas, sugerindo comprometimento.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_CPRM_5",
+        "tituloImpresso": "Colangiopancreatografia por Ressonância Magnética (CPRM)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Apresenta imagem de Colangiopancreatografia por Ressonância Magnética. O médico deve descrever os achados na câmera.",
+          "caminhoImagem": "(Buscar no Google Imagens: CPRM mostrando estenose complexa na confluência dos ductos hepáticos com dilatação proximal das vias biliares em colangiocarcinoma hilar)",
+          "laudo": "ACHADOS:\nEstenose irregular e espessamento parietal na confluência dos ductos hepáticos, com dilatação marcada das vias biliares intra-hepáticas. Imagem compatível com colangiocarcinoma hilar (tumor de Klatskin). Ducto biliar distal e ducto pancreático sem alterações significativas. Sem cálculos biliares.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ECTOSCOPIA_6",
+        "tituloImpresso": "Achado de Exame Físico (Ectoscopia de Escleras e Pele)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Apresenta imagens da esclera e da pele do paciente. O médico deve descrever os achados na câmera.",
+          "caminhoImagem": "(Buscar no Google Imagens: Icterícia escleral grave e icterícia cutânea difusa, com escoriações por prurido em tronco e membros)",
+          "laudo": "Escleras e tegumento cutâneo com intensa coloração amarelada (icterícia). Presença de múltiplas lesões lineares de escoriação em tronco e membros superiores e inferiores, decorrentes de prurido."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_COLANGIOCARCINOMA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 65 anos, com quadro de icterícia progressiva, dor abdominal, perda de peso, fadiga, náuseas e vômitos há 3 meses. Apresenta antecedentes de colangite e ex-tabagismo. O exame físico revela icterícia, hepatomegalia e sinal de Courvoisier. Exames laboratoriais mostram padrão colestático e marcadores tumorais elevados. Exames de imagem indicam massa hilar com dilatação das vias biliares e sinais de invasão.",
+      "focoPrincipalDetalhado": [
+        "Anamnese direcionada para sintomas obstrutivos e fatores de risco de neoplasias biliares.",
+        "Exame físico buscando sinais de colestase e massa abdominal.",
+        "Solicitação e interpretação de exames laboratoriais (função hepática, marcadores) e de imagem (USG, TC, CPRM).",
+        "Formulações de hipóteses diagnósticas e diagnóstico clínico-radiológico de colangiocarcinoma.",
+        "Proposição de plano terapêutico inicial com drenagem biliar e avaliação de ressecabilidade."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e comunicação inicial:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações ou apenas uma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, investigando as características da icterícia e sintomas associados:\n(1) início;\n(2) progressão;\n(3) intensidade;\n(4) prurido associado;\n(5) colúria;\n(6) acolia fecal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou 6 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 itens.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, investigando as características da dor abdominal:\n(1) início;\n(2) localização;\n(3) intensidade;\n(4) característica;\n(5) irradiação;\n(6) duração;\n(7) progressão;\n(8) fatores de piora;\n(9) fatores de melhora;\n(10) medicação de alívio utilizada.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 7 ou mais itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 6 itens.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza anamnese, investigando a perda de peso e outros sintomas:\n(1) quantidade de peso perdido;\n(2) tempo de perda;\n(3) intencionalidade da perda;\n(4) fadiga;\n(5) náuseas e vômitos;\n(6) febre e calafrios (episódios prévios).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou 6 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Realiza anamnese, investigando antecedentes patológicos e epidemiológicos relevantes:\n(1) histórico de colangite esclerosante primária ou colangite;\n(2) cistos de colédoco ou doença de Caroli;\n(3) hepatolitíase;\n(4) infecções parasitárias crônicas das vias biliares (ex: por viagens a áreas endêmicas);\n(5) cirrose hepática;\n(6) doença inflamatória intestinal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou 6 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 itens.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Realiza anamnese, investigando hábitos de vida e outros antecedentes:\n(1) tabagismo;\n(2) etilismo;\n(3) obesidade/diabetes (indiretamente por dieta e atividade física);\n(4) história familiar de câncer.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Verbaliza a realização do exame físico direcionado, buscando e interpretando:\n(1) icterícia mucocutânea;\n(2) escoriações cutâneas por prurido;\n(3) hepatomegalia;\n(4) vesícula biliar palpável (Sinal de Courvoisier);\n(5) sinais de caquexia/emagrecimento.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza e interpreta 4 ou 5 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza e interpreta 2 ou 3 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Verbaliza e interpreta 1 ou menos itens ou não realiza exame físico.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita os exames laboratoriais essenciais para investigação:\n(1) hemograma completo;\n(2) função hepática (bilirrubinas, FA, GGT, transaminases);\n(3) coagulograma (TP/INR);\n(4) marcadores tumorais (CA 19-9 e CEA).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita os 4 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 ou 3 itens.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não solicita nenhum item ou apenas 1.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpreta corretamente os resultados dos exames laboratoriais apresentados:\n(1) anemia leve;\n(2) padrão colestático (bilirrubina direta, FA, GGT elevados);\n(3) prolongamento de TP/INR;\n(4) CA 19-9 e CEA elevados.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta os 4 itens corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 ou 3 itens corretamente.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não interpreta nenhum item ou apenas 1.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita e interpreta corretamente os exames de imagem pertinentes:\n(1) ultrassonografia abdominal (para dilatação biliar/massa);\n(2) tomografia computadorizada de abdome e pelve (para estadiamento);\n(3) ressonância magnética com CPRM (para detalhamento da árvore biliar e extensão do tumor).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta os 3 exames corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 2 exames corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta adequadamente nenhum ou apenas 1 exame.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Verbaliza o diagnóstico clínico-radiológico e sua localização:\n(1) Colangiocarcinoma hilar (tumor de Klatskin);\n(2) Estadiamento clínico inicial (ex: doença localmente avançada com invasão vascular e linfonodal).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico clínico-radiológico e o estadiamento corretamente.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza apenas o diagnóstico clínico-radiológico correto, mas incompleto ou impreciso.",
+            "pontos": 0.6
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico correto ou o estadiamento.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes e a necessidade de confirmação histopatológica:\n(1) adenocarcinoma de cabeça de pâncreas;\n(2) coledocolitíase impactada;\n(3) estenose biliar benigna (ex: colangite esclerosante primária);\n(4) necessidade de biópsia para confirmação diagnóstica.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou mais diagnósticos diferenciais corretos e a necessidade de biópsia.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais corretos ou apenas a necessidade de biópsia.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou a necessidade de biópsia, ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Propõe o plano terapêutico e manejo:\n(1) drenagem biliar (endoscópica ou percutânea) para alívio da colestase;\n(2) avaliação de ressecabilidade cirúrgica por equipe multidisciplinar (cirurgia hepatobiliar, oncologia clínica);\n(3) considerar quimioterapia sistêmica (ex: Gencitabina + Cisplatina) se irressecável ou metastático;\n(4) busca por mutações acionáveis para terapias-alvo (diagnóstico molecular).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe 3 ou 4 itens do plano terapêutico.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 1 ou 2 itens do plano terapêutico.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não propõe plano terapêutico adequado ou propõe incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Realiza orientações gerais e responde às dúvidas do paciente:\n(1) explica a gravidade e complexidade da doença;\n(2) informa sobre o prognóstico e a necessidade de tratamento intensivo;\n(3) aborda o manejo de sintomas (dor, prurido) e suporte nutricional;\n(4) orienta sobre o seguimento com equipe multidisciplinar;\n(5) responde às dúvidas do paciente de forma clara e empática.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta 4 ou 5 aspectos e responde às dúvidas adequadamente.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Orienta 3 ou menos aspectos ou não responde às dúvidas adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "O colangiocarcinoma (CCA) é uma neoplasia agressiva das vias biliares com prognóstico desfavorável devido ao diagnóstico tardio. Os achados semiológicos típicos incluem icterícia progressiva, dor abdominal no hipocôndrio direito, perda de peso inexplicada, fadiga, náuseas, vômitos, prurido, colúria e acolia fecal. Febre e calafrios podem indicar colangite. O exame físico pode revelar icterícia escleral e cutânea, emagrecimento, hepatomegalia e sinal de Courvoisier (vesícula palpável, indolor e distendida em paciente ictérico, comum em CCA distal ou de pâncreas). \n\nO diagnóstico laboratorial é sugerido por um padrão colestático (aumento de bilirrubina direta, fosfatase alcalina e gama-GT) e elevação de marcadores tumorais como CA 19-9 e CEA. Exames de imagem são cruciais para a suspeita e estadiamento: ultrassonografia abdominal (dilatação biliar, massa), tomografia computadorizada (extensão da lesão, invasão vascular, linfonodomegalia, metástases) e ressonância magnética com colangiopancreatografia por RM (detalhes da árvore biliar). O diagnóstico definitivo é histopatológico, obtido por biópsia, muitas vezes guiada por CPRE ou CTP. \n\nOs diagnósticos diferenciais incluem outras causas de obstrução biliar maligna (adenocarcinoma de pâncreas, neoplasia de ampola de Vater) ou benigna (coledocolitíase, colangite esclerosante primária). Fatores de risco importantes são colangite esclerosante primária, cistos de colédoco e infecções parasitárias crônicas. As complicações incluem colangite aguda, insuficiência hepática e sangramentos. \n\nO tratamento depende do estágio: cirurgia é a única chance de cura para doença ressecável (hepatectomia para iCCA, ressecção dos ductos para CCA hilar, duodenopancreatectomia para eCCA distal). Para doença irressecável ou metastática, o tratamento é paliativo, incluindo drenagem biliar, quimioterapia sistêmica (gencitabina + cisplatina), terapias-alvo (para mutações específicas) e imunoterapia em casos selecionados. O manejo é multidisciplinar, com foco em suporte nutricional e manejo da dor.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Instituto Nacional de Câncer José Alencar Gomes da Silva (INCA). Colangiocarcinoma. Disponível em: https://www.inca.gov.br/tipos-de-cancer/cancer-de-figado/colangiocarcinoma. Acesso em 15/05/2024.",
+        "2. UpToDate. Clinical manifestations and diagnosis of cholangiocarcinoma. Disponível em: https://www.uptodate.com/contents/clinical-manifestations-and-diagnosis-of-cholangiocarcinoma. Acesso em 15/05/2024.",
+        "3. National Comprehensive Cancer Network (NCCN) Guidelines for Hepatobiliary Cancers. Versão 2.2024. Disponível em: https://www.nccn.org/guidelines/guidelines-by-cancer/hepatobiliary-cancers. Acesso em 15/05/2024."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "26fe7370-e3dc-4b68-90db-b0e417540039",
+  "created_at": "2025-08-28T11:45:23.931882",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Colangiocarcinoma",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

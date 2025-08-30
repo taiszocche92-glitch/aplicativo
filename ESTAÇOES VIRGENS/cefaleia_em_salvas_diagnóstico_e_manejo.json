@@ -1,0 +1,548 @@
+{
+  "idEstacao": "REVALIDA_MEDIO_2025_CM_01",
+  "tituloEstacao": "Cefaleia em Salvas: Diagnóstico e Manejo",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "cefaleia",
+    "cefaleia em salvas",
+    "autonômica trigeminal",
+    "clínica médica",
+    "atenção secundária"
+  ],
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem",
+        "Medicações disponíveis"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 38 anos chega à consulta referindo dor de cabeça muito forte no olho e na têmpora, que sempre vem do mesmo lado.",
+    "tarefasPrincipais": [
+      "Realizar anamnese completa.",
+      "Realizar exame físico.",
+      "Solicitar e interpretar exames complementares.",
+      "Formular hipóteses diagnósticas e estabelecer o diagnóstico.",
+      "Elaborar a conduta terapêutica e as orientações de seguimento.",
+      "Responder às dúvidas do paciente."
+    ],
+    "avisosImportantess": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com uma dor de cabeça muito forte no olho e na têmpora, que sempre vem do mesmo lado."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR DE CABEÇA",
+        "informacao": "Início: Há cerca de 3 semanas, de repente.\nLocalização: Sempre do lado direito, no olho, acima do olho e na têmpora.\nIntensidade: É excruciante, nota 10 de 10 na escala de dor. A pior dor que já senti.\nTipo/Característica: É uma dor constante, pulsátil, em aperto, como se estivessem espremendo meu olho.\nIrradiação: Não irradia para outros locais, fica localizada.\nDuração: Cada crise dura de 30 minutos a 1 hora e meia.\nFrequência: Tenho de 3 a 5 crises por dia, muitas vezes acordo com dor de madrugada.\nProgressão: As crises vêm e vão, mas têm sido diárias nestas últimas 3 semanas.\nFator de piora: Parece piorar com estresse e no fim do dia.\nFator de melhora: Nada parece aliviar completamente, só esperar passar. Caminhar ou ficar de pé parece ajudar um pouco mais do que ficar deitado.\nEpisódios prévios: Sim, tive períodos assim no passado, com remissões de alguns meses. A primeira vez foi há uns 5 anos.\nMedicação de alívio: Nada parece aliviar completamente."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS AUTONÔMICOS CRANIANOS E AGITAÇÃO (Lado da dor)",
+        "informacao": "Lacrimejamento: Sim, o olho direito lacrimeja muito durante a crise.\nHiperemia conjuntival: Sim, o olho direito fica bem vermelho e inchado.\nRinorreia: Sim, o nariz escorre do lado direito.\nCongestão nasal: Sim, o nariz entope do lado direito.\nPtose palpebral: Sim, a pálpebra superior do olho direito cai um pouco.\nMiose: Não notei alteração no tamanho da pupila.\nEdema palpebral: Sim, a pálpebra do olho direito incha.\nSudorese facial: Não, não noto suor no rosto.\nInquietação/Agitação: Sim, não consigo ficar parado, preciso andar pela casa durante a crise, me sinto muito agitado."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ASSOCIADOS (NÃO AUTONÔMICOS)",
+        "informacao": "Náuseas: Não sinto náuseas.\nVômitos: Não vomito.\nFotofobia: Não sinto sensibilidade à luz.\nFonofobia: Não sinto sensibilidade a barulho.\nZonas-gatilho: Não, tocar o rosto ou mastigar não desencadeia a dor."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Não, sou saudável.\nCirurgias prévias: Nenhuma.\nInternações: Nenhuma.\nAlergias: Nega.\nMedicamentos em uso contínuo: Nenhum regularmente.\nVacinação: Em dia.\nTrauma: Nega.\nTransfusões: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nunca fumei.\nEtilismo: Consumo socialmente, mas reduzi bastante quando as crises voltaram.\nDrogas ilícitas: Nega.\nAlimentação: Equilibrada.\nAtividade física: Pratico corrida regularmente.\nSono: Dificuldade para dormir devido às crises.\nIngestão hídrica: Boa.\nExposição ocupacional: Engenheiro, sem exposição relevante.\nEstresse: Sim, parece piorar a dor."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES E GATILHOS CONHECIDOS",
+        "informacao": "Pai: Tinha dores de cabeça fortes, mas eram diferentes, pulsava a cabeça toda.\nMãe: Saudável, nega doenças relevantes.\nDoenças na família: Nega outras doenças relevantes.\nHistória de câncer: Nega.\nIrmãos ou tias: Nega.\nFator Desencadeante Álcool: Sim, beber cerveja ou vinho durante um período de crise quase sempre desencadeia uma dor forte. Evito.\nFator Desencadeante Nitratos: Não sei dizer, não costumo consumir.\nFator Desencadeante Café: Não, café não parece influenciar."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "O que é essa dor? Tem cura? Vou ter que conviver com isso para sempre?\nEsses remédios funcionam rápido? Têm muitos efeitos colaterais? Posso tomar qualquer coisa para aliviar na hora?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est01_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "120 × 80 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "72 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "36,8 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "98% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_EXAMEFISICO_2",
+        "tituloImpresso": "Exame Físico Geral e Neurológico (Verbalizado pelo Chefe de Estação)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESTADO GENERAL",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Bom estado geral, lúcido, orientado no tempo e espaço, hidratado, corado, anictérico, acianótico, afebril."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME NEUROLÓGICO",
+              "itens": [
+                {
+                  "chave": "Nervos Cranianos",
+                  "valor": "Pares cranianos sem alterações. Pupilas isocóricas e fotorreagentes. Reflexos fotomotor direto e consensual presentes."
+                },
+                {
+                  "chave": "Força Muscular",
+                  "valor": "Força muscular grau V em todos os quatro membros."
+                },
+                {
+                  "chave": "Sensibilidade",
+                  "valor": "Sensibilidade preservada em todos os dermátomos."
+                },
+                {
+                  "chave": "Coordenação",
+                  "valor": "Coordenação e equilíbrio preservados."
+                },
+                {
+                  "chave": "Reflexos",
+                  "valor": "Reflexos tendíneos profundos presentes e simétricos. Sem sinais de liberação piramidal."
+                },
+                {
+                  "chave": "Marcha",
+                  "valor": "Marcha normal."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_RMCranio_3",
+        "tituloImpresso": "Ressonância Magnética de Crânio com Angiografia - LAUDO",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NO LAUDO E IMAGEM (se desejar).",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: RM de Crânio normal com angiografia)",
+          "laudo": "Estudo de Ressonância Magnética do encéfalo e vasos cerebrais realizado em sequências axiais, coronais e sagitais ponderadas em T1, T2, FLAIR, difusão e angiografia por tempo de voo (TOF).\n\nParênquima encefálico com morfologia e intensidade de sinal preservadas. Não há evidências de lesões focais intra ou extra-axiais, áreas de restrição à difusão, hemorragias ou malformações.\n\nSistema ventricular e espaços liquóricos sem alterações significativas.\n\nEstruturas da fossa posterior e transição craniocervical de aspecto habitual.\n\nAngiografia por RM demonstra permeabilidade e calibre preservados dos vasos do polígono de Willis e seus ramos principais, sem evidências de aneurismas, estenoses ou malformações arteriovenosas.\n\nCONCLUSÃO: RM de crânio e angiografia cerebral sem alterações significativas."
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_LABORATORIO_4",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.2 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.0 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Função Hepática (TGO/TGP)",
+                  "valor": "TGO: 25 U/L (Ref: <40); TGP: 28 U/L (Ref: <40)"
+                },
+                {
+                  "chave": "Eletrólitos (Sódio/Potássio)",
+                  "valor": "Sódio: 140 mEq/L (Ref: 135-145); Potássio: 4.2 mEq/L (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "95 mg/dL (Ref: 70-99)"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST01_CM_CEFALEIASALVAS_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente, sexo masculino, 38 anos, apresenta quadros recorrentes de cefaleia unilateral, orbital/supraorbital/temporal, de forte intensidade, associada a sintomas autonômicos ipsilaterais (lacrimejamento, hiperemia conjuntival, rinorreia, congestão nasal, ptose, edema palpebral) e agitação motora. Os episódios duram de 30 a 90 minutos, ocorrem 3-5 vezes ao dia, incluindo despertares noturnos, com períodos de remissão. Álcool é gatilho. Exame neurológico e Ressonância Magnética de crânio com angiografia sem alterações.",
+      "focoPrincipalDetalhado": [
+        "Anamnese detalhada para caracterizar a Cefaleia em Salvas e excluir diferenciais.",
+        "Reconhecimento dos sintomas autonômicos e agitação.",
+        "Solicitação e interpretação de exames complementares, especialmente neuroimagem.",
+        "Estabelecimento do diagnóstico e classificação.",
+        "Elaboração de plano terapêutico para crise e profilaxia.",
+        "Orientação completa ao paciente."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est01_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, perguntando sobre as características da dor de cabeça:\n(1) Início da dor;\n(2) Localização da dor;\n(3) Intensidade da dor;\n(4) Característica/Qualidade da dor;\n(5) Irradiação da dor;\n(6) Duração de cada crise;\n(7) Frequência das crises;\n(8) Progressão do quadro;\n(9) Fatores de piora;\n(10) Fatores de melhora;\n(11) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 9 ou mais dos 11 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 5 a 8 dos 11 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 4 ou menos dos 11 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Investiga sintomas autonômicos cranianos ipsilaterais e agitação:\n(1) Lacrimejamento;\n(2) Hiperemia conjuntival;\n(3) Rinorreia;\n(4) Congestão nasal;\n(5) Ptose palpebral;\n(6) Miose;\n(7) Edema palpebral;\n(8) Sudorese facial;\n(9) Inquietação ou agitação motora.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 7 ou mais dos 9 sintomas/achados.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 4 a 6 dos 9 sintomas/achados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 3 ou menos dos 9 sintomas/achados ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Investiga sintomas associados e diferenciais:\n(1) Náuseas;\n(2) Vômitos;\n(3) Fotofobia;\n(4) Fonofobia;\n(5) Presença de zonas-gatilho.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 sintomas/achados relevantes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 sintomas/achados relevantes.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 2 sintomas/achados relevantes ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Investiga antecedentes pessoais patológicos:\n(1) Doenças crônicas;\n(2) Cirurgias prévias;\n(3) Internações;\n(4) Alergias;\n(5) Medicamentos em uso contínuo;\n(6) Vacinação;\n(7) Trauma.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou mais dos 7 antecedentes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 dos 7 antecedentes.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos dos 7 antecedentes ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Investiga hábitos de vida:\n(1) Tabagismo;\n(2) Etilismo;\n(3) Drogas ilícitas;\n(4) Alimentação;\n(5) Atividade física;\n(6) Sono;\n(7) Ingestão hídrica;\n(8) Estresse.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 ou mais dos 8 hábitos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 dos 8 hábitos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos dos 8 hábitos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Investiga antecedentes familiares e gatilhos conhecidos:\n(1) História familiar de cefaleia;\n(2) Tabagismo;\n(3) Consumo de álcool;\n(4) Consumo de nitratos;\n(5) Consumo de café;\n(6) Outras doenças familiares relevantes.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou 6 dos 6 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 dos 6 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 ou menos dos 6 itens ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita os componentes do exame físico:\n(1) Sinais vitais;\n(2) Exame físico geral;\n(3) Exame neurológico completo e verbaliza a normalidade para cefaleia primária.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita os 3 componentes e verbaliza a normalidade.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 1 ou 2 componentes.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou solicita inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita exames complementares:\n(1) Ressonância Magnética de Crânio (com ou sem angiografia) para exclusão de causas secundárias;\n(2) Exames laboratoriais básicos (como função renal, hepática, ECG) para monitoramento de profilaxia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita a Ressonância Magnética de Crânio e exames laboratoriais.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita apenas a Ressonância Magnética de Crânio ou apenas os exames laboratoriais.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita exames complementares ou solicita inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Interpreta os achados da Ressonância Magnética de Crânio:\n(1) Interpreta o laudo como sem alterações significativas;\n(2) Correlaciona a normalidade dos achados com o diagnóstico de cefaleia primária.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente e correlaciona os achados.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente, mas não correlaciona.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta incorretamente ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Formula hipóteses diagnósticas e diagnósticos diferenciais:\n(1) Cefaleia em Salvas como principal hipótese;\n(2) Outras Cefaleias Autonômicas Trigeminais (como Hemicrania Paroxística, SUNCT/SUNA);\n(3) Neuralgia do Trigêmeo;\n(4) Migrânea;\n(5) Causas secundárias (como tumor, aneurisma, dissecção).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita a hipótese principal e 3 ou mais diagnósticos diferenciais.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita a hipótese principal e 1 ou 2 diagnósticos diferenciais.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não cita hipóteses relevantes ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Estabelece o diagnóstico principal e sua classificação:\n(1) Verbaliza o diagnóstico de Cefaleia em Salvas;\n(2) Classifica como Cefaleia em Salvas Episódica (dada a história de remissões).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Estabelece o diagnóstico correto e a classificação.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Estabelece o diagnóstico correto, mas sem classificação.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não estabelece o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Elabora a conduta terapêutica para crise aguda:\n(1) Indica Oxigênio a 100% (7-12 L/min por 15-20 min via máscara não reinalatória);\n(2) Indica Sumatriptano subcutâneo (6mg).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica corretamente os 2 tratamentos para crise aguda.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica corretamente apenas 1 tratamento para crise aguda.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não indica tratamento ou indica incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Elabora a conduta profilática:\n(1) Indica Verapamil como profilaxia de longo prazo (menciona monitorização de ECG);\n(2) Indica Corticosteroides orais (ex: Prednisona) como terapia transicional;\n(3) Cita Topiramato ou Lítio como alternativas ou adjuvantes para profilaxia de longo prazo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica corretamente os 3 pontos da profilaxia.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica corretamente 1 ou 2 pontos da profilaxia.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não indica profilaxia ou indica incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Orientações ao paciente e seguimento:\n(1) Orienta sobre a natureza da doença e gatilhos (evitar álcool);\n(2) Sugere manter diário de cefaleia;\n(3) Reforça a importância da aderência ao tratamento profilático;\n(4) Programa retorno para acompanhamento e ajuste de medicação;\n(5) Responde às perguntas do paciente sobre prognóstico e tratamento.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre 4 ou 5 aspectos do seguimento e responde às dúvidas.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta sobre 2 ou 3 aspectos do seguimento e/ou responde parcialmente às dúvidas.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não orienta adequadamente ou não responde às dúvidas.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Cefaleia em Salvas (CS) é uma Cefaleia Autonômica Trigeminal (CAT) caracterizada por dor unilateral severa a excruciante, orbital, supraorbital ou temporal, com duração de 15 a 180 minutos, e acompanhada por sintomas autonômicos cranianos ipsilaterais (lacrimejamento, hiperemia conjuntival, rinorreia, congestão nasal, ptose, miose, edema palpebral, sudorese facial) e/ou agitação motora. As crises ocorrem de 1 a 8 vezes ao dia, em períodos de 'salvas' que duram semanas a meses, seguidos de remissão. O diagnóstico é clínico e baseado nos critérios da ICHD-3. É fundamental a exclusão de causas secundárias através de Ressonância Magnética de Crânio, especialmente em casos atípicos ou de início tardio. Fatores de risco incluem sexo masculino e tabagismo; álcool é um gatilho comum durante as salvas. O tratamento da crise aguda é feito com Oxigênio a 100% por máscara não reinalatória e/ou Sumatriptano subcutâneo. A profilaxia é essencial e inclui Verapamil como primeira linha (com monitorização de ECG), corticoides orais para terapia transicional, e Topiramato ou Lítio como alternativas/adjuvantes. O acompanhamento regular com neurologista é crucial para ajuste de tratamento e manejo de efeitos colaterais. Sinais de alarme ('red flags') como início súbito e explosivo, mudança de padrão ou déficits neurológicos focais exigem investigação imediata de causas secundárias.",
+      "fontes": [
+        "1. Sociedade Brasileira de Cefaleia (SBCe). Consenso Brasileiro de Cefaleias Autonômicas Trigeminais, 2019.",
+        "2. Headache Classification Committee of the International Headache Society (IHS). The International Classification of Headache Disorders, 3rd edition (ICHD-3). Cephalalgia, 2018;38(1):1-211.",
+        "3. UpToDate. Cluster headache: Treatment. (acessado em 2024)."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "6ee7d7bb-ffe8-41d5-9a06-0e15934cbba4",
+  "created_at": "2025-08-28T14:07:28.901132",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Cefaleia trigeminal",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

@@ -1,0 +1,593 @@
+{
+  "idEstacao": "REVALIDA_2025_CM_DM01",
+  "tituloEstacao": "Diabetes Mellitus: Diagnóstico e Manejo Inicial",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Diabetes Mellitus, DM1, DM2, diagnóstico, tratamento, metas, complicações, endocrinologia, atenção secundária",
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (solicitação)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 48 anos, sexo feminino, chega para primeira consulta no ambulatório referindo aumento da sede e volume urinário há cerca de 3 meses.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese completa e direcionada para a queixa principal.",
+      "Verbalizar o exame físico pertinente ao caso, com foco nos achados relevantes para o Diabetes Mellitus e suas complicações.",
+      "Interpretar os resultados dos exames complementares apresentados.",
+      "Formular as hipóteses diagnósticas e estabelecer o diagnóstico definitivo, incluindo a classificação do Diabetes Mellitus.",
+      "Elaborar um plano terapêutico completo, incluindo modificações do estilo de vida e tratamento farmacológico.",
+      "Estabelecer metas individualizadas de controle para a paciente.",
+      "Realizar o rastreamento ativo de complicações crônicas do Diabetes Mellitus e propor os encaminhamentos necessários.",
+      "Prestar orientações detalhadas à paciente sobre a doença, automonitoramento e a importância da adesão ao tratamento e seguimento."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO",
+        "informacao": "Nome: Ana Paula Silva\nIdade: 48 anos\nEstado Civil: Casada\nProfissão: Professora\nProcedência: Salvador, Bahia"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com muita sede e urino demais há uns 3 meses, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "POLIDIPSIA (aumento da sede)",
+        "informacao": "Início: Há cerca de 3 meses, começou de forma gradual.\nIntensidade: Sinto sede o tempo todo, mesmo bebendo muita água. É constante.\nCaracterística ou Tipo da dor: Sede intensa, boca seca.\nFator de piora ou agravante: Nega fator específico.\nFator de melhora ou atenuante: Bebo água, mas a sede volta logo.\nEpisódios prévios: Nunca tive tanta sede assim antes."
+      },
+      {
+        "contextoOuPerguntaChave": "POLIÚRIA (aumento do volume urinário)",
+        "informacao": "Início: Começou junto com a sede, há uns 3 meses, de forma gradual.\nFrequencia: Urino muitas vezes ao dia (mais de 10) e preciso levantar várias vezes à noite (3-4 vezes).\nProgressão: É contínuo, não para.\nFator de piora ou agravante: Nega.\nFator de melhora ou atenuante: Nega.\nEpisódios prévios: Nunca tive essa frequência de urinar antes."
+      },
+      {
+        "contextoOuPerguntaChave": "FADIGA/ASTENIA (cansaço)",
+        "informacao": "Início: Comecei a sentir cansaço excessivo há uns 2 meses, tem piorado progressivamente.\nIntensidade: Sinto um cansaço que não melhora com o repouso. É exaustivo.\nProgressão: Tem piorado bastante, estou com dificuldade para fazer minhas atividades diárias.\nFator de piora ou agravante: Qualquer esforço físico piora muito.\nFator de melhora ou atenuante: O repouso ajuda um pouco, mas não resolve.\nEpisódios prévios: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "PERDA DE PESO",
+        "informacao": "Início: Percebi que perdi uns 5 kg nos últimos 3 meses.\nQuantificação: Perdi cerca de 5 kg.\nIntencionalidade: Não foi intencional, não estou fazendo dieta.\nSintomas associados: Nega alteração no apetite, mas sinto esse cansaço que já comentei.\nEpisódios prévios: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "VISÃO TURVA",
+        "informacao": "Início: De vez em quando, nos últimos 2 meses, sinto a visão um pouco embaçada, principalmente quando leio. Não é constante.\nIntensidade: É leve, mas incomoda para ler.\nFrequencia: Ocorre de vez em quando.\nFator de melhora ou atenuante: Piscando ou descansando os olhos, melhora um pouco.\nEpisódios prévios: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES (Interrogatório Sistemático)",
+        "informacao": "Polifagia: Nega polifagia.\nPrurido: Nega prurido.\nInfecções de repetição: Refere uma infecção urinária há 1 mês, tratada com antibiótico, mas não foi ao médico na época, pegou indicação na farmácia. Nega candidíase ou outras infecções de pele.\nCicatrização lenta de feridas: Nega.\nParestesias/Dormência: Nega dormência ou formigamento nas mãos ou pés.\nDor abdominal/Náuseas/Vômitos: Nega.\nCefaleia/Tontura: Nega.\nAlterações intestinais: Regular, evacua diariamente, fezes formadas.\nSintomas cardiovasculares: Nega dor no peito, palpitações, inchaço nas pernas.\nSintomas respiratórios: Nega tosse, falta de ar.\nOutros achados relevantes: Nega história de hipoglicemias."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Hipertensão Arterial Sistêmica diagnosticada há 5 anos, em uso de Losartana 50mg/dia.\nCirurgias prévias: Apendicectomia há 20 anos.\nInternações: Nega.\nAlergias: Nega alergias a medicamentos ou alimentos.\nMedicamentos em uso contínuo: Losartana 50mg/dia.\nVacinação: Completa para idade (Verifica caderneta de vacinação se solicitado, mas não a traz na consulta).\nTrauma: Nega.\nTransfusões: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nunca fumou.\nEtilismo: Social (ocasionalmente 1 taça de vinho nos finais de semana).\nDrogas ilícitas: Nega.\nAlimentação: Refere consumo frequente de alimentos processados, refrigerantes e doces. Pouco consumo de frutas e vegetais. Come fora de casa 3-4 vezes por semana.\nAtividade física: Sedentária, não pratica exercícios regularmente.\nSono: Dorme cerca de 6-7 horas por noite, refere que acorda para urinar.\nHábitos urinários: Refere poliúria e nictúria conforme HDA.\nHábitos intestinais: Regular, evacua diariamente, fezes formadas.\nIngestão hídrica: Aumentada devido à sede intensa.\nExposição ocupacional: Professora, sem exposição a riscos específicos.\nEstresse: Refere estresse relacionado ao trabalho, mas nega depressão ou ansiedade diagnosticadas."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Diabetes Mellitus tipo 2 (DM2) e Hipertensão Arterial (HA).\nMãe: Hipertensão Arterial (HA).\nDoenças na família: Avó materna com DM2. Nega história de DM1 ou autoimune na família.\nHistória de câncer na família: Nega.\nIrmãos ou tias: Irmã com sobrepeso."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS",
+        "informacao": "Gestações: 2\nPartos: 2 (ambos vaginais)\nAbortos: Nega.\nCesáreas: Nega.\nData da Última Menstruação (DUM): 2 meses atrás (já está em menopausa irregular).\nMenarca: 13 anos.\nCiclos menstruais: Irregulares nos últimos 2 anos (perimenopausa).\nSexarca: 18 anos.\nAtividade sexual: Sexualmente ativa, com parceiro fixo.\nUso de contraceptivos: Nega (usa preservativo ocasionalmente).\nExames preventivos: Papanicolau há 1 ano (normal).\nHistórico de IST: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar exames de sangue, entregue o impresso 'est1_impresso_LABORATORIO_2_INICIAL' e 'est1_impresso_LABORATORIO_3_ESPECIFICO'.\nSe o candidato solicitar avaliação oftalmológica, entregue o impresso 'est1_impresso_IMAGEM_FUNDO_OLHO_4'.\nSe o candidato solicitar Eletrocardiograma, entregue o impresso 'est1_impresso_IMAGEM_ECG_5'.\nSe o candidato solicitar exame físico geral, diga 'Sinais vitais e exame físico geral estão no prontuário. Gostaria de focar em alguma área específica?'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DA PACIENTE",
+        "informacao": "pergunta (1): O que o(a) senhor(a) acha que eu tenho com esses sintomas?\npergunta (2): É grave, doutor(a)? Eu vou ter que tomar insulina?\npergunta (3): O que eu preciso fazer para melhorar? É só tomar remédio ou preciso mudar minha vida?\npergunta (4): Minha tia disse que diabetes pode dar problema nos olhos e nos rins, é verdade?\npergunta (5): Como eu faço para controlar isso para não virar algo pior?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico Inicial",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "142 × 88 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "82 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "16 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 % em ar ambiente"
+                },
+                {
+                  "chave": "Peso",
+                  "valor": "85 kg"
+                },
+                {
+                  "chave": "Altura",
+                  "valor": "1.60 m"
+                },
+                {
+                  "chave": "IMC",
+                  "valor": "33.2 kg/m² (Obesidade Grau I)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO GERAL (verbalizado pelo candidato)",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Bom estado geral, consciente e orientada, lúcida, normocorada, hidratada, acianótica, anictérica, eupneica."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Sem alterações, tireoide impalpável."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular, bulhas rítmicas e normofonéticas em 2 tempos, sem sopros. Pulsos periféricos presentes e simétricos."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios. Expansibilidade torácica preservada."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Globoso, flácido, indolor à palpação superficial e profunda, sem visceromegalias. RHA presentes."
+                },
+                {
+                  "chave": "Membros Inferiores",
+                  "valor": "Sem edemas, pulsos pediosos e tibiais presentes e simétricos. Teste de monofilamento de Semmes-Weinstein com sensibilidade preservada."
+                },
+                {
+                  "chave": "Pele",
+                  "valor": "Presença de acantose nigricans em região cervical posterior e axilas."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2_INICIAL",
+        "tituloImpresso": "Exames Laboratoriais (Glicemia e Lipídios)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "GLICEMIA E CONTROLE",
+              "itens": [
+                {
+                  "chave": "Glicemia de Jejum",
+                  "valor": "215 mg/dL (Ref: < 100 mg/dL) (VR: 70-99 mg/dL)"
+                },
+                {
+                  "chave": "Hemoglobina Glicada (HbA1c)",
+                  "valor": "9.2 % (Ref: < 5.7 %)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "PERFIL LIPÍDICO",
+              "itens": [
+                {
+                  "chave": "Colesterol Total",
+                  "valor": "230 mg/dL (Ref: < 190 mg/dL) (VR: <200 mg/dL)"
+                },
+                {
+                  "chave": "LDL-colesterol",
+                  "valor": "145 mg/dL (Ref: < 130 mg/dL)"
+                },
+                {
+                  "chave": "HDL-colesterol",
+                  "valor": "38 mg/dL (Ref: > 40 mg/dL)"
+                },
+                {
+                  "chave": "Triglicerídeos",
+                  "valor": "250 mg/dL (Ref: < 150 mg/dL)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_3_ESPECIFICO",
+        "tituloImpresso": "Exames Laboratoriais (Função Renal e Diferenciação DM)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "FUNÇÃO RENAL",
+              "itens": [
+                {
+                  "chave": "Creatinina Sérica",
+                  "valor": "0.9 mg/dL (Ref: 0.5-0.9 mg/dL)"
+                },
+                {
+                  "chave": "Taxa de Filtração Glomerular Estimada (TFG)",
+                  "valor": "78 mL/min/1.73m² (Ref: > 90 mL/min/1.73m²)"
+                },
+                {
+                  "chave": "Albuminúria (Amostra Isolada)",
+                  "valor": "55 mg/L (Ref: < 30 mg/L)"
+                },
+                {
+                  "chave": "Relação Albuminúria/Creatinina Urinária (RAC)",
+                  "valor": "60 mg/g (Ref: < 30 mg/g)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "CLASSIFICAÇÃO DO DM",
+              "itens": [
+                {
+                  "chave": "Peptídeo C (Jejum)",
+                  "valor": "1.8 ng/mL (Ref: 1.1-4.4 ng/mL)"
+                },
+                {
+                  "chave": "Autoanticorpo Anti-GAD65",
+                  "valor": "Negativo"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_FUNDO_OLHO_4",
+        "tituloImpresso": "Exame de Fundo de Olho (Laudo do Oftalmologista)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Laudo de Exame de Fundo de Olho realizado por oftalmologista.",
+          "caminhoImagem": "(Buscar no Google Imagens: Retinopatia diabética não proliferativa leve fundo de olho)",
+          "sugestaoBuscaImagem": "Retinopatia diabética não proliferativa leve fundo de olho",
+          "laudo": "Retinografia digital: Papila rósea, contornos nítidos. Vasos de bom calibre e trajeto. Presença de microaneurismas e algumas hemorragias intrarretinianas em polos posterior, mais evidentes em região macular. Ausência de exsudatos. Mácula e nervo óptico sem edema. Diagnóstico: Retinopatia Diabética Não Proliferativa Leve em ambos os olhos."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_ECG_5",
+        "tituloImpresso": "Eletrocardiograma (ECG)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Eletrocardiograma de 12 derivações.",
+          "caminhoImagem": "(Buscar no Google Imagens: ECG ritmo sinusal normal)",
+          "sugestaoBuscaImagem": "ECG ritmo sinusal normal",
+          "laudo": "Ritmo sinusal regular. Frequência cardíaca: 78 bpm. Eixo elétrico normal (+60°). Intervalos PR, QRS e QT normais. Sem alterações de ST-T significativas. Ausência de sobrecargas ou áreas inativas. Conclusão: ECG dentro dos limites da normalidade."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_DM01_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente Ana Paula Silva, 48 anos, com queixa de poliúria e polidipsia há 3 meses, perda de peso e fadiga. Apresenta histórico de HAS em uso de Losartana, sedentarismo, dieta inadequada e história familiar de DM2. Exame físico revela IMC de 33.2 kg/m² e acantose nigricans. Exames laboratoriais mostram glicemia de jejum de 215 mg/dL, HbA1c de 9.2%, dislipidemia, albuminúria e RAC elevada. Peptídeo C normal/elevado e autoanticorpos anti-GAD65 negativos. Fundo de olho com retinopatia diabética não proliferativa leve. O caso demanda diagnóstico de DM2, diferenciação com DM1, avaliação de complicações e plano terapêutico e de seguimento.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa e direcionada para sintomas de DM e fatores de risco.",
+        "Verbalização de exame físico com achados relevantes (IMC, acantose nigricans, exame dos pés).",
+        "Solicitação e interpretação de exames para diagnóstico, classificação do DM e rastreamento de complicações (glicemia, HbA1c, perfil lipídico, função renal, peptídeo C, autoanticorpos, fundo de olho).",
+        "Formulação do diagnóstico definitivo de Diabetes Mellitus tipo 2.",
+        "Elaboração de plano terapêutico abrangente, incluindo modificações de estilo de vida, tratamento farmacológico (metformina + iSGLT2/GLP1-RA), e metas individualizadas.",
+        "Rastreamento e manejo inicial de complicações (HAS, dislipidemia, nefropatia incipiente, retinopatia).",
+        "Orientações detalhadas sobre automonitoramento, adesão ao tratamento e importância do seguimento."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta a paciente.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, investigando as características da poliúria e polidipsia:\n(1) início;\n(2) frequência;\n(3) intensidade;\n(4) duração;\n(5) fator de melhora;\n(6) fator de piora;\n(7) episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou 7 dos aspectos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 dos aspectos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos dos aspectos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, investigando os sintomas associados e de alarme:\n(1) fadiga/astenia;\n(2) perda de peso não intencional;\n(3) polifagia;\n(4) visão turva;\n(5) infecções de repetição (urinária, candidíase);\n(6) cicatrização lenta;\n(7) parestesias/dormência;\n(8) dor abdominal/náuseas/vômitos;\n(9) história de hipoglicemias.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 7 a 9 dos aspectos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 6 dos aspectos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 3 ou menos dos aspectos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Investiga antecedentes pessoais e hábitos de vida:\n(1) doenças crônicas (HAS, dislipidemia, DCV prévia);\n(2) medicamentos em uso;\n(3) alergias;\n(4) história de diabetes gestacional/SOP;\n(5) tabagismo/etilismo/drogas;\n(6) padrão alimentar;\n(7) atividade física;\n(8) sono.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 7 a 8 dos aspectos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 4 a 6 dos aspectos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 3 ou menos dos aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Investiga antecedentes familiares e gineco-obstétricos:\n(1) história de DM (tipo e parentesco);\n(2) outras doenças crônicas na família;\n(3) gestações/partos/abortos;\n(4) história de macrossomia fetal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 3 a 4 dos aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 1 a 2 dos aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não investiga ou investiga incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Verbaliza exame físico direcionado, focando em:\n(1) aferição de PA e IMC;\n(2) inspeção da pele (acantose nigricans);\n(3) exame dos pés (lesões, pulsos, sensibilidade);\n(4) ausculta cardíaca e pulmonar.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza 3 a 4 dos aspectos do exame físico.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 1 a 2 dos aspectos do exame físico.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza ou verbaliza inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Interpreta corretamente os sinais vitais e achados do exame físico inicial (impresso 1):\n(1) PA elevada (HAS não controlada);\n(2) IMC de Obesidade Grau I;\n(3) Acantose Nigricans (sinal de resistência insulínica);\n(4) Sinais de bom estado geral.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 3 a 4 dos achados.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 a 2 dos achados.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não interpreta ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Interpreta corretamente os exames laboratoriais (impressos 2 e 3) para diagnóstico e complicações:\n(1) Glicemia de Jejum ≥ 126 mg/dL e/ou HbA1c ≥ 6.5% (diagnóstico de DM);\n(2) Dislipidemia (colesterol total, LDL, HDL, triglicerídeos alterados);\n(3) Albuminúria e/ou RAC elevada (nefropatia incipiente);\n(4) Peptídeo C normal/elevado e autoanticorpo anti-GAD65 negativo (sugestivo de DM2).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 4 dos achados.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 a 3 dos achados.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não interpreta ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpreta corretamente os achados do Fundo de Olho (impresso 4) e ECG (impresso 5):\n(1) Retinopatia Diabética Não Proliferativa Leve;\n(2) ECG normal, mas com fatores de risco cardiovascular (HAS, DM, dislipidemia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 2 dos achados.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 dos achados.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não interpreta ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Verbaliza o diagnóstico definitivo:\n(1) Diabetes Mellitus tipo 2 (recém-diagnosticado ou não-controlado);\n(2) Hipertensão Arterial Sistêmica (não-controlada);\n(3) Dislipidemia (mista);\n(4) Obesidade Grau I.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza 4 diagnósticos corretamente.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 2 a 3 diagnósticos corretamente.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Verbaliza 1 ou nenhum diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Elabora plano terapêutico inicial e individualizado para DM2 e comorbidades:\n(1) Modificações do estilo de vida (dieta, atividade física, perda de peso);\n(2) Início de Metformina (com orientações sobre dose e efeitos colaterais);\n(3) Adição de iSGLT2 ou GLP1-RA (considerando benefícios CV/renal e peso);\n(4) Otimização do controle da HAS (ajuste de Losartana ou outra droga);\n(5) Início de estatina para dislipidemia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora 4 a 5 aspectos do plano terapêutico.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora 2 a 3 aspectos do plano terapêutico.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Elabora 1 ou nenhum aspecto do plano terapêutico.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Estabelece metas de controle individualizadas para a paciente:\n(1) HbA1c < 7%;\n(2) Glicemia de Jejum 80-130 mg/dL;\n(3) PA < 130/80 mmHg;\n(4) LDL-colesterol < 70 mg/dL (alto risco CV).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Estabelece 3 a 4 metas corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Estabelece 1 a 2 metas corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não estabelece metas ou estabelece incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Propõe rastreamento de complicações e encaminhamentos:\n(1) Avaliação de nefropatia (repetir albuminúria);\n(2) Avaliação de neuropatia periférica (monofilamento);\n(3) Encaminhamento para nutricionista;\n(4) Encaminhamento para educador físico;\n(5) Orientação para oftalmologista (seguimento da retinopatia);\n(6) Retorno em 3 meses para reavaliação.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe 5 a 6 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 3 a 4 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Propõe 2 ou menos aspectos ou não propõe.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Responde às dúvidas da paciente e presta orientações:\n(1) Explica o diagnóstico e sua gravidade potencial;\n(2) Aborda a necessidade de insulina de forma clara;\n(3) Orienta sobre o manejo do DM (medicação e estilo de vida);\n(4) Aborda as complicações (olhos, rins, pés);\n(5) Orienta sobre o automonitoramento e a importância da adesão.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde 4 a 5 das dúvidas/orientações.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Responde 2 a 3 das dúvidas/orientações.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Responde 1 ou nenhuma das dúvidas/orientações.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "O Diabetes Mellitus é uma doença crônica caracterizada por hiperglicemia. O caso apresenta uma paciente de 48 anos com sintomas clássicos (poliúria, polidipsia, perda de peso, fadiga, visão turva) e fatores de risco para DM2 (obesidade, sedentarismo, história familiar, HAS). O diagnóstico de DM2 é confirmado por glicemia de jejum > 126 mg/dL e HbA1c > 6.5% em duas ocasiões ou com sintomas. A diferenciação com DM1 é feita pela ausência de autoanticorpos e peptídeo C normal/elevado, indicando reserva pancreática. Complicações crônicas já presentes incluem HAS não controlada, dislipidemia, retinopatia diabética leve e nefropatia incipiente (albuminúria). O tratamento de DM2 envolve modificações intensivas do estilo de vida (dieta hipocalórica, atividade física regular, perda de peso) e farmacoterapia. A metformina é a primeira linha, e a adição de agentes com benefícios cardiorrenais (iSGLT2 ou GLP1-RA) é prioritária em pacientes com doença cardiovascular estabelecida, insuficiência cardíaca, ou doença renal crônica. O controle da PA (<130/80 mmHg) e dislipidemia (LDL <70 mg/dL para alto risco CV) é crucial. O manejo inclui monitoramento glicêmico regular, rastreamento anual de retinopatia, nefropatia e neuropatia, e encaminhamentos para equipe multiprofissional (nutricionista, educador físico, oftalmologista). A educação em diabetes é fundamental para adesão e prevenção de complicações agudas (hipoglicemia, CAD, EHH) e crônicas. As metas de controle devem ser individualizadas.",
+      "fontes": [
+        "1. Sociedade Brasileira de Diabetes (SBD). Diretrizes da Sociedade Brasileira de Diabetes 2023-2024. Disponível em: https://www.diabetes.org.br/profissionais/images/2023/diretrizes/DIRETRIZES-SBD-2023-2024.pdf",
+        "2. American Diabetes Association (ADA). Standards of Medical Care in Diabetes—2024. Diabetes Care 2024;47(Suppl. 1):S1–S291. Disponível em: https://diabetesjournals.org/care/issue/47/Supplement_1"
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "3ad4e123-b4a8-4629-9f85-e1508a4acc01",
+  "created_at": "2025-08-28T09:45:58.003062",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Diabetes Mellitus (DM) tipo 1 e 2: Diagnóstico, metas de controle, tratamento",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

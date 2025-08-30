@@ -51,7 +51,7 @@
     "informacoesVerbaisSimulado": [
       {
         "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
-        "informacao": "Nome: João da Silva\nIdade: 55 anos\nEstado Civil: Casado\nProfissão: Pedreiro\nProcedência: Cidade A"
+        "informacao": "João da Silva, 55 anos, Pedreiro, Casado e Cidade A"
       },
       {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
@@ -656,5 +656,23 @@
         "3. Khanna, D., et al. 2012 American College of Rheumatology Guidelines for the Management of Gout: Part 1: Systematic Nonpharmacologic and Pharmacologic Therapeutic Approaches to Gout. Arthritis Care Res (Hoboken). 2012 Oct;64(10):1431-46."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "7e13f5d7-148a-445b-baba-92ddd85d237e",
+  "created_at": "2025-08-28T12:37:39.342710",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Artrite Microcristalina",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

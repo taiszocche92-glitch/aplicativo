@@ -44,6 +44,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Milton Nascimento, 45 anos, Enfermeiro e Casado"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com uma dor muito forte na barriga e estou vomitando sem parar, doutor(a)."
       },
@@ -610,5 +614,23 @@
         "4. World Gastroenterology Organisation Global Guidelines. Pancreatitis: Acute and Chronic. 2017."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "7b33af3e-a249-4471-b4ec-cfe476544a6f",
+  "created_at": "2025-08-28T11:34:37.192286",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "pancreatite alcoólica",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

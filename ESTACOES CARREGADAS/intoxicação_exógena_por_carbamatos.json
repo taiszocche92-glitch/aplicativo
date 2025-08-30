@@ -1,0 +1,605 @@
+{
+  "idEstacao": "REVALIDA_2025_CM_INTX_CARBAMATOS_01",
+  "tituloEstacao": "Intoxicação Exógena por Carbamatos",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Intoxicação Exógena",
+    "Carbamatos",
+    "Chumbinho",
+    "Síndrome Colinérgica",
+    "Emergência Médica",
+    "Clínica Médica",
+    "Atenção terciária à saúde"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Sala de emergência",
+        "Laboratório de análises clínicas",
+        "Exames de imagem",
+        "Unidade de terapia intensiva",
+        "Medicações e antídotos disponíveis",
+        "Equipamentos para suporte ventilatório"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 35 anos, sexo masculino, chega ao pronto-socorro trazido pela família, apresentando confusão mental e sudorese intensa.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese completa, focando na queixa principal e nos sintomas associados.",
+      "Realizar o exame físico direcionado ao caso.",
+      "Solicitar os exames complementares necessários.",
+      "Interpretar os resultados dos exames apresentados.",
+      "Estabelecer o diagnóstico principal e os diagnósticos diferenciais.",
+      "Definir a conduta terapêutica inicial e o manejo do caso.",
+      "Prestar as orientações finais e realizar os encaminhamentos pertinentes."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "Considere que o paciente simulado foi intubado na chegada devido à insuficiência respiratória grave e está sob ventilação mecânica."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Minha cabeça está girando, meu peito está apertado e estou suando muito."
+      },
+      {
+        "contextoOuPerguntaChave": "Confusão Mental",
+        "informacao": "Início: Começou de repente, umas 2 horas atrás.\nLocalização: Minha cabeça parece confusa, não sei onde estou direito.\nIntensidade: É forte, sinto que não consigo pensar com clareza.\nProgressão: Piorou rápido, a família trouxe porque eu estava estranho.\nSintomas associados: Não consigo lembrar o que aconteceu antes.\nEpisódios prévios: Nunca tive isso antes."
+      },
+      {
+        "contextoOuPerguntaChave": "Sudorese Intensa",
+        "informacao": "Início: Começou junto com a confusão mental.\nLocalização: Suo muito no corpo todo, estou encharcado.\nIntensidade: Nota 10, é incontrolável.\nProgressão: Piorando cada vez mais.\nFator de piora ou agravante: Não melhora com nada.\nEpisódios prévios: Nunca suei tanto assim."
+      },
+      {
+        "contextoOuPerguntaChave": "Aperto no Peito / Dispneia",
+        "informacao": "Início: Senti um aperto no peito, falta de ar, ao mesmo tempo que a confusão.\nCaracterística: Parece que o ar não entra, o peito está pesado.\nIntensidade: Nota 9, muito difícil respirar.\nFator de piora ou agravante: Qualquer movimento piora.\nFator de melhora ou atenuante: Nada melhora.\nEpisódios prévios: Nega asma ou DPOC."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES (HDA)",
+        "informacao": "Diarreia: Sim, tive várias vezes, com muita dor de barriga.\nUrinação (Incontinência): Sim, me molhei todo, não consegui segurar.\nÊmese (Vômito): Sim, vomitei umas três vezes antes de vir.\nLacrimejamento: Sim, meus olhos estão lacrimejando muito.\nSalivação: Sim, tenho muita baba na boca, está escorrendo.\nCãibras: Sim, senti cãibras nas pernas.\nFasciculações (Tremores finos): Sim, minha pálpebra e o músculo da perna estão pulando.\nConvulsões: Não me lembro, mas a família disse que tive umas 'crises' antes de chegar.\nCefaleia: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Nega.\nCirurgias prévias: Nega.\nInternações: Nega.\nAlergias: Nega.\nMedicamentos em uso contínuo: Nega.\nVacinação: Completa.\nTrauma: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Hábitos sexuais: Não consta.\nHábitos urinários: Não consta.\nHábitos intestinais: Refere diarreia aguda no momento.\nIngestão hídrica: Não consta.\nExposição ocupacional: Trabalha como balconista em loja de construção. Nega exposição a pesticidas no trabalho.\nEstresse: Refere estar muito estressado ultimamente por problemas financeiros e familiares."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega.\nEtilismo: Bebe socialmente, uma vez por semana.\nDrogas ilícitas: Refere ter usado 'chumbinho' como raticida para se matar.\nAlimentação: Normal.\nAtividade física: Caminha 30 minutos, 3 vezes por semana.\nSono: Dificuldade para dormir devido ao estresse."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega.\nExposição a doenças infecciosas: Nega.\nContato com doentes: Nega.\nExposição a animais: Nega.\nExposição a vetores: Nega.\nÁgua consumida: Tratada.\nExposição a agentes ambientais (água parada, de enchente): Não consta.\nSubstância: Ingereu 'chumbinho' que comprou no mercado negro.\nQuantidade: Estima ter ingerido aproximadamente 20ml da substância líquida.\nCircunstâncias: Tentativa de suicídio devido a problemas financeiros e familiares, ingeriu há cerca de 2 horas."
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL",
+        "informacao": "Situação familiar: Casado, com dois filhos.\nRede de apoio: Família presente e preocupada.\nSituação socioeconômica: Desempregado há 3 meses, com muitas dívidas.\nNível educacional: Ensino médio completo.\nReligião: Católica.\nEstresse psicossocial: Depressão e ansiedade devido à situação financeira."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato perguntar sobre o nível de consciência, diga que o paciente está rebaixado, respondendo apenas a estímulos dolorosos, Glasgow 7 (E2V2M3).\nSe o candidato solicitar exames, diga 'considere solicitado', e libere os impressos 'Sinais Vitais e Exame Físico', 'Exames Laboratoriais', 'Eletrocardiograma (ECG)', 'Raio-X de Tórax' conforme a ordem solicitada.\nSe o candidato solicitar para ver as pupilas do paciente, diga que estão 'mióticas puntiformes'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "Minha família está muito preocupada. O que eu tenho?.\nÉ grave? Eu vou sobreviver?.\nO que vocês vão fazer para me ajudar?.\nIsso tem cura?.\nO que eu faço para que isso não aconteça novamente?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "80 x 50 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "45 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "28 irpm (após intubação, em ventilação mecânica)"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "35.5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "88% em ar ambiente (antes da intubação, agora 98% com O2)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Paciente em mau estado geral, prostrado, sudorese profusa, palidez cutânea e mucosas úmidas. Intubado em ventilação mecânica. Glasgow 7 (E2V2M3)."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Miose puntiforme bilateral, simétrica, fotorreagente. Sialorreia intensa. Ausência de turgência jugular. Tireoide impalpável."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Bulhas rítmicas, bradicárdicas, normofonéticas, sem sopros. Pulsos periféricos diminuídos."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Ausculta pulmonar com roncos e sibilos difusos bilateralmente, estertores crepitantes em bases. Boa expansibilidade torácica (sob VM). Broncorreia intensa."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Distendido, flácido, doloroso à palpação difusa, principalmente em epigástrio e mesogástrio. Ruídos hidroaéreos aumentados. Diarreia presente."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Força muscular diminuída globalmente. Presença de fasciculações finas em musculatura de panturrilhas e coxas. Reflexos profundos diminuídos."
+                },
+                {
+                  "chave": "Neurológico",
+                  "valor": "Rebaixamento do nível de consciência (Glasgow 7). Miose puntiforme. Ausência de sinais meníngeos. Convulsões cessaram após atendimento pré-hospitalar com benzodiazepínicos."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "18.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.2 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "250.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Glicemia",
+                  "valor": "55 mg/dL (Ref: 70-99)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "50 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.5 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "132 mEq/L (Ref: 135-145)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "3.2 mEq/L (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "CPK",
+                  "valor": "850 U/L (Ref: 26-192)"
+                },
+                {
+                  "chave": "TGO",
+                  "valor": "70 U/L (Ref: 10-40)"
+                },
+                {
+                  "chave": "TGP",
+                  "valor": "85 U/L (Ref: 10-40)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "GASOMETRIA ARTERIAL",
+              "itens": [
+                {
+                  "chave": "pH",
+                  "valor": "7.28 (Ref: 7.35-7.45)"
+                },
+                {
+                  "chave": "pCO2",
+                  "valor": "55 mmHg (Ref: 35-45)"
+                },
+                {
+                  "chave": "pO2",
+                  "valor": "70 mmHg (Ref: 75-100)"
+                },
+                {
+                  "chave": "HCO3",
+                  "valor": "20 mEq/L (Ref: 22-26)"
+                },
+                {
+                  "chave": "Excesso de Base (BE)",
+                  "valor": "-4 mEq/L (Ref: -2 a +2)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_RX_3",
+        "tituloImpresso": "Raio-X de Tórax",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Paciente em decúbito dorsal. A imagem mostra infiltrados alveolares difusos, predominantemente em bases, e trama vascular congesta.",
+          "caminhoImagem": "https://i.imgur.com/Kz9mO3o.jpeg",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: Raio-X tórax edema pulmonar infiltrado alveolar difuso bases congestão)",
+          "laudo": "ACHADOS:\nInfiltrados alveolares difusos bilateralmente, mais evidentes nas bases, sugestivos de edema pulmonar agudo. Congestão hilar e cardiomegalia discreta. Ausência de pneumotórax ou derrame pleural significativo.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_ECG_4",
+        "tituloImpresso": "Eletrocardiograma (ECG)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ECG de 12 derivações. Ritmo sinusal bradicárdico com frequência de 45 bpm.",
+          "caminhoImagem": "https://i.imgur.com/z4d24mD.jpeg",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: ECG bradicardia sinusal frequência 45 bpm)",
+          "laudo": "ACHADOS:\nRitmo sinusal bradicárdico (FC 45 bpm). Intervalos PR e QRS normais. Ausência de bloqueios atrioventriculares ou outras arritmias significativas. Repolarização ventricular sem alterações isquêmicas agudas.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_INTX_CARBAMATOS_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 35 anos, com quadro agudo de confusão mental, sudorese intensa e dispneia após ingestão intencional de 'chumbinho'. Exame físico revela síndrome colinérgica grave (miose, sialorreia, broncorreia, bradicardia, hipotensão, fasciculações). Exames complementares confirmam acidose respiratória e metabólica, hipoglicemia e alterações em enzimas musculares e hepáticas. Radiografia de tórax com sinais de edema pulmonar. ECG com bradicardia sinusal.",
+      "focoPrincipalDetalhado": [
+        "Anamnese direcionada à exposição a substâncias tóxicas e sintomas colinérgicos.",
+        "Exame físico buscando sinais da síndrome colinérgica (muscarínicos, nicotínicos, SNC).",
+        "Solicitação e interpretação de exames complementares para avaliar a gravidade e as complicações.",
+        "Diagnóstico diferencial entre intoxicações por organofosforados e carbamatos.",
+        "Manejo imediato, incluindo ABCDE, descontaminação e administração de antídoto específico (atropina), com conhecimento das contraindicações (oximas).",
+        "Orientações e encaminhamentos para seguimento clínico e psiquiátrico, além de notificação compulsória."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, investigando a Queixa Principal e História da Doença Atual:\n(1) Caracteriza confusão mental (início, progressão, sintomas associados);\n(2) Caracteriza sudorese intensa (início, intensidade, progressão);\n(3) Caracteriza aperto no peito/dispneia (início, intensidade, fatores de piora/melhora, sintomas associados).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta os três itens de forma completa.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta dois dos três itens de forma completa ou os três de forma incompleta.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Pergunta um ou nenhum item de forma completa.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, investigando ativamente sintomas da síndrome colinérgica:\n(1) Sintomas muscarínicos (diarreia, vômitos, salivação, lacrimejamento, incontinência urinária, broncorreia);\n(2) Sintomas nicotínicos (cãibras, fasciculações, fraqueza muscular, taquicardia/hipertensão inicial);\n(3) Sintomas do SNC (cefaleia, tontura, convulsões, coma).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga ativamente os três grupos de sintomas (muscarínicos, nicotínicos, SNC) e suas características.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga dois dos três grupos de sintomas.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Investiga apenas um grupo de sintomas ou não investiga adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza anamnese, investigando Antecedentes Pessoais Patológicos e Hábitos de Vida:\n(1) Doenças crônicas (asma, DPOC, cardiopatias, neurologias);\n(2) Medicamentos em uso e alergias;\n(3) Uso de álcool, tabaco ou drogas ilícitas;\n(4) Exposição ocupacional a pesticidas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 3 ou 4 dos itens corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 1 ou 2 dos itens corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não investiga os itens ou investiga incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Realiza anamnese, investigando Antecedentes Epidemiológicos e Contexto da Exposição:\n(1) Tipo da substância (carbamatosa, 'chumbinho');\n(2) Quantidade estimada;\n(3) Via e tempo de exposição;\n(4) Circunstâncias da exposição (acidental, tentativa de suicídio, ocupacional);\n(5) Contexto psicossocial (fatores estressantes, ideação suicida).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 dos itens corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 dos itens corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 ou nenhum dos itens corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Solicita e interpreta o Exame Físico:\n(1) Sinais vitais (pressão arterial, frequência cardíaca, frequência respiratória, temperatura, saturação de O2);\n(2) Estado geral (sudorese, nível de consciência, palidez);\n(3) Olhos (miose puntiforme);\n(4) Vias aéreas/Sistema respiratório (sialorreia, broncorreia, broncoespasmo, roncos, estertores);\n(5) Sistema cardiovascular (bradicardia, arritmias);\n(6) Sistema gastrointestinal (dor abdominal, ruídos hidroaéreos aumentados, diarreia);\n(7) Sistema neurológico (fasciculações, fraqueza muscular, rebaixamento do nível de consciência).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 6 ou 7 dos itens corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 3 a 5 dos itens corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta 2 ou menos itens ou não solicita adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita os exames laboratoriais e interpreta corretamente:\n(1) Hemograma completo (leucocitose);\n(2) Eletrólitos (hiponatremia, hipocalemia);\n(3) Glicemia (hipoglicemia);\n(4) Gasometria arterial (acidose respiratória e/ou metabólica, hipoxemia);\n(5) Função renal (ureia, creatinina – rabdomiólise);\n(6) Função hepática (TGO, TGP);\n(7) CPK (rabdomiólise);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 6 ou 7 dos itens corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 3 a 5 dos itens corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta 2 ou menos itens ou não solicita adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita e interpreta exames de imagem e cardiológicos:\n(1) Radiografia de tórax (edema pulmonar, broncopneumonia aspirativa);\n(2) Eletrocardiograma (bradicardia, arritmias).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta os dois itens corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta apenas um item corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente nenhum dos itens.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Estabelece o diagnóstico principal:\n(1) Síndrome colinérgica aguda grave;\n(2) Intoxicação exógena por carbamatos (ex: 'chumbinho').",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico principal completo e correto (síndrome e causa).",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza apenas a síndrome ou a causa de forma isolada, ou de forma imprecisa.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico principal correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes:\n(1) Intoxicação por organofosforados;\n(2) Outras causas de síndrome colinérgica (ex: cogumelos muscarínicos, superdosagem de colinomiméticos);\n(3) Outras causas de coma ou convulsões (ex: hipoglicemia, AVC, infecções do SNC).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 2 ou 3 dos diagnósticos diferenciais relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita apenas 1 diagnóstico diferencial relevante.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Define a conduta inicial de emergência:\n(1) Atendimento ABCDE (garantir via aérea, ventilação, circulação);\n(2) Descontaminação (dérmica/ocular, lavagem gástrica se indicado, carvão ativado se indicado e seguro);\n(3) Suporte hemodinâmico (hidratação venosa, vasopressores se choque);\n(4) Correção da hipoglicemia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza 3 ou 4 dos itens corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 2 dos itens corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Verbaliza 1 ou nenhum item corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Define a conduta terapêutica com antídoto:\n(1) Indica atropina como antídoto de escolha;\n(2) Define dose e via (0.5 a 2 mg IV, dobrando se necessário);\n(3) Cita os critérios de atropinização (melhora respiratória, secura mucosas, FC > 80 bpm, midríase);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza os três itens corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza dois dos três itens corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Verbaliza um ou nenhum item corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Define o manejo de complicações e contraindicações:\n(1) Indica benzodiazepínicos para convulsões;\n(2) Nega o uso de oximas (pralidoxima) para carbamatos, justificando (inibição reversível);",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza os dois itens corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza apenas um item corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza os itens ou o faz incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Orientações e encaminhamentos:\n(1) Monitorização contínua em UTI;\n(2) Desmame cauteloso da atropina;\n(3) Encaminhamento para CIATOX para orientação especializada;\n(4) Encaminhamento para avaliação e acompanhamento psiquiátrico (tentativa de suicídio).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza 3 ou 4 dos itens corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza 1 ou 2 dos itens corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Verbaliza nenhum item ou o faz incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Notificação ao SINAN:\n(1) Menciona a necessidade de notificação compulsória do caso ao SINAN (Intoxicação por Agrotóxicos).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Menciona a notificação compulsória.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não menciona a notificação compulsória.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A intoxicação por carbamatos é uma emergência médica aguda resultante da inibição reversível da acetilcolinesterase, levando ao acúmulo de acetilcolina nas sinapses. Os carbamatos são comumente encontrados em raticidas clandestinos ('chumbinho').\n\nA anamnese deve ser focada na história de exposição (tipo, quantidade, via e tempo) e nas circunstâncias (acidental, suicida, criminosa), além de uma investigação detalhada dos sintomas muscarínicos (miose, sialorreia, lacrimejamento, broncoespasmo, broncorreia, bradicardia, diarreia, vômitos, incontinência urinária), nicotínicos (fasciculações, fraqueza muscular, cãibras, taquicardia/hipertensão inicial) e do SNC (confusão mental, convulsões, coma, depressão respiratória central).\n\nO exame físico revela a síndrome colinérgica, com destaque para miose puntiforme, sudorese profusa, sialorreia, broncorreia, bradicardia e fasciculações. Sinais vitais como hipotensão e bradicardia são comuns. Exames complementares podem mostrar leucocitose, hipoglicemia, desequilíbrios eletrolíticos, acidose respiratória/metabólica e elevação de CPK e enzimas hepáticas. A radiografia de tórax pode evidenciar edema pulmonar, e o ECG, bradicardia ou arritmias.\n\nO diagnóstico é clínico-epidemiológico. Os diferenciais incluem intoxicação por organofosforados (clinicamente similar, mas com inibição de colinesterase mais prolongada e oximas indicadas) e outras causas de síndrome colinérgica ou rebaixamento de nível de consciência.\n\nO tratamento é emergencial, começando com o ABCDE (garantia de vias aéreas, suporte ventilatório, acesso venoso) e descontaminação (dérmica, ocular, gástrica com carvão ativado se precoce e via aérea protegida). O antídoto de escolha é a atropina, administrada IV em doses tituladas (0.5 a 2 mg em adultos) até a atropinização (melhora da broncorreia/broncoespasmo, secura das mucosas, FC > 80 bpm, midríase). É crucial **NÃO** utilizar oximas (pralidoxima) para carbamatos, pois a inibição é reversível e as oximas podem piorar o quadro em alguns casos. Complicações incluem insuficiência respiratória (principal causa de óbito), arritmias e convulsões (tratadas com benzodiazepínicos).\n\nO paciente requer monitorização em UTI e acompanhamento psicológico/psiquiátrico devido à tentativa de suicídio. A intoxicação por agrotóxicos é um agravo de notificação compulsória imediata ao SINAN.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde. Guia de Vigilância em Saúde: volume único. 5. ed. Brasília: Ministério da Saúde, 2022. Disponível em: https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/2022/guia_de_vigilancia_em_saude_volume_unico_5_ed.pdf",
+        "2. UpToDate. Carbamate poisoning. Waltham, MA: UpToDate; [última atualização 2024].",
+        "3. World Health Organization. The WHO recommended classification of pesticides by hazard and guidelines to classification 2019. Geneva: World Health Organization; 2019."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "e06992eb-28e4-47f9-a646-aee19d499e8a",
+  "created_at": "2025-08-28T15:04:46.193634",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Intoxicaçõe Exógena: Carbamatos (veneno de rato)",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

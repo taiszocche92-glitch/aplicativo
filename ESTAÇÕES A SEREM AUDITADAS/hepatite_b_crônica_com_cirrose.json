@@ -41,6 +41,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Marcos Lima, 45 anos, Motorista e Casado"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou aqui para o acompanhamento da minha hepatite B crônica, doutor(a)."
       },
@@ -622,5 +626,23 @@
         "4. UpToDate. Treatment of chronic hepatitis B in adult patients who are HBeAg-negative. Disponível em: www.uptodate.com. Acesso em: 2024."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "92a90591-a473-45e2-a4dd-c7f91f70906a",
+  "created_at": "2025-08-28T09:15:47.659308",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Hepatite B",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

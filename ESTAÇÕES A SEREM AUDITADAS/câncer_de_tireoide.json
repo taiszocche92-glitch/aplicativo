@@ -41,6 +41,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Ivone Araújo, 45 anos, Funcionária pública e Divorciada"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Eu vim aqui porque minha médica da família achou um carocinho no meu pescoço durante um exame de rotina."
       },
@@ -559,5 +563,23 @@
         "3. Sociedade Brasileira de Endocrinologia e Metabologia (SBEM). Consenso Brasileiro para a Investigação e Manejo dos Nódulos Tireoidianos e do Câncer Diferenciado de Tireoide. Arquivos Brasileiros de Endocrinologia & Metabologia, v. 60, n. 5, 2016."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "b1454c18-8253-4b82-b5d5-a5e67c0d25ce",
+  "created_at": "2025-08-28T09:54:31.971242",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Câncer de Tireoide",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

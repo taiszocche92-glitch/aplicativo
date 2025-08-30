@@ -34,7 +34,7 @@
     "informacoesVerbaisSimulado": [
       {
         "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
-        "informacao": "Nome: Maria da Silva\nIdade: 68 anos\nEstado Civil: Viúva\nProfissão: Aposentada\nProcedência: Cidade interiorana, vive sozinha"
+        "informacao": "Maria da Silva, 68 anos, Aposentada, Viúva e Cidade interiorana, vive sozinha"
       },
       {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
@@ -589,5 +589,23 @@
         "3. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas. (Acessado em 2024)."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "d1b67931-32ce-4f27-aab8-64b3a880afa3",
+  "created_at": "2025-08-28T12:31:44.852914",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Icterícia: Diagnóstico diferencial",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

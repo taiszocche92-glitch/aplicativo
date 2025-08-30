@@ -1,0 +1,788 @@
+{
+  "idEstacao": "REVALIDA_MEDIO_2025_CM_01",
+  "tituloEstacao": "Vasculite Associada ao ANCA",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Vasculite",
+    "ANCA",
+    "Glomerulonefrite",
+    "Hemorragia alveolar",
+    "Clínica Médica",
+    "Atenção terciária"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Hospitalar",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Centro de imagem (Radiografia, TC)",
+        "Unidade de Internação Clínica"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 55 anos, sexo feminino, chega ao pronto-socorro referindo cansaço progressivo, tosse com raias de sangue e urina escura. Refere que os sintomas têm piorado nos últimos dois meses.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese completa do paciente.",
+      "Realizar o exame físico direcionado ao caso.",
+      "Solicitar os exames complementares pertinentes.",
+      "Interpretar os resultados dos exames complementares e relacioná-los às hipóteses diagnósticas.",
+      "Formular a principal hipótese diagnóstica e os diagnósticos diferenciais relevantes.",
+      "Propor a conduta terapêutica inicial e as orientações para o paciente.",
+      "Identificar e verbalizar os sinais de alarme e as possíveis complicações do quadro."
+    ],
+    "avisosImportantess": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou me sentindo muito cansada, com tosse e minha urina está escura com sangue."
+      },
+      {
+        "contextoOuPerguntaChave": "Cansaço (Astenia/Fadiga)",
+        "informacao": "Início: Há uns 2 meses, foi aparecendo aos poucos.\nLocalização: Pelo corpo todo, uma moleza muito forte.\nIntensidade: Nota 8 em 10, me deixa sem fazer nada.\nCaracterística: É uma moleza, um peso no corpo.\nProgressão: Tem piorado, antes eu fazia minhas coisas, agora mal levanto.\nFator de piora: Qualquer esforço, mesmo pequeno.\nFator de melhora: Só um pouco com repouso, mas não passa de verdade.\nEpisódios prévios: Nunca me senti assim antes.\nMedicação de alívio: Nenhuma que tenha ajudado."
+      },
+      {
+        "contextoOuPerguntaChave": "Tosse",
+        "informacao": "Início: Há umas 3 semanas, começou do nada.\nDuração: É contínua, mas piora à noite.\nCaracterística: Tosse seca e persistente, às vezes parece que vem lá do fundo do peito.\nPresença de sangue: Sim, doutor(a), notei umas raias de sangue vivo no catarro quando tusso mais forte, umas 3 vezes na última semana.\nSintomas associados: Sinto um pouco de falta de ar quando a tosse vem mais forte.\nEpisódios prévios: Não, nunca tive tosse com sangue."
+      },
+      {
+        "contextoOuPerguntaChave": "Urina Escura/Sangue na Urina",
+        "informacao": "Início: Há 1 semana, percebi que a urina ficou escura do nada.\nCor: Parece Coca-Cola, bem escura.\nSintomas urinários associados: Não arde para urinar, nem sinto mais vontade que o normal.\nEpisódios prévios: Não, é a primeira vez que minha urina fica assim."
+      },
+      {
+        "contextoOuPerguntaChave": "Febre",
+        "informacao": "Relato: Não tive febre que eu tenha percebido."
+      },
+      {
+        "contextoOuPerguntaChave": "Perda de Peso",
+        "informacao": "Quantificação: Perdi uns 4 quilos nos últimos 2 meses.\nIntencionalidade: Sem fazer dieta, não foi intencional."
+      },
+      {
+        "contextoOuPerguntaChave": "Dor articular/Mialgia",
+        "informacao": "Dor articular: Nega.\nMialgia: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "Sintomas Otorrinolaringológicos",
+        "informacao": "Dor nos seios da face: Nega.\nSangramento nasal: Nega.\nDor de ouvido ou secreção: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "Sintomas Cutâneos",
+        "informacao": "Manchas na pele: Nega. Caroços: Nega.\nFeridas ou coceira: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "Sintomas Neurológicos",
+        "informacao": "Formigamento: Nega.\nFraqueza focal: Nega.\nVisão embaçada: Nega.\nDor de cabeça forte: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "Sintomas Gastrointestinais",
+        "informacao": "Dor abdominal: Nega.\nNáuseas: Nega.\nVômitos: Nega.\nDiarreia ou alteração do hábito intestinal: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "Sintomas Oculares",
+        "informacao": "Dor nos olhos: Nega.\nVermelhidão nos olhos: Nega.\nAlteração da visão: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Hipertensão Arterial Sistêmica (HAS) há 10 anos.\nMedicamentos em uso contínuo: Losartana 50mg/dia.\nCirurgias prévias: Nega.\nInternações: Nega.\nAlergias: Dipirona (causa urticária).\nVacinação: Tudo em dia, tomei a da gripe e a do pneumococo."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Ex-fumante. Parei há 10 anos, mas fumei 1 maço por dia por 20 anos.\nEtilismo: Bebo socialmente, uma taça de vinho no fim de semana.\nDrogas ilícitas: Nega.\nAlimentação: Comida caseira, mas meu apetite está fraco agora.\nAtividade física: Sedentária, o cansaço não me deixa.\nSono: Durmo mal por causa da tosse e do cansaço.\nIngestão hídrica: Bebo bastante água.\nExposição ocupacional: Nega exposição a substâncias ou agentes relevantes.\nEstresse: Nega estresse excessivo, exceto pela preocupação com a doença."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Hipertenso.\nMãe: Hipotireoidismo.\nDoenças na família: Nega casos de doenças renais, pulmonares graves ou autoimunes na família."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES GINECOLÓGICOS E OBSTÉTRICOS",
+        "informacao": "Gestações: G2.\nPartos: P2 (2 partos vaginais).\nAbortos: A0.\nCesáreas: C0.\nMenopausa: Menopausada há 5 anos.\nHistórico de IST: Nega.\nExames preventivos: Papanicolau normal há 1 ano, mamografia normal há 2 anos."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega.\nExposição a doenças infecciosas: Nega.\nContato com doentes: Nega.\nExposição a animais: Nega.\nExposição a vetores: Nega.\nÁgua consumida: Tratada, filtrada.\nExposição a agentes ambientais: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR: (Ex: Se o candidato solicitar o resultado dos exames trazidos libere o impresso (x) / Ex: Após o candidato solicitar o exame X responda 'considere solicitado' ou 'considere realizado o procedimento'.)",
+        "informacao": "Se o candidato solicitar exames, o chefe de estação liberará os impressos. Se solicitar exame físico, o ator verbalizará os achados do exame físico geral e dos sistemas, conforme impresso."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE: (ex: Dúvidas do ator sobre medicamentos, exames, condutas, etc., Perguntar após o atendimento se o candidato realizar a anamnese/exame fisico/conduta/tratamento/, Ex: Após o candidato realizar a anamnese, pergunte o que o paciente tem / Ex: Após realizar o diagnostico, pergunta se o que voce tem é grave, ou se tem complicações, ou se nao poderia ser outra coisa.)",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)?.\npergunta (2): É grave? Vou ficar bem?\npergunta (3): Qual o tratamento? É muito forte?\npergunta (4): O que eu preciso fazer para não ter isso de novo?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico Verbalizado",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "150 x 90 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "98 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "37.0 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "96 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO (Verbalizado pelo Ator)",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Emagrecida, pálida, com aspecto de doença crônica."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Mucosas pálidas. Sem linfonodomegalias. Oroscopia, rinoscopia e otoscopia sem alterações visíveis."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular, dois tempos, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação profunda, sem visceromegalias."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edema, sem púrpura palpável, pulsos periféricos presentes e simétricos."
+                },
+                {
+                  "chave": "Exame Neurológico",
+                  "valor": "Sem déficits focais aparentes. Nervos cranianos, força, sensibilidade e reflexos preservados."
+                },
+                {
+                  "chave": "Exame Osteoarticular",
+                  "valor": "Articulações sem sinais inflamatórios (dor, calor, rubor, edema), sem dor à mobilização."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "12.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "9.2 g/dL (Ref: 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                },
+                {
+                  "chave": "Eosinófilos",
+                  "valor": "3% (Ref: 1-5%)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "85 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "2.8 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "138 mEq/L (Ref: 135-145)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "4.2 mEq/L (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "Glicose Jejum",
+                  "valor": "95 mg/dL (Ref: 70-99)"
+                },
+                {
+                  "chave": "PCR",
+                  "valor": "80 mg/L (Ref: <5)"
+                },
+                {
+                  "chave": "VHS",
+                  "valor": "90 mm/h (Ref: <20)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "URINÁLISE",
+              "itens": [
+                {
+                  "chave": "Cor",
+                  "valor": "Vermelho-escura"
+                },
+                {
+                  "chave": "Aspecto",
+                  "valor": "Turvo"
+                },
+                {
+                  "chave": "Proteínas",
+                  "valor": "+++ (Ref: Negativo)"
+                },
+                {
+                  "chave": "Eritrócitos",
+                  "valor": ">100/campo (Ref: <3)"
+                },
+                {
+                  "chave": "Cilindros",
+                  "valor": "Presença de cilindros hemáticos (Ref: Ausente)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SOROLOGIAS AUTOIMUNES",
+              "itens": [
+                {
+                  "chave": "ANCA (IFI)",
+                  "valor": "p-ANCA positivo"
+                },
+                {
+                  "chave": "Anti-MPO",
+                  "valor": "250 U/mL (Ref: <20)"
+                },
+                {
+                  "chave": "Anti-PR3",
+                  "valor": "Negativo (Ref: <20)"
+                },
+                {
+                  "chave": "FAN",
+                  "valor": "Negativo (Ref: Negativo)"
+                },
+                {
+                  "chave": "Anti-DNA",
+                  "valor": "Negativo (Ref: Negativo)"
+                },
+                {
+                  "chave": "C3",
+                  "valor": "110 mg/dL (Ref: 90-180)"
+                },
+                {
+                  "chave": "C4",
+                  "valor": "30 mg/dL (Ref: 10-40)"
+                },
+                {
+                  "chave": "Anti-GBM",
+                  "valor": "Negativo (Ref: Negativo)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SOROLOGIAS INFECCIOSAS",
+              "itens": [
+                {
+                  "chave": "Anti-HBs",
+                  "valor": "Reagente (Ref: Reagente)"
+                },
+                {
+                  "chave": "Anti-HCV",
+                  "valor": "Não Reagente (Ref: Não Reagente)"
+                },
+                {
+                  "chave": "VDRL",
+                  "valor": "Não Reagente (Ref: Não Reagente)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_RX_3",
+        "tituloImpresso": "Radiografia de Tórax (PA e Perfil)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Apresenta-se imagem de radiografia de tórax da paciente. Observe os achados pulmonares.",
+          "caminhoImagem": "(Buscar no Google Imagens: Raio-X tórax com infiltrado intersticial difuso bilateral)",
+          "laudo": "Infiltrado intersticial difuso bilateral, mais proeminente nas bases pulmonares. Campos pleurais sem derrames."
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_TC_4",
+        "tituloImpresso": "Tomografia Computadorizada de Tórax (Alta Resolução)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Apresenta-se imagem de tomografia computadorizada de tórax da paciente. Observe os achados pulmonares para detalhamento.",
+          "caminhoImagem": "(Buscar no Google Imagens: TC tórax opacidades vidro fosco consolidação hemorragia alveolar)",
+          "laudo": "ACHADOS:\nOpacidades em vidro fosco e consolidações bilaterais difusas, predominando em regiões perihilares e basais, sugerindo hemorragia alveolar. Sem linfonodomegalias mediastinais significativas.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_TC_SEIOS_5",
+        "tituloImpresso": "Tomografia Computadorizada de Seios da Face",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Apresenta-se imagem de tomografia computadorizada de seios da face. Observe possíveis alterações inflamatórias.",
+          "caminhoImagem": "(Buscar no Google Imagens: TC seios da face espessamento mucoso seio maxilar)",
+          "laudo": "ACHADOS:\nEspessamento mucoso e velamento parcial do seio maxilar esquerdo. Demais seios paranasais aerados.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_VASCULITE_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente feminina, 55 anos, com quadro de astenia, tosse com hemoptise e hematúria, associado a anemia, insuficiência renal e marcadores inflamatórios elevados, com p-ANCA/anti-MPO positivo e biópsia renal compatível com glomerulonefrite crescêntica necrosante pauci-imune. O caso é sugestivo de Poliangiite Microscópica (MPA).",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa com foco em sintomas sistêmicos e envolvimento de órgãos.",
+        "Exame físico direcionado para vasculite, buscando sinais de comprometimento renal, pulmonar, cutâneo e ORL.",
+        "Solicitação e interpretação de exames laboratoriais (hemograma, função renal, urinálise, marcadores inflamatórios, autoanticorpos como ANCA) e de imagem (Rx/TC tórax) para avaliação de danos em órgãos-alvo.",
+        "Formulações de hipóteses diagnósticas (VAA, diferenciais) e proposta de plano terapêutico inicial e de manutenção, incluindo orientações ao paciente."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização do Cansaço/Fadiga: Investiga:\n(1) Início;\n(2) Intensidade;\n(3) Característica;\n(4) Progressão;\n(5) Fatores de piora;\n(6) Fatores de melhora;\n(7) Episódios prévios;\n(8) Medicação de alívio.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou mais dos 8 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 dos 8 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 3 aspectos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracterização da Tosse e Hemoptise: Investiga:\n(1) Início;\n(2) Duração/padrão;\n(3) Característica da tosse;\n(4) Presença e características de hemoptise (cor, frequência);\n(5) Sintomas associados (dispneia);\n(6) Episódios prévios de tosse com sangue.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou mais dos 6 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 4 dos 6 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 3 aspectos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Caracterização da Urina Escura/Sangue na Urina: Investiga:\n(1) Início;\n(2) Cor da urina;\n(3) Sintomas urinários associados (disúria, polaciúria, urgência); \n(4) Episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta os 4 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 a 3 dos 4 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 2 aspectos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Sintomas Constitucionais e de Envolvimento de Órgãos: Investiga:\n(1) Febre;\n(2) Perda de peso;\n(3) Dor articular/mialgia;\n(4) Sintomas otorrinolaringológicos (sinusite, epistaxe);\n(5) Sintomas cutâneos (púrpura, úlceras);\n(6) Sintomas neurológicos (parestesia, fraqueza);\n(7) Sintomas gastrointestinais (dor abdominal, sangramento);\n(8) Sintomas oculares.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou mais dos 8 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 dos 8 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 3 aspectos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Antecedentes Pessoais Patológicos: Investiga:\n(1) Doenças crônicas (HAS, DM, outras doenças autoimunes);\n(2) Cirurgias/internações prévias;\n(3) Alergias;\n(4) Medicamentos em uso contínuo;\n(5) Vacinação.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 dos 5 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 a 3 dos 5 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 2 aspectos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Anamnese - Hábitos de Vida: Investiga:\n(1) Tabagismo;\n(2) Etilismo;\n(3) Uso de drogas ilícitas;\n(4) Alimentação;\n(5) Atividade física;\n(6) Sono;\n(7) Ingestão hídrica;\n(8) Exposição ocupacional e estresse.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou mais dos 8 aspectos.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 dos 8 aspectos.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 3 aspectos ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Anamnese - Antecedentes Familiares, Ginecológicos e Epidemiológicos: Investiga:\n(1) Doenças autoimunes na família;\n(2) HAS/DM/outras doenças na família;\n(3) Histórico obstétrico e ginecológico (se relevante);\n(4) Antecedentes epidemiológicos (viagens, exposições).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 dos 4 aspectos.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 a 2 dos 4 aspectos.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não pergunta nenhum aspecto relevante.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Realiza/Verbaliza Exame Físico - Sinais Vitais e Exame Geral:\n(1) Avalia pressão arterial;\n(2) Avalia frequência cardíaca;\n(3) Avalia frequência respiratória;\n(4) Avalia temperatura;\n(5) Avalia saturação de O2;\n(6) Avalia estado geral (palidez, emagrecimento).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Avalia 5 ou 6 dos 6 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Avalia 3 a 4 dos 6 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Avalia menos de 3 aspectos ou não verbaliza.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Realiza/Verbaliza Exame Físico - Avaliação de Órgãos e Sistemas:\n(1) Exame de mucosas (palidez);\n(2) Ausculta pulmonar (ruídos adventícios);\n(3) Ausculta cardíaca (ritmo, sopros);\n(4) Palpação abdominal (dor, visceromegalias);\n(5) Inspeção de membros (edema, púrpura, lesões);\n(6) Exame neurológico (déficits focais, sensibilidade);\n(7) Exame osteoarticular (sinais inflamatórios).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Avalia 5 ou mais dos 7 aspectos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Avalia 3 a 4 dos 7 aspectos.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Avalia menos de 3 aspectos ou não verbaliza.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Solicita Exames Laboratoriais - Básicos e Inflamatórios:\n(1) Hemograma completo;\n(2) Ureia e Creatinina;\n(3) Eletrólitos (sódio, potássio);\n(4) Sumário de urina (urinálise/urina tipo 1);\n(5) Proteína C-reativa (PCR);\n(6) Velocidade de Hemossedimentação (VHS).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 5 ou 6 dos 6 exames.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 3 a 4 dos 6 exames.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 3 exames ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Solicita Exames Laboratoriais - Autoimunes e Infecciosos:\n(1) ANCA (anti-PR3 e anti-MPO);\n(2) Fator Antinúcleo (FAN);\n(3) Anti-DNA;\n(4) Complemento C3 e C4;\n(5) Sorologias para Hepatite B e C;\n(6) Anti-Membrana Basal Glomerular (anti-GBM).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 5 ou 6 dos 6 exames.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 3 a 4 dos 6 exames.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 3 exames ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Solicita Exames de Imagem e Biópsia:\n(1) Radiografia de tórax;\n(2) Tomografia Computadorizada de Tórax de alta resolução;\n(3) Tomografia Computadorizada de Seios da Face;\n(4) Biópsia renal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita os 4 exames.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 a 3 dos 4 exames.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Solicita menos de 2 exames ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Interpreta os Achados Laboratoriais - Hemograma, Função Renal, Urina e Inflamatórios:\n(1) Anemia (Hb baixa);\n(2) Leucocitose;\n(3) Ureia e Creatinina elevadas;\n(4) Hematúria e proteinúria na urinálise;\n(5) Presença de cilindros hemáticos;\n(6) PCR e VHS elevados.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 5 ou 6 dos 6 achados.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 3 a 4 dos 6 achados.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 3 achados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Interpreta os Achados Laboratoriais - Autoimunes e Infecciosos:\n(1) p-ANCA/anti-MPO positivo;\n(2) FAN e Anti-DNA negativos;\n(3) C3 e C4 normais;\n(4) Anti-GBM negativo.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta os 4 achados.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 a 3 dos 4 achados.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 2 achados ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Interpreta os Achados de Imagem e Laudo de Biópsia:\n(1) Infiltrados/vidro fosco em TC de tórax (hemorragia alveolar);\n(2) Alterações em seios da face (se presentes);\n(3) Glomerulonefrite crescêntica necrosante pauci-imune em biópsia renal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta os 3 achados corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 a 2 dos 3 achados corretamente.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não interpreta os achados ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Formula a Hipótese Diagnóstica Principal:\n(1) Vasculite Associada ao ANCA (VAA);\n(2) Especificamente Poliangiite Microscópica (MPA).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico completo e correto (VAA e MPA).",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza apenas 'Vasculite' ou 'VAA' sem especificar o tipo correto.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico correto ou verbaliza um diagnóstico incorreto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item18",
+        "itemNumeroOficial": "18",
+        "descricaoItem": "Cita Diagnósticos Diferenciais Relevantes:\n(1) Síndrome de Goodpasture;\n(2) Lúpus Eritematoso Sistêmico;\n(3) Poliarterite Nodosa (PAN);\n(4) Endocardite Infecciosa;\n(5) Granulomatose com Poliangiite (GPA).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou mais dos 5 diagnósticos diferenciais relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 a 2 dos 5 diagnósticos diferenciais relevantes.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item19",
+        "itemNumeroOficial": "19",
+        "descricaoItem": "Propõe Conduta Terapêutica de Indução de Remissão (doença grave):\n(1) Corticosteroides (pulsoterapia de metilprednisolona seguida de prednisona oral);\n(2) Agente imunossupressor (Ciclofosfamida ou Rituximabe);\n(3) Considera Plasmaférese (devido à glomerulonefrite rapidamente progressiva grave).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe os 3 componentes da terapia de indução.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe 2 dos 3 componentes da terapia de indução.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Propõe menos de 2 componentes ou terapia inadequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item20",
+        "itemNumeroOficial": "20",
+        "descricaoItem": "Propõe Conduta Terapêutica de Manutenção, Orientações e Sinais de Alarme:\n(1) Sugere agente para manutenção (Azatioprina, Metotrexato, Micofenolato ou Rituximabe);\n(2) Orienta sobre adesão rigorosa ao tratamento e monitoramento;\n(3) Orienta sobre sinais de alarme (piora renal, hemoptise, neurológicos);\n(4) Orienta sobre prevenção de infecções (vacinação, profilaxia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Propõe agente de manutenção e orienta sobre 3 ou 4 aspectos de seguimento.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Propõe agente de manutenção e orienta sobre 1 a 2 aspectos de seguimento.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não propõe manutenção ou orienta inadequadamente.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A vasculite associada ao ANCA (VAA), como a Poliangiite Microscópica (MPA) neste caso, é uma vasculite sistêmica autoimune de pequenos vasos, grave e com potencial de rápida progressão para falência de órgãos. A anamnese é crucial para identificar sintomas constitucionais (cansaço, perda de peso) e manifestações específicas de órgãos (renal: hematúria, tosse com hemoptise indicando hemorragia alveolar). O exame físico, embora possa ser inespecífico, busca sinais de acometimento cutâneo (púrpura), neurológico (neuropatia periférica) e otorrinolaringológico (sinusite, lesões septais, mais comuns na GPA). Os exames complementares são essenciais: anemia, elevação de ureia/creatinina, proteinúria, hematúria dismórfica e cilindros hemáticos na urinálise sugerem glomerulonefrite. VHS e PCR são elevados. A positividade do ANCA (p-ANCA/anti-MPO na MPA) é um marcador chave. Exames de imagem (TC de tórax) revelam hemorragia alveolar, enquanto a biópsia renal, mostrando glomerulonefrite crescêntica necrosante pauci-imune, confirma o diagnóstico. Os diagnósticos diferenciais incluem Síndrome de Goodpasture (anti-GBM negativo neste caso), Lúpus Eritematoso Sistêmico, Poliarterite Nodosa e Endocardite infecciosa. O tratamento inicial para doença grave envolve corticosteroides em altas doses (pulsoterapia) e um imunossupressor (ciclofosfamida ou rituximabe). A plasmaférese deve ser considerada em casos de glomerulonefrite rapidamente progressiva grave ou hemorragia alveolar refratária. A fase de manutenção visa prevenir recaídas com agentes como azatioprina, metotrexato ou rituximabe, por um período prolongado. O seguimento rigoroso, monitoramento da função renal e pulmonar, e atenção aos efeitos adversos dos imunossupressores são fundamentais.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Portaria Conjunta SAS/MS nº 13, de 25 de setembro de 2019. Aprova o Protocolo Clínico e Diretrizes Terapêuticas da Granulomatose com Poliangiite e Poliangiite Microscópica.",
+        "2. UpToDate. Clinical manifestations and diagnosis of granulomatosis with polyangiitis and microscopic polyangiitis. Disponível em: [https://www.uptodate.com/](https://www.uptodate.com/). Acesso em: 08 mai. 2024.",
+        "3. Jennette JC, et al. 2012 Revised International Chapel Hill Consensus Conference Nomenclature of Vasculitides. Arthritis Rheum. 2013 Jan;65(1):1-11."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "d63444cd-b82a-4b06-a71b-1f1a0cc85b54",
+  "created_at": "2025-08-28T12:43:02.124420",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Vasculite",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

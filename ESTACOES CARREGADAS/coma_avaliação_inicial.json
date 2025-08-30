@@ -1,0 +1,511 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_01",
+  "tituloEstacao": "Coma: Avaliação Inicial",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": "Coma, Emergência neurológica, GCS, ABCDE, Trauma cranioencefálico, Hemorragia intracraniana, Hipoglicemia, Clínica Médica, Atenção terciária",
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (TC de crânio disponível)",
+        "Medicações e equipamentos de suporte avançado de vida disponíveis",
+        "Unidade de terapia intensiva (UTI)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente masculino, 55 anos, é trazido à emergência pelo Serviço de Atendimento Móvel de Urgência (SAMU) em estado de coma. A equipe do SAMU relata que ele foi encontrado inconsciente em casa por sua esposa, que também o acompanha. O motivo da consulta é 'ausência de resposta a estímulos'.",
+    "tarefasPrincipais": [
+      "Realizar a avaliação inicial do paciente, priorizando a estabilização e coleta de informações essenciais.",
+      "Solicitar os exames físicos e complementares necessários para elucidação diagnóstica.",
+      "Interpretar os achados clínicos e dos exames solicitados.",
+      "Verbalizar as hipóteses diagnósticas e os diagnósticos diferenciais mais relevantes.",
+      "Estabelecer a conduta terapêutica inicial e as medidas de controle de danos.",
+      "Comunicar à esposa do paciente sobre o quadro clínico e as próximas etapas."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "A paciente simulada (esposa) responderá às suas perguntas sobre a história e antecedentes do paciente.",
+      "O paciente encontra-se em estado de coma, portanto, a interação direta com ele será limitada à avaliação de reflexos e respostas motoras conforme sua verbalização."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "O paciente está em coma."
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA DA DOENÇA ATUAL (obtida da esposa e equipe SAMU)",
+        "informacao": "Modo de início: Súbito. 'Ele estava bem e de repente caiu no chão na cozinha. Não respondeu mais e começou a respirar estranho. Foi tudo muito rápido, doutor(a)'.\nSintomas premonitórios: A esposa relata que ele reclamou de uma dor de cabeça 'terrível, a pior da vida' minutos antes de desmaiar. Ele também estava se queixando de 'tontura' no dia anterior, mas ela achou que era cansaço.\nTrauma: 'Ele apenas desmaiou e bateu a cabeça levemente na quina da mesa ao cair', sem sangramento visível. A equipe do SAMU confirma que não há sinais de trauma importante na cabeça ou coluna cervical.\nExposição a toxinas/drogas: A esposa nega uso de drogas ilícitas. Menciona que ele tem usado 'uns remédios fortes para dor nas costas' nos últimos dias, mas não sabe o nome exato. Ela também disse que 'ele tomou umas cervejas na noite passada', mas não exagerou."
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES (observados pela esposa)",
+        "informacao": "Convulsões: 'Não, ele só caiu e ficou mole, depois começou a respirar com dificuldade'.\nFebre: Nega.\nNáuseas/Vômitos: Nega ter visto, mas 'ele não comeu nada hoje de manhã'.\nFraqueza: 'Estava meio arrastando a perna esquerda' ontem, segundo a esposa, mas ela não deu muita atenção."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Hipertenso há 10 anos, diabético tipo 2 há 5 anos. 'Ele toma remédio pros dois, mas às vezes esquece'.\nCirurgias prévias: Apendicectomia há 20 anos.\nInternações: Nega internações recentes.\nAlergias: Dipirona (urticária).\nMedicamentos em uso contínuo: Losartana 50mg/dia, Metformina 850mg 2x/dia. 'E esses remédios para dor nas costas que eu não sei o nome'.\nVacinação: 'Está em dia, sim'.\nTrauma: Nega trauma recente significativo além da queda.\nTransfusões: Nega."
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Ex-fumante há 15 anos (fumou 1 maço/dia por 20 anos).\nEtilismo: 'Bebe socialmente, mas ontem à noite tomou umas cervejas a mais'.\nDrogas ilícitas: Nega.\nAlimentação: 'Não muito regrada, ele gosta de carne vermelha e coisas mais gordurosas'.\nAtividade física: Sedentário.\nSono: 'Costuma dormir bem, mas ultimamente está meio agitado no trabalho'.\nHábitos urinários: Normais.\nHábitos intestinais: Normais.\nIngestão hídrica: 'Bebe pouca água, mais refrigerante'.\nExposição ocupacional: Trabalha em escritório, sem exposição a riscos.\nEstresse: 'Muito estressado com o trabalho ultimamente, anda muito irritado'."
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Falecido por AVC aos 60 anos.\nMãe: Viva, 78 anos, hipertensa e diabética.\nDoenças na família: História familiar de hipertensão e diabetes.\nHistória de câncer na família: Nega.\nIrmãos ou tias: Não consta no script."
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR (Chefe de Estação)",
+        "informacao": "Se o candidato solicitar informações adicionais sobre a HDA ou antecedentes, forneça-as como 'relatado pela esposa' ou 'informado pela equipe do SAMU'.\nSe o candidato solicitar exames de imagem, liberar o impresso 'est[NºEstação]_impresso_IMAGEM_TC_3'.\nSe o candidato solicitar exames laboratoriais, liberar o impresso 'est[NºEstação]_impresso_LABORATORIO_2'.\nSe o candidato realizar a avaliação primária (ABCDE) e o exame neurológico básico, liberar o impresso 'est[NºEstação]_impresso_SINAISVITAIS_1'.\nSe o candidato perguntar sobre a medicação para dor nas costas, responder: 'A esposa não conseguiu identificar o nome, mas disse que era um relaxante muscular e um analgésico forte'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DA ESPOSA (Ator Simulado)",
+        "informacao": "pergunta (1): 'Doutor(a), o que meu marido tem?'.\npergunta (2): 'Ele vai ficar bem? É grave?'.\npergunta (3): 'Tem algo que eu poderia ter feito para evitar isso?'. \npergunta (4): 'Ele vai precisar de cirurgia?'."
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico Inicial (SAMU/Triagem)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "180 × 100 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "50 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "10 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "37.0 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "88% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO (Verbalizado pela equipe)",
+              "itens": [
+                {
+                  "chave": "Nível de Consciência",
+                  "valor": "Coma (GCS E1V1M4 = 6)"
+                },
+                {
+                  "chave": "Pupilas",
+                  "valor": "Anisocoria, pupila direita midriática e fixa, pupila esquerda miótica e reativa."
+                },
+                {
+                  "chave": "Reflexos de Tronco Cerebral",
+                  "valor": "Reflexo corneano abolido à direita, presente à esquerda. Reflexo oculocefálico ausente (ambos os lados). Reflexo de tosse ausente."
+                },
+                {
+                  "chave": "Resposta Motora",
+                  "valor": "Postura de descerebração intermitente à direita com estímulo doloroso, flacidez à esquerda."
+                },
+                {
+                  "chave": "Pele",
+                  "valor": "Pálida, sem lesões, sem cianose ou icterícia. Ausência de odor peculiar."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais (Urgência)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "9.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.2 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "280.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Glicemia capilar (HGT)",
+                  "valor": "45 mg/dL (Ref: 70-99)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.0 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "140 mEq/L (Ref: 135-145)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "4.0 mEq/L (Ref: 3.5-5.0)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "GASOMETRIA ARTERIAL",
+              "itens": [
+                {
+                  "chave": "pH",
+                  "valor": "7.32 (Ref: 7.35-7.45)"
+                },
+                {
+                  "chave": "pCO2",
+                  "valor": "48 mmHg (Ref: 35-45)"
+                },
+                {
+                  "chave": "pO2",
+                  "valor": "60 mmHg (Ref: 75-100)"
+                },
+                {
+                  "chave": "HCO3",
+                  "valor": "24 mEq/L (Ref: 22-26)"
+                },
+                {
+                  "chave": "SatO2",
+                  "valor": "88% (Ref: 95-100)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "COAGULOGRAMA",
+              "itens": [
+                {
+                  "chave": "TAP",
+                  "valor": "12 segundos (Ref: 10-14)"
+                },
+                {
+                  "chave": "INR",
+                  "valor": "1.0 (Ref: <1.1)"
+                },
+                {
+                  "chave": "KPTT",
+                  "valor": "30 segundos (Ref: 25-35)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_TC_3",
+        "tituloImpresso": "Tomografia Computadorizada de Crânio (Urgência)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "TC de Crânio, sem contraste, revelando alterações compatíveis com lesão estrutural aguda.",
+          "caminhoImagem": "(Buscar no Google Imagens: TC crânio hemorragia intraparenquimatosa temporal direita desvio linha média herniação uncal)",
+          "sugestaoBuscaImagem": "TC de crânio mostrando hemorragia intraparenquimatosa extensa no lobo temporal direito, com edema perilesional, desvio da linha média de 8mm para a esquerda e sinais de herniação uncal à direita, compressão do tronco cerebral e apagamento das cisternas da base.",
+          "laudo": "ACHADOS:\nHemorragia intraparenquimatosa extensa em lobo temporal direito, medindo aproximadamente 5x4x3 cm, com significativo efeito de massa. Presença de edema perilesional. Observa-se desvio da linha média de 8mm para a esquerda e apagamento das cisternas da base, com sinais de herniação uncal à direita e compressão do tronco cerebral. Sistema ventricular comprimido, sem hidrocefalia.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_COMA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 55 anos, diabético e hipertenso com uso irregular de medicações, etilista, apresenta coma de início súbito após cefaleia intensa. Exame físico revela GCS 6, anisocoria com midríase fixa à direita, reflexos de tronco cerebral alterados, e postura de descerebração. Achados laboratoriais incluem hipoglicemia e hipoxemia/hipercapnia. TC de crânio demonstra hemorragia intraparenquimatosa temporal direita com sinais de herniação uncal. O caso exige avaliação e estabilização rápida, com tratamento da hipoglicemia, suporte de via aérea e ventilação, e manejo urgente da hipertensão intracraniana e da lesão estrutural.",
+      "focoPrincipalDetalhado": [
+        "Avaliação inicial ABCDE e estabilização hemodinâmica e respiratória.",
+        "Anamnese colateral direcionada a causas de coma (modo de início, premonitórios, traumas, intoxicações, comorbidades).",
+        "Exame neurológico completo e rápido (GCS, pupilas, reflexos de tronco, resposta motora).",
+        "Solicitação e interpretação de exames laboratoriais essenciais (glicemia de urgência, gasometria, eletrólitos, coagulograma, toxicologia).",
+        "Solicitação e interpretação de exame de imagem cerebral de urgência (TC de crânio).",
+        "Formulações de hipóteses diagnósticas (síndromica e etiológica) e diagnósticos diferenciais.",
+        "Estabelecimento da conduta terapêutica inicial (medidas gerais, tratamento empírico de causas reversíveis, controle de hipertensão intracraniana, manejo cirúrgico).",
+        "Comunicação com a família."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e estabelecimento de contato com o acompanhante:\n(1) Apresenta-se e cumprimenta a esposa;\n(2) Pergunta o nome da esposa e como ela gostaria de ser chamada;\n(3) Demonstra empatia e acolhimento.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza uma ou duas ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza a avaliação primária do paciente (ABCDE) verbalizando as etapas:\n(1) Avaliação da via aérea (Airway);\n(2) Avaliação da respiração (Breathing);\n(3) Avaliação da circulação (Circulation);\n(4) Avaliação neurológica inicial (Disability - GCS, pupilas);\n(5) Exposição e controle do ambiente (Exposure).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza corretamente as cinco etapas do ABCDE.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza corretamente três ou quatro etapas.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Verbaliza duas ou menos etapas ou não as verbaliza.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Coleta a História da Doença Atual (HDA) com a acompanhante, investigando:\n(1) Modo de início (súbito/progressivo);\n(2) Sintomas premonitórios (cefaleia, náuseas, vômitos, crise convulsiva);\n(3) Presença de trauma craniano ou espinhal;\n(4) Exposição a toxinas/drogas (álcool, medicamentos, ilícitas);\n(5) Evolução do quadro até o momento da chegada.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga corretamente os cinco itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga três ou quatro itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga dois ou menos itens ou não os investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Coleta Antecedentes Pessoais Patológicos e Hábitos de Vida relevantes, investigando:\n(1) Doenças crônicas (diabetes, hipertensão, cardiopatias);\n(2) Uso crônico de medicamentos (especialmente sedativos, opioides);\n(3) Alergias;\n(4) Tabagismo e etilismo;\n(5) Uso de drogas ilícitas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga corretamente os cinco itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga três ou quatro itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga dois ou menos itens ou não os investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Solicita e interpreta o impresso de Sinais Vitais e Exame Físico, identificando:\n(1) GCS abaixo de 8 (coma);\n(2) Anisocoria (pupila direita midriática e fixa);\n(3) Reflexos de tronco cerebral alterados/ausentes;\n(4) Resposta motora de descerebração/lateralização;\n(5) Hipoxemia (SatO2 88%);\n(6) Bradicardia (50 bpm) e Hipertensão (180x100 mmHg) – Tríade de Cushing.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica corretamente os seis achados.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Identifica quatro ou cinco achados.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Identifica três ou menos achados ou não solicita/interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Solicita e interpreta o impresso de Exames Laboratoriais, identificando:\n(1) Hipoglicemia (45 mg/dL);\n(2) Acidose respiratória com hipoxemia (pH 7.32, pCO2 48, pO2 60, SatO2 88%);\n(3) Função renal e eletrólitos dentro da normalidade;\n(4) Coagulograma dentro da normalidade.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica corretamente os quatro achados principais.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Identifica dois ou três achados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Identifica um ou nenhum achado ou não solicita/interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita e interpreta o impresso de Tomografia Computadorizada de Crânio, identificando:\n(1) Hemorragia intraparenquimatosa em lobo temporal direito;\n(2) Efeito de massa e desvio da linha média;\n(3) Sinais de herniação uncal;\n(4) Compressão do tronco cerebral.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Identifica corretamente os quatro achados cruciais.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Identifica dois ou três achados.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Identifica um ou nenhum achado ou não solicita/interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Verbaliza a hipótese diagnóstica principal, incluindo a síndrome e a etiologia:\n(1) Coma por Hemorragia Intraparenquimatosa (AVC Hemorrágico) com herniação cerebral e provável componente hipoglicêmico e hipóxico.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico completo e corretamente.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico sindrômico ou apenas uma das etiologias, mas de forma incompleta.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes para o estado de coma na emergência:\n(1) AVC isquêmico extenso;\n(2) Intoxicação exógena (opioides, sedativos);\n(3) Encefalopatia metabólica (urêmica, hepática severa);\n(4) Estado de mal epiléptico não convulsivo;\n(5) Meningoencefalite.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita três ou mais diagnósticos diferenciais corretos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita um ou dois diagnósticos diferenciais corretos.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais relevantes ou os cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Estabelece a conduta terapêutica inicial e as medidas de controle de danos:\n(1) Manejo da via aérea (intubação orotraqueal e ventilação mecânica);\n(2) Correção da hipoglicemia (D50W IV, com Tiamina IV);\n(3) Controle da pressão arterial (alvo específico para AVC hemorrágico);\n(4) Medidas para redução da pressão intracraniana (elevar cabeceira, manitol ou salina hipertônica);\n(5) Ativação da neurocirurgia para avaliação urgente.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Estabelece corretamente os cinco itens da conduta.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Estabelece três ou quatro itens da conduta.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Estabelece dois ou menos itens da conduta ou não os estabelece.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Comunica à esposa do paciente sobre o quadro clínico e as próximas etapas:\n(1) Explica o estado de saúde grave do paciente e o diagnóstico principal de forma clara e compreensível;\n(2) Informa sobre a necessidade de cirurgia urgente e internação em UTI;\n(3) Acolhe as dúvidas da esposa e oferece suporte emocional.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações de comunicação de forma eficaz.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza uma ou duas ações de comunicação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações de comunicação adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Notificação ao SINAN:\n(1) Verbaliza a necessidade de notificação compulsória do caso se houver causa externa (ex: trauma grave, intoxicação).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza a necessidade de notificação compulsória.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza a necessidade de notificação compulsória.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "O coma é uma emergência neurológica grave que exige avaliação inicial rápida e sistemática para estabilização do paciente, identificação da causa subjacente e tratamento. A avaliação primária (ABCDE) é fundamental, focando na garantia da via aérea, suporte ventilatório e hemodinâmico. Em pacientes comatosos, a anamnese é obtida de fontes colaterais (familiares, acompanhantes, serviços de emergência) e deve investigar o modo de início, sintomas premonitórios, histórico de trauma, exposição a toxinas e comorbidades preexistentes como diabetes e hipertensão.\n\nO exame físico é direcionado e detalhado, incluindo a avaliação do nível de consciência pela Escala de Coma de Glasgow (GCS), que define o coma como GCS ≤ 8. A avaliação pupilar (tamanho, simetria, reatividade à luz) e dos reflexos de tronco cerebral (corneano, oculocefálico, oculovestibular, tosse/engasgo) são cruciais para localizar a lesão e prognóstico. A resposta motora (posturas de decorticação/descerebração, flacidez, lateralização) também é vital.\n\nExames complementares de urgência incluem glicemia capilar imediata (para descartar hipoglicemia, uma causa reversível), hemograma completo, eletrólitos, função renal e hepática, gasometria arterial e toxicologia. A Tomografia Computadorizada (TC) de crânio sem contraste é o exame de imagem prioritário para descartar lesões estruturais agudas como hemorragia, infarto extenso, edema cerebral ou massa. A punção lombar só deve ser considerada após exclusão de hipertensão intracraniana ou lesão com efeito de massa em TC.\n\nAs hipóteses diagnósticas para coma são divididas em causas estruturais (AVC, TCE, tumor, infecção focal, herniação) e metabólicas/tóxicas (encefalopatias, intoxicações, desequilíbrios eletrolíticos, hipóxia). O tratamento inicial inclui correção da hipoglicemia (com tiamina), naloxona para suspeita de overdose de opioides e flumazenil (com cautela) para benzodiazepínicos. Medidas para controle da Pressão Intracraniana (PIC), como elevação da cabeceira, manitol ou solução salina hipertônica, são essenciais em casos de herniação iminente ou comprovada. O tratamento definitivo é direcionado à causa subjacente.\n\nFatores de risco incluem doenças crônicas descompensadas (diabetes, hipertensão), trauma, abuso de substâncias. Complicações podem incluir aspiração pulmonar, instabilidade hemodinâmica e progressão da lesão cerebral. Todos os pacientes em coma requerem internação em UTI e avaliação especializada.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Atenção à Saúde. Departamento de Atenção Hospitalar e de Urgência. Protocolos de intervenção para o SAMU 192. Brasília: Ministério da Saúde, 2016.",
+        "2. Wijdicks, E. F. M., & Hocker, S. E. (2023). Coma: Etiology, clinical manifestations, and diagnosis. UpToDate. Acessado em [data atual].",
+        "3. Posner, J. B., Saper, C. B., Schiff, N. D., & Plum, F. (2019). Plum and Posner's Diagnosis and Treatment of Stupor and Coma (5th ed.). Oxford University Press."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "ff369939-c929-492f-a35f-4e3428b5737e",
+  "created_at": "2025-08-28T14:55:06.791078",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Coma: Avaliação inicial",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

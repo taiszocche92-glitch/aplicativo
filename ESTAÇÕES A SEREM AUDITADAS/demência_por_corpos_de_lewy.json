@@ -40,6 +40,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Jair Tavares, 70 anos, Aposentado e Viúvo"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com a cabeça meio aérea e minhas lembranças não estão muito boas, sabe? E às vezes eu vejo umas coisas que não estão lá..."
       },
@@ -603,5 +607,23 @@
         "3. Brasil. Ministério da Saúde. Portaria de Consolidação nº 2, de 28 de setembro de 2017. Dispõe sobre as políticas nacionais de saúde, incluindo aspectos do cuidado ao idoso e doenças crônicas."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "ace8c2e6-3d97-45b2-9f11-b08e19c037cb",
+  "created_at": "2025-08-28T14:32:05.596050",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Demencia por corpusculos de levy",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

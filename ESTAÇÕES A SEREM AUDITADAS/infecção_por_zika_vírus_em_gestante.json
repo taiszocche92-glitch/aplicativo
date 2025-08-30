@@ -42,7 +42,7 @@
     "informacoesVerbaisSimulado": [
       {
         "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
-        "informacao": "Nome: Maria da Silva\nIdade: 30 anos\nSexo: Feminino\nEstado Civil: Casada\nProfissão: Professora\nProcedência: Capital (área com alta transmissão de arboviroses)\nInformação adicional: Não usa método contraceptivo e teve relação desprotegida recentemente."
+        "informacao": "Maria da Silva, 30 anos, Professora, Casada e Capital (área com alta transmissão de arboviroses)"
       },
       {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
@@ -736,5 +736,23 @@
         "3. UpToDate. Zika virus infection: Clinical manifestations, diagnosis, and treatment. Waltham, MA: UpToDate; [acesso em 2024.08.01]."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "1ed56fb2-c720-4678-b591-25b847f8aee7",
+  "created_at": "2025-08-28T08:57:32.863783",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Zika",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

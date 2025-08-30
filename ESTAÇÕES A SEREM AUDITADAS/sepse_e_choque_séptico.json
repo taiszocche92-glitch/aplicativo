@@ -37,6 +37,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Renato Macedo, 68 anos, Aposentado e Viúvo"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Paciente (com dificuldade): 'Estou com muita febre, prostrado e meio confuso, doutor(a), desde ontem.'\nFamiliar: 'Ele está assim há umas 24 horas, muito molinho e falando coisas sem sentido.'"
       },
@@ -630,7 +634,7 @@
         "1. Singer M, et al. The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3). JAMA. 2016;315(8):801-10.",
         "2. Rhodes A, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2016. Crit Care Med. 2017;45(3):486-552.",
         "3. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas. (Acesso em 2024)."
-   ]
+      ]
     }
   }
 }

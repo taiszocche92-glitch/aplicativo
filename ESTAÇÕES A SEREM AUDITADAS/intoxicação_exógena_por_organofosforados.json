@@ -46,7 +46,7 @@
     "informacoesVerbaisSimulado": [
       {
         "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
-        "informacao": "Nome: Pedro Henrique da Silva\nIdade: 45 anos\nGênero: Masculino\nEstado Civil: Casado\nProfissão: Agricultor"
+        "informacao": "Pedro Henrique da Silva, 45 anos, Agricultor e Casado"
       },
       {
         "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO ACOMPANHANTE",
@@ -701,5 +701,23 @@
         "4. UpToDate, Inc. Organophosphate poisoning. Última atualização: 2024."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "b3d9b127-b6b6-4cb7-b46e-7c789370e3a1",
+  "created_at": "2025-08-28T15:00:33.473979",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Intoxicaçõe Exógena: Organafosforados",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

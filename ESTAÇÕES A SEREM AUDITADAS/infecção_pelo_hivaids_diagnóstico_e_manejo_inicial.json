@@ -68,6 +68,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Celso Barbosa, 35 anos, Funcionário público e Casado"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com febre, tenho emagrecido muito e apareceu umas coisas brancas na minha boca."
       },

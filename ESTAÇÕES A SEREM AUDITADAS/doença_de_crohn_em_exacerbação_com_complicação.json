@@ -35,7 +35,7 @@
     "informacoesVerbaisSimulado": [
       {
         "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
-        "informacao": "Nome: [Nome Fictício]\nIdade: 35 anos\nEstado Civil: Casado\nProfissão: Analista Financeiro"
+        "informacao": "[Nome Fictício], 35 anos, Analista Financeiro e Casado"
       },
       {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
@@ -564,5 +564,23 @@
         "3. Sociedade Brasileira de Coloproctologia. Consenso Brasileiro de Doença de Crohn e Colite Ulcerativa, 2017."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "e427d2ed-7e4e-4888-8c44-2f2bd0bcfe29",
+  "created_at": "2025-08-28T11:20:41.055178",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Doença de Crohn",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

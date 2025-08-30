@@ -1,0 +1,722 @@
+{
+  "idEstacao": "REVALIDA_MEDIO_2025_CM_SINDROMENEFROTICA_01",
+  "tituloEstacao": "Síndrome Nefrótica",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Síndrome Nefrótica",
+    "Proteinúria maciça",
+    "Hipoalbuminemia",
+    "Edema",
+    "Hiperlipidemia",
+    "Clínica Médica",
+    "Atenção secundária"
+  ],
+  "nivelDificuldade": "Médio",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Ambulatorial",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (Ultrassonografia, Radiografia)",
+        "Medicações disponíveis para tratamento sintomático",
+        "Serviço de Nefrologia para encaminhamento"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 45 anos apresenta-se à consulta ambulatorial com queixa de edema generalizado e urina espumosa há algumas semanas.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada ao paciente.",
+      "Realizar o exame físico direcionado ao paciente, verbalizando os achados.",
+      "Solicitar os exames complementares pertinentes ao caso.",
+      "Interpretar os resultados dos exames apresentados.",
+      "Estabelecer o diagnóstico principal e os diagnósticos diferenciais relevantes.",
+      "Propor a conduta terapêutica inicial e as orientações para o paciente.",
+      "Responder às dúvidas do paciente."
+    ],
+    "avisosImportantess": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com o corpo todo inchado e minha urina está fazendo muita espuma, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "Edema",
+        "informacao": "Início: Começou há cerca de 3 semanas\nLocalização: Inicialmente nas pálpebras, depois na face, agora está nos braços, pernas e até na barriga\nIntensidade: É bem forte, aperta e marca\nCaracterística: Mole, deixa marca quando aperto (sinal de Godet)\nProgressão: Piorando gradualmente, o inchaço está aumentando a cada dia\nFator de piora ou agravante: Piora ao final do dia e quando fico muito tempo em pé\nFator de melhora ou atenuante: Melhora um pouco ao deitar e com repouso, mas não some\nEpisódios prévios: Nunca tive um inchaço assim antes\nMedicação de alivio: Não usei nenhum remédio específico para o inchaço, apenas chás caseiros que não ajudaram"
+      },
+      {
+        "contextoOuPerguntaChave": "Urina espumosa",
+        "informacao": "Início: Percebo que minha urina está mais espumosa há umas 2 semanas, logo após o inchaço começar a ficar mais evidente\nFrequencia: Quase todas as vezes que vou ao banheiro, a espuma não baixa\nProgressão: A espuma parece aumentar com o tempo\nSintomas associados: Não sinto dor ao urinar nem sangue na urina. O volume de urina diminuiu um pouco nos últimos dias, mas não muito"
+      },
+      {
+        "contextoOuPerguntaChave": "Fadiga",
+        "informacao": "Início: Sinto um cansaço constante há umas 2 semanas, junto com o inchaço\nIntensidade: É um cansaço que me impede de fazer minhas atividades diárias, nota 7 de 10\nProgressão: Tem piorado a cada dia\nFator de piora ou agravante: Piora com qualquer esforço\nFator de melhora ou atenuante: Melhora um pouco com repouso, mas nunca desaparece completamente"
+      },
+      {
+        "contextoOuPerguntaChave": "Ganho de peso",
+        "informacao": "Início: Ganhei cerca de 5 kg nas últimas 3 semanas, sem mudar a alimentação\nIntencionalidade: Não foi intencional, acredito que seja pelo inchaço"
+      },
+      {
+        "contextoOuPerguntaChave": "Dor abdominal",
+        "informacao": "Nega dor abdominal"
+      },
+      {
+        "contextoOuPerguntaChave": "Dispneia (Falta de ar)",
+        "informacao": "Nega falta de ar, tosse ou chiado no peito"
+      },
+      {
+        "contextoOuPerguntaChave": "Dor lombar",
+        "informacao": "Nega dor lombar"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Nega Diabetes Mellitus, Nega Lúpus Eritematoso Sistêmico, Nega Artrite Reumatoide, Nega Hipertensão Arterial Sistêmica, Nega Dislipidemia prévia\nCirurgias prévias: Nega\nInternações: Nega\nAlergias: Nega alergias a medicamentos ou alimentos\nMedicamentos em uso contínuo: Nega uso de Anti-inflamatórios não esteroides (AINEs), lítio, sais de ouro ou penicilamina. Usa apenas paracetamol ocasionalmente para dores de cabeça\nVacinação: Completa, conforme calendário adulto\nTrauma: Nega traumas recentes\nTransfusões: Nega transfusões sanguíneas prévias"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Gestações: 2 gestações\nPartos: 2 partos vaginais, sem intercorrências\nMenarca: 12 anos\nCiclos menstruais: Regulares, duração de 5 dias, fluxo moderado\nData da Última Menstruação (DUM): Há 15 dias\nSexarca: 18 anos\nAtividade sexual: Sexualmente ativa, com parceiro fixo\nUso de contraceptivos: Não usa contraceptivos hormonais, apenas método de barreira esporadicamente\nExames preventivos: Papanicolau em dia, último há 6 meses, normal\nHistórico de IST: Nega infecções sexualmente transmissíveis"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega tabagismo\nEtilismo: Nega etilismo\nDrogas ilícitas: Nega uso de drogas ilícitas\nAlimentação: Dieta variada, mas com consumo frequente de alimentos processados e ricos em sódio. Apetite diminuído nas últimas semanas\nAtividade física: Sedentária, não pratica exercícios regularmente\nSono: Dorme cerca de 6-7 horas por noite, com sensação de sono não reparador devido ao cansaço\nIngestão hídrica: Bebe cerca de 1,5-2 litros de água por dia\nExposição ocupacional: Trabalha como balconista, sem exposição a substâncias químicas ou riscos ocupacionais\nEstresse: Refere estresse moderado devido às preocupações com a saúde"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Falecido aos 70 anos por infarto, tinha hipertensão\nMãe: Viva, 72 anos, tem Diabetes Mellitus tipo 2\nDoenças na família: Uma tia paterna tem doença renal crônica de causa não especificada\nHistoria de cancêr na família: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega viagens recentes\nExposição a doenças infecciosas: Nega contato com pessoas doentes com hepatites, HIV ou sífilis\nExposição a animais: Nega exposição recente a animais exóticos ou picadas de insetos/vetores"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE:",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)?\npergunta (2): Esse inchaço vai sair? É algo grave?\npergunta (3): O que eu preciso fazer para melhorar? Tem cura?\npergunta (4): Quais exames a senhora/o senhor vai pedir e para que servem?\npergunta (5): Existe alguma dieta que eu deva seguir?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est01_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "130 × 85 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "88 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "36,5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "98 % em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Bom estado geral, consciente, orientada, hipocorada ++/4+, anictérica, acianótica. Edema generalizado (anasarca) ++/4+ com sinal de Godet em membros inferiores, região sacral e periorbital."
+                },
+                {
+                  "chave": "Pele e Mucosas",
+                  "valor": "Pálidas, sem lesões ativas. Não há xantelasmas ou xantomas visíveis."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "CABEÇA E PESCOÇO",
+              "itens": [
+                {
+                  "chave": "Exame",
+                  "valor": "Facies edemaciada. Pescoço com turgência jugular a 45º discretamente aumentada. Tireoide não palpável. Linfonodos não palpáveis."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO CARDIOVASCULAR",
+              "itens": [
+                {
+                  "chave": "Ausculta cardíaca",
+                  "valor": "Bulhas rítmicas, normofonéticas em 2 tempos, sem sopros. Ictus cordis não palpável devido ao edema."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO RESPIRATÓRIO",
+              "itens": [
+                {
+                  "chave": "Ausculta pulmonar",
+                  "valor": "Murmúrio vesicular presente em ambos os hemitórax, diminuído em bases bilateralmente, sem ruídos adventícios."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ABDOME",
+              "itens": [
+                {
+                  "chave": "Exame",
+                  "valor": "Globoso às custas de ascite (confirmado por macicez móvel e piparote positivo). Indolor à palpação superficial e profunda. Ruidos hidroaéreos presentes."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MEMBROS",
+              "itens": [
+                {
+                  "chave": "Exame",
+                  "valor": "Edema ++/4+ com Godet em membros inferiores e superiores. Pulsos periféricos presentes e simétricos."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais (Gerais)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "7.200 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "10.8 g/dL (Ref: 12.0-15.5 F)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "33% (Ref: 36-46)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "520.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "55 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.2 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Albumina Sérica",
+                  "valor": "2.1 g/dL (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "Colesterol Total",
+                  "valor": "320 mg/dL (Ref: <200)"
+                },
+                {
+                  "chave": "Triglicerídeos",
+                  "valor": "450 mg/dL (Ref: <150)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "132 mEq/L (Ref: 135-145)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "4.0 mEq/L (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "Glicemia de Jejum",
+                  "valor": "98 mg/dL (Ref: 70-99)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_URINALISE_3",
+        "tituloImpresso": "Exame de Urina (EAS e Relação Proteína/Creatinina)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "URINÁLISE (EAS)",
+              "itens": [
+                {
+                  "chave": "Cor",
+                  "valor": "Amarelo-escura"
+                },
+                {
+                  "chave": "Aspecto",
+                  "valor": "Turvo"
+                },
+                {
+                  "chave": "Densidade",
+                  "valor": "1.025 (Ref: 1.003-1.030)"
+                },
+                {
+                  "chave": "pH",
+                  "valor": "6.0 (Ref: 5.0-8.0)"
+                },
+                {
+                  "chave": "Proteínas",
+                  "valor": "++++ (>300 mg/dL)"
+                },
+                {
+                  "chave": "Glicose",
+                  "valor": "Negativa"
+                },
+                {
+                  "chave": "Corpos Cetônicos",
+                  "valor": "Negativo"
+                },
+                {
+                  "chave": "Hemácias",
+                  "valor": "2-3 por campo (Ref: <5)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "5-8 por campo (Ref: <10)"
+                },
+                {
+                  "chave": "Cilindros",
+                  "valor": "Cilindros hialinos e graxos (com corpos graxos ovais birrefringentes)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "RELAÇÃO PROTEÍNA/CREATININA URINÁRIA (RPCU)",
+              "itens": [
+                {
+                  "chave": "RPCU em amostra isolada",
+                  "valor": "4.2 mg/mg (Ref: <0.2)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_USG_RENAL_4",
+        "tituloImpresso": "Ultrassonografia Renal com Doppler",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Laudo de Ultrassonografia Renal com Doppler.",
+          "caminhoImagem": "(Buscar no Google Imagens: Ultrassonografia renal normal com doppler)",
+          "sugestaoBuscaImagem": "Ultrassonografia renal normal com doppler",
+          "laudo": "Rins com dimensões, contornos e ecogenicidade preservados. Espessura cortical normal. Não há sinais de hidronefrose ou cálculos. Fluxos arteriais e venosos renais com velocidades e índices de resistividade dentro da normalidade."
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_RAIOX_TORAX_5",
+        "tituloImpresso": "Raio-X de Tórax (PA e Perfil)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Laudo de Raio-X de Tórax.",
+          "caminhoImagem": "(Buscar no Google Imagens: Raio-X tórax com derrame pleural bilateral leve)",
+          "sugestaoBuscaImagem": "Raio-X tórax com derrame pleural bilateral leve",
+          "laudo": "ACHADOS:\nVelamento dos seios costofrênicos bilateralmente, compatível com pequeno derrame pleural. Hilos pulmonares e área cardíaca sem alterações significativas. Parênquima pulmonar sem sinais de consolidação ou infiltrados agudos.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_SOROLOGIAS_AUTOANTICORPOS_6",
+        "tituloImpresso": "Exames Complementares para Etiologia Secundária",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SOROLOGIAS VIRAIIS",
+              "itens": [
+                {
+                  "chave": "HBsAg",
+                  "valor": "Não reagente"
+                },
+                {
+                  "chave": "Anti-HCV",
+                  "valor": "Não reagente"
+                },
+                {
+                  "chave": "Anti-HIV",
+                  "valor": "Não reagente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "AUTOANTICORPOS E COMPLEMENTO",
+              "itens": [
+                {
+                  "chave": "FAN",
+                  "valor": "Não reagente"
+                },
+                {
+                  "chave": "Anti-DNA",
+                  "valor": "Não reagente"
+                },
+                {
+                  "chave": "C3",
+                  "valor": "Normal"
+                },
+                {
+                  "chave": "C4",
+                  "valor": "Normal"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "OUTROS",
+              "itens": [
+                {
+                  "chave": "Eletroforese de Proteínas Séricas",
+                  "valor": "Padrão normal, sem pico monoclonal"
+                },
+                {
+                  "chave": "TSH e T4 livre",
+                  "valor": "Valores dentro da normalidade"
+                },
+                {
+                  "chave": "BNP",
+                  "valor": "Normal (150 pg/mL)"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST01_CM_SINDROMENEFROTICA_2025_V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente de 45 anos, sexo feminino, apresenta-se com edema generalizado e urina espumosa. Os exames laboratoriais e de imagem confirmam os critérios para Síndrome Nefrótica (proteinúria maciça, hipoalbuminemia, hiperlipidemia, lipidúria) e afastam causas secundárias comuns no rastreamento inicial. A condução inclui controle sintomático e investigação etiológica via biópsia renal.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa e direcionada para sintomas, antecedentes e fatores de risco de Síndrome Nefrótica e suas causas.",
+        "Realização de exame físico detalhado com foco nos sinais de sobrecarga hídrica e complicações.",
+        "Solicitação e interpretação de exames complementares para confirmação da síndrome e rastreio etiológico.",
+        "Formulações de hipóteses diagnósticas (Síndrome Nefrótica e seus diferenciais) e planejamento da investigação etiológica.",
+        "Estabelecimento da conduta terapêutica inicial e orientações ao paciente."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est01_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização do Edema: Investiga de forma completa:\n(1) início;\n(2) localização;\n(3) intensidade;\n(4) característica (mole, cacifo);\n(5) progressão;\n(6) fatores de piora ou agravantes;\n(7) fatores de melhora ou atenuantes;\n(8) episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 ou mais aspectos do edema.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 aspectos do edema.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 3 aspectos do edema ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Investigação de Sintomas Associados: Pergunta sobre:\n(1) urina espumosa e suas características (início, frequência, progressão);\n(2) redução do volume urinário (oligúria);\n(3) fadiga;\n(4) mal-estar;\n(5) ganho de peso inexplicável;\n(6) dor abdominal;\n(7) dispneia;\n(8) dor lombar.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta sobre 7 ou 8 sintomas associados, incluindo suas características.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta sobre 4 a 6 sintomas associados, incluindo suas características.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Pergunta sobre menos de 4 sintomas associados ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Antecedentes Pessoais Patológicos: Questiona sobre:\n(1) Doenças sistêmicas (Diabetes Mellitus, Lúpus Eritematoso Sistêmico, Amiloidose, Artrite Reumatoide);\n(2) Infecções crônicas (Hepatite B, C, HIV, sífilis);\n(3) Neoplasias;\n(4) Uso de medicamentos nefrotóxicos (AINs, lítio, sais de ouro, penicilamina);\n(5) Hipertensão Arterial Sistêmica (HAS);\n(6) Dislipidemia prévia;\n(7) História de doenças renais prévias.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Questiona sobre 6 ou 7 aspectos dos antecedentes patológicos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Questiona sobre 3 a 5 aspectos dos antecedentes patológicos.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Questiona sobre menos de 3 aspectos ou não questiona.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Hábitos de Vida e Antecedentes Familiares: Investiga:\n(1) dieta (alto consumo de sódio);\n(2) tabagismo;\n(3) etilismo;\n(4) uso de drogas ilícitas;\n(5) história familiar de doenças renais, autoimunes ou metabólicas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga menos de 2 aspectos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Exame Físico: Solicita e descreve achados do exame físico geral e por sistemas:\n(1) sinais vitais (PA, FC, FR, T);\n(2) estado geral, pele e mucosas (palidez, xantelasmas);\n(3) edema (localização, Godet, anasarca);\n(4) aparelho cardiovascular (turgência jugular, abafamento de bulhas);\n(5) aparelho respiratório (macicez, murmúrio vesicular reduzido, crepitantes);\n(6) abdome (ascite, hepatomegalia);\n(7) genitália (edema escrotal ou de grandes lábios).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e descreve corretamente 6 ou 7 sistemas/achados.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e descreve corretamente 3 a 5 sistemas/achados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita e descreve corretamente menos de 3 sistemas/achados ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Interpretação de Exames de Sinais Vitais e Exame Físico (Impresso 1): Interpreta corretamente:\n(1) pressão arterial (normotenso, hipotenso ou hipertenso);\n(2) frequência cardíaca;\n(3) frequência respiratória;\n(4) temperatura;\n(5) saturação de O2;\n(6) edema generalizado (anasarca) com Godet;\n(7) hipocorado;\n(8) turgência jugular aumentada;\n(9) murmúrio vesicular diminuído em bases;\n(10) ascite (macicez móvel, piparote).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 8 ou mais achados corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 5 a 7 achados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Interpreta menos de 5 achados ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicitação e Interpretação de Exames Laboratoriais (Gerais e Urina - Impressos 2 e 3): Solicita e interpreta:\n(1) hemograma completo (anemia, trombocitose);\n(2) ureia e creatinina séricas (função renal);\n(3) albumina sérica (hipoalbuminemia);\n(4) perfil lipídico (colesterol total e triglicerídeos elevados);\n(5) eletrólitos séricos (sódio, potássio);\n(6) glicemia de jejum;\n(7) urinálise (proteinúria maciça, cilindros graxos/hialinos, corpos graxos ovais birrefringentes);\n(8) relação proteína/creatinina urinária (RPCU) ou proteinúria de 24 horas (quantificação da proteinúria).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 7 ou 8 exames/achados corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 4 a 6 exames/achados corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta menos de 4 exames/achados ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicitação e Interpretação de Exames de Imagem e Etiologia Secundária (Impressos 4, 5 e 6): Solicita e interpreta:\n(1) ultrassonografia renal com Doppler (tamanho, contornos, trombose de veia renal);\n(2) radiografia de tórax (derrame pleural, edema pulmonar);\n(3) sorologias virais (HBsAg, Anti-HCV, Anti-HIV);\n(4) autoanticorpos (FAN, anti-DNA, complemento C3/C4);\n(5) eletroforese de proteínas séricas e urinárias;\n(6) TSH e T4 livre;\n(7) BNP.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 6 ou 7 exames/achados corretamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 3 a 5 exames/achados corretamente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta menos de 3 exames/achados ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Diagnóstico e Diagnósticos Diferenciais: Verbaliza:\n(1) diagnóstico de Síndrome Nefrótica;\n(2) diagnóstico diferencial de Insuficiência Cardíaca Congestiva (ICC);\n(3) diagnóstico diferencial de Cirrose Hepática;\n(4) diagnóstico diferencial de Desnutrição grave;\n(5) diagnóstico diferencial de Síndrome Nefrítica.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico de Síndrome Nefrótica e 3 a 4 diagnósticos diferenciais corretos.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico de Síndrome Nefrótica e 1 a 2 diagnósticos diferenciais corretos.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico correto ou nenhum diagnóstico diferencial.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Conduta Terapêutica Inicial e Proposta de Investigação:\n(1) indica controle do edema (restrição de sódio/líquidos, diuréticos de alça);\n(2) indica controle da proteinúria e PA (IECA ou BRA);\n(3) indica controle da dislipidemia (estatinas);\n(4) considera profilaxia para trombose em caso de albumina sérica muito baixa;\n(5) indica dieta normoproteica e hipossódica;\n(6) propõe biópsia renal para diagnóstico etiológico (exceto causas óbvias ou crianças típicas);\n(7) encaminhamento para nefrologista.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica corretamente 6 ou 7 itens da conduta terapêutica e investigação.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica corretamente 3 a 5 itens da conduta terapêutica e investigação.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Indica menos de 3 itens ou indica incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Orientações e Seguimento: Orienta o paciente sobre:\n(1) aderência à medicação;\n(2) automonitoramento (peso diário, edema, volume urinário);\n(3) sinais de alarme para procurar o serviço de saúde (febre, dor abdominal, dispneia, piora súbita do edema);\n(4) dieta e restrição hídrica;\n(5) necessidade de seguimento regular com nefrologista.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta corretamente 4 ou 5 aspectos.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta corretamente 2 ou 3 aspectos.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Orienta menos de 2 aspectos ou não orienta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Resposta às Dúvidas do Paciente: Responde de forma clara e completa às dúvidas do paciente:\n(1) O que eu tenho;\n(2) Se é grave/complicações;\n(3) opções de tratamento;\n(4) sobre os exames solicitados e sua finalidade;\n(5) sobre a dieta e cuidados a serem seguidos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde corretamente e de forma satisfatória 4 ou 5 dúvidas.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Responde corretamente 2 ou 3 dúvidas.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Responde menos de 2 dúvidas ou não responde adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Notificação ao SINAN: Menciona que, caso a Síndrome Nefrótica seja secundária a uma doença de notificação compulsória (ex: HIV, Hepatite B/C, Sífilis), a doença de base deve ser notificada.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Menciona a necessidade de notificação da doença de base, se aplicável.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não menciona a necessidade de notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Síndrome Nefrótica é uma síndrome clínica caracterizada por proteinúria maciça (>3,5g/1,73m²/dia em adultos), hipoalbuminemia (<3,0 g/dL), edema generalizado, hiperlipidemia e lipidúria. Na anamnese, o edema (início, localização, progressão, fatores de melhora/piora) e a urina espumosa são queixas-chave. Deve-se investigar antecedentes pessoais para causas secundárias (DM, LES, infecções, uso de drogas) e familiares (doença renal). O exame físico busca edema (anasarca, Godet), sinais de sobrecarga (turgência jugular, ascite, derrame pleural), palidez e, raramente, xantelasmas. Os exames laboratoriais confirmam a proteinúria, hipoalbuminemia, hiperlipidemia, e a urinálise mostra lipidúria e cilindros graxos. O rastreio para causas secundárias é fundamental (sorologias virais, autoanticorpos, eletroforese de proteínas). A ultrassonografia renal avalia os rins e a biópsia renal é essencial na maioria dos adultos para diagnóstico etiológico e tratamento específico. Os principais diagnósticos diferenciais são outras causas de edema (ICC, cirrose, desnutrição) e Síndrome Nefrítica. O tratamento inicial é sintomático (restrição de sódio/líquidos, diuréticos, IECA/BRA para proteinúria/PA, estatinas para dislipidemia, e considerar anticoagulação em alto risco). O tratamento etiológico depende da biópsia (corticosteroides, imunossupressores). As principais complicações incluem trombose, infecções e insuficiência renal aguda. O seguimento com nefrologista é obrigatório para monitoramento e manejo.",
+      "fontes": [
+        "1. KDIGO (Kidney Disease: Improving Global Outcomes) 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int. 2021;100(4 Suppl):S1-S276.",
+        "2. SBD (Sociedade Brasileira de Diabetes) Diretrizes 2023-2024. Capítulo de Doença Renal Crônica. Acesso em: [Data do acesso].",
+        "3. UpToDate. Clinical manifestations and diagnosis of nephrotic syndrome in adults. Acesso em: [Data do acesso]."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "0292a82a-e494-442f-9b59-553c1b924b56",
+  "created_at": "2025-08-28T11:04:02.213654",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Síndrome nefrotica",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

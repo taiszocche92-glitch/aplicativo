@@ -1,0 +1,644 @@
+{
+  "idEstacao": "REVALIDA_2025_CM_LRA_01",
+  "tituloEstacao": "Lesão Renal Aguda: Diagnóstico Diferencial e Manejo",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Lesão Renal Aguda",
+    "LRA",
+    "Nefrologia",
+    "Diagnóstico Diferencial",
+    "Manejo",
+    "Clínica Médica",
+    "Urgência",
+    "Insuficiência Renal"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Hospitalar",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (Ultrassonografia, Raio-X)",
+        "Medicações disponíveis",
+        "Unidade de terapia intensiva"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 65 anos, sexo masculino, chega ao pronto-socorro referindo cansaço progressivo, inchaço nas pernas e diminuição do volume urinário nos últimos 3 dias.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente e sintomas associados.",
+      "Realizar o exame físico direcionado à avaliação do caso.",
+      "Solicitar e interpretar exames complementares pertinentes ao caso clínico.",
+      "Verbalizar o diagnóstico, sua classificação de gravidade e os principais diagnósticos diferenciais.",
+      "Elaborar a conduta terapêutica inicial e definitiva, incluindo orientações ao paciente."
+    ],
+    "avisosImportantess": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "Você terá acesso a resultados de exames complementares se solicitá-los."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com muito cansaço, inchaço nas pernas e estou urinando pouco, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "CANSAÇO (Fadiga)",
+        "informacao": "Início: Há 3 dias, gradual\nProgressão: Tem piorado com o tempo\nIntensidade: Forte, me deixa sem energia para as atividades diárias\nFator de melhora: Melhora um pouco com repouso\nFator de piora: Piora com qualquer esforço\nEpisódios prévios: Não, nunca senti um cansaço tão intenso assim"
+      },
+      {
+        "contextoOuPerguntaChave": "INCHAÇO NAS PERNAS (Edema)",
+        "informacao": "Início: Há 3 dias, começou nas pernas\nLocalização: Começou nos tornozelos e agora está nas pernas, nos pés e no rosto\nIntensidade: Considerável, minhas calças estão apertadas\nCaracterística: Deixa marca quando eu aperto com o dedo\nProgressão: Piorou bastante desde que começou\nEpisódios prévios: Não, nunca tive inchaço assim"
+      },
+      {
+        "contextoOuPerguntaChave": "DIMINUIÇÃO DO VOLUME URINÁRIO (Oligúria)",
+        "informacao": "Início: Há 3 dias\nFrequência: Urinando menos vezes ao dia\nVolume: O volume de cada vez que urino também diminuiu muito\nProgressão: Piorou gradualmente\nCaracterísticas do jato: Sinto que o jato está fraco e tenho que fazer força para urinar\nEpisódios prévios: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE",
+        "informacao": "Início: Há 1 dia\nIntensidade: Febre baixa, não medi\nSintomas associados: Nega calafrios ou suores\nMedicação de alívio: Não usei nenhum remédio para a febre"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS OBSTRUTIVOS URINÁRIOS",
+        "informacao": "Disúria: Nega\nPolaciúria: Nega\nHematúria: Nega\nNictúria: Nega\nDor em flancos: Nega\nAnúria: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS DE HIPERVOLEMIA",
+        "informacao": "Dispneia: Sinto falta de ar aos esforços moderados, como subir escadas\nOrtopneia: Nega\nTosse: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS DE SEPSE",
+        "informacao": "Calafrios: Nega\nProstração grave: Nega\nAlteração do estado mental: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "EXPOSIÇÃO A NEFROTÓXICOS",
+        "informacao": "Medicamentos (AINEs): Sim, tomei ibuprofeno por 5 dias para dor nas costas, que passou a 1 dia\nMedicamentos (IECA/BRA): Sim, tomo Losartana para pressão alta\nAminoglicosídeos: Nega\nContrastes iodados: Nega\nToxinas: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HISTÓRIA DE CIRURGIAS RECENTES OU INTERNAÇÕES",
+        "informacao": "Cirurgias recentes: Nega\nInternações nos últimos 3 meses: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS GASTROINTESTINAIS",
+        "informacao": "Náuseas: Sinto um pouco de enjoo, principalmente de manhã\nVômitos: Nega\nAnorexia: Sim, estou com falta de apetite\nDiarreia: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos (item obrigatório)",
+        "informacao": "Doenças crônicas: Diabetes Mellitus tipo 2 (há 10 anos, com mau controle glicêmico); Hipertensão Arterial Sistêmica (há 15 anos); Doença Renal Crônica (diagnosticada há 2 anos, Estágio 2, estava estável até agora)\nCirurgias prévias: Nega\nInternações: Nega\nAlergias: Nega\nMedicamentos em uso contínuo: Losartana 50mg/dia, Hidroclorotiazida 25mg/dia, Metformina 850mg 2x/dia\nVacinação: Calendário em dia\nTrauma: Nega\nTransfusões: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA (ITEM OBRIGATÓRIO)",
+        "informacao": "Tabagismo: Ex-fumante há 5 anos (fumou por 20 anos, 1 maço/dia)\nEtilismo: Social, uma vez ao mês\nDrogas ilícitas: Nega\nAlimentação: Dieta rica em sal e carboidratos\nAtividade física: Sedentário\nSono: Irregular, durmo mal\nHábitos urinários: Diminuição do volume, jato fraco, esforço para urinar\nHábitos intestinais: Nega alterações\nIngestão hídrica: Nega alterações\nExposição ocupacional: Nega\nEstresse: Estresse moderado devido ao trabalho"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Hipertensão Arterial Sistêmica e Diabetes Mellitus\nMãe: Hipertensão Arterial Sistêmica\nDoenças na família: Nega histórico de doença renal genética\nHistoria de câncer na família: Nega\nIrmãos ou tias: Não consta no script"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega\nExposição a doenças infecciosas: Nega\nContato com doentes: Nega\nExposição a animais: Nega\nExposição a vetores: Nega\nÁgua consumida: Tratada, filtrada\nExposição a agentes ambientais: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL",
+        "informacao": "Situação familiar: Vive com a esposa e filhos\nRede de apoio: Boa rede de apoio familiar\nSituação socioeconômica: Renda estável\nNível educacional: Ensino médio completo\nReligião: Nega relevante para o caso\nEstresse psicossocial: Estresse moderado devido ao trabalho"
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR",
+        "informacao": "Se o candidato solicitar exames, diga 'considere solicitado' e libere os impressos correspondentes quando o examinador autorizar. Se o candidato solicitar exames físicos, diga 'considere realizado' e libere o impresso de sinais vitais e exame físico."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)?\npergunta (2): É grave? Vou precisar de diálise?\npergunta (3): O que posso fazer para melhorar?\npergunta (4): Isso tem cura? "
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est01_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "160 × 95 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "98 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "22 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "37.8 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "95% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado Geral",
+                  "valor": "Consciente, orientado no tempo e espaço, prostrado, mucosas úmidas e hipocoradas ++/4"
+                },
+                {
+                  "chave": "Pele e Mucosas",
+                  "valor": "Edema periorbital discreto. Pele sem lesões."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Turgência jugular leve (grau I a +45º). Ausência de massas cervicais."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Bulhas rítmicas, normofonéticas, em 2 tempos, sem sopros. Ictus cordis não palpável."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular diminuído globalmente. Creptantes finos em bases pulmonares bilateralmente."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Globoso, flácido, indolor à palpação profunda. RHA presentes e normais. Ausência de massas ou visceromegalias."
+                },
+                {
+                  "chave": "Membros Inferiores",
+                  "valor": "Edema +3/+4 bilateral em MMII (maleolar, pré-tibial, sacral), simétrico, com cacifo."
+                },
+                {
+                  "chave": "Neurológico",
+                  "valor": "Lúcido e orientado, sem sinais focais. Força e sensibilidade preservadas."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais (Gás arterial e Urina tipo 1)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "9.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "11.0 g/dL (Ref: 13.5-17.5 M)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "250.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Ureia",
+                  "valor": "120 mg/dL (Ref: 15-45) (VR: 15-40 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "4.2 mg/dL (Ref: 0.7-1.3). Creatinina basal prévia: 1.2 mg/dL (VR: 0,6-1,2 mg/dL)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "132 mEq/L (Ref: 135-145)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "6.2 mEq/L (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "Cálcio Total",
+                  "valor": "8.0 mg/dL (Ref: 8.5-10.5)"
+                },
+                {
+                  "chave": "Fósforo",
+                  "valor": "5.5 mg/dL (Ref: 2.5-4.5)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "GASOMETRIA ARTERIAL",
+              "itens": [
+                {
+                  "chave": "pH",
+                  "valor": "7.25 (Ref: 7.35-7.45)"
+                },
+                {
+                  "chave": "pCO2",
+                  "valor": "30 mmHg (Ref: 35-45)"
+                },
+                {
+                  "chave": "HCO3",
+                  "valor": "16 mEq/L (Ref: 22-26)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "URINÁLISE (EAS)",
+              "itens": [
+                {
+                  "chave": "Densidade Urinária",
+                  "valor": "1.010 (Ref: 1.003-1.030)"
+                },
+                {
+                  "chave": "Proteinúria",
+                  "valor": "+++/4"
+                },
+                {
+                  "chave": "Hemácias",
+                  "valor": "10-15/campo (Ref: <5)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "5-8/campo (Ref: <5)"
+                },
+                {
+                  "chave": "Cilindros",
+                  "valor": "Granulosos presentes"
+                },
+                {
+                  "chave": "Excreção Fracionada de Sódio (FeNa)",
+                  "valor": "3%"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_USG_RINS_3",
+        "tituloImpresso": "Ultrassonografia de Rins e Vias Urinárias",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado de ultrassonografia renal e de vias urinárias.",
+          "caminhoImagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Kidney_sonogram.jpg/640px-Kidney_sonogram.jpg",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: Ultrassonografia renal normal)",
+          "laudo": "Rins com dimensões preservadas (Rim direito: 10.5 cm; Rim esquerdo: 10.2 cm), contornos regulares e parênquima com ecogenicidade discretamente aumentada bilateralmente. Não há evidência de dilatação do sistema pielocalicial bilateralmente. Ausência de cálculos ou massas renais. Bexiga de paredes finas e conteúdo anecoico. Próstata com volume discretamente aumentado (40g), sem nódulos suspeitos."
+        }
+      },
+      {
+        "idImpresso": "est01_impresso_RX_TORAX_4",
+        "tituloImpresso": "Radiografia de Tórax (PA e Perfil)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Resultado de radiografia de tórax.",
+          "caminhoImagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Chest_x-ray_fluid_overload.jpg/640px-Chest_x-ray_fluid_overload.jpg",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: Raio-X tórax PA congestão pulmonar cardiomegalia derrame pleural)",
+          "laudo": "Áreas de aumento da trama vascular pulmonar, indicando congestão. Velamento dos seios costofrênicos bilateralmente, sugerindo derrame pleural de pequeno volume. Área cardíaca aumentada (índice cardiotorácico > 0.5), compatível com cardiomegalia. Campos pulmonares sem evidência de infiltrados ou consolidações."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST01_CM_LRA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 65 anos, com antecedentes de DM tipo 2, HAS e DRC Estágio 2, apresentando quadro de fadiga, edema e oligúria há 3 dias. Refere uso recente de AINEs. Exame físico revela hipertensão, taquicardia, febre baixa, edema generalizado, creptantes pulmonares e turgência jugular. Laboratório demonstra LRA KDIGO Estágio 3 (Creatinina basal de 1.2 mg/dL para 4.2 mg/dL), hipercalemia grave, acidose metabólica e urinálise com cilindros granulosos e FeNa de 3%. USG renal sem hidronefrose. RX de tórax com sinais de congestão pulmonar e cardiomegalia. O caso indica Lesão Renal Aguda intrínseca, provavelmente Necrose Tubular Aguda (NTA) por etiologia multifatorial (isquêmica e nefrotóxica) sobreposta a DRC crônica, com complicações como hipercalemia grave, acidose e sobrecarga volêmica.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa para identificar fatores de risco e etiologias de LRA.",
+        "Exame físico direcionado para sinais de hipervolemia, hipovolemia, sepse e obstrução.",
+        "Solicitação e interpretação de exames laboratoriais (função renal, eletrólitos, gasometria, urinálise) e de imagem (USG renal, RX tórax).",
+        "Estabelecimento do diagnóstico de LRA, estadiamento e diferenciação etiológica (pré-renal, intrínseca, pós-renal).",
+        "Manejo das complicações agudas (hipercalemia, acidose, sobrecarga volêmica) e indicação de terapia de substituição renal.",
+        "Orientações e planejamento de seguimento."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est01_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Queixa Principal e Caracterização: Questiona as características de:\n(1) cansaço;\n(2) inchaço nas pernas;\n(3) diminuição do volume urinário (oligúria);\n(4) início;\n(5) progressão;\n(6) intensidade;\n(7) fatores de melhora e piora dos sintomas.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou 7 dos itens listados.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 dos itens listados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Pergunta 2 ou menos dos itens listados ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Sintomas Associados e Sinais de Alerta: Questiona sobre:\n(1) sintomas de hipervolemia (dispneia, ortopneia, tosse);\n(2) sintomas de hipovolemia (vômitos, diarreia, sudorese excessiva, sangramento);\n(3) febre e sintomas de sepse (calafrios, prostração, alteração mental);\n(4) sintomas obstrutivos urinários (disúria, polaciúria, hematúria, diminuição do jato, dor em flancos, anúria);\n(5) sintomas gastrointestinais (náuseas, vômitos, anorexia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Questiona 4 ou 5 dos grupos de sintomas listados, incluindo todos os sintomas obstrutivos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Questiona 2 ou 3 dos grupos de sintomas listados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Questiona 1 ou menos dos grupos de sintomas ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Fatores Etiológicos e de Risco: Investiga sobre:\n(1) uso de medicamentos nefrotóxicos (AINEs, IECA/BRA, aminoglicosídeos, contrastes iodados);\n(2) história de cirurgias recentes ou internações;\n(3) comorbidades (DRC prévia, DM, HAS, ICC, hepatopatias, doenças autoimunes).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga os 3 itens de forma completa, incluindo as comorbidades relevantes.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 dos itens de forma completa.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 ou menos dos itens ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Antecedentes Pessoais Patológicos e Hábitos de Vida: Questiona sobre:\n(1) medicamentos em uso contínuo (com doses);\n(2) alergias;\n(3) tabagismo;\n(4) etilismo;\n(5) drogas ilícitas;\n(6) dieta (especialmente sódio e potássio).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Questiona 5 ou 6 dos itens listados.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Questiona 3 ou 4 dos itens listados.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Questiona 2 ou menos dos itens listados ou não questiona.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Solicita e Interpreta o Exame Físico Geral e Sinais Vitais:\n(1) solicita o exame físico geral (estado geral, pele e mucosas, cardiovascular, respiratório, abdome, membros, neurológico);\n(2) interpreta corretamente os sinais vitais (PA, FC, FR, Temperatura, SatO2);\n(3) interpreta os achados do exame físico (edema, creptantes, turgência jugular, palidez).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita o exame físico e interpreta corretamente os sinais vitais e pelo menos 3 achados do exame físico.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita o exame físico e interpreta corretamente os sinais vitais e 1 ou 2 achados do exame físico.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente o exame físico ou os sinais vitais.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicitação de Exames Laboratoriais: Solicita:\n(1) função renal (ureia, creatinina);\n(2) eletrólitos (sódio, potássio, cálcio, fósforo);\n(3) gasometria arterial;\n(4) hemograma completo;\n(5) urinálise (EAS e sedimento urinário, incluindo FeNa se disponível).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 4 ou 5 dos grupos de exames listados, com todos os itens essenciais para cada grupo.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 2 ou 3 dos grupos de exames listados.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Solicita 1 ou menos dos grupos de exames ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Interpretação de Exames Laboratoriais: Interpreta corretamente:\n(1) elevação de ureia e creatinina;\n(2) hipercalemia e hiponatremia;\n(3) acidose metabólica (pH, HCO3, pCO2);\n(4) anemia leve;\n(5) achados da urinálise (densidade, proteinúria, hematúria, leucocitúria, cilindros granulosos);\n(6) valor da FeNa (>2% sugerindo NTA).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente 5 ou 6 dos achados laboratoriais, incluindo o FeNa e os cilindros.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente 3 ou 4 dos achados laboratoriais.",
+            "pontos": 0.6
+          },
+          "inadequado": {
+            "criterio": "Interpreta corretamente 2 ou menos dos achados laboratoriais ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicitação e Interpretação de Exames de Imagem: Solicita e interpreta corretamente:\n(1) ultrassonografia de rins e vias urinárias;\n(2) raio-X de tórax;\n(3) ausência de hidronefrose na USG;\n(4) sinais de congestão pulmonar e cardiomegalia no RX de tórax.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita ambos os exames e interpreta corretamente 3 ou 4 dos achados.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita um exame e interpreta corretamente 1 ou 2 dos achados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente os exames de imagem.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Formulação do Diagnóstico Principal e Estadiamento: Verbaliza o diagnóstico correto de:\n(1) Lesão Renal Aguda;\n(2) Estágio 3 (KDIGO);\n(3) etiologia provável (Necrose Tubular Aguda por isquemia/nefrotoxicidade); \n(4) sobreposta a Doença Renal Crônica (DRC).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza corretamente os 4 itens do diagnóstico e estadiamento.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza corretamente 2 ou 3 dos itens do diagnóstico e estadiamento.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Verbaliza 1 ou menos dos itens ou não verbaliza o diagnóstico correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Citação de Diagnósticos Diferenciais: Cita:\n(1) LRA pré-renal;\n(2) LRA pós-renal;\n(3) LRA intrínseca (glomerulonefrite, nefrite intersticial aguda); \n(4) agudização de Doença Renal Crônica.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou 4 diagnósticos diferenciais relevantes, explicando brevemente como diferenciá-los.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 diagnósticos diferenciais relevantes.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais relevantes ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Elaboração da Conduta Terapêutica (Medidas Gerais e Específicas): Elabora conduta inicial incluindo:\n(1) suspensão de nefrotóxicos (AINEs, IECA/BRA, diuréticos); \n(2) otimização hemodinâmica e manejo hídrico (evitar sobrecarga ou hipovolemia, balanço hídrico rigoroso); \n(3) correção da hipercalemia (gluconato de cálcio, insulina + glicose, beta-agonistas, resinas);\n(4) correção da acidose metabólica (bicarbonato de sódio IV, se indicado); \n(5) controle da pressão arterial e glicemia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora conduta completa com 4 ou 5 dos itens listados, incluindo manejo das complicações.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora conduta com 2 ou 3 dos itens listados.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Elabora 1 ou menos dos itens ou conduta inadequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Indicação de Terapia de Substituição Renal e Medidas NÃO Eficazes: Cita indicações de diálise (AEIOU) e medidas não eficazes:\n(1) acidose metabólica grave refratária;\n(2) eletrólitos intratáveis (hipercalemia grave);\n(3) intoxicações por drogas dialisáveis;\n(4) sobrecarga volêmica refratária (edema pulmonar);\n(5) uremia grave (encefalopatia, pericardite, sangramento);\n(6) menciona que diuréticos e dopamina renal não tratam a LRA em si.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 4 ou 5 indicações de diálise e menciona as medidas não eficazes.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 2 ou 3 indicações de diálise ou apenas menciona as medidas não eficazes.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Cita 1 ou menos indicações de diálise ou não menciona as medidas não eficazes.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Orientações, Seguimento e Alerta para Complicações: Orienta sobre:\n(1) a causa da LRA e sua reversibilidade potencial;\n(2) medicamentos a evitar e ajuste de doses;\n(3) monitoramento da função renal e eletrólitos;\n(4) sinais de alerta de complicações (piora da oligúria, falta de ar, confusão);\n(5) necessidade de acompanhamento ambulatorial com nefrologista.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre 4 ou 5 dos aspectos de forma clara e compreensível.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta sobre 2 ou 3 dos aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Orienta sobre 1 ou menos dos aspectos ou não orienta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est01_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Responde às perguntas/dúvidas do paciente simulado de forma clara e empática.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde adequadamente a todas as perguntas do paciente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Responde parcialmente às perguntas do paciente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não responde ou responde de forma inadequada às perguntas do paciente.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Lesão Renal Aguda (LRA) é uma síndrome de rápida deterioração da função renal, caracterizada por aumento da creatinina sérica e/ou diminuição do débito urinário. É classificada pela KDIGO em estágios 1, 2 e 3. O diagnóstico diferencial é crucial, dividindo-se em pré-renal (hipoperfusão, como hipovolemia, choque, ICC), renal intrínseca (Necrose Tubular Aguda - NTA, glomerulonefrites, nefrite intersticial) e pós-renal (obstrução do trato urinário). \n\nNa anamnese, é fundamental buscar sintomas de hipo/hipervolemia, exposição a nefrotóxicos (AINEs, IECA/BRA, contrastes), histórico de sepse, cirurgias recentes, e comorbidades (DM, HAS, DRC prévia). O exame físico deve avaliar o estado volêmico, sinais de congestão (crepitantes, turgência jugular, edema) e desidratação (mucosas secas). \n\nOs exames complementares incluem ureia e creatinina seriadas, eletrólitos (atenção à hipercalemia), gasometria (acidose metabólica), hemograma (anemia crônica), urinálise (densidade, proteinúria, hematúria, cilindros granulosos na NTA, hemáticos na glomerulonefrite) e FeNa (importante para diferenciar pré-renal de NTA). A ultrassonografia de rins e vias urinárias é essencial para excluir obstrução e avaliar tamanho renal (rins pequenos sugerem DRC crônica). Radiografia de tórax pode evidenciar congestão pulmonar.\n\nO tratamento envolve a identificação e reversão da causa, otimização hemodinâmica e manejo hídrico individualizado. A correção de distúrbios hidroeletrolíticos (hipercalemia, acidose) é prioritária. As indicações de terapia de substituição renal (diálise) seguem o mnemônico AEIOU (Acidose, Eletrólitos, Intoxicações, Overload volêmica, Uremia grave). É crucial evitar medidas ineficazes como diuréticos para 'tratar' a LRA em si e agentes nefrotóxicos. O seguimento é fundamental para monitorar a recuperação e prevenir a progressão para DRC.",
+      "fontes": [
+        "1. KDIGO. Clinical Practice Guideline for Acute Kidney Injury. Kidney Int Suppl. 2012;2(1):1–138.",
+        "2. UpToDate. Etiology and diagnosis of acute kidney injury in adults. Disponível em: www.uptodate.com. Acesso em: 15 mai. 2024.",
+        "3. Brasil. Ministério da Saúde. Protocolos de Manejo Clínico da Lesão Renal Aguda. Brasília, DF: Ministério da Saúde, 2021."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "3a14c821-8b84-4a24-bc2a-4f61b7ac19bf",
+  "created_at": "2025-08-28T10:36:49.827986",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Lesão Renal Aguda (LRA): Diagnóstico diferencial e manejo",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

@@ -1,0 +1,588 @@
+{
+  "idEstacao": "REVALIDA_2025_CM_DisturbiosAcidoBase_01",
+  "tituloEstacao": "Distúrbios Ácido-Base (Cetoacidose Diabética)",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "acidose metabólica",
+    "cetoacidose diabética",
+    "gasometria arterial",
+    "diabetes mellitus",
+    "emergência clínica",
+    "atenção terciária"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem (Raio-X)",
+        "Medicações de emergência (insulina, soros, eletrólitos)",
+        "Unidade de terapia intensiva"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 55 anos, sexo masculino, chega à emergência universitária encaminhado pelo pronto-atendimento com quadro de descompensação de doença crônica, apresentando queixas de intensa sede e fraqueza progressiva há dois dias, acompanhadas de dificuldade para respirar e alteração do nível de consciência.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente.",
+      "Solicitar e Interpretar o exame físico necessário à avaliação do caso.",
+      "Solicitar e Interpretar exames complementares pertinentes ao caso clínico.",
+      "Estabelecer o diagnóstico principal e os diagnósticos diferenciais relevantes.",
+      "Elaborar a conduta terapêutica inicial e definitiva.",
+      "Realizar as orientações finais ao paciente e/ou acompanhante, incluindo prevenção."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "ATENÇÃO! TODOS OS EXAMES LABORATORIAIS E DE IMAGEM SOLICITADOS ESTÃO PRONTOS PARA SEREM LIBERADOS. VERBALIZE QUAL EXAME DESEJA VER."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com muita sede, urinando demais e com falta de ar há dois dias, doutor(a)."
+      },
+      {
+        "contextoOuPerguntaChave": "POLIDIPSIA (SEDE EXCESSIVA)",
+        "informacao": "Início: Há 2 dias\nIntensidade: Muita, não passa mesmo bebendo água\nProgressão: Piorando ao longo do dia\nFator de melhora ou atenuante: Beber água alivia momentaneamente, mas a sede volta rapidamente\nEpisódios prévios: Já tive sede aumentada antes, mas nunca tão intensa"
+      },
+      {
+        "contextoOuPerguntaChave": "POLIÚRIA (URINANDO DEMAIS)",
+        "informacao": "Início: Há 2 dias, junto com a sede\nFrequencia: Urinando muitas vezes ao dia e preciso levantar várias vezes à noite\nQuantidade: Grande volume de urina a cada vez\nProgressão: Aumentou nos últimos dois dias"
+      },
+      {
+        "contextoOuPerguntaChave": "DISPNEIA (FALTA DE AR)",
+        "informacao": "Início: Há 1 dia, ficou mais perceptível hoje\nIntensidade: Moderada, sinto falta de ar para falar e me movimentar\nCaracterística: Respiração rápida e profunda\nFator de piora ou agravante: Piora ao tentar fazer qualquer esforço\nFator de melhora ou atenuante: Melhora um pouco em repouso\nSintomas associados: Nega tosse ou dor no peito"
+      },
+      {
+        "contextoOuPerguntaChave": "NÁUSEAS E VÔMITOS",
+        "informacao": "Início: Há 1 dia\nFrequencia: Vômitos 2 vezes ao dia\nConteúdo: Principalmente alimentos que comi\nFator de melhora ou atenuante: Nega que algum remédio caseiro ou para enjoo tenha ajudado"
+      },
+      {
+        "contextoOuPerguntaChave": "DOR ABDOMINAL",
+        "informacao": "Início: Há 1 dia\nLocalização: Difusa, por toda a barriga\nIntensidade: Leve a moderada (3/10)\nCaracterística: Cólica leve, tipo desconforto\nFator de piora ou agravante: Não percebi nada que piore\nFator de melhora ou atenuante: Não percebi nada que melhore"
+      },
+      {
+        "contextoOuPerguntaChave": "SONOLÊNCIA",
+        "informacao": "Início: Hoje pela manhã\nProgressão: Está piorando, sinto dificuldade para ficar acordado\nFator de melhora ou atenuante: Não melhora com nada"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Dor de cabeça: Nega\nDor no peito: Nega\nFebre: Nega\nCalafrios: Nega\nSudorese: Nega\nPerda de peso não intencional: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Diabetes Mellitus tipo 2 há 10 anos (uso Metformina, mas às vezes esqueço), Hipertensão Arterial Sistêmica há 5 anos (uso Losartana diariamente)\nCirurgias prévias: Nega\nInternações: Nega\nAlergias: Nega\nMedicamentos em uso contínuo: Metformina 850mg 2x/dia (irregular), Losartana 50mg 1x/dia (regular)\nVacinação: Completa para idade\nTrauma: Nega\nTransfusões: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Hábitos sexuais: Não consta no script\nHábitos urinários: Já descrevi o aumento da frequência e volume\nHábitos intestinais: Sem alterações no padrão usual\nIngestão hídrica: Aumentada devido à sede\nExposição ocupacional: Nega\nEstresse: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega\nEtilismo: Social, 1 vez por semana, 2 latas de cerveja\nDrogas ilícitas: Nega\nAlimentação: Não sigo a dieta para diabetes, como de tudo um pouco\nAtividade física: Sedentário, não faço exercícios\nSono: Tenho dormido mal por causa da necessidade de urinar à noite"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Hipertensão e Diabetes\nMãe: Hipertensão\nDoenças na família: Nega outras doenças relevantes\nHistoria de câncer na família: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR: (Ex: Se o candidato solicitar o resultado dos exames trazidos libere o impresso (x) / Ex: Após o candidato solicitar o exame X responda 'considere solicitado' ou 'considere realizado o procedimento'.)",
+        "informacao": "Se o candidato solicitar o exame físico, libere o impresso 'est1_impresso_SINAISVITAIS_1'.\nSe o candidato solicitar exames laboratoriais, libere o impresso 'est1_impresso_LABORATORIO_2'.\nSe o candidato solicitar exames de imagem, libere o impresso 'est1_impresso_IMAGEM_RX_3'."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE: (ex: Dúvidas do ator sobre medicamentos, exames, condutas, etc., Perguntar após o atendimento se o candidato realizar a anamnese/exame fisico/conduta/tratamento/, Ex: Após o candidato realizar a anamnese, pergunte o que o paciente tem / Ex: Após realizar o diagnostico, pergunta se o que voce tem é grave, ou se tem complicações, ou se nao poderia ser outra coisa.)",
+        "informacao": "pergunta (1): O que eu tenho, doutor(a)?\npergunta (2): Isso é grave?\npergunta (3): Como vamos tratar isso? Tenho que tomar mais remédio para diabetes?\npergunta (4): Não poderia ser outra coisa, como uma infecção?\npergunta (5): O que eu faço para que isso não aconteça novamente? "
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "100 × 60 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "110 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "28 irpm (profunda e rápida - Kussmaul)"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "37.0 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "97% em ar ambiente"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO",
+              "itens": [
+                {
+                  "chave": "Geral",
+                  "valor": "Paciente sonolento, hipocorado (+/4+), desidratado (mucosas secas, turgor diminuído), hálito cetônico."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Normocefálico, pupilas isocóricas e fotorreagentes. Pescoço sem linfonodomegalias ou turgência jugular."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Ritmo cardíaco regular, bulhas rítmicas e taquicárdicas (B1, B2 normofonéticas), sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios. Respiração de Kussmaul (profunda e rápida)."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Plano, flácido, difusamente doloroso à palpação superficial e profunda, sem sinais de irritação peritoneal. Ruídos hidroaéreos presentes e normoativos."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edemas, pulsos periféricos palpáveis e simétricos. Força muscular global diminuída (3/5)."
+                },
+                {
+                  "chave": "Neurológico",
+                  "valor": "Sonolento, mas responsivo a estímulos verbais. Não há sinais de focalização. Escala de Coma de Glasgow 13 (O4 V4 M5)."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "GASOMETRIA ARTERIAL",
+              "itens": [
+                {
+                  "chave": "pH",
+                  "valor": "7.15 (Ref: 7.35-7.45)"
+                },
+                {
+                  "chave": "pCO₂",
+                  "valor": "25 mmHg (Ref: 35-45)"
+                },
+                {
+                  "chave": "pO₂",
+                  "valor": "90 mmHg (Ref: 75-100)"
+                },
+                {
+                  "chave": "HCO₃⁻",
+                  "valor": "8 mEq/L (Ref: 22-26)"
+                },
+                {
+                  "chave": "SatO₂",
+                  "valor": "97 % (Ref: 95-100)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ELETRÓLITOS SÉRICOS",
+              "itens": [
+                {
+                  "chave": "Sódio (Na⁺)",
+                  "valor": "130 mEq/L (Ref: 135-145)"
+                },
+                {
+                  "chave": "Potássio (K⁺)",
+                  "valor": "5.8 mEq/L (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "Cloreto (Cl⁻)",
+                  "valor": "100 mEq/L (Ref: 98-107)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Glicemia",
+                  "valor": "450 mg/dL (Ref: 70-100)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "60 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.8 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Lactato",
+                  "valor": "2.0 mmol/L (Ref: <2.0)"
+                },
+                {
+                  "chave": "Cetonas Urinárias",
+                  "valor": "++++ (Ref: Negativo)"
+                },
+                {
+                  "chave": "Cetonas Séricas",
+                  "valor": "+++ (Ref: Negativo)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "13.000 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.2 g/dL (Ref: 13.5-17.5 M)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "250.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_RX_3",
+        "tituloImpresso": "Radiografia de Tórax (AP/Perfil)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Radiografia de tórax de PA e perfil para avaliação de alterações pulmonares.",
+          "caminhoImagem": "(Buscar no Google Imagens: Radiografia de tórax normal PA e perfil adulto)",
+          "sugestaoBuscaImagem": "Radiografia de tórax normal PA e perfil adulto",
+          "laudo": "Campos pulmonares expandidos e transparentes, sem infiltrados ou consolidações. Áreas hilares e mediastinais com morfologia e dimensões usuais. Seios costofrênicos livres. Coração com área dentro dos limites da normalidade."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_DisturbiosAcidoBase_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 55 anos, com histórico de Diabetes Mellitus tipo 2 e Hipertensão Arterial Sistêmica, em uso irregular de Metformina. Apresenta-se em emergência com quadro de polidipsia, poliúria, dispneia tipo Kussmaul, náuseas, vômitos, dor abdominal difusa e sonolência progressiva. Exame físico revela desidratação, hálito cetônico e sonolência. Gasometria arterial confirma acidose metabólica grave, com hipobicarbonatemia e pCO₂ compensatório. Exames laboratoriais mostram hiperglicemia, cetonemia/cetonúria e distúrbios eletrolíticos. O quadro é compatível com cetoacidose diabética (CAD).",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa e direcionada para sintomas de descompensação metabólica.",
+        "Realização e interpretação do exame físico com foco em sinais vitais e avaliação do estado de consciência e hidratação.",
+        "Solicitação e interpretação da gasometria arterial e outros exames laboratoriais essenciais para distúrbios ácido-base e cetoacidose.",
+        "Diagnóstico diferencial de outras causas de acidose metabólica.",
+        "Elaboração de um plano terapêutico e de monitoramento abrangente para cetoacidose diabética."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se e (2) cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Realiza anamnese, investigando as características da polidipsia:\n(1) início;\n(2) intensidade;\n(3) progressão;\n(4) fatores de melhora/atenuantes;\n(5) episódios prévios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 4 ou 5 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 2 ou 3 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga 1 item ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Realiza anamnese, investigando as características da poliúria:\n(1) início;\n(2) frequência;\n(3) quantidade;\n(4) progressão.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 3 ou 4 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 1 ou 2 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Investiga nenhum item ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Realiza anamnese, investigando as características da dispneia:\n(1) início;\n(2) intensidade;\n(3) tipo/característica;\n(4) fatores de piora/agravantes;\n(5) fatores de melhora/atenuantes;\n(6) sintomas associados (tosse, dor no peito).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 ou 6 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 itens ou menos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Investiga sintomas acompanhantes relevantes:\n(1) náuseas;\n(2) vômitos;\n(3) dor abdominal;\n(4) sonolência/alteração do nível de consciência;\n(5) febre;\n(6) calafrios;\n(7) cefaleia.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 5 a 7 itens.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 ou 4 itens.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 itens ou menos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Investiga antecedentes pessoais patológicos e hábitos de vida relevantes:\n(1) doenças crônicas (diabetes, hipertensão);\n(2) uso de medicamentos contínuos e adesão (Metformina, Losartana);\n(3) alergias;\n(4) tabagismo;\n(5) etilismo;\n(6) dieta;\n(7) histórico familiar de diabetes ou hipertensão.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Investiga 6 ou 7 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Investiga 3 a 5 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Investiga 2 itens ou menos ou não investiga.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita e interpreta o exame físico geral e específico:\n(1) avalia o estado geral e hidratação do paciente;\n(2) avalia o nível de consciência e aplica escala (ex: Glasgow);\n(3) identifica o hálito cetônico;\n(4) caracteriza o padrão respiratório (Kussmaul);\n(5) avalia o abdome para descartar irritação peritoneal.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 4 ou 5 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 2 ou 3 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta adequadamente menos de 2 itens.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita exames laboratoriais essenciais para distúrbio ácido-base e cetoacidose:\n(1) gasometria arterial;\n(2) eletrólitos séricos (Na, K, Cl);\n(3) glicemia;\n(4) ureia e creatinina;\n(5) lactato sérico;\n(6) cetonas (séricas e/ou urinárias).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita 5 ou 6 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita 3 ou 4 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Solicita 2 itens ou menos ou não solicita.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpreta corretamente os resultados da gasometria arterial e eletrólitos:\n(1) identifica acidemia (pH < 7.35);\n(2) identifica HCO₃⁻ baixo (< 22 mEq/L);\n(3) identifica pCO₂ baixo (compensação respiratória);\n(4) calcula o ânion gap (AG) e identifica-o como elevado (AG > 12);\n(5) reconhece hiperglicemia, cetonemia/cetonúria;\n(6) identifica hipercalemia e hiponatremia corrigida.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta corretamente 5 ou 6 itens.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta corretamente 3 ou 4 itens.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Interpreta corretamente 2 itens ou menos ou não interpreta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Estabelece o diagnóstico principal:\n(1) Cetoacidose Diabética (CAD) grave;\n(2) Acidose metabólica com ânion gap elevado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico principal completo.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza apenas um dos componentes do diagnóstico principal.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico principal correto.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes para o quadro:\n(1) acidose láctica;\n(2) insuficiência renal aguda;\n(3) intoxicações (ex: metanol, etilenoglicol, salicilatos).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 2 ou 3 diagnósticos diferenciais corretos.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita apenas 1 diagnóstico diferencial correto.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Elabora a conduta terapêutica inicial e definitiva:\n(1) hidratação venosa agressiva (NaCl 0,9%);\n(2) insulinoterapia venosa (bolus + infusão contínua);\n(3) reposição de potássio (após correção da acidose e diurese);\n(4) considerar bicarbonato de sódio em casos selecionados (pH < 6.9 ou instabilidade hemodinâmica);\n(5) monitoramento intensivo (glicemia, eletrólitos, gasometria a cada 1-2h);\n(6) busca e tratamento do fator desencadeante (ex: infecção, má adesão).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora 5 ou 6 itens da conduta corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora 3 ou 4 itens da conduta corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Elabora 2 itens ou menos ou não elabora adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Realiza orientações ao paciente e/ou acompanhante:\n(1) explica o diagnóstico e a importância do tratamento;\n(2) orienta sobre a adesão à medicação e dieta para diabetes;\n(3) reforça a necessidade de acompanhamento médico regular;\n(4) indica sinais de alerta para buscar atendimento imediato.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta 3 ou 4 itens corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta 1 ou 2 itens corretamente.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Não orienta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Responde às perguntas/dúvidas do paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde às perguntas/dúvidas.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não responde às perguntas/dúvidas.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A cetoacidose diabética (CAD) é uma complicação aguda grave do diabetes mellitus, caracterizada por hiperglicemia, acidose metabólica com ânion gap elevado e cetonemia/cetonúria. É mais comum no DM tipo 1, mas pode ocorrer no DM tipo 2, especialmente em situações de estresse (infecção, trauma, má adesão à insulina ou hipoglicemiantes orais). Os sintomas incluem polidipsia, poliúria, perda de peso, náuseas, vômitos, dor abdominal, dispneia (respiração de Kussmaul) e alteração do nível de consciência. O exame físico revela desidratação, hálito cetônico e, em casos graves, rebaixamento do nível de consciência.\n\nO diagnóstico é confirmado pela gasometria arterial (pH < 7.30, HCO₃⁻ < 18 mEq/L, pCO₂ baixo compensatório), hiperglicemia (> 250 mg/dL) e presença de cetonas no sangue ou urina. O ânion gap (Na⁺ - (Cl⁻ + HCO₃⁻)) geralmente é > 12 mEq/L. Os diagnósticos diferenciais incluem outras causas de acidose metabólica com ânion gap elevado, como acidose láctica, insuficiência renal e intoxicações (metanol, etilenoglicol, salicilatos). A diferenciação é crucial para o tratamento adequado.\n\nOs fatores de risco para CAD incluem má adesão ao tratamento insulínico, infecções, infarto agudo do miocárdio, acidentes vasculares cerebrais, trauma, pancreatite e uso de certos medicamentos. As complicações incluem edema cerebral (especialmente em crianças, se a correção for muito rápida), hipocalemia grave e arritmias.\n\nO tratamento da CAD é uma emergência médica e envolve:\n1.  **Hidratação:** Solução fisiológica 0,9% IV em bolus e, posteriormente, infusão contínua, ajustando para glicose 5% quando glicemia < 200 mg/dL.\n2.  **Insulinoterapia:** Insulina regular IV em bolus e infusão contínua para reduzir a glicemia e suprimir a cetogênese.\n3.  **Reposição de Potássio:** Iniciar reposição quando o potássio sérico estiver < 5.3 mEq/L, geralmente após o início da insulinoterapia, monitorando rigorosamente.\n4.  **Bicarbonato de Sódio:** Raramente indicado, apenas em casos de acidose muito severa (pH < 6.9 ou 7.0) com instabilidade hemodinâmica, devido aos riscos de hipocalemia, sobrecarga de volume e acidose paradoxal do SNC.\n5.  **Monitoramento:** Glicemia, eletrólitos (Na, K, Cl), pH e cetonas devem ser monitorados a cada 1-2 horas até a resolução do quadro.\n6.  **Tratamento da causa precipitante:** Identificar e tratar a infecção, trauma, etc., que levou à CAD.\n\nO manejo adequado requer internação em UTI ou enfermaria com monitoramento intensivo, com reavaliações frequentes para ajustes terapêuticos. A educação do paciente sobre a importância da adesão ao tratamento do diabetes é fundamental para prevenir recorrências.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas. Cetoacidose Diabética. Disponível em: [https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/diabetes/protocolos-clinicos-e-diretrizes-terapeuticas/pcdt_cetoacidose_diabetica.pdf]. Acesso em: [27/05/2024].",
+        "2. UpToDate. Diabetic ketoacidosis: Management in adults. Disponível em: [https://www.uptodate.com/contents/diabetic-ketoacidosis-management-in-adults]. Acesso em: [27/05/2024].",
+        "3. Sociedade Brasileira de Diabetes. Diretrizes da Sociedade Brasileira de Diabetes 2023-2024. Disponível em: [https://www.diabetes.org.br/profissionais/images/2023/diretrizes/Diretrizes_SBD-2023-2024.pdf]. Acesso em: [27/05/2024]."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "6b2b04b7-b346-43c5-9e0f-e2a6731ec211",
+  "created_at": "2025-08-28T10:54:58.386588",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Distúrbios Ácido-Base",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

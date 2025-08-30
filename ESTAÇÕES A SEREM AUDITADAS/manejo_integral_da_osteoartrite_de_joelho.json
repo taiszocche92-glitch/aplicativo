@@ -40,6 +40,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Patrícia Souza, 68 anos, Aposentada e Viúva"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com dor no joelho direito e dificuldade para caminhar."
       },
@@ -455,5 +459,23 @@
         "3. Hochberg MC, et al. American College of Rheumatology 2012 Recommendations for the Use of Nonpharmacologic and Pharmacologic Therapies in Osteoarthritis of the Hand, Hip, and Knee. Arthritis Care Res (Hoboken). 2012;64(4):465-474."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "7214c357-d53e-4798-a32d-cec6e10d57af",
+  "created_at": "2025-08-28T12:51:27.468554",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Osteoartrite",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

@@ -1,0 +1,696 @@
+{
+  "idEstacao": "REVALIDA_2025_CM_INTOX_COCAINA",
+  "tituloEstacao": "Intoxicação Exógena por Cocaína",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "intoxicação",
+    "cocaína",
+    "simpaticomimética",
+    "emergência",
+    "toxicologia",
+    "clínica médica",
+    "atenção secundária",
+    "atenção terciária"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Consultórios",
+        "Laboratório de análises clínicas",
+        "Exames de imagem",
+        "Medicações disponíveis",
+        "Unidade de terapia intensiva"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 32 anos, sexo masculino, chega ao pronto-socorro acompanhado pela mãe, que refere que 'o filho está muito agitado e com o coração acelerado, e que acha que ele usou droga'.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada ao paciente e ao familiar.",
+      "Solicitar e verbalizar os achados do exame físico pertinente ao caso.",
+      "Solicitar exames complementares urgentes e interpretar seus resultados.",
+      "Estabelecer a(s) hipótese(s) diagnóstica(s) principal(is) e os diagnósticos diferenciais.",
+      "Elaborar e verbalizar a conduta terapêutica inicial e o manejo das complicações.",
+      "Comunicar o quadro clínico, riscos e a necessidade de seguimento e tratamento."
+    ],
+    "avisosImportantess": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: João da Silva\nIdade: 32 anos\nEstado Civil: Solteiro\nProfissão: Pedreiro\nEscolaridade: Ensino Médio Incompleto\nProcedência: Zona urbana"
+      },
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO ACOMPANHANTE",
+        "informacao": "Nome: Maria da Silva (Mãe)\nIdade: 58 anos\nEstado Civil: Viúva\nProfissão: Doméstica"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Meu filho está muito agitado e com o coração acelerado. Acho que ele usou droga."
+      },
+      {
+        "contextoOuPerguntaChave": "AGITAÇÃO",
+        "informacao": "Início: Há cerca de 2 horas\nProgressão: Piorando progressivamente\nIntensidade: Muito intensa, não consegue parar quieto\nFator de piora: Parece piorar quando tentamos acalmá-lo\nFator de melhora: Nenhum até agora"
+      },
+      {
+        "contextoOuPerguntaChave": "TAQUICARDIA",
+        "informacao": "Início: Simultâneo à agitação\nIntensidade: Familiar refere que 'o coração está disparado'\nSintomas associados: Não consegue parar quieto, fala rápido e incoerentemente"
+      },
+      {
+        "contextoOuPerguntaChave": "USO DE SUBSTÂNCIA",
+        "informacao": "Tipo de cocaína: Provavelmente 'crack'\nVia de administração: Fumada, como de costume\nDose estimada: Não sei exatamente, mas parece que fumou bastante hoje\nTempo desde a última dose: Cerca de 30 minutos antes de começarmos a notar a piora\nFrequência de uso: Quase todos os dias\nPadrão de uso habitual: Várias vezes ao dia, há cerca de 2 anos"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES",
+        "informacao": "Dor torácica: Negada pelo familiar\nDispneia: Negada pelo familiar, mas ele está respirando rápido\nCefaleia: Negada pelo familiar\nConvulsões: Negadas pelo familiar até o momento\nNáuseas: Negadas pelo familiar\nVômitos: Negados pelo familiar\nDor abdominal: Negada pelo familiar\nAlucinações: Familiar refere que ele 'parece ver coisas', mas não consegue descrever exatamente"
+      },
+      {
+        "contextoOuPerguntaChave": "USO CONCOMITANTE DE OUTRAS SUBSTÂNCIAS/MEDICAMENTOS",
+        "informacao": "Álcool: Negado pelo familiar\nOutras drogas ilícitas: Negado pelo familiar\nMedicamentos contínuos: Negado pelo familiar"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Hipertensão arterial sistêmica (HAS) - Negada; Doença arterial coronariana (DAC) - Negada; Diabetes - Negada; Hepatopatias - Negada; Nefropatias - Negada\nArritmias prévias: Negada\nHistória de acidente vascular cerebral (AVC): Negada\nTranstornos psiquiátricos: Familiar refere que 'sempre foi meio agitado', mas sem diagnóstico formal\nGestação: Não aplicável\nCirurgias prévias: Negadas\nInternações: Negadas\nAlergias: Negadas\nVacinação: Não consta no script\nTrauma: Não consta no script\nTransfusões: Não consta no script"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Sim, fuma um maço de cigarro por dia\nEtilismo: Socialmente, fins de semana\nDrogas ilícitas: Apenas cocaína (crack)\nAlimentação: Irregular, 'come o que dá'\nAtividade física: Negada\nSono: Não consta no script\nHábitos urinários: Não consta no script\nHábitos intestinais: Não consta no script\nIngestão hídrica: Não consta no script\nExposição ocupacional: Não consta no script\nEstresse: Não consta no script"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Não consta no script\nMãe: Não consta no script\nDoenças na família: Doenças cardíacas precoces - Negada; AVC - Negada; Transtornos psiquiátricos - Negada\nHistória de câncer na família: Negada\nIrmãos ou tias: Não consta no script"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): 'Doutor, o que vai ser feito com ele? Ele vai morrer?'\npergunta (2): 'Ele vai ficar internado? E depois, tem tratamento para isso?'"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "160 × 100 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "130 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "24 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "38.5 °C (axilar)"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "97% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_2",
+        "tituloImpresso": "Exame Físico Geral e Segmentar",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ESTADO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado mental",
+                  "valor": "Paciente em agitação psicomotora, inquieto, sudoreico, com fala acelerada, mas sem déficits neurológicos focais aparentes. Não colabora plenamente para o exame."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "PELE E MUCOSAS",
+              "itens": [
+                {
+                  "chave": "Pele",
+                  "valor": "Quente e úmida, sudorese profusa. Sem lesões de injeção evidentes ou queimaduras extensas."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "CABEÇA E PESCOÇO",
+              "itens": [
+                {
+                  "chave": "Pupilas",
+                  "valor": "Midríase bilateral e fotorreagente. Nistagmo ausente."
+                },
+                {
+                  "chave": "Orofaringe",
+                  "valor": "Sem alterações. Presença de bruxismo leve."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO CARDIOVASCULAR",
+              "itens": [
+                {
+                  "chave": "Ausculta cardíaca",
+                  "valor": "Taquicárdico, ritmo regular em dois tempos. Bulhas normofonéticas. Ausculta de sopros cardíacos: Negativo."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO RESPIRATÓRIO",
+              "itens": [
+                {
+                  "chave": "Ausculta pulmonar",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ABDOME",
+              "itens": [
+                {
+                  "chave": "Abdome",
+                  "valor": "Flácido, indolor à palpação superficial e profunda. Ruídos hidroaéreos presentes e normais."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "SISTEMA NEUROLÓGICO",
+              "itens": [
+                {
+                  "chave": "Reflexos",
+                  "valor": "Hiperreflexia generalizada. Não há sinais de focalização neurológica. Ausência de sinais meníngeos."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ECG_3",
+        "tituloImpresso": "Eletrocardiograma (ECG)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Apresentação do Eletrocardiograma do paciente.",
+          "caminhoImagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Sinus_tachycardia.PNG/800px-Sinus_tachycardia.PNG",
+          "sugestaoBuscaImagem": "(Buscar no Google Imagens: ECG taquicardia sinusal 130 bpm sem isquemia)",
+          "laudo": "ACHADOS:\nRitmo sinusal taquicárdico (FC 130 bpm). Intervalos PR, QRS, QT normais. Sem alterações isquêmicas agudas de ST-T. Eixo elétrico normal.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIAL_4",
+        "tituloImpresso": "Resultados de Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA COMPLETO",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14.0 g/dL (VR: 13.0 - 17.0 g/dL)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "42% (VR: 40 - 52%)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "12.500/mm³ (VR: 4.000 - 11.000/mm³)"
+                },
+                {
+                  "chave": "Segmentados",
+                  "valor": "78% (VR: 50 - 70%)"
+                },
+                {
+                  "chave": "Linfócitos",
+                  "valor": "15% (VR: 20 - 40%)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "250.000/mm³ (VR: 150.000 - 450.000/mm³)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Glicose",
+                  "valor": "180 mg/dL (VR: 70 - 99 mg/dL)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "30 mg/dL (VR: 10 - 50 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.0 mg/dL (VR: 0.6 - 1.3 mg/dL)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "140 mEq/L (VR: 135 - 145 mEq/L)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "4.2 mEq/L (VR: 3.5 - 5.0 mEq/L)"
+                },
+                {
+                  "chave": "Cloreto",
+                  "valor": "100 mEq/L (VR: 98 - 107 mEq/L)"
+                },
+                {
+                  "chave": "Bicarbonato",
+                  "valor": "24 mEq/L (VR: 22 - 29 mEq/L)"
+                },
+                {
+                  "chave": "CK Total",
+                  "valor": "450 U/L (VR: 22 - 198 U/L)"
+                },
+                {
+                  "chave": "Troponina I",
+                  "valor": "<0.01 ng/mL (VR: <0.04 ng/mL)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "TOXICOLOGIA DE URINA",
+              "itens": [
+                {
+                  "chave": "Cocaína/Metabólitos",
+                  "valor": "Positivo"
+                },
+                {
+                  "chave": "Outras drogas de abuso",
+                  "valor": "Negativo"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_INTOX_COCAINA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino de 32 anos, usuário de crack, apresenta-se no pronto-socorro com agitação psicomotora, taquicardia, hipertensão e hipertermia, compatível com síndrome simpaticomimética por intoxicação aguda por cocaína. Os exames laboratoriais mostram leucocitose leve, hiperglicemia e CPK elevada, sem lesão miocárdica aguda ou alterações hidroeletrolíticas significativas. O ECG revela taquicardia sinusal. A conduta inicial foca na estabilização hemodinâmica com benzodiazepínicos para controle da agitação, taquicardia e hipertensão, resfriamento para hipertermia e hidratação. A notificação e o encaminhamento para tratamento da dependência são essenciais.",
+      "focoPrincipalDetalhado": [
+        "Avaliar e estabilizar paciente em emergência toxicológica por intoxicação de cocaína.",
+        "Realizar anamnese e exame físico direcionados para identificar sinais e sintomas da síndrome simpaticomimética.",
+        "Solicitar e interpretar exames complementares para confirmação diagnóstica e exclusão de complicações.",
+        "Estabelecer o diagnóstico principal e os diferenciais relevantes.",
+        "Elaborar e implementar o plano terapêutico, incluindo manejo de complicações e contraindicações.",
+        "Fornecer orientações e realizar encaminhamentos para tratamento da dependência química."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o familiar;\n(3) Pergunta o nome do paciente.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza uma ou duas ações.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Agitação:\n(1) Início da agitação;\n(2) Progressão da agitação;\n(3) Intensidade da agitação;\n(4) Fator de piora da agitação;\n(5) Fator de melhora da agitação.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 de 5 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 de 5 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 3 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracterização da Taquicardia e Sintomas Associados à Hiperestimulação:\n(1) Início da taquicardia;\n(2) Intensidade da taquicardia;\n(3) Inquietude (não consegue parar quieto);\n(4) Fonoarticulação (fala rápida e incoerentemente).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 de 4 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 de 4 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 2 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Investigação do Uso da Substância:\n(1) Tipo de cocaína (pó, crack);\n(2) Via de administração (inalada, IV, fumada, oral);\n(3) Dose estimada (se possível);\n(4) Tempo desde a última dose;\n(5) Frequência de uso habitual;\n(6) Padrão de uso habitual.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou 6 de 6 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 de 6 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 3 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Investigação de Sintomas Associados Relevantes para Intoxicação por Cocaína:\n(1) Dor torácica;\n(2) Dispneia;\n(3) Cefaleia;\n(4) Convulsões;\n(5) Náuseas;\n(6) Vômitos;\n(7) Dor abdominal;\n(8) Alucinações.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 7 ou 8 de 8 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 6 de 8 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 4 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Investigação de Antecedentes Patológicos e Psiquiátricos:\n(1) Hipertensão arterial sistêmica (HAS);\n(2) Doença arterial coronariana (DAC);\n(3) Arritmias prévias;\n(4) Acidente vascular cerebral (AVC);\n(5) Transtornos psiquiátricos;\n(6) Hepatopatias;\n(7) Nefropatias;\n(8) Diabetes;\n(9) Gestação.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 7 a 9 de 9 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 4 a 6 de 9 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 4 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Anamnese - Investigação de Uso Concomitante de Outras Substâncias/Medicamentos:\n(1) Uso de álcool;\n(2) Uso de outras drogas ilícitas;\n(3) Uso de medicamentos contínuos.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 de 3 itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 ou 2 de 3 itens.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Anamnese - Investigação de Hábitos de Vida e Outros Achados Relevantes:\n(1) Tabagismo;\n(2) Etilismo;\n(3) Atividade física;\n(4) Alimentação;\n(5) Alergias medicamentosas;\n(6) Antecedentes Familiares (doenças cardíacas precoces, AVC, ou transtornos psiquiátricos).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 5 ou 6 de 6 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 ou 4 de 6 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 3 itens ou não pergunta item algum.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e verbaliza os achados dos Sinais Vitais (com base no impresso):\n(1) Pressão arterial;\n(2) Frequência cardíaca;\n(3) Frequência respiratória;\n(4) Temperatura;\n(5) Saturação O2.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e verbaliza corretamente 5 de 5 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e verbaliza corretamente 3 ou 4 de 5 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Solicita e verbaliza menos de 3 itens ou não o faz.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita e verbaliza os achados do Exame Físico Geral e Segmentar (com base no impresso):\n(1) Agitação psicomotora e estado mental;\n(2) Pele quente, úmida, sudorese profusa;\n(3) Midríase bilateral e fotorreagente;\n(4) Taquicardia à ausculta cardíaca;\n(5) Murmúrio vesicular presente bilateralmente, sem ruídos adventícios;\n(6) Hiperreflexia generalizada, sem sinais de focalização neurológica.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e verbaliza corretamente 5 ou 6 de 6 itens principais.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e verbaliza corretamente 3 ou 4 de 6 itens principais.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Solicita e verbaliza menos de 3 itens principais ou não o faz.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Solicita e interpreta o Eletrocardiograma (ECG - com base no impresso):\n(1) Ritmo sinusal taquicárdico;\n(2) Ausência de alterações isquêmicas agudas de ST-T.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 2 de 2 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente apenas 1 de 2 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Solicita e interpreta os Exames Laboratoriais (com base no impresso):\n(1) Leucocitose com desvio à esquerda (Hemograma);\n(2) Hiperglicemia (Glicose);\n(3) Creatinoquinase total elevada (CK Total);\n(4) Troponina I normal (Enzimas cardíacas);\n(5) Cocaína/Metabólitos positivo (Toxicologia de urina).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta corretamente 5 de 5 itens principais.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta corretamente 3 ou 4 de 5 itens principais.",
+            "pontos": 0.4
+          },
+          "inadequado": {
+            "criterio": "Solicita e interpreta menos de 3 itens principais ou não o faz.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Formula a hipótese diagnóstica principal:\n(1) Síndrome simpaticomimética aguda por intoxicação exógena por cocaína (ou sinônimos equivalentes).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Formula o diagnóstico corretamente.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Formula um diagnóstico correto, mas incompleto ou impreciso (ex: apenas 'intoxicação por cocaína').",
+            "pontos": 0.6
+          },
+          "inadequado": {
+            "criterio": "Não formula o diagnóstico corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Cita diagnósticos diferenciais relevantes:\n(1) Infarto agudo do miocárdio;\n(2) Acidente vascular cerebral (isquêmico ou hemorrágico);\n(3) Crise hipertensiva;\n(4) Outras intoxicações simpaticomiméticas (ex: anfetaminas, ecstasy).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Cita 3 ou 4 de 4 diagnósticos diferenciais corretos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Cita 1 ou 2 de 4 diagnósticos diferenciais corretos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não cita diagnósticos diferenciais ou cita incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Elabora a conduta terapêutica inicial, visando a estabilização:\n(1) Estabilização ABC (via aérea, respiração e circulação);\n(2) Monitorização cardíaca contínua, oximetria de pulso, acesso venoso;\n(3) Controle da agitação e hipertensão com Benzodiazepínicos (Lorazepam ou Diazepam);\n(4) Resfriamento rápido para hipertermia (compressas frias, fluidos IV gelados, remoção de roupas);\n(5) Hidratação com soro fisiológico 0,9% IV.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora corretamente 5 de 5 itens.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora corretamente 3 ou 4 de 5 itens.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Elabora menos de 3 itens corretamente ou inclui condutas prejudiciais.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Elabora o manejo de complicações e contraindicações:\n(1) Contraindicação de Beta-bloqueadores puros como primeira linha para hipertensão/taquicardia;\n(2) Considera fentolamina para crise hipertensiva persistente;\n(3) Manejo da dor torácica/isquemia miocárdica (Oxigênio, AAS, benzodiazepínicos, nitratos);\n(4) Manejo de arritmias (Benzodiazepínicos, Amiodarona/Procainamida, cardioversão, conforme tipo);\n(5) Manejo de rabdomiólise (Hidratação agressiva, alcalinização urinária).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora corretamente 5 de 5 itens, incluindo a contraindicação de beta-bloqueadores.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora 3 ou 4 de 5 itens corretamente, mas pode omitir ou não enfatizar a contraindicação.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Elabora menos de 3 itens corretamente ou inclui condutas prejudiciais.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item17",
+        "itemNumeroOficial": "17",
+        "descricaoItem": "Orientações e seguimento:\n(1) Importância da abstinência de cocaína;\n(2) Necessidade de tratamento da dependência química (ex: CAPS-AD, comunidades terapêuticas);\n(3) Riscos de complicações a longo prazo;\n(4) Responde às perguntas do familiar.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre 3 ou 4 aspectos e responde às perguntas do familiar.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta sobre 1 ou 2 aspectos ou não responde a todas as perguntas do familiar.",
+            "pontos": 0.15
+          },
+          "inadequado": {
+            "criterio": "Não orienta adequadamente ou não responde às perguntas.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item18",
+        "itemNumeroOficial": "18",
+        "descricaoItem": "Notificação ao SINAN:\n(1) Menciona a necessidade de notificação do caso (ou encaminhamento para serviços que o façam).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Menciona a necessidade de notificação.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não menciona a necessidade de notificação.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A intoxicação exógena por cocaína é uma emergência médica decorrente do uso agudo da substância, que atua como um potente simpaticomimético ao inibir a recaptação de dopamina, noradrenalina e serotonina. Clinicamente, os pacientes podem apresentar agitação psicomotora, taquicardia, hipertensão, hipertermia e midríase, com risco de complicações cardiovasculares (IAM, arritmias, crise hipertensiva, AVC), neurológicas (convulsões, AVC), e metabólicas (rabdomiólise). A anamnese deve investigar o tipo, via, dose e frequência de uso da cocaína, além de comorbidades e uso de outras substâncias. O exame físico deve focar nos sinais vitais e sistemas cardiovascular e neurológico. Exames complementares como ECG, troponinas, CPK, eletrólitos, glicemia e toxicologia de urina são cruciais. O diagnóstico é clínico-epidemiológico. O tratamento é de suporte, sendo os benzodiazepínicos a pedra angular para controle da agitação, taquicardia e hipertensão. A hipertermia exige resfriamento rápido e a rabdomiólise requer hidratação agressiva. **Beta-bloqueadores puros são contraindicados** devido ao risco de vasoconstrição coronariana não oposta. O encaminhamento para tratamento da dependência química em CAPS-AD ou comunidades terapêuticas é mandatório após a estabilização do quadro agudo. A notificação de intoxicações exógenas por drogas ilícitas é importante para a vigilância epidemiológica.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Secretaria de Atenção Primária à Saúde. Protocolos de Encaminhamento da Atenção Primária à Saúde. Intoxicação Exógena. 2022.",
+        "2. Goldfrank's Toxicologic Emergencies. 11th ed. McGraw-Hill, 2019.",
+        "3. UpToDate. Cocaine: Acute intoxication. (Acessado em Dezembro de 2024)."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "a7cbf874-125b-4770-b164-744eb60a0994",
+  "created_at": "2025-08-28T15:16:22.402068",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Intoxicaçõe Exógena: Cocaina",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

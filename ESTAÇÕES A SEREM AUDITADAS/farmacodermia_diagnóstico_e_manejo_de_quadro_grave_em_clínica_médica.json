@@ -43,6 +43,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Elizabeth Dias, 55 anos, Professora e Divorciada"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com manchas vermelhas no corpo todo, coceira e febre."
       },
@@ -682,5 +686,23 @@
         "4. Sociedade Brasileira de Clínica Médica (SBCM). Diretrizes de Reações Adversas a Medicamentos. Disponível em: sbcm.org.br. Acesso em: 08 mai. 2024."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "605fc4db-2b80-48a3-8446-ec448ce31421",
+  "created_at": "2025-08-28T09:41:04.232268",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Farmacodermia",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

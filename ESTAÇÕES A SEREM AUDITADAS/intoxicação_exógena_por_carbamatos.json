@@ -45,6 +45,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Julio Batista, 35 anos, Professor e Casado"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Minha cabeça está girando, meu peito está apertado e estou suando muito."
       },
@@ -583,5 +587,23 @@
         "3. World Health Organization. The WHO recommended classification of pesticides by hazard and guidelines to classification 2019. Geneva: World Health Organization; 2019."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "e06992eb-28e4-47f9-a646-aee19d499e8a",
+  "created_at": "2025-08-28T15:04:46.193634",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Intoxicaçõe Exógena: Carbamatos (veneno de rato)",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

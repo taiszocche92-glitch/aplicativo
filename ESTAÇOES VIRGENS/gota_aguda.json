@@ -1,0 +1,678 @@
+{
+  "idEstacao": "REVALIDA_DIFICIL_2025_CM_GOTAAGUDA_01",
+  "tituloEstacao": "Gota Aguda",
+  "numeroDaEstacao": 1,
+  "especialidade": "Clínica Médica",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "gota aguda",
+    "artrite microcristalina",
+    "hiperuricemia",
+    "podagra",
+    "artrocentese",
+    "anti-inflamatório",
+    "colchicina",
+    "alopurinol",
+    "diagnóstico diferencial",
+    "artrite séptica",
+    "clínica médica",
+    "pronto-socorro",
+    "difícil"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção secundária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Consultórios de urgência",
+        "Laboratório de análises clínicas",
+        "Setor de radiologia com exames de imagem (Raio-X, Ultrassonografia)",
+        "Medicações de urgência disponíveis",
+        "Sala de procedimentos para artrocentese"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente João da Silva, 55 anos, chega ao pronto-socorro referindo dor intensa e inchaço no dedão do pé direito.",
+    "tarefasPrincipais": [
+      "Estabelecer vínculo com o paciente.",
+      "Realizar anamnese direcionada, investigando a queixa principal e antecedentes.",
+      "Verbalizar a solicitação e avaliar os achados dos exames físicos apresentados.",
+      "Solicitar e interpretar os exames complementares necessários para o diagnóstico e diferenciação.",
+      "Formular o diagnóstico principal e os diagnósticos diferenciais.",
+      "Definir a conduta terapêutica inicial para a crise aguda e o plano de manejo a longo prazo.",
+      "Realizar orientações ao paciente sobre modificações de estilo de vida, tratamento e prevenção de futuras crises.",
+      "Responder às dúvidas do paciente."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Nome: João da Silva\nIdade: 55 anos\nEstado Civil: Casado\nProfissão: Pedreiro\nProcedência: Cidade A"
+      },
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou com uma dor insuportável no dedão do pé direito e ele está muito inchado."
+      },
+      {
+        "contextoOuPerguntaChave": "DOR NO DEDÃO DO PÉ DIREITO",
+        "informacao": "Início: Súbito\nHá quanto tempo: Há 24 horas\nQuando começou: Durante a madrugada\nLocalização: Primeira articulação metatarsofalângica\nQual membro: Dedão do pé direito\nIntensidade: 10/10\nDescrição da intensidade: A pior dor que já senti\nCaracterística: Latejante\nCaracterística: Pulsátil\nCaracterística: Excruciante\nIrradiação: Não irradia\nDuração: Contínua\nMelhora: Não melhora com nada\nProgressão: Piorou rapidamente nas primeiras 6 horas e se mantém intensa\nFator de piora: Mínimo toque\nFator de piora: Movimento\nFator de piora: Até o lençol na cama\nFator de melhora: Nenhum\nEpisódios prévios: Sim\nQuando episódio prévio: Há 1 ano\nLocal episódio prévio: No mesmo local\nDuração episódio prévio: Durou uns 5 dias\nMelhora episódio prévio: Passou sozinha\nProcurou médico episódio prévio: Não"
+      },
+      {
+        "contextoOuPerguntaChave": "INCHAÇO, RUBOR E CALOR",
+        "informacao": "Início: Começou junto com a dor\nLocalização: Articulação afetada\nIntensidade: Muito visível\nSensibilidade: Muito sensível ao toque\nCalor: A articulação está muito quente\nRubor: Está muito vermelha\nBrilho: Pele brilhante"
+      },
+      {
+        "contextoOuPerguntaChave": "FEBRE E CALAFRIOS",
+        "informacao": "Febre: Sim\nQuando sentiu febre: Ontem à noite\nTemperatura estimada: Uns 38°C\nCalafrios: Sim\nFrequência calafrios: Esporádicos\nQuando calafrios: Ontem à noite"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos",
+        "informacao": "Doenças crônicas: Hiperuricemia há 3 anos; Hipertensão Arterial Sistêmica (HAS)\nCirurgias prévias: Nega\nInternações: Nega\nAlergias: Nega\nMedicamentos em uso contínuo: Captopril 25mg 2x/dia\nVacinação: Não consta\nTrauma: Nega\nTransfusões: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Idade: 55 anos"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Gota\nMãe: Nega\nDoenças na família: Meu avô também tinha 'doença das juntas', com crises de dor forte nos pés\nHistória de câncer na família: Nega\nIrmãos ou tias: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA",
+        "informacao": "Tabagismo: Nega\nEtilismo: Sim, cerveja; 4-5 latas nos finais de semana; Bebo umas 6 latas na noite anterior à crise\nDrogas ilícitas: Nega\nAlimentação: Gosto muito de carne vermelha e frutos do mar, consumo regularmente\nAtividade física: Sedentário, não pratico\nSono: Não consta\nHábitos urinários: Não consta\nHábitos intestinais: Não consta\nIngestão hídrica: Não costumo beber muita água\nExposição ocupacional: Nega\nEstresse: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE",
+        "informacao": "pergunta (1): Doutor(a), o que é isso que eu tenho? Tem cura? Vou ter que tomar remédio para sempre?\npergunta (2): Mas doutor(a), eu não posso mais beber minha cervejinha? E a carne? Que outras coisas eu deveria mudar?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão arterial",
+                  "valor": "140 × 90 mmHg"
+                },
+                {
+                  "chave": "Frequência cardíaca",
+                  "valor": "98 bpm"
+                },
+                {
+                  "chave": "Frequência respiratória",
+                  "valor": "18 irpm"
+                },
+                {
+                  "chave": "Temperatura",
+                  "valor": "38,2 °C"
+                },
+                {
+                  "chave": "Saturação O2",
+                  "valor": "97% em ar ambiente"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_GERAL_2",
+        "tituloImpresso": "Exame Físico Geral",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ECTOSCOPIA",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Regular estado geral, consciente, orientado, fáscies de dor."
+                },
+                {
+                  "chave": "Tofos",
+                  "valor": "Ausentes ao exame no pavilhão auricular, cotovelos e tendão de Aquiles."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO CARDIOVASCULAR",
+              "itens": [
+                {
+                  "chave": "Ausculta cardíaca",
+                  "valor": "Rítmica em 2 tempos, bulhas normofonéticas, sem sopros."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "APARELHO RESPIRATÓRIO",
+              "itens": [
+                {
+                  "chave": "Ausculta pulmonar",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "ABDOME",
+              "itens": [
+                {
+                  "chave": "Inspeção e palpação",
+                  "valor": "Plano, flácido, indolor à palpação superficial e profunda, ruídos hidroaéreos presentes."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_EXAMEFISICO_ARTICULAR_3",
+        "tituloImpresso": "Exame Físico Articular - Pé Direito",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "ARTICULAÇÃO METATARSOFALÂNGICA DO HÁLUX (1ª MTP) DIREITA",
+              "itens": [
+                {
+                  "chave": "Inspeção",
+                  "valor": "Intenso rubor, edema importante, pele tensa e brilhante."
+                },
+                {
+                  "chave": "Palpação",
+                  "valor": "Calor local acentuado, dor excruciante ao mínimo toque."
+                },
+                {
+                  "chave": "Mobilidade",
+                  "valor": "Extremamente limitada e dolorosa, tanto ativa quanto passiva."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_PRONTOSOCORRO_4",
+        "tituloImpresso": "Exames Laboratoriais - Pronto-Socorro",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA COMPLETO",
+              "itens": [
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "14,5 g/dL (VR: 13,0 - 17,0 g/dL)"
+                },
+                {
+                  "chave": "Hematócrito",
+                  "valor": "43,0% (VR: 39,0 - 50,0%)"
+                },
+                {
+                  "chave": "VCM",
+                  "valor": "90 fL (VR: 80 - 100 fL)"
+                },
+                {
+                  "chave": "Leucócitos",
+                  "valor": "13.500/mm³ (VR: 4.000 - 11.000/mm³)"
+                },
+                {
+                  "chave": "Segmentados",
+                  "valor": "85% (VR: 40 - 70%)"
+                },
+                {
+                  "chave": "Linfócitos",
+                  "valor": "10% (VR: 20 - 45%)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "300.000/mm³ (VR: 150.000 - 450.000/mm³)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Glicose jejum",
+                  "valor": "95 mg/dL (VR: 70 - 99 mg/dL)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "40 mg/dL (VR: 15 - 45 mg/dL)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1,0 mg/dL (VR: 0,6 - 1,3 mg/dL)"
+                },
+                {
+                  "chave": "Ácido Úrico sérico",
+                  "valor": "8,2 mg/dL (VR: 3,5 - 7,0 mg/dL)"
+                },
+                {
+                  "chave": "PCR",
+                  "valor": "80 mg/L (VR: < 5 mg/L)"
+                },
+                {
+                  "chave": "VHS",
+                  "valor": "55 mm/1h (VR: < 15 mm/1h)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LIQUIDOSINOVIAL_5",
+        "tituloImpresso": "Análise do Líquido Sinovial (Articulação Metatarsofalângica do Hálux Direito)",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "MACROSCOPIA",
+              "itens": [
+                {
+                  "chave": "Aspecto",
+                  "valor": "Turvo, amarelo-esverdeado"
+                },
+                {
+                  "chave": "Viscosidade",
+                  "valor": "Diminuída"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "MICROSCOPIA E BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "65.000/mm³"
+                },
+                {
+                  "chave": "Polimorfonucleares",
+                  "valor": "90%"
+                },
+                {
+                  "chave": "Cultura e Gram",
+                  "valor": "Negativos"
+                },
+                {
+                  "chave": "Pesquisa de cristais",
+                  "valor": "Presentes cristais em forma de agulha, fortemente birrefringentes, intracelulares e extracelulares"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_RAIOX_PE_6",
+        "tituloImpresso": "Radiografia Simples do Pé Direito - Incidência Anteroposterior e Oblíqua",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "ATENÇÃO: DIRIJA-SE PARA A CÂMERA E EXPLIQUE OS ACHADOS NA IMAGEM.",
+          "caminhoImagem": "(Buscar no Google Imagens: Radiografia de pé com gota aguda no hálux, sem erosões ósseas)",
+          "sugestaoBuscaImagem": "Radiografia de pé direito gota",
+          "laudo": "Sinais de edema de partes moles periarticulares na 1ª articulação metatarsofalângica. Não há sinais de erosões ósseas ou lesões líticas evidentes. Espaços articulares preservados. Ausência de condrocalcinose."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_GOTAAGUDA_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente João da Silva, 55 anos, sexo masculino, pedreiro, chega ao pronto-socorro com dor excruciante e inchaço no dedão do pé direito, de início súbito há 24 horas, com histórico de episódio similar prévio e hiperuricemia não tratada. Apresenta febre baixa e calafrios. Possui história familiar de gota e hábitos de vida com consumo regular de álcool e dieta rica em purinas. Exames laboratoriais mostram leucocitose, VHS e PCR elevados, e ácido úrico sérico elevado. A análise do líquido sinovial da articulação afetada revela leucócitos elevados com predomínio de polimorfonucleares, cultura e Gram negativos, e presença de cristais de monourato de sódio fortemente birrefringentes em forma de agulha, intracelulares e extracelulares, confirmando o diagnóstico de gota aguda.",
+      "focoPrincipalDetalhado": [
+        "Anamnese completa e direcionada para monoartrite aguda e fatores de risco de gota.",
+        "Interpretação de achados do exame físico geral e específico da articulação.",
+        "Solicitação e interpretação de exames laboratoriais, com ênfase na análise do líquido sinovial.",
+        "Diferenciação de artrite séptica e outras monoartrites inflamatórias.",
+        "Estabelecimento do diagnóstico de gota aguda e elaboração de plano terapêutico imediato e a longo prazo.",
+        "Orientação abrangente ao paciente sobre a doença e manejo."
+      ]
+    },
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação:\n(1) Apresenta-se;\n(2) Cumprimenta o paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Dor no Dedão do Pé Direito: Investiga as características da dor:\n(1) Início (súbito/gradual, há quanto tempo);\n(2) Localização exata e qual membro;\n(3) Intensidade (escala 0-10, descrição);\n(4) Característica (latejante, pulsátil, excruciante);\n(5) Irradiação;\n(6) Duração e progressão;\n(7) Fatores de piora (mínimo toque, movimento, lençol);\n(8) Fatores de melhora;\n(9) Episódios prévios (quando, local, duração, melhora, procurou médico).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 8 ou mais de 9 características da dor.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 5 a 7 de 9 características da dor.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 5 características ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Inchaço, Rubor e Calor: Investiga as características:\n(1) Início;\n(2) Localização;\n(3) Intensidade do inchaço;\n(4) Sensibilidade ao toque;\n(5) Calor local;\n(6) Rubor e brilho da pele.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou mais de 6 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 de 6 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 2 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Febre e Calafrios: Investiga:\n(1) Presença de febre;\n(2) Quando sentiu febre e temperatura estimada;\n(3) Presença e frequência de calafrios.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta os 3 itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 ou 2 itens.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Não pergunta sobre nenhum item.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Antecedentes Pessoais Patológicos: Investiga:\n(1) Hiperuricemia prévia e tratamento;\n(2) Doença renal crônica;\n(3) Hipertensão arterial;\n(4) Diabetes mellitus;\n(5) Obesidade/Síndrome metabólica;\n(6) Doenças cardiovasculares;\n(7) Hipotireoidismo;\n(8) Psoríase;\n(9) Medicamentos em uso contínuo (Captopril).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 6 ou mais de 9 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 3 a 5 de 9 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 3 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Antecedentes Familiares e Fisiológicos: Investiga:\n(1) História familiar de gota;\n(2) Idade do paciente.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta os 2 itens.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta apenas 1 item.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Não pergunta sobre nenhum item.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Anamnese - Hábitos de Vida: Investiga:\n(1) Consumo de álcool (tipo, quantidade, frequência e consumo pré-crise);\n(2) Dieta (ingestão de purinas, açúcares, carne vermelha, frutos do mar);\n(3) Tabagismo;\n(4) Sedentarismo e atividade física;\n(5) Hidratação.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 4 ou 5 de 5 itens.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 2 ou 3 de 5 itens.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Pergunta menos de 2 itens ou não pergunta.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Interpreta os Sinais Vitais (est1_impresso_SINAISVITAIS_1) e Exame Físico Geral (est1_impresso_EXAMEFISICO_GERAL_2) com ênfase em achados inflamatórios e tofos:\n(1) Temperatura elevada (febre);\n(2) Taquicardia;\n(3) Estado geral (fáscies de dor);\n(4) Ausência de tofos palpáveis em locais típicos (orelha, cotovelos, Aquiles).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 3 ou 4 de 4 itens corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 1 ou 2 de 4 itens corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não interpreta ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Interpreta o Exame Físico Articular Específico (est1_impresso_EXAMEFISICO_ARTICULAR_3) da articulação afetada:\n(1) Rubor intenso;\n(2) Edema importante;\n(3) Calor local acentuado;\n(4) Dor excruciante à palpação;\n(5) Limitação importante da mobilidade.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Interpreta 4 ou 5 de 5 itens corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Interpreta 2 ou 3 de 5 itens corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não interpreta ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita e interpreta os exames laboratoriais iniciais (est1_impresso_LABORATORIO_PRONTOSOCORRO_4):\n(1) Leucocitose com desvio à esquerda (Hemograma);\n(2) PCR e/ou VHS elevados;\n(3) Ácido Úrico sérico elevado (com a ressalva de que pode ser normal na crise);\n(4) Função renal (Ureia e Creatinina).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 3 ou 4 de 4 itens corretamente.",
+            "pontos": 0.75
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 1 ou 2 de 4 itens corretamente.",
+            "pontos": 0.35
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Solicita e interpreta a Análise do Líquido Sinovial (est1_impresso_LIQUIDOSINOVIAL_5) como padrão ouro:\n(1) Coleta o líquido sinovial;\n(2) Aspecto turvo;\n(3) Leucócitos elevados (>10.000/mm³);\n(4) Predomínio de neutrófilos;\n(5) Cultura e Gram negativos;\n(6) Presença de cristais de monourato de sódio em forma de agulha com birrefringência negativa forte, intracelulares e extracelulares.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 5 ou 6 de 6 itens corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 3 ou 4 de 6 itens corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Solicita e interpreta a Radiografia Simples do Pé Direito (est1_impresso_RAIOX_PE_6):\n(1) Edema de partes moles periarticulares;\n(2) Ausência de erosões ósseas ou lesões líticas agudas;\n(3) Ausência de condrocalcinose.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 2 ou 3 de 3 itens corretamente.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 1 de 3 itens corretamente.",
+            "pontos": 0.1
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Estabelece o diagnóstico principal e os diagnósticos diferenciais:\n(1) Diagnóstico de Artrite Gotosa ou Gota Aguda;\n(2) Cita Artrite Séptica como principal diferencial a ser descartado;\n(3) Cita Doença por Deposição de Pirofosfato de Cálcio (DDPC/Pseudogota) como diferencial;\n(4) Justifica o descarte da Artrite Séptica (cultura e Gram negativos);\n(5) Justifica o descarte da DDPC (tipo de cristais).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Estabelece e justifica 4 ou 5 de 5 itens corretamente.",
+            "pontos": 1.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Estabelece ou justifica 2 ou 3 de 5 itens corretamente.",
+            "pontos": 0.6
+          },
+          "inadequado": {
+            "criterio": "Não estabelece ou justifica corretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Elabora a conduta terapêutica inicial para a crise aguda e planejamento a longo prazo:\n(1) AINE (ex: Indometacina, Naproxeno) OU Colchicina (em baixas doses) OU Glicocorticoide oral (ex: Prednisona) para a crise aguda;\n(2) Início imediato da medicação para crise;\n(3) Medidas não farmacológicas (repouso, elevação, gelo local);\n(4) Avaliação da função renal para ajuste de dose dos medicamentos;\n(5) Profilaxia para futuras crises (ex: Colchicina em baixa dose) a ser iniciada junto ou logo após a terapia hipouricemiante, por 3-6 meses;\n(6) Início da terapia hipouricemiante (ex: Alopurinol ou Febuxostate) após resolução da crise e com profilaxia;\n(7) Metas de ácido úrico (<6 mg/dL, ou <5 mg/dL em gota tofacea).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Elabora 6 ou 7 de 7 itens da conduta corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Elabora 3 a 5 de 7 itens da conduta corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Elabora menos de 3 itens ou os elabora incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item15",
+        "itemNumeroOficial": "15",
+        "descricaoItem": "Orienta o paciente sobre modificações do estilo de vida e seguimento:\n(1) Dieta (evitar purinas, frutose, álcool - especialmente cerveja e destilados);\n(2) Hidratação adequada;\n(3) Perda de peso (se aplicável);\n(4) Controle de comorbidades (HAS, DM, dislipidemia);\n(5) Importância do seguimento com reumatologista;\n(6) Monitoramento regular do ácido úrico sérico;\n(7) Sinais de alarme para retorno ao serviço de saúde.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre 5 ou mais de 7 aspectos.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta sobre 3 ou 4 de 7 aspectos.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Orienta sobre menos de 3 aspectos ou os orienta incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item16",
+        "itemNumeroOficial": "16",
+        "descricaoItem": "Responde às perguntas/dúvidas do paciente simulado.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Responde adequadamente a todas as perguntas/dúvidas.",
+            "pontos": 0.25
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Não aplicável.",
+            "pontos": 0.0
+          },
+          "inadequado": {
+            "criterio": "Não responde ou responde inadequadamente às perguntas/dúvidas.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A gota é uma artrite inflamatória microcristalina causada pela deposição de cristais de monourato de sódio (UMS) em articulações e tecidos periarticulares, levando a crises agudas de dor intensa, rubor, calor e edema, comumente na primeira articulação metatarsofalângica (podagra). Fatores de risco incluem hiperuricemia, sexo masculino, idade avançada, obesidade, síndrome metabólica, uso de diuréticos, consumo de álcool (especialmente cerveja e destilados) e dieta rica em purinas. O diagnóstico definitivo é a identificação dos cristais de UMS no líquido sinovial (agulhas, fortemente birrefringentes). Exames laboratoriais frequentemente mostram leucocitose, VHS e PCR elevados e hiperuricemia (embora o ácido úrico possa estar normal durante a crise). A radiografia simples pode ser normal ou, em casos crônicos, revelar erosões em 'saca-bocados'. O diagnóstico diferencial mais crítico é a artrite séptica, descartada por cultura e Gram negativos do líquido sinovial. O tratamento da crise aguda envolve AINEs, colchicina (iniciada precocemente em baixas doses) ou glicocorticoides. O manejo a longo prazo visa a prevenção de novas crises e complicações através de terapia hipouricemiante (alopurinol ou febuxostate), iniciada após a resolução da crise e mantida com profilaxia (colchicina/AINEs por 3-6 meses) para atingir um alvo de ácido úrico sérico <6 mg/dL. Modificações no estilo de vida, como dieta, hidratação e perda de peso, são fundamentais. Complicações incluem gota tofácea crônica, nefrolitíase, nefropatia por urato e aumento do risco cardiovascular.",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas. Gota. Disponível em: [https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/g/gota]. Acesso em: 15 mai. 2024.",
+        "2. UpToDate. Clinical manifestations and diagnosis of gout. Disponível em: [https://www.uptodate.com/contents/clinical-manifestations-and-diagnosis-of-gout]. Acesso em: 15 mai. 2024.",
+        "3. Khanna, D., et al. 2012 American College of Rheumatology Guidelines for the Management of Gout: Part 1: Systematic Nonpharmacologic and Pharmacologic Therapeutic Approaches to Gout. Arthritis Care Res (Hoboken). 2012 Oct;64(10):1431-46."
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "7e13f5d7-148a-445b-baba-92ddd85d237e",
+  "created_at": "2025-08-28T12:37:39.342710",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Artrite Microcristalina",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}

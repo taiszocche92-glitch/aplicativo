@@ -45,7 +45,7 @@
     "informacoesVerbaisSimulado": [
       {
         "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
-        "informacao": "Nome: Maria da Silva\nIdade: 45 anos\nEstado Civil: Casada\nProfissão: Contadora"
+        "informacao": "Maria da Silva, 45 anos, Contadora e Casada"
       },
       {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
@@ -580,5 +580,23 @@
         "3. UpToDate. Guillain-Barré syndrome: Clinical features and diagnosis. Waltham, MA: UpToDate Inc. (Accessed on January 25, 2025)."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "cde7843d-7404-4407-8a78-9b739e997d75",
+  "created_at": "2025-08-28T14:50:11.537750",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Síndrome de Guillain-Barré",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

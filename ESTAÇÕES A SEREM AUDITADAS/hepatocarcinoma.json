@@ -40,6 +40,10 @@
   "materiaisDisponiveis": {
     "informacoesVerbaisSimulado": [
       {
+        "contextoOuPerguntaChave": "IDENTIFICAÇÃO DO PACIENTE",
+        "informacao": "Francisco Souza, 60 anos, Professor e Viúvo"
+      },
+      {
         "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
         "informacao": "Estou com uma dor fraca na barriga, tenho emagrecido e me sinto muito cansado, doutor(a)."
       },
@@ -714,5 +718,23 @@
         "4. UpToDate. Clinical manifestations and diagnosis of hepatocellular carcinoma. Latest literature review."
       ]
     }
-  }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "52e2e42c-06bb-4228-beb5-7a763831f7b3",
+  "created_at": "2025-08-28T12:00:52.572437",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Hepatocarcinoma",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
 }

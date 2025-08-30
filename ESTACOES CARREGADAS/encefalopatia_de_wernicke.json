@@ -1,0 +1,598 @@
+{
+  "idEstacao": "REVALIDA_FACIL_2025_CM_ENCEFALOPATIA_WERNICKE_01",
+  "tituloEstacao": "Encefalopatia de Wernicke",
+  "numeroDaEstacao": 1,
+  "especialidade": "CLÍNICA MÉDICA",
+  "tempoDuracaoMinutos": 10,
+  "palavrasChave": [
+    "Encefalopatia de Wernicke",
+    "Alcoolismo",
+    "Deficiência de Tiamina",
+    "Neurologia",
+    "Clínica Médica",
+    "Urgência e emergência"
+  ],
+  "nivelDificuldade": "Difícil",
+  "instrucoesParticipante": {
+    "cenarioAtendimento": {
+      "nivelAtencao": "Atenção terciária à saúde",
+      "tipoAtendimento": "Urgência e emergência",
+      "infraestruturaUnidade": [
+        "Sala de emergência equipada",
+        "Laboratório de análises clínicas 24h",
+        "Serviço de imagem (TC e RM)",
+        "Medicações intravenosas disponíveis (incluindo tiamina)",
+        "Unidade de terapia intensiva (UTI)"
+      ]
+    },
+    "descricaoCasoCompleta": "Paciente de 55 anos, do sexo masculino, chega à emergência acompanhado por familiares, que referem que ele apresenta confusão mental, dificuldade para andar e alterações visuais que surgiram de forma aguda nos últimos dias. O paciente tem histórico de alcoolismo crônico.",
+    "tarefasPrincipais": [
+      "Realizar a anamnese direcionada à queixa principal do paciente e sintomas associados.",
+      "Solicitar e verbalizar os achados do exame físico geral e neurológico.",
+      "Solicitar e interpretar os exames complementares pertinentes ao caso.",
+      "Formular a(s) hipótese(s) diagnóstica(s) principal(is) e diferenciais.",
+      "Verbalizar o diagnóstico, a classificação de gravidade (se aplicável) e elaborar a conduta terapêutica imediata e o plano de cuidados.",
+      "Orientar o paciente e os familiares sobre o diagnóstico e o plano de tratamento."
+    ],
+    "avisosImportantes": [
+      "ATENÇÃO! CASO JULGUE NECESSÁRIO REALIZAR EXAME FÍSICO, VERBALIZE! O PACIENTE SIMULADO NÃO DEVERÁ SER TOCADO DURANTE O ATENDIMENTO.",
+      "CONSIDERE QUE OS RESULTADOS DOS EXAMES COMPLEMENTARES SOLICITADOS ESTÃO DISPONÍVEIS CONFORME SEU PEDIDO."
+    ]
+  },
+  "materiaisDisponiveis": {
+    "informacoesVerbaisSimulado": [
+      {
+        "contextoOuPerguntaChave": "MOTIVO DE CONSULTA",
+        "informacao": "Estou confuso, minhas vistas estão estranhas e estou cambaleando ao andar."
+      },
+      {
+        "contextoOuPerguntaChave": "CONFUSÃO MENTAL",
+        "informacao": "Início: Começou há uns 3 dias\nLocalização: Sinto minha cabeça aérea, sem conseguir pensar direito\nIntensidade: É forte, me sinto desorientado o tempo todo, nota 8 de 10\nCaracterística ou Tipo da alteração: Me sinto 'fora do ar', com dificuldade de concentração e esquecimento de coisas recentes\nIrradiação: Não irradia\nDuração: Contínuo, piora e melhora um pouco, mas não passa\nProgressão: Está piorando, antes era só umas 'viagens', agora é o tempo todo\nFrequencia: Constante\nFator Desencadeante: Não sei, acho que é do álcool\nFator de piora ou agravante: Não comer direito, e beber mais álcool\nFator de melhora ou atenuante: Nega fator de melhora, mas quando durmo, acordo um pouco melhor, mas depois volta\nEpisódios prévios: Nega\nMedicação de alivio: Nega uso de medicação para isso"
+      },
+      {
+        "contextoOuPerguntaChave": "ALTERAÇÕES VISUAIS",
+        "informacao": "Início: Há 2 dias\nLocalização: Nos dois olhos\nIntensidade: Me incomoda muito, nota 7 de 10\nCaracterística ou Tipo da alteração: Vejo as coisas duplas e embaçadas, como se estivesse sempre de ressaca, parece que meus olhos não param quietos\nIrradiação: Nega\nDuração: Contínua, mas oscila\nProgressão: Piorando, antes era só de vez em quando, agora é quase sempre\nFrequencia: Constante\nFator Desencadeante: Nega\nFator de piora ou agravante: Tentar ler, forçar a vista\nFator de melhora ou atenuante: Nega\nEpisódios prévios: Nega\nMedicação de alivio: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "DIFICULDADE PARA CAMINHAR",
+        "informacao": "Início: Há 3 dias\nLocalização: Nas pernas\nIntensidade: Me sinto desequilibrado, nota 8 de 10\nCaracterística ou Tipo da alteração: Parece que estou bêbado, cambaleando, com as pernas bambas, já caí algumas vezes\nIrradiação: Nega\nDuração: Contínua ao tentar andar\nProgressão: Piorando, antes só sentia um pouco tonto, agora não consigo andar reto\nFrequencia: Sempre que tento andar\nFator Desencadeante: Nega\nFator de piora ou agravante: Nega\nFator de melhora ou atenuante: Melhora um pouco se eu me apoiar\nEpisódios prévios: Nega\nMedicação de alivio: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "SINTOMAS ACOMPANHANTES (descreva os sintomas acompanhantes do motivo de consulta 'HDA')",
+        "informacao": "Vômitos: Tive muitos vômitos nas últimas semanas, mas parou hoje\nDiarreia: Nega\nIngestão alimentar inadequada: Estou comendo muito pouco ultimamente, não sinto fome, nem consigo engolir muita coisa\nPerda de peso: Sim, perdi bastante peso, um familiar disse que emagreci uns 10 kg nos últimos meses\nCansaço: Sinto-me muito fraco e cansado o tempo todo\nDor abdominal: Nega\nFebre: Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES PESSOAIS Patológicos (item obrigatório)",
+        "informacao": "Doenças crônicas: Nega, mas tenho 'problema de fígado' por causa da bebida\nCirurgias prévias: Nega\nInternações: Nega\nAlergias: Nega\nMedicamentos em uso contínuo: Nega\nVacinação: Não consta no script\nTrauma(APENAS SE RELEVANTE AO TEMA): Tive algumas quedas nos últimos dias por causa do desequilíbrio, mas nada grave\nTransfusões(APENAS SE RELEVANTE AO TEMA): Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FISIOLÓGICOS",
+        "informacao": "Hábito urinário: Nega alterações\nHábito intestinal: Nega alterações\nIngestão hídrica: Bebo mais álcool do que água\nExposição ocupacional: Trabalhava como pedreiro, mas parei por causa da bebida\nEstresse: Me sinto muito estressado e ansioso com a minha situação"
+      },
+      {
+        "contextoOuPerguntaChave": "HÁBITOS DE VIDA'(ITEM OBRIGATÓRIO)",
+        "informacao": "Tabagismo: Fumo um maço por dia há mais de 30 anos\nEtilismo: Bebo diariamente há 20 anos, cerca de 1 litro de cachaça por dia. Não consigo parar\nDrogas ilícitas: Nega\nAlimentação: Muito deficiente, quase não como alimentos sólidos\nAtividade física: Nega prática regular\nSono: Durmo mal, acordo várias vezes à noite\nHábitos urinários: Não consta\nHábitos intestinais: Não consta\nIngestão hídrica: Não consta\nExposição ocupacional: Não consta\nEstresse: Não consta"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES FAMILIARES",
+        "informacao": "Pai: Faleceu de problemas cardíacos\nMãe: Viva, com diabetes e hipertensão\nDoenças (especificas com relação e relevante ao caso) na família: Meu pai também bebia muito\nHistoria de cancêr na família: Nega\nIrmãos ou tias (apenas se relevante ou presente no caso/quadro/doença): Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "ANTECEDENTES EPIDEMIOLÓGICOS",
+        "informacao": "Viagens recentes: Nega\nExposição a doenças infecciosas: Nega\nContato com doentes: Nega\nExposição a animais: Nega\nExposição a vetores: Nega\nÁgua consumida: Água da torneira filtrada\nExposição a agentes ambientais (água parada, de enchente): Nega"
+      },
+      {
+        "contextoOuPerguntaChave": "CONTEXTO PSICOSSOCIAL",
+        "informacao": "Situação familiar: Sou casado, tenho filhos adultos que estão preocupados comigo\nRede de apoio: Meus filhos tentam me ajudar, mas é difícil\nSituação socioeconômica: Desempregado por causa da bebida\nNível educacional: Ensino fundamental incompleto\nReligião: Católico\nEstresse psicossocial: Me sinto muito culpado e deprimido por não conseguir parar de beber"
+      },
+      {
+        "contextoOuPerguntaChave": "ORIENTAÇÕES AO ATOR: (Ex: Se o candidato solicitar o resultado dos exames trazidos libere o impresso (x) / Ex: Após o candidato solicitar o exame X responda 'considere solicitado' ou 'considere realizado o procedimento'.)",
+        "informacao": "Se o candidato solicitar exames, diga 'considere solicitados' e libere os impressos correspondentes.\nSe o candidato solicitar exame físico, diga 'considere realizado' e libere o impresso de Sinais Vitais e Exame Físico."
+      },
+      {
+        "contextoOuPerguntaChave": "DÚVIDAS DO PACIENTE: (ex: Dúvidas do ator sobre medicamentos, exames, condutas, etc., Perguntar após o atendimento se o candidato realizar a anamnese/exame fisico/conduta/tratamento/, Ex: Após o candidato realizar a anamnese, pergunte o que o paciente tem / Ex: Após realizar o diagnostico, pergunta se o que voce tem é grave, ou se tem complicações, ou se nao poderia ser outra coisa.)",
+        "informacao": "pergunta (1): Eu vou ficar bem, doutor(a)? O que eu tenho?\npergunta (2): Isso é por causa da bebida?\npergunta (3): Tem cura?\npergunta (4): O que eu preciso fazer para não ter isso de novo?"
+      }
+    ],
+    "impressos": [
+      {
+        "idImpresso": "est1_impresso_SINAISVITAIS_1",
+        "tituloImpresso": "Sinais Vitais e Exame Físico",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "SINAIS VITAIS",
+              "itens": [
+                {
+                  "chave": "Pressão Arterial",
+                  "valor": "90 × 60 mmHg"
+                },
+                {
+                  "chave": "Frequência Cardíaca",
+                  "valor": "110 bpm"
+                },
+                {
+                  "chave": "Frequência Respiratória",
+                  "valor": "22 irpm"
+                },
+                {
+                  "chave": "Temperatura Axilar",
+                  "valor": "35,5 °C"
+                },
+                {
+                  "chave": "Saturação de O₂",
+                  "valor": "95 %"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME FÍSICO GERAL",
+              "itens": [
+                {
+                  "chave": "Estado geral",
+                  "valor": "Paciente em estado geral comprometido, desorientado no tempo e espaço, apático, com sinais de desnutrição e hálito etílico."
+                },
+                {
+                  "chave": "Cabeça e Pescoço",
+                  "valor": "Icterícia escleral 2+/4+, sem linfonodomegalias. Mucosas descoradas e secas. Glossite."
+                },
+                {
+                  "chave": "Aparelho Cardiovascular",
+                  "valor": "Bulhas rítmicas, taquicárdicas (110 bpm), 2 tempos, sem sopros."
+                },
+                {
+                  "chave": "Aparelho Respiratório",
+                  "valor": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+                },
+                {
+                  "chave": "Abdome",
+                  "valor": "Distendido, flácido, indolor à palpação profunda, hepatomegalia palpável a 4 cm do RCD. Sinal de ascite presente."
+                },
+                {
+                  "chave": "Membros",
+                  "valor": "Sem edemas, pulsos periféricos presentes e simétricos. Presença de neuropatia periférica (diminuição da sensibilidade vibratória e tátil em extremidades)."
+                }
+              ]
+            },
+            {
+              "tituloSecao": "EXAME NEUROLÓGICO",
+              "itens": [
+                {
+                  "chave": "Estado Mental",
+                  "valor": "Confuso, desorientado, apático, com amnésia anterógrada importante."
+                },
+                {
+                  "chave": "Nervos Cranianos",
+                  "valor": "Nistagmo horizontal e vertical bilateral. Paresia do olhar conjugado lateral."
+                },
+                {
+                  "chave": "Coordenação e Marcha",
+                  "valor": "Ataxia de tronco e membros, marcha atáxica, de base alargada e instável."
+                },
+                {
+                  "chave": "Reflexos",
+                  "valor": "Reflexos tendíneos profundos diminuídos globalmente."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_LABORATORIO_2",
+        "tituloImpresso": "Exames Laboratoriais",
+        "tipoConteudo": "lista_chave_valor_secoes",
+        "conteudo": {
+          "secoes": [
+            {
+              "tituloSecao": "HEMOGRAMA",
+              "itens": [
+                {
+                  "chave": "Leucócitos",
+                  "valor": "8.500 /mm³ (Ref: 4.000-11.000)"
+                },
+                {
+                  "chave": "Hemoglobina",
+                  "valor": "9.8 g/dL (Ref: 13.5-17.5 M / 12.0-15.5 F)"
+                },
+                {
+                  "chave": "VCM",
+                  "valor": "105 fL (Ref: 80-100 fL)"
+                },
+                {
+                  "chave": "Plaquetas",
+                  "valor": "120.000 /mm³ (Ref: 150.000-450.000)"
+                }
+              ]
+            },
+            {
+              "tituloSecao": "BIOQUÍMICA",
+              "itens": [
+                {
+                  "chave": "Glicose",
+                  "valor": "85 mg/dL (Ref: 70-100)"
+                },
+                {
+                  "chave": "Ureia",
+                  "valor": "55 mg/dL (Ref: 15-45)"
+                },
+                {
+                  "chave": "Creatinina",
+                  "valor": "1.5 mg/dL (Ref: 0.7-1.3)"
+                },
+                {
+                  "chave": "Sódio",
+                  "valor": "130 mEq/L (Ref: 135-145)"
+                },
+                {
+                  "chave": "Potássio",
+                  "valor": "3.2 mEq/L (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "TGO (AST)",
+                  "valor": "120 U/L (Ref: 10-40)"
+                },
+                {
+                  "chave": "TGP (ALT)",
+                  "valor": "60 U/L (Ref: 10-40)"
+                },
+                {
+                  "chave": "GGT",
+                  "valor": "250 U/L (Ref: 0-50)"
+                },
+                {
+                  "chave": "Bilirrubina Total",
+                  "valor": "3.5 mg/dL (Ref: 0.2-1.2)"
+                },
+                {
+                  "chave": "Albumina",
+                  "valor": "2.8 g/dL (Ref: 3.5-5.0)"
+                },
+                {
+                  "chave": "Tiamina (Vitamina B1)",
+                  "valor": "Baixa (resultado pendente, considerar como baixa para conduta imediata)"
+                },
+                {
+                  "chave": "Álcool no sangue",
+                  "valor": "1.5 g/L (Ref: 0)"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_IMAGEM_TC_3",
+        "tituloImpresso": "Tomografia Computadorizada de Crânio",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "Laudo da Tomografia Computadorizada de Crânio. O candidato deve se dirigir à câmera e explicar os achados.",
+          "caminhoImagem": "(Buscar no Google Imagens: TC de crânio encefalopatia de Wernicke periventricular lesões atrofia corpos mamilares)",
+          "sugestaoBuscaImagem": "TC de crânio com sinais sugestivos de encefalopatia de Wernicke (atrofia de corpos mamilares, hipodensidade periaquedutal ou nos tálamos mediais, sem outras alterações agudas como hemorragias ou AVC)",
+          "laudo": "ACHADOS:\nAusência de hemorragias agudas, massas ou lesões isquêmicas recentes. Sinais discretos de atrofia cerebral difusa e atrofia dos corpos mamilares. Hipodensidade simétrica e sutil nas regiões periventriculares dos tálamos mediais e ao redor do aqueduto de Sylvius. Não há hidrocefalia.\n\nCONCLUSÃO:\n[A ser preenchida conforme achados]"
+        }
+      },
+      {
+        "idImpresso": "est1_impresso_ECTOSCOPIA_6",
+        "tituloImpresso": "Achado de Exame Físico (Ectoscopia)",
+        "tipoConteudo": "imagem_com_texto",
+        "conteudo": {
+          "textoDescritivo": "O candidato deve se dirigir à câmera e descrever os achados visuais no paciente.",
+          "caminhoImagem": "(Buscar no Google Imagens: Icterícia escleral glossite queilite desnutrição)",
+          "sugestaoBuscaImagem": "Olhos com icterícia escleral, língua com glossite (vermelha, lisa), lábios com queilite angular, aspecto geral de desnutrição (caquexia)",
+          "laudo": "Icterícia escleral e pele amarelada. Língua lisa e avermelhada (glossite). Fissuras nos cantos da boca (queilite angular). Acentuada perda de massa muscular e tecido adiposo."
+        }
+      }
+    ],
+    "perguntasAtorSimulado": []
+  },
+  "padraoEsperadoProcedimento": {
+    "idChecklistAssociado": "PEP_EST1_CM_ENCEFALOPATIA_WERNICKE_2025V1_NUM",
+    "sinteseEstacao": {
+      "resumoCasoPEP": "Paciente masculino, 55 anos, com histórico de alcoolismo crônico, apresenta-se à emergência com confusão mental, alterações visuais (diplopia, borramento, nistagmo), e ataxia da marcha. Exames físicos revelam sinais de desnutrição, icterícia e hepatomegalia. Exames laboratoriais indicam anemia, macrocitose, alterações hepáticas e eletrólitos alterados. TC de crânio sem achados agudos, mas com sinais de atrofia."
+    },
+    "focoPrincipalDetalhado": [
+      "Anamnese detalhada focando nos sintomas neurológicos e histórico de alcoolismo/desnutrição.",
+      "Exame físico completo com ênfase nos achados da tríade de Wernicke (oftalmoplegia, ataxia, estado mental alterado) e sinais de hepatopatia/desnutrição.",
+      "Solicitação e interpretação de exames laboratoriais essenciais para diagnóstico diferencial e suporte.",
+      "Diagnóstico clínico de Encefalopatia de Wernicke e diferenciais importantes.",
+      "Conduta terapêutica imediata com tiamina parenteral e suporte geral."
+    ],
+    "itensAvaliacao": [
+      {
+        "idItem": "pep_est1_item01",
+        "itemNumeroOficial": "1",
+        "descricaoItem": "Apresentação e Comunicação Inicial:\n(1) Apresenta-se ao paciente/acompanhante;\n(2) Cumprimenta o paciente/acompanhante;\n(3) Pergunta o motivo da consulta.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza uma ou duas ações.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não realiza ação alguma.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item02",
+        "itemNumeroOficial": "2",
+        "descricaoItem": "Anamnese - Caracterização da Confusão Mental:\n(1) Início e duração da confusão;\n(2) Tipo ou característica da alteração (desorientação, amnésia, apatia);\n(3) Progressão da confusão;\n(4) Fatores de melhora e piora.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 aspectos da confusão mental.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 ou 2 aspectos da confusão mental.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não pergunta adequadamente sobre a confusão mental.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item03",
+        "itemNumeroOficial": "3",
+        "descricaoItem": "Anamnese - Caracterização das Alterações Visuais:\n(1) Início e duração das alterações;\n(2) Tipo de alteração (visão dupla, embaçada);\n(3) Progressão das alterações;\n(4) Sintomas oculares associados (nistagmo, oftalmoplegia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 aspectos das alterações visuais.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 ou 2 aspectos das alterações visuais.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não pergunta adequadamente sobre as alterações visuais.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item04",
+        "itemNumeroOficial": "4",
+        "descricaoItem": "Anamnese - Caracterização da Dificuldade para Caminhar:\n(1) Início e duração da dificuldade;\n(2) Tipo de dificuldade (desequilíbrio, quedas, cambaleando);\n(3) Progressão da dificuldade;\n(4) Fatores de melhora e piora.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 aspectos da dificuldade para caminhar.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 ou 2 aspectos da dificuldade para caminhar.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não pergunta adequadamente sobre a dificuldade para caminhar.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item05",
+        "itemNumeroOficial": "5",
+        "descricaoItem": "Anamnese - Sintomas Acompanhantes e Nutricionais:\n(1) História de vômitos persistentes ou diarreia;\n(2) Ingestão alimentar inadequada ou jejum prolongado;\n(3) Perda de peso recente não intencional;\n(4) Cansaço ou fraqueza.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 aspectos dos sintomas acompanhantes e nutricionais.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 ou 2 aspectos dos sintomas acompanhantes e nutricionais.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não pergunta adequadamente sobre os sintomas acompanhantes ou nutricionais.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item06",
+        "itemNumeroOficial": "6",
+        "descricaoItem": "Anamnese - Antecedentes e Hábitos de Vida:\n(1) Histórico de alcoolismo crônico e quantidade de consumo;\n(2) Outras condições de risco para deficiência de tiamina (cirurgia bariátrica, câncer, AIDS, diálise, hiperemese gravídica);\n(3) Uso de tabaco ou outras drogas;\n(4) Hábitos alimentares e sono.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Pergunta 3 ou 4 aspectos dos antecedentes e hábitos de vida.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Pergunta 1 ou 2 aspectos dos antecedentes e hábitos de vida.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não pergunta adequadamente sobre os antecedentes e hábitos de vida.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item07",
+        "itemNumeroOficial": "7",
+        "descricaoItem": "Solicita e Interpreta Sinais Vitais e Exame Físico Geral (Impresso 1):\n(1) Solicita avaliação dos sinais vitais;\n(2) Interpreta hipotensão, taquicardia e hipotermia;\n(3) Solicita e interpreta exame físico geral (estado geral, desnutrição, icterícia, hepatomegalia, ascite).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações (solicita e interpreta sinais vitais e exame físico geral).",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza uma ou duas ações.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações ou o faz de forma inadequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item08",
+        "itemNumeroOficial": "8",
+        "descricaoItem": "Solicita e Interpreta Exame Neurológico Específico (Impresso 1):\n(1) Solicita avaliação do estado mental (confusão, desorientação, apatia, amnésia);\n(2) Solicita avaliação dos nervos cranianos (nistagmo, oftalmoplegia, paresia do olhar);\n(3) Solicita avaliação da coordenação e marcha (ataxia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as três ações (solicita e interpreta avaliação do estado mental, nervos cranianos e coordenação/marcha).",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza uma ou duas ações.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não realiza nenhuma das ações ou o faz de forma inadequada.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item09",
+        "itemNumeroOficial": "9",
+        "descricaoItem": "Solicita e Interpreta Exames Laboratoriais (Impresso 2):\n(1) Solicita e interpreta hemograma (anemia, macrocitose, plaquetopenia);\n(2) Solicita e interpreta eletrólitos (hiponatremia, hipocalemia);\n(3) Solicita e interpreta função hepática (TGO, TGP, GGT, bilirrubinas, albumina);\n(4) Solicita e interpreta função renal (ureia, creatinina);\n(5) Solicita e interpreta glicemia.\n(6) Menciona a necessidade de dosagem de tiamina, folato e B12 (mesmo que com resultado pendente).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Solicita e interpreta 5 ou 6 itens corretamente.",
+            "pontos": 1.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Solicita e interpreta 3 ou 4 itens corretamente.",
+            "pontos": 0.75
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou interpreta adequadamente menos de 3 itens.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item10",
+        "itemNumeroOficial": "10",
+        "descricaoItem": "Solicita e Interpreta Exame de Imagem (TC de Crânio - Impresso 3):\n(1) Solicita Tomografia Computadorizada de crânio;\n(2) Interpreta o laudo, destacando a ausência de hemorragias/massas/AVC agudos e possíveis sinais de atrofia/hipodensidade periventricular.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Realiza as duas ações corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Realiza apenas uma ação corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não solicita ou não interpreta adequadamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item11",
+        "itemNumeroOficial": "11",
+        "descricaoItem": "Interpreta Achados de Ectoscopia (Impresso 4):\n(1) Descreve icterícia escleral e pele amarelada;\n(2) Descreve glossite e queilite angular;\n(3) Descreve sinais de desnutrição (caquexia).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Descreve os três achados corretamente.",
+            "pontos": 0.5
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Descreve um ou dois achados corretamente.",
+            "pontos": 0.25
+          },
+          "inadequado": {
+            "criterio": "Não descreve os achados ou o faz incorretamente.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item12",
+        "itemNumeroOficial": "12",
+        "descricaoItem": "Formula o Diagnóstico Principal e os Diagnósticos Diferenciais:\n(1) Estabelece o diagnóstico de Encefalopatia de Wernicke;\n(2) Cita ao menos dois diagnósticos diferenciais relevantes (intoxicação etílica aguda, abstinência alcoólica, hipoglicemia, encefalopatia hepática, AVC).",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Verbaliza o diagnóstico principal e ao menos dois diferenciais corretos.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Verbaliza o diagnóstico principal correto ou apenas um diferencial correto.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Não verbaliza o diagnóstico principal ou diferenciais corretos.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item13",
+        "itemNumeroOficial": "13",
+        "descricaoItem": "Elabora a Conduta Terapêutica Imediata:\n(1) Indica tiamina parenteral (IV ou IM);\n(2) Define dose e frequência inicial (500mg IV 8/8h);\n(3) Indica suporte para hipotensão/hipotermia;\n(4) Indica correção de distúrbios eletrolíticos (hiponatremia, hipocalemia);\n(5) Menciona a importância de administrar tiamina ANTES ou concomitantemente à glicose.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Indica 4 ou 5 itens da conduta terapêutica imediata corretamente.",
+            "pontos": 2.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Indica 2 ou 3 itens da conduta terapêutica imediata corretamente.",
+            "pontos": 1.0
+          },
+          "inadequado": {
+            "criterio": "Não indica adequadamente a conduta terapêutica imediata.",
+            "pontos": 0.0
+          }
+        }
+      },
+      {
+        "idItem": "pep_est1_item14",
+        "itemNumeroOficial": "14",
+        "descricaoItem": "Orientações e Plano de Cuidados:\n(1) Orienta sobre abstinência alcoólica;\n(2) Orienta sobre dieta nutritiva e suplementação de vitaminas (complexo B, folato);\n(3) Discute a necessidade de acompanhamento neurológico, nutricional e para dependência química (CAPS-AD);\n(4) Responde às dúvidas do paciente de forma clara e empática.",
+        "pontuacoes": {
+          "adequado": {
+            "criterio": "Orienta sobre 3 ou 4 aspectos do plano de cuidados e responde às dúvidas adequadamente.",
+            "pontos": 1.0
+          },
+          "parcialmenteAdequado": {
+            "criterio": "Orienta sobre 1 ou 2 aspectos do plano de cuidados ou responde às dúvidas parcialmente.",
+            "pontos": 0.5
+          },
+          "inadequado": {
+            "criterio": "Não orienta adequadamente ou não responde às dúvidas.",
+            "pontos": 0.0
+          }
+        }
+      }
+    ],
+    "pontuacaoTotalEstacao": 10.0,
+    "feedbackEstacao": {
+      "resumoTecnico": "A Encefalopatia de Wernicke (EW) é uma emergência neuropsiquiátrica causada por deficiência de tiamina (vitamina B1), comum em alcoolistas crônicos e outras condições de desnutrição grave. O reconhecimento precoce e o tratamento são cruciais para prevenir sequelas neurológicas irreversíveis e morte.\nAnamnese: Focar na história de alcoolismo crônico, desnutrição, vômitos, cirurgias bariátricas ou outras causas de má absorção. Os sintomas neurológicos clássicos incluem confusão mental, alterações visuais (diplopia, nistagmo, oftalmoplegia) e ataxia da marcha. Sinais de alarme incluem piora progressiva do estado mental ou desenvolvimento de amnésia grave (Síndrome de Korsakoff).\nExame Físico: Procurar a tríade clássica (oftalmoplegia, ataxia, alteração do estado mental), embora nem sempre completa. Observar sinais de desnutrição (caquexia, glossite, queilite), hepatopatia (icterícia, hepatomegalia, ascite) e neuropatia periférica. Sinais vitais podem revelar hipotermia, hipotensão e taquicardia.\nExames Complementares: Glicemia (sempre antes da glicose), eletrólitos, função hepática e renal, hemograma (anemia, macrocitose), albumina. A dosagem de tiamina confirma, mas não deve atrasar o tratamento. TC de crânio é útil para excluir outros diagnósticos, mas pode ser normal na EW. RM é mais sensível, mostrando lesões periventriculares (tálamos, corpos mamilares, aqueduto cerebral).\nDiagnóstico: Clínico, baseado na suspeição e presença de dois dos quatro critérios de Caine (deficiência nutricional, anormalidades oculomotoras, disfunção cerebelar, estado mental alterado ou déficit de memória).\nDiagnósticos Diferenciais: Intoxicação etílica aguda, abstinência alcoólica (delirium tremens), hipoglicemia, encefalopatia hepática, meningite/encefalite, AVC, hematoma subdural.\nTratamento: Tiamina parenteral é a primeira linha e deve ser iniciada imediatamente. Dose usual é de 500 mg IV a cada 8 horas por 2-3 dias, seguida de 250 mg IV ou IM uma vez ao dia. A tiamina deve ser administrada ANTES ou concomitantemente à glicose para evitar precipitar ou agravar a EW. Correção de distúrbios eletrolíticos e suporte geral são essenciais. Após a fase aguda, suplementação oral e encaminhamento para neurologia e tratamento da dependência química são cruciais.\n",
+      "fontes": [
+        "1. Brasil. Ministério da Saúde. Protocolos Clínicos e Diretrizes Terapêuticas. Disponível em: https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/p/protocolos-clinicos-e-diretrizes-terapeuticas-pcdt",
+        "2. UpToDate. Wernicke encephalopathy. Disponível em: https://www.uptodate.com/contents/wernicke-encephalopathy",
+        "3. National Institute on Alcohol Abuse and Alcoholism (NIAAA). Alcohol's Effects on the Brain and Nervous System. Disponível em: https://www.niaaa.nih.gov/alcohols-effects-brain-and-nervous-system"
+      ]
+    }
+  },
+  "_validation_issues": {
+    "is_valid": false,
+    "missing_required_fields": [],
+    "invalid_field_types": [],
+    "structural_issues": [
+      "Template gabaritoestacoes.json contém JSON inválido"
+    ],
+    "warnings": [],
+    "corrections_applied": []
+  },
+  "id": "e2c40236-9e67-4873-87e7-4adde9f64a3f",
+  "created_at": "2025-08-28T15:20:33.106593",
+  "created_by": "sistema_hibrido",
+  "source": "local_sempre",
+  "tema_original": "Intoxicação alcolica: wernick",
+  "especialidade_original": "Clínica Médica",
+  "titulo": "Estação sem título",
+  "sync_status": "local_only"
+}
